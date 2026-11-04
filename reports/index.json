@@ -72,15 +72,6 @@
     "path": "reports/ukraine-sovereign-credit.md"
   },
   {
-    "topic": "China and EM: growth, commodity demand and China as a creditor",
-    "slug": "china-and-em-growth-commodity-demand-and-china-as-a-creditor",
-    "updated": "27-Oct-26",
-    "status": "Draft",
-    "open_items": 12,
-    "run": "2026-10-27_1000_china-and-em-growth-commodity-demand-and-china-as-a-creditor",
-    "path": "reports/china-and-em-growth-commodity-demand-and-china-as-a-creditor.md"
-  },
-  {
     "topic": "Tullow Oil",
     "slug": "tullow-oil",
     "updated": "27-Oct-26",
@@ -97,15 +88,6 @@
     "open_items": 13,
     "run": "2026-10-27_1200_turkey-sovereign-credit",
     "path": "reports/turkey-sovereign-credit.md"
-  },
-  {
-    "topic": "South Africa sovereign credit",
-    "slug": "south-africa-sovereign-credit",
-    "updated": "26-Oct-26",
-    "status": "Draft",
-    "open_items": 10,
-    "run": "2026-10-26_1200_south-africa-sovereign-credit",
-    "path": "reports/south-africa-sovereign-credit.md"
   },
   {
     "topic": "Akbank",
@@ -513,6 +495,15 @@
     "path": "reports/zambia-sovereign-credit.md"
   },
   {
+    "topic": "China and EM: growth, commodity demand and China as a creditor",
+    "slug": "china-and-em-growth-commodity-demand-and-china-as-a-creditor",
+    "updated": "04-Nov-26",
+    "status": "Draft",
+    "open_items": 13,
+    "run": "2026-11-04_1200_china-and-em-growth-commodity-demand-and-china-as-a-creditor",
+    "path": "reports/china-and-em-growth-commodity-demand-and-china-as-a-creditor.md"
+  },
+  {
     "topic": "Nigeria sovereign credit",
     "slug": "nigeria-sovereign-credit",
     "updated": "04-Nov-26",
@@ -520,6 +511,15 @@
     "open_items": 14,
     "run": "2026-11-04_0800_nigeria-sovereign-credit",
     "path": "reports/nigeria-sovereign-credit.md"
+  },
+  {
+    "topic": "South Africa sovereign credit",
+    "slug": "south-africa-sovereign-credit",
+    "updated": "04-Nov-26",
+    "status": "Draft",
+    "open_items": 11,
+    "run": "2026-11-04_1000_south-africa-sovereign-credit",
+    "path": "reports/south-africa-sovereign-credit.md"
   },
   {
     "topic": "Ghana sovereign credit",

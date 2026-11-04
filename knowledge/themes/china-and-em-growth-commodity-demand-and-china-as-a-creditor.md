@@ -28,3 +28,11 @@ _Created by the pipeline on 09-Oct-26. Facts below are dated and sourced; views 
 - [Growth] China 3Q26 GDP +4.5% y/y and January–September +4.6%, against 4.4% consensus (NBS via Mysteel, 19-Oct-26)
 - [Growth] China FAI -7.2% January–September, September retail sales +1.1% y/y, CPI about +0.8% (press summaries of NBS data via FreePressJournal, 19-Oct-26)
 - [External] China September 2026 copper cathode imports 254.6kt (-23.84% y/y); January–September 2.1383mt (-16.34% y/y); cathode exports +81% y/y and anode imports +58% y/y (SMM, Oct-26)
+
+### 04-Nov-26 (run 2026-11-04_1200_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
+- [Growth] China October 2026 official manufacturing PMI 49.3, against 50.1 in September and 50.0 consensus; lowest since July (NBS via Trading Economics, 31-Oct-26)
+- [Growth] China September 2026 official manufacturing PMI 50.1, new export orders 50.0 (NBS, 8-Oct-26)
+- [External] China 2025 trade surplus about US$1.19tn, a record (GAC via Asia Pacific Foundation, 2026)
+- [Market] Kenya converted three China Exim dollar loans into renminbi in October 2025; annual debt service saving about US$215m (Kenyans.co.ke, Oct-25)
+- [Market] Ethiopia is negotiating conversion of part of its US$5.38bn Chinese debt into yuan, including US$2.6bn of China Exim railway loans; no agreement reported (Africa.com and Kenyans.co.ke, 2026)
+- [Calendar] 07-Nov-26: China October trade data (GAC, approximate date, unverified against the GAC calendar)

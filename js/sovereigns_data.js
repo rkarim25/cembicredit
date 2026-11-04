@@ -113756,9 +113756,9 @@ window.SOVEREIGNS = [
   "region": "Sub-Saharan Africa",
   "group": "Sub-Saharan Africa",
   "ceemea": true,
-  "asof": "26-Oct-26",
+  "asof": "04-Nov-26",
   "fx_regime": "float",
-  "commodity": "Mining revenues and output drive the fiscal outcome (R50bn-R70bn cyclical revenue overrun; Q2-26 mining -3.0% q/q); the fuel and oil price drove the 2026 inflation shock and the Sep-26 rate hike",
+  "commodity": "Mining exports drive the cyclical revenue overrun; the oil price is the main external risk (Brent above USD 110)",
   "ratings": {
    "fitch": {
     "rating": "BB",
@@ -113773,23 +113773,23 @@ window.SOVEREIGNS = [
    "moodys": {
     "rating": "Ba2",
     "outlook": "Positive",
-    "date": "22-May-26"
+    "date": "May-26"
    }
   },
   "imf": {
-   "programme": null,
+   "programme": "None",
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF Article IV press release 26/039; no programme in place",
+   "source": "IMF Article IV press release 26/039; adjudicated document (no IMF programme)",
    "asof": "10-Feb-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Government of National Unity (ANC, DA, IFP) in place since the May 2024 elections; fiscal anchor legislation due in 2027 tests its cohesion",
-   "source": "Adjudicated document 2026-10-26_1200",
-   "asof": "26-Oct-26"
+   "note": "GNU (ANC, DA, IFP) in place since the May 2024 elections; the 2027 fiscal anchor legislation will test its cohesion. Agency reviews: Moody's and S&P 27-Nov-26, Fitch 11-Dec-26.",
+   "source": "Adjudicated document; Business Day, 27-Oct-26; BusinessTech, Oct-26",
+   "asof": "04-Nov-26"
   },
   "ind": {
    "cpi_latest_yoy_pct": 4.5,
@@ -113806,7 +113806,7 @@ window.SOVEREIGNS = [
    "interest_pct_revenue": 21.0,
    "current_account_4q_usd_bn": -1.32,
    "reserves_net_of_drains_usd_bn": 72.785,
-   "net_reserves_usd_bn": 74.3,
+   "net_reserves_usd_bn": 72.8,
    "primary_balance_pct_gdp": 1.7,
    "ex_ante_real_rate_pct": 2.9,
    "reer_z_10y": 1.04,
@@ -113815,22 +113815,22 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -0.9
   },
   "src": {
-   "cpi_latest_yoy_pct": "SAnews (Stats SA); IMF series 4.5455 30-Sep-26",
-   "policy_rate_pct": "SARB MPC via EWN and Briefly 24-Sep-26",
-   "current_account_pct_gdp": "SARB 30-Sep-26",
-   "gross_reserves_usd_bn": "IMF 30-Sep-26 | gross incl. gold (IMF series); SARB headline of $63.5B (5.8 months of import cover) is not reconciled",
+   "cpi_latest_yoy_pct": "SAnews / press on the SARB statement 30-Sep-26",
+   "policy_rate_pct": "SARB repo rate, 25bp hike (Briefly) 24-Sep-26",
+   "current_account_pct_gdp": "SARB (approximate figure, as cited in the adjudicated document) 26-Oct-26",
+   "gross_reserves_usd_bn": "IMF 26-Oct-26 | gross incl. gold",
    "import_cover_months": "SARB (tied to the $63.5B headline reserve definition) 08-Oct-26",
-   "fiscal_balance_pct_gdp": "National Treasury MTBPS via IOL and EWN (press summaries) 21-Oct-26",
+   "fiscal_balance_pct_gdp": "National Treasury MTBPS via IOL, EWN (press summaries) 21-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "National Treasury MTBPS via IOL 21-Oct-26",
-   "gov_debt_pct_gdp": "National Treasury MTBPS via IOL and EWN (press summaries) 21-Oct-26 | gross government debt, FY26/27 (MTBPS); peak 78.4% in FY25/26",
+   "real_gdp_growth_pct": "National Treasury MTBPS via IOL (press summary) 21-Oct-26",
+   "gov_debt_pct_gdp": "National Treasury MTBPS via IOL, EWN (press summaries) 21-Oct-26 | MTBPS headline, press-reported; 78.4% in FY25/26 (peak per press), 76.6% in FY29/30",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "inflation_expectation_12m_pct": "BER survey (as cited in the adjudicated document; not independently sourced) 16-Oct-26",
    "interest_pct_revenue": "Times Live (debt service R420.6bn) 17-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 02-Nov-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 02-Nov-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
-   "net_reserves_usd_bn": "IMF 31-Aug-26 | gross incl. gold net of one-year drains (IMF reserve template); $58.58B ex-gold at Sep-26",
-   "primary_balance_pct_gdp": "National Treasury MTBPS via IOL 21-Oct-26",
+   "net_reserves_usd_bn": "IMF 26-Oct-26 | gross incl. gold, net of one-year drains (ex-gold: 58.6)",
+   "primary_balance_pct_gdp": "National Treasury MTBPS via IOL, EWN (press summaries); a BofA preview gave 1.9 21-Oct-26",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-09 vs trailing 120-month mean (BIS real broad EER))",
    "reer_latest": "derived from the inputs above ()",
@@ -113858,7 +113858,7 @@ window.SOVEREIGNS = [
     "2029F": -2.5
    },
    "real_gdp_growth_pct": {
-    "2026E": 1.0,
+    "2026E": 1.2,
     "2026F": 1.2,
     "2027F": 1.6
    },
@@ -117090,19 +117090,19 @@ window.SOVEREIGNS = [
   "asof_ind": {
    "cpi_latest_yoy_pct": "Sep-26",
    "policy_rate_pct": "Sep-26",
-   "current_account_pct_gdp": "Sep-26 (four quarters)",
+   "current_account_pct_gdp": "last four quarters",
    "gross_reserves_usd_bn": "Sep-26",
    "import_cover_months": "Sep-26",
    "fiscal_balance_pct_gdp": "FY26/27",
    "fdi_net_pct_gdp": "2025",
-   "real_gdp_growth_pct": "2026F",
+   "real_gdp_growth_pct": "2026E",
    "gov_debt_pct_gdp": "FY26/27",
    "nominal_gdp_usd_bn": "2026E",
    "inflation_expectation_12m_pct": "12m ahead",
    "interest_pct_revenue": "FY25/26",
    "current_account_4q_usd_bn": "2025-Q3 to 2026-Q2",
    "reserves_net_of_drains_usd_bn": "2026-09",
-   "net_reserves_usd_bn": "Aug-26",
+   "net_reserves_usd_bn": "Sep-26",
    "primary_balance_pct_gdp": "FY26/27",
    "ex_ante_real_rate_pct": "derived",
    "reer_z_10y": "derived",
@@ -117111,8 +117111,8 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "10",
-   "updated": "26-Oct-26",
+   "open_items": "11",
+   "updated": "04-Nov-26",
    "status": "Draft"
   }
  },

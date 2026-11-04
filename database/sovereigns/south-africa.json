@@ -1,57 +1,57 @@
 {
   "country": "South Africa",
   "region": "Sub-Saharan Africa",
-  "fiscal_year": "Apr-Mar (government fiscal year); calendar year for national accounts",
+  "fiscal_year": "Apr-Mar",
   "fx_regime": {
     "value": "float",
-    "source": "Document: BIS monthly FX series and SARB MPC framework (no primary SARB statement read)",
-    "asof": "08-Oct-26"
+    "source": "Inferred from the SARB inflation-targeting framework (3.0% target adopted 12-Nov-25); the regime is not stated explicitly in the material",
+    "asof": "04-Nov-26"
   },
   "commodity_exposure": {
-    "value": "Mining revenues and output drive the fiscal outcome (R50bn-R70bn cyclical revenue overrun; Q2-26 mining -3.0% q/q); the fuel and oil price drove the 2026 inflation shock and the Sep-26 rate hike",
-    "source": "Adjudicated document 2026-10-26_1200 (Times Live 17-Oct-26; CareEdge 28-Sep-26; Briefly 24-Sep-26)",
-    "asof": "26-Oct-26"
+    "value": "Mining exports drive the cyclical revenue overrun; the oil price is the main external risk (Brent above USD 110)",
+    "source": "Knowledge base, Brent level of 30-Oct-26; IOL, MTBPS, 21-Oct-26",
+    "asof": "30-Oct-26"
   },
   "imf": {
-    "programme": null,
+    "programme": "None",
     "size_usd_bn": null,
     "approved": null,
     "next_review": null,
     "risk_of_debt_distress": null,
-    "source": "IMF Article IV press release 26/039; no programme in place",
+    "source": "IMF Article IV press release 26/039; adjudicated document (no IMF programme)",
     "asof": "10-Feb-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Government of National Unity (ANC, DA, IFP) in place since the May 2024 elections; fiscal anchor legislation due in 2027 tests its cohesion",
-    "source": "Adjudicated document 2026-10-26_1200",
-    "asof": "26-Oct-26"
+    "note": "GNU (ANC, DA, IFP) in place since the May 2024 elections; the 2027 fiscal anchor legislation will test its cohesion. Agency reviews: Moody's and S&P 27-Nov-26, Fitch 11-Dec-26.",
+    "source": "Adjudicated document; Business Day, 27-Oct-26; BusinessTech, Oct-26",
+    "asof": "04-Nov-26"
   },
   "indicators": {
     "cpi_latest_yoy_pct": {
       "value": 4.5,
       "period": "Sep-26",
-      "source": "SAnews (Stats SA); IMF series 4.5455",
+      "source": "SAnews / press on the SARB statement",
       "asof": "30-Sep-26"
     },
     "policy_rate_pct": {
       "value": 7.25,
       "period": "Sep-26",
-      "source": "SARB MPC via EWN and Briefly",
+      "source": "SARB repo rate, 25bp hike (Briefly)",
       "asof": "24-Sep-26"
     },
     "current_account_pct_gdp": {
       "value": -1.6,
-      "period": "Sep-26 (four quarters)",
-      "source": "SARB",
-      "asof": "30-Sep-26"
+      "period": "last four quarters",
+      "source": "SARB (approximate figure, as cited in the adjudicated document)",
+      "asof": "26-Oct-26"
     },
     "gross_reserves_usd_bn": {
       "value": 75.48,
-      "definition": "gross incl. gold (IMF series); SARB headline of $63.5B (5.8 months of import cover) is not reconciled",
+      "definition": "gross incl. gold",
       "period": "Sep-26",
       "source": "IMF",
-      "asof": "30-Sep-26"
+      "asof": "26-Oct-26"
     },
     "import_cover_months": {
       "value": 5.8,
@@ -62,7 +62,7 @@
     "fiscal_balance_pct_gdp": {
       "value": -3.9,
       "period": "FY26/27",
-      "source": "National Treasury MTBPS via IOL and EWN (press summaries)",
+      "source": "National Treasury MTBPS via IOL, EWN (press summaries)",
       "asof": "21-Oct-26"
     },
     "fdi_net_pct_gdp": {
@@ -74,15 +74,15 @@
     },
     "real_gdp_growth_pct": {
       "value": 1.2,
-      "period": "2026F",
-      "source": "National Treasury MTBPS via IOL",
+      "period": "2026E",
+      "source": "National Treasury MTBPS via IOL (press summary)",
       "asof": "21-Oct-26"
     },
     "gov_debt_pct_gdp": {
       "value": 78.2,
-      "definition": "gross government debt, FY26/27 (MTBPS); peak 78.4% in FY25/26",
+      "definition": "MTBPS headline, press-reported; 78.4% in FY25/26 (peak per press), 76.6% in FY29/30",
       "period": "FY26/27",
-      "source": "National Treasury MTBPS via IOL and EWN (press summaries)",
+      "source": "National Treasury MTBPS via IOL, EWN (press summaries)",
       "asof": "21-Oct-26"
     },
     "nominal_gdp_usd_bn": {
@@ -118,16 +118,16 @@
       "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
     },
     "net_reserves_usd_bn": {
-      "value": 74.3,
-      "definition": "gross incl. gold net of one-year drains (IMF reserve template); $58.58B ex-gold at Sep-26",
-      "period": "Aug-26",
+      "value": 72.8,
+      "definition": "gross incl. gold, net of one-year drains (ex-gold: 58.6)",
+      "period": "Sep-26",
       "source": "IMF",
-      "asof": "31-Aug-26"
+      "asof": "26-Oct-26"
     },
     "primary_balance_pct_gdp": {
       "value": 1.7,
       "period": "FY26/27",
-      "source": "National Treasury MTBPS via IOL",
+      "source": "National Treasury MTBPS via IOL, EWN (press summaries); a BofA preview gave 1.9",
       "asof": "21-Oct-26"
     }
   },
@@ -145,7 +145,7 @@
     "moodys": {
       "rating": "Ba2",
       "outlook": "Positive",
-      "date": "22-May-26"
+      "date": "May-26"
     }
   },
   "series": {
@@ -159,7 +159,7 @@
       "2029F": -2.5
     },
     "real_gdp_growth_pct": {
-      "2026E": 1.0,
+      "2026E": 1.2,
       "2026F": 1.2,
       "2027F": 1.6
     },
@@ -184,15 +184,15 @@
   },
   "series_sources": {
     "fiscal_balance_pct_gdp": "National Treasury MTBPS via IOL and EWN, 21-Oct-26; fiscal years labelled by start year (2026E = FY26/27, 2029F = FY29/30)",
-    "real_gdp_growth_pct": "National Treasury MTBPS via IOL, 21-Oct-26 (calendar-year forecasts)",
+    "real_gdp_growth_pct": "National Treasury MTBPS via IOL, 21-Oct-26 (press summary)",
     "nominal_gdp_usd_bn": "IMF WEO, 08-Oct-26",
     "primary_balance_pct_gdp": "National Treasury MTBPS via IOL, 21-Oct-26; 2026E = FY26/27",
     "gov_debt_pct_gdp": "National Treasury MTBPS via IOL and EWN, 21-Oct-26; fiscal years labelled by start year (2025 = FY25/26, 2026E = FY26/27, 2029F = FY29/30)",
     "interest_pct_revenue": "Times Live, 17-Oct-26; 2025 = FY25/26"
   },
   "slug": "south-africa",
-  "asof": "26-Oct-26",
-  "run": "2026-10-26_1200_south-africa-sovereign-credit",
+  "asof": "04-Nov-26",
+  "run": "2026-11-04_1000_south-africa-sovereign-credit",
   "derived": {
     "ex_ante_real_rate_pct": 2.9,
     "reer_z_10y": 1.04,
@@ -3721,6 +3721,124 @@
           "value": 1.7,
           "period": "FY26/27",
           "source": "National Treasury MTBPS via IOL",
+          "asof": "21-Oct-26"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 2.9,
+        "reer_z_10y": 1.04,
+        "reer_z_10y_note": "latest 2026-09 vs trailing 120-month mean (BIS real broad EER)",
+        "reer_latest": 113.91,
+        "reserves_12m_pct": 8.2,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-09 to 2026-09 (IMF International Liquidity)",
+        "ctot_12m_pct": -0.9,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "26-Oct-26",
+      "run": "2026-10-26_1200_south-africa-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 4.5,
+          "period": "Sep-26",
+          "source": "SAnews / press on the SARB statement",
+          "asof": "30-Sep-26"
+        },
+        "policy_rate_pct": {
+          "value": 7.25,
+          "period": "Sep-26",
+          "source": "SARB repo rate, 25bp hike (Briefly)",
+          "asof": "24-Sep-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -1.6,
+          "period": "last four quarters",
+          "source": "SARB (approximate figure, as cited in the adjudicated document)",
+          "asof": "26-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 75.48,
+          "definition": "gross incl. gold",
+          "period": "Sep-26",
+          "source": "IMF",
+          "asof": "26-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 5.8,
+          "period": "Sep-26",
+          "source": "SARB (tied to the $63.5B headline reserve definition)",
+          "asof": "08-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -3.9,
+          "period": "FY26/27",
+          "source": "National Treasury MTBPS via IOL, EWN (press summaries)",
+          "asof": "21-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": -0.506,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 1.2,
+          "period": "2026E",
+          "source": "National Treasury MTBPS via IOL (press summary)",
+          "asof": "21-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 78.2,
+          "definition": "MTBPS headline, press-reported; 78.4% in FY25/26 (peak per press), 76.6% in FY29/30",
+          "period": "FY26/27",
+          "source": "National Treasury MTBPS via IOL, EWN (press summaries)",
+          "asof": "21-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 480,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "inflation_expectation_12m_pct": {
+          "value": 4.35,
+          "period": "12m ahead",
+          "source": "BER survey (as cited in the adjudicated document; not independently sourced)",
+          "asof": "16-Oct-26"
+        },
+        "interest_pct_revenue": {
+          "value": 21,
+          "period": "FY25/26",
+          "source": "Times Live (debt service R420.6bn)",
+          "asof": "17-Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -1.32,
+          "period": "2025-Q3 to 2026-Q2",
+          "source": "IMF BOP",
+          "asof": "02-Nov-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 72.785,
+          "period": "2026-09",
+          "source": "IMF reserve template",
+          "asof": "02-Nov-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        },
+        "net_reserves_usd_bn": {
+          "value": 72.8,
+          "definition": "gross incl. gold, net of one-year drains (ex-gold: 58.6)",
+          "period": "Sep-26",
+          "source": "IMF",
+          "asof": "26-Oct-26"
+        },
+        "primary_balance_pct_gdp": {
+          "value": 1.7,
+          "period": "FY26/27",
+          "source": "National Treasury MTBPS via IOL, EWN (press summaries); a BofA preview gave 1.9",
           "asof": "21-Oct-26"
         }
       },

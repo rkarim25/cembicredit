@@ -45,6 +45,9 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Moody's raised its outlook on Ba2 to Positive, reported 23-May-26 (Business Day, 23-May-26) [26-Oct-26]
 - Moody's said on 14-Oct-26 that South Africa could be upgraded if fiscal performance continues to improve, and that it upgrades about 60% of positive-outlook sovereigns (Engineering News, 14-Oct-26) [26-Oct-26]
 - Fitch upgraded South Africa to BB from BB-, outlook Stable, on 05-Jun-26 (Engineering News, 08-Jun-26; National Treasury statement) [26-Oct-26]
+- Moody's called the 21-Oct-26 MTBPS credit positive and said an upgrade is possible within about a year (Business Day, 27-Oct-26) [04-Nov-26]
+- BofA sees Moody's as most likely to upgrade, to Ba1, with S&P to BB+ a closer call; Morgan Stanley expects S&P to move in Nov-26 and Moody's in early 2027 (Engineering News, 20-Oct-26) [04-Nov-26]
+- Fitch upgraded South Africa to BB from BB-, Stable, on 05-Jun-26, the first upgrade since 2005 (Africanews, 06-Jun-26; National Treasury statement) [04-Nov-26]
 
 ## 1. External position
 - Gross official foreign exchange reserves stood at $63.5B, providing 5.8 months of import cover (SARB, Sep-26) [08-Oct-26]
@@ -76,6 +79,7 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - CPI 4.5% y/y in Sep-26, transport 10.8% (SAnews, Oct-26) [26-Oct-26]
 - SARB raised repo 25bp to 7.25% unanimously on 23/24-Sep-26; prime 10.75% (Briefly, 24-Sep-26; EWN, 23-Sep-26) [26-Oct-26]
 - Inflation target 3.0% adopted 12-Nov-25 (Focus Economics/EWN, Nov-25) [26-Oct-26]
+- SARB held at 7.00% on 23-Jul-26 with a 4–2 vote, two for a hike (EWN, 23-Jul-26) [04-Nov-26]
 ## 4. Growth and structure
 - Real GDP growth 1% in 2026E; nominal GDP $480B in 2026E (IMF WEO, 2026) [08-Oct-26]
 - Q2-26 real GDP -0.2% q/q after +0.4% in Q1; mining -3.0% q/q (CareEdge, 28-Sep-26) [16-Oct-26]
@@ -100,6 +104,9 @@ _(levels from Reza via [BBG]; never from memory)_
 - 21-Oct-26: Medium-Term Budget Policy Statement delivered by Finance Minister Godongwana (IOL, EWN, AmCham, 21-Oct-26) [26-Oct-26]
 - 27-Nov-26: Moody's and S&P scheduled reviews of South Africa; 11-Dec-26: Fitch (Bloomberg via press, Oct-26) [26-Oct-26]
 - 19-Nov-26: SARB MPC announcement reported in search results; 21-Nov-26 is a Saturday and not a valid date (search summary, Oct-26; computed) [26-Oct-26]
+- 27-Nov-26: Moody's and S&P scheduled reviews of South Africa (Business Day, 27-Oct-26; BusinessTech, Oct-26) [04-Nov-26]
+- 11-Dec-26: Fitch scheduled review of South Africa (BusinessTech, Oct-26) [04-Nov-26]
+- 19-Nov-26: SARB MPC announcement reported; not confirmed against the SARB calendar (search summary, Oct-26) [04-Nov-26]
 ## 10. Questions for the finance ministry / IMF mission
 
 ## Data sources
@@ -172,3 +179,12 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [Fiscal] Moody's estimates the debt-stabilising primary surplus at about 1.5% of GDP and forecasts 1.8% in 2027 (Bloomberg via press, Oct-26)
 - [IMF] 2025 Article IV concluded 10-Feb-26; no IMF programme (IMF, 10-Feb-26)
 - [External] Contingent reserve drains $4.58B in Aug-26 against $1.82B in Jul-26 (IMF reserve template, Aug-26)
+
+### 04-Nov-26 (run 2026-11-04_1000_south-africa-sovereign-credit)
+- [Calendar] 27-Nov-26: Moody's and S&P scheduled reviews of South Africa (Business Day, 27-Oct-26; BusinessTech, Oct-26)
+- [Calendar] 11-Dec-26: Fitch scheduled review of South Africa (BusinessTech, Oct-26)
+- [Calendar] 19-Nov-26: SARB MPC announcement reported; not confirmed against the SARB calendar (search summary, Oct-26)
+- [Snapshot] Moody's called the 21-Oct-26 MTBPS credit positive and said an upgrade is possible within about a year (Business Day, 27-Oct-26)
+- [Snapshot] BofA sees Moody's as most likely to upgrade, to Ba1, with S&P to BB+ a closer call; Morgan Stanley expects S&P to move in Nov-26 and Moody's in early 2027 (Engineering News, 20-Oct-26)
+- [Snapshot] Fitch upgraded South Africa to BB from BB-, Stable, on 05-Jun-26, the first upgrade since 2005 (Africanews, 06-Jun-26; National Treasury statement)
+- [Monetary] SARB held at 7.00% on 23-Jul-26 with a 4–2 vote, two for a hike (EWN, 23-Jul-26)
