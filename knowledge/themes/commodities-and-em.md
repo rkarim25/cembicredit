@@ -48,3 +48,15 @@ For every sovereign and corporate page, record the two or three commodity sensit
 - [Growth] IMF WEO Oct-26: emerging and developing economies 3.7% in 2026 against 4.5% in 2025, China 4.5% in 2026 (The Week, 13-Oct-26).
 - [Snapshot] S&P affirmed Romania at BBB-/A-3 with a negative outlook on 02-Oct-26 (Agerpres, 03-Oct-26).
 - [Calendar] 28-Oct-26 FOMC decision at 14:00 ET, no projections (Fed calendar aggregators, Oct-26).
+
+### 05-Nov-26 (run 2026-11-05_1200_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit)
+- [Monetary] The FOMC held the fed funds target range at 3.75–4.00% on 28-Oct-26 by 10–2, with Cook and Hammack dissenting for a 25bp hike (investinglive.com, 28-Oct-26; Wolf Street, 28-Oct-26).
+- [Market] Futures-implied probability of a December 2026 hike was reported at 70% to about 85% after the 28-Oct-26 decision (Admiral Markets; babypips.com, 29-Oct-26).
+- [Market] The 10y UST was 4.951% on 03-Nov-26 and 4.92% on 04-Nov-26, the 2y 4.608% on 03-Nov-26 (CNBC, 03-Nov-26; Closing Look, 03-Nov-26).
+- [Market] Brent settled at USD 103.60 and WTI at USD 96.09 on 03-Nov-26 (babypips.com, 03-Nov-26).
+- [Market] DXY was about 102.15 on 29-Oct-26 after the FOMC hold (babypips.com, 29-Oct-26).
+- [Politics] Lula won Brazil's 25-Oct-26 runoff 51.8–48.2 against Flávio Bolsonaro, who said he would ask courts to annul the result (CNBC, 26-Oct-26; newscord.org, 26-Oct-26).
+- [Market] After the runoff the real fell more than 8% and Ibovespa futures about 15% on 26-Oct-26; the Ibovespa closed down 13.9% (MercoPress, 26-Oct-26; Rio Times, Oct-26).
+- [Market] The S&P 500 closed at 7,568 on 03-Nov-26 (babypips.com, 03-Nov-26).
+- [Calendar] 09-Dec-26 FOMC decision, with a hike the market base case (Admiral Markets, Oct-26).
+- [Calendar] 10-Nov-26 expected US October CPI release, date unconfirmed (position research, Nov-26).

@@ -54,15 +54,6 @@
     "path": "reports/gulf-support-and-anchors-for-em-sovereigns.md"
   },
   {
-    "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
-    "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
-    "updated": "28-Oct-26",
-    "status": "Draft",
-    "open_items": 9,
-    "run": "2026-10-28_2241_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
-    "path": "reports/em-macro-regime-us-rates-dollar-commodities-and-risk-appetit.md"
-  },
-  {
     "topic": "Ukraine sovereign credit",
     "slug": "ukraine-sovereign-credit",
     "updated": "28-Oct-26",
@@ -475,6 +466,15 @@
     "open_items": 4,
     "run": "2026-10-08_1730_zambia-sovereign-credit",
     "path": "reports/zambia-sovereign-credit.md"
+  },
+  {
+    "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
+    "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
+    "updated": "05-Nov-26",
+    "status": "Draft",
+    "open_items": 9,
+    "run": "2026-11-05_1200_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
+    "path": "reports/em-macro-regime-us-rates-dollar-commodities-and-risk-appetit.md"
   },
   {
     "topic": "Tullow Oil",
