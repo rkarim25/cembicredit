@@ -45,11 +45,6 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 | tbc | NBR (Romania) | Autumn monetary policy meeting date not found in the sources checked (2025 pattern: 12-Nov); confirm on bnr.ro | [REZA] or next Romania run |
 
 ## From runs (date first; verify before relying on it)
-- 22-Oct-26 CBRT MPC meeting, with a 100bp cut to 36% as the survey and economist consensus (Hürriyet Daily News, 16-Oct-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-21_1000_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
-- 22-Oct-26 CBRT MPC meeting; about 100bp cut expected (Intellinews, Sep-26) (Akbank, run 2026-10-09_0912_akbank)
-- 22-Oct-26 and 10-Dec-26 are the last two 2026 MPC meetings (Intellinews, Sep-26) (Turkey, run 2026-10-14_0800_turkey)
-- 22-Oct-26 MPC; 100 bp cut expected by press (Intellinews, Sep-26) (Turkey sovereign credit, run 2026-10-19_0800_turkey-sovereign-credit)
-- 22-Oct-26 CBRT MPC meeting (Intellinews, Sep-26). (EM macro regime: US rates, dollar, commodities and risk appetite, run 2026-10-20_0800_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit)
 - 23-Oct-26: Medium-Term Budget Policy Statement (MTBPS) tabled by Finance Minister Enoch Godongwana (National Treasury, Oct-26) (south-africa, re-filed)
 - 23-Oct-26 ZOREN 2030 semi-annual coupon, ~US$60.5m per repo (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)
 - 25-Oct-26 Brazil presidential runoff (Gramercy, 03-Oct-26). (EM macro regime: US rates, dollar, commodities and risk appetite, run 2026-10-20_0800_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit)
@@ -74,7 +69,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 10-Dec-26 National Bank of Serbia Executive Board interest rate decision (National Bank of Serbia, Sep-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 10-Dec-26 CBRT MPC meeting (Intellinews, Sep-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-09_0843_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
 - 10-Dec-26 CBRT MPC meeting; about 100bp cut expected (Intellinews, Sep-26) (Akbank, run 2026-10-09_0912_akbank)
-- 10-Dec-26 MPC, the last of 2026 (Intellinews, Sep-26) (Turkey sovereign credit, run 2026-10-27_1200_turkey-sovereign-credit)
+- 10-Dec-26 MPC, the last of 2026 (Intellinews, Sep-26; one position cites 11-Dec-26, unconfirmed) (Turkey sovereign credit, run 2026-11-05_1000_turkey-sovereign-credit)
 - 10-Dec-26 MPC meeting (Intellinews, Sep-26) (Turkey, run 2026-11-02_1000_turkey)
 - 11-Dec-26: Fitch scheduled review of South Africa (BusinessTech, Oct-26) (South Africa sovereign credit, run 2026-11-04_1000_south-africa-sovereign-credit)
 - 15-Dec-26: EFF expiry; IMF Board Eighth and final review targeted by mid-Dec-26, Board date unconfirmed at primary source (The National, 29-Oct-26) (Egypt sovereign credit, run 2026-11-02_1200_egypt-sovereign-credit)

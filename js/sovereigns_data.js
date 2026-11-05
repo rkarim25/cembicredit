@@ -123884,9 +123884,9 @@ window.SOVEREIGNS = [
   "region": "CEEMEA",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
-  "asof": "27-Oct-26",
+  "asof": "05-Nov-26",
   "fx_regime": "managed float",
-  "commodity": "Net energy importer; Brent is the price that matters (Brent 111.11 on 22-Oct-26 widens the current account and drains reserves; S&P named Turkey among the most exposed to the oil shock)",
+  "commodity": "Net energy importer; Brent is the price that matters (USD 112.44 on 30-Oct-26, +13% in October; S&P names Turkey among the importers most exposed to the oil shock)",
   "ratings": {
    "fitch": {
     "rating": "BB-",
@@ -123910,20 +123910,20 @@ window.SOVEREIGNS = [
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF Article IV Consultation Staff Report, Jun-26 (no programme stated)",
-   "asof": "Jun-26"
+   "source": "No IMF programme found in the adjudicated document; unconfirmed",
+   "asof": "05-Nov-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Fitch flags a possible early election in late 2027. SPK ordered 131 funds (about USD 18.3bn) into liquidation on 17-18 Sep-26, a domestic confidence risk.",
-   "source": "Fitch via Voice of Emirates; Daily Sabah",
+   "note": "Fitch flags a possible early election in late 2027",
+   "source": "Fitch via Voice of Emirates",
    "asof": "18-Jul-26"
   },
   "ind": {
-   "cpi_latest_yoy_pct": 29.73,
+   "cpi_latest_yoy_pct": 29.77,
    "policy_rate_pct": 36.0,
    "current_account_pct_gdp": -2.7,
-   "gross_reserves_usd_bn": 171.6,
+   "gross_reserves_usd_bn": 162.2,
    "short_term_external_debt_usd_bn": 170.7,
    "external_debt_pct_gdp": 31.8,
    "gov_debt_pct_gdp": 29.5,
@@ -123938,28 +123938,28 @@ window.SOVEREIGNS = [
    "reserves_net_of_drains_usd_bn": 137.109,
    "net_reserves_usd_bn": 137.1,
    "ex_ante_real_rate_pct": 12.11,
-   "reserves_to_std": 1.01,
+   "reserves_to_std": 0.95,
    "reer_z_10y": 0.35,
    "reer_latest": 108.26,
    "reserves_12m_pct": -7.8,
    "ctot_12m_pct": -1.0,
-   "gefr_pct_reserves": 121.2
+   "gefr_pct_reserves": 128.2
   },
   "src": {
-   "cpi_latest_yoy_pct": "TurkStat 03-Oct-26",
-   "policy_rate_pct": "TCMB one-week repo rate via H\u00fcrriyet Daily News 22-Oct-26",
+   "cpi_latest_yoy_pct": "TurkStat via RT\u00c9 and Daily Sabah 03-Nov-26",
+   "policy_rate_pct": "TCMB one-week repo rate, MPC decision via H\u00fcrriyet Daily News 22-Oct-26",
    "current_account_pct_gdp": "TCMB, Jul-26 Jul-26",
-   "gross_reserves_usd_bn": "TCMB weekly data via web search summary 15-Oct-26 | gross incl. gold (search summary of TCMB weekly data, Medium-Low confidence, unconfirmed against TCMB release)",
+   "gross_reserves_usd_bn": "TCMB weekly data via Turkish press 23-Oct-26 | gross incl. gold (gold about USD 103bn, FX about USD 59bn); second-hand print",
    "short_term_external_debt_usd_bn": "TCMB 30-Jun-26 | by remaining maturity",
-   "external_debt_pct_gdp": "HMB (Ministry of Treasury and Finance) 30-Jun-26 | gross external debt (USD 539.0bn) as % of GDP",
-   "gov_debt_pct_gdp": "HMB (Ministry of Treasury and Finance) 30-Jun-26 | central government debt",
-   "fiscal_balance_pct_gdp": "HMB (FY26 deficit tracking about 5.2% of GDP) Aug-26",
+   "external_debt_pct_gdp": "HMB (Treasury and Finance Ministry) 30-Jun-26 | gross external debt USD 539.0bn",
+   "gov_debt_pct_gdp": "HMB 30-Jun-26 | central government debt",
+   "fiscal_balance_pct_gdp": "HMB, FY26 deficit tracking Aug-26",
    "import_cover_months": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "fdi_net_pct_gdp": "World Bank WDI (FDI liabilities) 2025",
-   "real_gdp_growth_pct": "Fitch projection via H\u00fcrriyet Daily News 18-Jul-26",
+   "real_gdp_growth_pct": "Fitch forecast via H\u00fcrriyet Daily News 18-Jul-26",
    "nominal_gdp_usd_bn": "IMF WEO 2026 08-Oct-26",
-   "inflation_expectation_12m_pct": "TCMB market participants survey via H\u00fcrriyet Daily News (date unconfirmed) Oct-26",
-   "gefr_usd_bn": "TCMB/HMB Jun-26 | CA deficit + external amortisation due in 12m (approximate)",
+   "inflation_expectation_12m_pct": "Market participants survey via H\u00fcrriyet Daily News (date unconfirmed) Oct-26",
+   "gefr_usd_bn": "TCMB/HMB 30-Jun-26 | CA deficit + external amortisation due in 12m",
    "current_account_4q_usd_bn": "IMF BOP 02-Nov-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 02-Nov-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
    "net_reserves_usd_bn": "IMF International Liquidity and reserve template Aug-26 | gross reserves net of predetermined 1y drains (IMF international liquidity template); not net ex swaps and banks' FX required reserves",
@@ -123973,7 +123973,7 @@ window.SOVEREIGNS = [
   },
   "derived": {
    "ex_ante_real_rate_pct": 12.11,
-   "reserves_to_std": 1.01,
+   "reserves_to_std": 0.95,
    "reer_z_10y": 0.35,
    "reer_z_10y_note": "latest 2026-09 vs trailing 120-month mean (BIS real broad EER)",
    "reer_latest": 108.26,
@@ -123981,7 +123981,7 @@ window.SOVEREIGNS = [
    "reserves_12m_pct_note": "gross reserves incl. gold, 2025-09 to 2026-09 (IMF International Liquidity)",
    "ctot_12m_pct": -1.0,
    "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)",
-   "gefr_pct_reserves": 121.2
+   "gefr_pct_reserves": 128.2
   },
   "series": {
    "fiscal_balance_pct_gdp": {
@@ -123997,13 +123997,15 @@ window.SOVEREIGNS = [
     "2026E": 31.8
    },
    "real_gdp_growth_pct": {
-    "2026E": 2.8
+    "2026E": 2.8,
+    "2026F": 2.8
    },
    "nominal_gdp_usd_bn": {
     "2026E": 1640.2
    },
    "gross_reserves_usd_bn": {
-    "2026E": 167.0
+    "2026E": 167.0,
+    "2026F": 167.0
    }
   },
   "hist": {
@@ -127087,10 +127089,10 @@ window.SOVEREIGNS = [
    "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
   },
   "asof_ind": {
-   "cpi_latest_yoy_pct": "Sep-26",
+   "cpi_latest_yoy_pct": "Oct-26",
    "policy_rate_pct": "Oct-26",
    "current_account_pct_gdp": "2026 projection (range -2.6 to -2.8, midpoint)",
-   "gross_reserves_usd_bn": "15-Oct-26",
+   "gross_reserves_usd_bn": "23-Oct-26",
    "short_term_external_debt_usd_bn": "30-Jun-26",
    "external_debt_pct_gdp": "30-Jun-26",
    "gov_debt_pct_gdp": "Q2-26",
@@ -127113,8 +127115,8 @@ window.SOVEREIGNS = [
    "gefr_pct_reserves": "derived"
   },
   "report": {
-   "open_items": "13",
-   "updated": "27-Oct-26",
+   "open_items": "12",
+   "updated": "05-Nov-26",
    "status": "Draft"
   }
  },
