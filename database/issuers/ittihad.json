@@ -553,7 +553,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/ITTIHAD",
-    "days_to_earnings": 11
+    "days_to_earnings": 4
   },
   "management_questions": [
     {
@@ -1018,6 +1018,19 @@
       "date": "2026-10-31",
       "period_name": "2026-10-31",
       "timestamp": "2026-10-31T05:17:27.903120",
+      "rating": "B+ / B1",
+      "price": 98.5,
+      "ytm": 9.1,
+      "spread_bp": 505,
+      "net_leverage": 2.41,
+      "ebitda": 195.0,
+      "fcf": -16.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-07",
+      "period_name": "2026-11-07",
+      "timestamp": "2026-11-07T05:05:26.572550",
       "rating": "B+ / B1",
       "price": 98.5,
       "ytm": 9.1,

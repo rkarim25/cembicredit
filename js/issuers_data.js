@@ -559,7 +559,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Riyadh / 12:00 UK",
       "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
-      "days_to_earnings": 2
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -1713,7 +1713,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADCBUH",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -2834,7 +2834,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADMELE",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -3843,7 +3843,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -4722,7 +4722,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AIRGLO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "market_history": [
       {
@@ -7955,7 +7955,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://arada.com/en/investor-relations/",
-      "days_to_earnings": 17
+      "days_to_earnings": 10
     },
     "management_questions": [
       {
@@ -9350,7 +9350,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -11359,7 +11359,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AVIASG",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     }
   },
   {
@@ -11922,7 +11922,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:30 Istanbul",
       "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-      "days_to_earnings": 8
+      "days_to_earnings": 1
     },
     "management_questions": [
       {
@@ -13044,7 +13044,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -14184,7 +14184,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -15338,7 +15338,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -17000,7 +17000,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BRASKM",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "market_history": [
       {
@@ -17859,7 +17859,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CCOLA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -18982,7 +18982,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "10:00 Prague / 09:00 UK",
       "ir_webcast_url": "https://www.cez.cz/en/investors",
-      "days_to_earnings": 9
+      "days_to_earnings": 2
     },
     "management_questions": [
       {
@@ -19888,7 +19888,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CIMKOC",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -20842,7 +20842,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://www.damacproperties.com/en/investor-relations/",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -21955,7 +21955,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANFER",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -23106,7 +23106,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANREF",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -24249,7 +24249,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DARARK",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -25396,7 +25396,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DIBUH",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -26518,7 +26518,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai / 10:00 UK",
       "ir_webcast_url": "https://www.dpworld.com/investors",
-      "days_to_earnings": 25
+      "days_to_earnings": 18
     },
     "management_questions": [
       {
@@ -27641,7 +27641,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -28535,7 +28535,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-      "days_to_earnings": 10
+      "days_to_earnings": 3
     },
     "management_questions": [
       {
@@ -29653,7 +29653,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EKGYO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -30800,7 +30800,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EMIRAT",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -31920,7 +31920,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EQUATE",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -33058,7 +33058,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.erdemir.com.tr/investor-relations/",
-      "days_to_earnings": 3
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -34197,7 +34197,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "11:00 Johannesburg",
       "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
-      "days_to_earnings": 29
+      "days_to_earnings": 22
     },
     "management_questions": [
       {
@@ -35351,7 +35351,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FABUH",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -36505,7 +36505,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FIRSTR",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -38780,7 +38780,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -39581,7 +39581,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GLNG",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "market_history": [
       {
@@ -40546,7 +40546,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Johannesburg",
       "ir_webcast_url": "https://www.goldfields.com/investors.php",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -41718,7 +41718,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
-      "days_to_earnings": 8
+      "days_to_earnings": 1
     },
     "management_questions": [
       {
@@ -42872,7 +42872,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HSBKK",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -43995,7 +43995,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HT",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -45109,7 +45109,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HIDRO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -46232,7 +46232,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:30 London / 09:30 EST",
       "ir_webcast_url": "https://www.ihstowers.com/investors",
-      "days_to_earnings": 16
+      "days_to_earnings": 9
     },
     "management_questions": [
       {
@@ -48495,7 +48495,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ITTIHAD",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -49667,7 +49667,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KFH",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -50789,7 +50789,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -51923,7 +51923,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
-      "days_to_earnings": 4
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -53047,7 +53047,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "16:00 London / 11:00 EST",
       "ir_webcast_url": "https://investors.kosmosenergy.com/",
-      "days_to_earnings": 3
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -54185,7 +54185,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKCEM",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -55305,7 +55305,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -56426,7 +56426,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKREN",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -57571,7 +57571,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -58698,7 +58698,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -59824,7 +59824,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "13:00 London",
       "ir_webcast_url": "https://metinvestholding.com/en/investors",
-      "days_to_earnings": 17
+      "days_to_earnings": 10
     },
     "management_questions": [
       {
@@ -61044,7 +61044,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 London / 09:00 EST",
       "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
-      "days_to_earnings": 16
+      "days_to_earnings": 9
     },
     "management_questions": [
       {
@@ -62166,7 +62166,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Budapest",
       "ir_webcast_url": "https://molgroup.info/en/investor-relations",
-      "days_to_earnings": 5
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -63307,7 +63307,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MTNSJ",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -64422,7 +64422,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "15:00 Casablanca",
       "ir_webcast_url": "https://www.ocpgroup.ma/investors",
-      "days_to_earnings": 19
+      "days_to_earnings": 12
     },
     "management_questions": [
       {
@@ -65563,7 +65563,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -66678,7 +66678,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/OQ",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -68855,7 +68855,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/PEARL",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -69687,7 +69687,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.pegasusinvestorrelations.com",
-      "days_to_earnings": 8
+      "days_to_earnings": 1
     },
     "management_questions": [
       {
@@ -70808,7 +70808,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "09:00 Warsaw",
       "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
-      "days_to_earnings": 16
+      "days_to_earnings": 9
     },
     "management_questions": [
       {
@@ -71928,7 +71928,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QAZGAS",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -73082,7 +73082,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QNBK",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -74236,7 +74236,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RJHI",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -75390,7 +75390,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RIBL",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -76512,7 +76512,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ROMGAZ",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -78784,7 +78784,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SAMPA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -79908,7 +79908,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SOLSJ",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -81047,7 +81047,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SECO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -83321,7 +83321,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SNB",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -84446,7 +84446,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://sobhadxb.com/investor-relations",
-      "days_to_earnings": 15
+      "days_to_earnings": 8
     },
     "management_questions": [
       {
@@ -85561,7 +85561,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SONANG",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -86733,7 +86733,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/STANBI",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -88970,7 +88970,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "13:00 Abu Dhabi",
       "ir_webcast_url": "https://www.taqa.com/investors/",
-      "days_to_earnings": 8
+      "days_to_earnings": 1
     },
     "management_questions": [
       {
@@ -90090,7 +90090,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/THARISA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -91225,7 +91225,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://investor.turkishairlines.com/en",
-      "days_to_earnings": 2
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -92346,7 +92346,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
-      "days_to_earnings": 9
+      "days_to_earnings": 2
     },
     "management_questions": [
       {
@@ -93593,7 +93593,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "08:30 London",
       "ir_webcast_url": "https://www.tullowoil.com/investors/",
-      "days_to_earnings": 10
+      "days_to_earnings": 3
     },
     "management_questions": [
       {
@@ -95428,7 +95428,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -96600,7 +96600,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EXCRTU",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -97723,7 +97723,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "18:30 Istanbul / 15:30 UK",
       "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -98866,7 +98866,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Kyiv / 12:00 UK",
       "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
-      "days_to_earnings": 19
+      "days_to_earnings": 12
     },
     "management_questions": [
       {
@@ -100020,7 +100020,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
-      "days_to_earnings": 5
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -102709,7 +102709,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul (Post-Market)",
       "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-      "days_to_earnings": 5
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -106397,7 +106397,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Riyadh / 12:00 UK",
       "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
-      "days_to_earnings": 2
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -107551,7 +107551,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADCBUH",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -108672,7 +108672,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADMELE",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -109681,7 +109681,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -110560,7 +110560,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AIRGLO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "market_history": [
       {
@@ -113793,7 +113793,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://arada.com/en/investor-relations/",
-      "days_to_earnings": 17
+      "days_to_earnings": 10
     },
     "management_questions": [
       {
@@ -115188,7 +115188,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -117197,7 +117197,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AVIASG",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     }
   },
   "aydem": {
@@ -117760,7 +117760,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:30 Istanbul",
       "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-      "days_to_earnings": 8
+      "days_to_earnings": 1
     },
     "management_questions": [
       {
@@ -118882,7 +118882,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -120022,7 +120022,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -121176,7 +121176,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -122838,7 +122838,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BRASKM",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "market_history": [
       {
@@ -123697,7 +123697,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CCOLA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -124820,7 +124820,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "10:00 Prague / 09:00 UK",
       "ir_webcast_url": "https://www.cez.cz/en/investors",
-      "days_to_earnings": 9
+      "days_to_earnings": 2
     },
     "management_questions": [
       {
@@ -125726,7 +125726,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CIMKOC",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -126680,7 +126680,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://www.damacproperties.com/en/investor-relations/",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -127793,7 +127793,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANFER",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -128944,7 +128944,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANREF",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -130087,7 +130087,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DARARK",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -131234,7 +131234,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DIBUH",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -132356,7 +132356,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai / 10:00 UK",
       "ir_webcast_url": "https://www.dpworld.com/investors",
-      "days_to_earnings": 25
+      "days_to_earnings": 18
     },
     "management_questions": [
       {
@@ -133479,7 +133479,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -134373,7 +134373,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-      "days_to_earnings": 10
+      "days_to_earnings": 3
     },
     "management_questions": [
       {
@@ -135491,7 +135491,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EKGYO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -136638,7 +136638,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EMIRAT",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -137758,7 +137758,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EQUATE",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -138896,7 +138896,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.erdemir.com.tr/investor-relations/",
-      "days_to_earnings": 3
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -140035,7 +140035,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "11:00 Johannesburg",
       "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
-      "days_to_earnings": 29
+      "days_to_earnings": 22
     },
     "management_questions": [
       {
@@ -141189,7 +141189,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FABUH",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -142343,7 +142343,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FIRSTR",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -144618,7 +144618,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -145419,7 +145419,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GLNG",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "market_history": [
       {
@@ -146384,7 +146384,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Johannesburg",
       "ir_webcast_url": "https://www.goldfields.com/investors.php",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -147556,7 +147556,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
-      "days_to_earnings": 8
+      "days_to_earnings": 1
     },
     "management_questions": [
       {
@@ -148710,7 +148710,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HSBKK",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -149833,7 +149833,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HT",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -150947,7 +150947,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HIDRO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -152070,7 +152070,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:30 London / 09:30 EST",
       "ir_webcast_url": "https://www.ihstowers.com/investors",
-      "days_to_earnings": 16
+      "days_to_earnings": 9
     },
     "management_questions": [
       {
@@ -154333,7 +154333,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ITTIHAD",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -155505,7 +155505,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KFH",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -156627,7 +156627,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -157761,7 +157761,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
-      "days_to_earnings": 4
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -158885,7 +158885,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "16:00 London / 11:00 EST",
       "ir_webcast_url": "https://investors.kosmosenergy.com/",
-      "days_to_earnings": 3
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -160023,7 +160023,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKCEM",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -161143,7 +161143,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -162264,7 +162264,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKREN",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -163409,7 +163409,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -164536,7 +164536,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -165662,7 +165662,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "13:00 London",
       "ir_webcast_url": "https://metinvestholding.com/en/investors",
-      "days_to_earnings": 17
+      "days_to_earnings": 10
     },
     "management_questions": [
       {
@@ -166882,7 +166882,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 London / 09:00 EST",
       "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
-      "days_to_earnings": 16
+      "days_to_earnings": 9
     },
     "management_questions": [
       {
@@ -168004,7 +168004,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Budapest",
       "ir_webcast_url": "https://molgroup.info/en/investor-relations",
-      "days_to_earnings": 5
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -169145,7 +169145,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MTNSJ",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -170260,7 +170260,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "15:00 Casablanca",
       "ir_webcast_url": "https://www.ocpgroup.ma/investors",
-      "days_to_earnings": 19
+      "days_to_earnings": 12
     },
     "management_questions": [
       {
@@ -171401,7 +171401,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -172516,7 +172516,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/OQ",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -174693,7 +174693,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/PEARL",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -175525,7 +175525,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.pegasusinvestorrelations.com",
-      "days_to_earnings": 8
+      "days_to_earnings": 1
     },
     "management_questions": [
       {
@@ -176646,7 +176646,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "09:00 Warsaw",
       "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
-      "days_to_earnings": 16
+      "days_to_earnings": 9
     },
     "management_questions": [
       {
@@ -177766,7 +177766,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QAZGAS",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -178920,7 +178920,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QNBK",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -180074,7 +180074,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RJHI",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -181228,7 +181228,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RIBL",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -182350,7 +182350,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ROMGAZ",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -184622,7 +184622,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SAMPA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -185746,7 +185746,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SOLSJ",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -186885,7 +186885,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SECO",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -189159,7 +189159,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SNB",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -190284,7 +190284,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://sobhadxb.com/investor-relations",
-      "days_to_earnings": 15
+      "days_to_earnings": 8
     },
     "management_questions": [
       {
@@ -191399,7 +191399,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SONANG",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -192571,7 +192571,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/STANBI",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -194808,7 +194808,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "13:00 Abu Dhabi",
       "ir_webcast_url": "https://www.taqa.com/investors/",
-      "days_to_earnings": 8
+      "days_to_earnings": 1
     },
     "management_questions": [
       {
@@ -195928,7 +195928,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/THARISA",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -197063,7 +197063,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://investor.turkishairlines.com/en",
-      "days_to_earnings": 2
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -198184,7 +198184,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
-      "days_to_earnings": 9
+      "days_to_earnings": 2
     },
     "management_questions": [
       {
@@ -199431,7 +199431,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "08:30 London",
       "ir_webcast_url": "https://www.tullowoil.com/investors/",
-      "days_to_earnings": 10
+      "days_to_earnings": 3
     },
     "management_questions": [
       {
@@ -201266,7 +201266,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -202438,7 +202438,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EXCRTU",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -203561,7 +203561,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "18:30 Istanbul / 15:30 UK",
       "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
-      "days_to_earnings": 11
+      "days_to_earnings": 4
     },
     "management_questions": [
       {
@@ -204704,7 +204704,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Kyiv / 12:00 UK",
       "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
-      "days_to_earnings": 19
+      "days_to_earnings": 12
     },
     "management_questions": [
       {
@@ -205858,7 +205858,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
-      "days_to_earnings": 5
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
@@ -208547,7 +208547,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul (Post-Market)",
       "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-      "days_to_earnings": 5
+      "days_to_earnings": 0
     },
     "management_questions": [
       {
