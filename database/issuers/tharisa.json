@@ -557,7 +557,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/THARISA",
-    "days_to_earnings": 4
+    "days_to_earnings": 3
   },
   "management_questions": [
     {
@@ -1035,6 +1035,19 @@
       "date": "2026-11-07",
       "period_name": "2026-11-07",
       "timestamp": "2026-11-07T05:05:26.572550",
+      "rating": "BB- / Ba3 Implied",
+      "price": 98.0,
+      "ytm": 9.85,
+      "spread_bp": 550,
+      "net_leverage": 0.38,
+      "ebitda": 185.0,
+      "fcf": 9.7,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-08",
+      "period_name": "2026-11-08",
+      "timestamp": "2026-11-08T05:05:27.813736",
       "rating": "BB- / Ba3 Implied",
       "price": 98.0,
       "ytm": 9.85,
