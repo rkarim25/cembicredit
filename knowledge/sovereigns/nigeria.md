@@ -4,21 +4,21 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 14.63 % | Sep-26 | NBS via Legit.ng, Tekedia, VON |
-| Policy rate | 23 % | Sep-26 | CBN, 307th MPC Communiqué |
+| Policy rate | 23 % | Sep-26 | CBN 307th MPC communiqué |
 | Real policy rate | 8.37 % | derived |  |
 | Gross reserves | 55.07 USD bn | 09-Oct-26 | CBN via Nairametrics corrigendum |
 | Reserves, 12m change | 27.2 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
-| Import cover | 6.3 months | end-2026F (months of current external payments, Fitch definition) | Fitch via Nairametrics |
+| Import cover | 6.3 months | end-2026F (months of current external payments) | Fitch via Nairametrics |
 | Current account, last 4Q | 17.49 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | 6.4 % GDP | 2026F | Fitch via Nairametrics |
-| REER z-score (10y) | -0.51 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| REER z-score (10y) | -0.46 sd | derived | latest 2026-09 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | 4.6 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 32.3 % GDP | 30-Jun-26 | DMO, Nigeria Public Debt Stock |
+| Government debt | 32.3 % GDP | 30-Jun-26 | DMO Public Debt Stock |
 | Fiscal balance | -4.4 % GDP | 2026E | IMF WEO |
 | External debt | 14.4 % GDP | Jun-26 | DMO Nigeria Public Debt Stock as at 30-Jun-26; IMF WEO (comp |
 | Real GDP growth | 4.1 % | 2026E | IMF WEO |

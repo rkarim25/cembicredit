@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -12,7 +12,7 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Policy rate | 3 % | Sep-26 | BCEAO Monetary Policy Committee communiqué |
 | Real policy rate | 1.8 % | derived |  |
 | Current account | -1.1 % GDP | 2026E | IMF WEO (data record) |
-| REER z-score (10y) | 0.6 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| REER z-score (10y) | 0.47 sd | derived | latest 2026-09 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | -7.3 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 55.1 % GDP | 2026E | IMF / Ministry of Finance, Jun-26 |
 | Fiscal balance | -3.8 % GDP | 2026 (budgeted) | IMF / Ministry of Finance, Jun-26 |

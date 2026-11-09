@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -13,7 +13,7 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Reserves, 12m change | -51.4 % | derived | gross reserves incl. gold, 2023-11 to 2024-12 (IMF Internati |
 | Import cover | 4.25 months | 2015 | World Bank WDI |
 | Current account | -4.3 % GDP | 2026E | IMF WEO |
-| REER z-score (10y) | 0.69 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| REER z-score (10y) | -0.18 sd | derived | latest 2026-09 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | 22.6 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 70 % GDP | latest (approximate) | Fitch Ratings Sovereign Rating Action on Gabon |
 | Fiscal balance | -10 % GDP | 2026E | IMF WEO |

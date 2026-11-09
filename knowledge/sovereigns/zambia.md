@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -16,7 +16,7 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Import cover | 4.2 months | Sep-26 | Bank of Zambia (stated as 'over 4.2 months') |
 | Current account, last 4Q | -0.9 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | 0.9 % GDP | 2026E | IMF WEO |
-| REER z-score (10y) | 2.27 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| REER z-score (10y) | 1.81 sd | derived | latest 2026-09 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | 5.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 91 % GDP | Jun-26 | Ministry of Finance and National Planning |
 | Fiscal balance | -4.9 % GDP | 2026E | IMF WEO |

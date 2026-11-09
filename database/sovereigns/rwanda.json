@@ -115,14 +115,14 @@
       "value": -1.98,
       "period": "2025-Q3 to 2026-Q2",
       "source": "IMF BOP",
-      "asof": "02-Nov-26",
+      "asof": "09-Nov-26",
       "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
     },
     "reserves_net_of_drains_usd_bn": {
-      "value": 1.795,
-      "period": "2026-08",
+      "value": 1.776,
+      "period": "2026-10",
       "source": "IMF reserve template",
-      "asof": "02-Nov-26",
+      "asof": "09-Nov-26",
       "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
     }
   },
@@ -695,14 +695,14 @@
     "exports_pct_gdp": "World Bank WDI (API)",
     "import_cover_months": "World Bank WDI (API)",
     "short_term_debt_pct_reserves": "World Bank WDI (API)",
-    "real_gdp_growth_pct": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "cpi_avg_pct": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "cpi_eop_pct": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "current_account_pct_gdp": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "gov_debt_pct_gdp": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "fiscal_balance_pct_gdp": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "nominal_gdp_usd_bn": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "gdp_per_capita_usd": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "real_gdp_growth_pct": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "cpi_avg_pct": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "cpi_eop_pct": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "current_account_pct_gdp": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "gov_debt_pct_gdp": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "fiscal_balance_pct_gdp": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "nominal_gdp_usd_bn": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "gdp_per_capita_usd": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
     "ppg_external_debt_usd_bn": "World Bank WDI (API)",
     "ppg_debt_service_usd_bn": "World Bank WDI (API)",
     "short_term_external_debt_usd_bn": "World Bank WDI (API)",
@@ -1456,7 +1456,9 @@
       "2026-05": 2.11,
       "2026-06": 2.181,
       "2026-07": 2.173,
-      "2026-08": 2.27
+      "2026-08": 2.27,
+      "2026-09": 2.226,
+      "2026-10": 2.261
     },
     "predetermined_drains_usd_bn": {
       "2022-04": -0.113,
@@ -1511,7 +1513,9 @@
       "2026-05": -0.455,
       "2026-06": -0.472,
       "2026-07": -0.472,
-      "2026-08": -0.475
+      "2026-08": -0.475,
+      "2026-09": -0.477,
+      "2026-10": -0.485
     },
     "reserves_net_of_drains_usd_bn": {
       "2022-04": 1.582,
@@ -1566,7 +1570,9 @@
       "2026-05": 1.655,
       "2026-06": 1.709,
       "2026-07": 1.701,
-      "2026-08": 1.795
+      "2026-08": 1.795,
+      "2026-09": 1.749,
+      "2026-10": 1.776
     }
   },
   "series_monthly_sources": {

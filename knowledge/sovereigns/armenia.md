@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -13,11 +13,11 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Real policy rate | 2.45 % | derived |  |
 | Gross reserves | 6.5 USD bn | Sep-26 | Central Bank of Armenia |
 | Reserves, 12m change | 55.3 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
-| Reserves net of 1y drains | 3.71 USD bn | 2026-08 | IMF reserve template |
+| Reserves net of 1y drains | 3.83 USD bn | 2026-09 | IMF reserve template |
 | Import cover | 5 months | Sep-26 | Central Bank of Armenia (reported as more than 5 months) |
 | Current account, last 4Q | -2.74 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -9.8 % GDP | Q2-26 | Armstat, Balance of Payments Q2 2026 |
-| REER z-score (10y) | 1.37 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| REER z-score (10y) | 1.37 sd | derived | latest 2026-09 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | -1.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 50.6 % GDP | 2026E | IMF WEO |
 | Fiscal balance | -3.4 % GDP | 2026 (tracking) | Ministry of Finance, State Budget Execution |

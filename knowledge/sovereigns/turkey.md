@@ -4,14 +4,14 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 29.73 % | Sep-26 | TurkStat |
-| Policy rate | 36 % | Oct-26 | TCMB one-week repo rate via Hürriyet Daily News |
+| CPI y/y | 29.77 % | Oct-26 | TurkStat via RTÉ and Daily Sabah |
+| Policy rate | 36 % | Oct-26 | TCMB one-week repo rate, MPC decision via Hürriyet Daily New |
 | Real policy rate | 12.11 % | derived |  |
-| Gross reserves | 171.6 USD bn | 15-Oct-26 | TCMB weekly data via web search summary |
+| Gross reserves | 162.2 USD bn | 23-Oct-26 | TCMB weekly data via Turkish press |
 | Reserves, 12m change | -7.8 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Reserves net of 1y drains | 137.11 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 5.13 months | 2025 | World Bank WDI |
@@ -19,10 +19,10 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Current account | -2.7 % GDP | 2026 projection (range -2.6 to -2.8, midpoint) | TCMB, Jul-26 |
 | REER z-score (10y) | 0.35 sd | derived | latest 2026-09 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 29.5 % GDP | Q2-26 | HMB (Ministry of Treasury and Finance) |
-| Fiscal balance | -5.2 % GDP | 2026E | HMB (FY26 deficit tracking about 5.2% of GDP) |
-| External debt | 31.8 % GDP | 30-Jun-26 | HMB (Ministry of Treasury and Finance) |
-| Real GDP growth | 2.8 % | 2026F | Fitch projection via Hürriyet Daily News |
+| Government debt | 29.5 % GDP | Q2-26 | HMB |
+| Fiscal balance | -5.2 % GDP | 2026E | HMB, FY26 deficit tracking |
+| External debt | 31.8 % GDP | 30-Jun-26 | HMB (Treasury and Finance Ministry) |
+| Real GDP growth | 2.8 % | 2026F | Fitch forecast via Hürriyet Daily News |
 | Nominal GDP | 1,640 USD bn | 2026E | IMF WEO 2026 |
 | Bank NPL ratio | 2.48 % | 2026-Q1 | IMF FSI |
 | Bank capital ratio | 16.52 % | 2026-Q1 | IMF FSI |

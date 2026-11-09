@@ -4,12 +4,12 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 6.76 % | Sep-26 | KNBS / IMF data portal |
-| Policy rate | 8.75 % | Oct-26 | CBK MPC press release (CBR held, fourth consecutive hold) |
+| CPI y/y | 6.76 % | Sep-26 | IMF data portal / KNBS (KNBS 6.8%) |
+| Policy rate | 8.75 % | 07-Oct-26 | CBK MPC press release (CBR held, fourth consecutive hold) |
 | Real policy rate | 1.99 % | derived |  |
 | Gross reserves | 14.7 USD bn | 07-Oct-26 | Central Bank of Kenya |
 | Reserves, 12m change | 28.3 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
@@ -17,9 +17,9 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Current account | -4.1 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | -2.9 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 68.5 % GDP | Jun-26 | National Treasury |
-| Fiscal balance | -6.4 % GDP | FY2025/26 (projection, Ksh1.199tn deficit; no audited outturn) | National Treasury |
+| Fiscal balance | -5.5 % GDP | FY2026/27 budget (Ksh1.14tn deficit; earlier press Ksh1.16tn) | TechTrendsKE (press) |
 | Real GDP growth | 4.9 % | 2026F | S&P forecast as reported in press (tier 3, undated) |
-| Nominal GDP | 147.3 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 147.3 USD bn | IMF WEO (year not stated) | IMF WEO |
 | Bank NPL ratio | 13.54 % | 2025-Q3 | IMF FSI |
 | Bank capital ratio | 19.97 % | 2025-Q3 | IMF FSI |
 

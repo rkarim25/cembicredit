@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -13,7 +13,7 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Real policy rate | -6.95 % | derived |  |
 | Gross reserves | 2.2 USD bn | 2026 | Gemini in adjudicated document, unverified, no URL |
 | Reserves, 12m change | -16.4 % | derived | gross reserves incl. gold, 2025-01 to 2026-01 (IMF Internati |
-| Reserves net of 1y drains | 1.79 USD bn | 2026-08 | IMF reserve template |
+| Reserves net of 1y drains | 1.78 USD bn | 2026-10 | IMF reserve template |
 | Import cover | 4 months | 2026 | Gemini in adjudicated document, unverified, no URL |
 | Current account, last 4Q | -1.98 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -15 % GDP | 2026E | Reported near 15% of GDP deficit, Gemini in adjudicated docu |

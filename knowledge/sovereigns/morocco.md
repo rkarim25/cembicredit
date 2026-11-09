@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -12,8 +12,8 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Policy rate | 2.25 % | Sep-26 | Bank Al-Maghrib |
 | Real policy rate | 1.75 % | derived |  |
 | Gross reserves | 55.65 USD bn | 2026E | Bank Al-Maghrib |
-| Reserves, 12m change | 18 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 50.76 USD bn | 2026-07 | IMF reserve template |
+| Reserves, 12m change | 13.9 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
+| Reserves net of 1y drains | 51.06 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 5.5 months | 2026E | Bank Al-Maghrib (prospective imports of goods and services) |
 | Current account, last 4Q | -5.83 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -3.1 % GDP | 2026E | IMF WEO |

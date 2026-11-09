@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -16,7 +16,7 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Import cover | 3 months | 06-Oct-26 | Banque Centrale de Tunisie (92 days of imports, converted to |
 | Current account, last 4Q | -1.33 USD bn | 2025-Q1 to 2025-Q4 | IMF BOP |
 | Current account | -4.2 % GDP | 2026E | IMF WEO |
-| REER z-score (10y) | 1.63 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| REER z-score (10y) | 1.75 sd | derived | latest 2026-09 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | -1.2 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 82 % GDP | 2026E | Ministry of Finance Tunisia, budget implementation report |
 | Fiscal balance | -5.2 % GDP | 2026E | Ministry of Finance Tunisia, budget implementation report (d |

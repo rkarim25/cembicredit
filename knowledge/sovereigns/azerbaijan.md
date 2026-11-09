@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -12,7 +12,7 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Policy rate | 6.5 % | Sep-26 | Central Bank of Azerbaijan, monetary policy decision (refina |
 | Real policy rate | 3 % | derived |  |
 | Gross reserves | 15.36 USD bn | 23-Sep-26 | Central Bank of Azerbaijan |
-| Reserves, 12m change | 29.7 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves, 12m change | 32.2 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Import cover | 50 months | mid-2026; floor ('more than 50 months'), merchandise imports, on strategic FX assets (SOFAZ + CBAR), not CBAR reserves alone | SOFAZ / CBAR |
 | Current account, last 4Q | 5.9 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | 10.5 % GDP | H1 2026 (approx., vs annualised GDP) | Central Bank of Azerbaijan |

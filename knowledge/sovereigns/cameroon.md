@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 09-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -14,7 +14,7 @@ _Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the 
 | Import cover | 5.28 months | 2024 | World Bank WDI |
 | Current account, last 4Q | -1.83 USD bn | 2024-Q3 to 2025-Q2 | IMF BOP |
 | Current account | -3.75 % GDP | approx. 3.5%-4.0% deficit, midpoint | IMF Cameroon Country Report No. 25/210 |
-| REER z-score (10y) | 1.43 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| REER z-score (10y) | 1.31 sd | derived | latest 2026-09 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | -1.2 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 43 % GDP | end-Jun-25 | Caisse Autonome d'Amortissement (CAA), Debt Statistical Bull |
 | Fiscal balance | -1.7 % GDP | 2026E | IMF WEO |

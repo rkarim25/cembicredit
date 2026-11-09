@@ -116,7 +116,7 @@
       "value": 5.9,
       "period": "2025-Q3 to 2026-Q2",
       "source": "IMF BOP",
-      "asof": "02-Nov-26",
+      "asof": "09-Nov-26",
       "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
     }
   },
@@ -155,8 +155,8 @@
   "derived": {
     "ex_ante_real_rate_pct": 3.0,
     "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
-    "reserves_12m_pct": 29.7,
-    "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+    "reserves_12m_pct": 32.2,
+    "reserves_12m_pct_note": "gross reserves incl. gold, 2025-09 to 2026-09 (IMF International Liquidity)",
     "ctot_12m_pct": 14.4,
     "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
   },
@@ -720,15 +720,15 @@
     "exports_pct_gdp": "World Bank WDI (API)",
     "import_cover_months": "World Bank WDI (API)",
     "short_term_debt_pct_reserves": "World Bank WDI (API)",
-    "real_gdp_growth_pct": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "cpi_avg_pct": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "cpi_eop_pct": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "current_account_pct_gdp": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "gov_debt_pct_gdp": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "fiscal_balance_pct_gdp": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "nominal_gdp_usd_bn": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "unemployment_pct": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "gdp_per_capita_usd": "IMF WEO (vintage as served 02-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "real_gdp_growth_pct": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "cpi_avg_pct": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "cpi_eop_pct": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "current_account_pct_gdp": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "gov_debt_pct_gdp": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "fiscal_balance_pct_gdp": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "nominal_gdp_usd_bn": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "unemployment_pct": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "gdp_per_capita_usd": "IMF WEO (vintage as served 09-Nov-26), DataMapper; values after the WEO's last actual year are IMF projections",
     "ppg_external_debt_usd_bn": "World Bank WDI (API)",
     "ppg_debt_service_usd_bn": "World Bank WDI (API)",
     "short_term_external_debt_usd_bn": "World Bank WDI (API)",
@@ -875,7 +875,8 @@
       "2026-04": 1.7,
       "2026-05": 1.7,
       "2026-06": 1.7,
-      "2026-07": 1.7
+      "2026-07": 1.7,
+      "2026-08": 1.7
     },
     "cpi_yoy_pct": {
       "2015-01": 0.1759,
@@ -1296,7 +1297,8 @@
       "2026-05": 15.693,
       "2026-06": 16.608,
       "2026-07": 17.074,
-      "2026-08": 17.393
+      "2026-08": 17.393,
+      "2026-09": 17.9
     },
     "gold_reserves_usd_bn": {
       "2015-01": 0.965,
@@ -1438,7 +1440,8 @@
       "2026-05": 0.0,
       "2026-06": 0.0,
       "2026-07": 0.0,
-      "2026-08": 0.0
+      "2026-08": 0.0,
+      "2026-09": 0.0
     },
     "ctot_net_export_gdp_idx": {
       "2015-01": 83.5207,
@@ -1719,7 +1722,8 @@
       "2026-05": 15.693,
       "2026-06": 16.608,
       "2026-07": 17.074,
-      "2026-08": 17.393
+      "2026-08": 17.393,
+      "2026-09": 17.9
     }
   },
   "series_monthly_sources": {
