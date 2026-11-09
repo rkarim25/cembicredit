@@ -446,7 +446,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
-    "days_to_earnings": 3
+    "days_to_earnings": 2
   },
   "management_questions": [
     {
@@ -930,6 +930,19 @@
       "date": "2026-11-08",
       "period_name": "2026-11-08",
       "timestamp": "2026-11-08T05:05:27.813736",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-09",
+      "period_name": "2026-11-09",
+      "timestamp": "2026-11-09T05:06:45.894133",
       "rating": "B- / B3",
       "price": 103.24,
       "ytm": 9.26,

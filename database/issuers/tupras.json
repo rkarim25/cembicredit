@@ -559,7 +559,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
-    "days_to_earnings": 3
+    "days_to_earnings": 2
   },
   "management_questions": [
     {
@@ -1050,6 +1050,19 @@
       "date": "2026-11-08",
       "period_name": "2026-11-08",
       "timestamp": "2026-11-08T05:05:27.813736",
+      "rating": "BB / BB-",
+      "price": 99.5,
+      "ytm": 7.2,
+      "spread_bp": 315,
+      "net_leverage": 0.75,
+      "ebitda": 1800.0,
+      "fcf": -179.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-09",
+      "period_name": "2026-11-09",
+      "timestamp": "2026-11-09T05:06:45.894133",
       "rating": "BB / BB-",
       "price": 99.5,
       "ytm": 7.2,
