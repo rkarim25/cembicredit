@@ -558,7 +558,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/ADMELE",
-    "days_to_earnings": 2
+    "days_to_earnings": 1
   },
   "management_questions": [
     {
@@ -1062,6 +1062,19 @@
       "date": "2026-11-09",
       "period_name": "2026-11-09",
       "timestamp": "2026-11-09T05:06:45.894133",
+      "rating": "B / B2",
+      "price": 98.0,
+      "ytm": 9.25,
+      "spread_bp": 485,
+      "net_leverage": 2.62,
+      "ebitda": 145.0,
+      "fcf": -56.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-10",
+      "period_name": "2026-11-10",
+      "timestamp": "2026-11-10T05:06:14.936801",
       "rating": "B / B2",
       "price": 98.0,
       "ytm": 9.25,

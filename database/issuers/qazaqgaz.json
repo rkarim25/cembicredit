@@ -557,7 +557,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/QAZGAS",
-    "days_to_earnings": 2
+    "days_to_earnings": 1
   },
   "management_questions": [
     {
@@ -1061,6 +1061,19 @@
       "date": "2026-11-09",
       "period_name": "2026-11-09",
       "timestamp": "2026-11-09T05:06:45.894133",
+      "rating": "BBB-",
+      "price": 97.2,
+      "ytm": 5.95,
+      "spread_bp": 190,
+      "net_leverage": 1.2,
+      "ebitda": 850.0,
+      "fcf": 107.4,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-10",
+      "period_name": "2026-11-10",
+      "timestamp": "2026-11-10T05:06:14.936801",
       "rating": "BBB-",
       "price": 97.2,
       "ytm": 5.95,

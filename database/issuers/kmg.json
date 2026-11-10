@@ -559,7 +559,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
-    "days_to_earnings": 2
+    "days_to_earnings": 1
   },
   "management_questions": [
     {
@@ -1063,6 +1063,19 @@
       "date": "2026-11-09",
       "period_name": "2026-11-09",
       "timestamp": "2026-11-09T05:06:45.894133",
+      "rating": "BBB- / Baa2",
+      "price": 88.5,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "net_leverage": 1.45,
+      "ebitda": 4800.0,
+      "fcf": 451.7,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-10",
+      "period_name": "2026-11-10",
+      "timestamp": "2026-11-10T05:06:14.936801",
       "rating": "BBB- / Baa2",
       "price": 88.5,
       "ytm": 6.75,
