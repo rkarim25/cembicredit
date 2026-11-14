@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T05:05:13.947687+00:00",
-  "latest_date": "2026-11-10",
+  "generated_at": "2026-11-14T05:04:08.451691+00:00",
+  "latest_date": "2026-11-13",
   "yields": {
     "2y": {
       "symbol": "2YY=F",
@@ -18,9 +18,9 @@
       "symbol": "^FVX",
       "name": "US 5-Year Treasury Note",
       "tenor_years": 5,
-      "yield": 4.807,
-      "prev_yield": 4.659,
-      "change_bps": 14.8,
+      "yield": 4.981,
+      "prev_yield": 4.945,
+      "change_bps": 3.6,
       "duration": 4.65,
       "convexity": 0.25,
       "dv01": 46.5,
@@ -30,9 +30,9 @@
       "symbol": "^TNX",
       "name": "US 10-Year Treasury Note",
       "tenor_years": 10,
-      "yield": 4.983,
-      "prev_yield": 4.864,
-      "change_bps": 11.9,
+      "yield": 5.154,
+      "prev_yield": 5.103,
+      "change_bps": 5.1,
       "duration": 8.2,
       "convexity": 0.82,
       "dv01": 82.0,
@@ -42,9 +42,9 @@
       "symbol": "^TYX",
       "name": "US 30-Year Treasury Bond",
       "tenor_years": 30,
-      "yield": 5.35,
-      "prev_yield": 5.256,
-      "change_bps": 9.4,
+      "yield": 5.481,
+      "prev_yield": 5.433,
+      "change_bps": 4.8,
       "duration": 16.5,
       "convexity": 3.65,
       "dv01": 165.0,
@@ -55,96 +55,96 @@
     "2s10s": {
       "name": "2Y / 10Y Benchmark Spread",
       "short_name": "2s10s",
-      "bps": 20.8,
-      "prev_bps": 8.9,
-      "change_bps": 11.9,
+      "bps": 37.9,
+      "prev_bps": 32.8,
+      "change_bps": 5.1,
       "status": "Normal / Steepening",
       "desc": "Primary macro recession & monetary policy cycle bellwether",
-      "sma50": 46.12,
-      "sma200": 56.981,
-      "rsi14": 40.8,
+      "sma50": 44.452,
+      "sma200": 56.325,
+      "rsi14": 57.5,
       "min_52w": 6.2,
       "max_52w": 87.5
     },
     "2s30s": {
       "name": "2Y / 30Y Total Curve Slope",
       "short_name": "2s30s",
-      "bps": 57.5,
-      "prev_bps": 48.1,
-      "change_bps": 9.4,
+      "bps": 70.6,
+      "prev_bps": 65.8,
+      "change_bps": 4.8,
       "status": "Normal Steep",
       "desc": "Full curve slope measuring cumulative term premium and fiscal debt supply",
-      "sma50": 82.472,
-      "sma200": 108.172,
-      "rsi14": 43.8,
+      "sma50": 79.986,
+      "sma200": 107.101,
+      "rsi14": 59.0,
       "min_52w": 47.6,
       "max_52w": 149.8
     },
     "5s10s": {
       "name": "5Y / 10Y Belly Slope",
       "short_name": "5s10s",
-      "bps": 17.6,
-      "prev_bps": 20.5,
-      "change_bps": -2.9,
+      "bps": 17.3,
+      "prev_bps": 15.8,
+      "change_bps": 1.5,
       "status": "Normal",
       "desc": "Intermediate curve steepness and primary leg for 2s5s10s butterfly positioning",
-      "sma50": 19.56,
-      "sma200": 30.262,
-      "rsi14": 50.5,
+      "sma50": 19.092,
+      "sma200": 29.892,
+      "rsi14": 52.8,
       "min_52w": 11.7,
       "max_52w": 46.0
     },
     "5s30s": {
       "name": "5Y / 30Y Belly-to-Long",
       "short_name": "5s30s",
-      "bps": 54.3,
-      "prev_bps": 59.7,
-      "change_bps": -5.4,
+      "bps": 50.0,
+      "prev_bps": 48.8,
+      "change_bps": 1.2,
       "status": "Upward Sloping",
       "desc": "Captures term premium and supply indigestion between belly and ultra-long"
     },
     "10s30s": {
       "name": "10Y / 30Y Ultra-Long Spread",
       "short_name": "10s30s",
-      "bps": 36.7,
-      "prev_bps": 39.2,
-      "change_bps": -2.5,
+      "bps": 32.7,
+      "prev_bps": 33.0,
+      "change_bps": -0.3,
       "status": "Positive Slope",
       "desc": "Measures pure long-end debt issuance discount and liability hedging demand"
     }
   },
   "snapshots": {
     "current": {
-      "date": "2026-11-10",
+      "date": "2026-11-13",
       "2y": 4.775,
-      "5y": 4.807,
-      "10y": 4.983,
-      "30y": 5.35,
-      "label": "Current (2026-11-10)"
+      "5y": 4.981,
+      "10y": 5.154,
+      "30y": 5.481,
+      "label": "Current (2026-11-13)"
     },
     "1m_ago": {
-      "date": "2026-10-12",
-      "2y": 4.647,
-      "5y": 5.019,
-      "10y": 5.24,
-      "30y": 5.598,
-      "label": "1 Month Ago (2026-10-12)"
+      "date": "2026-10-15",
+      "2y": 4.75,
+      "5y": 4.899,
+      "10y": 5.089,
+      "30y": 5.429,
+      "label": "1 Month Ago (2026-10-15)"
     },
     "6m_ago": {
-      "date": "2026-05-13",
+      "date": "2026-05-18",
       "2y": 3.82,
-      "5y": 4.13,
-      "10y": 4.481,
-      "30y": 5.047,
-      "label": "6 Months Ago (2026-05-13)"
+      "5y": 4.28,
+      "10y": 4.623,
+      "30y": 5.147,
+      "label": "6 Months Ago (2026-05-18)"
     },
     "1y_ago": {
-      "date": "2025-11-10",
+      "date": "2025-11-13",
       "2y": 3.568,
-      "5y": 3.71,
-      "10y": 4.11,
+      "5y": 3.703,
+      "10y": 4.112,
       "30y": 4.702,
-      "label": "1 Year Ago (2025-11-10)"
+      "label": "1 Year Ago (2025-11-13)"
     },
     "peak_inversion": {
       "date": "2023-07-03",
@@ -156,7 +156,7 @@
     }
   },
   "macro_assessment": {
-    "as_of": "2026-11-10",
+    "as_of": "2026-11-13",
     "regime_id": "bear_steepening",
     "regime_name": "Bear Steepening / Fiscal Dominance & Sticky Inflation",
     "regime_summary": "Long-end yields (10Y testing ~5.0%, 30Y at ~5.33%) are under pressure from heavy Treasury coupon supply ($2T deficit) and persistent inflation (CPI at 3.4%). The 10Y term premium has climbed to ~1.02%, while 2Y (~4.38%) is relatively well-anchored by the restrictive Fed rate range.",
@@ -194,23 +194,23 @@
     },
     "technicals": {
       "10y": {
-        "current": 4.983,
-        "sma50": 5.041,
-        "sma200": 4.57,
-        "rsi14": 39.3,
-        "trend": "Yield Pullback",
+        "current": 5.154,
+        "sma50": 5.059,
+        "sma200": 4.583,
+        "rsi14": 62.0,
+        "trend": "Bullish Yield / Bearish Price",
         "rsi_status": "Neutral",
         "resistance": 5.05,
-        "support_50d": 5.041,
-        "support_200d": 4.57
+        "support_50d": 5.059,
+        "support_200d": 4.583
       },
       "2s10s": {
-        "current": 20.8,
-        "sma50": 46.12,
-        "sma200": 56.981,
-        "rsi14": 40.8,
+        "current": 37.9,
+        "sma50": 44.452,
+        "sma200": 56.325,
+        "rsi14": 57.5,
         "trend": "Flattening Retracement",
-        "support_50d": 46.12,
+        "support_50d": 44.452,
         "resistance_high": 75.0
       },
       "triggers": [
@@ -220,7 +220,7 @@
           "action": "Close Steepeners. Overweight 10Y and 30Y Duration.",
           "condition": "10Y Yield breaks below 4.70% (50d/200d SMA support) AND 2s10s breaks below +25 bps AND Unemployment > 4.6%.",
           "status": "Inactive (Bear Steepener Dominant)",
-          "active_metric": "10Y is 0.28% above trigger; 2s10s is -4.2 bps above trigger.",
+          "active_metric": "10Y is 0.45% above trigger; 2s10s is 12.9 bps above trigger.",
           "threshold_met": false
         },
         {
@@ -229,8 +229,8 @@
           "action": "Add to 2s10s / 2s30s Steepeners. Short 30Y Duration.",
           "condition": "10Y Yield daily close above 5.05% resistance with 30Y > 5.40%.",
           "status": "Testing Resistance (Imminent Watch)",
-          "active_metric": "10Y is 0.07% away from 5.05% breakout ceiling.",
-          "threshold_met": false
+          "active_metric": "10Y is -0.1% away from 5.05% breakout ceiling.",
+          "threshold_met": true
         },
         {
           "id": "bear_flattener_cash",
@@ -281,7 +281,7 @@
       },
       {
         "name": "10-Year RSI(14)",
-        "value": "39.3",
+        "value": "62.0",
         "trend": "Neutral",
         "target": "30 - 70 Range",
         "impact": "Testing 5.00%-5.05% key resistance ceiling; vulnerable to technical stall."
@@ -432,7 +432,7 @@
         "fund_driver": "Policy path required to quell 3.4% CPI (terminal 4.75%-5.00%) vs market pricing (3.75%-4.00%)",
         "tech_band": {
           "lower": 4.25,
-          "mid": 4.579,
+          "mid": 4.614,
           "upper": 4.55
         },
         "rsi14": 56.4,
@@ -446,7 +446,7 @@
       },
       "5y": {
         "name": "5-Year Note",
-        "current": 4.807,
+        "current": 4.981,
         "fund_band": {
           "lower": 4.55,
           "mid": 4.65,
@@ -469,7 +469,7 @@
       },
       "10y": {
         "name": "10-Year Note",
-        "current": 4.983,
+        "current": 5.154,
         "fund_band": {
           "lower": 4.85,
           "mid": 5.0,
@@ -481,7 +481,7 @@
           "mid": 4.9,
           "upper": 5.05
         },
-        "rsi14": 39.3,
+        "rsi14": 62.0,
         "rsi_state": "Testing Overbought Yield",
         "signal": "NEUTRAL",
         "signal_badge": "\u26aa NEUTRAL (Fair Value)",
@@ -492,7 +492,7 @@
       },
       "30y": {
         "name": "30-Year Bond",
-        "current": 5.35,
+        "current": 5.481,
         "fund_band": {
           "lower": 5.35,
           "mid": 5.45,
@@ -517,7 +517,7 @@
     "spreads": {
       "2s10s": {
         "name": "2s10s Benchmark Spread",
-        "current_bps": 20.8,
+        "current_bps": 37.9,
         "fund_band": {
           "lower_bps": 45.0,
           "mid_bps": 60.0,
@@ -528,7 +528,7 @@
           "lower_bps": 48.0,
           "upper_bps": 72.0
         },
-        "rsi14": 40.8,
+        "rsi14": 57.5,
         "signal": "NEUTRAL_BALANCED",
         "signal_badge": "\u26aa FAIR VALUE NEUTRAL",
         "target_bps": 65.0,
@@ -537,7 +537,7 @@
       },
       "10s30s": {
         "name": "10s30s Ultra-Long Spread",
-        "current_bps": 36.7,
+        "current_bps": 32.7,
         "fund_band": {
           "lower_bps": 25.0,
           "mid_bps": 35.0,
@@ -557,7 +557,7 @@
       },
       "2s30s": {
         "name": "2s30s Total Curve Slope",
-        "current_bps": 57.5,
+        "current_bps": 70.6,
         "fund_band": {
           "lower_bps": 85.0,
           "mid_bps": 105.0,
@@ -568,7 +568,7 @@
           "lower_bps": 82.0,
           "upper_bps": 115.0
         },
-        "rsi14": 43.8,
+        "rsi14": 59.0,
         "signal": "STEEPENER_STRATEGIC",
         "signal_badge": "\ud83d\udd34 STEEPENER (Strategic Deficit Play)",
         "target_bps": 125.0,
@@ -583,12 +583,12 @@
         "direction": "Short Long-End Duration",
         "entry_date": "2026-09-14",
         "entry_yield": 5.296,
-        "current_yield": 5.35,
+        "current_yield": 5.481,
         "target_yield": 5.55,
         "stop_loss_yield": 5.18,
         "duration_contribution": -0.2,
         "confluence": "Dual Alignment (Technical + Fundamental) \u2014 Bigger Size",
-        "pnl_bps": 5.4,
+        "pnl_bps": 18.5,
         "status": "ACTIVE",
         "rationale": "Supply dominance + technical breakout above 5.30%. Yield pushing into 5.35-5.60% fundamental band."
       },
@@ -613,12 +613,12 @@
         "direction": "Curve Steepener",
         "entry_date": "2026-09-10",
         "entry_spread_bps": 89.2,
-        "current_spread_bps": 57.5,
+        "current_spread_bps": 70.6,
         "target_spread_bps": 125.0,
         "stop_loss_spread_bps": 72.0,
         "duration_contribution": "Net -0.05y steepener bias",
         "confluence": "Strategic Fiscal Supply & Term Premium",
-        "pnl_bps": -31.7,
+        "pnl_bps": -18.6,
         "status": "ACTIVE",
         "rationale": "Long-end term premium expansion drives 2s30s toward +125 bps fundamental target."
       },
@@ -627,8 +627,8 @@
         "instrument": "Tactical Long 5Y Note (FV Futures)",
         "direction": "Tactical Belly Long",
         "entry_date": "2026-09-18",
-        "entry_yield": 4.807,
-        "current_yield": 4.807,
+        "entry_yield": 4.981,
+        "current_yield": 4.981,
         "target_yield": 4.4,
         "stop_loss_yield": 4.88,
         "duration_contribution": 0.1,
@@ -640,42 +640,6 @@
     ]
   },
   "history": [
-    {
-      "date": "2025-11-10",
-      "2y": 3.568,
-      "5y": 3.71,
-      "10y": 4.11,
-      "30y": 4.702,
-      "spread_2s10s": 54.2,
-      "spread_5s30s": 99.2,
-      "spread_2s30s": 113.4,
-      "spread_10s30s": 59.2,
-      "spread_5s10s": 40.0
-    },
-    {
-      "date": "2025-11-11",
-      "2y": 3.568,
-      "5y": 3.719,
-      "10y": 4.12,
-      "30y": 4.71,
-      "spread_2s10s": 55.2,
-      "spread_5s30s": 99.1,
-      "spread_2s30s": 114.2,
-      "spread_10s30s": 59.0,
-      "spread_5s10s": 40.1
-    },
-    {
-      "date": "2025-11-12",
-      "2y": 3.568,
-      "5y": 3.668,
-      "10y": 4.065,
-      "30y": 4.661,
-      "spread_2s10s": 49.7,
-      "spread_5s30s": 99.3,
-      "spread_2s30s": 109.3,
-      "spread_10s30s": 59.6,
-      "spread_5s10s": 39.7
-    },
     {
       "date": "2025-11-13",
       "2y": 3.568,
@@ -3663,6 +3627,42 @@
       "spread_2s30s": 57.5,
       "spread_10s30s": 36.7,
       "spread_5s10s": 17.6
+    },
+    {
+      "date": "2026-11-11",
+      "2y": 4.775,
+      "5y": 4.827,
+      "10y": 4.998,
+      "30y": 5.356,
+      "spread_2s10s": 22.3,
+      "spread_5s30s": 52.9,
+      "spread_2s30s": 58.1,
+      "spread_10s30s": 35.8,
+      "spread_5s10s": 17.1
+    },
+    {
+      "date": "2026-11-12",
+      "2y": 4.775,
+      "5y": 4.945,
+      "10y": 5.103,
+      "30y": 5.433,
+      "spread_2s10s": 32.8,
+      "spread_5s30s": 48.8,
+      "spread_2s30s": 65.8,
+      "spread_10s30s": 33.0,
+      "spread_5s10s": 15.8
+    },
+    {
+      "date": "2026-11-13",
+      "2y": 4.775,
+      "5y": 4.981,
+      "10y": 5.154,
+      "30y": 5.481,
+      "spread_2s10s": 37.9,
+      "spread_5s30s": 50.0,
+      "spread_2s30s": 70.6,
+      "spread_10s30s": 32.7,
+      "spread_5s10s": 17.3
     }
   ]
 }

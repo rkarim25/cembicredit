@@ -558,7 +558,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "09:00 Warsaw",
     "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
-    "days_to_earnings": 5
+    "days_to_earnings": 2
   },
   "management_questions": [
     {
@@ -1088,6 +1088,19 @@
       "date": "2026-11-11",
       "period_name": "2026-11-11",
       "timestamp": "2026-11-11T05:06:28.471242",
+      "rating": "BBB+",
+      "price": 99.2,
+      "ytm": 5.3,
+      "spread_bp": 125,
+      "net_leverage": 1.85,
+      "ebitda": 2800.0,
+      "fcf": -1080.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-14",
+      "period_name": "2026-11-14",
+      "timestamp": "2026-11-14T05:05:32.257612",
       "rating": "BBB+",
       "price": 99.2,
       "ytm": 5.3,

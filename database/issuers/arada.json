@@ -566,7 +566,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Dubai",
     "ir_webcast_url": "https://arada.com/en/investor-relations/",
-    "days_to_earnings": 6
+    "days_to_earnings": 3
   },
   "management_questions": [
     {
@@ -1089,6 +1089,19 @@
       "date": "2026-11-11",
       "period_name": "2026-11-11",
       "timestamp": "2026-11-11T05:06:28.471242",
+      "rating": "B+ / B1",
+      "price": 99.66,
+      "ytm": 8.13,
+      "spread_bp": 329,
+      "net_leverage": 2.74,
+      "ebitda": 414.0,
+      "fcf": -185.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-14",
+      "period_name": "2026-11-14",
+      "timestamp": "2026-11-14T05:05:32.257612",
       "rating": "B+ / B1",
       "price": 99.66,
       "ytm": 8.13,

@@ -1517,6 +1517,19 @@
       "ebitda": 15958.0,
       "fcf": -4991.7,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-14",
+      "period_name": "2026-11-14",
+      "timestamp": "2026-11-14T05:05:32.257612",
+      "rating": "B- / CCC+",
+      "price": 63.5,
+      "ytm": 27.2,
+      "spread_bp": 2250,
+      "net_leverage": 3.62,
+      "ebitda": 15958.0,
+      "fcf": -4991.7,
+      "guidance_status": "Under Watch"
     }
   ],
   "broker_snapshots": [
