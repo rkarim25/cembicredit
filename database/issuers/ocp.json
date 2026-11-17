@@ -559,7 +559,7 @@
     "confirmation_status": "Estimated",
     "call_time": "15:00 Casablanca",
     "ir_webcast_url": "https://www.ocpgroup.ma/investors",
-    "days_to_earnings": 3
+    "days_to_earnings": 2
   },
   "management_questions": [
     {
@@ -1128,6 +1128,19 @@
       "date": "2026-11-16",
       "period_name": "2026-11-16",
       "timestamp": "2026-11-16T05:04:38.106090",
+      "rating": "BBB- / Baa3",
+      "price": 99.5,
+      "ytm": 6.45,
+      "spread_bp": 155,
+      "net_leverage": 2.34,
+      "ebitda": 3200,
+      "fcf": 209.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-17",
+      "period_name": "2026-11-17",
+      "timestamp": "2026-11-17T05:03:51.715290",
       "rating": "BBB- / Baa3",
       "price": 99.5,
       "ytm": 6.45,
