@@ -1147,6 +1147,19 @@
       "ebitda": 78.0,
       "fcf": 7.5,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-18",
+      "period_name": "2026-11-18",
+      "timestamp": "2026-11-18T05:03:44.813172",
+      "rating": "B / B3",
+      "price": 98.5,
+      "ytm": 7.85,
+      "spread_bp": 345,
+      "net_leverage": 3.08,
+      "ebitda": 78.0,
+      "fcf": 7.5,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
