@@ -7,16 +7,16 @@
     "region": "Turkey",
     "sector": "Aviation",
     "type": "corp",
-    "rating": "B+ / BB-",
+    "rating": "BB- Neg (Fitch) / B+ Neg (S&P)",
     "tier": "Tier-2",
-    "benchmark_bond": "PGSUS 9.25% 2026",
+    "benchmark_bond": "PGSUS 8.00% 2031 ($500m)",
     "price": 103.5,
     "ytm": 7.65,
     "spread_bp": 360,
     "model_file": "Pegasus_Airlines_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8107-8fe0-db205df2e609",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Pegasus_Airlines_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-21",
     "model_type": "corp",
     "fcf_2024a": 23.0,
     "net_leverage_2024a": 2.1
@@ -558,18 +558,16 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Disclose 2027 jet fuel hedge percentage/strike and timeline for full Middle East route resumption.",
+      "focus_area": "Fuel & Network",
+      "relevance": "Jet fuel spike drove the 520bp Q3 margin drop.",
+      "conviction_trigger": ">50% hedged at favorable cracks restores 2027 EBITDA."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Confirm remaining balance of 9.25% 2026 notes post-tender, RCF covenant headroom, and offshore USD/EUR cash split.",
+      "focus_area": "Liquidity",
+      "relevance": "Ensures no hidden liquidity ring-fencing after 9M net loss.",
+      "conviction_trigger": "Full maturity ladder & >EUR 800m offshore cash."
     }
   ],
   "market_history": [
@@ -1157,6 +1155,19 @@
       "ebitda": 950.0,
       "fcf": 23.0,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "BB- Neg (Fitch) / B+ Neg (S&P)",
+      "price": 103.5,
+      "ytm": 7.65,
+      "spread_bp": 360,
+      "net_leverage": 2.1,
+      "ebitda": 950.0,
+      "fcf": 23.0,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1243,5 +1254,57 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Neutral / Hold with Cautious Bias",
+      "target_price": null,
+      "current_price": 103.5,
+      "ytm": 7.65,
+      "spread_bp": 360,
+      "summary": "Sound LCC franchise hit by 2026 Middle East airspace closures and an ~85% spike in jet fuel costs. Q3 2026 revenue rose 19% YoY to EUR 1,314M and Q3 EBITDA was EUR 404M (margin compressed 520bp YoY to 30.7%), leaving 9M26 EBITDA down 30% YoY at EUR 486M and a EUR 40M 9M net loss. Liquidity (EUR 1,134M cash at 30-Jun-26) and 2031 maturity runway protect near-term solvency."
+    },
+    "positives": [
+      "Strong Q3 top-line resilience: Q3 2026 revenue +19% YoY to EUR 1,314M (TRY 72.2bn) with EUR 404M EBITDA (+2% YoY).",
+      "Adequate liquidity runway: EUR 1,134M cash at 30-Jun-26 and 2026 notes refinanced into $500m 2031 Eurobond (no near-term bond wall).",
+      "Industry-leading CASK ex-fuel unit cost structure in EMEA low-cost aviation."
+    ],
+    "negatives": [
+      "Margin compression: 9M26 EBITDA fell 30% YoY to EUR 486M (17.2% margin) with a EUR 40M 9M net loss due to +85% jet fuel prices and Middle East airspace disruptions.",
+      "Negative rating outlooks: Both Fitch (BB-) and S&P (B+) moved outlooks to Negative in May-Jun 2026; Fitch sees 2026E EBITDAR net leverage at 6.2x.",
+      "Most Middle East-exposed rated EMEA LCC; sustained conflict/fuel spike into 2027 would delay deleveraging toward 3.8x."
+    ],
+    "background": {
+      "business_overview": "Leading Turkish low-cost carrier operating Sabiha Gokcen hub with modern Airbus A320neo/A321neo fleet.",
+      "asset_perimeter": "Aviation fleet under operating/finance leases; 2031 $500m senior notes.",
+      "ownership_governance": "Esas Holding majority shareholder; listed on Borsa Istanbul."
+    },
+    "recent_drivers": [
+      "Q3 2026 Results: Revenue EUR 1,314M (+19% YoY), EBITDA EUR 404M (30.7% margin vs 35.9% Q3-25), Net Profit EUR 204.5M (-10% YoY).",
+      "9M 2026 Cumulative: Revenue EUR 2,821M (+8% YoY), EBITDA EUR 486M (-30% YoY), Net Loss EUR 40M.",
+      "May-Jun 2026: Fitch (BB-) and S&P (B+) revised outlooks to Negative on 2026 trough."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited Results & 2027 Fuel Hedge Disclosure",
+        "impact": "Confirms winter cash burn and 2027 jet-fuel margin recovery."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Middle East Route Resumption & Fuel Normalization",
+        "impact": "Key driver for Fitch's 6.2x -> 3.8x 2027E deleveraging path."
+      }
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "Q3/9M 2026 Results & Rating Sync",
+      "source": "Pegasus Q3/9M26 Release / Seker / Pipeline Report (09-Oct-26)",
+      "status": "Desk Update",
+      "summary": "Q3 2026 rev EUR 1,314M (+19% YoY), Q3 EBITDA EUR 404M (30.7% margin); 9M EBITDA EUR 486M (-30% YoY), 9M net loss EUR 40M. Updated benchmark to PGSUS 8.00% 2031 and ratings to BB- Neg / B+ Neg."
+    }
+  ]
 }

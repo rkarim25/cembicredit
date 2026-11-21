@@ -7,16 +7,16 @@
     "region": "Africa",
     "sector": "Technology",
     "type": "corp",
-    "rating": "Ba2 / BB+",
+    "rating": "Ba2 (Moody's) / BB- Pos (S&P)",
     "tier": "Tier-1",
-    "benchmark_bond": "MTNSJ 6.50% 2026",
+    "benchmark_bond": "MTNSJ Eurobond Curve",
     "price": 99.4,
     "ytm": 6.9,
     "spread_bp": 285,
     "model_file": "MTN_Group_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81b6-bef6-d0abf799e3d5",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MTN_Group_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-21",
     "cognitive_credit_id": "mtn",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/mtn/description",
     "model_type": "corp",
@@ -564,11 +564,16 @@
   },
   "management_questions": [
     {
-      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
-      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
-      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
-      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
-      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      "question": "Confirm consolidated net debt including leases vs the 0.2x HoldCo/reported metric, and pro forma leverage post-IHS close and R6bn buyback.",
+      "focus_area": "Leverage Perimeter",
+      "relevance": "Reconciles Moody's 2.9x pro forma view with 0.2x headline.",
+      "conviction_trigger": "Consolidated net debt/EBITDA <2.0x post-close."
+    },
+    {
+      "question": "Detail how IHS debt is treated at closing and H2-26 USD cash upstreaming from MTN Nigeria.",
+      "focus_area": "Funding & FX",
+      "relevance": "Tests HoldCo hard-currency debt service capacity.",
+      "conviction_trigger": "Sustained Nigeria USD repatriation."
     }
   ],
   "market_history": [
@@ -1156,6 +1161,19 @@
       "ebitda": 4500,
       "fcf": 481.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "Ba2 (Moody's) / BB- Pos (S&P)",
+      "price": 99.4,
+      "ytm": 6.9,
+      "spread_bp": 285,
+      "net_leverage": 1.65,
+      "ebitda": 4500,
+      "fcf": 481.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1242,5 +1260,57 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Neutral / Watch M&A & Nigeria FX",
+      "target_price": null,
+      "current_price": 99.4,
+      "ytm": 6.9,
+      "spread_bp": 285,
+      "summary": "Strong operational momentum in 9M 2026: constant-currency EBITDA rose 22.9% to R86.0bn (47.9% margin, +2.8pp) driven by Nigeria & Ghana recoveries, R21.4bn YTD HoldCo cash upstreaming, and 0.2x company-reported net leverage. Key overhang is funding & closing of the ~$6.2bn EV (~$2.2bn cash) IHS Towers acquisition alongside R6bn share buybacks."
+    },
+    "positives": [
+      "9M 2026 operational surge: Group EBITDA R86.0bn (+22.9% constant currency), margin up 2.8pp to 47.9%.",
+      "Strong cash upstreaming & low headline leverage: R21.4bn YTD cash upstreamed to HoldCo; company-reported net debt/EBITDA at 0.2x (target <=1.0x).",
+      "Improving South African sovereign backdrop (Moody's Positive May-26, S&P BB May-26)."
+    ],
+    "negatives": [
+      "IHS Towers M&A leverage impact: Moody's views the ~$6.2bn EV (~$2.2bn cash) acquisition as modestly credit negative (pro forma adjusted leverage ~2.9x vs 2.4x).",
+      "Nigeria concentration & naira convertibility: Nigeria drives >35% of EBITDA and IHS adds further Nigerian exposure.",
+      "Shareholder distributions: R6bn (~$375m) buyback + 40-60% EFCF return policy narrows creditor cash cushion during M&A."
+    ],
+    "background": {
+      "business_overview": "Africa's largest mobile network operator across South Africa, Nigeria, Ghana, Uganda, and Fintech/MoMo.",
+      "asset_perimeter": "Pan-African telecom HoldCo (MTN Group Ltd) with USD Eurobonds and opco bank facilities.",
+      "ownership_governance": "JSE-listed; South African sovereign and Nigerian FX linkage."
+    },
+    "recent_drivers": [
+      "9M 2026 Trading Update (Sep-26): EBITDA R86.0bn (+22.9% CC), 47.9% margin, R21.4bn HoldCo cash upstreaming, 0.2x net leverage.",
+      "M&A & Capital Return: IHS Towers acquisition (~$2.2bn cash consideration) and R6bn share buyback program.",
+      "1H 2026 Results: Service revenue R115.3bn (+17.5% CC), EBITDA before once-offs ~R56bn (+24.4% CC)."
+    ],
+    "catalysts": [
+      {
+        "date": "2026-2027",
+        "event": "IHS Towers Deal Closing & Debt Treatment",
+        "impact": "Clarifies whether IHS debt is rolled or refinanced at HoldCo and pro forma Moody's leverage."
+      },
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & Nigeria Upstreaming",
+        "impact": "Confirms full-year EFCF, consolidated lease-adjusted net debt, and buyback pace."
+      }
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "9M 2026 Results & IHS Acquisition Review",
+      "source": "MTN 9M26 Release / EngineeringNews / Pipeline Report (09-Oct-26)",
+      "status": "Desk Update",
+      "summary": "9M26 EBITDA R86.0bn (+22.9% CC, 47.9% margin), R21.4bn cash upstreamed YTD, 0.2x reported net leverage. Watch IHS Towers ~$2.2bn cash outlay & R6bn buyback."
+    }
+  ]
 }

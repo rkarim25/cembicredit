@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "id": "sappi",
+    "name": "Sappi Limited",
+    "ticker": "SAPPI",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BB Neg (Fitch)",
+    "tier": "BB",
+    "benchmark_bond": "SAPPI 4.50% EUR 2032 (EUR 300m)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Sappi_Limited_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sappi_Limited_Credit_Model.xlsx",
+    "last_updated": "2026-11-21",
+    "model_type": "corp",
+    "fcf_2024a": null,
+    "net_leverage_2024a": 2.08,
+    "financials_currency": "USD",
+    "provenance": "financials built 21-Nov-26 from Sappi FY2024, FY2025, and FY2026 (ended Sep-26, released 06-Nov-26) annual results; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Sappi FY2024 Annual Results (ended Sep-24), read 21-Nov-26",
+      "revenue": 5458.0,
+      "ebitda": 684.0,
+      "reported_ebitda": 684.0,
+      "ebitda_margin_pct": 12.5,
+      "net_debt": 1422.0,
+      "net_leverage": 2.08,
+      "observations": {
+        "ebitda": "FY24 Adj EBITDA $684m; Net Debt $1,422m (2.08x)."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Sappi FY2025 Annual Results (ended Sep-25), read 21-Nov-26",
+      "revenue": 5429.0,
+      "ebitda": 501.0,
+      "reported_ebitda": 501.0,
+      "ebitda_margin_pct": 9.2,
+      "net_debt": 1920.0,
+      "net_leverage": 3.83,
+      "observations": {
+        "ebitda": "FY25 Adj EBITDA fell to $501m; Net Debt rose to $1,920m (3.83x)."
+      }
+    },
+    {
+      "period": "2026A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Sappi FY2026 Full-Year Results (ended Sep-26, released 06-Nov-26), read 21-Nov-26",
+      "revenue": 5277.0,
+      "ebitda": 294.0,
+      "reported_ebitda": 294.0,
+      "ebitda_margin_pct": 5.6,
+      "cash": 165.0,
+      "gross_debt": 2120.0,
+      "net_debt": 2050.0,
+      "net_leverage": 6.97,
+      "observations": {
+        "revenue": "FY26 revenue $5,277m (-3% YoY) amid weak European graphic paper and stronger ZAR.",
+        "ebitda": "FY26 Adj EBITDA dropped 41% YoY to $294m (Q4 FY26 $99m vs Q3 $53m); FY26 net loss $747m incl. $319m impairments (Matane mill).",
+        "net_leverage": "Net debt rose to $2,050m (7.0x trailing Adj EBITDA); total liquidity $707m ($165m cash + $542m undrawn RCF)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Sappi Papier Holding 4.50% EUR Senior Notes due Mar 2032",
+      "currency": "EUR",
+      "amount_usd_m": 330.0,
+      "coupon": "4.50%",
+      "maturity": "2032-03-15",
+      "seniority": "Senior Unsecured (RR4)"
+    },
+    {
+      "tranche_name": "Sappi Papier Holding 2028 Senior Notes & Term/Securitization Debt",
+      "currency": "EUR/USD",
+      "amount_usd_m": 1790.0,
+      "coupon": "Fixed/Float",
+      "maturity": "2028-2031",
+      "seniority": "Senior Unsecured"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 180.0,
+    "2028": 650.0,
+    "2029": 320.0,
+    "2030_plus": 970.0,
+    "total_outstanding_usd_m": 2120.0,
+    "source": "FY26 gross borrowings ~$2,120m; SPH 4.5% EUR 300m due Mar-2032 & 2028 senior notes; $542m committed RCF."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Underweight / Downgrade Watch (7.0x Peak Leverage)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Credit deteriorated sharply in FY2026 (ended Sep-26, reported 06-Nov-26): Adj EBITDA fell 41% YoY to $294m (vs $684m FY24) while net debt climbed to $2,050m, spiking trailing net leverage to 7.0x and prompting Fitch to revise the BB outlook to Negative. Sound $707m liquidity ($542m RCF) and Q4 sequential EBITDA bounce ($99m vs $53m Q3) buy time, but graphic paper erosion & ZAR strength threaten BB rating."
+    },
+    "positives": [
+      "Adequate liquidity buffer of $707m ($165m cash + $542m committed undrawn RCF) with long-dated 2032 EUR notes.",
+      "Sequential Q4 FY26 EBITDA recovery ($99m vs $53m in Q3) as Somerset PM2 conversion completes.",
+      "Strategic pivot away from graphic paper toward dissolving wood pulp (DWP) and packaging/specialties."
+    ],
+    "negatives": [
+      "Leverage spike to 7.0x: Net debt reached $2,050m against depressed $294m FY26 Adj EBITDA (-41% YoY).",
+      "Fitch BB Negative outlook (late 2026) citing extended deleveraging timeline; high downgrade risk to B+ band if FY27 EBITDA stays <$450m.",
+      "Structural European graphic paper decline, stronger ZAR vs USD headwinds, and $319m asset impairments (Matane mill) driving a $747m FY26 net loss."
+    ],
+    "background": {
+      "business_overview": "Global dissolving wood pulp (Saiccor), packaging/specialty paper, and graphic paper producer with ops in South Africa, US, and Europe.",
+      "asset_perimeter": "South Africa (Saiccor DWP), North America (Somerset/Cloquet), Europe (Maastricht/Gratkorn/etc.); notes issued via Sappi Papier Holding GmbH.",
+      "ownership_governance": "JSE-listed public industrial; diversified international shareholder base."
+    },
+    "recent_drivers": [
+      "06-Nov-26 (FY2026 Results): Revenue $5,277m (-3% YoY), Adj EBITDA $294m (-41% YoY), Net Loss $747m (incl. $319m impairments), Net Debt $2,050m (7.0x), Liquidity $707m.",
+      "Late 2026 Rating Action: Fitch revised BB IDR outlook to Negative (Senior Unsecured BB / RR4) on delayed deleveraging."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "Q1 FY27 Results & Covenant Headroom Update",
+        "impact": "Tests whether Q4's $99m EBITDA run-rate holds and confirms RCF financial covenant waivers/headroom at 7.0x."
+      },
+      {
+        "date": "H1 2027",
+        "event": "Fitch Rating Review vs 4.5x-5.0x Downgrade Trigger",
+        "impact": "Downgrade to BB- / B+ risk if DWP prices and Somerset ramp disappoint."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm RCF net-leverage maintenance covenant thresholds and any waivers/amendments negotiated given 7.0x FY26 trailing leverage.",
+      "focus_area": "Covenants",
+      "relevance": "Critical liquidity safeguard for accessing the $542m undrawn RCF.",
+      "conviction_trigger": "Confirmed waiver or >1.5x covenant cushion."
+    },
+    {
+      "question": "Provide FY27 capex step-down post-Somerset PM2 completion and working-capital release targets to halt net debt growth.",
+      "focus_area": "FCF & Deleveraging",
+      "relevance": "Turning FCF positive is mandatory to stabilize BB rating.",
+      "conviction_trigger": "FY27 FCF >$150m and net debt <$1.9bn."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "Coverage Initiated: FY2026 Results (06-Nov-26) & Fitch BB Negative Outlook",
+      "source": "Sappi FY26 Results (06-Nov-26) / Fitch Ratings",
+      "status": "Initial Coverage",
+      "summary": "Added Sappi Limited (BB Neg Fitch). FY26 revenue $5,277m, Adj EBITDA $294m (-41% YoY), net loss $747m, net debt $2,050m (7.0x trailing leverage), liquidity $707m."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-05",
+    "period_reporting": "Q1 FY 2027",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Johannesburg",
+    "ir_webcast_url": "https://www.sappi.com/investors",
+    "days_to_earnings": 76
+  },
+  "market_history": [
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "BB Neg (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.08,
+      "ebitda": 684.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

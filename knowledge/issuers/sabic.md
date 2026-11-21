@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/sabic.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 14-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- SABIC 4.50% 2028: price 98.8, YTM 5.05%, spread 100bp (as of 2026-09-19).
+- SABIC 4.50% 2028: price 98.8, YTM 5.05%, spread 100bp (as of 2026-11-21).
 - Rating as recorded: A1 / A+.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

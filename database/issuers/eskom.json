@@ -7,16 +7,16 @@
     "region": "Africa",
     "sector": "Utilities",
     "type": "corp",
-    "rating": "B / B-",
+    "rating": "B+ (Fitch) / B2 (Moody's) / B (S&P)",
     "tier": "Tier-2",
-    "benchmark_bond": "ESKOM 7.125% 2025",
+    "benchmark_bond": "ESKOM 6.35% 2028",
     "price": 99.0,
     "ytm": 8.5,
     "spread_bp": 445,
     "model_file": "Eskom_Holdings_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-812e-9b74-ebca484805d9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Eskom_Holdings_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-21",
     "model_type": "corp",
     "fcf_2024a": -1991.7,
     "net_leverage_2024a": 6.8
@@ -562,18 +562,16 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Outline the FY27-FY28 funding plan in ZAR and USD once the R254bn Eskom Debt Relief Act programme concludes.",
+      "focus_area": "Post-Relief Funding",
+      "relevance": "Determines market issuance supply and unguaranteed vs guaranteed spread differential.",
+      "conviction_trigger": "Clear sovereign guarantee/borrowing framework."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "What enforcement or Treasury offset mechanism exists to stem municipal arrears now exceeding R119bn?",
+      "focus_area": "Working Capital",
+      "relevance": "Arrears directly erode operating cash flow despite tariff hikes.",
+      "conviction_trigger": "Stabilizing or declining municipal receivable balance."
     }
   ],
   "market_history": [
@@ -1161,6 +1159,19 @@
       "ebitda": 2200.0,
       "fcf": -1991.7,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "B+ (Fitch) / B2 (Moody's) / B (S&P)",
+      "price": 99.0,
+      "ytm": 8.5,
+      "spread_bp": 445,
+      "net_leverage": 6.8,
+      "ebitda": 2200.0,
+      "fcf": -1991.7,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1247,5 +1258,57 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Stable-to-Improving (Sovereign & Guarantee Driven)",
+      "target_price": null,
+      "current_price": 99.0,
+      "ytm": 8.5,
+      "spread_bp": 445,
+      "summary": "State-backed South African utility with weak standalone profile (ccc+ / caa1) but improving operations: no load-shedding since May-25, 67.55% EAF (Apr-Aug 26), and second straight profitable year with FY26 PAT more than doubling to R30.3bn. Fitch upgraded Eskom IDR to B+ (guaranteed BB) in Jun-26 alongside the sovereign; municipal arrears (>R119bn) and post-relief funding remain key risks."
+    },
+    "positives": [
+      "Operational turnaround: Second consecutive profit \u2014 FY26 PAT doubled to R30.3bn (vs restated R14.0bn FY25); zero load-shedding since 16-May-25.",
+      "Rating upgrade: Fitch upgraded IDR/unsecured to B+ Stable (guaranteed BB) in Jun-26 following South Africa's sovereign upgrade.",
+      "Regulatory support: Multi-year tariff hikes (12.74% in FY26, 8.76% in 26/27, 8.83% in 27/28) plus R54.7bn error-correction recovery and R254bn Treasury Debt Relief Act."
+    ],
+    "negatives": [
+      "Swelling municipal arrears: Unpaid municipal debt exceeded R119bn by mid-2026, draining cash conversion.",
+      "Declining industrial sales volumes and heavy capex requirements as the R254bn Treasury debt relief programme winds down.",
+      "Weak standalone credit profile (Fitch ccc+ / Moody's caa1) leaves spreads tied to sovereign support and guarantee status."
+    ],
+    "background": {
+      "business_overview": "South Africa's vertically integrated national electricity utility (generation, transmission unbundling, distribution).",
+      "asset_perimeter": "Sovereign-guaranteed and unguaranteed USD Eurobonds plus domestic ZAR bonds under Treasury debt relief oversight.",
+      "ownership_governance": "100% state-owned SOC; explicit and implicit sovereign linkage."
+    },
+    "recent_drivers": [
+      "FY2026 Results: Group PAT surged to R30.3bn (vs R14.0bn FY25) on improved plant availability (67.55%) and CORE cost cuts.",
+      "Jun 2026 Rating Action: Fitch upgraded Eskom IDR to B+ (from B) and guaranteed debt to BB, Stable outlook.",
+      "Municipal Arrears: Escalated above R119bn despite improved generation reliability."
+    ],
+    "catalysts": [
+      {
+        "date": "Nov 2026 - Mar 2027",
+        "event": "FY27 Interim Statements & Treasury Debt Relief Tranches",
+        "impact": "Clarifies post-relief FY27-FY28 funding plan and debt path toward R300bn target."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Municipal Debt Relief & Arrears Collection Enforcement",
+        "impact": "Reducing >R119bn arrears is critical for standalone FCF sustainability."
+      }
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "FY2026 Profit Surge & Fitch B+ Upgrade Sync",
+      "source": "Eskom FY26 Release / Fitch (Jun-26) / Pipeline Report (09-Oct-26)",
+      "status": "Desk Update",
+      "summary": "FY26 PAT more than doubled to R30.3bn; Fitch upgraded Eskom IDR to B+ (guaranteed BB) in Jun-26; municipal arrears >R119bn. Corrected benchmark to ESKOM 6.35% 2028 (prior 2025 bond matured)."
+    }
+  ]
 }

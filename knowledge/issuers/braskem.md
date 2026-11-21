@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/braskem.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 14-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- BRASKM 4.500% 2030: price 48.6, YTM 19.8%, spread 1580bp (as of 2026-09-23).
-- Rating as recorded: RD / D.
+- BRASKM 4.500% 2030: price 51.8, YTM 19.8%, spread 1580bp (as of 2026-11-21).
+- Rating as recorded: D (S&P) / RD (Fitch) / Ca (Moody's).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

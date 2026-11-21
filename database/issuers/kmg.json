@@ -7,16 +7,16 @@
     "region": "Central Asia",
     "sector": "Energy",
     "type": "corp",
-    "rating": "BBB- / Baa2",
+    "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
     "tier": "Tier-1",
-    "benchmark_bond": "KZOK 5.75% 2047",
+    "benchmark_bond": "KZOK 5.375% 2030",
     "price": 88.5,
     "ytm": 6.75,
     "spread_bp": 270,
     "model_file": "KazMunayGas_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-818b-85b0-ee9babc66ba8",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/KazMunayGas_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-21",
     "model_type": "corp",
     "fcf_2024a": 451.7,
     "net_leverage_2024a": 1.45
@@ -563,18 +563,16 @@
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      "question": "Confirm tenor, coupon, liquidity, and net-debt treatment of the Samruk-Kazyna coupon bonds purchased in 1H26.",
+      "focus_area": "Parent Exposure",
+      "relevance": "Clarifies whether KZT 983bn net debt reflects illiquid parent funding.",
+      "conviction_trigger": "Liquid marketability and no further parent cash drain."
     },
     {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Update H2-26/2027 production guidance post-CPC disruption and expected 2027 Tengizchevroil dividends.",
+      "focus_area": "Cash Flow & Volumes",
+      "relevance": "Tests FCF resilience at $70-75 Brent.",
+      "conviction_trigger": "Full recovery to >=96mt and higher TCO distributions."
     }
   ],
   "market_history": [
@@ -1162,6 +1160,19 @@
       "ebitda": 4800.0,
       "fcf": 451.7,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
+      "price": 88.5,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "net_leverage": 1.45,
+      "ebitda": 4800.0,
+      "fcf": 451.7,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1266,5 +1277,57 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Stable-to-Improving (IG Quasi-Sovereign)",
+      "target_price": null,
+      "current_price": 88.5,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "summary": "S&P upgraded KMG to BBB Stable (SACP to bbb-) on 02-Sep-26 alongside Kazakhstan's sovereign upgrade. 1H26 revenue hit KZT 5,568bn with EBITDA KZT 1,655bn (+45% YoY) and FCF KZT 765bn, backed by Tengizchevroil JV dividends. Proactively tendered $500m of 2030 USD notes and priced CNY 3.5bn Dim Sum bonds at 2.3%-2.8% coupons. Key risks: CPC export disruptions and Samruk-Kazyna bond holdings."
+    },
+    "positives": [
+      "Rating uplift: Upgraded by S&P to BBB Stable (SACP bbb-) in Sep-26; Moody's Baa1 Stable, Fitch BBB Stable.",
+      "Strong 1H26 cash generation: Revenue KZT 5,568bn, EBITDA KZT 1,655bn (+45% YoY), FCF KZT 765bn supported by KZT 500bn TCO dividends.",
+      "Proactive liability management: Tendered $500m of $1.25bn 5.375% 2030 notes and issued CNY 3.5bn (~$490m) 5Y/10Y Dim Sum bonds at 2.3%-2.8%."
+    ],
+    "negatives": [
+      "Export & output vulnerability: CPC pipeline disruption cut July output 14% MoM and trimmed 2026 target to 96mt (from 98mt).",
+      "Related-party liquidity question: Net debt rose to KZT 983bn as cash was deployed into parent Samruk-Kazyna coupon bonds.",
+      "Legacy repo 2021A-2024A USD table is unverified and needs filing rebuild."
+    ],
+    "background": {
+      "business_overview": "Kazakhstan's national oil & gas company with upstream (incl. TCO, Kashagan, Karachaganak stakes), pipelines, and refining.",
+      "asset_perimeter": "State-backed integrated oil & gas group with USD Eurobonds and CNY Dim Sum issuances.",
+      "ownership_governance": "Majority owned by Samruk-Kazyna (sovereign wealth fund) and NBK."
+    },
+    "recent_drivers": [
+      "Sep 2026: S&P upgraded KMG to BBB Stable (SACP bbb-); priced CNY 3.5bn dual-tranche Dim Sum Eurobond (2.3% 5Y / 2.8% 10Y) off >CNY 25bn book.",
+      "1H 2026 Results: Revenue KZT 5,568bn, EBITDA KZT 1,655bn (+45% YoY), FCF KZT 765bn, TCO JV dividends KZT 500bn.",
+      "Early Tender: Accepted $500m of $1.25bn 5.375% 2030 USD notes."
+    ],
+    "catalysts": [
+      {
+        "date": "Nov 2026 - Mar 2027",
+        "event": "9M / FY2026 IFRS Results & TCO Expansion Cash Flows",
+        "impact": "Confirms post-CPC disruption recovery and Tengizchevroil dividend step-up."
+      },
+      {
+        "date": "Ongoing",
+        "event": "CPC Pipeline Throughput Stability",
+        "impact": "Single largest operational swing factor for Kazakh export volumes."
+      }
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "S&P BBB Upgrade, CNY 3.5B Dim Sum Issue & 1H26 Results",
+      "source": "KMG IR / KASE / S&P (Sep-26) / Pipeline Report (09-Oct-26)",
+      "status": "Desk Update",
+      "summary": "Upgraded to BBB by S&P (02-Sep-26); 1H26 revenue KZT 5,568bn, EBITDA KZT 1,655bn (+45%), FCF KZT 765bn; tendered $500m of 2030s and issued CNY 3.5bn Dim Sum bonds. Updated ratings to BBB / Baa1 / BBB."
+    }
+  ]
 }

@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/eskom.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 14-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ESKOM 7.125% 2025: price 99.0, YTM 8.5%, spread 445bp (as of 2026-09-19).
-- Rating as recorded: B / B-.
+- ESKOM 6.35% 2028: price 99.0, YTM 8.5%, spread 445bp (as of 2026-11-21).
+- Rating as recorded: B+ (Fitch) / B2 (Moody's) / B (S&P).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

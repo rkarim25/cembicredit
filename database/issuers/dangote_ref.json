@@ -7,16 +7,16 @@
     "region": "Africa",
     "sector": "Energy",
     "type": "corp",
-    "rating": "B / B2",
+    "rating": "B / B3 / B (Sovereign-Capped)",
     "tier": "B",
-    "benchmark_bond": "DANREF 12.50% 2029",
+    "benchmark_bond": "DAPERE 7.50% 2031 ($750m)",
     "price": 95.0,
     "ytm": 12.5,
     "spread_bp": 815,
     "model_file": "Dangote_Refinery_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6810dbe29cf68d8e1ebf3",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dangote_Refinery_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-21",
     "model_type": "corp",
     "fcf_2024a": -735.0,
     "net_leverage_2024a": 2.43
@@ -574,18 +574,16 @@
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      "question": "Confirm OM covenant restrictions on restricted payments, DIL loan repayments ($3.99bn), and ring-fencing from Lamu/expansion capex.",
+      "focus_area": "Covenants & Related Parties",
+      "relevance": "Prevents bondholder cash leakage to parent or greenfield projects.",
+      "conviction_trigger": "Strict RP basket and non-recourse expansion limits."
     },
     {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Provide 12-month contracted crude slate (NNPC domestic vs imported) and naira/USD payment split.",
+      "focus_area": "Feedstock & FX",
+      "relevance": "30-40% imported crude creates FX/working-capital vulnerability.",
+      "conviction_trigger": "Secured USD export offset or domestic supply >=80%."
     }
   ],
   "market_history": [
@@ -1173,6 +1171,19 @@
       "ebitda": 100.0,
       "fcf": -735.0,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "B / B3 / B (Sovereign-Capped)",
+      "price": 95.0,
+      "ytm": 12.5,
+      "spread_bp": 815,
+      "net_leverage": 2.43,
+      "ebitda": 100.0,
+      "fcf": -735.0,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1277,5 +1288,57 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Neutral / Watch Crude Supply & Capex",
+      "target_price": null,
+      "current_price": 95.0,
+      "ytm": 12.5,
+      "spread_bp": 815,
+      "summary": "650kbpd Lekki mega-refinery ramped rapidly in 1H26 (~$1.8bn reported PAT vs FY25 $476m loss), trimming total debt to $5.67bn (from $6.24bn at Dec-25) and reporting 0.27x net debt/EBITDA alongside its inaugural $750m 7.50% Jul-2031 144A notes and Oct-26 IPO. Key risks: 30-40% imported crude reliance, $3.99bn DIL related-party debt, ambitious $15-16bn expansion plans, and Nigeria sovereign ceiling."
+    },
+    "positives": [
+      "Rapid operational ramp: 1H26 PAT ~$1.8bn (helped by regional refining cracks) reduced gross debt to $5.67bn at 30-Jun-26 (from $6.24bn Dec-25).",
+      "Capital market validation: Priced inaugural $750m 7.50% 2031 senior notes (Jul-26) and launched Oct-26 IPO equity raise.",
+      "Strategic domestic scale (650kbpd nameplate) replacing Nigerian refined product imports."
+    ],
+    "negatives": [
+      "Crude feedstock bottleneck: 30-40% imported crude required as Nigerian crude is heavily encumbered by oil-backed pre-export loans.",
+      "Related-party & expansion overhang: $3.99bn loans from parent DIL (Dec-25), potential $15-16bn expansion / 1.4mbpd target, and Kenyan/legal headlines.",
+      "Nigeria sovereign ceiling (B / B3 / B) exposes naira-vs-dollar mismatch risks; legacy repo financials are unverified."
+    ],
+    "background": {
+      "business_overview": "650,000 bpd integrated crude refinery and petrochemical complex in Lekki Free Zone, Lagos, Nigeria.",
+      "asset_perimeter": "Dangote Petroleum Refinery & Petrochemicals FZE; $750m 7.50% 2031 144A notes.",
+      "ownership_governance": "Dangote Industries Limited (DIL) parent; Oct-26 partial IPO."
+    },
+    "recent_drivers": [
+      "Jul 2026: Issued $750m 7.50% senior notes due 16-Jul-2031.",
+      "1H 2026 Results: Reported ~$1.8bn PAT, total debt $5.67bn (vs $6.24bn Dec-25), company-reported 0.27x net leverage.",
+      "Oct 2026: IPO closed Oct-26; expansion ambitions ($15-16bn / Lamu headlines) under scrutiny."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited Statements & IPO Proceeds Allocation",
+        "impact": "Verifies normalized through-cycle margins, DIL loan paydown, and cash conversion."
+      },
+      {
+        "date": "Ongoing",
+        "event": "NNPC Naira-for-Crude Contract & Utilisation Rate",
+        "impact": "Determines FX mismatch risk and reliance on imported crude."
+      }
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "Inaugural 7.50% 2031 Notes, 1H26 Ramp & Oct-26 IPO Sync",
+      "source": "Pipeline Report (09-Oct-26) / Press Disclosures",
+      "status": "Desk Update",
+      "summary": "Updated benchmark to DAPERE 7.50% 2031 ($750m 144A issued Jul-26); 1H26 debt reduced to $5.67bn with ~$1.8bn PAT vs FY25 -$476m loss. Legacy repo table flagged pending audited FY26 rebuild."
+    }
+  ]
 }

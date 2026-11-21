@@ -16,7 +16,7 @@
     "model_file": "Tullow_Oil_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681c2ad7ddb4ae404fb62",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tullow_Oil_Credit_Model.xlsx",
-    "last_updated": "2026-10-07",
+    "last_updated": "2026-11-21",
     "cognitive_credit_id": "tullowoil",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description",
     "model_type": "corp",
@@ -1294,6 +1294,19 @@
       "ebitda": 1008.1,
       "fcf": 141.8,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "CCC+ / CCC+ / Caa2",
+      "price": 97.0,
+      "ytm": 16.5,
+      "spread_bp": 1180,
+      "net_leverage": 1.41,
+      "ebitda": 1008.1,
+      "fcf": 141.8,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1490,8 +1503,15 @@
     "last_reconciled": "2026-09-20"
   },
   "credit_view": {
-    "last_updated": "2026-10-07",
-    "verdict": "Overweight / Selective Add at ~97.0\u00a2 (~16.5% YTM). The 1H26 operational turnaround (EBITDA $464M vs $303M in 1H25, gross Jubilee 71kboepd, 2P reserves +22% to 122mmboe) is strong, but temporarily overshadowed by the 30-Sep ICC $393M tax arbitration ruling. The market selloff to ~97pt over-discounts the liability given $500M short-term liquidity firepower, ongoing Ghana MinFin amicable negotiations, and 15.00% all-in quarterly coupon carry.",
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Neutral / Cautious (Overweight Withdrawn)",
+      "target_price": null,
+      "current_price": 97.0,
+      "ytm": 16.5,
+      "spread_bp": 1180,
+      "summary": "Overweight withdrawn per 05-Nov-26 review. While Jubilee/TEN operations improved (1H26 EBITDA $464M, >99% FPSO uptime) and Apr-26 refinancing pushed maturities to Nov-28, the ICC tribunal upheld the full $393.09m Ghana tax award (~30% of year-end net debt, exceeding $170-250m 2026 FCF guidance). Settlement structure (cash vs gas/tax offset) is decisive against ~$0.3bn liquidity headroom."
+    },
     "positives": [
       "Jubilee Field Operational Outperformance: Gross production reached ~71kboepd in 1H26 (+16% YoY) with >99% FPSO uptime; Kosmos guides 2H26 exit rate of 82-87kboepd following J77-P and J73-WI wells.",
       "Significant Reserve Upgrade: 2P reserves grew to ~122mmboe (vs ~100mmboe at YE25) driven by licence extensions to 2040, delivering a reserve replacement ratio of >380%.",
@@ -1506,7 +1526,11 @@
       "Working Capital Outflows in 1H26: 1H26 FCF was constrained to $4M due to $105M working capital drain (payables reduction) and $70M arrangement fees."
     ],
     "background": "Tullow Oil plc is an independent oil & gas exploration and production company anchored on world-class offshore assets in Ghana (Jubilee and TEN fields). Following comprehensive capital structure restructuring and licence extensions to 2040, Tullow operates with 2P reserves of ~122mmboe and low lifting costs.",
-    "recent_drivers": "1H26 EBITDA rebounded to $464M (from $303M in 1H25) on $86/bbl realized hedged oil price and Jubilee expansion. On 30-Sep-2026, the ICC ruled against Tullow on business interruption insurance tax assessments, awarding $196.5M plus 100% penalties ($393M total). TLWLN 28s fell ~5pt to ~97pt. Ghana Finance Minister issued an explicit reassurance of amicable settlement to preserve ongoing investment capacity.",
+    "recent_drivers": [
+      "ICC Tax Arbitration: Tribunal upheld $393.09m assessment (tax + 100% penalty); Ghana MoF committed to implement while preserving Jubilee/TEN investment.",
+      "Nov 2026 Operational Update: Focused on Jubilee/TEN uptime, 2025-26 drilling campaign execution, and managing 2026 debt/cash flow guidance.",
+      "Debt Runway: Apr-26 refinancing (TLWLN 10.25% Nov-28 + Glencore junior notes) removed near-term maturities before Nov-28."
+    ],
     "catalysts": [
       "Ghana Tax Amicable Settlement (Q4 2026 / Q1 2027): Agreement on multi-year payment schedule or offset against future gas sales.",
       "2H26 Cash Generation & Receivables Inflow: Projected $170-250M full-year FCF back-loaded into 2H26.",
@@ -1520,6 +1544,13 @@
     ]
   },
   "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "05-Nov-26 Report Alignment & Nov-26 Operational Update",
+      "source": "Pipeline Report (05-Nov-26) / Tullow Nov-26 Trading Update",
+      "status": "Desk Synthesis",
+      "summary": "Converted credit_view.verdict to structured schema and aligned stance to Neutral/Cautious following the $393.09m ICC Ghana tax award against ~$0.3bn liquidity headroom, despite solid Jubilee/TEN uptime and Nov-28 maturity runway."
+    },
     {
       "date": "2026-10-07",
       "title": "Tullow Oil (TLWLN 28) \u2014 1H26 Earnings Review, Tax Arbitration Assessment & Scenario Analysis",

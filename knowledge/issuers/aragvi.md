@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/aragvi.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 14-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ARAGVI 12.15% 2026: price 89.0, YTM 12.15%, spread 780bp (as of 2026-09-23).
-- Rating as recorded: B / B-.
+- ARAGVI 11.125% 2029: price 89.0, YTM 12.15%, spread 780bp (as of 2026-11-21).
+- Rating as recorded: B- (S&P Neg) / B- (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

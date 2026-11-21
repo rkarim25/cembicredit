@@ -65,15 +65,15 @@ function initScreener() {
 
 function updateKPIs() {
   const total = MASTER_ISSUERS.length;
-  const spreads = MASTER_ISSUERS.map(i => i.metadata.spread_bp);
-  const ytms = MASTER_ISSUERS.map(i => i.metadata.ytm);
+  const spreads = MASTER_ISSUERS.map(i => i.metadata.spread_bp).filter(v => v != null && !Number.isNaN(Number(v)));
+  const ytms = MASTER_ISSUERS.map(i => i.metadata.ytm).filter(v => v != null && !Number.isNaN(Number(v)));
   
-  const medSpread = Math.round(spreads.sort((a,b)=>a-b)[Math.floor(total/2)]);
-  const medYtm = (ytms.sort((a,b)=>a-b)[Math.floor(total/2)]).toFixed(2);
-  const distressed = MASTER_ISSUERS.filter(i => i.metadata.spread_bp >= 600).length;
+  const medSpread = spreads.length ? Math.round(spreads.sort((a,b)=>a-b)[Math.floor(spreads.length/2)]) : 0;
+  const medYtm = ytms.length ? (ytms.sort((a,b)=>a-b)[Math.floor(ytms.length/2)]).toFixed(2) : 'n/a';
+  const distressed = MASTER_ISSUERS.filter(i => i.metadata.spread_bp != null && i.metadata.spread_bp >= 600).length;
   
   document.getElementById("kpi-total").textContent = total;
-  document.getElementById("kpi-ytm").textContent = medYtm + "%";
+  document.getElementById("kpi-ytm").textContent = medYtm === 'n/a' ? 'n/a' : (medYtm + "%");
   document.getElementById("kpi-spread").textContent = "+" + medSpread + " bp";
   document.getElementById("kpi-distress").textContent = distressed + " Issuers (" + Math.round(distressed/total*100) + "%)";
 }
@@ -139,7 +139,7 @@ function applyFilters() {
     if (reg && m.region !== reg) return false;
     if (rat && !m.rating.includes(rat)) return false;
     
-    if (m.spread_bp < minSpread) return false;
+    if (minSpread > 0 && (m.spread_bp == null || m.spread_bp < minSpread)) return false;
     
     if (currentView === 'corp') {
       const f24 = item.financials_multi_year.find(f => f.period === '2024A');
@@ -176,9 +176,9 @@ function sortData() {
 
 function getVal(item, col) {
   const m = item.metadata;
-  if (col in m) return m[col];
+  if (col in m) return m[col] == null ? -Infinity : m[col];
   const f24 = item.financials_multi_year.find(f => f.period === '2024A') || {};
-  if (col in f24) return f24[col];
+  if (col in f24) return f24[col] == null ? -Infinity : f24[col];
   return 0;
 }
 
@@ -292,7 +292,10 @@ function renderTable() {
     
     let ratingBadge = "badge-hy";
     if (m.rating.includes("BBB") || m.rating.includes("A")) ratingBadge = "badge-ig";
-    else if (m.rating.includes("CCC") || m.rating.includes("D") || m.spread_bp >= 700) ratingBadge = "badge-stress";
+    else if (m.rating.includes("CCC") || m.rating.includes("D") || (m.spread_bp != null && m.spread_bp >= 700)) ratingBadge = "badge-stress";
+    const pxTxt = m.price != null ? '$' + Number(m.price).toFixed(2) : 'n/a';
+    const ytmTxt = m.ytm != null ? Number(m.ytm).toFixed(2) + '%' : 'n/a';
+    const spdTxt = m.spread_bp != null ? '+' + m.spread_bp : 'n/a';
     
     let html = `
       <td style="white-space:nowrap;"><strong>${m.ticker}</strong><button id="btn-model-${m.id}" class="btn-action" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Model" style="font-size:10px; padding:1px 5px; margin-left:6px; background:rgba(245,158,11,0.18); border:1px solid #f59e0b; color:#fbbf24; border-radius:3px; cursor:pointer; font-weight:700;">⚡ Model</button></td>
@@ -311,9 +314,9 @@ function renderTable() {
       <td><span class="badge badge-sector">${m.sector}</span></td>
       <td><span class="badge ${ratingBadge}">${m.rating}</span></td>
       <td>${m.benchmark_bond}</td>
-      <td class="num">$${m.price.toFixed(2)}</td>
-      <td class="num"><strong>${m.ytm.toFixed(2)}%</strong></td>
-      <td class="num"><strong>+${m.spread_bp}</strong></td>
+      <td class="num">${pxTxt}</td>
+      <td class="num"><strong>${ytmTxt}</strong></td>
+      <td class="num"><strong>${spdTxt}</strong></td>
     `;
     
     if (currentView === 'corp') {
@@ -380,11 +383,11 @@ function renderTable() {
                 <span style="color:#cbd5e1;">|</span>
                 <span style="color:var(--text-dim);">Benchmark:</span> <strong style="color:var(--accent-gold);">${m.benchmark_bond}</strong>
                 <span style="color:#cbd5e1;">|</span>
-                <span style="color:var(--text-dim);">Clean Px:</span> <strong style="color:var(--text-main);">$${m.price.toFixed(2)}</strong>
+                <span style="color:var(--text-dim);">Clean Px:</span> <strong style="color:var(--text-main);">${pxTxt}</strong>
                 <span style="color:#cbd5e1;">|</span>
-                <span style="color:var(--text-dim);">YTM:</span> <strong style="color:var(--accent-gold);">${m.ytm.toFixed(2)}%</strong>
+                <span style="color:var(--text-dim);">YTM:</span> <strong style="color:var(--accent-gold);">${ytmTxt}</strong>
                 <span style="color:#cbd5e1;">|</span>
-                <span style="color:var(--text-dim);">Spread:</span> <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong>
+                <span style="color:var(--text-dim);">Spread:</span> <strong style="color:var(--accent-blue);">${spdTxt === 'n/a' ? 'n/a' : spdTxt + ' bp'}</strong>
                 ${(() => {
                   const hist = sourcedHistory(item);
                   if (!hist || hist.length < 2) return `<span style="font-size:10px; padding:2px 6px; border-radius:3px; border:1px solid #cbd5e1; color:#64748b; margin-left:4px; font-weight:normal;" title="No sourced spread history on record; capture levels via [BBG]">history: none sourced</span>`;
@@ -2227,11 +2230,11 @@ window.openInstitutionalModel = function(issuerId, targetSheet = 'sheet-fin') {
     <span style="color:#cbd5e1;">|</span>
     <span>Benchmark: <strong style="color:var(--accent-gold);">${m.benchmark_bond}</strong></span>
     <span style="color:#cbd5e1;">|</span>
-    <span>Price: <strong style="color:var(--text-main);">$${m.price.toFixed(2)}</strong></span>
+    <span>Price: <strong style="color:var(--text-main);">${m.price != null ? '$' + Number(m.price).toFixed(2) : 'n/a'}</strong></span>
     <span style="color:#cbd5e1;">|</span>
-    <span>YTM: <strong style="color:var(--accent-gold);">${m.ytm.toFixed(2)}%</strong></span>
+    <span>YTM: <strong style="color:var(--accent-gold);">${m.ytm != null ? Number(m.ytm).toFixed(2) + '%' : 'n/a'}</strong></span>
     <span style="color:#cbd5e1;">|</span>
-    <span>Spread: <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong></span>
+    <span>Spread: <strong style="color:var(--accent-blue);">${m.spread_bp != null ? '+' + m.spread_bp + ' bp' : 'n/a'}</strong></span>
     <span style="color:#cbd5e1;">|</span>
     <span>2024A Net Lev: <strong style="color:var(--text-main);">${f24.net_leverage ? f24.net_leverage.toFixed(2) + 'x' : 'N/A'}</strong></span>
   `;
@@ -2953,9 +2956,9 @@ function renderSheetSummary(item) {
       
       <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
         <div style="font-size:10.5px; color:var(--text-dim); text-transform:uppercase; margin-bottom:4px;">Benchmark Secondary Pricing</div>
-        <div style="font-size:18px; font-weight:700; color:var(--accent-gold);">$${m.price.toFixed(2)}</div>
+        <div style="font-size:18px; font-weight:700; color:var(--accent-gold);">${m.price != null ? '$' + Number(m.price).toFixed(2) : 'n/a'}</div>
         <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px;">
-          YTM: <strong>${m.ytm.toFixed(2)}%</strong> | Spread: <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong>
+          YTM: <strong>${m.ytm != null ? Number(m.ytm).toFixed(2) + '%' : 'n/a'}</strong> | Spread: <strong style="color:var(--accent-blue);">${m.spread_bp != null ? '+' + m.spread_bp + ' bp' : 'n/a'}</strong>
         </div>
       </div>
 

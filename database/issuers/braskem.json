@@ -7,16 +7,16 @@
     "region": "Latin America",
     "sector": "Materials",
     "type": "corp",
-    "rating": "RD / D",
+    "rating": "D (S&P) / RD (Fitch) / Ca (Moody's)",
     "tier": "Distressed",
     "benchmark_bond": "BRASKM 4.500% 2030",
-    "price": 48.6,
+    "price": 51.8,
     "ytm": 19.8,
     "spread_bp": 1580,
     "model_file": "Braskem_Credit_Model.xlsx",
     "notion_id": "3e31d0ad68c6819baaa2de6d03346ec9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Braskem_Credit_Model.xlsx",
-    "last_updated": "2026-09-23",
+    "last_updated": "2026-11-21",
     "cognitive_credit_id": "braskem",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/braskem/description",
     "model_type": "corp",
@@ -1537,6 +1537,92 @@
       "ebitda": 5759.0,
       "fcf": -2330.0,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "D (S&P) / RD (Fitch) / Ca (Moody's)",
+      "price": 51.8,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "net_leverage": 10.2,
+      "ebitda": 5759.0,
+      "fcf": -2330.0,
+      "guidance_status": "Under Watch"
+    }
+  ],
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Distressed / Restructuring Watch (Formal RJ Risk)",
+      "target_price": null,
+      "current_price": 51.8,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "summary": "Severe restructuring crisis escalated on 16-Nov-26 when creditors formally rejected Braskem's restructuring proposal ($1.1B-$1.4B shareholder injection + $2.9B-$3.8B debt-to-equity swap over ~$10.9B unsecured debt). Q3 2026 recurring EBITDA plunged 63% QoQ to $382M with a $206M net loss and auditor going-concern warnings. Bonds trade ~50-53c (2050s ~45-46c) ahead of late-Nov judicial deadline."
+    },
+    "positives": [
+      "Scale petrochemical platform with strategic Brazilian ethylene/polyolefin market share and integrated feedstocks.",
+      "Petrobras (significant minority/co-controlling shareholder) provides political/supply-chain relevance, though rescue equity remains contested.",
+      "Unsecured bond prices at ~50-53c price in steep haircuts; organized ad-hoc creditor committee actively negotiating recovery terms."
+    ],
+    "negatives": [
+      "16-Nov-26 Creditor Rejection: Bondholders/creditors rejected the proposed $1.1B-$1.4B capital raise + $2.9B-$3.8B D2E swap, raising immediate risk of formal Brazilian judicial recovery (RJ).",
+      "Severe earnings & cash burn: Q3 2026 recurring EBITDA collapsed 63% QoQ to $382M; $206M net loss; auditors flagged going-concern uncertainty.",
+      "Default status across all agencies: S&P D (26-Jun-26 standstill), Fitch RD (14-Aug-26 missed grace period), Moody's Ca Negative (Aug-26).",
+      "Ongoing Alagoas geological liabilities and Mexico (Braskem Idesa) ring-fencing/structural complexities."
+    ],
+    "background": {
+      "business_overview": "Largest thermoplastic resin producer in the Americas operating petrochemical crackers and polyolefin plants in Brazil, US, Europe, and Mexico (Braskem Idesa JV).",
+      "asset_perimeter": "Brazilian core assets, Braskem America (PP), Europe PP, and 75%-owned non-recourse Braskem Idesa (Mexico). Senior notes issued via Braskem Netherlands Finance B.V.",
+      "ownership_governance": "Novonor (controlling voting shareholder, bank-pledged shares) and Petrobras (co-controlling / major shareholder) locked in protracted governance and equity-injection negotiations."
+    },
+    "recent_drivers": [
+      "16-Nov-26: Creditors formally rejected Braskem's extrajudicial restructuring plan ($1.1B-$1.4B equity + $2.9B-$3.8B D2E on $10.9B unsecured debt); stock fell 14%.",
+      "Q3 2026 earnings: Recurring EBITDA dropped 63% sequentially to $382M on compressed global petrochemical spreads; net loss $206M with auditor going-concern doubts.",
+      "Jun-Aug 2026: Court-ordered 60-day standstill and expired interest grace periods triggered S&P D, Fitch RD, and Moody's Ca downgrades."
+    ],
+    "catalysts": [
+      {
+        "date": "Late Nov 2026",
+        "event": "Extrajudicial Restructuring (EJ) Creditor Threshold Deadline",
+        "impact": "Binary: revised deal >50% creditor support avoids formal RJ bankruptcy; failure triggers full judicial recovery."
+      },
+      {
+        "date": "Q4 2026",
+        "event": "Petrobras / Novonor Equity Commitment Resolution",
+        "impact": "Determines new money size ($1.1B-$1.4B+) and post-reorg bondholder equity recovery split."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Following the 16-Nov-26 creditor rejection, what revised D2E conversion ratio, new-money backstop, and takeback paper terms are on the table before the late-Nov deadline?",
+      "focus_area": "Restructuring Terms",
+      "relevance": "Directly determines bondholder recovery relative to ~50-53c cash prices.",
+      "conviction_trigger": "Revised proposal securing >50% ad-hoc group lock-up."
+    },
+    {
+      "question": "How much unencumbered cash remains at Braskem HoldCo vs Braskem Idesa and foreign subsidiaries to fund operations if formal RJ is filed?",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Assesses DIP financing need vs operational continuity under RJ.",
+      "conviction_trigger": "Unencumbered liquidity >$1.0bn ex-Idesa."
+    },
+    {
+      "question": "What is the updated cash outflow schedule for Alagoas provisions over 2027-2029, and do they rank senior/pari in an RJ waterfall?",
+      "focus_area": "Liability Priority",
+      "relevance": "Alagoas claims directly dilute unsecured creditor recovery.",
+      "conviction_trigger": "Capped/ring-fenced settlement schedule."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "Creditor Rejection of Restructuring Plan (16-Nov-26) & Q3 2026 Earnings Collapse",
+      "source": "TradingView / ICIS / Fitch / S&P / Moody's (Nov 2026)",
+      "status": "Distressed Alert",
+      "summary": "Creditors formally rejected Braskem's $10.9B restructuring plan on 16-Nov-26 ahead of the late-Nov deadline. Q3 recurring EBITDA fell 63% QoQ to $382M ($206M net loss, auditor going-concern warning). Ratings: S&P D, Fitch RD, Moody's Ca Neg; 2028-2033 notes ~50-53c."
     }
   ]
 }

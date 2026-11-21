@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "id": "tbc",
+    "name": "TBC Bank Group Plc",
+    "ticker": "TBCG",
+    "country": "Georgia",
+    "region": "CEEMEA",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB (Fitch)",
+    "tier": "BB",
+    "benchmark_bond": "TBCG Perp AT1 / Senior ($300m)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "TBC_Bank_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/TBC_Bank_Credit_Model.xlsx",
+    "last_updated": "2026-11-21",
+    "model_type": "bank",
+    "financials_currency": "GEL",
+    "provenance": "financials built 21-Nov-26 from TBC Bank Group LSE filings (FY24, FY25, 9M26 released 06-Nov-26); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "GEL",
+      "source": "TBC Bank Group FY2024 Annual Report (LSE), read 21-Nov-26",
+      "assets": 40160.0,
+      "loans": 26700.0,
+      "deposits": 25000.0,
+      "net_profit": 1300.0,
+      "npl_pct": 2.2,
+      "cet1_pct": 16.8,
+      "car_pct": 23.8,
+      "observations": {
+        "notes": "FY24 net profit GEL 1.30bn (+15% YoY); Georgia standalone CET1 16.8%, Total CAR 23.8%, NPL 2.2%."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "GEL",
+      "source": "TBC Bank Group FY2025 Annual Report (LSE), read 21-Nov-26",
+      "assets": 43940.0,
+      "loans": 30200.0,
+      "deposits": 25700.0,
+      "net_profit": 1420.0,
+      "npl_pct": 2.5,
+      "cet1_pct": 16.5,
+      "car_pct": 23.0,
+      "observations": {
+        "notes": "FY25 net profit GEL 1.42bn (+9% YoY), gross loans GEL 30.2bn (+12% CC), deposits GEL 25.7bn (+13% CC); Fitch affirmed BB Stable."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "GEL",
+      "source": "TBC Bank Group Q3/9M 2026 Results (06-Nov-26, LSE RNS), read 21-Nov-26",
+      "net_profit": 1155.0,
+      "roe_pct": 23.4,
+      "npl_pct": 3.3,
+      "observations": {
+        "notes": "9M26 profit GEL 1,155m (+12% YoY), Q3 record GEL 404m (+10% YoY), 9M ROE 23.4%. Group NPL 3.3% (CoR 1.3%), but Uzbekistan segment NPL hit 11.8% (CoR 10.8%). Launched GEL 50m buyback."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "TBC Bank Perpetual AT1 Subordinated Notes",
+      "currency": "USD",
+      "amount_usd_m": 300.0,
+      "coupon": "Perp AT1",
+      "maturity": "Perpetual",
+      "seniority": "Additional Tier 1"
+    },
+    {
+      "tranche_name": "TBC Bank Senior International Notes",
+      "currency": "USD",
+      "amount_usd_m": 300.0,
+      "coupon": "Senior RegS",
+      "maturity": "2027-2029",
+      "seniority": "Senior Unsecured"
+    }
+  ],
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Neutral / Watch Uzbekistan Asset Quality",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Core Georgian franchise remains highly profitable (9M26 group net profit GEL 1,155m, +12% YoY; Q3 record GEL 404m; ROE 23.4%) with Fitch BB Stable rating. However, group NPL rose to 3.3% due to acute credit stress in the Uzbekistan digital lending arm (11.8% NPL, 10.8% CoR) alongside shareholder payouts (GEL 1.75/sh quarterly dividend + GEL 50m buyback)."
+    },
+    "positives": [
+      "Strong Georgian core profitability: Q3 2026 record net profit GEL 404m (+10% YoY); 9M26 GEL 1,155m (+12% YoY) at 23.4% ROE.",
+      "Solid NBG regulatory capital cushions (FY24 standalone CET1 16.8%, Total CAR 23.8%) and Fitch BB Stable rating.",
+      "Leading Georgian market duopoly alongside Bank of Georgia."
+    ],
+    "negatives": [
+      "Uzbekistan asset-quality deterioration: Uzbekistan segment NPL jumped to 11.8% with 10.8% cost of risk in 3Q26 on vintage seasoning and tighter regulation.",
+      "Rising group NPL ratio (3.3% at 3Q26 vs 2.2% FY24) despite Georgian core stability.",
+      "Capital returns (GEL 50m buyback + quarterly dividends) while funding high-growth Uzbek digital banking."
+    ],
+    "background": {
+      "business_overview": "FTSE-250 UK HoldCo owning JSC TBC Bank (co-leading Georgian universal bank) and TBC Uzbekistan (digital consumer bank & Payme).",
+      "asset_perimeter": "Georgian core universal bank + TBC Bank Uzbekistan digital ecosystem.",
+      "ownership_governance": "London Stock Exchange listed; EBRD/IFC historical institutional backing."
+    },
+    "recent_drivers": [
+      "06-Nov-26 (Q3/9M 2026): Record Q3 profit GEL 404m (+10% YoY), 9M profit GEL 1,155m (+12% YoY), ROE 23.4%; Group NPL 3.3% (Uzbekistan 11.8% NPL / 10.8% CoR).",
+      "Capital Returns: Declared GEL 1.75/sh quarterly dividend and launched GEL 50m share buyback & cancellation programme."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Results & Uzbekistan Underwriting Reset",
+        "impact": "Tests whether Uzbek NPLs peak or require further provisioning and parent capital."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "What tightening measures are underway in TBC Uzbekistan following 11.8% NPLs and 10.8% CoR, and is parent capital support required?",
+      "focus_area": "Uzbekistan Risk",
+      "relevance": "Key divergence vs peer Bank of Georgia (2.0% NPL).",
+      "conviction_trigger": "Uzbek CoR moderating below 7% in 2027."
+    },
+    {
+      "question": "Disclose exact Q3/9M 2026 Georgia standalone CET1, Tier 1, and Total CAR ratios under NBG Basel III.",
+      "focus_area": "Capital Adequacy",
+      "relevance": "Ensures buffer holds during GEL 50m buyback.",
+      "conviction_trigger": "CET1 buffer >=200bp above NBG minimum."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "Coverage Initiated: Q3/9M 2026 Results (06-Nov-26) & Uzbekistan Credit Alert",
+      "source": "TBC Bank Group 06-Nov-26 LSE RNS / Fitch",
+      "status": "Initial Coverage",
+      "summary": "Added TBC Bank Group (BB Fitch). 9M26 profit GEL 1,155m (+12% YoY), Q3 GEL 404m, ROE 23.4%; Group NPL 3.3% driven by Uzbekistan 11.8% NPL / 10.8% CoR."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "12:00 UK",
+    "ir_webcast_url": "https://www.tbcbankgroup.com/",
+    "days_to_earnings": 91
+  },
+  "market_history": [
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "BB (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

@@ -7,16 +7,16 @@
     "region": "Middle East",
     "sector": "Infrastructure",
     "type": "corp",
-    "rating": "BBB+ / Baa2",
+    "rating": "BBB+ (Fitch) / Baa2 (Moody's)",
     "tier": "IG",
-    "benchmark_bond": "DPW 5.35% 2033",
+    "benchmark_bond": "DPW 6.25% 2036 ($750m)",
     "price": 98,
     "ytm": 5.35,
     "spread_bp": 120,
     "model_file": "DP_World_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681138b90f1177936cd35",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DP_World_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-21",
     "cognitive_credit_id": "dpworld",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/dpworld/description",
     "model_type": "corp",
@@ -563,18 +563,16 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Report Q3/Q4-26 Jebel Ali TEU recovery and exact flexibility to defer the ~$3.0bn capex plan if throughput lags.",
+      "focus_area": "Capex & Throughput",
+      "relevance": "0.3x headroom under 4.0x policy cap leaves minimal room for capex rigidity.",
+      "conviction_trigger": "Capex flexibility >=$0.8bn or rapid Jebel Ali rebound."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Confirm RCF expiry, covenant thresholds, and use of supply chain finance / reverse factoring.",
+      "focus_area": "Liquidity & Debt",
+      "relevance": "Ensures no hidden off-balance-sheet working capital debt.",
+      "conviction_trigger": "Full RCF availability and transparent SCF disclosure."
     }
   ],
   "market_history": [
@@ -1162,6 +1160,19 @@
       "ebitda": 5100,
       "fcf": 347.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "BBB+ (Fitch) / Baa2 (Moody's)",
+      "price": 98,
+      "ytm": 5.35,
+      "spread_bp": 120,
+      "net_leverage": 3.23,
+      "ebitda": 5100,
+      "fcf": 347.0,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1248,5 +1259,57 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Hold (IG Credit / Watch Jebel Ali & Leverage)",
+      "target_price": null,
+      "current_price": 98,
+      "ytm": 5.35,
+      "spread_bp": 120,
+      "summary": "Resilient global ports & logistics platform (77% non-UAE footprint): 1H26 revenue rose 13.1% to $12.7bn and Adj EBITDA dipped only 5.6% to $2.86bn (+9.7% ex-Jebel Ali) despite Jebel Ali throughput falling 59.5% (Q2 -90.1%) from regional conflict. Pre-IFRS 16 leverage ticked up to 3.7x (vs 4.0x policy cap). Priced EUR 750m 6Y green + USD 750m 10Y notes in Sep-26 25bp inside IPT."
+    },
+    "positives": [
+      "Global diversification buffer: 77% non-UAE portfolio grew EBITDA +9.7% in 1H26, absorbing the acute Jebel Ali disruption.",
+      "Strong market access & liquidity: $8.2bn liquidity at 1H26; repaid EUR 750m Sep-26 notes and priced EUR 750m (4.75%) + USD 750m (6.25% 2036) 25bp inside IPT.",
+      "Ratings affirmed: Moody's Baa2 Stable (25-Jun-26) and Fitch BBB+ Stable."
+    ],
+    "negatives": [
+      "Narrowing leverage headroom: Pre-IFRS 16 net leverage rose to 3.7x (from 3.4x FY25) vs 4.0x internal policy ceiling.",
+      "Jebel Ali throughput shock (-59.5% 1H26, -90.1% Q2-26) alongside heavy ~$3.0bn annual capex commitment.",
+      "If Jebel Ali fails to normalize in 2027, ~$3.0bn capex could push leverage above 4.0x and trigger negative rating outlook."
+    ],
+    "background": {
+      "business_overview": "Global port terminal operator, maritime services, and logistics group anchored by Jebel Ali Port & Free Zone (JAFZA).",
+      "asset_perimeter": "Global ports/logistics concessions + UAE flagship; USD/EUR Eurobonds and sukuk.",
+      "ownership_governance": "Owned by Dubai World / Government of Dubai."
+    },
+    "recent_drivers": [
+      "Sep 2026 Issuance & Maturity: Priced EUR 750m 6Y green (4.75%) + USD 750m 10Y (6.25%) 25bp tight of IPT; repaid EUR 750m 2026 notes.",
+      "1H 2026 Results: Revenue +13.1% to $12.7bn; Adj EBITDA $2.86bn (-5.6%, or +9.7% ex-Jebel Ali); Pre-IFRS 16 leverage 3.7x.",
+      "Moody's Baa2 Stable affirmation (Jun-26) projecting ~$5.9bn 2026 EBITDA before 2027 recovery."
+    ],
+    "catalysts": [
+      {
+        "date": "Late Nov 2026 / Q1 2027",
+        "event": "9M/FY26 Throughput & Capex Flexibility Update",
+        "impact": "Tests Jebel Ali recovery trajectory and 4.0x leverage ceiling."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Regional Shipping / Red Sea & Gulf Maritime Security",
+        "impact": "Determines timing of Jebel Ali container volume normalization."
+      }
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "Sep-26 Dual-Tranche EUR/USD Pricing & 1H26 Results Sync",
+      "source": "DP World / EnterpriseAM / Moody's / Fitch (Sep-26)",
+      "status": "Desk Update",
+      "summary": "1H26 rev $12.7bn (+13.1%), Adj EBITDA $2.86bn (-5.6%), leverage 3.7x vs 4.0x cap. Priced EUR 750m (4.75%) + USD 750m (6.25% 2036) in Sep-26 and repaid EUR 750m 2026s. Updated benchmark to DPW 6.25% 2036."
+    }
+  ]
 }

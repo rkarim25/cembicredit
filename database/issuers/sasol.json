@@ -7,7 +7,7 @@
     "region": "Africa",
     "sector": "Energy",
     "type": "corp",
-    "rating": "BB+ / Ba1",
+    "rating": "BB+ Neg (S&P) / Ba1 Neg (Moody's)",
     "tier": "BB",
     "benchmark_bond": "SOLSJ 7.85% 2029",
     "price": 98.4,
@@ -16,7 +16,7 @@
     "model_file": "Sasol_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68168a6b6e3b7106bfdda",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sasol_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-21",
     "cognitive_credit_id": "sasol",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/sasol/description",
     "model_type": "corp",
@@ -565,18 +565,16 @@
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      "question": "Provide FY27 FCF sensitivity to Brent/ZAR and expected reversal of FY26 working-capital build.",
+      "focus_area": "Cash Flow",
+      "relevance": "Determines timeline to reach <$3.0bn net debt.",
+      "conviction_trigger": "WC reversal >R5bn accelerates <$3.0bn milestone."
     },
     {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Confirm Natref outage duration, Prax capacity replacement, and lease-inclusive net debt reconciliation.",
+      "focus_area": "Operations & Debt",
+      "relevance": "Quantifies FY27 EBITDA and true adjusted leverage.",
+      "conviction_trigger": "Normalizing Natref runs without further impairment."
     }
   ],
   "market_history": [
@@ -1164,6 +1162,19 @@
       "ebitda": 2450.0,
       "fcf": -230.0,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "BB+ Neg (S&P) / Ba1 Neg (Moody's)",
+      "price": 98.4,
+      "ytm": 7.85,
+      "spread_bp": 365,
+      "net_leverage": 2.37,
+      "ebitda": 2450.0,
+      "fcf": -230.0,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1268,5 +1279,57 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Constructive Hold / Deleveraging On Track",
+      "target_price": null,
+      "current_price": 98.4,
+      "ytm": 7.85,
+      "spread_bp": 365,
+      "summary": "FY2026 (ended Jun-26) fundamentals improved: Adj EBITDA rose 17% YoY to R60.7bn and net debt ex-leases fell 11% to $3,259M (beating <$3.7bn target). Dividend suspension below $3.0bn net debt prioritizes bondholders, though thin FCF (R11.9bn), Natref outage, Secunda impairment, and Negative agency outlooks cap near-term spread tightening."
+    },
+    "positives": [
+      "FY26 deleveraging beat: Net debt ex-leases fell 11% YoY to $3,259M (well inside <$3.7bn threshold); Adj EBITDA +17% to R60.7bn.",
+      "Creditor-friendly capital allocation: No final dividend paid while net debt remains above the $3.0bn policy trigger.",
+      "Strong liquidity buffer (~$5bn) and operating cash flow up 22% YoY to R56.7bn in FY26."
+    ],
+    "negatives": [
+      "Thin FCF generation: FY26 FCF was R11.9bn (-5% YoY) due to working capital build; hitting <$3.0bn net debt depends on Brent and WC reversal.",
+      "Negative rating outlooks: Moody's Ba1 Neg and S&P BB+ Neg reflect oil/chemical cyclicality and carbon transition capex.",
+      "Operational risks: Natref outage/Prax uncertainty, weak gas EBIT (-60%), Secunda impairment, and disclosed internal control weaknesses."
+    ],
+    "background": {
+      "business_overview": "Integrated South African energy and chemicals group operating Secunda coal-to-liquids synfuels, Natref refinery, Mozambique gas, and Lake Charles US chemicals.",
+      "asset_perimeter": "South African Energy/Mining + International Chemicals; senior USD notes issued via Sasol Financing USA.",
+      "ownership_governance": "JSE & NYSE listed; South African sovereign ceiling linkage."
+    },
+    "recent_drivers": [
+      "FY2026 Results (Jun-26): Adj EBITDA R60,705m (+17% YoY), Net Debt ex-leases $3,259m (-11% YoY), Operating CF R56.7bn (+22%).",
+      "Dividend Policy: Zero final dividend declared while net debt exceeds $3.0bn policy target.",
+      "Ratings: Moody's Ba1 Negative, S&P BB+ Negative."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "1H FY27 Interim Results & Net Debt vs $3.0bn Trigger",
+        "impact": "Crossing <$3.0bn net debt unlocks dividend policy and supports rating outlook stabilization."
+      },
+      {
+        "date": "H1 2027",
+        "event": "Moody's / S&P Outlook Review Post-FY26 Print",
+        "impact": "Stabilization to Stable outlook if Brent/Secunda volumes hold."
+      }
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "FY2026 Results & Deleveraging Review",
+      "source": "Sasol FY26 Release / BusinessDay / Pipeline Report (09-Oct-26)",
+      "status": "Desk Update",
+      "summary": "FY26 Adj EBITDA R60.7bn (+17% YoY); Net Debt ex-leases cut 11% to $3,259m (<$3.7bn target); final dividend suspended until <$3.0bn. Ratings remain Ba1 Neg / BB+ Neg."
+    }
+  ]
 }

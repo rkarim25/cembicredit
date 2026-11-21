@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "id": "bgeo",
+    "name": "Lion Finance Group (Bank of Georgia)",
+    "ticker": "BGEO",
+    "country": "Georgia",
+    "region": "CEEMEA",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB / Ba2",
+    "tier": "BB",
+    "benchmark_bond": "BOG 9.50% Perp AT1 ($300m)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Bank_of_Georgia_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bank_of_Georgia_Credit_Model.xlsx",
+    "last_updated": "2026-11-21",
+    "model_type": "bank",
+    "financials_currency": "GEL",
+    "provenance": "financials built 21-Nov-26 from Lion Finance Group / Bank of Georgia LSE filings (FY24, FY25, 9M26); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "GEL",
+      "source": "Lion Finance Group FY2024 Annual Report (LSE), read 21-Nov-26",
+      "assets": 39300.0,
+      "loans": 33600.0,
+      "deposits": 33200.0,
+      "net_profit": 2477.0,
+      "npl_pct": 2.0,
+      "cet1_pct": 17.1,
+      "car_pct": 21.0,
+      "observations": {
+        "notes": "FY24 unadjusted profit GEL 2,477m incl. GEL 685.9m Ameriabank negative goodwill; BoG standalone CET1 ~17.1%, NPL 2.0%."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "GEL",
+      "source": "Lion Finance Group FY2025 Annual Report & NBG Pillar 3, read 21-Nov-26",
+      "assets": 41246.0,
+      "loans": 27488.0,
+      "deposits": 27205.0,
+      "net_profit": 2163.2,
+      "npl_pct": 2.0,
+      "cet1_pct": 17.6,
+      "car_pct": 22.0,
+      "observations": {
+        "notes": "FY25 reported profit GEL 2,163.2m (adj GEL 2,192.8m, +20.9% YoY). BoG standalone CET1 17.6% (vs 15.2% req), Tier 1 20.5%, Total CAR 22.0%."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "GEL",
+      "source": "Lion Finance Group 9M/3Q 2026 Results (LSE RNS), read 21-Nov-26",
+      "loans": 46501.2,
+      "deposits": 44889.5,
+      "net_profit": 1865.7,
+      "cir_pct": 32.1,
+      "roe_pct": 27.2,
+      "npl_pct": 2.0,
+      "cet1_pct": 18.1,
+      "car_pct": 22.0,
+      "observations": {
+        "notes": "9M26 profit GEL 1,865.7m (+18.6% YoY), Q3 GEL 661.9m (+21.0% YoY), ROAE 27.2%, CIR 32.1%, NPL 2.0%, CoR 0.7%. BoG CET1 18.1% (2.6pp buffer over 15.5% req); Ameriabank CET1 14.0% (+200bp buffer)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Bank of Georgia 9.50% Perpetual AT1 Notes (Apr-24)",
+      "currency": "USD",
+      "amount_usd_m": 300.0,
+      "coupon": "9.50%",
+      "maturity": "Perpetual",
+      "seniority": "Additional Tier 1"
+    },
+    {
+      "tranche_name": "Bank of Georgia 11.50% Senior Notes due Nov 2028",
+      "currency": "GEL",
+      "amount_usd_m": 165.0,
+      "coupon": "11.50%",
+      "maturity": "2028-11-01",
+      "seniority": "Senior Unsecured (GEL 450m)"
+    }
+  ],
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Overweight / High-Return BB Sovereign-Linked Bank",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Best-in-class profitability and capital generation across CEEMEA: 9M26 net profit rose 18.6% YoY to GEL 1,865.7m with 27.2% ROAE and 32.1% cost-to-income. Asset quality is benign (2.0% NPL, 0.7% CoR) and capital buffers robust (BoG CET1 18.1%, +260bp over 15.5% req; Ameriabank CET1 14.0%). Ratings track Georgia sovereign (BB)."
+    },
+    "positives": [
+      "Sector-leading profitability: 27.2% ROAE and 32.1% CIR in 3Q26; 9M26 profit GEL 1,865.7m (+18.6% YoY).",
+      "Substantial capital headroom: BoG CET1 18.1% (+260bp over 15.5% NBG requirement) and Ameriabank CET1 14.0% (+200bp over 12.0% req).",
+      "Clean asset quality: 2.0% group NPL ratio and 0.7% 3Q26 cost of credit risk."
+    ],
+    "negatives": [
+      "Rapid balance sheet expansion: Loans +24.6% YoY CC (GEL 46.5bn) and deposits +21.1% YoY CC require sustained underwriting discipline.",
+      "Georgian sovereign & political risk ceiling (BB) limits rating upside above sovereign.",
+      "Armenian subsidiary (Ameriabank) integration and regional FX/geopolitical exposure."
+    ],
+    "background": {
+      "business_overview": "FTSE-250 UK holding company (Lion Finance Group PLC) owning JSC Bank of Georgia (~38-40% Georgian market share) and Ameriabank (Armenia's leading bank).",
+      "asset_perimeter": "Georgian Financial Services (Bank of Georgia) + Armenian Financial Services (Ameriabank, acquired Mar-24).",
+      "ownership_governance": "London Stock Exchange Premium Listed; subject to UK corporate governance and NBG/CBA supervision."
+    },
+    "recent_drivers": [
+      "9M/3Q 2026 Results: 9M profit GEL 1,865.7m (+18.6% YoY), Q3 GEL 661.9m (+21.0% YoY), ROAE 27.2%, NPL 2.0%, BoG CET1 18.1%.",
+      "Funding: Placed $300m 9.50% Perp AT1 (Apr-24, redeemed $100m old AT1) and GEL 450m 11.50% 2028 senior notes."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Preliminary Results & Capital Distribution Plan",
+        "impact": "Confirms CET1 trajectory after 25% loan growth and dividend/buyback payout."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Georgia Sovereign Rating & EU/Political Developments",
+        "impact": "Directly anchors BGEO's BB rating and 9.50% AT1 spread."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Assess 2027 loan growth moderation vs maintaining the 260bp BoG CET1 buffer above the 15.5% NBG requirement.",
+      "focus_area": "Capital",
+      "relevance": "24.6% loan growth consumes CET1 unless organic ROE remains >25%.",
+      "conviction_trigger": "CET1 buffer >=200bp."
+    },
+    {
+      "question": "Confirm USD FX liquidity ratio and deposit dollarization split across Bank of Georgia and Ameriabank.",
+      "focus_area": "Liquidity",
+      "relevance": "High dollarization is a structural sovereign risk in Georgia/Armenia.",
+      "conviction_trigger": "FX LCR >120%."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "Coverage Initiated: Lion Finance Group / Bank of Georgia 9M 2026 Results",
+      "source": "Lion Finance Group LSE 9M26 RNS / NBG Filings",
+      "status": "Initial Coverage",
+      "summary": "Added BGEO (BB/Ba2). 9M26 net profit GEL 1,865.7m (+18.6% YoY), ROAE 27.2%, CIR 32.1%, NPL 2.0%, BoG CET1 18.1%, Ameriabank CET1 14.0%. Loans GEL 46.5bn, Deposits GEL 44.9bn."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-24",
+    "period_reporting": "FY 2026 Preliminary",
+    "confirmation_status": "Estimated",
+    "call_time": "12:00 UK",
+    "ir_webcast_url": "https://lionfinancegroup.uk/",
+    "days_to_earnings": 95
+  },
+  "market_history": [
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "BB / Ba2",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

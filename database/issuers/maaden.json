@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "id": "maaden",
+    "name": "Saudi Arabian Mining Co. (Ma'aden)",
+    "ticker": "MAADEN",
+    "country": "Saudi Arabia",
+    "region": "Middle East",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "Baa1 / BBB+",
+    "tier": "IG",
+    "benchmark_bond": "MAADEN $1.0B Term/RCF & Sukuk Curve",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Maaden_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Maaden_Credit_Model.xlsx",
+    "last_updated": "2026-11-21",
+    "model_type": "corp",
+    "fcf_2024a": null,
+    "net_leverage_2024a": 1.8,
+    "financials_currency": "USD",
+    "provenance": "financials built 21-Nov-26 from Ma'aden FY2024/FY2025 Tadawul filings and Q3/9M 2026 results (09-Nov-26, SAR/USD 3.75 peg); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Ma'aden FY2024 Consolidated Statements (Tadawul, SAR/USD 3.75 peg), read 21-Nov-26",
+      "revenue": 8680.0,
+      "ebitda": 2477.3,
+      "reported_ebitda": 2477.3,
+      "ebitda_margin_pct": 28.5,
+      "net_debt": 4459.0,
+      "net_leverage": 1.8,
+      "observations": {
+        "revenue": "FY24 revenue SAR 32.55bn ($8.68bn, +11% YoY); EBITDA SAR 9.29bn ($2.48bn); Net Debt/EBITDA ~1.8x."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Ma'aden FY2025 Consolidated Statements (Tadawul, SAR/USD 3.75 peg), read 21-Nov-26",
+      "revenue": 10288.0,
+      "ebitda": 4320.0,
+      "reported_ebitda": 4320.0,
+      "ebitda_margin_pct": 42.0,
+      "net_debt": 6480.0,
+      "net_leverage": 1.5,
+      "observations": {
+        "revenue": "FY25 revenue SAR 38.58bn ($10.29bn, +19% YoY), EBITDA SAR 16.2bn ($4.32bn), Net Profit SAR 7.35bn (+156% YoY), Net Leverage 1.5x."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Ma'aden Q3/9M 2026 Earnings Release (09-Nov-26, SAR/USD 3.75 peg), read 21-Nov-26",
+      "revenue": 8232.0,
+      "ebitda": 2640.0,
+      "net_leverage": 1.4,
+      "observations": {
+        "revenue": "9M26 revenue SAR 30.87bn ($8.23bn, +10.5% YoY); Q3 revenue SAR 11.1bn ($2.96bn, +11% YoY).",
+        "ebitda": "Q3 EBITDA SAR 3.3bn ($0.88bn, -24% YoY) on elevated sulfur raw material costs and phosphate logistics; Net Debt/EBITDA ~1.4x."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Inaugural International Term Loan & RCF",
+      "currency": "USD",
+      "amount_usd_m": 1000.0,
+      "coupon": "SOFR + margin",
+      "maturity": "2029-2031",
+      "seniority": "Senior Unsecured"
+    }
+  ],
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Neutral / PIF-Anchored IG Commodity Grower",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Flagship Saudi mining national champion (64-65% PIF-owned, Moody's Baa1 / Fitch BBB+ Stable, SCP bbb-). Moderate 1.4x net leverage at 3Q26, though Q3 2026 EBITDA fell 24% YoY to SAR 3.3bn ($880m) on sulfur input costs and phosphate logistics while major Phosphate 3 & 4 expansion capex continues."
+    },
+    "positives": [
+      "Strong sovereign-parent backing: ~64-65% PIF ownership supports Baa1 / BBB+ ratings (Fitch reaffirmed BBB+ Stable in mid-2026).",
+      "Moderate leverage (~1.4x Net Debt/EBITDA at 3Q26 vs 1.5x FY25 and 1.8x FY24) alongside access to $1bn international syndicated loan/RCF and sukuk markets.",
+      "Diversified commodity mix across phosphate fertilizers, aluminium, and gold."
+    ],
+    "negatives": [
+      "Q3 2026 margin squeeze: Q3 EBITDA fell 24% YoY to SAR 3.3bn ($880m) and net profit -24% to SAR 1.68bn on sulfur costs and logistics.",
+      "Heavy Vision 2030 mining expansion capex (Phosphate 3 & 4) can absorb FCF during commodity troughs.",
+      "Cyclical exposure to global DAP/MAP fertilizer and aluminium prices."
+    ],
+    "background": {
+      "business_overview": "Saudi Arabia's national mining & metals champion operating integrated phosphate, aluminium, and gold/base-metals complexes.",
+      "asset_perimeter": "Wa'ad Al Shamal & Ras Al Khair phosphate/aluminium JVs plus Saudi gold mines.",
+      "ownership_governance": "~64-65% owned by Public Investment Fund (PIF); listed on Tadawul."
+    },
+    "recent_drivers": [
+      "09-Nov-26 (Q3/9M 2026): Q3 rev SAR 11.1bn (+11% YoY), Q3 EBITDA SAR 3.3bn (-24% YoY), 9M rev SAR 30.87bn (+10.5% YoY), net leverage ~1.4x.",
+      "Mid-2026: Fitch reaffirmed BBB+ Stable (SCP bbb-); closed $1bn inaugural international term loan & RCF."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & Phosphate 3 Capex Guidance",
+        "impact": "Clarifies 2027 capex peak and potential sukuk/Eurobond issuance."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Quantify 2027-2028 total expansion capex (Phosphate 3 & 4) and funding split between operating cash flow, loans, and sukuk.",
+      "focus_area": "Capex & Funding",
+      "relevance": "Determines IG debt issuance supply and leverage trajectory.",
+      "conviction_trigger": "Net leverage staying <=2.0x through capex peak."
+    },
+    {
+      "question": "Assess sulfur cost pass-through and phosphate logistics normalization into Q4-26/2027.",
+      "focus_area": "Margins",
+      "relevance": "Explains whether Q3's -24% EBITDA drop is temporary.",
+      "conviction_trigger": "EBITDA margin recovery >35%."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "Coverage Initiated: Q3/9M 2026 Results (09-Nov-26) & Fitch BBB+ Reaffirmation",
+      "source": "Ma'aden Tadawul Q3-26 Release (09-Nov-26) / Fitch / Moody's",
+      "status": "Initial Coverage",
+      "summary": "Added Ma'aden (Baa1 / BBB+ Stable). 9M26 rev SAR 30.87bn (+10.5% YoY), Q3 EBITDA SAR 3.3bn (-24% YoY on sulfur costs), net leverage ~1.4x; closed $1bn international term loan & RCF."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-25",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Riyadh",
+    "ir_webcast_url": "https://www.maaden.com.sa/en/investor-relations",
+    "days_to_earnings": 96
+  },
+  "market_history": [
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "Baa1 / BBB+",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 1.8,
+      "ebitda": 2477.3,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

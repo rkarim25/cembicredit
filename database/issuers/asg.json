@@ -16,7 +16,7 @@
     "model_file": "ASG_Finance_Credit_Model.xlsx",
     "notion_id": "3f21d0ad68c68182b0c2c8ccacc74895",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ASG_Finance_Credit_Model.xlsx",
-    "last_updated": "2026-10-07",
+    "last_updated": "2026-11-21",
     "cognitive_credit_id": "aviasolutions",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/aviasolutions/description",
     "model_type": "corp",
@@ -339,8 +339,15 @@
     }
   ],
   "credit_view": {
-    "last_updated": "2026-10-07",
-    "verdict": "Overweight / Constructive Risk-Reward at ~87.0\u00a2 (~16.0% YTM, +1,120 bps spread). The market excessively penalizes ASG for cyclical ACMI weakness, overlooking the massive earnings cushion in non-ACMI segments (MRO, Ground Handling generating +\u20ac75M EBITDA-L in 1H26), active fleet rightsizing (ACMI fleet down from 142 to 107 in Jul-26), and cash liquidity bolstered to \u20ac168M by asset sales.",
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Overweight / Constructive Risk-Reward",
+      "target_price": null,
+      "current_price": 87.0,
+      "ytm": 16.0,
+      "spread_bp": 1120,
+      "summary": "Constructive on AVIASG 9.75% 2029 (~87c / 16.0% YTM / +1,120bp). Ex-ACMI businesses (MRO, ground handling, brokerage) generated EUR 75M EBITDA-L in 1H26, cushioning ACMI rate softness, while BB- (S&P) / BB (Fitch) ratings provide structural resilience."
+    },
     "positives": [
       "Resilient Non-ACMI Powerhouse: Ex-ACMI businesses (MRO, Ground Handling, Brokerage) delivered \u20ac75M EBITDA-L in 1H26 (vs \u20ac42M in 1H25), providing non-cyclical cash flow support.",
       "Aggressive ACMI Rightsizing: Leased-in fleet reduced from 142 at YE25 to 107 in July 2026, heading to ~95 by YE26; monthly lease drain collapsed from \u20ac18M to \u20ac10M.",
@@ -1340,6 +1347,19 @@
       "date": "2026-11-18",
       "period_name": "2026-11-18",
       "timestamp": "2026-11-18T05:03:44.813172",
+      "rating": "BB- (S&P) / BB (Fitch)",
+      "price": 87.0,
+      "ytm": 16.0,
+      "spread_bp": 1120,
+      "net_leverage": 4.69,
+      "ebitda": 322.9,
+      "fcf": -189.2,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
       "rating": "BB- (S&P) / BB (Fitch)",
       "price": 87.0,
       "ytm": 16.0,

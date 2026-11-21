@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/metinvest.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 14-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- METINV 15.65% 2029: price 93.27, YTM 14.98%, spread 1022bp (as of 2026-09-27).
-- Rating as recorded: CCC+.
+- METINV 7.65% 2027 ($322-332m): price 93.27, YTM 14.98%, spread 1022bp (as of 2026-11-21).
+- Rating as recorded: CCC+ (S&P) / Caa3 (Moody's) / CCC- (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

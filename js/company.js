@@ -288,11 +288,11 @@ function renderMetricsStrip() {
   const f25 = currentIssuer.financials_multi_year.find(f => f.period === '2025E') || {};
   const isBank = (m.model_type === 'bank' || m.sector === 'Banks' || m.sector === 'Financial Services');
 
-  document.getElementById('mb-price').textContent = `$${m.price.toFixed(2)}`;
-  document.getElementById('mb-bond-sub').textContent = m.benchmark_bond;
+  document.getElementById('mb-price').textContent = m.price != null ? `$${Number(m.price).toFixed(2)}` : 'n/a';
+  document.getElementById('mb-bond-sub').textContent = m.benchmark_bond || 'n/a';
 
-  document.getElementById('mb-ytm').textContent = `${m.ytm.toFixed(2)}%`;
-  document.getElementById('mb-spread').textContent = `+${m.spread_bp} bp`;
+  document.getElementById('mb-ytm').textContent = m.ytm != null ? `${Number(m.ytm).toFixed(2)}%` : 'n/a';
+  document.getElementById('mb-spread').textContent = m.spread_bp != null ? `+${m.spread_bp} bp` : 'n/a';
 
   const mb4Label = document.querySelector('#mb-rev').previousElementSibling;
   const mb5Label = document.querySelector('#mb-ebitda').previousElementSibling;

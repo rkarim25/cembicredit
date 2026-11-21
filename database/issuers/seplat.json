@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "seplat",
+    "name": "Seplat Energy Plc",
+    "ticker": "SEPLAT",
+    "country": "Nigeria",
+    "region": "Africa",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "B / B2 / B",
+    "tier": "B",
+    "benchmark_bond": "SEPLAT 9.125% 2030 ($650m)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Seplat_Energy_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Seplat_Energy_Credit_Model.xlsx",
+    "last_updated": "2026-11-21",
+    "model_type": "corp",
+    "fcf_2024a": null,
+    "net_leverage_2024a": 0.66,
+    "financials_currency": "USD",
+    "provenance": "financials built 21-Nov-26 from Seplat FY2024/FY2025 LSE filings and 9M 2026 results release; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Seplat Energy FY2024 Audited Results (LSE/NGX), read 21-Nov-26",
+      "revenue": 1116.0,
+      "ebitda": 539.0,
+      "reported_ebitda": 539.0,
+      "ebitda_margin_pct": 48.3,
+      "cash": 469.9,
+      "gross_debt": 1367.6,
+      "net_debt": 897.8,
+      "net_leverage": 0.66,
+      "observations": {
+        "revenue": "Pre-full-year MPNU consolidation; pro-forma combined EBITDA was $1,353.5m (0.66x pro-forma leverage)."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Seplat Energy FY2025 Audited Results (LSE/NGX), read 21-Nov-26",
+      "revenue": 2726.0,
+      "ebitda": 1275.4,
+      "reported_ebitda": 1275.4,
+      "ebitda_margin_pct": 46.8,
+      "cash": 332.3,
+      "gross_debt": 1006.0,
+      "net_debt": 673.3,
+      "net_leverage": 0.53,
+      "observations": {
+        "revenue": "Full-year consolidation of shallow-water MPNU offshore assets drove revenue +144% YoY to $2,726m and EBITDA +137% to $1,275.4m."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Seplat Energy 9M 2026 Unaudited Results (ended 30-Sep-26, LSE/NGX), read 21-Nov-26",
+      "revenue": 2764.0,
+      "ebitda": 1530.0,
+      "reported_ebitda": 1530.0,
+      "ebitda_margin_pct": 55.4,
+      "fcf": 749.0,
+      "cash": 556.9,
+      "gross_debt": 791.8,
+      "net_debt": 234.9,
+      "net_leverage": 0.14,
+      "observations": {
+        "revenue": "9M26 revenue $2,764m (+27% YoY) on 144,999 boepd production (Q3: 155,801 boepd) and $96.19/bbl realized oil.",
+        "ebitda": "9M26 Adj EBITDA $1,530m (+38% YoY), PAT $260.2m (+174% YoY), 9M FCF $749m.",
+        "net_leverage": "Net debt slashed 65% to $234.9m (0.14x Net Debt/EBITDA); remaining $100m MPNU acquisition facility repaid 27-Oct-26."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "SEPLAT 9.125% Senior Notes due Mar 2030 (XS3030248325)",
+      "currency": "USD",
+      "amount_usd_m": 650.0,
+      "coupon": "9.125%",
+      "maturity": "2030-03-21",
+      "seniority": "Senior Unsecured"
+    },
+    {
+      "tranche_name": "MPNU Acquisition Credit Facility (Repaid Oct-26)",
+      "currency": "USD",
+      "amount_usd_m": 0.0,
+      "coupon": "Repaid 27-Oct-26",
+      "maturity": "2026-10-27",
+      "seniority": "Retired"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 40.0,
+    "2028": 50.0,
+    "2029": 51.8,
+    "2030_plus": 650.0,
+    "total_outstanding_usd_m": 791.8,
+    "source": "9M26 balance sheet ($556.9m cash + $234.9m net debt = ~$791.8m gross debt); $650m 9.125% 2030 Eurobond; $100m acquisition loan cleared 27-Oct-26."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-21",
+    "verdict": {
+      "stance": "Overweight / Rapidly Deleveraging Nigerian E&P",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Exceptionally strong post-MPNU cash generation: 9M26 Adj EBITDA jumped 38% YoY to $1,530m and FCF hit $749m, slashing net debt 65% to $234.9m (0.14x Net Leverage). On 27-Oct-26 Seplat cleared the final $100m MPNU acquisition facility, leaving the $650m 9.125% 2030 Eurobond as the primary debt instrument against $556.9m cash. Sovereign ceiling (B/B2/B) and shareholder payout increases (Q3 div +58% to 19c/sh) are key watch items."
+    },
+    "positives": [
+      "Ultra-low leverage: Net debt cut 65% from $673.3m (FY25) to $234.9m at 30-Sep-26 (0.14x Net Debt/EBITDA), with $556.9m cash.",
+      "Zero acquisition debt overhang: Final $100m MPNU acquisition facility repaid on 27-Oct-26; 2026 7.75% notes refinanced into 2030s.",
+      "Scale & offshore diversification: 9M26 production averaged 145kboepd (Q3: 155.8kboepd) with $8-10/bbl premium pricing over Brent."
+    ],
+    "negatives": [
+      "Nigeria sovereign ceiling (S&P B, Moody's B2, Fitch B) caps ratings despite near-net-cash balance sheet.",
+      "Rising shareholder distributions: Q3 dividend lifted 58% QoQ to 19.0c/share (core 5c + special 14c).",
+      "Oil price sensitivity & Nigerian onshore pipeline/regulatory operating risks."
+    ],
+    "background": {
+      "business_overview": "Leading Nigerian independent oil and gas producer operating onshore OMLs, shallow-water offshore MPNU assets, and ANOH gas processing.",
+      "asset_perimeter": "Consolidated Nigerian onshore + MPNU shallow-water offshore E&P; dual-listed LSE & NGX.",
+      "ownership_governance": "Independent public E&P listed in London and Lagos; strong international bond market track record."
+    },
+    "recent_drivers": [
+      "9M 2026 Results: Revenue $2,764m (+27% YoY), Adj EBITDA $1,530m (+38% YoY), FCF $749m, Net Debt $234.9m (0.14x).",
+      "27-Oct-26: Fully repaid remaining $100m balance on MPNU acquisition facility, clearing all MPNU acquisition debt."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & 2027 Capex/Dividend Policy",
+        "impact": "Confirms year-end net cash trajectory and ANOH gas ramp."
+      },
+      {
+        "date": "Ongoing",
+        "event": "Brent Price & Nigeria Sovereign Spread Moves",
+        "impact": "Primary driver of 9.125% 2030 relative value vs Nigeria sovereign curve."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "With acquisition debt cleared on 27-Oct-26 and 0.14x leverage, what is the formal gross debt / cash buffer floor under the expanded special dividend policy?",
+      "focus_area": "Capital Allocation",
+      "relevance": "Special dividends (14c Q3) could limit further net cash build.",
+      "conviction_trigger": "Formal net leverage ceiling <=1.0x and minimum $350m cash."
+    },
+    {
+      "question": "Confirm ANOH gas plant commercial ramp timeline, remaining JV debt service, and 2027 onshore/offshore capex budget.",
+      "focus_area": "Capex & Growth",
+      "relevance": "Quantifies 2027 FCF conversion at $70-80 Brent.",
+      "conviction_trigger": "ANOH cash distributions commencing without parent support."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-21",
+      "title": "Coverage Initiated: 9M 2026 Results & Full MPNU Debt Clearance",
+      "source": "Seplat LSE/NGX 9M26 Release & 27-Oct-26 Filing",
+      "status": "Initial Coverage",
+      "summary": "Added Seplat Energy (SEPLAT 9.125% 2030, XS3030248325, B/B2/B). 9M26 rev $2,764m (+27%), Adj EBITDA $1,530m (+38%), FCF $749m, net debt $234.9m (0.14x); cleared final $100m MPNU loan on 27-Oct-26."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-26",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "09:00 UK",
+    "ir_webcast_url": "https://www.seplatenergy.com/investors/",
+    "days_to_earnings": 97
+  },
+  "market_history": [
+    {
+      "date": "2026-11-21",
+      "period_name": "2026-11-21",
+      "timestamp": "2026-11-21T05:15:37.241322",
+      "rating": "B / B2 / B",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.66,
+      "ebitda": 539.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}
