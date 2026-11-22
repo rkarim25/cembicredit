@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "id": "access",
+    "name": "Access Holdings Plc (Access Bank)",
+    "ticker": "ACCESS",
+    "country": "Nigeria",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "B (Fitch) / AA-(nga)",
+    "tier": "B",
+    "benchmark_bond": "ACCESS $500m Perp AT1 (2026 Senior Redeemed)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Access_Bank_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Access_Bank_Credit_Model.xlsx",
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "financials_currency": "NGN",
+    "provenance": "financials built 22-Nov-26 from Access Holdings FY2025 audited results and 9M 2026 NGX filings; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "NGN",
+      "source": "Access Holdings FY2025 Audited Financial Statements (NGX), read 22-Nov-26",
+      "assets": 51560000.0,
+      "loans": 13340000.0,
+      "deposits": 34560000.0,
+      "nii": 1360000.0,
+      "total_income": 3170000.0,
+      "provisions": 523550.0,
+      "net_profit": 743050.0,
+      "equity": 4330000.0,
+      "observations": {
+        "notes": "FY25 assets NGN 51.56tn (+24.2% YoY), loans NGN 13.34tn, deposits NGN 34.56tn (+53.4% YoY), PBT NGN 1.01tn, PAT NGN 743.05bn, equity NGN 4.33tn."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "NGN",
+      "source": "Access Holdings 9M 2026 Unaudited Results (NGX), read 22-Nov-26",
+      "assets": 52600000.0,
+      "loans": 14300000.0,
+      "deposits": 36800000.0,
+      "nii": 1290000.0,
+      "provisions": 92900.0,
+      "net_profit": 474200.0,
+      "equity": 4500000.0,
+      "car_pct": 17.4,
+      "observations": {
+        "notes": "9M26 PBT NGN 667.4bn (+8.3% YoY), PAT NGN 474.2bn (+5.9% YoY). Impairment charges plunged 73.5% YoY to NGN 92.9bn (CoR 0.9% vs 3.8%). Assets NGN 52.6tn, loans NGN 14.3tn, deposits NGN 36.8tn, equity NGN 4.5tn; CAR ~17.4% (Fitch)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Access Bank $500m Perpetual Additional Tier 1 Notes",
+      "tranche_name": "Access Bank $500m Perpetual Additional Tier 1 Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "9.125%",
+      "maturity": "Perpetual",
+      "seniority": "Additional Tier 1",
+      "instrument_type": "Perpetual AT1",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "Access Bank 6.125% Senior Notes due Sep 2026 (REDEEMED AT MATURITY)",
+      "tranche_name": "Access Bank 6.125% Senior Notes due Sep 2026 (REDEEMED AT MATURITY)",
+      "currency": "USD",
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0,
+      "amount_usd_m": 0.0,
+      "coupon": "6.125%",
+      "maturity": "2026-09-21",
+      "seniority": "Senior Unsecured (Repaid)",
+      "instrument_type": "Redeemed Eurobond",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 500.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "Sep-2026 full redemption of $500m 6.125% Senior Eurobond from internal FC liquidity; $500m Perp AT1 remains."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-22",
+    "verdict": {
+      "stance": "Neutral / Nigeria Banking Scale Anchor Post-2026 Bond Payoff",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Nigeria's largest banking group by assets (NGN 52.6tn at 3Q26) proved FC liquidity resilience by redeeming its $500m 6.125% Sep-2026 Eurobond in full from internal FX resources and satisfying CBN's NGN 500bn recapitalization mandate. 9M26 PAT rose 5.9% to NGN 474.2bn as provisions plunged 73.5%, though tight ~17.4% CAR buffer over the 15% floor bears watching."
+    },
+    "positives": [
+      "Proven hard-currency liquidity: Redeemed $500m 6.125% Sep-2026 senior Eurobond in full from internal FC liquidity.",
+      "Sharp asset-quality normalization in 9M26: Credit impairment fell 73.5% YoY to NGN 92.9bn (CoR 0.9% vs 3.8%).",
+      "Met CBN NGN 500bn minimum capital threshold via NGN 351bn rights issue + private placements; dominant NGN 36.8tn deposit base."
+    ],
+    "negatives": [
+      "Tight CAR headroom (~17.4% vs 15% regulatory minimum) noted by Fitch alongside post-forbearance sector risks.",
+      "NII margin squeeze: 9M26 interest expense +10.1% YoY (NGN 1.81tn) capped NII growth at +2.7%.",
+      "Nigerian sovereign/FX ceiling ('B' Fitch) and pan-African M&A integration risk."
+    ],
+    "background": {
+      "business_overview": "Nigeria's largest bank by assets (NGN 52.6tn) with corporate, retail, and pan-African/UK international banking subsidiaries.",
+      "asset_perimeter": "Access Bank Nigeria plus UK subsidiary and pan-African operations across >15 countries.",
+      "ownership_governance": "NGX-listed Access Holdings Plc; regulated by Central Bank of Nigeria."
+    },
+    "recent_drivers": [
+      "9M 2026 Results: PBT NGN 667.4bn (+8.3% YoY), PAT NGN 474.2bn (+5.9% YoY), impairments -73.5% YoY, Assets NGN 52.6tn, Deposits NGN 36.8tn.",
+      "Sep-26 Debt Milestone: Redeemed $500m 6.125% Senior Eurobond at maturity using internal FC liquidity; Oct AT1 call window in focus."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & Post-Forbearance NPL Disclosure",
+        "impact": "Clarifies Stage 2/3 loan book post CBN forbearance expiry and CAR buffer."
+      },
+      {
+        "date": "Ongoing",
+        "event": "AT1 Call / Refinancing Strategy",
+        "impact": "Determines future Access USD supply and subordinated pricing."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm post-forbearance Stage 2 and Stage 3 NPL ratios as of 3Q26 following the sharp 73.5% drop in provisioning.",
+      "focus_area": "Asset Quality",
+      "relevance": "Fitch flagged post-forbearance credit migration as a key sector risk.",
+      "conviction_trigger": "Stage 3 NPL <4.5% with >100% coverage."
+    },
+    {
+      "question": "Update on CAR trajectory vs the 15% regulatory minimum and FX liquidity coverage post Sep-26 $500m bond payoff.",
+      "focus_area": "Capital & Liquidity",
+      "relevance": "Essential for AT1 coupon and call confidence.",
+      "conviction_trigger": "CAR >18.5%."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Coverage Initiated: Access Holdings 9M 2026 & $500m Sep-26 Eurobond Redemption",
+      "source": "Access Holdings NGX 9M26 Filing / Fitch",
+      "status": "Initial Coverage",
+      "summary": "Added Access Holdings (ACCESS, B Fitch). 9M26 PAT NGN 474.2bn (+5.9% YoY), Assets NGN 52.6tn, Loans NGN 14.3tn, Deposits NGN 36.8tn, Equity NGN 4.5tn. Redeemed $500m 6.125% Eurobond in Sep-26."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "access",
+      "sector": "Banks",
+      "topic": "Sep-26 $500m Bond Repayment",
+      "source": "Access Holdings / BusinessDay",
+      "note": "Access Bank paid off its $500m 6.125% Sep-2026 senior Eurobond in full at maturity from internal FC liquidity without issuing a replacement."
+    },
+    {
+      "issuer_id": "access",
+      "sector": "Banks",
+      "topic": "CBN Recapitalization Compliance",
+      "source": "Access Holdings FY25/9M26",
+      "note": "Fulfilled CBN's NGN 500bn international bank capital floor via NGN 351bn rights issue and private placements."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Lagos / 13:00 UK",
+    "ir_webcast_url": "https://www.theaccesscorporation.com/investor-relations/",
+    "days_to_earnings": 129
+  },
+  "market_history": [
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B (Fitch) / AA-(nga)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

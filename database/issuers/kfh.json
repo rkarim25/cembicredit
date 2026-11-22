@@ -16,8 +16,9 @@
     "model_file": "Kuwait_Finance_House_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-812c-8818-fec07f5fdb60",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Kuwait_Finance_House_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 Boursa Kuwait filings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "kfh",
+      "sector": "Banks",
+      "topic": "9M26 30.8% CIR Cost Synergies",
+      "source": "KFH Q3/9M 2026 Release",
+      "note": "9M26 attributable NP KD 523.4m (+6.2% YoY), net op income ~KD 1.0bn (+11.7%), opex -3.0%, CIR 30.8%."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-02-04",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/KFH",
-    "days_to_earnings": 0
+    "call_time": "14:00 Kuwait",
+    "ir_webcast_url": "https://www.kfh.com/en/home/Personal/investor-relations.html",
+    "days_to_earnings": 74
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Confirm 3Q26 CET1/Total CAR and NPL ratios across KFH Group and Kuveyt T\u00fcrk.",
+      "focus_area": "Capital & T\u00fcrkiye",
+      "relevance": "Validates capital headroom post-AUB.",
+      "conviction_trigger": "CAR >17.5% and NPL <1.8%."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "A2 / A",
+      "price": 99.2,
+      "ytm": 5.2,
+      "spread_bp": 115,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / High-Efficiency Islamic Scale Post-AUB Integration (30.8% CIR)",
+      "summary": "9M26 attributable net profit climbed +6.2% YoY to KD 523.4m (Q3 KD 160.3m, +6.5% YoY) as total operating income rose +6.7% to KD 1.45bn and opex fell -3.0%, driving cost-to-income down to a super-efficient 30.8%.",
+      "target_price": null,
+      "current_price": 99.2,
+      "ytm": 5.2,
+      "spread_bp": 115
+    },
+    "positives": [
+      "Strong post-AUB merger cost synergies: 9M opex -3.0% YoY, CIR compressed to 30.8%.",
+      "Consistent earnings growth: 9M net op income +11.7% YoY to ~KD 1.0bn, NP +6.2% to KD 523.4m.",
+      "Kuwait state-entity ownership (~38% KIA/Pifss/Awqaf) supporting A2/A IG ratings."
+    ],
+    "negatives": [
+      "Geographic exposure to T\u00fcrkiye (Kuveyt T\u00fcrk) and Bahrain/Egypt carries FX & inflation drag.",
+      "Tight GCC IG sukuk spreads."
+    ],
+    "background": {
+      "business_overview": "Kuwait's largest bank and global Islamic banking leader following Ahli United Bank acquisition.",
+      "asset_perimeter": "KFH Kuwait, AUB Bahrain/UK/Egypt, Kuveyt T\u00fcrk.",
+      "ownership_governance": "Significant Kuwait sovereign entities (~38%); Boursa Kuwait-listed (KFH)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M attributable NP KD 523.4m (+6.2% YoY), Q3 KD 160.3m (+6.5%), 9M op income KD 1.45bn (+6.7%), opex -3.0%, CIR 30.8%."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & Capital Adequacy Update",
+        "impact": "Confirms post-integration CAR >18% and Kuveyt T\u00fcrk contribution."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Profit +6.2% to KD 523.4m & CIR Down to 30.8%",
+      "source": "KFH Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 attributable NP KD 523.4m (+6.2% YoY; Q3 KD 160.3m, +6.5%), op income KD 1.45bn (+6.7%), opex -3.0%, CIR 30.8%."
+    }
+  ]
 }

@@ -16,12 +16,13 @@
     "model_file": "STC_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8100-a93a-e95f56d5978b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/STC_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "cognitive_credit_id": "stc",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/stc/description",
     "model_type": "corp",
     "fcf_2024a": 1649.2,
-    "net_leverage_2024a": 0.65
+    "net_leverage_2024a": 0.65,
+    "provenance": "Q3/9M 2026 Tadawul filings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -354,6 +355,13 @@
       "topic": "Contracted Revenue Backlog",
       "source": "Investor Presentations",
       "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    },
+    {
+      "issuer_id": "stc",
+      "sector": "Technology",
+      "topic": "9M26 Operating Profit & Dividends",
+      "source": "stc 9M 2026 Tadawul Filing",
+      "note": "9M26 rev SAR 60.10bn (+3.7%), op profit SAR 11.28bn (+4.1%), NI SAR 10.92bn, cash dividends SAR 8.2bn."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -555,20 +563,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-10-26",
-    "period_reporting": "Q3 2026 Financial Results",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-02-22",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
     "call_time": "15:30 Riyadh / 12:30 UK",
     "ir_webcast_url": "https://www.stc.com.sa/content/stc/sa/en/investor-relations.html",
-    "days_to_earnings": 0
+    "days_to_earnings": 92
   },
   "management_questions": [
     {
-      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
-      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
-      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
-      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
-      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      "question": "Clarify M&A appetite in European/EM telecoms and target net leverage ceiling above the 0.65x level.",
+      "focus_area": "M&A & Leverage",
+      "relevance": "M&A + SAR 8.2bn 9M dividends drive external funding needs.",
+      "conviction_trigger": "Net leverage <1.2x."
     }
   ],
   "market_history": [
@@ -1169,6 +1176,19 @@
       "ebitda": 7200,
       "fcf": 1649.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "A1 / A+",
+      "price": 97.5,
+      "ytm": 4.85,
+      "spread_bp": 80,
+      "net_leverage": 0.65,
+      "ebitda": 7200,
+      "fcf": 1649.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1255,5 +1275,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Ultra-Low Leverage IG Cash Cow (A1/A+) with Rising Dividends & Capex",
+      "summary": "9M26 revenue grew +3.7% YoY to SAR 60.10bn and operating profit rose +4.1% to SAR 11.28bn, though 9M net profit edged down to SAR 10.92bn (vs SAR 11.58bn 9M25) on higher net finance costs. Declared SAR 8.2bn 9M cash dividends while keeping ~0.65x ultra-conservative net leverage.",
+      "target_price": null,
+      "current_price": 97.5,
+      "ytm": 4.85,
+      "spread_bp": 80
+    },
+    "positives": [
+      "Fortress balance sheet (~0.65x net leverage) and A1/A+ sovereign-linked Saudi IG ratings.",
+      "Stable core telecom cash generation: 9M26 operating profit +4.1% YoY to SAR 11.28bn.",
+      "Growth vectors in Tawal towers, stc Bank, and data centers/AI infrastructure."
+    ],
+    "negatives": [
+      "Generous dividend policy (SAR 8.2bn in 9M26) plus international M&A (Telef\u00f3nica stake / CEE towers) consumes cash.",
+      "Higher net financing costs trimmed 9M26 net income to SAR 10.92bn (vs SAR 11.58bn).",
+      "Tight IG credit spreads leave minimal RV cushion."
+    ],
+    "background": {
+      "business_overview": "Saudi Arabia's incumbent telecom, digital infrastructure, and ICT leader.",
+      "asset_perimeter": "stc KSA, Tawal, solutions by stc, stc Bank, stc Pay, Kuwait/Bahrain units.",
+      "ownership_governance": "64% Public Investment Fund (PIF); Tadawul-listed (7010)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M rev SAR 60.10bn (+3.7% YoY), 9M op profit SAR 11.28bn (+4.1%), 9M NI SAR 10.92bn (Q3 ~SAR 3.6bn); 9M dividends SAR 8.2bn."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & Tawal / International M&A Capex Update",
+        "impact": "Confirms post-dividend net leverage remains <1.0x."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Operating Profit +4.1% to SAR 11.28bn & SAR 8.2bn Dividends",
+      "source": "stc Group 9M 2026 Filing",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 rev SAR 60.10bn (+3.7% YoY), op profit SAR 11.28bn (+4.1%), NI SAR 10.92bn; declared SAR 8.2bn 9M cash dividends."
+    }
+  ]
 }

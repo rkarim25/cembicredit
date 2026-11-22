@@ -16,12 +16,13 @@
     "model_file": "Turkcell_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-814c-a20f-eb55f1553927",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turkcell_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "cognitive_credit_id": "turkcell",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/turkcell/description",
     "model_type": "corp",
     "fcf_2024a": 244.5,
-    "net_leverage_2024a": 1.15
+    "net_leverage_2024a": 1.15,
+    "provenance": "Q3/9M 2026 IAS 29 earnings integrated 22-Nov-26; historical Legacy series retained"
   },
   "financials_multi_year": [
     {
@@ -354,6 +355,13 @@
       "topic": "Contracted Revenue Backlog",
       "source": "Investor Presentations",
       "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    },
+    {
+      "issuer_id": "turkcell",
+      "sector": "Technology",
+      "topic": "Q3 2026 Real Growth & 0.31x Leverage",
+      "source": "Turkcell Q3/9M 2026 Release",
+      "note": "Real revenue +6.2% YoY in Q3 (TRY 82.04bn) and EBITDA +6.8% YoY (TRY 36.24bn, 44.2% margin); net leverage 0.31x."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -555,20 +563,25 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-03-04",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
     "call_time": "18:30 Istanbul / 15:30 UK",
     "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 102
   },
   "management_questions": [
     {
-      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
-      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
-      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
-      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
-      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      "question": "Quantify 5G spectrum & rollout capex phasing across 2027-2028 vs maintaining net leverage below 0.75x.",
+      "focus_area": "5G Capex",
+      "relevance": "Key driver of incremental debt issuance.",
+      "conviction_trigger": "Net leverage <0.8x post 5G."
+    },
+    {
+      "question": "Confirm FX liquidity coverage against the 2028 Eurobond maturity.",
+      "focus_area": "Liquidity",
+      "relevance": "Sovereign FX risk mitigation.",
+      "conviction_trigger": "Hard-currency cash >1.5x 2028 debt service."
     }
   ],
   "market_history": [
@@ -1169,6 +1182,19 @@
       "ebitda": 1750,
       "fcf": 244.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BB / BB-",
+      "price": 96.8,
+      "ytm": 6.95,
+      "spread_bp": 290,
+      "net_leverage": 1.15,
+      "ebitda": 1750,
+      "fcf": 244.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1255,5 +1281,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Ultra-Low 0.31x Leverage & 44.2% EBITDA Margin",
+      "summary": "Defensive cash compounder: 9M26 real revenue grew +5.8% YoY to TRY 235.07bn (Q3 TRY 82.04bn, +6.2%) and Q3 EBITDA expanded +6.8% YoY to TRY 36.24bn (44.2% margin; 9M TRY 99.90bn at 42.5%). Net leverage sits at a rock-solid 0.31x at 3Q26.",
+      "target_price": null,
+      "current_price": 96.8,
+      "ytm": 6.95,
+      "spread_bp": 290
+    },
+    "positives": [
+      "Ultra-low 0.31x net leverage at 3Q26, well below management's 1.0x ceiling even after strategic capex.",
+      "Strong pricing power & margin expansion: Q3 EBITDA margin up +30bp YoY to 44.2% (real +6.8% EBITDA growth).",
+      "High-growth Techfin (Paycell/Financell) and data center diversification."
+    ],
+    "negatives": [
+      "5G spectrum auction & HQ/infrastructure outlays could nudge leverage modestly higher in 2027.",
+      "Turkish sovereign/FX ceiling (BB/BB-) limits rating upside.",
+      "Macro inflation sensitivity on ARPUs despite real price pass-through."
+    ],
+    "background": {
+      "business_overview": "T\u00fcrkiye's #1 mobile and converged telecom operator with Paycell digital finance and Superonline fiber.",
+      "asset_perimeter": "Turkcell T\u00fcrkiye, Turkcell International (Belarus/NC), Techfin, Data Centers.",
+      "ownership_governance": "26.2% owned by T\u00fcrkiye Wealth Fund (TVF); dual-listed BIST (TCELL) & NYSE (TKC)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M rev TRY 235.07bn (+5.8% real YoY), 9M EBITDA TRY 99.90bn (42.5% margin); Q3 rev TRY 82.04bn, Q3 EBITDA TRY 36.24bn (44.2%); net leverage 0.31x."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Results & 5G Capex / 2028 Eurobond Refinancing Plan",
+        "impact": "Confirms post-5G leverage trajectory (<1.0x)."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: 44.2% Q3 EBITDA Margin & Ultra-Low 0.31x Net Leverage",
+      "source": "Turkcell Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 rev TRY 235.07bn (+5.8% real YoY), 9M EBITDA TRY 99.90bn (42.5% margin). Q3 EBITDA TRY 36.24bn (44.2%). Net leverage 0.31x."
+    }
+  ]
 }

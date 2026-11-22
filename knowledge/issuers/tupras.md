@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/tupras.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- TUPRAS 6.95% 2027: price 99.5, YTM 7.2%, spread 315bp (as of 2026-09-19).
+- TUPRAS 6.95% 2027: price 99.5, YTM 7.2%, spread 315bp (as of 2026-11-22).
 - Rating as recorded: BB / BB-.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

@@ -16,8 +16,9 @@
     "model_file": "FAB_Abu_Dhabi_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/FAB_Abu_Dhabi_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 ADX filings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "fab",
+      "sector": "Banks",
+      "topic": "9M26 CET1 14.0% & NPL 2.1%",
+      "source": "FAB Q3/9M 2026 Release",
+      "note": "9M26 NP AED 16.46bn (+3% YoY), Assets AED 1.47tn (+7% YTD), NPL improved to 2.1% (vs 2.6%), CET1 14.0%."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-01-29",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/FABUH",
-    "days_to_earnings": 0
+    "call_time": "14:00 Abu Dhabi",
+    "ir_webcast_url": "https://www.bankfab.com/en-ae/about-fab/investor-relations",
+    "days_to_earnings": 68
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Quantify NIM sensitivity per 100bp Fed/CBUAE rate cut in 2027.",
+      "focus_area": "NIM",
+      "relevance": "Rate cuts pressure asset yields.",
+      "conviction_trigger": "ROTE >15%."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "Aa3 / AA-",
+      "price": 100.5,
+      "ytm": 4.85,
+      "spread_bp": 65,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Abu Dhabi Sovereign Banking Anchor (Aa3/AA-, 14.0% CET1)",
+      "summary": "UAE's largest bank posted AED 16.46bn 9M26 net profit (+3% YoY; Q3 AED 5.73bn, +6% YoY) as total assets reached AED 1.47tn (+7% YTD). Asset quality strengthened further with NPL ratio dropping to 2.1% (from 2.6% YoY) and CET1 rising to 14.0%.",
+      "target_price": null,
+      "current_price": 100.5,
+      "ytm": 4.85,
+      "spread_bp": 65
+    },
+    "positives": [
+      "Fortress Aa3/AA- ratings and Abu Dhabi government/Mubadala backing.",
+      "Improving asset quality (NPL 2.1% vs 2.6% YoY) and strong 14.0% CET1.",
+      "Unmatched AED 1.47tn asset scale and global wholesale funding access."
+    ],
+    "negatives": [
+      "Ultra-tight IG spreads leave limited alpha vs Abu Dhabi sovereign.",
+      "NIM compression risk as Fed/CBUAE policy rates ease."
+    ],
+    "background": {
+      "business_overview": "UAE's largest bank by assets (AED 1.47tn), formed by NBAD-FGB merger.",
+      "asset_perimeter": "Corporate/Investment Banking, Personal Banking, Global Markets across UAE & 20 markets.",
+      "ownership_governance": "37.9% Mubadala / Abu Dhabi Investment Council; ADX-listed (FAB)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M NP AED 16.46bn (+3% YoY), Q3 AED 5.73bn (+6%), Assets AED 1.47tn (+7% YTD), NPL 2.1% (vs 2.6%), CET1 14.0%."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & 2027 NIM/Loan Growth Guidance",
+        "impact": "Confirms CET1 >13.5% post dividend."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Assets AED 1.47tn, NPL Down to 2.1% & CET1 14.0%",
+      "source": "FAB Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 NP AED 16.46bn (+3% YoY; Q3 AED 5.73bn, +6%), Assets AED 1.47tn (+7% YTD), NPL 2.1% (vs 2.6%), CET1 14.0%."
+    }
+  ]
 }

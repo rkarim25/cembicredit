@@ -16,12 +16,13 @@
     "model_file": "IHS_Towers_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6811bbee5fc02b3b044c7",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/IHS_Towers_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "cognitive_credit_id": "ihstowers",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/ihstowers/description",
     "model_type": "corp",
     "fcf_2024a": 8.6,
-    "net_leverage_2024a": 3.16
+    "net_leverage_2024a": 3.16,
+    "provenance": "Q3 2026 results & asset-sale deleveraging (1.8x) integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -354,6 +355,13 @@
       "topic": "Contracted Revenue Backlog",
       "source": "Investor Presentations",
       "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    },
+    {
+      "issuer_id": "ihs",
+      "sector": "Technology",
+      "topic": "Q326 Leverage Halved to 1.8x",
+      "source": "IHS Towers Q3 2026 Release",
+      "note": "Q326 Adj EBITDA $282.7m (+8.1% YoY) despite LatAm/Rwanda exits; consolidated net leverage plummeted to 1.8x (vs 3.3x Q325)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -555,20 +563,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-17",
-    "period_reporting": "Q3 2026 Financial Results & Call",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-03-18",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
     "call_time": "14:30 London / 09:30 EST",
     "ir_webcast_url": "https://www.ihstowers.com/investors",
-    "days_to_earnings": 0
+    "days_to_earnings": 116
   },
   "management_questions": [
     {
-      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
-      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
-      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
-      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
-      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      "question": "Confirm 2027 refinancing plans for the 2027 senior notes and target leverage floor vs buybacks now at 1.8x.",
+      "focus_area": "Refinancing & Capital Allocation",
+      "relevance": "Low 1.8x leverage opens refi or tender opportunities.",
+      "conviction_trigger": "Net leverage kept <=2.5x."
     }
   ],
   "market_history": [
@@ -1169,6 +1176,19 @@
       "ebitda": 1120,
       "fcf": 8.6,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B+ / B2",
+      "price": 91.5,
+      "ytm": 10.25,
+      "spread_bp": 590,
+      "net_leverage": 3.16,
+      "ebitda": 1120,
+      "fcf": 8.6,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1255,5 +1275,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Major Deleveraging Inflection (Net Leverage Halved to 1.8x from 3.3x)",
+      "summary": "Transformative credit improvement in Q326: Adjusted EBITDA rose +8.1% YoY to $282.7m despite Latin America and Rwanda divestments, while disposal proceeds + debt paydown slashed consolidated net leverage from 3.3x (Q325) down to 1.8x!",
+      "target_price": null,
+      "current_price": 91.5,
+      "ytm": 10.25,
+      "spread_bp": 590
+    },
+    "positives": [
+      "Massive deleveraging: Net leverage dropped 1.5 turns YoY from 3.3x to 1.8x via LatAm/Rwanda disposals and cash generation.",
+      "Strong organic growth: Q326 Adj EBITDA +8.1% YoY to $282.7m despite smaller perimeter.",
+      "MTN & Airtel Nigeria CPI/FX-indexed tower lease resets protecting USD cash flows."
+    ],
+    "negatives": [
+      "Heavy Nigeria concentration (~60%+ of EBITDA) and NGN FX liquidity/repatriation sensitivity.",
+      "Customer concentration (MTN Nigeria, Airtel) and energy/diesel power-pass-through execution.",
+      "B+/B2 sovereign-constrained Nigerian rating."
+    ],
+    "background": {
+      "business_overview": "One of the largest independent emerging-market telecom tower operators globally (~39,000+ towers pre-disposals).",
+      "asset_perimeter": "Nigeria (~16,000+ towers), Sub-Saharan Africa, MENA; exited Rwanda & LatAm units.",
+      "ownership_governance": "NYSE-listed (IHS); backed by MTN, Wendel, GIC."
+    },
+    "recent_drivers": [
+      "Q3 2026 Results: Adj EBITDA $282.7m (+8.1% YoY despite LatAm/Rwanda exits), consolidated net leverage dropped to 1.8x (vs 3.3x in Q325)."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Results & 2027 Senior Note Refinancing / Shareholder Return Policy",
+        "impact": "At 1.8x leverage, tests bond refinancing vs buybacks."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3 2026 Results: Adj EBITDA +8.1% to $282.7m & Net Leverage Slashed to 1.8x",
+      "source": "IHS Towers Q3 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Q326 Adj EBITDA $282.7m (+8.1% YoY) despite LatAm/Rwanda divestments; consolidated net leverage fell to 1.8x (vs 3.3x Q325)."
+    }
+  ]
 }

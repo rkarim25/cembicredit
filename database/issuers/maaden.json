@@ -9,26 +9,26 @@
     "type": "corp",
     "rating": "Baa1 / BBB+",
     "tier": "IG",
-    "benchmark_bond": "MAADEN $1.0B Term/RCF & Sukuk Curve",
+    "benchmark_bond": "MAADEN 5.25% 2036 Sukuk ($1.0B)",
     "price": null,
     "ytm": null,
     "spread_bp": null,
     "model_file": "Maaden_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Maaden_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": null,
     "net_leverage_2024a": 1.8,
     "financials_currency": "USD",
-    "provenance": "financials built 21-Nov-26 from Ma'aden FY2024/FY2025 Tadawul filings and Q3/9M 2026 results (09-Nov-26, SAR/USD 3.75 peg); quotes await [BBG] capture"
+    "provenance": "financials built 22-Nov-26 from Ma'aden FY2024/FY2025 audited Tadawul filings and Q3/9M 2026 release (09-Nov-26); quotes await [BBG] capture"
   },
   "financials_multi_year": [
     {
       "period": "2024A",
       "is_audited": true,
       "currency": "USD",
-      "source": "Ma'aden FY2024 Consolidated Statements (Tadawul, SAR/USD 3.75 peg), read 21-Nov-26",
+      "source": "Ma'aden FY2024 Audited Financial Statements (Tadawul, SAR/USD 3.75 peg), read 21-Nov-26",
       "revenue": 8680.0,
       "ebitda": 2477.3,
       "reported_ebitda": 2477.3,
@@ -43,7 +43,7 @@
       "period": "2025A",
       "is_audited": true,
       "currency": "USD",
-      "source": "Ma'aden FY2025 Consolidated Statements (Tadawul, SAR/USD 3.75 peg), read 21-Nov-26",
+      "source": "Ma'aden FY2025 Audited Financial Statements (Tadawul, SAR/USD 3.75 peg), read 21-Nov-26",
       "revenue": 10288.0,
       "ebitda": 4320.0,
       "reported_ebitda": 4320.0,
@@ -70,16 +70,64 @@
   ],
   "capital_structure_tranches": [
     {
+      "instrument": "MAADEN 5.250% Trust Certificates (Sukuk) due Feb 2030",
+      "tranche_name": "MAADEN 5.250% Trust Certificates (Sukuk) due Feb 2030",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "5.250%",
+      "maturity": "2030-02-13",
+      "seniority": "Senior Unsecured Sukuk",
+      "instrument_type": "USD Sukuk",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "MAADEN 5.500% Trust Certificates (Sukuk) due Feb 2035",
+      "tranche_name": "MAADEN 5.500% Trust Certificates (Sukuk) due Feb 2035",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "5.500%",
+      "maturity": "2035-02-13",
+      "seniority": "Senior Unsecured Sukuk",
+      "instrument_type": "USD Sukuk",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "MAADEN 5.250% Trust Certificates (Sukuk) due Jan 2036 (Jan-26)",
+      "tranche_name": "MAADEN 5.250% Trust Certificates (Sukuk) due Jan 2036 (Jan-26)",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "5.250%",
+      "maturity": "2036-01-29",
+      "seniority": "Senior Unsecured Sukuk",
+      "instrument_type": "USD Sukuk",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "Inaugural International Term Loan & RCF",
       "tranche_name": "Inaugural International Term Loan & RCF",
       "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
       "amount_usd_m": 1000.0,
       "coupon": "SOFR + margin",
       "maturity": "2029-2031",
-      "seniority": "Senior Unsecured"
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Syndicated Loan / RCF",
+      "governing_law": "English"
     }
   ],
   "credit_view": {
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-22",
     "verdict": {
       "stance": "Neutral / PIF-Anchored IG Commodity Grower",
       "target_price": null,
@@ -131,6 +179,13 @@
   ],
   "historical_notes": [
     {
+      "date": "2026-11-22",
+      "title": "Debt Stack Upgrade: $2.5B USD Sukuk Curve (2030/2035/2036) Mapped",
+      "source": "Tadawul / Fitch / Bond Prospectuses",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Mapped Ma'aden's three USD Sukuk benchmarks ($750m 5.25% 2030, $750m 5.50% 2035, $1bn 5.25% Jan-2036) alongside $1bn Term/RCF; upgraded provenance to Filings."
+    },
+    {
       "date": "2026-11-21",
       "title": "Coverage Initiated: Q3/9M 2026 Results (09-Nov-26) & Fitch BBB+ Reaffirmation",
       "source": "Ma'aden Tadawul Q3-26 Release (09-Nov-26) / Fitch / Moody's",
@@ -159,6 +214,44 @@
       "ebitda": 2477.3,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "Baa1 / BBB+",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 1.8,
+      "ebitda": 2477.3,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 500.0,
+    "2030_plus": 3000.0,
+    "total_outstanding_usd_m": 3500.0,
+    "source": "Tadawul / Fitch filings: $2.5B USD Sukuk curve (2030, 2035, 2036) + $1.0B inaugural syndicated term loan/RCF."
+  },
+  "annotations": [
+    {
+      "issuer_id": "maaden",
+      "sector": "Materials",
+      "topic": "USD Sukuk Curve",
+      "source": "Saudi Exchange / Fitch",
+      "note": "Placed $1.5bn dual-tranche Sukuk (Feb-30 5.25% & Feb-35 5.50%) plus $1.0bn 5.25% Sukuk in Jan-26 due Jan-2036."
+    },
+    {
+      "issuer_id": "maaden",
+      "sector": "Materials",
+      "topic": "Q326 Margin Squeeze",
+      "source": "Q3 2026 Earnings (09-Nov-26)",
+      "note": "Q3 EBITDA fell 24% YoY to SAR 3.3bn ($880m) on elevated sulfur feedstock and phosphate logistics costs; net leverage stayed moderate at 1.4x."
     }
   ]
 }

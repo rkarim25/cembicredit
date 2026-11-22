@@ -16,10 +16,11 @@
     "model_file": "Tupras_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81f7-91db-f79841d25390",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tupras_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": -179.5,
-    "net_leverage_2024a": 0.75
+    "net_leverage_2024a": 0.75,
+    "provenance": "Q3/9M 2026 earnings & guidance upgrade integrated 22-Nov-26; historical Legacy series retained"
   },
   "financials_multi_year": [
     {
@@ -353,6 +354,13 @@
       "topic": "Commercial Reserve Life (1P/2P)",
       "source": "DeGolyer and MacNaughton / Ryder Scott",
       "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    },
+    {
+      "issuer_id": "tupras",
+      "sector": "Energy",
+      "topic": "FY26 Guidance Hike ($20-22/bbl NRM)",
+      "source": "T\u00fcpra\u015f Q3/9M 2026 Release",
+      "note": "Upgraded FY26 Net Refining Margin guidance to $20.0-$22.0/bbl (from $13.0-$15.0/bbl) after 9M NRM hit $23.0/bbl at 106% Q3 utilization; net cash intact."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -554,27 +562,25 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-02-18",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
-    "days_to_earnings": 0
+    "call_time": "18:00 Istanbul",
+    "ir_webcast_url": "https://www.tupras.com.tr/en/financial-results",
+    "days_to_earnings": 88
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      "question": "Confirm dividend distribution vs retained net cash buffer ahead of 2027 Eurobond maturity ($700m 2027s/curve).",
+      "focus_area": "Liquidity & Payout",
+      "relevance": "High earnings often trigger large Ko\u00e7-group dividends.",
+      "conviction_trigger": "Net cash >$1bn post dividend."
     },
     {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Detail 2027 green hydrogen / SAF / Entek capex commitments beyond the ~$700m FY26 envelope.",
+      "focus_area": "Capex",
+      "relevance": "Long-term capital allocation.",
+      "conviction_trigger": "Annual capex <$1.0bn."
     }
   ],
   "market_history": [
@@ -1175,6 +1181,19 @@
       "ebitda": 1800.0,
       "fcf": -179.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BB / BB-",
+      "price": 99.5,
+      "ytm": 7.2,
+      "spread_bp": 315,
+      "net_leverage": 0.75,
+      "ebitda": 1800.0,
+      "fcf": -179.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1279,5 +1298,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Fortress Net Cash & Blowout Refining Margins",
+      "summary": "Record-shattering 9M26 operational print: 106% Q3 capacity utilization (98.8% 9M) and $23.0/bbl 9M net refining margin drove 9M EBITDA to TL 164bn (Q3 TL 88.7-90bn) and net income to TL 121.3bn. Management hiked FY26 NRM guidance to $20-22/bbl (from $13-15/bbl) while preserving a net cash balance sheet.",
+      "target_price": null,
+      "current_price": 99.5,
+      "ytm": 7.2,
+      "spread_bp": 315
+    },
+    "positives": [
+      "Exceptional refining windfall: 9M26 NRM $23.0/bbl and 106% Q3 utilization; FY26 NRM guidance raised to $20-22/bbl (from $13-15/bbl).",
+      "Net cash fortress balance sheet comfortably covers ~$700m FY26 capex and dividends.",
+      "Dominant domestic Turkish refined products market share (~55%+)."
+    ],
+    "negatives": [
+      "Middle distillate crack spread cyclicality (normalization risk in 2027).",
+      "Turkish sovereign/FX & energy transition capex requirements.",
+      "IAS 29 hyperinflation accounting distorts nominal TRY YoY comparisons."
+    ],
+    "background": {
+      "business_overview": "T\u00fcrkiye's sole major oil refiner operating four refineries (\u0130zmit, \u0130zmir, K\u0131r\u0131kkale, Batman) with ~30 Mt annual capacity.",
+      "asset_perimeter": "Four domestic refineries, Entek renewables, Dita\u015f marine logistics, OPET stake.",
+      "ownership_governance": "Controlled by Ko\u00e7 Holding & Entek/partner; BIST-listed (TUPRS)."
+    },
+    "recent_drivers": [
+      "Early Nov-26 (Q3/9M 2026): 9M rev ~TL 1.17tn, 9M EBITDA TL 164bn (Q3 TL 88.7-90bn), 9M NI TL 121.3bn, NRM $23.0/bbl, net cash maintained; FY26 NRM guidance raised to $20-22/bbl."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & 2027 Crack Margin / Dividend Guidance",
+        "impact": "Confirms post-dividend net cash retention and 2027 transition capex."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Record 106% Utilization, TL 164bn 9M EBITDA & NRM Guidance Hiked to $20-22/bbl",
+      "source": "T\u00fcpra\u015f Q3/9M 2026 Earnings Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 EBITDA TL 164bn, NI TL 121.3bn, NRM $23.0/bbl; FY26 NRM guidance upgraded from $13-15/bbl to $20-22/bbl; net cash balance sheet preserved."
+    }
+  ]
 }

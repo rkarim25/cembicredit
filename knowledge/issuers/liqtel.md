@@ -4,10 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/liqtel.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- LIQTEL 14.25% 2026: price 104.22, YTM 9.58%, spread 471bp (as of 2026-09-27).
-- Rating as recorded: B- / Caa1.
+- Rating as recorded: B- Stable (Fitch, May-26) / Caa1.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

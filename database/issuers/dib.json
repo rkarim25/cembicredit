@@ -16,8 +16,9 @@
     "model_file": "Dubai_Islamic_Bank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dubai_Islamic_Bank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 DFM filings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "dib",
+      "sector": "Banks",
+      "topic": "9M26 AED 427bn Assets & 16.5% CAR",
+      "source": "DIB Q3/9M 2026 Release",
+      "note": "9M26 total income AED 18.58bn (+7%), 9M NP AED 5.61bn, Assets AED 427.0bn (+10% YTD financing), CAR 16.5%."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-02-04",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/DIBUH",
-    "days_to_earnings": 0
+    "call_time": "14:00 Dubai",
+    "ir_webcast_url": "https://www.dib.ae/investor-relations",
+    "days_to_earnings": 74
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Update on 3Q26 NPL ratio and coverage vs FY25 and international subsidiary ROE.",
+      "focus_area": "Asset Quality",
+      "relevance": "Historically lagged UAE Tier-1 peers.",
+      "conviction_trigger": "NPL <3.5%."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "A3 / A",
+      "price": 99.7,
+      "ytm": 5.1,
+      "spread_bp": 90,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Solid Islamic Growth (AED 427bn Assets, 16.5% CAR)",
+      "summary": "9M26 total income rose +7% YoY to AED 18.58bn with 9M net profit at AED 5.61bn (Q3 AED 1.87bn, -4% YoY). Total assets grew to AED 427.0bn on +10% YTD net financing expansion, backed by a strengthened 16.5% CAR.",
+      "target_price": null,
+      "current_price": 99.7,
+      "ytm": 5.1,
+      "spread_bp": 90
+    },
+    "positives": [
+      "Largest UAE Islamic bank (AED 427bn assets) with +10% YTD net financing growth.",
+      "Strengthened 16.5% CAR and strong UAE sovereign/ICD backing (A3/A).",
+      "Loyal retail Islamic CASA franchise."
+    ],
+    "negatives": [
+      "Q3 net profit dipped -4% YoY (AED 1.87bn) on corporate tax and margin normalization.",
+      "Historically higher NPL ratio than Abu Dhabi peers (~4% band), requiring continued clean-up."
+    ],
+    "background": {
+      "business_overview": "UAE's largest Islamic bank providing Sharia-compliant corporate, retail, and treasury banking.",
+      "asset_perimeter": "DIB UAE, Noor Bank legacy portfolio, stakes in Pakistan/Kenya/Indonesia/T\u00fcrkiye.",
+      "ownership_governance": "27.97% Investment Corporation of Dubai (ICD); DFM-listed (DIB)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M total income AED 18.58bn (+7% YoY), 9M NP AED 5.61bn (Q3 AED 1.87bn, -4%), Assets AED 427.0bn, CAR 16.5%."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & NPL Ratio Update",
+        "impact": "Confirms further NPL reduction below 4%."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Income +7% to AED 18.58bn, Assets AED 427bn & CAR 16.5%",
+      "source": "DIB Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 total income AED 18.58bn (+7% YoY), 9M NP AED 5.61bn, Assets AED 427.0bn, CAR 16.5%."
+    }
+  ]
 }

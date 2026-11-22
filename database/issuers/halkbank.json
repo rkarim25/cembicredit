@@ -16,8 +16,9 @@
     "model_file": "Halkbank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6815aba39e1d30b4b8c8a",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Halkbank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "9M 2026 consolidated BRSA filing integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "halkbank",
+      "sector": "Banks",
+      "topic": "9M26 Filing & Litigation Tail",
+      "source": "Halkbank 9M 2026 BRSA Filing",
+      "note": "Published 9M26 consolidated BRSA results; credit spread continues to reflect US DOJ litigation overhang vs 87.7% TVF state support."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-09",
-    "period_reporting": "Q3 2026",
+    "scheduled_date": "2027-02-12",
+    "period_reporting": "FY 2026 BRSA",
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
-    "days_to_earnings": 0
+    "days_to_earnings": 82
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Update on US litigation status, unadjusted CET1 ratio, and FX liquidity vs 2028 senior bond maturities.",
+      "focus_area": "Litigation & Capital",
+      "relevance": "Dominant spread driver.",
+      "conviction_trigger": "Litigation settlement without material capital impairment."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B / B3",
+      "price": 98.1,
+      "ytm": 7.35,
+      "spread_bp": 275,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Underweight / State-Backed SME Franchise with US Litigation Tail Risk",
+      "summary": "Published 9M26 consolidated BRSA statements showing core balance-sheet expansion alongside normalizing Turkish policy conditions. Credit profile remains heavily anchored by T\u00fcrkiye Wealth Fund ownership (87.7%) on one hand, and long-running US DOJ litigation overhang + lower standalone profitability than private peers on the other.",
+      "target_price": null,
+      "current_price": 98.1,
+      "ytm": 7.35,
+      "spread_bp": 275
+    },
+    "positives": [
+      "Strong state ownership (87.7% T\u00fcrkiye Wealth Fund) and systemic deposit franchise.",
+      "SME/state-backed credit role provides domestic liquidity backing."
+    ],
+    "negatives": [
+      "Ongoing US DOJ litigation overhang remains an unquantified tail risk for USD Eurobondholders.",
+      "Structurally lower profitability and tighter standalone capital ratios than private Turkish Tier-1 banks.",
+      "High sensitivity to state-directed subsidized SME/artisan lending margins."
+    ],
+    "background": {
+      "business_overview": "Major Turkish state-owned commercial bank focused on SMEs, tradesmen, and domestic corporate banking.",
+      "asset_perimeter": "Halkbank T\u00fcrkiye, Halk Yat\u0131r\u0131m, Halk Leasing, Balkan subsidiaries.",
+      "ownership_governance": "87.7% owned by T\u00fcrkiye Wealth Fund (TVF); BIST-listed (HALKB)."
+    },
+    "recent_drivers": [
+      "9M 2026 Filing: Published consolidated 30-Sep-26 BRSA statements showing core balance-sheet growth under normalizing policy."
+    ],
+    "catalysts": [
+      {
+        "date": "2027",
+        "event": "US Litigation Procedural Milestones & FY26 BRSA Release",
+        "impact": "Primary spread catalyst for HALKB USD bonds."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "9M 2026 Consolidated BRSA Filing Integrated",
+      "source": "Halkbank 9M 2026 BRSA Filing",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Approved and published 9M26 consolidated BRSA statements; credit thesis remains balanced between 87.7% TVF support and US litigation overhang."
+    }
+  ]
 }

@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/yapi_kredi.json`. Dated, sourced 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- YKBNK 6.75% 2029: price 99.4, YTM 6.75%, spread 215bp (as of 2026-09-19).
+- YKBNK 6.75% 2029: price 99.4, YTM 6.75%, spread 215bp (as of 2026-11-22).
 - Rating as recorded: BB- / B1.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |

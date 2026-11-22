@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/maf.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- MAF 5.00% 2029: price 98.0, YTM 5.65%, spread 160bp (as of 2026-09-19).
+- MAF 5.00% 2029: price 98.0, YTM 5.65%, spread 160bp (as of 2026-11-22).
 - Rating as recorded: BBB / BBB.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

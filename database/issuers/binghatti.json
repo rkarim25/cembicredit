@@ -16,10 +16,11 @@
     "model_file": "Binghatti_Credit_Model.xlsx",
     "notion_id": "3e01d0ad68c6812dbacdd897773b09d9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Binghatti_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": -97.4,
-    "net_leverage_2024a": 0.89
+    "net_leverage_2024a": 0.89,
+    "provenance": "9M 2026 earnings & Feb-27 $500m Sukuk cash payoff plan integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -354,6 +355,13 @@
       "topic": "Asset Coverage & Land Bank",
       "source": "CBRE / JLL Independent Valuation",
       "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+    },
+    {
+      "issuer_id": "binghatti",
+      "sector": "Real Estate",
+      "topic": "Feb-27 $500m Sukuk Cash Payoff",
+      "source": "Binghatti 9M 2026 Release",
+      "note": "9M26 net profit surged 65% YoY to AED 4.4bn; announced full repayment of Feb-2027 $500m sukuk from internal cash."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -568,20 +576,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-01",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
-    "days_to_earnings": 0
+    "call_time": "14:00 Dubai / 10:00 UK",
+    "ir_webcast_url": "https://binghatti.com/investor-relations",
+    "days_to_earnings": 99
   },
   "management_questions": [
     {
-      "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
-      "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
-      "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
-      "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
-      "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      "question": "Confirm escrow vs unrestricted corporate cash balance ahead of the February 2027 $500m sukuk cash redemption.",
+      "focus_area": "Liquidity",
+      "relevance": "Validates full internal cash payoff.",
+      "conviction_trigger": "Unrestricted corporate cash >AED 2.5bn."
     }
   ],
   "market_history": [
@@ -1182,6 +1189,19 @@
       "ebitda": 380.0,
       "fcf": -97.4,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B+ / B",
+      "price": 101.5,
+      "ytm": 8.85,
+      "spread_bp": 480,
+      "net_leverage": 0.89,
+      "ebitda": 380.0,
+      "fcf": -97.4,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1268,5 +1288,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / +65% Profit Surge & Cash Payoff of Feb-2027 $500m Sukuk",
+      "summary": "Blockbuster 9M26 financial performance: net profit surged +65% YoY to AED 4.4bn across consecutive record quarters. Management explicitly committed to repaying the maturing $500m Feb-2027 sukuk in full from internal cash reserves, eliminating near-term refinancing risk.",
+      "target_price": null,
+      "current_price": 101.5,
+      "ytm": 8.85,
+      "spread_bp": 480
+    },
+    "positives": [
+      "Imminent $500m Feb-2027 sukuk maturity fully covered by planned internal cash repayment.",
+      "Explosive earnings momentum: 9M26 net profit +65% YoY to AED 4.4bn with ultra-low ~0.9x leverage.",
+      "Strong Dubai branded-luxury & mid-market presales velocity and 2030 sukuk curve access."
+    ],
+    "negatives": [
+      "Private family-owned Dubai developer governance vs listed Aldar/Emaar.",
+      "High concentration in Dubai residential real estate cycle.",
+      "Working-capital & construction execution ramp on mega-developments."
+    ],
+    "background": {
+      "business_overview": "Fast-growing Dubai private luxury & mid-market residential developer.",
+      "asset_perimeter": "Branded luxury towers (Bugatti, Mercedes-Benz, Jacob & Co) and JVC/Business Bay master developments.",
+      "ownership_governance": "Privately owned by Binghatti family; Nasdaq Dubai / LSE sukuk issuer."
+    },
+    "recent_drivers": [
+      "9M 2026 Results: Net profit jumped +65% YoY to AED 4.4bn; announced plan to fully repay maturing $500m Feb-2027 sukuk using internal cash."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "$500m Sukuk Cash Redemption at Maturity",
+        "impact": "Major de-risking event supporting spread tightening on 2030 sukuk."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "9M 2026 Results: Net Profit +65% YoY to AED 4.4bn & Feb-27 $500m Sukuk Payoff Plan",
+      "source": "Binghatti 9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 net profit AED 4.4bn (+65% YoY); committed to repaying maturing Feb-2027 $500m sukuk in full from internal cash."
+    }
+  ]
 }

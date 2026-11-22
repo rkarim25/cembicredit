@@ -16,8 +16,9 @@
     "model_file": "Saudi_National_Bank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681638bc7f769eb59d81d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Saudi_National_Bank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 Tadawul filings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "snb",
+      "sector": "Banks",
+      "topic": "9M26 SAR 1.26tn Assets",
+      "source": "SNB Q3/9M 2026 Tadawul Filing",
+      "note": "9M26 NP SAR 19.48bn (+4.6% YoY), Assets SAR 1.26tn (+4.6%), Financing SAR 758.1bn, Deposits SAR 669.9bn."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-02-01",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/SNB",
-    "days_to_earnings": 0
+    "call_time": "15:00 Riyadh",
+    "ir_webcast_url": "https://www.alahli.com/en-us/Investor_Relation",
+    "days_to_earnings": 71
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Detail wholesale vs retail funding mix to manage 113% financing-to-deposit ratio into 2027.",
+      "focus_area": "Liquidity & Funding",
+      "relevance": "Saudi sector liquidity tightness drives USD sukuk supply.",
+      "conviction_trigger": "SAMA regulatory LDR <90%."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "A1 / A-",
+      "price": 100.1,
+      "ytm": 4.95,
+      "spread_bp": 75,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Saudi Banking Flagship (SAR 1.26tn Assets, A1/A-)",
+      "summary": "Saudi Arabia's largest bank grew 9M26 net profit +4.6% YoY to SAR 19.48bn (Q3 SAR 6.45bn, -0.3% YoY on slightly higher opex/provisions). Total assets rose +4.6% YoY to SAR 1.26tn, financing SAR 758.1bn (+4.6%), and deposits SAR 669.9bn (+4.7%).",
+      "target_price": null,
+      "current_price": 100.1,
+      "ytm": 4.95,
+      "spread_bp": 75
+    },
+    "positives": [
+      "Largest Saudi bank (SAR 1.26tn assets) backed by 37.2% PIF ownership and A1/A- sovereign-linked ratings.",
+      "Balanced growth: loans (+4.6% YoY to SAR 758.1bn) funded in step with deposits (+4.7% to SAR 669.9bn).",
+      "High ~19.8% CAR and low ~1.4% NPL ratio."
+    ],
+    "negatives": [
+      "System-wide Saudi deposit competition keeping LDR tight (~113% financing/deposits) and pressuring Q3 margin growth.",
+      "Vision 2030 giga-project corporate lending concentration."
+    ],
+    "background": {
+      "business_overview": "Saudi Arabia's #1 bank by assets (formed by NCB-Samba merger).",
+      "asset_perimeter": "SNB Saudi Arabia, SNB Capital, T\u00fcrkiye Finans (67%).",
+      "ownership_governance": "37.2% Public Investment Fund (PIF); Tadawul-listed (1180)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M NP SAR 19.48bn (+4.6% YoY), Q3 SAR 6.45bn (-0.3%), Assets SAR 1.26tn (+4.6%), Financing SAR 758.1bn, Deposits SAR 669.9bn."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & Wholesale Funding / AT1 Plan",
+        "impact": "Clarifies LDR management and 2027 USD sukuk/AT1 supply."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: 9M Profit +4.6% to SAR 19.48bn & Assets SAR 1.26tn",
+      "source": "SNB Q3/9M 2026 Tadawul Filing",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 NP SAR 19.48bn (+4.6% YoY; Q3 SAR 6.45bn), Assets SAR 1.26tn, Financing SAR 758.1bn (+4.6%), Deposits SAR 669.9bn (+4.7%)."
+    }
+  ]
 }

@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "id": "mashreq",
+    "name": "Mashreqbank PSC",
+    "ticker": "MASQ",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A (Fitch) / A3 (Moody's) / A (S&P)",
+    "tier": "IG",
+    "benchmark_bond": "MASQ 6.25% Perp AT1 ($500m)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Mashreqbank_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Mashreqbank_Credit_Model.xlsx",
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "financials_currency": "AED",
+    "provenance": "financials built 22-Nov-26 from Mashreq FY2025 audited results and Q3/9M 2026 release; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "Mashreqbank FY2025 Audited Financial Statements, read 22-Nov-26",
+      "assets": 335000.0,
+      "deposits": 205000.0,
+      "total_income": 12600.0,
+      "net_profit": 7000.0,
+      "npl_pct": 1.0,
+      "observations": {
+        "notes": "FY25 assets AED 335bn (+25% YoY), deposits AED 205bn (+27% YoY, 62% CASA), operating income AED 12.6bn, PBT AED 8.3bn, PAT AED 7.0bn, NPL 1.0%."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "AED",
+      "source": "Mashreqbank Q3/9M 2026 Financial Results, read 22-Nov-26",
+      "assets": 405600.0,
+      "loans": 190600.0,
+      "deposits": 237100.0,
+      "nii": 6500.0,
+      "fees": 3900.0,
+      "total_income": 10400.0,
+      "net_profit": 6100.0,
+      "roe_pct": 20.4,
+      "ldr_pct": 80.0,
+      "npl_pct": 0.7,
+      "car_pct": 16.7,
+      "observations": {
+        "notes": "9M26 assets surged +33% YoY to AED 405.6bn, loans AED 190.6bn (+33% YoY), deposits AED 237.1bn (+27% YoY), NPAT AED 6.1bn (+18% YoY; PBT AED 7.3bn), ROE 20.4%, NPL 0.7% (311% coverage, AED 116m net impairment release), CAR 16.7%, LCR 124%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "MASQ 6.25% Perpetual NC5.5 AT1 Capital Notes (Feb-26)",
+      "tranche_name": "MASQ 6.25% Perpetual NC5.5 AT1 Capital Notes (Feb-26)",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "6.250%",
+      "maturity": "Perpetual",
+      "seniority": "Additional Tier 1",
+      "instrument_type": "Perpetual AT1",
+      "governing_law": "English / DIFC"
+    },
+    {
+      "instrument": "MASQ 5-Year Senior Unsecured Bond (Q3 2026)",
+      "tranche_name": "MASQ 5-Year Senior Unsecured Bond (Q3 2026)",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "Fixed",
+      "maturity": "2031-09-01",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 1000.0,
+    "total_outstanding_usd_m": 1000.0,
+    "source": "2026 USD capital market issuances ($500m 6.25% Perp AT1 in Feb-26 + $500m 5Y Senior in Q3-26)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-22",
+    "verdict": {
+      "stance": "Overweight / High-ROE UAE IG Franchise",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Standout growth and profitability among GCC A-rated private banks: 9M26 NPAT +18% YoY to AED 6.1bn (20.4% ROE) as assets surpassed AED 405.6bn (+33% YoY) with 0.7% NPLs and 311% coverage. Rapid 33% loan expansion is backed by 16.7% CAR (boosted by Feb-26 $500m 6.25% AT1) and 124% LCR."
+    },
+    "positives": [
+      "Top-quartile profitability: 20.4% ROE in 9M26 (+18% YoY NPAT to AED 6.1bn) with strong non-interest income (+18% YoY to AED 3.9bn).",
+      "Stellar asset quality: NPL ratio down to 0.7% (vs 1.1% Sep-25) with 311% coverage and AED 116m net impairment release.",
+      "Strong capital & liquidity: 16.7% CAR, 124% LCR, 80% LDR, A/A3/A Stable ratings."
+    ],
+    "negatives": [
+      "Aggressive balance sheet expansion: +33% YoY loan growth (incl. +13% QoQ in Q3) and +75% investment book (AED 83.7bn) warrant credit-cycle vigilance.",
+      "Private-family majority ownership (Al Ghurair) vs sovereign-owned peers (FAB/ADCB/ENBD), though systemic importance in Dubai is high.",
+      "Regional expansion (Egypt, Pakistan, Turkey, Oman) increases cross-border macro sensitivity."
+    ],
+    "background": {
+      "business_overview": "UAE's oldest privately owned commercial bank (est. 1967), digital banking leader across corporate, investment banking, and retail.",
+      "asset_perimeter": "Core UAE franchise plus international wholesale/digital hubs in Egypt, GCC, UK, US, and Pakistan.",
+      "ownership_governance": "Controlled by Al Ghurair family (~85%+); listed on DFM and regulated by Central Bank of the UAE."
+    },
+    "recent_drivers": [
+      "9M/Q3 2026 Results: Assets AED 405.6bn (+33% YoY), Loans AED 190.6bn, Deposits AED 237.1bn, NPAT AED 6.1bn (+18% YoY), ROE 20.4%, NPL 0.7%, CAR 16.7%.",
+      "2026 Issuance: Priced $500m 6.25% Perp NC5.5 AT1 ($2.1bn book) in Feb-26 and $500m 5Y senior bond in Q3-26."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & CET1 / Dividend Declaration",
+        "impact": "Checks whether 33% asset growth moderates and confirms capital buffers."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Provide breakdown of the +33% YoY loan growth (AED 190.6bn) by UAE GREs, real estate, and international books (Egypt/Turkey).",
+      "focus_area": "Asset Quality & Growth",
+      "relevance": "Fastest growth among major UAE banks.",
+      "conviction_trigger": "UAE/GRE share >70% and NPL <1.0%."
+    },
+    {
+      "question": "Detail CET1 ratio vs Total CAR (16.7%) post the Q3/Feb-26 capital and senior issuances.",
+      "focus_area": "Capital",
+      "relevance": "Buffer above CBUAE DSIB/min requirements for AT1 coupon safety.",
+      "conviction_trigger": "CET1 >13.0%."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Coverage Initiated: Mashreqbank 9M 2026 Results & 2026 AT1/Senior Issuances",
+      "source": "Mashreqbank 9M26 Release / Fitch / Moody's",
+      "status": "Initial Coverage",
+      "summary": "Added Mashreqbank (MASQ, A/A3/A). Assets AED 405.6bn (+33% YoY), 9M26 NPAT AED 6.1bn (+18% YoY), ROE 20.4%, NPL 0.7% (311% coverage), CAR 16.7%. Issued $500m 6.25% Perp AT1 + $500m 5Y senior."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "mashreq",
+      "sector": "Banks",
+      "topic": "9M26 Balance Sheet Surge",
+      "source": "Mashreqbank 9M 2026 Filing",
+      "note": "Assets expanded 33% YoY to AED 405.6bn and investment securities jumped 75% to AED 83.66bn while maintaining 80% LDR and 124% LCR."
+    },
+    {
+      "issuer_id": "mashreq",
+      "sector": "Banks",
+      "topic": "AT1 Coupon & Book Strength",
+      "source": "Bond Issuance Feb-26",
+      "note": "$500m Perp NC5.5 AT1 priced at 6.25% (tightened 50-62.5bp from IPT on $2.1bn orderbook)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-02",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Dubai / 10:00 UK",
+    "ir_webcast_url": "https://www.mashreq.com/en/uae/about-us/investor-relations/",
+    "days_to_earnings": 72
+  },
+  "market_history": [
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "A (Fitch) / A3 (Moody's) / A (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

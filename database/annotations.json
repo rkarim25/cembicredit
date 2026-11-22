@@ -1,5 +1,33 @@
 [
   {
+    "issuer_id": "absa",
+    "sector": "Banks",
+    "topic": "CET1 & Target Range",
+    "source": "Absa H1 2026 Filing",
+    "note": "H1 2026 CET1 reached 12.8% (12.1% ex-unappropriated profits), sitting above the 11.0%-12.5% board target."
+  },
+  {
+    "issuer_id": "absa",
+    "sector": "Banks",
+    "topic": "Credit Loss Normalization",
+    "source": "Absa FY25/H126",
+    "note": "Group CLR improved to 88bp in FY25 (vs 103bp FY24), comfortably inside through-the-cycle target."
+  },
+  {
+    "issuer_id": "access",
+    "sector": "Banks",
+    "topic": "Sep-26 $500m Bond Repayment",
+    "source": "Access Holdings / BusinessDay",
+    "note": "Access Bank paid off its $500m 6.125% Sep-2026 senior Eurobond in full at maturity from internal FC liquidity without issuing a replacement."
+  },
+  {
+    "issuer_id": "access",
+    "sector": "Banks",
+    "topic": "CBN Recapitalization Compliance",
+    "source": "Access Holdings FY25/9M26",
+    "note": "Fulfilled CBN's NGN 500bn international bank capital floor via NGN 351bn rights issue and private placements."
+  },
+  {
     "issuer_id": "acwa",
     "issuer_name": "ACWA Power",
     "sector": "Utilities",
@@ -24,6 +52,13 @@
     "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
   },
   {
+    "issuer_id": "acwa",
+    "sector": "Utilities",
+    "topic": "Q326 Rebound & SAR 30bn Project Debt",
+    "source": "ACWA Power Q3/9M 2026 Filing",
+    "note": "Q3 rev SAR 2,202m (+32.7%), Q3 op inc SAR 1,106m (+88.2%), 9M NI SAR 1,288m; raised ~SAR 30bn YTD non-recourse debt (incl. Noor Energy 1)."
+  },
+  {
     "issuer_id": "adcb",
     "issuer_name": "Abu Dhabi Commercial Bank",
     "sector": "Banks",
@@ -46,6 +81,13 @@
     "topic": "Asset Quality & Stage 2 Risk",
     "source": "BRSA / Audit Reports",
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "adcb",
+    "sector": "Banks",
+    "topic": "9M26 +27% Profit & 1.6% NPL",
+    "source": "ADCB Q3/9M 2026 Release",
+    "note": "9M26 NPAT AED 10.30bn (+27% YoY), Assets AED 890bn (+20% YoY), record-low NPL 1.6%, ROAE 16.2%."
   },
   {
     "issuer_id": "adm_elek",
@@ -156,6 +198,13 @@
     "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
   },
   {
+    "issuer_id": "aldar",
+    "sector": "Real Estate",
+    "topic": "9M26 AED 38.2bn Liquidity",
+    "source": "Aldar Q3/9M 2026 Release",
+    "note": "9M26 rev AED 26.2bn (+11%), Group EBITDA AED 9.4bn (+20%), NPAT AED 7.1bn (+19%), Liquidity AED 38.2bn, Backlog AED 71.6bn."
+  },
+  {
     "issuer_id": "arada",
     "issuer_name": "Arada Developments",
     "sector": "Real Estate",
@@ -178,6 +227,13 @@
     "topic": "Asset Coverage & Land Bank",
     "source": "CBRE / JLL Independent Valuation",
     "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "arada",
+    "sector": "Real Estate",
+    "topic": "Oct-26 $400m Sukuk & 2027 Tender",
+    "source": "Arada Oct-26 Issuance Release",
+    "note": "Issued $400m 5Y senior unsecured sukuk at 8.875% (>$700m book) and launched $180m tender cap on 2027 trust certificates."
   },
   {
     "issuer_id": "aragvi",
@@ -252,6 +308,13 @@
     "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
   },
   {
+    "issuer_id": "aydem",
+    "sector": "Utilities",
+    "topic": "9M26 & $550m Green Eurobond",
+    "source": "Aydem 9M 2026 Filing",
+    "note": "9M26 rev TRY 12.10bn, net profit TRY 5.24bn (deferred tax boost); servicing $550m late-2025 green Eurobond ($27.16m coupon paid spring-26)."
+  },
+  {
     "issuer_id": "azule",
     "issuer_name": "Azule Energy",
     "sector": "Energy",
@@ -276,6 +339,13 @@
     "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
   },
   {
+    "issuer_id": "azule",
+    "sector": "Energy",
+    "topic": "9M26 $3.05bn EBITDA",
+    "source": "Azule Energy Q3/9M 2026 Release",
+    "note": "9M26 revenue $3.60bn (+32% YoY), EBITDA $3.05bn, PAT $391m at $89/bbl average realized oil; $850m 2031 & $650m 8.625% 2033 bonds."
+  },
+  {
     "issuer_id": "bapco",
     "issuer_name": "Bapco Energies (nogaholding)",
     "sector": "Energy",
@@ -298,6 +368,13 @@
     "topic": "Commercial Reserve Life (1P/2P)",
     "source": "DeGolyer and MacNaughton / Ryder Scott",
     "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "bgeo",
+    "sector": "Banks",
+    "topic": "9M26 Capital & Growth",
+    "source": "Lion Finance 9M26 RNS",
+    "note": "9M26 net profit GEL 1,865.7m (+18.6% YoY), ROAE 27.2%, BoG CET1 18.1% (+260bp over 15.5% req), Ameriabank CET1 14.0%."
   },
   {
     "issuer_id": "binghatti",
@@ -322,6 +399,13 @@
     "topic": "Asset Coverage & Land Bank",
     "source": "CBRE / JLL Independent Valuation",
     "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "binghatti",
+    "sector": "Real Estate",
+    "topic": "Feb-27 $500m Sukuk Cash Payoff",
+    "source": "Binghatti 9M 2026 Release",
+    "note": "9M26 net profit surged 65% YoY to AED 4.4bn; announced full repayment of Feb-2027 $500m sukuk from internal cash."
   },
   {
     "sector": "Materials / Chemicals",
@@ -372,6 +456,13 @@
     "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
   },
   {
+    "issuer_id": "cci",
+    "sector": "Consumer",
+    "topic": "Q326 Volume vs Margin Divergence",
+    "source": "CCI Q3 2026 Release",
+    "note": "Q326 volume +8.3% YoY (516m unit cases) while TAS 29 EBITDA declined 17.1% YoY to TRY 12.6bn."
+  },
+  {
     "issuer_id": "cez",
     "issuer_name": "ČEZ Group",
     "sector": "Utilities",
@@ -394,6 +485,13 @@
     "topic": "Sovereign Balancing & Guarantees",
     "source": "Ministry of Finance Disclosures",
     "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "cez",
+    "sector": "Utilities",
+    "topic": "9M26 2.0x Leverage Creep",
+    "source": "CEZ Group 9M 2026 Release",
+    "note": "9M26 EBITDA CZK 86.1bn (-17% YoY, FY26 guide CZK 109-114bn reaffirmed); net debt +14% YTD to CZK 236.0bn (2.0x vs 1.5x)."
   },
   {
     "sector": "Materials / Cement",
@@ -534,6 +632,13 @@
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
   },
   {
+    "issuer_id": "dib",
+    "sector": "Banks",
+    "topic": "9M26 AED 427bn Assets & 16.5% CAR",
+    "source": "DIB Q3/9M 2026 Release",
+    "note": "9M26 total income AED 18.58bn (+7%), 9M NP AED 5.61bn, Assets AED 427.0bn (+10% YTD financing), CAR 16.5%."
+  },
+  {
     "issuer_id": "dp_world",
     "issuer_name": "DP World",
     "sector": "Infrastructure",
@@ -582,6 +687,13 @@
     "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
   },
   {
+    "issuer_id": "dtek",
+    "sector": "Utilities",
+    "topic": "O&G 2029 Restructured vs Renewables CC",
+    "source": "Fitch / Interfax (2026)",
+    "note": "DTEK O&G restructured $425m bond to Dec-2029 at 9.875%; DTEK Renewables rated CC by Fitch on €281m Nov-2027 green bond refi risk."
+  },
+  {
     "issuer_id": "emaar",
     "issuer_name": "Emaar Properties",
     "sector": "Real Estate",
@@ -654,6 +766,13 @@
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
   },
   {
+    "issuer_id": "enbd",
+    "sector": "Banks",
+    "topic": "9M26 NPL Down to 2.0%",
+    "source": "ENBD Q3/9M 2026 Release",
+    "note": "9M26 PBT record AED 24.3bn, Assets AED 1.38tn (+18% YTD), NPL improved to 2.0%, CET1 13.4%."
+  },
+  {
     "issuer_id": "equate",
     "issuer_name": "EQUATE Petrochemical",
     "sector": "Materials",
@@ -700,6 +819,13 @@
     "topic": "Strategic Sovereign Resource Moat",
     "source": "Credit Rating Agency Memo",
     "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "erdemir",
+    "sector": "Materials",
+    "topic": "Q326 $100/t Steel Recovery",
+    "source": "Erdemir Q3/9M 2026 Release",
+    "note": "Q3 EBITDA jumped 68% YoY to TRY 7,977m ($100/t vs $75/t Q2 & $68/t Q325); 9M EBITDA +70.2% YoY to TRY 22.35bn."
   },
   {
     "issuer_id": "eskom",
@@ -750,6 +876,13 @@
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
   },
   {
+    "issuer_id": "fab",
+    "sector": "Banks",
+    "topic": "9M26 CET1 14.0% & NPL 2.1%",
+    "source": "FAB Q3/9M 2026 Release",
+    "note": "9M26 NP AED 16.46bn (+3% YoY), Assets AED 1.47tn (+7% YTD), NPL improved to 2.1% (vs 2.6%), CET1 14.0%."
+  },
+  {
     "issuer_id": "firstrand",
     "issuer_name": "FirstRand Bank",
     "sector": "Banks",
@@ -796,6 +929,13 @@
     "topic": "Asset Quality & Stage 2 Risk",
     "source": "BRSA / Audit Reports",
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "garanti",
+    "sector": "Banks",
+    "topic": "9M26 27.5% ROAE vs 3.9% NPL",
+    "source": "Garanti BBVA 9M 2026 BRSA Release",
+    "note": "9M26 net profit TRY 98bn (+16% YoY), ROAE 27.5%, CAR 16.1%; NPL rose to 3.9% (vs 3.2% Q126) on retail/cards."
   },
   {
     "issuer_id": "gdz_elek",
@@ -858,6 +998,13 @@
     "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
   },
   {
+    "issuer_id": "goldfields",
+    "sector": "Materials",
+    "topic": "Q326 0.13x Net Leverage",
+    "source": "Gold Fields Q3 2026 Operational Update",
+    "note": "Q326 net debt $981m ($410m ex-leases), Net Debt/Adj EBITDA 0.13x after interim dividends and buybacks."
+  },
+  {
     "issuer_id": "halkbank",
     "issuer_name": "Halkbank",
     "sector": "Banks",
@@ -882,6 +1029,13 @@
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
   },
   {
+    "issuer_id": "halkbank",
+    "sector": "Banks",
+    "topic": "9M26 Filing & Litigation Tail",
+    "source": "Halkbank 9M 2026 BRSA Filing",
+    "note": "Published 9M26 consolidated BRSA results; credit spread continues to reflect US DOJ litigation overhang vs 87.7% TVF state support."
+  },
+  {
     "issuer_id": "halyk",
     "issuer_name": "Halyk Bank",
     "sector": "Banks",
@@ -904,6 +1058,27 @@
     "topic": "Asset Quality & Stage 2 Risk",
     "source": "BRSA / Audit Reports",
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "halyk",
+    "sector": "Banks",
+    "topic": "Nov-23 Q3/9M26 Call",
+    "source": "KASE / Halyk Disclosure",
+    "note": "Scheduled Q3 & 9M 2026 unaudited financial results call for November 23, 2026."
+  },
+  {
+    "issuer_id": "hapoalim",
+    "sector": "Banks",
+    "topic": "Jan-26 $2B Senior Debut",
+    "source": "Bond Prospectus / Fitch",
+    "note": "Jan-2026 issued $1bn 4.722% due Jul-2029 (IL0012343849) and $1bn 5.252% due Jan-2033 (IL0012338161) under NY law, rated A-/BBB+."
+  },
+  {
+    "issuer_id": "hapoalim",
+    "sector": "Banks",
+    "topic": "NPL Coverage Cushion",
+    "source": "Bank Hapoalim Q3 2026",
+    "note": "NPL coverage stands at 292% against 0.49% NPL ratio, providing substantial protection against cyclical credit losses."
   },
   {
     "issuer_id": "helios",
@@ -928,6 +1103,13 @@
     "topic": "Contracted Revenue Backlog",
     "source": "Investor Presentations",
     "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "helios",
+    "sector": "Technology",
+    "topic": "9M26 3.4x Leverage & $535m Guide",
+    "source": "Helios Towers Q3/9M 2026 Release",
+    "note": "9M26 Adj EBITDA $392.2m (+13% YoY), FY26 guidance ~$535m, Q3 net debt $1,818.4m (3.4x vs 4.49x FY24)."
   },
   {
     "issuer_id": "hidro",
@@ -978,6 +1160,13 @@
     "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
   },
   {
+    "issuer_id": "ihs",
+    "sector": "Technology",
+    "topic": "Q326 Leverage Halved to 1.8x",
+    "source": "IHS Towers Q3 2026 Release",
+    "note": "Q326 Adj EBITDA $282.7m (+8.1% YoY) despite LatAm/Rwanda exits; consolidated net leverage plummeted to 1.8x (vs 3.3x Q325)."
+  },
+  {
     "issuer_id": "isbank",
     "issuer_name": "Türkiye İş Bankası",
     "sector": "Banks",
@@ -1000,6 +1189,13 @@
     "topic": "Asset Quality & Stage 2 Risk",
     "source": "BRSA / Audit Reports",
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "isbank",
+    "sector": "Banks",
+    "topic": "9M26 NIM & IRB Capital",
+    "source": "İşbank Q3/9M 2026 BRSA Release",
+    "note": "9M26 net profit TRY 40.43bn, Q3 swap-adj NIM 2.4% (+30bp QoQ), NPL 4.2%, Consol CAR 15.6% (Bank-only 17.2% aided by IRB)."
   },
   {
     "issuer_id": "ittihad",
@@ -1050,6 +1246,13 @@
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
   },
   {
+    "issuer_id": "kfh",
+    "sector": "Banks",
+    "topic": "9M26 30.8% CIR Cost Synergies",
+    "source": "KFH Q3/9M 2026 Release",
+    "note": "9M26 attributable NP KD 523.4m (+6.2% YoY), net op income ~KD 1.0bn (+11.7%), opex -3.0%, CIR 30.8%."
+  },
+  {
     "issuer_id": "kmg",
     "issuer_name": "KazMunayGas (KMG)",
     "sector": "Energy",
@@ -1098,6 +1301,13 @@
     "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
   },
   {
+    "issuer_id": "koc",
+    "sector": "Industrials",
+    "topic": "Standalone Net Cash $963m",
+    "source": "Koç Holding 9M 2026 Report",
+    "note": "HoldCo standalone net cash stood at $963m as of 30-Sep-26 while 9M attributable net profit rose 203% YoY to TRY 56.37bn."
+  },
+  {
     "issuer_id": "kosmos",
     "issuer_name": "Kosmos Energy",
     "sector": "Energy",
@@ -1120,6 +1330,27 @@
     "topic": "Commercial Reserve Life (1P/2P)",
     "source": "DeGolyer and MacNaughton / Ryder Scott",
     "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "kosmos",
+    "sector": "Energy",
+    "topic": "9M26 $500m+ Debt Cut",
+    "source": "Kosmos Energy Q3/9M 2026 Release",
+    "note": "9M26 EBITDAX ~$800m (~2x YoY); net debt slashed >$500m YTD to $2.47bn (target <$2.4bn YE26)."
+  },
+  {
+    "issuer_id": "leumi",
+    "sector": "Banks",
+    "topic": "Special Bank Tax Levy",
+    "source": "Bank Leumi Q3 2026 Release",
+    "note": "Q3 2026 reported net profit NIS 3.0bn vs NIS 3.3bn adjusted excluding the Israeli special bank tax levy (Q3 ROE 16.9% reported vs 18.5% adjusted)."
+  },
+  {
+    "issuer_id": "leumi",
+    "sector": "Banks",
+    "topic": "Jun-26 $1B Tier 2 CoCo",
+    "source": "Primary Issuance Disclosure",
+    "note": "Issued $1bn variable hybrid Tier 2 CoCo notes due Sep-2036 at 5.70% (+155bp spread), reinforcing Total CAR at 14.15%."
   },
   {
     "issuer_id": "limak_cem",
@@ -1194,6 +1425,13 @@
     "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
   },
   {
+    "issuer_id": "limak_ren",
+    "sector": "Utilities",
+    "topic": "Mid-2026 $525m Green Bond",
+    "source": "Bond Issuance Disclosure 2026",
+    "note": "Placed $525m 5.5NC2 green Eurobond ($1.25bn+ demand) to refinance ~80% of debt and fund İncir & Pervari hydro."
+  },
+  {
     "issuer_id": "liqtel",
     "issuer_name": "Liquid Telecom",
     "sector": "Technology",
@@ -1218,6 +1456,27 @@
     "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
   },
   {
+    "issuer_id": "liqtel",
+    "sector": "Technology",
+    "topic": "Apr-26 2031 Refinancing & Fitch B-",
+    "source": "Liquid Telecom / Fitch (Apr/May 2026)",
+    "note": "Apr-26 priced $300m 10.75% 2031 notes + term loans + Cassava equity to retire $620m 5.5% 2026s; Fitch upgraded to B- Stable May-26."
+  },
+  {
+    "issuer_id": "maaden",
+    "sector": "Materials",
+    "topic": "USD Sukuk Curve",
+    "source": "Saudi Exchange / Fitch",
+    "note": "Placed $1.5bn dual-tranche Sukuk (Feb-30 5.25% & Feb-35 5.50%) plus $1.0bn 5.25% Sukuk in Jan-26 due Jan-2036."
+  },
+  {
+    "issuer_id": "maaden",
+    "sector": "Materials",
+    "topic": "Q326 Margin Squeeze",
+    "source": "Q3 2026 Earnings (09-Nov-26)",
+    "note": "Q3 EBITDA fell 24% YoY to SAR 3.3bn ($880m) on elevated sulfur feedstock and phosphate logistics costs; net leverage stayed moderate at 1.4x."
+  },
+  {
     "issuer_id": "maf",
     "issuer_name": "Majid Al Futtaim (MAF)",
     "sector": "Consumer",
@@ -1240,6 +1499,27 @@
     "topic": "Geographic Diversification",
     "source": "Investor Presentations",
     "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "maf",
+    "sector": "Consumer",
+    "topic": "Record H126 EBITDA",
+    "source": "MAF H1 2026 Release (Sep-26)",
+    "note": "H126 revenue AED 17.5bn (+1% YoY), record EBITDA AED 2.5bn (+11% YoY), NOPAT AED 1.8bn (+25% YoY)."
+  },
+  {
+    "issuer_id": "mashreq",
+    "sector": "Banks",
+    "topic": "9M26 Balance Sheet Surge",
+    "source": "Mashreqbank 9M 2026 Filing",
+    "note": "Assets expanded 33% YoY to AED 405.6bn and investment securities jumped 75% to AED 83.66bn while maintaining 80% LDR and 124% LCR."
+  },
+  {
+    "issuer_id": "mashreq",
+    "sector": "Banks",
+    "topic": "AT1 Coupon & Book Strength",
+    "source": "Bond Issuance Feb-26",
+    "note": "$500m Perp NC5.5 AT1 priced at 6.25% (tightened 50-62.5bp from IPT on $2.1bn orderbook)."
   },
   {
     "issuer_id": "metinvest",
@@ -1290,6 +1570,13 @@
     "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
   },
   {
+    "issuer_id": "mhp",
+    "sector": "Consumer",
+    "topic": "2026 Fitch CCC Upgrade",
+    "source": "Fitch / LSE RNS (2026)",
+    "note": "Fitch upgraded IDR to 'CCC' in 2026 after debt refinancing cleared near-term maturities; European expansion underpins covenant headroom."
+  },
+  {
     "issuer_id": "mol",
     "issuer_name": "MOL Group",
     "sector": "Energy",
@@ -1312,6 +1599,13 @@
     "topic": "Commercial Reserve Life (1P/2P)",
     "source": "DeGolyer and MacNaughton / Ryder Scott",
     "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "mol",
+    "sector": "Energy",
+    "topic": "9M26 0.3x Net Leverage",
+    "source": "MOL Group Q3/9M 2026 Release",
+    "note": "Q326 Clean CCS EBITDA $1.76bn (9M $3.68bn), net debt down to $1.54bn (0.3x net leverage vs <1.0x target)."
   },
   {
     "issuer_id": "mtn",
@@ -1362,6 +1656,13 @@
     "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
   },
   {
+    "issuer_id": "ocp",
+    "sector": "Materials",
+    "topic": "Nov-30 9M26 Release",
+    "source": "OCP Investor Notice",
+    "note": "Scheduled Q3/9M 2026 financial release and management call for November 30, 2026."
+  },
+  {
     "issuer_id": "ooredoo",
     "issuer_name": "Ooredoo QPSC",
     "sector": "Technology",
@@ -1432,6 +1733,34 @@
     "topic": "Commercial Reserve Life (1P/2P)",
     "source": "DeGolyer and MacNaughton / Ryder Scott",
     "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "orlen",
+    "sector": "Energy",
+    "topic": "9M26 -0.06x Net Cash",
+    "source": "PKN Orlen Q3/9M 2026 Release",
+    "note": "Q326 LIFO EBITDA PLN 14.8bn, 9M26 LIFO EBITDA PLN 42.8bn, gross debt PLN 30.5bn, net leverage -0.06x (net cash)."
+  },
+  {
+    "issuer_id": "otp",
+    "sector": "Banks",
+    "topic": "Moody's Positive Outlook",
+    "source": "Moody's Rating Action (Jul-26)",
+    "note": "Affirmed Baa1 deposits and Baa3 foreign currency senior unsecured; outlook changed to Positive on Luminor acquisition."
+  },
+  {
+    "issuer_id": "otp",
+    "sector": "Banks",
+    "topic": "USD Tier 2 Curve",
+    "source": "OTP EMTN Prospectus",
+    "note": "$650m 8.75% due May-2033 (XS2586007036, NC28) and $750m 7.30% due Jul-2035 (XS2988670878, NC30)."
+  },
+  {
+    "issuer_id": "pearl",
+    "sector": "Energy",
+    "topic": "KM250 Gas Expansion",
+    "source": "Pearl Petroleum 1H26 Update",
+    "note": "Khor Mor KM250 expansion adds 250 MMscfd capacity; net debt $500m (0.98x LTM EBITDA $510m) vs KRG geopolitical/payment risk."
   },
   {
     "issuer_id": "pegasus",
@@ -1530,6 +1859,13 @@
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
   },
   {
+    "issuer_id": "qnb",
+    "sector": "Banks",
+    "topic": "9M26 19.7% CAR & IAS 29 Impact",
+    "source": "QNB 9M 2026 Release",
+    "note": "9M26 NP QAR 13.3bn (+4%; QAR 16.4bn pre-IAS 29), Assets QAR 1.464tn ($402bn), NPL 2.7% (97% coverage), CAR 19.7%."
+  },
+  {
     "issuer_id": "rajhi",
     "issuer_name": "Al Rajhi Bank",
     "sector": "Banks",
@@ -1554,6 +1890,13 @@
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
   },
   {
+    "issuer_id": "rajhi",
+    "sector": "Banks",
+    "topic": "Record Q3 & 22.2% CIR",
+    "source": "Al Rajhi Q3/9M 2026 Filing",
+    "note": "Record Q326 NP SAR 7.11bn (+12% YoY), 9M SAR 20.87bn (+13.3%), ROE 23.3%, CIR 22.2%, Assets SAR 1.08tn."
+  },
+  {
     "issuer_id": "riyad",
     "issuer_name": "Riyad Bank",
     "sector": "Banks",
@@ -1576,6 +1919,13 @@
     "topic": "Asset Quality & Stage 2 Risk",
     "source": "BRSA / Audit Reports",
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "riyad",
+    "sector": "Banks",
+    "topic": "9M26 Record 28.7% CIR",
+    "source": "Riyad Bank Q3/9M 2026 Filing",
+    "note": "9M26 NP SAR 8.13bn (+4.6% YoY), Q3 op income record SAR 5.05bn, Assets SAR 545bn (+5% YTD), CIR 28.7%."
   },
   {
     "issuer_id": "romgaz",
@@ -1650,6 +2000,20 @@
     "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
   },
   {
+    "issuer_id": "sappi",
+    "sector": "Materials",
+    "topic": "FY26 7.0x Leverage Spike",
+    "source": "Sappi FY2026 Results (06-Nov-26)",
+    "note": "FY26 Adj EBITDA fell 41% YoY to $294m while net debt reached $2,050m (6.97x); $747m net loss included $319m Matane mill impairments."
+  },
+  {
+    "issuer_id": "sappi",
+    "sector": "Materials",
+    "topic": "Bond ISINs & RCF Cushion",
+    "source": "Bond Prospectuses / FY26 Release",
+    "note": "EUR 400m 3.625% due Mar-28 (XS2310951103), EUR 300m 4.50% due Mar-32 (XS3017017990), USD 250m 7.50% due Jun-32 (XS0149581935); $707m liquidity ($165m cash + $542m RCF)."
+  },
+  {
     "issuer_id": "sasol",
     "issuer_name": "Sasol Ltd",
     "sector": "Energy",
@@ -1698,6 +2062,20 @@
     "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
   },
   {
+    "issuer_id": "sec",
+    "sector": "Utilities",
+    "topic": "9M26 RAB Growth",
+    "source": "Saudi Electricity Q3/9M 2026 Release",
+    "note": "9M26 revenue SAR 87.2bn (+11.5% YoY), 9M net profit SAR 12.1bn (+4.3% YoY) on expanding regulated asset base."
+  },
+  {
+    "issuer_id": "seplat",
+    "sector": "Energy",
+    "topic": "MPNU Integration & 2030 Refi",
+    "source": "Seplat 9M26 Filing",
+    "note": "Mobil Producing Nigeria Unlimited (MPNU) acquisition lifted scale >135 kboepd; refinanced 2026s with $650m 9.125% 2030s at 0.53x net leverage."
+  },
+  {
     "issuer_id": "sisecam",
     "issuer_name": "Şişecam",
     "sector": "Materials",
@@ -1722,6 +2100,13 @@
     "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
   },
   {
+    "issuer_id": "sisecam",
+    "sector": "Materials",
+    "topic": "Q326 Margin Trough (5.2%)",
+    "source": "Şişecam Q3/9M 2026 Release",
+    "note": "Q326 EBITDA plunged 61.2% YoY to TRY 3,466m (5.2% margin); 9M26 EBITDA TRY 13,032m (-38.3% YoY, 6.7% margin) on soda ash & European glass weakness."
+  },
+  {
     "issuer_id": "snb",
     "issuer_name": "Saudi National Bank",
     "sector": "Banks",
@@ -1744,6 +2129,13 @@
     "topic": "Asset Quality & Stage 2 Risk",
     "source": "BRSA / Audit Reports",
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "snb",
+    "sector": "Banks",
+    "topic": "9M26 SAR 1.26tn Assets",
+    "source": "SNB Q3/9M 2026 Tadawul Filing",
+    "note": "9M26 NP SAR 19.48bn (+4.6% YoY), Assets SAR 1.26tn (+4.6%), Financing SAR 758.1bn, Deposits SAR 669.9bn."
   },
   {
     "issuer_id": "sobha",
@@ -1794,6 +2186,13 @@
     "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
   },
   {
+    "issuer_id": "sonangol",
+    "sector": "Energy",
+    "topic": "2026 $750m 10% Bond & Afreximbank",
+    "source": "Angola Budget / Sonangol 2026 Disclosures",
+    "note": "Jan-26 priced debut $750m 10% 2031 PP bond + $1.75bn Afreximbank facility; 9M26 external debt expanded on Kaminho cash calls & fuel imports."
+  },
+  {
     "issuer_id": "standard_bank",
     "issuer_name": "Standard Bank Group",
     "sector": "Banks",
@@ -1842,6 +2241,13 @@
     "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
   },
   {
+    "issuer_id": "stc",
+    "sector": "Technology",
+    "topic": "9M26 Operating Profit & Dividends",
+    "source": "stc 9M 2026 Tadawul Filing",
+    "note": "9M26 rev SAR 60.10bn (+3.7%), op profit SAR 11.28bn (+4.1%), NI SAR 10.92bn, cash dividends SAR 8.2bn."
+  },
+  {
     "issuer_id": "taqa",
     "issuer_name": "Abu Dhabi National Energy (TAQA)",
     "sector": "Utilities",
@@ -1864,6 +2270,27 @@
     "topic": "Sovereign Balancing & Guarantees",
     "source": "Ministry of Finance Disclosures",
     "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "taqa",
+    "sector": "Utilities",
+    "topic": "H1 2026 Results",
+    "source": "TAQA H1 2026 ADX Filing",
+    "note": "H126 rev AED 27.5bn, EBITDA AED 11.0bn (+7.7% YoY), net income AED 4.1bn."
+  },
+  {
+    "issuer_id": "tbc",
+    "sector": "Banks",
+    "topic": "Uzbekistan Digital Growth",
+    "source": "TBC Bank 9M26 RNS",
+    "note": "9M26 ROE 25%+ with Uzbek digital franchise scaling rapidly; CET1 16.5% / CAR 23.0%."
+  },
+  {
+    "issuer_id": "teva",
+    "sector": "Healthcare & Pharma",
+    "topic": "Innovative Pivot & Deleveraging",
+    "source": "Teva Q3 2026 Release (03-Nov-26)",
+    "note": "Austedo/Ajovy/Uzedy +33% YoY drove Q3 EBITDA $1.5bn (+7% YoY) and net leverage down to 2.71x toward 2.0x end-2027 IG target."
   },
   {
     "issuer_id": "tharisa",
@@ -1914,6 +2341,13 @@
     "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
   },
   {
+    "issuer_id": "thy",
+    "sector": "Aviation",
+    "topic": "Q3/9M 2026 Margin & Capex Update",
+    "source": "Turkish Airlines Q3/9M 2026 Release",
+    "note": "9M26 rev $21.42bn (+20.2% YoY), EBITDAR $3.78bn (17.6%, -6.2pp), net debt ~$9.7bn (2.2x vs 1.6x FY25) after $4.6bn 9M capex."
+  },
+  {
     "issuer_id": "ttkom",
     "issuer_name": "Türk Telekom",
     "sector": "Technology",
@@ -1938,6 +2372,13 @@
     "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
   },
   {
+    "issuer_id": "ttkom",
+    "sector": "Technology",
+    "topic": "Q3 2026 Sub-1x Leverage",
+    "source": "Türk Telekom Q3/9M 2026 Release",
+    "note": "Q3 rev TRY 86.4bn (+11.9% YoY), Q3 EBITDA TRY 37.0bn (42.9% / 46% ex-IFRIC 12), Net Debt TRY 125.4bn (0.95x vs 1.00x Q2)."
+  },
+  {
     "issuer_id": "tullow",
     "issuer_name": "Tullow Oil",
     "sector": "Energy",
@@ -1984,6 +2425,13 @@
     "topic": "Commercial Reserve Life (1P/2P)",
     "source": "DeGolyer and MacNaughton / Ryder Scott",
     "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "tupras",
+    "sector": "Energy",
+    "topic": "FY26 Guidance Hike ($20-22/bbl NRM)",
+    "source": "Tüpraş Q3/9M 2026 Release",
+    "note": "Upgraded FY26 Net Refining Margin guidance to $20.0-$22.0/bbl (from $13.0-$15.0/bbl) after 9M NRM hit $23.0/bbl at 106% Q3 utilization; net cash intact."
   },
   {
     "issuer_id": "turk_exim",
@@ -2032,6 +2480,13 @@
     "topic": "Contracted Revenue Backlog",
     "source": "Investor Presentations",
     "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "turkcell",
+    "sector": "Technology",
+    "topic": "Q3 2026 Real Growth & 0.31x Leverage",
+    "source": "Turkcell Q3/9M 2026 Release",
+    "note": "Real revenue +6.2% YoY in Q3 (TRY 82.04bn) and EBITDA +6.8% YoY (TRY 36.24bn, 44.2% margin); net leverage 0.31x."
   },
   {
     "issuer_id": "ukr_rail",
@@ -2066,6 +2521,13 @@
     "note": "Physical asset base includes >80,000 wagons, 1,150 active locomotives, and 16,800+ km of operated track. Scrap steel and unencumbered rolling stock liquidation floor is $38.00. Base-case going-concern restructuring value is $68.00 - $74.00, offering attractive asymmetric risk/reward for high-beta credit portfolios."
   },
   {
+    "issuer_id": "ukr_rail",
+    "sector": "Transportation & Logistics (Railways)",
+    "topic": "2026 Default & 30% Tariff Hike",
+    "source": "Fitch / S&P / Interfax (2026)",
+    "note": "Entered RD/D after Jan-26 coupon suspension & Jul-26 $703m missed bullet (~$1.1bn debt). Bondholders rejected 20% haircut; 30% freight tariff hike effective Aug 1, 2026."
+  },
+  {
     "issuer_id": "vakifbank",
     "issuer_name": "VakıfBank",
     "sector": "Banks",
@@ -2090,6 +2552,13 @@
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
   },
   {
+    "issuer_id": "vakifbank",
+    "sector": "Banks",
+    "topic": "9M26 TRY 6.2tn Assets",
+    "source": "VakıfBank 9M 2026 Filing",
+    "note": "9M26 NI TRY 45.5bn (+8.5% YoY), total assets exceeded TRY 6.2tn (+24.8% YoY)."
+  },
+  {
     "issuer_id": "yapi_kredi",
     "issuer_name": "Yapı ve Kredi Bankası",
     "sector": "Banks",
@@ -2112,6 +2581,13 @@
     "topic": "Asset Quality & Stage 2 Risk",
     "source": "BRSA / Audit Reports",
     "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "yapi_kredi",
+    "sector": "Banks",
+    "topic": "9M26 CAR 14.1% & 214bp CoR",
+    "source": "Yapı Kredi 9M 2026 Release",
+    "note": "9M26 NI TRY 41.7bn (+10% YoY, 20.6% ROTE), swap-adj NIM 2.76%, NPL 4.2%, net CoR 214bp, Consol CAR 14.1% / Tier-1 11.7%."
   },
   {
     "issuer_id": "zorlu",

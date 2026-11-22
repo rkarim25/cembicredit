@@ -16,7 +16,7 @@
     "model_file": "Pearl_Petroleum_Credit_Model.xlsx",
     "notion_id": "3f21d0ad68c681bd8bfddd308e2ddc58",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Pearl_Petroleum_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": 165.0,
     "net_leverage_2024a": 1.15,
@@ -342,7 +342,11 @@
       "ytm_pct": 11.45,
       "spread_bp": 625,
       "security": "First-priority pledge over Pearl Petroleum shares, project accounts, and Khor Mor physical plant assets.",
-      "listing": "Nordic Alternative Bond Market (Nordic ABM, Oslo)"
+      "listing": "Nordic Alternative Bond Market (Nordic ABM, Oslo)",
+      "tranche_name": "PEARL 13.00% Senior Secured Notes 2028",
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0
     },
     {
       "instrument": "U.S. DFC Project Finance Facility (KM250)",
@@ -356,7 +360,11 @@
       "ytm_pct": 7.85,
       "spread_bp": 365,
       "security": "Pari passu security sharing under Intercreditor Agreement with Nordic Trustee.",
-      "listing": "Bilateral Sovereign DFI Facility"
+      "listing": "Bilateral Sovereign DFI Facility",
+      "tranche_name": "U.S. DFC Project Finance Facility (KM250)",
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0
     },
     {
       "instrument": "Regional Commercial Bank Facility (Bank of Sharjah Syndicate)",
@@ -370,7 +378,11 @@
       "ytm_pct": 8.5,
       "spread_bp": 430,
       "security": "Collection account security and export receivables lien.",
-      "listing": "Private Commercial Bank Syndicate"
+      "listing": "Private Commercial Bank Syndicate",
+      "tranche_name": "Regional Commercial Bank Facility (Bank of Sharjah Syndicate)",
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0
     }
   ],
   "rcf_facility_liquidity": {
@@ -828,6 +840,37 @@
       "ebitda": 415.0,
       "fcf": 165.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B- (Implied) / CCC+ (Geopolitical Floor)",
+      "price": 103.5,
+      "ytm": 11.45,
+      "spread_bp": 625,
+      "net_leverage": 1.14,
+      "ebitda": 415.0,
+      "fcf": 165.0,
+      "guidance_status": "On Track"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 350.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 595.0,
+    "source": "PEARL $350m 13.0% 2028 Nordics bond (NO0013387860) + project/facility debt (~$595m total debt at 1H26)."
+  },
+  "annotations": [
+    {
+      "issuer_id": "pearl",
+      "sector": "Energy",
+      "topic": "KM250 Gas Expansion",
+      "source": "Pearl Petroleum 1H26 Update",
+      "note": "Khor Mor KM250 expansion adds 250 MMscfd capacity; net debt $500m (0.98x LTM EBITDA $510m) vs KRG geopolitical/payment risk."
     }
   ]
 }

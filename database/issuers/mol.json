@@ -16,10 +16,11 @@
     "model_file": "MOL_Group_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8168-8d54-e9b5f3d2a820",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MOL_Group_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": -22.2,
-    "net_leverage_2024a": 1.1
+    "net_leverage_2024a": 1.1,
+    "provenance": "Q3/9M 2026 results integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -353,6 +354,13 @@
       "topic": "Commercial Reserve Life (1P/2P)",
       "source": "DeGolyer and MacNaughton / Ryder Scott",
       "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    },
+    {
+      "issuer_id": "mol",
+      "sector": "Energy",
+      "topic": "9M26 0.3x Net Leverage",
+      "source": "MOL Group Q3/9M 2026 Release",
+      "note": "Q326 Clean CCS EBITDA $1.76bn (9M $3.68bn), net debt down to $1.54bn (0.3x net leverage vs <1.0x target)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -554,27 +562,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-06",
-    "period_reporting": "Q3 2026",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-02-19",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
     "call_time": "08:00 Budapest",
     "ir_webcast_url": "https://molgroup.info/en/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 89
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
-    },
-    {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Update on non-Russian crude intake share at Danube/Slovnaft and 2027 special tax burden.",
+      "focus_area": "Feedstock & Tax",
+      "relevance": "EU/Ukraine transit policy risk.",
+      "conviction_trigger": "Full non-Russian optionality & leverage <0.8x."
     }
   ],
   "market_history": [
@@ -1175,6 +1175,19 @@
       "ebitda": 3100.0,
       "fcf": -22.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BBB-",
+      "price": 98.0,
+      "ytm": 5.5,
+      "spread_bp": 145,
+      "net_leverage": 1.1,
+      "ebitda": 3100.0,
+      "fcf": -22.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1279,5 +1292,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Q3 Clean CCS EBITDA $1.76bn (~2x YoY) & 0.3x Net Leverage",
+      "summary": "Blowout Q326 print: Clean CCS EBITDA nearly doubled YoY to $1.76bn (aided by extraordinary refining margins and $233m one-offs; reported EBITDA $1.68bn), pushing 9M26 Clean CCS EBITDA to $3.68bn. Net debt fell to $1.54bn (0.3x leverage vs <1.0x target).",
+      "target_price": null,
+      "current_price": 98.0,
+      "ytm": 5.5,
+      "spread_bp": 145
+    },
+    "positives": [
+      "Ultra-low 0.3x net leverage ($1.54bn net debt at 30-Sep-26) well inside <1.0x target.",
+      "Strong downstream windfall: Q326 Clean CCS EBITDA $1.76bn (9M $3.68bn).",
+      "Integrated CEE downstream + ACG Azerbaijan / Hungarian upstream cash generation."
+    ],
+    "negatives": [
+      "Russian Druzhba crude supply dependency & Hungary/EU windfall energy taxes.",
+      "Cyclical refining margin normalization into 2027 and $233m Q3 one-offs."
+    ],
+    "background": {
+      "business_overview": "Hungary-headquartered integrated CEE oil, gas, petrochemicals, and retail group.",
+      "asset_perimeter": "Danube & Slovnaft refineries, INA (Croatia, 49%), ACG Azerbaijan stake, >2,400 service stations.",
+      "ownership_governance": "Budapest Stock Exchange listed (MOL); Hungarian state/foundation stakes (~30%)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: Q3 Clean CCS EBITDA $1.76bn (9M $3.68bn), net debt cut to $1.54bn (0.3x net leverage)."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Results & Crude Diversification / Windfall Tax Update",
+        "impact": "Clarifies Druzhba pipeline transition capex."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Clean CCS EBITDA $3.68bn & Net Debt Cut to $1.54bn (0.3x)",
+      "source": "MOL Group Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Q326 Clean CCS EBITDA $1.76bn (9M $3.68bn), net debt decreased to $1.54bn (0.3x net leverage)."
+    }
+  ]
 }

@@ -16,12 +16,13 @@
     "model_file": "DTEK_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6810884b0f8366b6f9dce",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DTEK_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "cognitive_credit_id": "dtek",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/dtek/description",
     "model_type": "corp",
     "fcf_2024a": -100.0,
-    "net_leverage_2024a": 3.02
+    "net_leverage_2024a": 3.02,
+    "provenance": "2026 DTEK O&G $425m restructuring & Renewables CC Nov-27 refi risk integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -354,6 +355,13 @@
       "topic": "Sovereign Balancing & Guarantees",
       "source": "Ministry of Finance Disclosures",
       "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    },
+    {
+      "issuer_id": "dtek",
+      "sector": "Utilities",
+      "topic": "O&G 2029 Restructured vs Renewables CC",
+      "source": "Fitch / Interfax (2026)",
+      "note": "DTEK O&G restructured $425m bond to Dec-2029 at 9.875%; DTEK Renewables rated CC by Fitch on \u20ac281m Nov-2027 green bond refi risk."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -555,27 +563,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-04-15",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
-    "days_to_earnings": 0
+    "call_time": "15:00 Kyiv",
+    "ir_webcast_url": "https://dtek.com/en/investors/",
+    "days_to_earnings": 144
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
-    },
-    {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Clarify cash sweep / NBU FX transfer permissions and refinancing plan for DTEK Renewables \u20ac281m Nov-2027 green bond.",
+      "focus_area": "Maturity Wall",
+      "relevance": "Fitch 'CC' flags imminent 2027 refi risk.",
+      "conviction_trigger": "Consensual extension or offshore reserve funding."
     }
   ],
   "market_history": [
@@ -1176,6 +1176,19 @@
       "ebitda": 420.0,
       "fcf": -100.0,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "CCC / Caa3",
+      "price": 68.5,
+      "ytm": 18.5,
+      "spread_bp": 1410,
+      "net_leverage": 3.02,
+      "ebitda": 420.0,
+      "fcf": -100.0,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1262,5 +1275,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Split Complex: O&G Restructured to 2029 vs Renewables CC Nov-27 Cliff",
+      "summary": "Divergent debt trajectories across DTEK silos: DTEK Oil & Gas (NGD Holdings) successfully restructured its $425m bond with principal amortization stretched to Dec 2029 and coupon stepped up to 9.875%. Meanwhile, DTEK Renewables carries Fitch 'CC' on refinancing risk for its \u20ac281m green bonds due Nov 2027 amid NBU FX controls.",
+      "target_price": null,
+      "current_price": 68.5,
+      "ytm": 18.5,
+      "spread_bp": 1410
+    },
+    "positives": [
+      "DTEK Oil & Gas achieved consensual $425m bond restructuring extending to Dec-2029 at 9.875% coupon.",
+      "NBU cross-border FX transfer relaxations opened pathways for certain coupon servicing.",
+      "Critical domestic Ukrainian energy/power resilience."
+    ],
+    "negatives": [
+      "DTEK Renewables Fitch 'CC' rating on \u20ac281m green bond maturing November 2027 refinancing risk.",
+      "Ongoing Russian drone/missile strikes on DTEK thermal power & grid assets.",
+      "Siloed ring-fencing and NBU capital-control friction."
+    ],
+    "background": {
+      "business_overview": "Ukraine's largest private vertically integrated energy company (thermal power, coal, renewables, O&G, grids).",
+      "asset_perimeter": "DTEK Energy, DTEK Renewables (\u20ac281m 2027 green bond), DTEK Oil & Gas ($425m 2029s), DTEK Grids.",
+      "ownership_governance": "100% SCM Group (Rinat Akhmetov)."
+    },
+    "recent_drivers": [
+      "2026 Restructuring: DTEK Oil & Gas ($425m NGD Holdings) extended repayments to Dec-2029 at 9.875% coupon; DTEK Renewables affirmed at Fitch 'CC' ahead of \u20ac281m Nov-2027 green bond maturity."
+    ],
+    "catalysts": [
+      {
+        "date": "H1 2027",
+        "event": "DTEK Renewables \u20ac281m Nov-2027 Green Bond Refinancing / Extension Launch",
+        "impact": "Critical maturity wall test for DTEK Renewables."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "2026 Debt Update: DTEK O&G Extended to 2029 (9.875%) vs Renewables 'CC' Nov-27 Risk",
+      "source": "Fitch / Interfax (2026)",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "DTEK O&G restructured $425m bond to Dec-2029 (9.875%); DTEK Renewables remains Fitch 'CC' on \u20ac281m Nov-2027 green bond refi risk."
+    }
+  ]
 }

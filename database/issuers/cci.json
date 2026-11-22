@@ -16,10 +16,11 @@
     "model_file": "Coca_Cola_Icecek_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-819e-989e-fc42d6650c34",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Coca_Cola_Icecek_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": 150.1,
-    "net_leverage_2024a": 1.05
+    "net_leverage_2024a": 1.05,
+    "provenance": "Q3 2026 TAS 29 operational & EBITDA update integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -351,6 +352,13 @@
       "topic": "Geographic Diversification",
       "source": "Investor Presentations",
       "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+    },
+    {
+      "issuer_id": "cci",
+      "sector": "Consumer",
+      "topic": "Q326 Volume vs Margin Divergence",
+      "source": "CCI Q3 2026 Release",
+      "note": "Q326 volume +8.3% YoY (516m unit cases) while TAS 29 EBITDA declined 17.1% YoY to TRY 12.6bn."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -548,27 +556,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-03",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/CCOLA",
-    "days_to_earnings": 0
+    "call_time": "16:00 Istanbul",
+    "ir_webcast_url": "https://www.cci.com.tr/en/investor-relations",
+    "days_to_earnings": 101
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
-    },
-    {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Detail 2027 T\u00fcrkiye price/mix recovery vs sweetener/packaging cost hedges and net leverage trajectory.",
+      "focus_area": "Margins",
+      "relevance": "Q3 EBITDA fell 17.1% YoY despite +8.3% volume growth.",
+      "conviction_trigger": "EBITDA margin stabilization >18%."
     }
   ],
   "market_history": [
@@ -1169,6 +1169,19 @@
       "ebitda": 720.0,
       "fcf": 150.1,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BBB- / BBB",
+      "price": 97.2,
+      "ytm": 5.35,
+      "spread_bp": 130,
+      "net_leverage": 1.05,
+      "ebitda": 720.0,
+      "fcf": 150.1,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1255,5 +1268,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Volume Growth (+8.3%) vs Margin Compression (-17% Q3 EBITDA)",
+      "summary": "Strong international volume momentum (Pakistan, Uzbekistan) pushed Q326 consolidated sales volume +8.3% YoY to 516m unit cases, but Q3 TAS 29 EBITDA fell 17.1% YoY to TRY 12.6bn on softer T\u00fcrkiye pricing and raw material inflation. IG-rated (BBB-/BBB) with ~1.0x low leverage.",
+      "target_price": null,
+      "current_price": 97.2,
+      "ytm": 5.35,
+      "spread_bp": 130
+    },
+    "positives": [
+      "Investment-grade anchor (BBB-/BBB) with ~1.0x conservative net leverage.",
+      "Geographic growth engine: 516m unit cases (+8.3% YoY) in Q326 led by Uzbekistan and Pakistan.",
+      "Coca-Cola System bottling moat across 12 countries."
+    ],
+    "negatives": [
+      "Q326 EBITDA fell 17.1% YoY to TRY 12.6bn (TAS 29) on T\u00fcrkiye margin compression and input costs.",
+      "FX & repatriation risks in Pakistan, Iraq, and Central Asia.",
+      "Sovereign/macro volatility in core T\u00fcrkiye market."
+    ],
+    "background": {
+      "business_overview": "5th largest Coca-Cola bottler globally by volume, operating across T\u00fcrkiye, Central Asia, Pakistan, and Iraq.",
+      "asset_perimeter": "T\u00fcrkiye, Pakistan, Kazakhstan, Uzbekistan, Azerbaijan, Iraq, Jordan, Kyrgyzstan, Tajikistan, Turkmenistan.",
+      "ownership_governance": "50.3% Anadolu Efes, 20.1% The Coca-Cola Company; BIST-listed (CCOLA)."
+    },
+    "recent_drivers": [
+      "Q3 2026 Results: Volume 516m unit cases (+8.3% YoY), TAS 29 EBITDA TRY 12.6bn (-17.1% YoY) on T\u00fcrkiye softness and raw material costs."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & 2027 T\u00fcrkiye Pricing Outlook",
+        "impact": "Tests margin stabilization in T\u00fcrkiye."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3 2026 Results: +8.3% Volume Growth Offset by -17.1% TAS 29 EBITDA Compression",
+      "source": "CCI Q3 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Q326 sales volume 516m unit cases (+8.3% YoY) led by Pakistan/Uzbekistan; Q3 TAS 29 EBITDA TRY 12.6bn (-17.1% YoY) on T\u00fcrkiye pricing & input costs."
+    }
+  ]
 }

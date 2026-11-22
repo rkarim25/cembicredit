@@ -2005,18 +2005,24 @@ function renderCapitalStructure() {
     let html = '';
     tranches.forEach(t => {
       const isCC = currentIssuer.metadata.cognitive_credit_id ? '<span style="color:#10b981; font-weight:700;">✓ Reconciled</span>' : '<span style="color:#64748b;">Filing</span>';
+      const instName = t.instrument || t.tranche_name || 'N/A';
+      const amtIss = t.amount_issued_usd_m ?? t.amount_outstanding_usd_m ?? t.amount_usd_m;
+      const amtOut = t.outstanding_usd_m ?? t.amount_outstanding_usd_m ?? t.amount_usd_m;
+      const px = t.price ?? currentIssuer.metadata.price;
+      const ytm = t.ytm ?? currentIssuer.metadata.ytm;
+      const spd = t.spread_bp ?? currentIssuer.metadata.spread_bp;
       html += `
         <tr>
-          <td><strong>${t.instrument}</strong></td>
+          <td><strong>${instName}</strong></td>
           <td style="font-family:'JetBrains Mono', monospace; font-size:11px; color:var(--text-muted);">${t.isin || 'N/A'}</td>
           <td>${t.coupon || 'Fixed'}</td>
-          <td><strong>${t.maturity}</strong></td>
+          <td><strong>${t.maturity || 'N/A'}</strong></td>
           <td>${t.currency || 'USD'}</td>
-          <td style="text-align:right;">$${(t.amount_issued_usd_m || 0).toLocaleString()}</td>
-          <td style="text-align:right;"><strong>$${(t.outstanding_usd_m || 0).toLocaleString()}</strong></td>
-          <td style="text-align:right;">$${(t.price || currentIssuer.metadata.price).toFixed(2)}</td>
-          <td style="text-align:right; color:#b45309; font-weight:700;">${(t.ytm || currentIssuer.metadata.ytm).toFixed(2)}%</td>
-          <td style="text-align:right; color:#60a5fa; font-weight:700;">+${t.spread_bp || currentIssuer.metadata.spread_bp}</td>
+          <td style="text-align:right;">${amtIss != null ? '$' + Number(amtIss).toLocaleString() : 'n/a'}</td>
+          <td style="text-align:right;"><strong>${amtOut != null ? '$' + Number(amtOut).toLocaleString() : 'n/a'}</strong></td>
+          <td style="text-align:right;">${px != null ? '$' + Number(px).toFixed(2) : 'n/a'}</td>
+          <td style="text-align:right; color:#b45309; font-weight:700;">${ytm != null ? Number(ytm).toFixed(2) + '%' : 'n/a'}</td>
+          <td style="text-align:right; color:#60a5fa; font-weight:700;">${spd != null ? '+' + spd : 'n/a'}</td>
           <td style="text-align:center;">${isCC}</td>
         </tr>
       `;

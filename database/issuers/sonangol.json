@@ -16,10 +16,11 @@
     "model_file": "Sonangol_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6812aa10ee048b87d945b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sonangol_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": 586.8,
-    "net_leverage_2024a": 1.29
+    "net_leverage_2024a": 1.29,
+    "provenance": "2026 debt/bond developments ($750m 10% 2031 bond + $1.75bn Afreximbank facility) integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -353,6 +354,13 @@
       "topic": "Commercial Reserve Life (1P/2P)",
       "source": "DeGolyer and MacNaughton / Ryder Scott",
       "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    },
+    {
+      "issuer_id": "sonangol",
+      "sector": "Energy",
+      "topic": "2026 $750m 10% Bond & Afreximbank",
+      "source": "Angola Budget / Sonangol 2026 Disclosures",
+      "note": "Jan-26 priced debut $750m 10% 2031 PP bond + $1.75bn Afreximbank facility; 9M26 external debt expanded on Kaminho cash calls & fuel imports."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -554,27 +562,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-04-30",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/SONANG",
-    "days_to_earnings": 0
+    "call_time": "14:00 Luanda",
+    "ir_webcast_url": "https://www.sonangol.co.ao/",
+    "days_to_earnings": 159
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
-    },
-    {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Quantify 9M26 total gross/net debt expansion and sovereign fuel-import receivable arrears.",
+      "focus_area": "Debt & Quasi-Fiscal",
+      "relevance": "9M26 Angolan budget reports flagged rising external debt.",
+      "conviction_trigger": "Net leverage <1.8x."
     }
   ],
   "market_history": [
@@ -1175,6 +1175,19 @@
       "ebitda": 4800.0,
       "fcf": 586.8,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B- / B3",
+      "price": 97.2,
+      "ytm": 9.15,
+      "spread_bp": 475,
+      "net_leverage": 1.29,
+      "ebitda": 4800.0,
+      "fcf": 586.8,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1279,5 +1292,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Debut $750m 10% 2031 Bond & Rising External Debt Pre-2027 IPO",
+      "summary": "Angola's NOC made its debut international bond appearance in Jan-26 ($750m 10.0% private placement due 2031) alongside a $1.75bn Afreximbank receivables facility to fund Kaminho deepwater cash calls and domestic fuel imports ahead of a targeted 2027 IPO. 9M26 budget reports flag rising external debt stock.",
+      "target_price": null,
+      "current_price": 97.2,
+      "ytm": 9.15,
+      "spread_bp": 475
+    },
+    "positives": [
+      "Secured $2.5bn liquidity via Jan-26 $750m 10% 2031 bond + $1.75bn Afreximbank syndicated facility.",
+      "100% Angolan state ownership and sovereign-strategic upstream equity stakes.",
+      "Targeted 2027 IPO could introduce governance & disclosure transparency."
+    ],
+    "negatives": [
+      "Expanding 9M26 external debt stock driven by domestic fuel-subsidy import obligations and upstream cash calls.",
+      "High 10.0% funding cost and Angolan sovereign ceiling (B-/B3).",
+      "Refining/subsidy quasi-fiscal drain on cash flow."
+    ],
+    "background": {
+      "business_overview": "Angola's state-owned national oil company operating upstream concessions, fuel distribution, and refining.",
+      "asset_perimeter": "Upstream block equity (incl. Kaminho deepwater), Luanda refinery, Sonangol Trading & Shipping.",
+      "ownership_governance": "100% Republic of Angola (targeted partial IPO in 2027)."
+    },
+    "recent_drivers": [
+      "9M 2026 Debt Execution: Government budget reports note expanding Sonangol external debt stock; Jan-26 issued debut $750m 10% 2031 PP bond + $1.75bn Afreximbank facility."
+    ],
+    "catalysts": [
+      {
+        "date": "2027",
+        "event": "Targeted Partial IPO & Fuel-Subsidy Arrears Settlement",
+        "impact": "Key catalyst for transparency and debt trajectory."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "9M 2026 Debt Update: Debut $750m 10% 2031 Bond, $1.75bn Facility & Rising Debt Stock",
+      "source": "Angola Budget / Sonangol Disclosures (2026)",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Jan-26 issued $750m 10% 2031 PP bond + $1.75bn Afreximbank facility; 9M26 external debt rose on Kaminho deepwater & fuel import costs."
+    }
+  ]
 }

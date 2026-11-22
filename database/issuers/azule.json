@@ -16,10 +16,11 @@
     "model_file": "Azule_Energy_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68104b021cc5179c679db",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Azule_Energy_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": 376.9,
-    "net_leverage_2024a": 1.58
+    "net_leverage_2024a": 1.58,
+    "provenance": "Q3/9M 2026 results & Jan-26 multi-tranche USD bonds integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -353,6 +354,13 @@
       "topic": "Commercial Reserve Life (1P/2P)",
       "source": "DeGolyer and MacNaughton / Ryder Scott",
       "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    },
+    {
+      "issuer_id": "azule",
+      "sector": "Energy",
+      "topic": "9M26 $3.05bn EBITDA",
+      "source": "Azule Energy Q3/9M 2026 Release",
+      "note": "9M26 revenue $3.60bn (+32% YoY), EBITDA $3.05bn, PAT $391m at $89/bbl average realized oil; $850m 2031 & $650m 8.625% 2033 bonds."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -554,27 +562,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-18",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
-    "days_to_earnings": 0
+    "call_time": "14:00 London",
+    "ir_webcast_url": "https://www.azule-energy.com/",
+    "days_to_earnings": 116
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
-    },
-    {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Detail 2027 capex & shareholder dividend policy vs maintaining <1.5x net leverage if Brent softens to $70/bbl.",
+      "focus_area": "Leverage & Dividends",
+      "relevance": "BP/Eni JVs often upstream excess FCF.",
+      "conviction_trigger": "Net leverage <1.7x at $70/bbl Brent."
     }
   ],
   "market_history": [
@@ -1175,6 +1175,19 @@
       "ebitda": 2250.0,
       "fcf": 376.9,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B+ / Ba3",
+      "price": 98.5,
+      "ytm": 8.45,
+      "spread_bp": 410,
+      "net_leverage": 1.58,
+      "ebitda": 2250.0,
+      "fcf": 376.9,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1279,5 +1292,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / +32% Revenue Surge ($3.6bn) & $3.05bn 9M26 EBITDA",
+      "summary": "Angola's premier BP/Eni JV posted standout 9M26 results: revenue rose +32% YoY to $3.60bn (on $89/bbl realized oil & higher liftings) and 9M EBITDA reached $3.05bn (85% margin; PAT $391m after tax/finance charges). Multi-tranche 2031/2033 USD bond curve provides strong hard-currency cash coverage.",
+      "target_price": null,
+      "current_price": 98.5,
+      "ytm": 8.45,
+      "spread_bp": 410
+    },
+    "positives": [
+      "Exceptional 9M26 cash generation: revenue $3.60bn (+32% YoY), EBITDA $3.05bn (~85% margin) on $89/bbl realized oil.",
+      "World-class BP & Eni 50/50 technical operatorship across Angola offshore blocks & Namibia exploration.",
+      "Long-dated USD bond maturities (2031 & $650m 8.625% 2033) matched to offshore production."
+    ],
+    "negatives": [
+      "Angolan sovereign & fiscal-regime exposure (B+/Ba3) caps upside.",
+      "High oil-price beta ($89/bbl realized in 9M26) and heavy offshore development capex.",
+      "Elevated tax & finance charges trimmed 9M26 PAT to $391m."
+    ],
+    "background": {
+      "business_overview": "Angola's largest independent oil & gas producer (~200+ kboed), formed by combining Eni and BP's Angolan upstream portfolios.",
+      "asset_perimeter": "Angola offshore Blocks 15/06, 17, 18, 31, New Gas Consortium, Namibia Orange Basin.",
+      "ownership_governance": "50/50 JV between Eni and BP; international Eurobond issuer (Azule Energy Finance)."
+    },
+    "recent_drivers": [
+      "Nov-26 (Q3/9M 2026): 9M rev $3.6bn (+32% YoY vs $2.72bn), 9M EBITDA $3.05bn, PAT $391m on $89/bbl oil.",
+      "Jan-26 Issuance: Multi-tranche USD notes incl. $850m 2031 and $650m 8.625% 2033."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & Namibia / NGC Gas Production Update",
+        "impact": "Confirms net leverage <1.5x and capex step-down."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Revenue +32% to $3.6bn & EBITDA $3.05bn",
+      "source": "Azule Energy Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 revenue $3.60bn (+32% YoY), EBITDA $3.05bn, PAT $391m on $89/bbl oil; backed by Jan-26/2025 2031-2033 USD bond curve."
+    }
+  ]
 }

@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "id": "otp",
+    "name": "OTP Bank Nyrt.",
+    "ticker": "OTPHB",
+    "country": "Hungary",
+    "region": "CEEMEA",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "Baa1 Pos (Moody's dep) / Baa3 Pos (Sr) / BBB+ (Scope)",
+    "tier": "IG",
+    "benchmark_bond": "OTPHB 7.30% USD T2 2035 ($750m)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "OTP_Bank_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OTP_Bank_Credit_Model.xlsx",
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "financials_currency": "HUF",
+    "provenance": "financials built 22-Nov-26 from OTP Group FY2025 audited filings and Q3/9M 2026 results; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "HUF",
+      "source": "OTP Group FY2025 Audited Annual Report, read 22-Nov-26",
+      "assets": 45427144.0,
+      "loans": 24904092.0,
+      "deposits": 32522659.0,
+      "equity": 5625616.0,
+      "observations": {
+        "notes": "FY25 consolidated assets HUF 45.43tn, net loans HUF 24.90tn, deposits HUF 32.52tn, equity HUF 5.63tn."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "HUF",
+      "source": "OTP Group Q3/9M 2026 Financial Report, read 22-Nov-26",
+      "assets": 48854471.0,
+      "loans": 27968062.0,
+      "deposits": 35088096.0,
+      "equity": 5928576.0,
+      "nii": 1619900.0,
+      "net_profit": 934500.0,
+      "roe_pct": 19.9,
+      "npl_pct": 3.2,
+      "cet1_pct": 17.8,
+      "observations": {
+        "notes": "9M26 PAT HUF 934.5bn, NII HUF 1,619.9bn (+13.1% YoY / +19% FX-adj), Adj ROE 19.9% (Q3 24.7%), CET1 17.8% (+2.9pp organic generation in 9M), Stage 3 NPL down to 3.2% (-0.3pp YTD), CoR 74bp."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "OTPHB 8.75% USD Tier 2 Subordinated Notes due May 2033 (NC28)",
+      "tranche_name": "OTPHB 8.75% USD Tier 2 Subordinated Notes due May 2033 (NC28)",
+      "currency": "USD",
+      "amount_issued_usd_m": 650.0,
+      "outstanding_usd_m": 650.0,
+      "amount_outstanding_usd_m": 650.0,
+      "amount_usd_m": 650.0,
+      "coupon": "8.750%",
+      "maturity": "2033-05-15",
+      "seniority": "Subordinated Tier 2",
+      "isin": "XS2586007036",
+      "instrument_type": "Tier 2 Eurobond",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "OTPHB 7.30% USD Tier 2 Subordinated Notes due Jul 2035 (NC30)",
+      "tranche_name": "OTPHB 7.30% USD Tier 2 Subordinated Notes due Jul 2035 (NC30)",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "7.300%",
+      "maturity": "2035-07-30",
+      "seniority": "Subordinated Tier 2",
+      "isin": "XS2988670878",
+      "instrument_type": "Tier 2 Eurobond",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "OTPHB 4.50% EUR Senior Notes due Sep 2031",
+      "tranche_name": "OTPHB 4.50% EUR Senior Notes due Sep 2031",
+      "currency": "EUR",
+      "amount_issued_usd_m": 810.0,
+      "outstanding_usd_m": 810.0,
+      "amount_outstanding_usd_m": 810.0,
+      "amount_usd_m": 810.0,
+      "coupon": "4.500%",
+      "maturity": "2031-09-30",
+      "seniority": "Senior Preferred",
+      "isin": "XS3503273719",
+      "instrument_type": "EUR Senior EMTN",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "OTPHB 4.625% EUR Senior/T2 Notes due Dec 2036 (NC31)",
+      "tranche_name": "OTPHB 4.625% EUR Senior/T2 Notes due Dec 2036 (NC31)",
+      "currency": "EUR",
+      "amount_issued_usd_m": 1080.0,
+      "outstanding_usd_m": 1080.0,
+      "amount_outstanding_usd_m": 1080.0,
+      "amount_usd_m": 1080.0,
+      "coupon": "4.625%",
+      "maturity": "2036-12-24",
+      "seniority": "Senior / MREL / T2 EMTN",
+      "isin": "XS3406852536",
+      "instrument_type": "EUR EMTN",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 3290.0,
+    "total_outstanding_usd_m": 3290.0,
+    "source": "Major USD Tier 2 ($1.4B) + EUR EMTN (\u20ac1.75B converted ~$1.89B) benchmarks; long-dated maturity profile."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-22",
+    "verdict": {
+      "stance": "Overweight / Fortress-Capital CEE Banking Champion (Positive Outlook)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Standout CEE banking credit combining 17.8% CET1 (+2.9pp organic 9M generation), 19.9% 9M26 Adj ROE (24.7% Q3), and falling Stage 3 NPLs (3.2%). Moody's revised outlook to Positive (Baa1 dep / Baa3 sr) in Jul-26 following Luminor acquisition agreement; $1.4bn USD Tier 2 curve offers rare IG/crossover spread."
+    },
+    "positives": [
+      "Fortress CET1 capital of 17.8% at 3Q26 with exceptional organic capital generation (+290bp in 9M26) and 24.7% Q3 ROE.",
+      "Improving asset quality: Stage 3 ratio down 30bp YTD to 3.2%; manageable 74bp 9M26 cost of risk.",
+      "Geographic diversification across CEE (Hungary, Bulgaria, Croatia, Slovenia, Serbia, Uzbekistan, Baltics via Luminor) + Moody's Positive outlook (Jul-26)."
+    ],
+    "negatives": [
+      "M&A execution & capital consumption from Luminor Holding acquisition (Baltics) plus prior Uzbek/CEE expansion.",
+      "Elevated windfall/special bank taxes in Hungary and Ukraine plus residual Russian/Ukrainian subsidiary exposure.",
+      "Hungarian sovereign political/EU-funds headline volatility."
+    ],
+    "background": {
+      "business_overview": "Leading independent CEE banking group headquartered in Budapest (HUF 48.9tn assets), operating in 11+ CEE/CIS countries.",
+      "asset_perimeter": "OTP Bank Hungary, DSK Bulgaria, SKB/Nova KBM Slovenia, OTP Croatia/Serbia, Ipoteka Bank Uzbekistan, pending Luminor Baltics.",
+      "ownership_governance": "Listed on Budapest Stock Exchange; widely held institutional base (MOL/public)."
+    },
+    "recent_drivers": [
+      "9M/Q3 2026 Results: PAT HUF 934.5bn, NII HUF 1,619.9bn (+13.1% YoY), Adj ROE 19.9% (Q3 24.7%), CET1 17.8%, Stage 3 NPL 3.2%.",
+      "Jul-26 Moody's Action: Affirmed Baa1 deposits / Baa3 senior unsecured and revised Outlook to Positive from Stable on Luminor acquisition."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & Luminor Regulatory Closing Update",
+        "impact": "Quantifies pro-forma CET1 impact of Luminor consolidation (~150-200bp)."
+      },
+      {
+        "date": "2027",
+        "event": "Moody's Positive Outlook Resolution",
+        "impact": "Potential upgrade of senior unsecured to Baa2."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Quantify pro-forma CET1 impact of the Luminor Holding acquisition at closing vs the 17.8% 3Q26 CET1 base.",
+      "focus_area": "Capital & M&A",
+      "relevance": "Drives Moody's Positive outlook resolution and Tier 2/MREL supply.",
+      "conviction_trigger": "Pro-forma CET1 >15.0%."
+    },
+    {
+      "question": "Update on Russian subsidiary net equity/capital exposure and wind-down/dividend extraction status.",
+      "focus_area": "Geopolitics",
+      "relevance": "Tail risk monitoring for CEE/international investors.",
+      "conviction_trigger": "Continued ring-fenced de-risking."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Coverage Initiated: OTP Group 9M 2026 Results & Moody's Positive Outlook",
+      "source": "OTP Group 9M26 Report / Moody's (Jul-26)",
+      "status": "Initial Coverage",
+      "summary": "Added OTP Bank (OTPHB). 9M26 PAT HUF 934.5bn, Adj ROE 19.9% (Q3 24.7%), CET1 17.8%, Stage 3 NPL 3.2%. Moody's outlook Positive (Jul-26) on Luminor deal."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "otp",
+      "sector": "Banks",
+      "topic": "Moody's Positive Outlook",
+      "source": "Moody's Rating Action (Jul-26)",
+      "note": "Affirmed Baa1 deposits and Baa3 foreign currency senior unsecured; outlook changed to Positive on Luminor acquisition."
+    },
+    {
+      "issuer_id": "otp",
+      "sector": "Banks",
+      "topic": "USD Tier 2 Curve",
+      "source": "OTP EMTN Prospectus",
+      "note": "$650m 8.75% due May-2033 (XS2586007036, NC28) and $750m 7.30% due Jul-2035 (XS2988670878, NC30)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-05",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "15:00 Budapest / 14:00 UK",
+    "ir_webcast_url": "https://www.otpgroup.info/en/investor-relations",
+    "days_to_earnings": 103
+  },
+  "market_history": [
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "Baa1 Pos (Moody's dep) / Baa3 Pos (Sr) / BBB+ (Scope)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

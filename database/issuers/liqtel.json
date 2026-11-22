@@ -7,16 +7,16 @@
     "region": "Africa",
     "sector": "Technology",
     "type": "corp",
-    "rating": "B- / Caa1",
+    "rating": "B- Stable (Fitch, May-26) / Caa1",
     "tier": "B",
-    "benchmark_bond": "LIQTEL 14.25% 2026",
-    "price": 104.22,
-    "ytm": 9.58,
-    "spread_bp": 471,
+    "benchmark_bond": "LIQTEL 10.750% 2031 ($300m)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
     "model_file": "Liquid_Telecom_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68106a069d7d8c091ffa8",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Liquid_Telecom_Credit_Model.xlsx",
-    "last_updated": "2026-09-27",
+    "last_updated": "2026-11-22",
     "cognitive_credit_id": "liquidtech",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description",
     "model_type": "corp",
@@ -24,7 +24,8 @@
     "net_leverage_2024a": 4.13,
     "ltm_revenue": 633.2,
     "ltm_ebitda": 185.0,
-    "ltm_net_debt": 764.2
+    "ltm_net_debt": 764.2,
+    "provenance": "Apr-26 $300m 10.75% 2031 refinancing & May-26 Fitch B- Stable upgrade integrated 22-Nov-26; quotes await [BBG] capture"
   },
   "financials_multi_year": [
     {
@@ -317,13 +318,13 @@
     "churn_pct": 1.1
   },
   "debt_maturities": {
-    "2025": 129,
-    "2026": 215,
-    "2027": 301.1,
-    "2028": 193.5,
-    "2029": 129,
-    "2030_plus": 107.5,
-    "total_outstanding_usd_m": 1075.1
+    "2026": 0.0,
+    "2027": 25.0,
+    "2028": 40.0,
+    "2029": 50.0,
+    "2030_plus": 535.0,
+    "total_outstanding_usd_m": 650.0,
+    "source": "Apr-2026 refinancing: $300m 10.75% 2031 notes + term loans + Cassava equity injection retired $620m 5.5% 2026 notes."
   },
   "recovery_analysis": {
     "distressed_floor_px": 52,
@@ -358,6 +359,13 @@
       "topic": "Contracted Revenue Backlog",
       "source": "Investor Presentations",
       "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    },
+    {
+      "issuer_id": "liqtel",
+      "sector": "Technology",
+      "topic": "Apr-26 2031 Refinancing & Fitch B-",
+      "source": "Liquid Telecom / Fitch (Apr/May 2026)",
+      "note": "Apr-26 priced $300m 10.75% 2031 notes + term loans + Cassava equity to retire $620m 5.5% 2026s; Fitch upgraded to B- Stable May-26."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -398,64 +406,46 @@
   },
   "capital_structure_tranches": [
     {
-      "tranche_name": "LIQTEL Benchmark Senior Notes",
-      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "instrument": "LIQTEL 10.750% Senior Secured Notes due 2031 (Apr-26)",
+      "tranche_name": "LIQTEL 10.750% Senior Secured Notes due 2031 (Apr-26)",
       "currency": "USD",
-      "amount_issued_usd_m": 554.7,
-      "amount_outstanding_usd_m": 554.7,
-      "coupon": "14.250%",
-      "clean_price": 81.5,
-      "ytm": 14.25,
-      "spread_bp": 990,
-      "maturity_date": "2029-07-25",
-      "seniority": "Senior Unsecured (Pari Passu)",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "LIQTEL Secondary Eurobond / Sukuk Tranche 2",
-      "instrument_type": "Senior Unsecured Notes",
-      "currency": "USD",
-      "amount_issued_usd_m": 369.8,
-      "amount_outstanding_usd_m": 369.8,
-      "coupon": "13.600%",
-      "clean_price": 83.5,
-      "ytm": 13.6,
-      "spread_bp": 925,
-      "maturity_date": "2027-10-18",
-      "seniority": "Senior Unsecured",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "Syndicated Commercial Bank Term Facility",
-      "instrument_type": "Senior Secured / Priority Amortizing Loan",
-      "currency": "USD / EUR",
-      "amount_issued_usd_m": 240.4,
-      "amount_outstanding_usd_m": 184.9,
-      "coupon": "SOFR + 185 bps",
-      "clean_price": 100,
-      "ytm": 6.85,
-      "spread_bp": 185,
-      "maturity_date": "2031-03-31",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0,
+      "amount_usd_m": 300.0,
+      "coupon": "10.750%",
+      "maturity": "2031-04-15",
       "seniority": "Senior Secured",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
+      "instrument_type": "Senior Secured Eurobond",
+      "governing_law": "New York"
     },
     {
-      "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
-      "instrument_type": "Revolving Working Capital Credit Line",
+      "instrument": "New Senior Secured Term Loan Facilities (Apr-26)",
+      "tranche_name": "New Senior Secured Term Loan Facilities (Apr-26)",
+      "currency": "USD/ZAR",
+      "amount_issued_usd_m": 350.0,
+      "outstanding_usd_m": 350.0,
+      "amount_outstanding_usd_m": 350.0,
+      "amount_usd_m": 350.0,
+      "coupon": "Floating",
+      "maturity": "2030-2031",
+      "seniority": "Senior Secured",
+      "instrument_type": "Term Loan",
+      "governing_law": "English / SA"
+    },
+    {
+      "instrument": "LIQTEL 5.500% Senior Secured Notes due 2026 (RETIRED APR-26)",
+      "tranche_name": "LIQTEL 5.500% Senior Secured Notes due 2026 (RETIRED APR-26)",
       "currency": "USD",
-      "amount_issued_usd_m": 431.6,
-      "amount_outstanding_usd_m": 123.3,
-      "coupon": "SOFR + 150 bps",
-      "clean_price": 100,
-      "ytm": 6.5,
-      "spread_bp": 150,
-      "maturity_date": "2028-06-30",
-      "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0,
+      "amount_usd_m": 0.0,
+      "coupon": "5.500%",
+      "maturity": "2026-09-04",
+      "seniority": "Retired",
+      "instrument_type": "Retired Eurobond",
+      "governing_law": "New York"
     }
   ],
   "rcf_facility_liquidity": {
@@ -559,20 +549,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-06-30",
+    "period_reporting": "FY 2027 Annual",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
-    "days_to_earnings": 0
+    "call_time": "14:00 London",
+    "ir_webcast_url": "https://www.liquid.tech/",
+    "days_to_earnings": 220
   },
   "management_questions": [
     {
-      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
-      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
-      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
-      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
-      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      "question": "Provide post-refinancing pro-forma annual cash interest burden and hard-currency (USD/ZAR) vs frontier-FX EBITDA split.",
+      "focus_area": "Interest Coverage & FX",
+      "relevance": "10.75% coupon + floating term debt raises cash interest.",
+      "conviction_trigger": "EBITDA/Cash Interest >2.2x."
     }
   ],
   "market_history": [
@@ -1173,6 +1162,19 @@
       "ebitda": 185.0,
       "fcf": 26.8,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B- Stable (Fitch, May-26) / Caa1",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 4.13,
+      "ebitda": 185.0,
+      "fcf": 26.8,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1262,6 +1264,13 @@
   },
   "historical_notes": [
     {
+      "date": "2026-11-22",
+      "title": "Refinancing Completed: $300m 10.75% 2031 Notes Retire 2026s; Fitch Upgraded to B- Stable",
+      "source": "Liquid Telecom / Fitch (Apr-May 2026)",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Apr-26 retired $620m 5.5% 2026 notes via $300m 10.75% 2031 notes + term loans + Cassava equity; Fitch upgraded to B- Stable in May-26."
+    },
+    {
       "date": "2026-09-16",
       "title": "Liquid Telecom \u2014 Management Meeting, EM Investor Conference (15-Sep-2026)",
       "source": "J.P. Morgan EM Credit Conference (15-17 Sep 2026)",
@@ -1277,5 +1286,41 @@
       "summary": "Group generates approximately $300m in annual EBITDA with high operating cash conversion across its >110,000 km long-haul fiber backbone connecting 14 African nations from Cape Town to Cairo.",
       "details": "# Liquid Telecom \u2014 Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (Hardy Pemhiwa - Group CEO Cassava, Finance Leadership) | Issuer Profile: Pan-African fiber backbone, cloud and digital infrastructure provider across 14+ countries (>110,000 km network). Bond Silo: Senior secured notes (LIQTEL 2027s/2028s). Ratings: Fitch B- / Moody's Caa1.\n\n---\n\n### Key Points\n\n* **Core cash generation run-rate**: Group generates approximately $300m in annual EBITDA with high operating cash conversion across its >110,000 km long-haul fiber backbone connecting 14 African nations from Cape Town to Cairo.\n* **Disciplined capex reduction**: Capex guidance for FY26 is capped at $60\u201370m (primarily maintenance and success-based customer-connection drops), a sharp decline from historical peaks of $120m+ as the cross-continental fiber mesh reaches operational maturity.\n* **Debt position and upcoming amortisation wall**: Gross debt stood at approximately $880m at Q1, with net debt reduced to ~$770m. However, a major debt test looms on 28 February 2027, when nearly $130m in amortisation payments fall due across USD and ZAR term loans (representing ~1/3 of total term facilities).\n* **Committed $50m equity injection for AI pivot**: Under existing refinancing agreements, shareholders and strategic investors (Cassava Technologies / Strive Masiyiwa) are required to inject an additional $50m in equity into the restricted group by 28-Feb-2027. Proceeds are earmarked to upgrade the fiber grid into an ultra-low-latency 'AI transport network' serving global hyperscalers.\n* **Zimbabwe exposure and upstreaming**: Zimbabwe represents 30\u201335% of group EBITDA, with collections stabilized at a 60/40 USD/local currency ratio. Cash upstreaming operates steadily in small clips, with group tax expenses largely reflecting Zimbabwe statutory profitability.\n* **Liquidity buffer and covenant headroom**: Maintains $66\u201367m in usable balance sheet cash alongside an undrawn RCF, providing ~$95m of total liquidity. Significant headroom reported across all 7\u20138 debt covenants, with zero shareholder dividends expected from the operating perimeter.\n\n### Takeaways\n\n**Capital expenditure tapering unlocks sustained cash conversion.**  \nLiquid Telecom has crossed the inflection point of its multi-year capital expenditure cycle. Having deployed over 110,000 km of terrestrial fiber across sub-Saharan Africa, capex has been scaled down from historical levels of $120m+ to a run-rate of $60\u201370m. With growth capex now restricted to success-based enterprise connections, the group's ~$300m EBITDA converts cleanly into operational cash flow, shielding the business from external funding dependency.\n\n**The February 2027 term loan amortisation milestone.**  \nWhile near-term liquidity is stable, management is acutely focused on the 28 February 2027 maturity wall, where ~$130m of principal amortisation comes due across USD and ZAR commercial term loans. This represents approximately one-third of the outstanding term loan stack. Management expects to service this through a combination of accumulated internal cash flow, ongoing operational cash generation, and the mandatory equity injection.\n\n**Mandatory $50m equity injection to fund AI transport infrastructure.**  \nA key condition of the previous comprehensive refinancing agreement was a requirement for an incremental $50m equity injection into the credit group by 28-Feb-2027. Management confirmed active discussions with both core shareholders (Strive Masiyiwa / Cassava Technologies) and prospective international strategic partners. The capital will be utilized to equip existing fiber routes with coherent optics to support hyperscaler AI data traffic between landing stations and inland data centres.\n\n**Managing Zimbabwean currency risk and dividend upstreaming.**  \nZimbabwe contributes 30\u201335% of group EBITDA, making it the most significant jurisdictional risk factor. Management emphasized that recent monetary stabilization and dollarization of retail tariffs have stabilized collections at ~60% USD and 40% local currency. Upstreaming of funds to the HoldCo operates consistently through regular dividend transfers, with tax payments heavily concentrated in Zimbabwe due to the subsidiary's high statutory profitability.\n\n**Broad covenant headroom across multiple debt metrics.**  \nFollowing the previous debt reprofiling, Liquid Telecom operates with substantial headroom across all 7\u20138 financial covenants embedded in its debt documents. Gross debt of ~$880m excludes roughly $100m of subordinated intercompany debt (which was reduced from ~$200m). With no dividend leakage to HoldCo shareholders, all retained cash is preserved for debt service.\n\n\n### Guidance \u2014 Liquid Telecom\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **EBITDA Run-Rate** | Guided at ~$300m annual run-rate; Q1 softness expected to reverse in H2 with enterprise margin recovery. |\n| **Capex Guidance** | Strictly guided at $60\u201370m for FY26 (maintenance + customer connections); down from $120m+ historical peak. |\n| **Term Loan Amortisation** | ~$130m bullet amortisation due 28-Feb-2027 across USD and ZAR term loan tranches (~33% of term debt). |\n| **Mandatory Equity Injection** | $50m additional equity required by 28-Feb-2027 under lender agreement terms. |\n| **Zimbabwe EBITDA Share** | 30\u201335% of group EBITDA; collections running ~60% USD / 40% local currency. |\n| **Free Cash Flow** | Structurally positive operating cash flow after lower capex; primary call on cash is debt amortisation. |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Debt Stack** | Gross debt ~$880m (Q1 actual); net debt ~$770m. Syndicated term loans in USD and ZAR tranches alongside senior secured notes. |\n| **Liquidity Position** | $66\u201367m usable cash on balance sheet + undrawn RCF = ~$95m total available liquidity. |\n| **Subordinated Debt** | ~$100m in subordinated shareholder / intercompany loans (down from ~$200m pre-refinancing). |\n| **Equity Commitment** | Legally binding $50m equity injection commitment due by 28-Feb-2027 from Cassava / sponsor. |\n\n### Watch Items\n\n* Execution and receipt of the mandatory $50m shareholder equity injection ahead of 28-Feb-2027.\n* Refinancing or cash accumulation progress toward meeting the $130m term loan amortisation in Feb-2027.\n* Stability of Zimbabwean collections and ongoing US dollar dividend upstreaming.\n* Margin recovery in H2-26 following first-quarter enterprise pricing softness.\n* Hyperscaler AI transport contracts signing and fiber capacity utilization rates across the >110,000 km network.\n\n### In Our View\n\nLiquid Telecom has engineered a commendable operational turnaround by reining in capital expenditure ($60\u201370m vs $120m+) and converting its dominant pan-African fiber network into a consistent ~$300m EBITDA cash generator. The business possesses unmatched strategic infrastructure value, as global hyperscalers (Microsoft, Google, AWS) cannot route traffic across Africa without Liquid's fiber backbone. The planned pivot to AI transport networks provides a compelling medium-term revenue driver.\n\nHowever, credit investors must remain vigilant regarding the 28 February 2027 maturity hurdle, when ~$130m of term loan amortisation falls due. While available liquidity ($95m) and strong operating cash flow cover a significant portion, full execution requires the timely delivery of the $50m equity injection from Cassava / strategic backers. Furthermore, reliance on Zimbabwe for a third of EBITDA exposes the group to sudden currency shocks. We hold a Neutral stance on LIQTEL debt, awaiting confirmation of the equity funding before considering an upgrade.\n\n\n---\n"
     }
-  ]
+  ],
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / 2026 Maturity Cliff Cleared (10.75% 2031 Refi & Fitch B- Stable)",
+      "summary": "Successfully executed comprehensive refinancing in April 2026: priced $300m 10.750% Senior Secured Notes due 2031 plus new term loans and Cassava parent equity injection to retire the $620m 5.500% 2026 notes ahead of maturity. Fitch upgraded IDR to B- Stable in May 2026.",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null
+    },
+    "positives": [
+      "2026 refinancing wall eliminated: $620m 5.5% 2026s retired via $300m 10.75% 2031 notes, new term loans & parent Cassava equity.",
+      "Fitch upgraded IDR to B- Stable in May 2026 post-restructuring.",
+      "Irreplaceable >110,000km pan-African fiber backbone and Cassava AI/data-center partnerships."
+    ],
+    "negatives": [
+      "Doubled cash coupon burden (10.75% on 2031s vs 5.50% on 2026s) pressures FCF conversion.",
+      "Still elevated ~4x leverage and frontier African FX/repatriation friction (Zimbabwe/Zambia/DRC/Egypt).",
+      "Multi-jurisdictional sovereign risk."
+    ],
+    "background": {
+      "business_overview": "Largest pan-African independent fiber, cloud, and data-center infrastructure operator (Cassava Technologies subsidiary).",
+      "asset_perimeter": "110,000+ km fiber network across South Africa, Kenya, Uganda, Rwanda, Zambia, Zimbabwe, DRC, Botswana.",
+      "ownership_governance": "Subsidiary of Cassava Technologies (Econet/Strive Masiyiwa, DFC, Gateway, Google/Nvidia backed)."
+    },
+    "recent_drivers": [
+      "Apr/May 2026 Milestone: Closed $300m 10.750% Senior Secured Notes due 2031 + term loans + Cassava capital injection to retire $620m 5.50% 2026 notes; Fitch upgraded to B- Stable (May-26)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027",
+        "event": "FY2026/27 Post-Refi Cash Interest Coverage & FCF Audit",
+        "impact": "Tests whether data-center/enterprise growth absorbs 10.75% coupon."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  }
 }

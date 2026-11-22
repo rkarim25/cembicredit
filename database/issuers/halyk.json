@@ -16,8 +16,9 @@
     "model_file": "Halyk_Bank_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8168-94d7-c577967683b6",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Halyk_Bank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 release catalyst (23-Nov-26) integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "halyk",
+      "sector": "Banks",
+      "topic": "Nov-23 Q3/9M26 Call",
+      "source": "KASE / Halyk Disclosure",
+      "note": "Scheduled Q3 & 9M 2026 unaudited financial results call for November 23, 2026."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
-    "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/HSBKK",
-    "days_to_earnings": 0
+    "scheduled_date": "2026-11-23",
+    "period_reporting": "Q3 & 9M 2026 Unaudited",
+    "confirmation_status": "Confirmed",
+    "call_time": "14:00 Almaty / 09:00 UK",
+    "ir_webcast_url": "https://halykbank.com/investor-relations",
+    "days_to_earnings": 1
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Detail 9M26 ROE, NIM, Stage 3 NPLs, and 2027 dividend payout ratio vs maintaining >20% CAR.",
+      "focus_area": "Earnings & Capital",
+      "relevance": "Tomorrow's Nov-23 call updates all key bank KPIs.",
+      "conviction_trigger": "CAR >19% and NPL <2.5%."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "Baa1 / BBB-",
+      "price": 99.0,
+      "ytm": 6.2,
+      "spread_bp": 215,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / High-Capital Kazakhstan Flagship Ahead of Nov-23 Q3 Call",
+      "summary": "Kazakhstan's largest commercial bank (Baa1/BBB-, 21.5% CAR, 2.1% NPL) holds its Q3/9M 2026 unaudited financial results conference call tomorrow, Nov 23, 2026. Fortress capitalization and ~30%+ ROE anchor IG-crossover strength.",
+      "target_price": null,
+      "current_price": 99.0,
+      "ytm": 6.2,
+      "spread_bp": 215
+    },
+    "positives": [
+      "Fortress 21.5% CAR and low 2.1% NPL ratio with ~35% Kazakhstan market share.",
+      "IG-crossover Baa1 / BBB- ratings supported by strong internal capital generation.",
+      "Imminent Nov 23, 2026 Q3/9M26 results catalyst."
+    ],
+    "negatives": [
+      "Kazakhstan commodity/tenge macro sensitivity and KASE/LSE dividend payout expectations.",
+      "Elevated domestic regulatory taxes on bank liquidity."
+    ],
+    "background": {
+      "business_overview": "Kazakhstan's largest universal bank serving corporate, SME, and retail clients.",
+      "asset_perimeter": "Halyk Bank Kazakhstan, Halyk Finance, Tenge Bank (Uzbekistan), Georgia.",
+      "ownership_governance": "Almeks Holding Group (~69.5%); listed LSE (HSBK) & KASE."
+    },
+    "recent_drivers": [
+      "Nov-26 Catalyst: Scheduled unaudited Q3 & 9M 2026 financial results conference call for November 23, 2026."
+    ],
+    "catalysts": [
+      {
+        "date": "2026-11-23",
+        "event": "Q3 & 9M 2026 Financial Results Conference Call",
+        "impact": "Updates 2026 ROE, NIM, NPL, and CAR trajectory tomorrow."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Catalyst Alert: Q3/9M 2026 Results Call Scheduled for Nov 23, 2026",
+      "source": "KASE / Halyk Bank Notice",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Halyk Bank scheduled its unaudited Q3 & 9M 2026 results conference call for Nov 23, 2026; full credit view established ahead of release."
+    }
+  ]
 }

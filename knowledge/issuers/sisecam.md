@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/sisecam.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- SISETR 6.85% 2029: price 99.5, YTM 6.85%, spread 245bp (as of 2026-09-19).
+- SISETR 6.85% 2029: price 99.5, YTM 6.85%, spread 245bp (as of 2026-11-22).
 - Rating as recorded: BB- / B1.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

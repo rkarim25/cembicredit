@@ -16,8 +16,9 @@
     "model_file": "Vakifbank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6815aba39e1d30b4b8c8a",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Vakifbank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 BRSA results integrated 22-Nov-26; historical Legacy USD series retained"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "vakifbank",
+      "sector": "Banks",
+      "topic": "9M26 TRY 6.2tn Assets",
+      "source": "Vak\u0131fBank 9M 2026 Filing",
+      "note": "9M26 NI TRY 45.5bn (+8.5% YoY), total assets exceeded TRY 6.2tn (+24.8% YoY)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-06",
-    "period_reporting": "Q3 2026",
+    "scheduled_date": "2027-02-09",
+    "period_reporting": "FY 2026 BRSA",
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
-    "days_to_earnings": 0
+    "days_to_earnings": 79
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Disclose CET1 and Total CAR excluding BRSA FX/valuation forbearances and breakdown of Stage 2/3 flows.",
+      "focus_area": "Capital & Asset Quality",
+      "relevance": "Fast +34% annualized loan growth.",
+      "conviction_trigger": "Unadjusted Tier-1 >11.5%."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BB- / B1",
+      "price": 99.2,
+      "ytm": 6.95,
+      "spread_bp": 235,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / State-Bank Quasi-Sovereign Scale & 25% Asset Growth",
+      "summary": "9M26 net profit rose 8.5% YoY to TRY 45.5bn (Q3 TRY 15.4-18.1bn) as total assets surpassed TRY 6.2tn (+24.8% YoY) with 34% annualized loan/guarantee growth. State ownership (TVF/Treasury) provides strong systemic support alongside T\u00fcrkiye sovereign beta.",
+      "target_price": null,
+      "current_price": 99.2,
+      "ytm": 6.95,
+      "spread_bp": 235
+    },
+    "positives": [
+      "Strong quasi-sovereign support from T\u00fcrkiye Wealth Fund (TVF) / Treasury.",
+      "Steady earnings expansion (+8.5% YoY 9M26 net profit to TRY 45.5bn) on TRY 6.2tn+ asset scale.",
+      "Comfortable capital cushions above regulatory floors."
+    ],
+    "negatives": [
+      "Rapid +34% annualized cash/non-cash loan growth exposes book to potential post-tightening credit cycle.",
+      "Higher state-directed lending / margin sensitivity than private peers.",
+      "Sovereign rating ceiling (BB-/B1)."
+    ],
+    "background": {
+      "business_overview": "T\u00fcrkiye's second-largest state-controlled commercial bank serving corporate, SME, and retail segments.",
+      "asset_perimeter": "Vak\u0131fBank T\u00fcrkiye plus Vak\u0131fBank International (Vienna) and domestic leasing/factoring.",
+      "ownership_governance": "Majority controlled by T\u00fcrkiye Wealth Fund (TVF) & Ministry of Treasury/Finance."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M NI TRY 45.5bn (+8.5% YoY), Q3 NI TRY 15.4-18.1bn, Total Assets >TRY 6.2tn (+24.8% YoY), Loan+non-cash growth +34% ann."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 BRSA Results & Unadjusted CAR Disclosure",
+        "impact": "Confirms capital generation vs rapid asset growth."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "9M 2026 Results: Profit +8.5% YoY to TRY 45.5bn & Assets Surpass TRY 6.2tn",
+      "source": "Vak\u0131fBank 9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 net profit TRY 45.5bn (+8.5% YoY), Q3 TRY 15.4-18.1bn; total assets >TRY 6.2tn (+24.8% YoY)."
+    }
+  ]
 }

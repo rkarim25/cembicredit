@@ -16,12 +16,13 @@
     "model_file": "OCP_Group_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681969243c32cfbae8a81",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OCP_Group_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "cognitive_credit_id": "ocp",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/ocp/description",
     "model_type": "corp",
     "fcf_2024a": 209.9,
-    "net_leverage_2024a": 2.34
+    "net_leverage_2024a": 2.34,
+    "provenance": "9M 2026 release date (30-Nov-26) & credit assessment integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -353,6 +354,13 @@
       "topic": "Strategic Sovereign Resource Moat",
       "source": "Credit Rating Agency Memo",
       "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+    },
+    {
+      "issuer_id": "ocp",
+      "sector": "Materials",
+      "topic": "Nov-30 9M26 Release",
+      "source": "OCP Investor Notice",
+      "note": "Scheduled Q3/9M 2026 financial release and management call for November 30, 2026."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -554,27 +562,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-20",
-    "period_reporting": "9M 2026 Revenue & EBITDA Update",
-    "confirmation_status": "Estimated",
-    "call_time": "15:00 Casablanca",
+    "scheduled_date": "2026-11-30",
+    "period_reporting": "Q3 & 9M 2026 Financial Results",
+    "confirmation_status": "Confirmed",
+    "call_time": "15:00 Casablanca / 14:00 UK",
     "ir_webcast_url": "https://www.ocpgroup.ma/investors",
-    "days_to_earnings": 1
+    "days_to_earnings": 8
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
-    },
-    {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Quantify Q3/9M26 sulfur input cost pressure on phosphate margins and 2027 capex phasing.",
+      "focus_area": "Margins & Capex",
+      "relevance": "Peer Ma'aden saw -24% Q3 EBITDA on sulfur costs.",
+      "conviction_trigger": "Net leverage <2.5x."
     }
   ],
   "market_history": [
@@ -1175,6 +1175,19 @@
       "ebitda": 3200,
       "fcf": 209.9,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BBB- / Baa3",
+      "price": 99.5,
+      "ytm": 6.45,
+      "spread_bp": 155,
+      "net_leverage": 2.34,
+      "ebitda": 3200,
+      "fcf": 209.9,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1279,5 +1292,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Global Phosphate Leader (BBB-/Baa3) Ahead of Nov-30 9M26 Print",
+      "summary": "World's largest phosphate rock & fertilizer producer (95% Moroccan state-owned, BBB-/Baa3) releases Q3/9M 2026 financials on November 30, 2026. Solid ~2.3x leverage and high EBITDA margins cushion heavy $13bn green-ammonia/capacity capex.",
+      "target_price": null,
+      "current_price": 99.5,
+      "ytm": 6.45,
+      "spread_bp": 155
+    },
+    "positives": [
+      "Unrivalled ~70% global phosphate rock reserve moat and low-cost integrated Jorf Lasfar / Safi hubs.",
+      "95% Kingdom of Morocco ownership underpinning BBB-/Baa3 IG ratings.",
+      "Imminent Nov 30, 2026 Q3/9M26 release catalyst."
+    ],
+    "negatives": [
+      "Multi-year green capex program (~$13bn) elevates external Eurobond/loan needs.",
+      "Global DAP/MAP fertilizer & sulfur/ammonia input cost volatility (flagged by peer Ma'aden in Q326)."
+    ],
+    "background": {
+      "business_overview": "Morocco's state-owned global phosphate rock, phosphoric acid, and fertilizer leader.",
+      "asset_perimeter": "Khouribga/Benguerir mines, Jorf Lasfar & Safi chemical hubs, Nutricrops, Africa blending.",
+      "ownership_governance": "95% Kingdom of Morocco, 5% BCP; Eurobond issuer."
+    },
+    "recent_drivers": [
+      "Nov-26 Catalyst: Scheduled Q3/9M 2026 financial results release and call for November 30, 2026."
+    ],
+    "catalysts": [
+      {
+        "date": "2026-11-30",
+        "event": "Q3 & 9M 2026 Financial Results Release & Call",
+        "impact": "Tests margin resilience vs elevated sulfur input costs (flagged by Ma'aden) and tracks net leverage."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Catalyst Alert: Q3/9M 2026 Results Scheduled for Nov 30, 2026",
+      "source": "OCP Group Notice",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "OCP Group scheduled Q3/9M 2026 financial results release for Nov 30, 2026; full 7-section credit assessment added."
+    }
+  ]
 }

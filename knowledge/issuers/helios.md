@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/helios.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- HT 8.75% 2028: price 94.25, YTM 8.75%, spread 440bp (as of 2026-09-19).
+- HT 8.75% 2028: price 94.25, YTM 8.75%, spread 440bp (as of 2026-11-22).
 - Rating as recorded: B / B2.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

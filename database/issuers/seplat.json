@@ -16,7 +16,7 @@
     "model_file": "Seplat_Energy_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Seplat_Energy_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": null,
     "net_leverage_2024a": 0.66,
@@ -86,7 +86,11 @@
       "amount_usd_m": 650.0,
       "coupon": "9.125%",
       "maturity": "2030-03-21",
-      "seniority": "Senior Unsecured"
+      "seniority": "Senior Unsecured",
+      "instrument": "SEPLAT 9.125% Senior Notes due Mar 2030 (XS3030248325)",
+      "amount_issued_usd_m": 650.0,
+      "outstanding_usd_m": 650.0,
+      "amount_outstanding_usd_m": 650.0
     },
     {
       "tranche_name": "MPNU Acquisition Credit Facility (Repaid Oct-26)",
@@ -94,7 +98,11 @@
       "amount_usd_m": 0.0,
       "coupon": "Repaid 27-Oct-26",
       "maturity": "2026-10-27",
-      "seniority": "Retired"
+      "seniority": "Retired",
+      "instrument": "MPNU Acquisition Credit Facility (Repaid Oct-26)",
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0
     }
   ],
   "debt_maturities": {
@@ -192,6 +200,28 @@
       "ebitda": 539.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B / B2 / B",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.66,
+      "ebitda": 539.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "seplat",
+      "sector": "Energy",
+      "topic": "MPNU Integration & 2030 Refi",
+      "source": "Seplat 9M26 Filing",
+      "note": "Mobil Producing Nigeria Unlimited (MPNU) acquisition lifted scale >135 kboepd; refinanced 2026s with $650m 9.125% 2030s at 0.53x net leverage."
     }
   ]
 }

@@ -16,10 +16,11 @@
     "model_file": "Aydem_Renewable_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681008c2ee5226c1af03d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aydem_Renewable_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": -82.6,
-    "net_leverage_2024a": 4.11
+    "net_leverage_2024a": 4.11,
+    "provenance": "9M 2026 earnings & $550m late-2025 green Eurobond profile integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -352,6 +353,13 @@
       "topic": "Sovereign Balancing & Guarantees",
       "source": "Ministry of Finance Disclosures",
       "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    },
+    {
+      "issuer_id": "aydem",
+      "sector": "Utilities",
+      "topic": "9M26 & $550m Green Eurobond",
+      "source": "Aydem 9M 2026 Filing",
+      "note": "9M26 rev TRY 12.10bn, net profit TRY 5.24bn (deferred tax boost); servicing $550m late-2025 green Eurobond ($27.16m coupon paid spring-26)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -553,27 +561,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-09",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
     "call_time": "18:30 Istanbul",
     "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 108
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
-    },
-    {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Detail 2027-2028 YEKDEM-eligible vs merchant MWh generation share and cash interest coverage.",
+      "focus_area": "Revenue Stability",
+      "relevance": "YEKDEM roll-off creates TRY/spot exposure.",
+      "conviction_trigger": "YEKDEM + bilateral PPA >60% of EBITDA."
     }
   ],
   "market_history": [
@@ -1174,6 +1174,19 @@
       "ebitda": 190.0,
       "fcf": -82.6,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B / B3",
+      "price": 96.5,
+      "ytm": 8.95,
+      "spread_bp": 455,
+      "net_leverage": 4.11,
+      "ebitda": 190.0,
+      "fcf": -82.6,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1260,5 +1273,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / YEKDEM Hydro Portfolio Post-2025 $550m Green Bond Refi",
+      "summary": "9M26 revenue was TRY 12.10bn (vs TRY 12.48bn 9M25) with TRY 5.24bn net profit aided by deferred tax income while IAS 29 compressed operational gross profit. Following its $550m green Eurobond refi in late 2025, liquidity is focused on steady coupon servicing ($27.16m spring-26 coupon paid) and hydrology normalization.",
+      "target_price": null,
+      "current_price": 96.5,
+      "ytm": 8.95,
+      "spread_bp": 455
+    },
+    "positives": [
+      "Refinancing cliff cleared via late-2025 $550m green Eurobond; spring-26 $27.16m coupon paid on schedule.",
+      "100% renewable hydro/wind/geothermal generation asset base with partial USD-linked YEKDEM tariffs.",
+      "Low marginal operating costs once hydrology normalizes."
+    ],
+    "negatives": [
+      "Hydrology sensitivity and YEKDEM tariff expirations shifting mix toward merchant spot power.",
+      "High leverage (~4.1x) and group-level capex/debt across sister Aydem Energy entities (Adm/Gdz).",
+      "Operational gross profit contraction under IAS 29 in 9M26."
+    ],
+    "background": {
+      "business_overview": "T\u00fcrkiye's largest pure-play renewable power generator (1.1+ GW hydro, wind, geothermal, solar).",
+      "asset_perimeter": "27 renewable power plants across T\u00fcrkiye.",
+      "ownership_governance": "Subsidiary of Aydem Holding (~79%); BIST-listed (AYDEM)."
+    },
+    "recent_drivers": [
+      "Nov-26 (9M 2026): Revenue TRY 12.10bn (vs TRY 12.48bn 9M25), net profit TRY 5.24bn (boosted by deferred tax); $27.16m spring-26 coupon paid on $550m green bond."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & 2027 Hydrology / YEKDEM Mix",
+        "impact": "Clarifies merchant power exposure vs USD-linked YEKDEM share."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "9M 2026 Results & $550m Green Bond Servicing Update",
+      "source": "Aydem Renewables 9M 2026 Filing",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 rev TRY 12.10bn (vs TRY 12.48bn), net profit TRY 5.24bn (deferred tax gain). Servicing late-2025 $550m green Eurobond on schedule."
+    }
+  ]
 }

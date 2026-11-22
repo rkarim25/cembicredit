@@ -16,8 +16,9 @@
     "model_file": "Yapi_Kredi_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68174ad07d63b80bcd45c",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Yapi_Kredi_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 BRSA results integrated 22-Nov-26; historical Legacy USD series retained"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "yapi_kredi",
+      "sector": "Banks",
+      "topic": "9M26 CAR 14.1% & 214bp CoR",
+      "source": "Yap\u0131 Kredi 9M 2026 Release",
+      "note": "9M26 NI TRY 41.7bn (+10% YoY, 20.6% ROTE), swap-adj NIM 2.76%, NPL 4.2%, net CoR 214bp, Consol CAR 14.1% / Tier-1 11.7%."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-10-29",
-    "period_reporting": "Q3 2026",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-02-02",
+    "period_reporting": "FY 2026 BRSA",
+    "confirmation_status": "Estimated",
     "call_time": "17:30 Istanbul",
     "ir_webcast_url": "https://www.yapikrediinvestorrelations.com",
-    "days_to_earnings": 0
+    "days_to_earnings": 72
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Clarify capital buffer above regulatory BRSA forbearance-adjusted minimums given 14.1% consol CAR and 214bp CoR.",
+      "focus_area": "Capital & CoR",
+      "relevance": "Lowest headline CAR among Tier-1 Turkish private banks.",
+      "conviction_trigger": "Consol CAR >15.0% without regulatory forbearance."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BB- / B1",
+      "price": 99.4,
+      "ytm": 6.75,
+      "spread_bp": 215,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Strong 20.6% ROTE & NIM Recovery vs Tighter 14.1% Consol CAR",
+      "summary": "9M26 net profit rose 10% YoY to TRY 41.7bn (Q3 TRY 10.7bn) with 20.6% ROTE and sequential swap-adjusted NIM expansion to 2.76%. Watch item: consolidated CAR (14.1%) and Tier-1 (11.7%) are tighter than peers against a 4.2% NPL ratio and 214bp 9M CoR.",
+      "target_price": null,
+      "current_price": 99.4,
+      "ytm": 6.75,
+      "spread_bp": 215
+    },
+    "positives": [
+      "Solid profitability & NIM rebound: 9M26 NI TRY 41.7bn (+10% YoY), 20.6% ROTE, Q3 swap-adj NIM 2.76%.",
+      "Strong Ko\u00e7 Holding parentage (~61% stake via Ko\u00e7 Group).",
+      "Active international wholesale & Tier 2/AT1 market access."
+    ],
+    "negatives": [
+      "Thinner capital ratios vs peers: Consolidated CAR 14.1% and Tier-1 11.7% at 3Q26.",
+      "Asset quality pressure: NPL ratio at 4.2% with elevated 214bp 9M net cost of risk.",
+      "Sovereign ceiling (BB-/B1)."
+    ],
+    "background": {
+      "business_overview": "Top-4 private Turkish universal bank backed by Ko\u00e7 Holding, strong in corporate/commercial and credit cards.",
+      "asset_perimeter": "Yap\u0131 Kredi T\u00fcrkiye, Yap\u0131 Kredi Yat\u0131r\u0131m, Faktoring, Leasing, Azerbaijan/NL.",
+      "ownership_governance": "Controlled by Ko\u00e7 Holding (~61% direct/indirect); BIST-listed (YKBNK)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M NI TRY 41.7bn (+10% YoY), Q3 NI TRY 10.7bn, ROTE 20.6%, Q3 swap-adj NIM 2.76%, NPL 4.2% (214bp CoR), Consol CAR 14.1% / Tier-1 11.7%."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 BRSA Results & Capital / Tier 2 Supply Update",
+        "impact": "Tests whether capital buffers rebuild above 15% CAR."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: TRY 41.7bn Profit (20.6% ROTE) vs 14.1% CAR & 4.2% NPL",
+      "source": "Yap\u0131 Kredi 9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 NI TRY 41.7bn (+10% YoY, Q3 TRY 10.7bn), ROTE 20.6%, Q3 swap-adj NIM 2.76%, NPL 4.2% (214bp CoR), Consol CAR 14.1% / T1 11.7%."
+    }
+  ]
 }

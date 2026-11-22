@@ -16,10 +16,11 @@
     "model_file": "ACWA_Power_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8150-a7d3-e1d310024720",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ACWA_Power_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": -1205.0,
-    "net_leverage_2024a": 3.85
+    "net_leverage_2024a": 3.85,
+    "provenance": "Q3/9M 2026 Tadawul filings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -352,6 +353,13 @@
       "topic": "Sovereign Balancing & Guarantees",
       "source": "Ministry of Finance Disclosures",
       "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    },
+    {
+      "issuer_id": "acwa",
+      "sector": "Utilities",
+      "topic": "Q326 Rebound & SAR 30bn Project Debt",
+      "source": "ACWA Power Q3/9M 2026 Filing",
+      "note": "Q3 rev SAR 2,202m (+32.7%), Q3 op inc SAR 1,106m (+88.2%), 9M NI SAR 1,288m; raised ~SAR 30bn YTD non-recourse debt (incl. Noor Energy 1)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -553,27 +561,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-03",
-    "period_reporting": "Q3 2026 / 9M Earnings",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-02-25",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
     "call_time": "15:00 Riyadh / 12:00 UK",
     "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
-    "days_to_earnings": 0
+    "days_to_earnings": 95
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
-    },
-    {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Provide Parent/HoldCo recourse net debt vs Parent Operating Cash Flow (POCF) ratio given SAR 30bn SPV debt raises.",
+      "focus_area": "HoldCo Subordination",
+      "relevance": "Key Moody's/S&P metric for HoldCo bondholders.",
+      "conviction_trigger": "Parent FFO/Recourse Debt >25%."
     }
   ],
   "market_history": [
@@ -1174,6 +1174,19 @@
       "ebitda": 920.0,
       "fcf": -1205.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "Baa2 / BBB",
+      "price": 96.5,
+      "ytm": 6.45,
+      "spread_bp": 235,
+      "net_leverage": 3.85,
+      "ebitda": 920.0,
+      "fcf": -1205.0,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1260,5 +1273,50 @@
     "net_leverage": 9.14,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Q3 Profit Rebound (+71% YoY) & SAR 30bn YTD Non-Recourse Funding",
+      "summary": "9M26 revenue grew +16.0% YoY to SAR 6,236.6m (Q3 SAR 2,202.1m, +32.7% YoY) with Q3 operating income surging +88.2% YoY to SAR 1,105.8m and Q3 net income +71.1% YoY to SAR 635.1m (9M SAR 1,288.3m, +0.6%). Raised ~SAR 30bn YTD in non-recourse project debt (incl. Noor Energy 1 refi) supporting SAR 478bn AUM.",
+      "target_price": null,
+      "current_price": 96.5,
+      "ytm": 6.45,
+      "spread_bp": 235
+    },
+    "positives": [
+      "Strong PIF sovereign backing (~44% PIF) and Baa2/BBB IG ratings with long-term contracted Vision 2030 power/water PPAs.",
+      "Q326 earnings bounce (+88.2% YoY op income; +71.1% net income) after H1 milestone delays.",
+      "Deep access to non-recourse project finance (~SAR 30bn raised YTD 2026) shielding HoldCo."
+    ],
+    "negatives": [
+      "Structural subordination of HoldCo debt to massive SPV non-recourse project debt.",
+      "9M26 operating income remained -8.8% YoY (SAR 2,549.9m) due to earlier development delays/costs.",
+      "Heavy equity commitment pipeline for SAR 478bn renewable/desalination AUM."
+    ],
+    "background": {
+      "business_overview": "Saudi-based global developer/operator of power generation, green hydrogen, and desalinated water plants.",
+      "asset_perimeter": "Contracted PPA/WPA SPVs across Saudi Arabia, GCC, Central Asia (Uzbekistan/Azerbaijan), and Africa.",
+      "ownership_governance": "~44% PIF; listed on Tadawul (2082)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M rev SAR 6,236.6m (+16.0% YoY), 9M op inc SAR 2,549.9m (-8.8%), Q3 op inc SAR 1,105.8m (+88.2%), 9M NI SAR 1,288.3m; ~SAR 30bn YTD non-recourse financing."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & Parent-Level Cash Flow / Dividend Update",
+        "impact": "Clarifies HoldCo recourse leverage vs SPV distributions."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Q3 Operating Profit +88% YoY & SAR 30bn Non-Recourse Funding",
+      "source": "ACWA Power Q3/9M 2026 Filing",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 rev SAR 6.24bn (+16.0% YoY), Q3 op inc SAR 1.11bn (+88.2%), 9M NI SAR 1.29bn; ~SAR 30bn YTD non-recourse project debt raised."
+    }
+  ]
 }

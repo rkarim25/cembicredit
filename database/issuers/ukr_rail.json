@@ -7,7 +7,7 @@
     "region": "CEE",
     "sector": "Transportation & Logistics (Railways)",
     "type": "corp",
-    "rating": "CCC / Caa3",
+    "rating": "RD / D (Selective Default, 2026)",
     "tier": "Distressed",
     "benchmark_bond": "RAILUA 8.25% 2026 (LPN)",
     "price": 64.0,
@@ -16,10 +16,11 @@
     "model_file": "Ukraine_Rail_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6816bb15ffe27db5eeb55",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ukraine_Rail_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": -98.3,
-    "net_leverage_2024a": 3.86
+    "net_leverage_2024a": 3.86,
+    "provenance": "2026 selective default, Jul-26 $703m missed bullet & Aug-26 30% freight tariff hike integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -363,6 +364,13 @@
       "topic": "Forensic Recovery: Liquidation Scrap Floor vs Restructured Value",
       "source": "Distressed PM Recovery Waterfall",
       "note": "Physical asset base includes >80,000 wagons, 1,150 active locomotives, and 16,800+ km of operated track. Scrap steel and unencumbered rolling stock liquidation floor is $38.00. Base-case going-concern restructuring value is $68.00 - $74.00, offering attractive asymmetric risk/reward for high-beta credit portfolios."
+    },
+    {
+      "issuer_id": "ukr_rail",
+      "sector": "Transportation & Logistics (Railways)",
+      "topic": "2026 Default & 30% Tariff Hike",
+      "source": "Fitch / S&P / Interfax (2026)",
+      "note": "Entered RD/D after Jan-26 coupon suspension & Jul-26 $703m missed bullet (~$1.1bn debt). Bondholders rejected 20% haircut; 30% freight tariff hike effective Aug 1, 2026."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -582,27 +590,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-20",
-    "period_reporting": "9M 2026 (Audited Semi-Annual + Interim)",
+    "scheduled_date": "2027-04-30",
+    "period_reporting": "FY 2026 Audited & Restructuring Update",
     "confirmation_status": "Estimated",
     "call_time": "14:00 Kyiv / 12:00 UK",
     "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
-    "days_to_earnings": 1
+    "days_to_earnings": 159
   },
   "management_questions": [
     {
-      "focus_area": "Ring-Fencing of Multilateral Donor Grants vs. Commercial Freight Working Capital",
-      "question": "Are the $240M EBRD/World Bank Western rail corridor facilities strictly ring-fenced for capital track/locomotive purchases, or can surplus funds be fungibly deployed toward operational fuel, electricity, and rolling stock maintenance to preserve commercial liquidity?",
-      "relevance": "Ukraine Rail reported positive EBITDA in 2023-2024 primarily due to $195M in donor grant recognition. If multilateral lenders mandate strict project-specific escrow accounts, that cash cannot be touched to service commercial liabilities or bridge domestic freight receivables.",
-      "conviction_trigger": "If operational fungibility is permitted, default risk on commercial bank lines drops dramatically. If strictly ring-fenced, desk must evaluate the credit purely on domestic cash freight margins without grant subsidies.",
-      "deduced_from": "EBITDA reconciliation divergence analysis (+18.5% variance) between reported and calculated cash metrics."
-    },
-    {
-      "focus_area": "Commercial Debt Moratorium Exit Strategy & Seniority Ranking",
-      "question": "Following Ukraine's sovereign Eurobond restructuring, what specific framework is being discussed with the Ad Hoc Creditor Committee for the 2026 and 2028 Eurobonds? Will Ukrzaliznytsia seek a standalone state guarantee or a coupon step-up tied to Black Sea freight volume recovery?",
-      "relevance": "Eurobonds currently trade in the 60-70 context reflecting moratorium extensions. Understanding whether management intends to treat commercial bondholders pari passu with multilateral lenders or demand principal haircuts dictates recovery valuation.",
-      "conviction_trigger": "Confirmation of no principal haircut and coupon resumption tied to freight index raises recovery target to 75-80 cents.",
-      "deduced_from": "Sovereign restructuring documentation and historical corporate-sovereign debt linkage."
+      "question": "Quantify annualized EBITDA uplift from the Aug-26 30% freight tariff hike and revised restructuring terms (coupon/haircut/security) for the $1.1bn LPNs.",
+      "focus_area": "Restructuring Terms",
+      "relevance": "Direct recovery determinant for bondholders.",
+      "conviction_trigger": "Par/low-haircut extension with cash step-up coupon >=6%."
     }
   ],
   "market_history": [
@@ -1203,6 +1203,19 @@
       "ebitda": 380.0,
       "fcf": -98.3,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "RD / D (Selective Default, 2026)",
+      "price": 64.0,
+      "ytm": 19.25,
+      "spread_bp": 1485,
+      "net_leverage": 3.86,
+      "ebitda": 380.0,
+      "fcf": -98.3,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1289,5 +1302,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Distressed Hold / Selective Default (RD) & Active Restructuring on $1.1bn Debt",
+      "summary": "Entered selective default (RD/D) in 2026 after suspending Eurobond coupons in Jan-26 and missing the >$703m July 2026 bullet (~$1.1bn debt under restructuring). Ad-hoc bondholders rejected the initial 20% haircut / June-2033 extension plan; following a government-approved 30% freight tariff hike (Aug 1, 2026) and \u20ac130m EBRD liquidity reallocation, a revised restructuring plan is underway.",
+      "target_price": null,
+      "current_price": 64.0,
+      "ytm": 19.25,
+      "spread_bp": 1485
+    },
+    "positives": [
+      "30% freight tariff hike effective Aug 1, 2026 meaningfully improves operating cash flow baseline.",
+      "Essential wartime sovereign logistics backbone backed by \u20ac130m EBRD emergency liquidity reallocation.",
+      "Bondholder ad-hoc committee pushback forced tariff reform rather than purely punitive haircuts."
+    ],
+    "negatives": [
+      "Active selective default (RD/D): suspended Jan-26 coupons and missed >$703m July-26 bullet maturity.",
+      "~$1.1bn Eurobond stack in contested restructuring after initial 20% haircut / 2033 proposal was rejected.",
+      "Severe Russian strikes on rail/power infrastructure and chronic loss-making passenger segment."
+    ],
+    "background": {
+      "business_overview": "Ukraine's 100% state-owned monopoly railway operator (freight & passenger transport).",
+      "asset_perimeter": "National rail network, freight rolling stock, passenger ops, locomotive fleet.",
+      "ownership_governance": "100% Cabinet of Ministers of Ukraine."
+    },
+    "recent_drivers": [
+      "Jan/Jul 2026 Default: Suspended coupons (Jan-26) and missed >$703m July-26 bullet (~$1.1bn debt in restructuring); downgraded to RD/D.",
+      "Aug 2026 Tariff & Plan: Initial 20% haircut/2033 plan rejected by bondholders; government approved +30% freight tariff hike (eff. Aug 1, 2026); \u20ac130m EBRD loan reallocated to liquidity; revised plan being drafted."
+    ],
+    "catalysts": [
+      {
+        "date": "Q4 2026 / Q1 2027",
+        "event": "Revised Eurobond Restructuring Proposal Post-30% Tariff Hike",
+        "impact": "Determines final recovery package (haircut/coupon/maturity) for 2026/2028 LPNs."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "2026 Restructuring Update: RD/D Selective Default, Jul-26 $703m Miss & Aug-26 +30% Tariff Hike",
+      "source": "Fitch / S&P / Interfax / RailwayPro (2026)",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Suspended Jan-26 coupons & missed $703m Jul-26 bullet (~$1.1bn in restructuring, RD/D). Initial 20% haircut rejected; +30% freight tariff hike eff. Aug 1, 2026 + \u20ac130m EBRD liquidity."
+    }
+  ]
 }

@@ -16,10 +16,11 @@
     "model_file": "Turk_Telekom_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81b8-a403-f39bd0b0ad41",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turk_Telekom_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": 127.3,
-    "net_leverage_2024a": 1.45
+    "net_leverage_2024a": 1.45,
+    "provenance": "Q3/9M 2026 IAS 29 earnings integrated 22-Nov-26; historical Legacy series retained"
   },
   "financials_multi_year": [
     {
@@ -352,6 +353,13 @@
       "topic": "Contracted Revenue Backlog",
       "source": "Investor Presentations",
       "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    },
+    {
+      "issuer_id": "ttkom",
+      "sector": "Technology",
+      "topic": "Q3 2026 Sub-1x Leverage",
+      "source": "T\u00fcrk Telekom Q3/9M 2026 Release",
+      "note": "Q3 rev TRY 86.4bn (+11.9% YoY), Q3 EBITDA TRY 37.0bn (42.9% / 46% ex-IFRIC 12), Net Debt TRY 125.4bn (0.95x vs 1.00x Q2)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -553,20 +561,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-10",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-09",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
-    "days_to_earnings": 0
+    "days_to_earnings": 107
   },
   "management_questions": [
     {
-      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
-      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
-      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
-      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
-      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      "question": "Detail FX-hedged proportion of the TRY 125.4bn net debt and 2027 concession/5G cash outflows.",
+      "focus_area": "FX & Capex",
+      "relevance": "TRY depreciation sensitivity on FX debt.",
+      "conviction_trigger": "Net FX position neutral/hedged."
     }
   ],
   "market_history": [
@@ -1167,6 +1174,19 @@
       "ebitda": 1350.0,
       "fcf": 127.3,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BB / BB-",
+      "price": 99.8,
+      "ytm": 7.15,
+      "spread_bp": 310,
+      "net_leverage": 1.45,
+      "ebitda": 1350.0,
+      "fcf": 127.3,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1253,5 +1273,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Sub-1.0x Deleveraging Amid 5G & Concession Capex",
+      "summary": "9M26 revenue grew ~10% YoY to TRY 236.5bn (Q3 TRY 86.4bn, +11.9% YoY) and 9M EBITDA rose +8.3% YoY to TRY 97.8bn (Q3 TRY 37.0bn, 42.9% margin; 46% ex-IFRIC 12). Net debt stood at TRY 125.4bn with net leverage improving to 0.95x (from 1.00x in Q2).",
+      "target_price": null,
+      "current_price": 99.8,
+      "ytm": 7.15,
+      "spread_bp": 310
+    },
+    "positives": [
+      "Sub-1.0x deleveraging: Net leverage improved to 0.95x at 3Q26 (vs 1.00x Q2) on TRY 97.8bn 9M EBITDA.",
+      "Strong fixed-broadband & mobile pricing pass-through: Q3 revenue +11.9% YoY (real IAS 29).",
+      "Majority TVF state ownership underpins domestic financing access."
+    ],
+    "negatives": [
+      "Concession extension & 5G license capex keeping gross/net debt elevated (TRY 125.4bn net debt).",
+      "FX mismatch on foreign-currency liabilities vs predominantly TRY revenues.",
+      "Sovereign rating cap (BB/BB-)."
+    ],
+    "background": {
+      "business_overview": "T\u00fcrkiye's incumbent fixed-line, fiber infrastructure, and #2/3 mobile operator.",
+      "asset_perimeter": "Fixed broadband, wholesale fiber, Avea/TT Mobil, Argela/Innova IT.",
+      "ownership_governance": "61.68% T\u00fcrkiye Wealth Fund (TVF), 25% Turkish Treasury, 13.32% free float."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M rev TRY 236.5bn (+10% YoY), 9M EBITDA TRY 97.8bn (+8.3% YoY), Q3 NI TRY 7.7bn (9M TRY 25.8bn), Net Debt TRY 125.4bn (0.95x)."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Results & Fixed-Line Concession / 5G Capex Update",
+        "impact": "Clarifies 2027 FCF after concession payments."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: +11.9% Q3 Revenue & Net Leverage Down to 0.95x",
+      "source": "T\u00fcrk Telekom Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 rev TRY 236.5bn (+10% YoY), 9M EBITDA TRY 97.8bn (+8.3% YoY), 9M NI TRY 25.8bn. Net debt TRY 125.4bn (0.95x vs 1.00x Q2)."
+    }
+  ]
 }

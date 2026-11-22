@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/ukr_rail.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- RAILUA 8.25% 2026 (LPN): price 64.0, YTM 19.25%, spread 1485bp (as of 2026-09-19).
-- Rating as recorded: CCC / Caa3.
+- RAILUA 8.25% 2026 (LPN): price 64.0, YTM 19.25%, spread 1485bp (as of 2026-11-22).
+- Rating as recorded: RD / D (Selective Default, 2026).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

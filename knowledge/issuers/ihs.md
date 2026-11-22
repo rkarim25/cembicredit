@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/ihs.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- IHS 10.25% 2027: price 91.5, YTM 10.25%, spread 590bp (as of 2026-09-19).
+- IHS 10.25% 2027: price 91.5, YTM 10.25%, spread 590bp (as of 2026-11-22).
 - Rating as recorded: B+ / B2.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

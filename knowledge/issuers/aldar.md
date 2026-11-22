@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/aldar.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ALDAR 5.25% 2029: price 100.1, YTM 5.25%, spread 105bp (as of 2026-09-19).
+- ALDAR 5.25% 2029: price 100.1, YTM 5.25%, spread 105bp (as of 2026-11-22).
 - Rating as recorded: BBB- / Baa2.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

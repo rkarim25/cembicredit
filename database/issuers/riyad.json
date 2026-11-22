@@ -16,8 +16,9 @@
     "model_file": "Riyad_Bank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681638bc7f769eb59d81d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Riyad_Bank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 Tadawul filings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "riyad",
+      "sector": "Banks",
+      "topic": "9M26 Record 28.7% CIR",
+      "source": "Riyad Bank Q3/9M 2026 Filing",
+      "note": "9M26 NP SAR 8.13bn (+4.6% YoY), Q3 op income record SAR 5.05bn, Assets SAR 545bn (+5% YTD), CIR 28.7%."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-02-02",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/RIBL",
-    "days_to_earnings": 0
+    "call_time": "15:00 Riyadh",
+    "ir_webcast_url": "https://www.riyadbank.com/en/about-us/investor-relations",
+    "days_to_earnings": 72
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Detail 2027 USD senior/Tier 2/AT1 issuance plans and corporate stage-2 credit trends.",
+      "focus_area": "Funding & Asset Quality",
+      "relevance": "Active GCC sukuk/AT1 issuer.",
+      "conviction_trigger": "CAR >17.5%."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "A2 / A",
+      "price": 99.6,
+      "ytm": 5.15,
+      "spread_bp": 95,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Record Q3 Revenue & 28.7% Efficiency Ratio (A2/A)",
+      "summary": "9M26 net profit rose +4.6-5.0% YoY to SAR 8.13bn (Q3 SAR 2.87bn, +6.6% YoY) on record quarterly operating income of SAR 5.05bn (9M SAR 14.4bn, +5%). Assets expanded +5% YTD to SAR 545bn while cost-to-income hit a record-low 28.7%.",
+      "target_price": null,
+      "current_price": 99.6,
+      "ytm": 5.15,
+      "spread_bp": 95
+    },
+    "positives": [
+      "Record-low 28.7% cost-to-income ratio and record Q3 operating income (SAR 5.05bn).",
+      "Strong sovereign shareholder anchor (PIF/GOSI ~39%) supporting A2/A IG ratings.",
+      "Consistent ~18% CAR and ~1.6% low NPL ratio."
+    ],
+    "negatives": [
+      "Smaller retail CASA base than SNB/Al Rajhi makes funding more rate-sensitive.",
+      "Heavy Vision 2030 corporate project lending exposure."
+    ],
+    "background": {
+      "business_overview": "Top-4 Saudi commercial bank with strong corporate, project-finance, and treasury positioning.",
+      "asset_perimeter": "Riyad Bank KSA, Riyad Capital, London/Singapore/Houston branches.",
+      "ownership_governance": "PIF (~21.75%) + GOSI (~17%+); Tadawul-listed (1010)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M NP SAR 8.13bn (+4.6% YoY), Q3 NP SAR 2.87bn (+6.6%), Q3 op inc SAR 5.05bn (9M SAR 14.4bn), Assets SAR 545bn (+5% YTD), CIR 28.7%."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & Capital/Sukuk Issuance Update",
+        "impact": "Confirms CET1 buffer above regulatory targets."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Profit +4.6% to SAR 8.13bn & Record 28.7% Cost-to-Income",
+      "source": "Riyad Bank Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 NP SAR 8.13bn (+4.6% YoY; Q3 SAR 2.87bn, +6.6%), Q3 op inc SAR 5.05bn, Assets SAR 545bn (+5% YTD), CIR 28.7%."
+    }
+  ]
 }

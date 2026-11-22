@@ -16,12 +16,13 @@
     "model_file": "Helios_Towers_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6819fb0afce386998b737",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Helios_Towers_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "cognitive_credit_id": "helios",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/helios/description",
     "model_type": "corp",
     "fcf_2024a": 15.0,
-    "net_leverage_2024a": 4.49
+    "net_leverage_2024a": 4.49,
+    "provenance": "Q3/9M 2026 results integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -354,6 +355,13 @@
       "topic": "Contracted Revenue Backlog",
       "source": "Investor Presentations",
       "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    },
+    {
+      "issuer_id": "helios",
+      "sector": "Technology",
+      "topic": "9M26 3.4x Leverage & $535m Guide",
+      "source": "Helios Towers Q3/9M 2026 Release",
+      "note": "9M26 Adj EBITDA $392.2m (+13% YoY), FY26 guidance ~$535m, Q3 net debt $1,818.4m (3.4x vs 4.49x FY24)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -555,20 +563,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-11",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/HT",
-    "days_to_earnings": 0
+    "call_time": "09:00 London",
+    "ir_webcast_url": "https://www.heliostowers.com/investors/",
+    "days_to_earnings": 109
   },
   "management_questions": [
     {
-      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
-      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
-      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
-      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
-      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      "question": "Outline 2027 FCF conversion and timing for refinancing the 2028 senior notes once leverage nears 3.0x.",
+      "focus_area": "Refinancing & FCF",
+      "relevance": "2028 maturity turns current in mid-2027.",
+      "conviction_trigger": "2027 FCF >$100m and net leverage <3.1x."
     }
   ],
   "market_history": [
@@ -1169,6 +1176,19 @@
       "ebitda": 395.0,
       "fcf": 15.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "B / B2",
+      "price": 94.25,
+      "ytm": 8.75,
+      "spread_bp": 440,
+      "net_leverage": 4.49,
+      "ebitda": 395.0,
+      "fcf": 15.0,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1255,5 +1275,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Steady 13% EBITDA Growth & 3.4x Deleveraging (FY26 Guide ~$535m)",
+      "summary": "9M26 Adjusted EBITDA climbed +13% YoY to $392.2m and management tightened full-year 2026 guidance to ~$535m. Net debt stood at $1,818.4m at 3Q26, bringing net leverage down to 3.4x (vs 4.5x in FY24) on steady tenancy-ratio expansion.",
+      "target_price": null,
+      "current_price": 94.25,
+      "ytm": 8.75,
+      "spread_bp": 440
+    },
+    "positives": [
+      "Predictable hard-currency/CPI-escalated tenancy growth: 9M26 Adj EBITDA +13% YoY to $392.2m (FY26 guide ~$535m).",
+      "Consistent deleveraging: Net leverage down >1 turn from 4.49x (2024A) to 3.4x at 3Q26 ($1,818.4m net debt).",
+      "Pan-African diversification (Tanzania, DRC, Oman, Madagascar, Malawi, Senegal, South Africa) with ~60%+ USD/EUR-pegged revenue."
+    ],
+    "negatives": [
+      "Still elevated 3.4x net leverage relative to B/B2 peers (vs IHS at 1.8x).",
+      "Frontier African sovereign/currency risk (DRC, Tanzania, Ghana, Malawi).",
+      "2028 senior bond maturity wall approaching refinancing window in 2027."
+    ],
+    "background": {
+      "business_overview": "Independent pan-African & Middle East telecom towerco operating ~14,000+ sites across 9 markets.",
+      "asset_perimeter": "Tanzania, DRC, Oman, Congo-Brazzaville, Ghana, South Africa, Senegal, Madagascar, Malawi.",
+      "ownership_governance": "LSE FTSE-250 listed (HTWS)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M Adj EBITDA $392.2m (+13% YoY), FY26 Adj EBITDA guidance tightened to ~$535m, Q3 net debt $1,818.4m (3.4x net leverage)."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & 2028 Bond Refinancing Timing",
+        "impact": "Sub-3.2x leverage supports 2028 Eurobond refinancing."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Adj EBITDA +13% to $392.2m & Net Leverage Down to 3.4x",
+      "source": "Helios Towers Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 Adj EBITDA $392.2m (+13% YoY), FY26 guide ~$535m, net debt $1,818.4m, net leverage improved to 3.4x."
+    }
+  ]
 }

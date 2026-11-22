@@ -16,8 +16,9 @@
     "model_file": "Isbank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68161976ad6b744201f41",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Isbank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 BRSA results integrated 22-Nov-26; historical Legacy USD series retained"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "isbank",
+      "sector": "Banks",
+      "topic": "9M26 NIM & IRB Capital",
+      "source": "\u0130\u015fbank Q3/9M 2026 BRSA Release",
+      "note": "9M26 net profit TRY 40.43bn, Q3 swap-adj NIM 2.4% (+30bp QoQ), NPL 4.2%, Consol CAR 15.6% (Bank-only 17.2% aided by IRB)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-10-31",
-    "period_reporting": "Q3 2026",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-02-05",
+    "period_reporting": "FY 2026 BRSA",
+    "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.isbank.com.tr/en/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 75
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Quantify CET1 vs Total CAR impact from the IRB transition and dividend expectations from \u015ei\u015fecam.",
+      "focus_area": "Capital",
+      "relevance": "Bank-only CAR 17.2% vs consol 15.6%.",
+      "conviction_trigger": "Consol CET1 >12.0%."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BB- / B1",
+      "price": 99.5,
+      "ytm": 6.85,
+      "spread_bp": 225,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Improving NIM & IRB-Aided Capital (15.6% Consol / 17.2% Bank CAR)",
+      "summary": "9M26 net profit reached TRY 40.43bn as swap-adjusted NIM expanded +30bp QoQ to 2.4% (headline bank-only NIM ~3.9%) with management guiding wider exit trajectory. Consolidated CAR stood at 15.6% (bank-only 17.2% aided by IRB transition) against a 4.2% NPL ratio.",
+      "target_price": null,
+      "current_price": 99.5,
+      "ytm": 6.85,
+      "spread_bp": 225
+    },
+    "positives": [
+      "NIM inflection: Swap-adjusted NIM +30bp QoQ to 2.4% in Q326 with improving deposit-cost tailwinds.",
+      "Solid capital buffers: 15.6% consolidated CAR (17.2% bank-only post IRB).",
+      "Systemic anchor: T\u00fcrkiye's largest private bank by assets with deep retail CASA base and \u015ei\u015fecam/industrial stakes."
+    ],
+    "negatives": [
+      "NPL ratio elevated at 4.2% alongside industrial/SME macro headwinds (incl. \u015ei\u015fecam earnings slump).",
+      "Lower ROE vs private peer Garanti BBVA due to larger equity/participations base.",
+      "Sovereign rating ceiling (BB-/B1)."
+    ],
+    "background": {
+      "business_overview": "T\u00fcrkiye's largest private commercial bank by assets with major industrial equity participations (\u015ei\u015fecam, Anadolu Sigorta).",
+      "asset_perimeter": "\u0130\u015fbank T\u00fcrkiye, \u0130\u015f Yat\u0131r\u0131m, TSKB, \u015ei\u015fecam (~51% stake).",
+      "ownership_governance": "38.1% \u0130\u015fbank Pension Fund, 28.1% CHP (Treasury-custody), 33.8% free float."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M net profit TRY 40.43bn, Q3 swap-adj NIM 2.4% (+30bp QoQ), NPL 4.2%, Consol CAR 15.6% (Bank-only 17.2%)."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 BRSA Results & Industrial Equity Valuation",
+        "impact": "Shows NIM expansion toward 3.2-4.5% target and NPL stabilization."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: TRY 40.4bn Profit, +30bp NIM Expansion & 15.6% Consol CAR",
+      "source": "\u0130\u015fbank 9M 2026 Filing",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 net profit TRY 40.43bn, Q3 swap-adj NIM 2.4% (+30bp QoQ), NPL 4.2%, Consol CAR 15.6% (Bank-only 17.2% via IRB)."
+    }
+  ]
 }

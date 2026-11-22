@@ -16,10 +16,11 @@
     "model_file": "Sisecam_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681d7b10bd431e8514935",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sisecam_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": -66.2,
-    "net_leverage_2024a": 2.18
+    "net_leverage_2024a": 2.18,
+    "provenance": "Q3/9M 2026 IAS 29 earnings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -351,6 +352,13 @@
       "topic": "Strategic Sovereign Resource Moat",
       "source": "Credit Rating Agency Memo",
       "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+    },
+    {
+      "issuer_id": "sisecam",
+      "sector": "Materials",
+      "topic": "Q326 Margin Trough (5.2%)",
+      "source": "\u015ei\u015fecam Q3/9M 2026 Release",
+      "note": "Q326 EBITDA plunged 61.2% YoY to TRY 3,466m (5.2% margin); 9M26 EBITDA TRY 13,032m (-38.3% YoY, 6.7% margin) on soda ash & European glass weakness."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -552,27 +560,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-10-30",
-    "period_reporting": "Q3 2026 / 9M",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-03-02",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
     "call_time": "17:30 Istanbul",
     "ir_webcast_url": "https://www.sisecam.com.tr/en/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 100
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
-    },
-    {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Quantify capex cuts/deferrals and European capacity rationalization to restore FCF positive generation in 2027.",
+      "focus_area": "Capex & FCF",
+      "relevance": "5.2% Q3 EBITDA margin cannot support heavy expansion capex.",
+      "conviction_trigger": "Capex cut >30% and EBITDA margin >10%."
     }
   ],
   "market_history": [
@@ -1173,6 +1173,19 @@
       "ebitda": 1100.0,
       "fcf": -66.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BB- / B1",
+      "price": 99.5,
+      "ytm": 6.85,
+      "spread_bp": 245,
+      "net_leverage": 2.18,
+      "ebitda": 1100.0,
+      "fcf": -66.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1259,5 +1272,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Underweight / Severe Soda Ash & Glass Margin Contraction (5.2% Q3 Margin)",
+      "summary": "Credit pressure deepened in Q3/9M 2026: 9M26 sales declined 7.2% YoY to TRY 195.4bn while 9M EBITDA plunged 38.3% YoY to TRY 13.03bn (6.7% margin vs 10.0% 9M25) and Q3 EBITDA dropped 61.2% YoY to TRY 3.47bn (5.2% margin) on depressed global soda ash and European flat-glass pricing.",
+      "target_price": null,
+      "current_price": 99.5,
+      "ytm": 6.85,
+      "spread_bp": 245
+    },
+    "positives": [
+      "Global top-tier market position across flat glass, glassware, glass packaging, and natural soda ash (Wyoming).",
+      "Diversified international revenue base (~60% ex-T\u00fcrkiye / export) and strong \u0130\u015fbank parentage.",
+      "Substantial long-term asset backing."
+    ],
+    "negatives": [
+      "Sharp earnings collapse: Q326 EBITDA -61.2% YoY to TRY 3.47bn (5.2% margin vs 12.8% Q325); 9M EBITDA -38.3% YoY.",
+      "Persistent global soda ash oversupply and weak European construction/automotive glass demand.",
+      "Leverage creeping upward as FCF softens alongside multi-year capex."
+    ],
+    "background": {
+      "business_overview": "Global integrated glass and chemicals group operating across flat glass, glassware, glass packaging, and natural soda ash.",
+      "asset_perimeter": "45+ plants across 14 countries including Sisecam Chemicals USA (Wyoming trona/soda ash).",
+      "ownership_governance": "Majority owned by T\u00fcrkiye \u0130\u015f Bankas\u0131 (~51%); BIST-listed (SISE)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M sales TRY 195,405m (-7.2% YoY), 9M EBITDA TRY 13,032m (-38.3% YoY, 6.7% margin), Q3 EBITDA TRY 3,466m (-61.2% YoY, 5.2% margin)."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & Capex Deferral / Cost Restructuring Plan",
+        "impact": "Crucial for halting net leverage drift above 3.0x."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: EBITDA Down 61% YoY in Q3 (5.2% Margin) on Soda Ash Weakness",
+      "source": "\u015ei\u015fecam Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 sales TRY 195.4bn (-7.2% YoY), 9M EBITDA TRY 13.03bn (-38.3% YoY, 6.7%), Q3 EBITDA TRY 3.47bn (-61.2% YoY, 5.2% margin)."
+    }
+  ]
 }

@@ -16,8 +16,9 @@
     "model_file": "Emirates_NBD_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Emirates_NBD_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
-    "model_type": "bank"
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "provenance": "Q3/9M 2026 DFM filings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -386,6 +387,13 @@
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+    },
+    {
+      "issuer_id": "enbd",
+      "sector": "Banks",
+      "topic": "9M26 NPL Down to 2.0%",
+      "source": "ENBD Q3/9M 2026 Release",
+      "note": "9M26 PBT record AED 24.3bn, Assets AED 1.38tn (+18% YTD), NPL improved to 2.0%, CET1 13.4%."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -586,27 +594,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-01-28",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/EMIRAT",
-    "days_to_earnings": 0
+    "call_time": "14:00 Dubai",
+    "ir_webcast_url": "https://www.emiratesnbd.com/en/investor-relations",
+    "days_to_earnings": 67
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
-    },
-    {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Detail DenizBank T\u00fcrkiye 9M26 IAS 29 net monetary loss and standalone capital adequacy.",
+      "focus_area": "T\u00fcrkiye Exposure",
+      "relevance": "Main source of consolidated earnings noise.",
+      "conviction_trigger": "DenizBank CAR >15%."
     }
   ],
   "market_history": [
@@ -1207,6 +1207,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "A2 / A+",
+      "price": 100.25,
+      "ytm": 4.9,
+      "spread_bp": 70,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1293,5 +1306,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Record AED 24.3bn 9M PBT, +18% Asset Growth & 2.0% NPL",
+      "summary": "Dubai's flagship bank delivered record 9M26 profit before tax of AED 24.3bn (+4% YoY; Q3 net profit ~AED 6.33-6.4bn) as total assets surged +18% YTD to AED 1.38tn. NPL ratio fell sharply to 2.0% alongside 13.4% CET1.",
+      "target_price": null,
+      "current_price": 100.25,
+      "ytm": 4.9,
+      "spread_bp": 70
+    },
+    "positives": [
+      "Record AED 24.3bn 9M PBT and +18% YTD asset expansion to AED 1.38tn.",
+      "Sharp asset-quality clean-up: NPL ratio improved to 2.0% (from >4% historically) with 13.4% CET1.",
+      "55.8% ICD / Government of Dubai ownership anchors A2/A+ ratings."
+    ],
+    "negatives": [
+      "DenizBank T\u00fcrkiye subsidiary creates IAS 29 hyperinflation & TRY volatility drag.",
+      "Rapid +18% YTD balance-sheet growth requires capital retention discipline."
+    ],
+    "background": {
+      "business_overview": "Dubai's largest bank and leading UAE retail/corporate franchise, owning DenizBank (T\u00fcrkiye).",
+      "asset_perimeter": "ENBD UAE, Emirates Islamic, DenizBank (T\u00fcrkiye), KSA/Egypt/India operations.",
+      "ownership_governance": "55.8% Investment Corporation of Dubai (ICD); DFM-listed (EMIRATESNBD)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M PBT record AED 24.3bn (+4% YoY), Q3 NP ~AED 6.33-6.4bn, Assets AED 1.38tn (+18% YTD), NPL 2.0%, CET1 13.4%."
+    ],
+    "catalysts": [
+      {
+        "date": "Jan 2027",
+        "event": "FY2026 Audited Results & DenizBank Contribution",
+        "impact": "Checks DenizBank IAS 29 impact and 2027 AT1 call/issuance plans."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: Record AED 24.3bn PBT, Assets +18% YTD & NPL 2.0%",
+      "source": "Emirates NBD Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 PBT AED 24.3bn (+4% YoY), Assets AED 1.38tn (+18% YTD), NPL improved to 2.0%, CET1 13.4%."
+    }
+  ]
 }

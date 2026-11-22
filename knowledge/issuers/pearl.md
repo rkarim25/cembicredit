@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/pearl.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- PEARL 13.00% 2028 (NO0013387860): price 103.5, YTM 11.45%, spread 625bp (as of 2026-11-21).
+- PEARL 13.00% 2028 (NO0013387860): price 103.5, YTM 11.45%, spread 625bp (as of 2026-11-22).
 - Rating as recorded: B- (Implied) / CCC+ (Geopolitical Floor).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

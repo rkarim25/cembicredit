@@ -7,7 +7,7 @@
     "region": "CEEMEA",
     "sector": "Consumer",
     "type": "corp",
-    "rating": "CCC+ / Caa2",
+    "rating": "CCC (Fitch, 2026) / Caa2",
     "tier": "CCC",
     "benchmark_bond": "MHP 13.10% 2026",
     "price": 82.5,
@@ -16,10 +16,11 @@
     "model_file": "MHP_SE_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681489868f2bb1608ed64",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MHP_SE_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": 1.6,
-    "net_leverage_2024a": 2.89
+    "net_leverage_2024a": 2.89,
+    "provenance": "2026 debt refinancing & Fitch CCC upgrade integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -351,6 +352,13 @@
       "topic": "Geographic Diversification",
       "source": "Investor Presentations",
       "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+    },
+    {
+      "issuer_id": "mhp",
+      "sector": "Consumer",
+      "topic": "2026 Fitch CCC Upgrade",
+      "source": "Fitch / LSE RNS (2026)",
+      "note": "Fitch upgraded IDR to 'CCC' in 2026 after debt refinancing cleared near-term maturities; European expansion underpins covenant headroom."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -548,27 +556,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-17",
-    "period_reporting": "Q3 2026 Financial Results",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-03-25",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
     "call_time": "14:00 London / 09:00 EST",
     "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 123
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
-    },
-    {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Quantify offshore European (Perutnina Ptuj / Southern Europe) EBITDA share vs total group cash interest.",
+      "focus_area": "Offshore Coverage",
+      "relevance": "Offshore cash flow bypasses NBU FX restrictions.",
+      "conviction_trigger": "Offshore EBITDA >1.5x Eurobond interest."
     }
   ],
   "market_history": [
@@ -1169,6 +1169,19 @@
       "ebitda": 460.0,
       "fcf": 1.6,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "CCC (Fitch, 2026) / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1255,5 +1268,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Fitch Upgraded to 'CCC' Post-Refinancing & European Poultry Hedge",
+      "summary": "Outperforming Ukrainian corporate peer group: completed key debt refinancing earlier in 2026, prompting Fitch to upgrade Long-Term IDR to 'CCC' with healthier maturity headroom. European operating expansion (Perutnina Ptuj / Southern Europe) keeps net leverage compliant with Eurobond covenants despite wartime Black Sea logistics risk.",
+      "target_price": null,
+      "current_price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875
+    },
+    "positives": [
+      "Fitch upgraded IDR to 'CCC' in 2026 following successful debt refinancing and extended maturity runway.",
+      "Hard-currency European poultry segment (Perutnina Ptuj & Southern Europe expansion) reduces Ukraine-only concentration.",
+      "Consistent Eurobond covenant compliance and resilient agricultural/export earnings."
+    ],
+    "negatives": [
+      "Wartime Black Sea export corridor & port disruption risks.",
+      "Ukrainian NBU FX controls governing cross-border debt service.",
+      "Feed-grain price & energy/power backup cost volatility."
+    ],
+    "background": {
+      "business_overview": "Ukraine's largest poultry producer and leading agri-exporter with expanding EU poultry assets.",
+      "asset_perimeter": "Ukraine vertically integrated poultry/grain + Perutnina Ptuj (Slovenia/Balkans) + Southern Europe.",
+      "ownership_governance": "LSE-listed (MHPC); Yuriy Kosyuk controlling shareholder (~60%)."
+    },
+    "recent_drivers": [
+      "2026 Upgrade & Refi: Completed debt refinancing earlier in 2026, earning Fitch upgrade to 'CCC'; European expansion cushions wartime Black Sea bottlenecks."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & European Subsidiary EBITDA Share",
+        "impact": "Confirms offshore non-Ukraine EBITDA coverage of bond interest."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "2026 Credit Update: Fitch Upgrade to 'CCC' Post-Refinancing & EU Growth",
+      "source": "Fitch / LSE RNS (2026)",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Fitch upgraded MHP to 'CCC' following 2026 debt refinancing; European poultry expansion supports Eurobond covenant compliance."
+    }
+  ]
 }

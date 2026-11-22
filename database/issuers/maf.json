@@ -16,10 +16,11 @@
     "model_file": "Majid_Al_Futtaim_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8102-acba-dbe9288d1922",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Majid_Al_Futtaim_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": 91.5,
-    "net_leverage_2024a": 2.85
+    "net_leverage_2024a": 2.85,
+    "provenance": "H1 2026 results (Sep-26) integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -351,6 +352,13 @@
       "topic": "Geographic Diversification",
       "source": "Investor Presentations",
       "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+    },
+    {
+      "issuer_id": "maf",
+      "sector": "Consumer",
+      "topic": "Record H126 EBITDA",
+      "source": "MAF H1 2026 Release (Sep-26)",
+      "note": "H126 revenue AED 17.5bn (+1% YoY), record EBITDA AED 2.5bn (+11% YoY), NOPAT AED 1.8bn (+25% YoY)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -548,27 +556,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-04",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
-    "days_to_earnings": 0
+    "call_time": "14:00 Dubai",
+    "ir_webcast_url": "https://www.majidalfuttaim.com/en/investor-relations",
+    "days_to_earnings": 102
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
-    },
-    {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Update on Mall of the Emirates expansion capex and Carrefour regional margin trends.",
+      "focus_area": "Operations & Capex",
+      "relevance": "Malls drive >70% of EBITDA.",
+      "conviction_trigger": "Properties EBITDA >+8% YoY and Net Debt/EBITDA <3.0x."
     }
   ],
   "market_history": [
@@ -1169,6 +1169,19 @@
       "ebitda": 1450.0,
       "fcf": 91.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BBB / BBB",
+      "price": 98.0,
+      "ytm": 5.65,
+      "spread_bp": 160,
+      "net_leverage": 2.85,
+      "ebitda": 1450.0,
+      "fcf": 91.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1255,5 +1268,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Record H126 EBITDA (+11% YoY) & Dubai Mall Retail Moat",
+      "summary": "Reported record H126 results (Sep-26): revenue AED 17.5bn (+1% YoY), record EBITDA AED 2.5bn (+11% YoY), and net operating profit after tax jumping +25% YoY to AED 1.8bn. Prime UAE shopping mall assets (Mall of the Emirates) anchor BBB/BBB IG credit.",
+      "target_price": null,
+      "current_price": 98.0,
+      "ytm": 5.65,
+      "spread_bp": 160
+    },
+    "positives": [
+      "Prime trophy UAE mall portfolio driving +11% YoY record H126 EBITDA (AED 2.5bn) and +25% NOPAT (AED 1.8bn).",
+      "Conservative ~2.85x net leverage and strong liquidity headroom.",
+      "BBB/BBB stable IG ratings with balanced retail/property diversification."
+    ],
+    "negatives": [
+      "Carrefour regional grocery competition and Egypt/Levant FX translation drags.",
+      "Private family-owned governance and ongoing mall redevelopment capex.",
+      "Biannual reporting frequency."
+    ],
+    "background": {
+      "business_overview": "Leading MENA retail, shopping mall, leisure, and lifestyle conglomerate (Mall of the Emirates, Carrefour MENA).",
+      "asset_perimeter": "MAF Properties (29 malls, 13 hotels), MAF Retail (Carrefour), MAF Lifestyle/Entertainment.",
+      "ownership_governance": "100% privately held by Majid Al Futtaim Holding; LSE/Nasdaq Dubai sukuk/hybrid issuer."
+    },
+    "recent_drivers": [
+      "Sep-26 (H1 2026 Results): Revenue AED 17.5bn (+1% YoY), record EBITDA AED 2.5bn (+11% YoY), NOPAT AED 1.8bn (+25% YoY)."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & Mall Redevelopment Capex",
+        "impact": "Confirms Carrefour margin stabilization and LTV <35%."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "H1 2026 Results: Record EBITDA AED 2.5bn (+11% YoY) & NOPAT +25%",
+      "source": "Majid Al Futtaim H1 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "H126 revenue AED 17.5bn (+1% YoY), record EBITDA AED 2.5bn (+11% YoY), NOPAT AED 1.8bn (+25% YoY)."
+    }
+  ]
 }

@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/kfh.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- KFH 5.00% 2029: price 99.2, YTM 5.2%, spread 115bp (as of 2026-09-19).
+- KFH 5.00% 2029: price 99.2, YTM 5.2%, spread 115bp (as of 2026-11-22).
 - Rating as recorded: A2 / A.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |

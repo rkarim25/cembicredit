@@ -16,7 +16,7 @@
     "model_file": "Bank_of_Georgia_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bank_of_Georgia_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-22",
     "model_type": "bank",
     "financials_currency": "GEL",
     "provenance": "financials built 21-Nov-26 from Lion Finance Group / Bank of Georgia LSE filings (FY24, FY25, 9M26); quotes await [BBG] capture"
@@ -79,7 +79,11 @@
       "amount_usd_m": 300.0,
       "coupon": "9.50%",
       "maturity": "Perpetual",
-      "seniority": "Additional Tier 1"
+      "seniority": "Additional Tier 1",
+      "instrument": "Bank of Georgia 9.50% Perpetual AT1 Notes (Apr-24)",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0
     },
     {
       "tranche_name": "Bank of Georgia 11.50% Senior Notes due Nov 2028",
@@ -87,7 +91,11 @@
       "amount_usd_m": 165.0,
       "coupon": "11.50%",
       "maturity": "2028-11-01",
-      "seniority": "Senior Unsecured (GEL 450m)"
+      "seniority": "Senior Unsecured (GEL 450m)",
+      "instrument": "Bank of Georgia 11.50% Senior Notes due Nov 2028",
+      "amount_issued_usd_m": 165.0,
+      "outstanding_usd_m": 165.0,
+      "amount_outstanding_usd_m": 165.0
     }
   ],
   "credit_view": {
@@ -176,6 +184,37 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BB / Ba2",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 165.0,
+    "2029": 0.0,
+    "2030_plus": 300.0,
+    "total_outstanding_usd_m": 465.0,
+    "source": "BOG $300m 9.50% Perp AT1 + GEL 450m (~$165m) 11.50% 2028 senior notes."
+  },
+  "annotations": [
+    {
+      "issuer_id": "bgeo",
+      "sector": "Banks",
+      "topic": "9M26 Capital & Growth",
+      "source": "Lion Finance 9M26 RNS",
+      "note": "9M26 net profit GEL 1,865.7m (+18.6% YoY), ROAE 27.2%, BoG CET1 18.1% (+260bp over 15.5% req), Ameriabank CET1 14.0%."
     }
   ]
 }

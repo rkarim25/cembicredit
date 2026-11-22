@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/sonangol.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- SONANG 9.15% 2028: price 97.2, YTM 9.15%, spread 475bp (as of 2026-09-19).
+- SONANG 9.15% 2028: price 97.2, YTM 9.15%, spread 475bp (as of 2026-11-22).
 - Rating as recorded: B- / B3.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

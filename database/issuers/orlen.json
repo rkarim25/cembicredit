@@ -16,12 +16,13 @@
     "model_file": "PKN_Orlen_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-811f-a5e8-fb8bd58107fa",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PKN_Orlen_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "cognitive_credit_id": "orlen",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/orlen/description",
     "model_type": "corp",
     "fcf_2024a": 10.5,
-    "net_leverage_2024a": 0.95
+    "net_leverage_2024a": 0.95,
+    "provenance": "Q3/9M 2026 WSE filings integrated 22-Nov-26"
   },
   "financials_multi_year": [
     {
@@ -355,6 +356,13 @@
       "topic": "Commercial Reserve Life (1P/2P)",
       "source": "DeGolyer and MacNaughton / Ryder Scott",
       "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    },
+    {
+      "issuer_id": "orlen",
+      "sector": "Energy",
+      "topic": "9M26 -0.06x Net Cash",
+      "source": "PKN Orlen Q3/9M 2026 Release",
+      "note": "Q326 LIFO EBITDA PLN 14.8bn, 9M26 LIFO EBITDA PLN 42.8bn, gross debt PLN 30.5bn, net leverage -0.06x (net cash)."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -556,27 +564,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-10-29",
-    "period_reporting": "Q3 2026",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-02-25",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
     "call_time": "08:00 Warsaw / 07:00 UK",
     "ir_webcast_url": "https://www.orlen.pl/en/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 95
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
-    },
-    {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Detail 2027 capex envelope (Olefins III / offshore wind) and whether net leverage stays below 1.0x.",
+      "focus_area": "Capex",
+      "relevance": "Capex cycle determines bond supply.",
+      "conviction_trigger": "Net leverage <0.8x."
     }
   ],
   "market_history": [
@@ -1177,6 +1177,19 @@
       "ebitda": 8500,
       "fcf": 10.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BBB+ / A3",
+      "price": 98.8,
+      "ytm": 5.05,
+      "spread_bp": 100,
+      "net_leverage": 0.95,
+      "ebitda": 8500,
+      "fcf": 10.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1281,5 +1294,49 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Net Cash (-0.06x) & PLN 42.8bn 9M26 LIFO EBITDA (BBB+/A3)",
+      "summary": "Exceptional downstream & energy performance: Q326 LIFO EBITDA reached PLN 14.8bn bringing 9M26 LIFO EBITDA to PLN 42.8bn. Gross debt stood at PLN 30.5bn with net leverage at a net cash -0.06x, underpinning BBB+/A3 IG stability.",
+      "target_price": null,
+      "current_price": 98.8,
+      "ytm": 5.05,
+      "spread_bp": 100
+    },
+    "positives": [
+      "Net cash balance sheet (-0.06x Net Debt/EBITDA; gross debt PLN 30.5bn) on PLN 42.8bn 9M LIFO EBITDA.",
+      "Integrated Polish energy champion post PGNiG/Lotus mergers (refining, gas upstream/wholesale, retail, power).",
+      "BBB+ / A3 high-grade ratings backed by 49.9% Polish State Treasury anchor."
+    ],
+    "negatives": [
+      "Massive multi-year energy-transition capex program (offshore wind, SMRs, petrochemicals).",
+      "Refining margin & European gas price normalization risk in 2027."
+    ],
+    "background": {
+      "business_overview": "Central Europe's largest multi-utility energy group across refining, petrochemicals, natural gas, retail, and power.",
+      "asset_perimeter": "Poland, Czechia (Unipetrol), Lithuania (Ma\u017eeiki\u0173), Germany/Slovakia retail, Norwegian shelf upstream.",
+      "ownership_governance": "49.9% Polish State Treasury; WSE-listed (PKN)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: Q3 LIFO EBITDA PLN 14.8bn, 9M LIFO EBITDA PLN 42.8bn, gross debt PLN 30.5bn, net leverage -0.06x (net cash)."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Results & 2027 Capex / Green Bond Issuance Plan",
+        "impact": "Tests pace of cash deployment vs net cash status."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: PLN 42.8bn 9M LIFO EBITDA & Net Cash (-0.06x)",
+      "source": "PKN Orlen Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "Q326 LIFO EBITDA PLN 14.8bn, 9M26 PLN 42.8bn; gross debt PLN 30.5bn, net leverage -0.06x (net cash)."
+    }
+  ]
 }

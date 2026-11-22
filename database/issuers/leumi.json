@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "id": "leumi",
+    "name": "Bank Leumi Le-Israel B.M.",
+    "ticker": "LUMISP",
+    "country": "Israel",
+    "region": "Middle East",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
+    "tier": "IG",
+    "benchmark_bond": "LUMISP 5.343% 2029 ($600m) / 7.129% T2 2033",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Bank_Leumi_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bank_Leumi_Credit_Model.xlsx",
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "financials_currency": "ILS",
+    "provenance": "financials built 22-Nov-26 from Bank Leumi FY2024/FY2025 audited filings and Q3/9M 2026 release (17-Nov-26); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "ILS",
+      "source": "Bank Leumi FY2024 Audited Financial Statements, read 22-Nov-26",
+      "assets": 785550.0,
+      "deposits": 618300.0,
+      "equity": 61660.0,
+      "nii": 16510.0,
+      "net_profit": 9800.0,
+      "observations": {
+        "notes": "FY24 total assets NIS 785.55bn, deposits NIS 618.30bn, equity NIS 61.66bn, NII NIS 16.51bn, net profit NIS 9.80bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "ILS",
+      "source": "Bank Leumi FY2025 Audited Financial Statements, read 22-Nov-26",
+      "assets": 872970.0,
+      "deposits": 686890.0,
+      "equity": 68130.0,
+      "nii": 16850.0,
+      "net_profit": 10260.0,
+      "observations": {
+        "notes": "FY25 total assets NIS 872.97bn, deposits NIS 686.89bn, equity NIS 68.13bn, NII NIS 16.85bn, net profit NIS 10.26bn."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "ILS",
+      "source": "Bank Leumi Q3/9M 2026 Financial Results (17-Nov-26), read 22-Nov-26",
+      "loans": 586100.0,
+      "net_profit": 8200.0,
+      "roe_pct": 15.6,
+      "cir_pct": 26.0,
+      "npl_pct": 0.43,
+      "cet1_pct": 11.38,
+      "car_pct": 14.15,
+      "observations": {
+        "notes": "9M26 net income NIS 8.2bn (+5.9% YoY; Q3 NIS 3.0bn / NIS 3.3bn ex-levy). Loans NIS 586.1bn (+12.7% YTD), NPL 0.43%, troubled debt 1.06%, CET1 11.38%, Total CAR 14.15%, LCR 120%, Q3 CIR 26%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "LUMISP 5.125% Senior Notes due Jul 2027",
+      "tranche_name": "LUMISP 5.125% Senior Notes due Jul 2027",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "5.125%",
+      "maturity": "2027-07-27",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "New York"
+    },
+    {
+      "instrument": "LUMISP 5.343% Senior Notes due Jun 2029",
+      "tranche_name": "LUMISP 5.343% Senior Notes due Jun 2029",
+      "currency": "USD",
+      "amount_issued_usd_m": 600.0,
+      "outstanding_usd_m": 600.0,
+      "amount_outstanding_usd_m": 600.0,
+      "amount_usd_m": 600.0,
+      "coupon": "5.343%",
+      "maturity": "2029-06-29",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "New York"
+    },
+    {
+      "instrument": "LUMISP 7.129% Tier 2 Subordinated Notes due Jul 2033 (NC28)",
+      "tranche_name": "LUMISP 7.129% Tier 2 Subordinated Notes due Jul 2033 (NC28)",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "7.129%",
+      "maturity": "2033-07-18",
+      "seniority": "Subordinated Tier 2",
+      "isin": "IL0060406795",
+      "instrument_type": "Tier 2 Subordinated",
+      "governing_law": "Israeli / NY"
+    },
+    {
+      "instrument": "LUMISP 5.700% Variable Hybrid / Tier 2 CoCo Notes due Sep 2036",
+      "tranche_name": "LUMISP 5.700% Variable Hybrid / Tier 2 CoCo Notes due Sep 2036",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "5.700%",
+      "maturity": "2036-09-09",
+      "seniority": "Subordinated Tier 2 / Hybrid",
+      "instrument_type": "Tier 2 CoCo",
+      "governing_law": "Israeli"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 500.0,
+    "2028": 0.0,
+    "2029": 600.0,
+    "2030_plus": 1500.0,
+    "total_outstanding_usd_m": 2600.0,
+    "source": "International USD senior & Tier 2 benchmark curve ($2.6B); excludes domestic ILS deposit/debenture funding."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-22",
+    "verdict": {
+      "stance": "Overweight / Top-Tier CEMBI IG Bank Anchor",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Israel's largest bank delivered record 9M26 earnings (NIS 8.2bn, +5.9% YoY; Q3 NIS 3.0bn) with sector-best 26% cost-to-income and ultra-clean 0.43% NPLs. June 2026 $1bn 5.70% Tier 2 CoCo issue (+155bp) underscores tight market access; sovereign/geopolitical risk caps IG rating (A-/Baa1/BBB+)."
+    },
+    "positives": [
+      "Exceptional asset quality: 0.43% NPL ratio (troubled debt down to 1.06% vs 1.24% FY25) and Q3 CoR of just 13bp.",
+      "Elite operating efficiency: Q326 CIR improved to 26% with 16.9% ROE (18.5% ex-special bank tax levy).",
+      "Deep domestic funding & liquidity: 120% LCR and $2.6bn well-laddered USD senior/Tier 2 curve."
+    ],
+    "negatives": [
+      "Sovereign linkage & geopolitical risk: Ratings (A-/Baa1/BBB+) constrained by Israel sovereign trajectory and conflict risk.",
+      "Special bank tax levy & 50% payout ratio (NIS 1.5bn Q3 div/buyback) limit CET1 accumulation (11.38% vs 12.7%+ European peers).",
+      "Rapid 12.7% YTD loan growth (NIS 586.1bn, led by +20.5% corporate/infra) requires monitoring if domestic growth slows."
+    ],
+    "background": {
+      "business_overview": "Israel's largest commercial bank by assets (NIS 873bn FY25) with leading corporate, mortgage, retail, and tech-banking franchises.",
+      "asset_perimeter": "Domestic Israeli commercial/retail banking plus Leumi UK and international corporate desks.",
+      "ownership_governance": "Widely held on Tel Aviv Stock Exchange (TASE: LUMI); supervised by Bank of Israel."
+    },
+    "recent_drivers": [
+      "17-Nov-26 (Q3/9M 2026 Results): 9M net income NIS 8.2bn (+5.9% YoY), Q3 NIS 3.0bn (+10.6% YoY), CET1 11.38%, Total CAR 14.15%, NPL 0.43%, LCR 120%.",
+      "Jun-26 Issuance: Priced $1.0bn 5.70% Tier 2 CoCo due Sep-2036 (10.25NC5.25) at +155bp spread."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Annual Results & Capital Return Update",
+        "impact": "Confirms full-year ROE vs target and CET1 buffer post 12.7% YTD loan growth."
+      },
+      {
+        "date": "2027-07-27",
+        "event": "$500m 5.125% Senior Bond Maturity",
+        "impact": "Routine senior refinancing / liquidity test."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm target CET1 operating floor above the Bank of Israel requirement given 12.7% YTD corporate loan growth and 50% payout.",
+      "focus_area": "Capital",
+      "relevance": "CET1 at 11.38% leaves moderate headroom above regulatory minimums.",
+      "conviction_trigger": "CET1 sustained >=11.25%."
+    },
+    {
+      "question": "Detail commercial real estate and infrastructure portfolio staging in the +20.5% YTD corporate book.",
+      "focus_area": "Asset Quality",
+      "relevance": "Primary source of potential post-war cyclical NPL migration.",
+      "conviction_trigger": "NPL ratio <0.75%."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Coverage Initiated: Bank Leumi Q3/9M 2026 & USD Tier 2/Senior Curve",
+      "source": "Bank Leumi Q3/9M 2026 Filing (17-Nov-26) / Fitch",
+      "status": "Initial Coverage",
+      "summary": "Added Bank Leumi (LUMISP). 9M26 net income NIS 8.2bn (+5.9% YoY), Q3 NIS 3.0bn, NPL 0.43%, CET1 11.38%, CAR 14.15%, LCR 120%. Added $2.6bn USD senior & Tier 2 bond stack."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "leumi",
+      "sector": "Banks",
+      "topic": "Special Bank Tax Levy",
+      "source": "Bank Leumi Q3 2026 Release",
+      "note": "Q3 2026 reported net profit NIS 3.0bn vs NIS 3.3bn adjusted excluding the Israeli special bank tax levy (Q3 ROE 16.9% reported vs 18.5% adjusted)."
+    },
+    {
+      "issuer_id": "leumi",
+      "sector": "Banks",
+      "topic": "Jun-26 $1B Tier 2 CoCo",
+      "source": "Primary Issuance Disclosure",
+      "note": "Issued $1bn variable hybrid Tier 2 CoCo notes due Sep-2036 at 5.70% (+155bp spread), reinforcing Total CAR at 14.15%."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-04",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "15:00 Tel Aviv / 13:00 UK",
+    "ir_webcast_url": "https://english.leumi.co.il/home/ir",
+    "days_to_earnings": 102
+  },
+  "market_history": [
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

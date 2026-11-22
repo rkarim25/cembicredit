@@ -16,10 +16,11 @@
     "model_file": "Aldar_Properties_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aldar_Properties_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": -185.4,
-    "net_leverage_2024a": 0.51
+    "net_leverage_2024a": 0.51,
+    "provenance": "Q3/9M 2026 official earnings integrated 22-Nov-26; historical Legacy series retained"
   },
   "financials_multi_year": [
     {
@@ -354,6 +355,13 @@
       "topic": "Asset Coverage & Land Bank",
       "source": "CBRE / JLL Independent Valuation",
       "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+    },
+    {
+      "issuer_id": "aldar",
+      "sector": "Real Estate",
+      "topic": "9M26 AED 38.2bn Liquidity",
+      "source": "Aldar Q3/9M 2026 Release",
+      "note": "9M26 rev AED 26.2bn (+11%), Group EBITDA AED 9.4bn (+20%), NPAT AED 7.1bn (+19%), Liquidity AED 38.2bn, Backlog AED 71.6bn."
     }
   ],
   "earnings_presentation_intelligence": {
@@ -557,20 +565,19 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-10-29",
-    "period_reporting": "Q3 2026 Earnings Release",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-02-11",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
     "call_time": "14:00 Abu Dhabi / 10:00 UK",
     "ir_webcast_url": "https://www.aldar.com/en/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 81
   },
   "management_questions": [
     {
-      "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
-      "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
-      "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
-      "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
-      "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      "question": "Detail 2027 capex/land acquisition commitments vs AED 18.3bn free cash and recurring investment-property EBITDA target.",
+      "focus_area": "Liquidity & Capex",
+      "relevance": "Tests free-cash retention during expansion.",
+      "conviction_trigger": "Aldar Investment Net Debt/EBITDA <3.5x."
     }
   ],
   "market_history": [
@@ -1171,6 +1178,19 @@
       "ebitda": 1550.0,
       "fcf": -185.4,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BBB- / Baa2",
+      "price": 100.1,
+      "ytm": 5.25,
+      "spread_bp": 105,
+      "net_leverage": 0.51,
+      "ebitda": 1550.0,
+      "fcf": -185.4,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1257,5 +1277,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Fortress Abu Dhabi Developer with AED 38.2bn Liquidity & AED 71.6bn Backlog",
+      "summary": "Exceptional 9M26 momentum: revenue rose +11% YoY to AED 26.2bn (Q3 AED 9.35bn, +16.4%), Group EBITDA jumped +20% YoY to AED 9.4bn (Aldar Investment +21% to AED 2.8bn), and 9M NPAT climbed +19% to AED 7.1bn. Group liquidity stands at AED 38.2bn (AED 18.3bn cash + AED 19.9bn undrawn lines) with AED 71.6bn development backlog.",
+      "target_price": null,
+      "current_price": 100.1,
+      "ytm": 5.25,
+      "spread_bp": 105
+    },
+    "positives": [
+      "Massive liquidity fortress: AED 38.2bn total liquidity (AED 18.3bn free cash + AED 19.9bn undrawn facilities).",
+      "High recurring income anchor: Aldar Investment 9M26 Adj EBITDA +21% YoY to AED 2.8bn.",
+      "AED 71.6bn development backlog provides multi-year cash collection visibility; backed by Mubadala (~25%)."
+    ],
+    "negatives": [
+      "Large expansion capex & landbank deployment across UAE, Egypt (SODIC), and UK (London Square).",
+      "Real estate cycle & interest-rate sensitivity if Dubai/Abu Dhabi sales velocity moderates.",
+      "Baa2 / BBB- ratings constrain spread tightening inside Abu Dhabi sovereign."
+    ],
+    "background": {
+      "business_overview": "Abu Dhabi's leading listed real estate developer, investor, and asset manager.",
+      "asset_perimeter": "Aldar Development (UAE/Egypt/UK) + Aldar Investment (grade-A commercial, retail, hospitality, logistics).",
+      "ownership_governance": "Backed by Mubadala (~25%) & Alpha Dhabi; ADX-listed (ALDAR)."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026 Results: 9M rev AED 26.2bn (+11% YoY), 9M EBITDA AED 9.4bn (+20% YoY), 9M NPAT AED 7.1bn (+19% YoY), Q3 NP AED 1.91bn (+25%), Liquidity AED 38.2bn, Backlog AED 71.6bn."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & 2027 Capex/M&A Budget",
+        "impact": "Confirms recurring EBITDA growth and net leverage stability."
+      }
+    ],
+    "last_updated": "2026-11-22"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Q3/9M 2026 Results: EBITDA +20% YoY to AED 9.4bn, Liquidity AED 38.2bn & Backlog AED 71.6bn",
+      "source": "Aldar Properties Q3/9M 2026 Release",
+      "status": "Q3/9M 2026 Credit Update",
+      "summary": "9M26 rev AED 26.2bn (+11% YoY), EBITDA AED 9.4bn (+20%), NPAT AED 7.1bn (+19%), Liquidity AED 38.2bn, Backlog AED 71.6bn."
+    }
+  ]
 }

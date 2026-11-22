@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "id": "absa",
+    "name": "Absa Group Limited",
+    "ticker": "ABG",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "Ba2 / BB- / AAA(zaf)",
+    "tier": "BB",
+    "benchmark_bond": "ABG 6.625% Tier 2 2036 & $150m T2",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Absa_Group_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Absa_Group_Credit_Model.xlsx",
+    "last_updated": "2026-11-22",
+    "model_type": "bank",
+    "financials_currency": "ZAR",
+    "provenance": "financials built 22-Nov-26 from Absa Group FY2025 audited results and H1 2026 interim filings; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Absa Group FY2025 Audited Financial Results, read 22-Nov-26",
+      "assets": 2200000.0,
+      "total_income": 115700.0,
+      "net_profit": 24800.0,
+      "roe_pct": 15.0,
+      "cet1_pct": 12.7,
+      "observations": {
+        "notes": "FY25 headline earnings R24.8bn (+12% YoY), revenue R115.7bn (+5% YoY), assets ~R2.2tn, normalized ROE 15.0%, CLR improved to 88bp (vs 103bp FY24), CET1 12.7%."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "ZAR",
+      "source": "Absa Group H1 2026 Interim Results (ended 30-Jun-26), read 22-Nov-26",
+      "assets": 2282400.0,
+      "total_income": 58800.0,
+      "net_profit": 12800.0,
+      "roe_pct": 15.0,
+      "cet1_pct": 12.8,
+      "car_pct": 16.1,
+      "observations": {
+        "notes": "H126 headline earnings R12.8bn (+8% YoY), revenue R58.8bn (+4% YoY), assets R2,282.4bn, ROE 15.0%, CET1 12.8% (12.1% ex-unappropriated profits; above 11.0-12.5% target), Total CAR 16.1%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "ABG $150m Fixed Rate Reset Tier 2 Notes (Dec-25, XS3225241457)",
+      "tranche_name": "ABG $150m Fixed Rate Reset Tier 2 Notes (Dec-25, XS3225241457)",
+      "currency": "USD",
+      "amount_issued_usd_m": 150.0,
+      "outstanding_usd_m": 150.0,
+      "amount_outstanding_usd_m": 150.0,
+      "amount_usd_m": 150.0,
+      "coupon": "Fixed Reset",
+      "maturity": "2035-12-01",
+      "seniority": "Subordinated Tier 2",
+      "isin": "XS3225241457",
+      "instrument_type": "Tier 2 Eurobond",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "ABG 6.625% Subordinated Tier 2 Notes due Jun 2036",
+      "tranche_name": "ABG 6.625% Subordinated Tier 2 Notes due Jun 2036",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "6.625%",
+      "maturity": "2036-06-01",
+      "seniority": "Subordinated Tier 2",
+      "instrument_type": "Tier 2 Eurobond",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 650.0,
+    "total_outstanding_usd_m": 650.0,
+    "source": "International USD Tier 2 tranches ($150m Dec-25 + $500m 6.625% Jun-36); excludes domestic ZAR DMTN AT1/T2 stack."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-22",
+    "verdict": {
+      "stance": "Overweight / Improving SA Tier-1 Bank Capital & Credit Quality",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "South Africa Tier-1 peer to Standard Bank & FirstRand: H126 headline earnings rose 8% YoY to R12.8bn (15.0% ROE) with CET1 strengthening to 12.8% (above 11.0-12.5% board target) and Total CAR 16.1%. Credit loss ratio compressed to 88bp in FY25; Fitch lifted national scale to AAA(zaf) in mid-2026."
+    },
+    "positives": [
+      "Capital at top of target band: H126 CET1 12.8% (vs 11.0-12.5% target) and Total CAR 16.1%.",
+      "Credit quality recovery: Credit loss ratio improved from 103bp (FY24) to 88bp (FY25) and remained resilient in H126.",
+      "Pan-African diversification and active international Tier 2 market access (Dec-25 $150m & 6.625% 2036 USD Tier 2)."
+    ],
+    "negatives": [
+      "South Africa sovereign rating cap (Ba2/BB-) limits international USD rating upside.",
+      "Pan-African Rest-of-Africa subsidiaries face rate cuts and FX translation headwinds.",
+      "Competitive domestic deposit pricing dampening net interest margin expansion."
+    ],
+    "background": {
+      "business_overview": "One of South Africa's 'Big Four' universal banks (R2.28tn assets) operating across SA retail/business/CIB and 12 African markets.",
+      "asset_perimeter": "Absa Bank South Africa + Absa Regional Operations (ARO across East/West/Southern Africa).",
+      "ownership_governance": "JSE-listed (ABG); South African Reserve Bank (PA) supervised."
+    },
+    "recent_drivers": [
+      "H1 2026 Interim Results: Headline earnings R12.8bn (+8% YoY), revenue R58.8bn (+4% YoY), assets R2.28tn, CET1 12.8%, CAR 16.1%, ROE 15.0%.",
+      "Capital Markets & Rating: Fitch lifted national scale to AAA(zaf) mid-2026; issued $150m Tier 2 (Dec-25) and USD 6.625% Tier 2 due Jun-36."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Full-Year Results",
+        "impact": "Confirms full-year credit loss ratio inside target and ARO FX drag."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Assess Rest-of-Africa sovereign exposure (Ghana/Kenya/Zambia/Mozambique) and local-currency capital repatriation.",
+      "focus_area": "Sovereign & FX",
+      "relevance": "ARO earnings volatility affected H126 margin mix.",
+      "conviction_trigger": "ARO ROE >16% without FX impairments."
+    },
+    {
+      "question": "Confirm 2027 USD/ZAR Tier 2 and AT1 refinancing pipeline given 12.8% CET1.",
+      "focus_area": "Supply & Capital",
+      "relevance": "Guides secondary spread performance on 2036 Tier 2.",
+      "conviction_trigger": "Limited net USD supply."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-22",
+      "title": "Coverage Initiated: Absa Group H1 2026 Results & USD Tier 2 Stack",
+      "source": "Absa Group H126 Filing / Fitch",
+      "status": "Initial Coverage",
+      "summary": "Added Absa Group (ABG). H126 headline earnings R12.8bn (+8% YoY), assets R2.28tn, ROE 15.0%, CET1 12.8%, CAR 16.1%. Fitch AAA(zaf) national rating; USD Tier 2 curve added."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "absa",
+      "sector": "Banks",
+      "topic": "CET1 & Target Range",
+      "source": "Absa H1 2026 Filing",
+      "note": "H1 2026 CET1 reached 12.8% (12.1% ex-unappropriated profits), sitting above the 11.0%-12.5% board target."
+    },
+    {
+      "issuer_id": "absa",
+      "sector": "Banks",
+      "topic": "Credit Loss Normalization",
+      "source": "Absa FY25/H126",
+      "note": "Group CLR improved to 88bp in FY25 (vs 103bp FY24), comfortably inside through-the-cycle target."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-09",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "10:00 Johannesburg / 08:00 UK",
+    "ir_webcast_url": "https://www.absa.africa/absaafrica/investor-relations/",
+    "days_to_earnings": 107
+  },
+  "market_history": [
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "Ba2 / BB- / AAA(zaf)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

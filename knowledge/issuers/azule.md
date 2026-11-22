@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/azule.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- AZULE 8.45% 2030: price 98.5, YTM 8.45%, spread 410bp (as of 2026-09-19).
+- AZULE 8.45% 2030: price 98.5, YTM 8.45%, spread 410bp (as of 2026-11-22).
 - Rating as recorded: B+ / Ba3.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

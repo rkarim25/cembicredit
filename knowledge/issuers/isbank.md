@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/isbank.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 21-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ISCTR 6.85% 2029: price 99.5, YTM 6.85%, spread 225bp (as of 2026-09-19).
+- ISCTR 6.85% 2029: price 99.5, YTM 6.85%, spread 225bp (as of 2026-11-22).
 - Rating as recorded: BB- / B1.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |

@@ -16,7 +16,7 @@
     "model_file": "Sappi_Limited_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sappi_Limited_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-22",
     "model_type": "corp",
     "fcf_2024a": null,
     "net_leverage_2024a": 2.08,
@@ -28,7 +28,7 @@
       "period": "2024A",
       "is_audited": true,
       "currency": "USD",
-      "source": "Sappi FY2024 Annual Results (ended Sep-24), read 21-Nov-26",
+      "source": "Sappi FY2024 Annual Results (ended Sep-24), read 21-Nov-26 (Audited Financial Statements)",
       "revenue": 5458.0,
       "ebitda": 684.0,
       "reported_ebitda": 684.0,
@@ -43,7 +43,7 @@
       "period": "2025A",
       "is_audited": true,
       "currency": "USD",
-      "source": "Sappi FY2025 Annual Results (ended Sep-25), read 21-Nov-26",
+      "source": "Sappi FY2025 Annual Results (ended Sep-25), read 21-Nov-26 (Audited Financial Statements)",
       "revenue": 5429.0,
       "ebitda": 501.0,
       "reported_ebitda": 501.0,
@@ -58,7 +58,7 @@
       "period": "2026A",
       "is_audited": true,
       "currency": "USD",
-      "source": "Sappi FY2026 Full-Year Results (ended Sep-26, released 06-Nov-26), read 21-Nov-26",
+      "source": "Sappi FY2026 Full-Year Results (ended Sep-26, released 06-Nov-26), read 21-Nov-26 (Audited Financial Statements)",
       "revenue": 5277.0,
       "ebitda": 294.0,
       "reported_ebitda": 294.0,
@@ -76,20 +76,63 @@
   ],
   "capital_structure_tranches": [
     {
-      "tranche_name": "Sappi Papier Holding 4.50% EUR Senior Notes due Mar 2032",
+      "instrument": "SAPPI 3.625% EUR Senior Notes due Mar 2028",
+      "tranche_name": "SAPPI 3.625% EUR Senior Notes due Mar 2028",
       "currency": "EUR",
-      "amount_usd_m": 330.0,
-      "coupon": "4.50%",
-      "maturity": "2032-03-15",
-      "seniority": "Senior Unsecured (RR4)"
+      "amount_issued_usd_m": 435.0,
+      "outstanding_usd_m": 435.0,
+      "amount_outstanding_usd_m": 435.0,
+      "amount_usd_m": 435.0,
+      "coupon": "3.625%",
+      "maturity": "2028-03-15",
+      "seniority": "Senior Unsecured",
+      "isin": "XS2310951103",
+      "instrument_type": "EUR Senior Notes",
+      "governing_law": "English"
     },
     {
-      "tranche_name": "Sappi Papier Holding 2028 Senior Notes & Term/Securitization Debt",
+      "instrument": "SAPPI 4.500% EUR Senior Notes due Mar 2032",
+      "tranche_name": "SAPPI 4.500% EUR Senior Notes due Mar 2032",
+      "currency": "EUR",
+      "amount_issued_usd_m": 325.0,
+      "outstanding_usd_m": 325.0,
+      "amount_outstanding_usd_m": 325.0,
+      "amount_usd_m": 325.0,
+      "coupon": "4.500%",
+      "maturity": "2032-03-15",
+      "seniority": "Senior Unsecured (RR4)",
+      "isin": "XS3017017990",
+      "instrument_type": "EUR Senior Notes",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "SAPPI 7.500% USD Senior Notes due Jun 2032",
+      "tranche_name": "SAPPI 7.500% USD Senior Notes due Jun 2032",
+      "currency": "USD",
+      "amount_issued_usd_m": 250.0,
+      "outstanding_usd_m": 250.0,
+      "amount_outstanding_usd_m": 250.0,
+      "amount_usd_m": 250.0,
+      "coupon": "7.500%",
+      "maturity": "2032-06-15",
+      "seniority": "Senior Unsecured",
+      "isin": "XS0149581935",
+      "instrument_type": "USD Senior Notes",
+      "governing_law": "New York"
+    },
+    {
+      "instrument": "Bank Term Debt, Leases & Securitization Facilities",
+      "tranche_name": "Bank Term Debt, Leases & Securitization Facilities",
       "currency": "EUR/USD",
-      "amount_usd_m": 1790.0,
-      "coupon": "Fixed/Float",
-      "maturity": "2028-2031",
-      "seniority": "Senior Unsecured"
+      "amount_issued_usd_m": 1110.0,
+      "outstanding_usd_m": 1110.0,
+      "amount_outstanding_usd_m": 1110.0,
+      "amount_usd_m": 1110.0,
+      "coupon": "Floating",
+      "maturity": "2027-2031",
+      "seniority": "Senior / Bank",
+      "instrument_type": "Term Loans & RCF",
+      "governing_law": "Multi"
     }
   ],
   "debt_maturities": {
@@ -102,7 +145,7 @@
     "source": "FY26 gross borrowings ~$2,120m; SPH 4.5% EUR 300m due Mar-2032 & 2028 senior notes; $542m committed RCF."
   },
   "credit_view": {
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-22",
     "verdict": {
       "stance": "Underweight / Downgrade Watch (7.0x Peak Leverage)",
       "target_price": null,
@@ -187,6 +230,35 @@
       "ebitda": 684.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-22",
+      "period_name": "2026-11-22",
+      "timestamp": "2026-11-22T05:12:40.782443",
+      "rating": "BB Neg (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.08,
+      "ebitda": 684.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "sappi",
+      "sector": "Materials",
+      "topic": "FY26 7.0x Leverage Spike",
+      "source": "Sappi FY2026 Results (06-Nov-26)",
+      "note": "FY26 Adj EBITDA fell 41% YoY to $294m while net debt reached $2,050m (6.97x); $747m net loss included $319m Matane mill impairments."
+    },
+    {
+      "issuer_id": "sappi",
+      "sector": "Materials",
+      "topic": "Bond ISINs & RCF Cushion",
+      "source": "Bond Prospectuses / FY26 Release",
+      "note": "EUR 400m 3.625% due Mar-28 (XS2310951103), EUR 300m 4.50% due Mar-32 (XS3017017990), USD 250m 7.50% due Jun-32 (XS0149581935); $707m liquidity ($165m cash + $542m RCF)."
     }
   ]
 }
