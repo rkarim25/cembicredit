@@ -16,7 +16,7 @@
     "model_file": "ASG_Finance_Credit_Model.xlsx",
     "notion_id": "3f21d0ad68c68182b0c2c8ccacc74895",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ASG_Finance_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-23",
     "cognitive_credit_id": "aviasolutions",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/aviasolutions/description",
     "model_type": "corp",
@@ -376,6 +376,13 @@
     ]
   },
   "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Debt Maturity Schedule Completed (2026-2028 Clear)",
+      "source": "S&P / ASG",
+      "status": "Current Research Run",
+      "summary": "Populated debt_maturities confirming zero financial maturities 2026-2028 ahead of May-29 $300m Eurobond."
+    },
     {
       "date": "2026-10-07",
       "title": "Avia Solutions (AVIASG 29s) \u2014 1H26 Results, Segment Breakdown & Capital Structure Deep Dive",
@@ -932,6 +939,13 @@
   },
   "annotations": [
     {
+      "issuer_id": "asg",
+      "sector": "Transportation",
+      "topic": "2026-2028 Maturity Runway",
+      "source": "S&P / ASG 2Q26 (2026)",
+      "note": "Zero material financial debt maturities in 2026-2028; primary bullet is $300m 9.75% senior unsecured notes due 15-May-2029 (XS2815876920). Committed Boeing aircraft purchase obligations ~\u20ac514m (2026-28) & \u20ac1.51bn (2029-31)."
+    },
+    {
       "sector": "Transportation",
       "topic": "ACMI Rightsizing & 1H26 Cash Burn Transition",
       "source": "1H26 Earnings & Jefferies Desk Analysis",
@@ -1381,6 +1395,19 @@
       "ebitda": 322.9,
       "fcf": -189.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BB- (S&P) / BB (Fitch)",
+      "price": 87.0,
+      "ytm": 16.0,
+      "spread_bp": 1120,
+      "net_leverage": 4.69,
+      "ebitda": 322.9,
+      "fcf": -189.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "supplementary_data": {
@@ -1537,5 +1564,14 @@
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/AVIASG",
     "days_to_earnings": 0
+  },
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 300.0,
+    "2030_plus": 633.0,
+    "total_outstanding_usd_m": 933.0,
+    "source": "S&P / ASG 2Q26 disclosures: zero material financial debt maturities 2026-2028; $300m 9.75% senior unsecured notes due May 15, 2029 (XS2815876920) plus aircraft lease/equipment liabilities."
   }
 }

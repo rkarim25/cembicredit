@@ -1197,6 +1197,19 @@
       "ebitda": 100.0,
       "fcf": -735.0,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B / B3 / B (Sovereign-Capped)",
+      "price": 95.0,
+      "ytm": 12.5,
+      "spread_bp": 815,
+      "net_leverage": 2.43,
+      "ebitda": 100.0,
+      "fcf": -735.0,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {

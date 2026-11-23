@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/equate.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- EQUATE 5.00% 2030: price 98.2, YTM 5.55%, spread 150bp (as of 2026-09-19).
-- Rating as recorded: Baa2 / BBB.
+- EQUATE 5.00% 2030: price 98.2, YTM 5.55%, spread 150bp (as of 2026-11-23).
+- Rating as recorded: Baa2 Neg (Moody's, Nov-26) / BBB- / BBB.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

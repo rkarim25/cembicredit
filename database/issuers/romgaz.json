@@ -7,16 +7,16 @@
     "region": "CEE",
     "sector": "Energy",
     "type": "corp",
-    "rating": "BBB-",
+    "rating": "BBB- Stable (Fitch)",
     "tier": "Tier-1",
-    "benchmark_bond": "ROMGAZ 5.375% 2029",
+    "benchmark_bond": "ROMGAZ 4.75% Oct 2029 (\u20ac500m, XS2914558593)",
     "price": 98.5,
     "ytm": 5.75,
     "spread_bp": 170,
     "model_file": "Romgaz_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81a2-b091-d537c2acc0a5",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Romgaz_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": 206.4,
     "net_leverage_2024a": 0.65
@@ -301,6 +301,17 @@
         "fcf": 397.4,
         "formula_check": "1215.2 - 519.5 - 71.9 - (109.6) - 116.8 = 397.4"
       }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "RON",
+      "source": "S.N.G.N. Romgaz S.A. 9M 2026 Consolidated Results (BVB), read 23-Nov-26",
+      "revenue": 5700.6,
+      "net_profit": 2217.7,
+      "observations": {
+        "notes": "9M26 consolidated revenue RON 5,700.6m (-5.7% YoY), Net Profit RON 2,217.68m (-8.9% YoY). Q326 rev RON 1,817.6m (+1% YoY). Inaugural \u20ac500m 4.75% Oct-2029 Eurobond (XS2914558593) under \u20ac1.5bn EMTN funds Neptun Deep offshore gas."
+      }
     }
   ],
   "supplementary_data": {
@@ -330,6 +341,13 @@
     "thesis": "Romania's largest natural gas producer; partner in Black Sea Neptun Deep offshore development."
   },
   "annotations": [
+    {
+      "issuer_id": "romgaz",
+      "sector": "Energy",
+      "topic": "9M26 Results & Oct-29 Eurobond",
+      "source": "Romgaz BVB / Cbonds (2026)",
+      "note": "9M26 revenue RON 5,700.6m (-5.7% YoY), NPAT RON 2,217.68m (-8.9% YoY); \u20ac500m 4.75% Oct 2029 Eurobond (XS2914558593) under \u20ac1.5bn EMTN funding Neptun Deep."
+    },
     {
       "issuer_id": "romgaz",
       "issuer_name": "S.N.G.N. Romgaz",
@@ -392,6 +410,21 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "S.N.G.N. Romgaz 4.750% Senior Unsecured Eurobond due Oct 2029",
+      "tranche_name": "S.N.G.N. Romgaz 4.750% Senior Unsecured Eurobond due Oct 2029",
+      "currency": "EUR",
+      "amount_issued_usd_m": 540.0,
+      "outstanding_usd_m": 540.0,
+      "amount_outstanding_usd_m": 540.0,
+      "amount_usd_m": 540.0,
+      "coupon": "4.750%",
+      "maturity": "2029-10-07",
+      "seniority": "Senior Unsecured",
+      "isin": "XS2914558593",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English"
+    },
     {
       "tranche_name": "ROMGAZ Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -563,18 +596,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      "question": "Confirm 2026-2027 Neptun Deep capex spend and timing of any second \u20ac500m EMTN drawdown.",
+      "focus_area": "Capex & Issuance",
+      "relevance": "Monitors peak net leverage vs BBB- IG covenant."
     },
     {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Assess impact of Romanian gas market deregulation vs royalty/windfall tax extensions on 2027 EBITDA.",
+      "focus_area": "Regulation",
+      "relevance": "Key driver of internal FCF funding share."
     }
   ],
   "market_history": [
@@ -1188,6 +1217,19 @@
       "ebitda": 980.0,
       "fcf": 206.4,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BBB- Stable (Fitch)",
+      "price": 98.5,
+      "ytm": 5.75,
+      "spread_bp": 170,
+      "net_leverage": 0.65,
+      "ebitda": 980.0,
+      "fcf": 206.4,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1292,5 +1334,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Constructive / Low-Leverage State Gas Producer Funding Neptun Deep (BBB-)",
+      "target_price": null,
+      "current_price": 98.5,
+      "ytm": 5.75,
+      "spread_bp": 170,
+      "summary": "9M 2026 revenue of RON 5,700.6m (-5.7% YoY) and net profit of RON 2,217.68m (-8.9% YoY) reflect high ~39% net margins and conservative leverage (~0.65x). \u20ac1.5bn EMTN (\u20ac500m 4.75% Oct-2029 Eurobond, XS2914558593) cleanly pre-funds 50% share of Black Sea Neptun Deep offshore gas."
+    },
+    "positives": [
+      "Very conservative starting leverage (~0.65x) and high ~39% net margin (9M26 NPAT RON 2,217.7m on RON 5,700.6m revenue).",
+      "50% partner with OMV Petrom in transformational Neptun Deep Black Sea gas project (~100 bcm recoverable).",
+      "Fitch BBB- IG rating and \u20ac1.5bn EMTN programme (\u20ac500m 4.75% Oct-2029 notes >10x oversubscribed, XS2914558593)."
+    ],
+    "negatives": [
+      "Multi-year Neptun Deep capex peak (~\u20ac2bn Romgaz share) will push net leverage higher through 2027 first gas.",
+      "Romanian regulated gas price caps and windfall taxation overhang.",
+      "Single-country Romania fiscal/sovereign linkage (BBB-)."
+    ],
+    "background": {
+      "business_overview": "Romania's largest natural gas producer and underground gas storage operator, 70% state-owned (BVB: SNG).",
+      "asset_perimeter": "Onshore mature gas fields, Depogaz storage, Iernut CCGT, and 50% stake in Black Sea Neptun Deep.",
+      "ownership_governance": "70% owned by Romanian Ministry of Energy; listed on BVB and dual-listed bond on LuxSE/BVB."
+    },
+    "recent_drivers": [
+      "9M26 (BVB): Revenue RON 5,700.6m (-5.7% YoY), Net Profit RON 2,217.68m (-8.9% YoY); Q3 rev RON 1,817.6m (+1% YoY).",
+      "2024-2026: \u20ac500m 4.75% Oct-2029 Eurobond (XS2914558593) under \u20ac1.5bn EMTN funding Neptun Deep."
+    ],
+    "catalysts": [
+      {
+        "date": "H1 2027",
+        "event": "Neptun Deep Drilling Progress & Potential \u20ac500m Follow-On EMTN Tranche",
+        "impact": "Tracks capex peak and 2027 first-gas timeline."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "9M26 Results & \u20ac500m 4.75% Oct-29 Eurobond",
+      "source": "Romgaz BVB",
+      "status": "Current Research Run",
+      "summary": "9M26 rev RON 5,700.6m, NPAT RON 2,217.68m; verified XS2914558593 \u20ac500m 4.75% Oct-29 Eurobond."
+    }
+  ]
 }

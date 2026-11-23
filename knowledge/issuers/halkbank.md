@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/halkbank.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - HALKB 7.35% 2028: price 98.1, YTM 7.35%, spread 275bp (as of 2026-11-22).
 - Rating as recorded: B / B3.

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/stc.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - STC 3.922% 2029: price 97.5, YTM 4.85%, spread 80bp (as of 2026-11-22).
 - Rating as recorded: A1 / A+.

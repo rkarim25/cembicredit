@@ -1608,6 +1608,19 @@
       "ebitda": 15958.0,
       "fcf": -4991.7,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "Caa1 Neg (Moody's) / B- RWN (Fitch)",
+      "price": 63.5,
+      "ytm": 27.2,
+      "spread_bp": 2250,
+      "net_leverage": 3.62,
+      "ebitda": 15958.0,
+      "fcf": -4991.7,
+      "guidance_status": "Under Watch"
     }
   ],
   "broker_snapshots": [

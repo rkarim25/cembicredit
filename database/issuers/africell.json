@@ -7,16 +7,16 @@
     "region": "Africa",
     "sector": "Technology",
     "type": "corp",
-    "rating": "B- / B3",
+    "rating": "B- Positive (Fitch, Oct-26) / B3",
     "tier": "B",
-    "benchmark_bond": "AFRCEL 10.500% 2029 (XS2855412479)",
+    "benchmark_bond": "AFRCEL 10.500% 2029 ($360m incl. tap, XS2855412479)",
     "price": 103.24,
     "ytm": 9.26,
     "spread_bp": 452,
     "model_file": "Africell_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6811ba825cb8d9a616ac8",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Africell_Credit_Model.xlsx",
-    "last_updated": "2026-09-27",
+    "last_updated": "2026-11-23",
     "cognitive_credit_id": "africell",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description",
     "model_type": "corp",
@@ -213,6 +213,13 @@
     "thesis": "6M+ subscribers captured in Angola post-2022 rollout; strategic US DFC $100M+ senior debt backing."
   },
   "annotations": [
+    {
+      "issuer_id": "africell",
+      "sector": "Technology",
+      "topic": "Fitch Oct-26 Positive Outlook & $60m Tap",
+      "source": "Fitch Ratings / Africell (Oct-26)",
+      "note": "Fitch revised Outlook to Positive from Stable (affirmed B-) in Oct 2026 citing subscriber growth >16m, leverage trending <3.0x, and improving FCF; closed $60m tap on 10.50% 2029 notes."
+    },
     {
       "issuer_id": "africell",
       "issuer_name": "Africell",
@@ -450,11 +457,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
-      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
-      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
-      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
-      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      "question": "Confirm Angola EBITDA breakeven/margin contribution and USD cash upstreaming efficiency in 9M 2026.",
+      "focus_area": "Angola Ramp & FX",
+      "relevance": "Primary driver of Fitch Positive Outlook."
+    },
+    {
+      "question": "Outline 2027 capex guidance following early-2026 $60m tap deployment.",
+      "focus_area": "FCF",
+      "relevance": "Tests sustainable FCF post-tap."
     }
   ],
   "market_history": [
@@ -1068,6 +1078,19 @@
       "ebitda": 79.5,
       "fcf": -33.9,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B- Positive (Fitch, Oct-26) / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1157,70 +1180,49 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Overweight / Carry & Call Play",
-      "price": "103.24",
-      "target_price": "105.00 (Call Ceiling)",
-      "ytm": "9.26%",
-      "ytw": "8.76%",
+      "stance": "Overweight / Deleveraging Sub-Saharan Telecom Winner (B- Pos)",
+      "target_price": null,
+      "current_price": 103.24,
+      "ytm": 9.26,
       "spread_bp": 452,
-      "thesis_summary": "Africell represents a premier frontier telecoms credit combining rapid market-share capture in Angola with sovereign risk mitigation from the US International Development Finance Corporation (DFC). The credit has executed a remarkable operational turnaround, reducing Net Leverage from 6.08x in FY24 to 3.52x in 2Q26 as 2Q26 Adj EBITDA surged +37.8% YoY to $40.5M (LTM $159.0M, +76.9% YoY). Cognitive Credit's forward forecast engine models a decisive Free Cash Flow inflection from -$62.5M LTM to +$52.2M in FY26F and +$36M+/yr through FY31, with net leverage falling to 2.99x by FY31. The 10.500% 2029 notes trade at 103.24 yielding 9.26% YTM (+452 bp spread), offering compelling high-coupon carry. Upside is bounded by the 23 October 2026 call date at 105.00 (8.76% YTW), creating an attractive short-duration defensive yield play with preferred creditor backing."
+      "summary": "Fitch revised Africell's Outlook to Positive from Stable in Oct 2026 (affirming B-), forecasting leverage below 3.0x EBITDA and improving FCF as subscribers topped 16m across Angola, DRC, Sierra Leone, and The Gambia. Completed $60m tap of its 10.50% 2029 notes ($360m total)."
     },
     "positives": [
-      "High-Velocity Angola Commercial Growth: Broke the state-aligned Unitel/Movicel duopoly; active subscriber base surpassed 6M+ users, driving 2Q26 revenue up +16.1% YoY to $116.5M.",
-      "Strategic US Government (DFC) Backing: Direct debt partnership with the US International Development Finance Corporation provides powerful sovereign umbrella protection, FX repatriation facilitation, and geopolitical shielding under the Lobito Corridor initiative.",
-      "Dominant High-Margin Secondary Cash Cows: Market leadership in Sierra Leone (>60% share) and The Gambia (>60% share) delivers steady, predictable baseline cash flows that subsidize Angola's capex rollout.",
-      "Dramatic Post-Devaluation Deleveraging: Net leverage slashed by -2.56x from 6.08x in FY24 to 3.52x in 2Q26, driven by operational tariff adjustments and rapid subscriber density.",
-      "Clean, Transparent IFRS Reporting: Cognitive Credit audit confirms negligible management add-backs (Derived EBITDA of $158.8M vs Reported Adjusted EBITDA of $159.0M = 0.18% / $0.29M variance).",
-      "Healthy Interest Coverage Cushion: EBITDA interest coverage strengthened to 3.23x LTM, providing comfortable debt service headroom."
+      "Fitch revised Outlook to Positive in Oct 2026 (B- IDR), expecting leverage <3.0x and stronger FCF conversion.",
+      "Subscriber base passed 16 million across high-growth markets (Angola expansion, DRC, Sierra Leone, Gambia) with rising data ARPU.",
+      "Early-2026 $60m tap at 10.500% consolidated liquidity onto the 2029 maturity ($360m total, XS2855412479)."
     ],
     "negatives": [
-      "Free Cash Flow Burn: LTM FCF stands at -$62.5M due to aggressive network expansion capex ($68.0M LTM, $22.7M in 2Q26, 19.5% of sales) and working capital demands (-$59.3M LTM); however, 2Q26 FCF narrowed to -$4.7M.",
-      "Currency Mismatch & FX Conversion Risk: Tariffs collected in local currencies (Angolan Kwanza AOA, Congolese Franc CDF, Sierra Leonean Leone SLE, Gambian Dalasi GMD) against hard-currency USD debt service ($37.8M annual coupon on 2029 notes).",
-      "Tight Cash Buffer vs Near-Term Obligations: Cash and bank balances of $35.4M are closely matched against short-term term debt ($8.2M) and bank overdrafts ($29.7M), requiring continuous operational conversion.",
-      "Call Option Ceiling at 105.00: The notes become callable on 23 October 2026 at 105.00, capping capital appreciation potential above 105."
+      "FX translation and cash repatriation exposure in frontier African currencies (AOA, CDF, SLL, GMD).",
+      "Ongoing network capex in Angola and 4G/5G densification.",
+      "Tighter call/price cushion above par (~103.24) ahead of call windows."
     ],
     "background": {
-      "business_overview": "Africell Holding Limited is an agile, private telecommunications operator providing voice, 4G/5G mobile broadband, and Afrimoney digital financial services across four high-growth Sub-Saharan African markets: Angola, Democratic Republic of Congo (DRC), Sierra Leone, and The Gambia.",
-      "asset_perimeter": "Nationwide cellular operating spectrum and concessions in Angola (Luanda, Benguela, Huambo, Lubango), DRC (Kinshasa, Katanga, Bas-Congo), Sierra Leone (Freetown and provinces), and The Gambia (Banjul), backed by extensive fiber-optic transmission and passive tower leases.",
-      "corporate_structure": "Headquartered in London, UK. Owned by private holding vehicle (Lintel Group / Ziad Dalloul) with minority institutional and multilateral backing from the US DFC."
+      "business_overview": "US-owned pan-African mobile network operator serving >16m subscribers in Angola, DRC, Sierra Leone, and The Gambia.",
+      "asset_perimeter": "4G/mobile tower & spectrum networks across 4 Sub-Saharan African operating countries.",
+      "ownership_governance": "Private US-headquartered telecom group (Lintel/Dalloul) with DFC/institutional debt backing; Cognitive Credit covered."
     },
     "recent_drivers": [
-      "2Q26 Earnings Acceleration (18 Aug 2026): Revenue grew +16.1% YoY to $116.5M; Adjusted EBITDA jumped +37.8% YoY to $40.5M (margin 34.8%, +546 bps YoY); EBIT expanded +70.1% YoY to $21.0M (margin 18.0%).",
-      "Angola Network Reinvestment: Gross capex increased to $22.7M in 2Q26 (+101.8% YoY) as Africell deployed 4G LTE coverage across the central and southern provinces of Angola.",
-      "FCF Inflection: Free Cash Flow burn narrowed dramatically to -$4.7M in 2Q26 compared to -$43.5M in 1Q26, indicating approaching operating cash flow self-sufficiency.",
-      "Leverage Improvement: Total Net Debt ended 2Q26 at $560.4M, with Net Leverage falling to 3.52x, marking a continuous deleveraging trajectory from 6.08x in FY24."
+      "Oct-26: Fitch revised Africell Global Holdings Outlook to Positive from Stable (affirmed B-), projecting <3.0x leverage.",
+      "Early-26: Closed $60m tap of 10.500% senior secured notes due 2029 (total $360m)."
     ],
     "catalysts": [
       {
-        "date": "2026-10-23",
-        "event": "First Optional Call Date for AFRCEL 10.500% 2029 Notes ($360M) at 105.00",
-        "impact": "Management option to refinance notes into cheaper institutional or DFI debt if market conditions permit."
-      },
-      {
-        "date": "2026-11-15",
-        "event": "3Q26 Quarterly Financial Results & Operating Metrics Release",
-        "impact": "Key update on Angola subscriber growth, ARPU resilience, and FCF breakeven trajectory."
-      },
-      {
-        "date": "2026-12-31",
-        "event": "Afrimoney Cross-Border Remittance & Merchant Acceptance Expansion",
-        "impact": "Accelerates high-margin non-voice fintech revenues and deepens subscriber stickiness."
-      },
-      {
-        "date": "2027-09-30",
-        "event": "US DFC Multilateral Facility Amortisation & Tenor Review",
-        "impact": "Opportunity for concessionary debt expansion and extended maturity runway."
+        "date": "Q1 2027",
+        "event": "FY2026 Audited Results & Potential Fitch Upgrade to B",
+        "impact": "Upgrade trigger if Angola EBITDA scales and net leverage drops <3.0x."
       }
     ],
-    "management_questions": [
-      "What is the current estimated dollar backlog of local currency (Kwanza and Congolese Francs) awaiting central bank conversion, and what proportion of FY26 debt service is held in offshore USD accounts?",
-      "Given that 2Q26 capex rose to $22.7M (19.5% of sales) for Angola network rollout, at what point in 2026/2027 do you expect network capex intensity to peak, and when does Angola become FCF positive?",
-      "With the 10.500% 2029 notes trading at 103.24 (YTW 8.76%), what is management's refinancing strategy regarding the 23 October 2026 call option at 105.00?",
-      "How has Afrimoney's transaction volume and monthly active user base trended in Angola and DRC, and what is its projected contribution to consolidated EBITDA over the medium term?",
-      "What is the current status of the Lobito Corridor infrastructure development and how is Africell positioning its fiber and enterprise data services along that trade route?"
-    ]
+    "last_updated": "2026-11-23"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Fitch Oct-26 Positive Outlook & $60m Tap Update",
+      "source": "Fitch Ratings",
+      "status": "Current Research Run",
+      "summary": "Fitch Outlook revised to Positive (B-); >16m subscribers and $60m tap on 10.50% 2029 notes."
+    },
     {
       "date": "2026-09-16",
       "title": "Africell \u2014 Management Meeting, EM Investor Conference (16-Sep-2026)",

@@ -9,13 +9,13 @@
     "type": "corp",
     "rating": "B2 / B",
     "tier": "B",
-    "benchmark_bond": "GLNG $500M 5NC2",
+    "benchmark_bond": "GLNG 7.50% Dec 2031 ($500m) / 7.50% 2030 ($500m)",
     "price": 99.5,
     "ytm": 7.85,
     "spread_bp": 420,
     "model_file": "Golar_LNG_Credit_Model.xlsx",
     "notion_id": "3e31d0ad-68c6-8104-ab60-c609ed22a0d9",
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-11-23",
     "fcf_2024a": -80.0,
     "net_leverage_2024a": 6.4,
     "ebitda_backlog_usd_b": 17.0
@@ -215,6 +215,21 @@
         "tax": 70.9,
         "fcf": 450.0,
         "formula_check": "865.0 - -150.0 - 133.1 - (361.0) - 70.9 = 450.0"
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Golar LNG Q3 2026 Financial Report (Nov-26), read 23-Nov-26",
+      "revenue": 351.8,
+      "ebitda": 288.8,
+      "reported_ebitda": 288.8,
+      "ebitda_margin_pct": 82.1,
+      "cash": 711.0,
+      "net_profit": 23.0,
+      "observations": {
+        "notes": "9M26 operating revenue $351.8m, Adj. EBITDA $288.8m (Q3 rev $83.7m, Q3 Adj. EBITDA $55.8m, Q3 attributable net income $23m during FLNG Hilli Singapore yard transition). Cash $711m pre-Oct-26 $500m 7.5% 2031 bond proceeds; FLNG Hilli facility upsized to $960m and extended to Jun-2038."
       }
     }
   ],
@@ -695,9 +710,29 @@
       "ebitda": 241.0,
       "fcf": -80.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "golar",
+      "sector": "Energy",
+      "topic": "Q3/9M26 & $1.6bn Financing Wave",
+      "source": "Golar LNG Q3 2026 Release (Nov-26)",
+      "note": "9M26 rev $351.8m, Adj. EBITDA $288.8m; issued $500m 7.50% Dec-2031 notes (Oct-26), $600m Esperanza RCF, and upsized/extended FLNG Hilli leaseback to $960m due Jun 2038 (+$472m net cash)."
+    },
     {
       "sector": "Energy",
       "topic": "FLNG Backlog & Hilli / Gimi Deployment",
@@ -721,6 +756,90 @@
     "thesis": "Floating LNG liquefaction vessels represent irreplaceable, globally mobile strategic energy assets with 20-year contracts backed by supermajor off-takers (BP, Perenco)."
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "FLNG Hilli CSSC Leaseback Facility (upsized up to $960m, ext. Jun 2038)",
+      "tranche_name": "FLNG Hilli CSSC Leaseback Facility (upsized up to $960m, ext. Jun 2038)",
+      "currency": "USD",
+      "amount_issued_usd_m": 960.0,
+      "outstanding_usd_m": 960.0,
+      "amount_outstanding_usd_m": 960.0,
+      "amount_usd_m": 960.0,
+      "coupon": "SOFR + reduced margin",
+      "maturity": "2038-06-01",
+      "seniority": "Asset-Level Leaseback",
+      "instrument_type": "Sale & Leaseback",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "FLNG Gimi Senior Secured Term Loan due 2032 (70% GLNG share)",
+      "tranche_name": "FLNG Gimi Senior Secured Term Loan due 2032 (70% GLNG share)",
+      "currency": "USD",
+      "amount_issued_usd_m": 801.0,
+      "outstanding_usd_m": 801.0,
+      "amount_outstanding_usd_m": 801.0,
+      "amount_usd_m": 801.0,
+      "coupon": "SOFR + margin",
+      "maturity": "2032-01-01",
+      "seniority": "Asset-Level Senior Secured",
+      "instrument_type": "Project Term Loan",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "Golar LNG 7.000% Senior Unsecured Notes due 2029",
+      "tranche_name": "Golar LNG 7.000% Senior Unsecured Notes due 2029",
+      "currency": "USD",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0,
+      "amount_usd_m": 300.0,
+      "coupon": "7.000%",
+      "maturity": "2029-01-01",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Bond",
+      "governing_law": "New York"
+    },
+    {
+      "instrument": "Golar LNG 2.750% Convertible Bonds due 2030",
+      "tranche_name": "Golar LNG 2.750% Convertible Bonds due 2030",
+      "currency": "USD",
+      "amount_issued_usd_m": 575.0,
+      "outstanding_usd_m": 575.0,
+      "amount_outstanding_usd_m": 575.0,
+      "amount_usd_m": 575.0,
+      "coupon": "2.750%",
+      "maturity": "2030-01-01",
+      "seniority": "Senior Unsecured Convertible",
+      "instrument_type": "Convertible Bond",
+      "governing_law": "New York"
+    },
+    {
+      "instrument": "Golar LNG 7.500% Senior Unsecured Notes due 2030",
+      "tranche_name": "Golar LNG 7.500% Senior Unsecured Notes due 2030",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "7.500%",
+      "maturity": "2030-01-01",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Bond",
+      "governing_law": "New York"
+    },
+    {
+      "instrument": "Golar LNG 7.500% Senior Unsecured Notes due Dec 2031 (Oct-26)",
+      "tranche_name": "Golar LNG 7.500% Senior Unsecured Notes due Dec 2031 (Oct-26)",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "7.500%",
+      "maturity": "2031-12-15",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Bond",
+      "governing_law": "New York"
+    },
     {
       "tranche_name": "GLNG  Senior Unsecured Notes 2029",
       "instrument_type": "Senior Notes",
@@ -785,16 +904,74 @@
   ],
   "management_questions": [
     {
-      "focus_area": "FLNG Gimi Commissioning Liquidation Penalties & COD Trigger",
-      "question": "What liquidated damages or standby rate provisions are active between Golar and BP during the remaining GTA commissioning phase?",
-      "relevance": "Contractual standby day rates insulate cash flows from project-wide subsea delays.",
-      "deduced_from": "20-year FLNG charter contract structure.",
-      "conviction_trigger": "Receipt of full commissioning day rate confirms zero financial leakage."
+      "question": "Confirm total parent-level cash vs restricted SPV cash post-Oct-26 $500m bond and Dec-26 Hilli upsize closing.",
+      "focus_area": "Structural Subordination",
+      "relevance": "Unsecured notes sit above asset-level FLNG secured debt."
+    },
+    {
+      "question": "Provide updated timeline & remaining yard capex for Hilli Argentina modification and MK II conversion.",
+      "focus_area": "Capex",
+      "relevance": "Defines trough EBITDA and peak net leverage."
     }
   ],
   "supplementary_data": {
     "contracted_ebitda_backlog": ".0 Billion",
     "flng_hilli_capacity": "2.4 MTPA",
     "flng_gimi_capacity": "2.7 MTPA"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Constructive / Contracted FLNG Infrastructure with Massive Liquidity Buffer (B2/B)",
+      "target_price": null,
+      "current_price": 99.5,
+      "ytm": 7.5,
+      "spread_bp": 420,
+      "summary": "Golar fortified liquidity with $1.6bn in new financing around Q3 2026\u2014including $500m 7.50% Dec-2031 senior unsecured notes (Oct-26), $600m Esperanza RCF, and extending/upsizing FLNG Hilli's CSSC leaseback to $960m due Jun 2038 (+$472m net liquidity). 9M26 Adj. EBITDA $288.8m; near-term earnings dip reflects Hilli yard repositioning ahead of 20-year Argentina contract."
+    },
+    "positives": [
+      "Fortress liquidity: $711m cash pre-Oct-26 bond + $500m Dec-2031 notes + $472m net Hilli upsize + $600m Esperanza RCF, with zero corporate maturities until 2029.",
+      "Long-term contracted EBITDA backlog (~$17bn across FLNG Gimi 20y BP Tortue & FLNG Hilli 20y Argentina).",
+      "FLNG Hilli CSSC leaseback extended from 2033 to Jun 2038 at lower margin."
+    ],
+    "negatives": [
+      "Sequential Q3 2026 EBITDA dip ($55.8m vs 9M $288.8m) during Hilli Cameroon contract end & Singapore modification period.",
+      "Heavy structural leverage (~6.4x+ gross during MK II / Esperanza conversion capex) and asset-level secured ring-fencing.",
+      "Subordination of parent unsecured notes behind asset-level FLNG debt (Gimi $1.14bn, Hilli up to $960m)."
+    ],
+    "background": {
+      "business_overview": "Pure-play floating LNG (FLNG) infrastructure operator listed on NASDAQ (GLNG).",
+      "asset_perimeter": "FLNG Hilli (redeploying to Argentina 20y), FLNG Gimi (70% owned, Mauritania/Senegal BP Tortue 20y), MK II / Esperanza conversion.",
+      "ownership_governance": "NASDAQ-listed (GLNG); institutional shareholder base; active senior unsecured & Nordic/US bond issuer."
+    },
+    "recent_drivers": [
+      "Q3/9M 2026: 9M rev $351.8m, 9M Adj. EBITDA $288.8m (Q3 $55.8m during Hilli repositioning); cash $711m pre-Oct-26 bond.",
+      "Oct/Nov-26: Issued $500m 7.50% Dec-2031 unsecured notes, $600m Esperanza RCF, and amended Hilli leaseback to $960m due Jun 2038."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Results & Hilli Argentina Redeployment Schedule",
+        "impact": "Monitors capex drawdowns on MK II / Esperanza vs Argentina start-up."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 300.0,
+    "2030_plus": 3336.0,
+    "total_outstanding_usd_m": 3636.0,
+    "source": "Golar Q3 2026 debt schedule: $300m 2029, $500m 2030 + $575m 2030 conv, $500m Dec-2031, $801m (70% of $1,144m) Gimi 2032, up to $960m Hilli Jun-2038 (excludes undrawn $600m Esperanza RCF)."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Q3/9M26 Results, $500m 2031 Notes & Hilli 2038 Extension",
+      "source": "Golar LNG Q3 2026",
+      "status": "Current Research Run",
+      "summary": "9M26 EBITDA $288.8m; issued $500m 7.50% Dec-31 notes and extended Hilli leaseback to $960m Jun-38."
+    }
+  ]
 }

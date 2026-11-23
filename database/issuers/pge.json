@@ -7,7 +7,7 @@
     "region": "CEE",
     "sector": "Utilities",
     "type": "corp",
-    "rating": "BBB+",
+    "rating": "BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26)",
     "tier": "Tier-1",
     "benchmark_bond": "PGE 5.125% 2029",
     "price": 99.2,
@@ -16,7 +16,7 @@
     "model_file": "PGE_Poland_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81f6-b482-cbf468f60b59",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PGE_Poland_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -1080.6,
     "net_leverage_2024a": 1.85
@@ -301,6 +301,18 @@
         "fcf": -568.3,
         "formula_check": "3472.0 - 2803.6 - 397.3 - (534.4) - 305.0 = -568.3"
       }
+    },
+    {
+      "period": "Q326",
+      "is_audited": false,
+      "currency": "PLN",
+      "source": "PGE Polska Grupa Energetyczna Q3 2026 Estimated Results (PAP, Nov-26), read 23-Nov-26",
+      "ebitda": 4610.0,
+      "reported_ebitda": 4610.0,
+      "net_profit": 3000.0,
+      "observations": {
+        "notes": "Q3 2026 estimated EBITDA PLN 4.61bn (recurring EBITDA ~PLN 2.89bn; includes +PLN 1.67bn non-cash reclamation reserve change & Tur\u00f3w settlement) and attributable net profit PLN 3.0bn."
+      }
     }
   ],
   "supplementary_data": {
@@ -329,6 +341,13 @@
     "thesis": "Poland's primary electricity generator and grid operator; accelerating offshore Baltic wind transition."
   },
   "annotations": [
+    {
+      "issuer_id": "pge",
+      "sector": "Utilities",
+      "topic": "Q326 Beat & Rating Affirmations",
+      "source": "PAP / Fitch / Moody's (2026)",
+      "note": "Q326 headline EBITDA PLN 4.61bn (recurring ~PLN 2.89bn), NPAT PLN 3.0bn; Fitch affirmed BBB Stable (Sep-26) and Moody's confirmed Baa1 Stable (Jul-26)."
+    },
     {
       "issuer_id": "pge",
       "issuer_name": "PGE Polska Grupa Energetyczna",
@@ -562,18 +581,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Detail 2027-2028 offshore wind & grid capex phasing and expected FCF deficit funding mix.",
+      "focus_area": "Capex & FCF",
+      "relevance": "Fitch highlighted medium-term negative FCF."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Any update on Polish State coal-asset carve-out or capacity market extensions beyond 2028?",
+      "focus_area": "Regulation",
+      "relevance": "Determines long-term coal liability overhang."
     }
   ],
   "market_history": [
@@ -1187,6 +1202,19 @@
       "ebitda": 2800.0,
       "fcf": -1080.6,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26)",
+      "price": 99.2,
+      "ytm": 5.3,
+      "spread_bp": 125,
+      "net_leverage": 1.85,
+      "ebitda": 2800.0,
+      "fcf": -1080.6,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1273,5 +1301,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Heavy Transition Capex Polish State Utility (BBB/Baa1)",
+      "target_price": null,
+      "current_price": 99.2,
+      "ytm": 5.3,
+      "spread_bp": 125,
+      "summary": "Fitch affirmed PGE at 'BBB' Stable in Sep 2026 (Moody's Baa1 Stable in Jul 2026). Q3 2026 recurring EBITDA hit ~PLN 2.89bn (headline PLN 4.61bn boosted by PLN 1.67bn reclamation reserve adjustment), while massive grid & offshore wind capex drives medium-term negative FCF projections."
+    },
+    "positives": [
+      "Strong IG ratings: Fitch BBB Stable (Sep-26) and Moody's Baa1 Stable (Jul-26), anchored by ~61% Polish state ownership.",
+      "Regulated electricity distribution & capacity market payments cushion generation cyclicality.",
+      "Q3 2026 recurring EBITDA ~PLN 2.89bn beat consensus; EUR 2bn EMTN programme supports funding."
+    ],
+    "negatives": [
+      "Fitch flags heavy capex toward distribution grids, gas CCGTs, and Baltic offshore wind driving negative FCF over medium term.",
+      "Legacy coal/lignite generation assets (Be\u0142chat\u00f3w, Tur\u00f3w) weigh on ESG profile pending coal spin-off/phase-out.",
+      "Headline Q3 EBITDA volatility (+PLN 1.73bn one-offs)."
+    ],
+    "background": {
+      "business_overview": "Poland's largest integrated power utility across distribution, conventional/renewable generation, district heating, and retail supply.",
+      "asset_perimeter": "Distribution grid (PGE Dystrybucja), coal/gas/wind power plants, Baltic offshore wind JVs; \u20ac2bn EMTN via PGE Sweden AB.",
+      "ownership_governance": "~60.86% owned by the Polish State Treasury; WSE-listed."
+    },
+    "recent_drivers": [
+      "Nov-26 (Q326 est): Headline EBITDA PLN 4.61bn (recurring PLN 2.89bn), attributable net profit PLN 3.0bn.",
+      "Jul/Sep-26: Moody's confirmed Baa1 Stable (Jul-26); Fitch affirmed BBB Stable (Sep-26), flagging negative FCF from transition capex."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited Results & Offshore Wind Capex Funding Plan",
+        "impact": "Tracks leverage trajectory under Fitch BBB Stable tolerances."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Q326 Recurring EBITDA PLN 2.89bn & Fitch/Moody's Affirmations",
+      "source": "PAP / Fitch / Moody's",
+      "status": "Current Research Run",
+      "summary": "Q326 headline EBITDA PLN 4.61bn (recurring PLN 2.89bn); Fitch BBB Stable (Sep-26), Moody's Baa1 Stable (Jul-26)."
+    }
+  ]
 }

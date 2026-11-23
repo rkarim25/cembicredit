@@ -227,6 +227,19 @@
       "ebitda": 2477.3,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "Baa1 / BBB+",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 1.8,
+      "ebitda": 2477.3,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "debt_maturities": {

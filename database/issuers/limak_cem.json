@@ -7,7 +7,7 @@
     "region": "CEEMEA",
     "sector": "Materials",
     "type": "corp",
-    "rating": "B+ / B",
+    "rating": "B+ Stable (Fitch, 2026) / B",
     "tier": "B",
     "benchmark_bond": "LIMAKC 8.25% 2028",
     "price": 98.8,
@@ -16,7 +16,7 @@
     "model_file": "Limak_Cement_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681a6af2eda8612047901",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Cement_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -4.8,
     "net_leverage_2024a": 2.27
@@ -330,6 +330,13 @@
   "annotations": [
     {
       "issuer_id": "limak_cem",
+      "sector": "Materials",
+      "topic": "Fitch 2026 Affirmation",
+      "source": "Fitch Ratings / Limak Cement (2026)",
+      "note": "Fitch affirmed Limak Cement at B+ Stable in early 2026; company operating under Sustainable Fitch-verified Sustainability-Linked Finance Framework."
+    },
+    {
+      "issuer_id": "limak_cem",
       "issuer_name": "Limak Cement",
       "sector": "Materials",
       "topic": "Global Cost Curve Advantage",
@@ -561,18 +568,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Confirm 2026 clinker capacity utilization and export share vs domestic reconstruction volumes.",
+      "focus_area": "Operations",
+      "relevance": "Tests FX revenue natural hedge."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Provide details on 2026-2027 decarbonization capex and SLB KPI step-up triggers.",
+      "focus_area": "Capex & ESG",
+      "relevance": "Coupon step-up and FCF sensitivity."
     }
   ],
   "market_history": [
@@ -1186,6 +1189,19 @@
       "ebitda": 185.0,
       "fcf": -4.8,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B+ Stable (Fitch, 2026) / B",
+      "price": 98.8,
+      "ytm": 8.25,
+      "spread_bp": 385,
+      "net_leverage": 2.27,
+      "ebitda": 185.0,
+      "fcf": -4.8,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1272,5 +1288,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Turkish Cement & Sustainable Finance Issuer (B+)",
+      "target_price": null,
+      "current_price": 98.8,
+      "ytm": 8.25,
+      "spread_bp": 385,
+      "summary": "Fitch affirmed Limak Cement at 'B+' Stable in early 2026. Multi-region Turkish & export cement footprint and Sustainable Fitch-verified SLB/loan framework support funding access, balanced by energy cost volatility and Limak Group capex demands."
+    },
+    "positives": [
+      "Fitch affirmed Long-Term IDR at 'B+' Stable in early 2026.",
+      "Diversified regional plant footprint (including eastern/southeastern Anatolia) plus export optionality.",
+      "Established Sustainability-Linked Finance Framework (Sustainable Fitch SPO) supporting green capex funding."
+    ],
+    "negatives": [
+      "Exposure to Turkish macroeconomic tightening, domestic housing slowdown, and TRY inflation.",
+      "Energy/fuel cost volatility (electricity & petcoke) and decarbonization capex requirements through 2030.",
+      "Broader Limak Group affiliate exposure."
+    ],
+    "background": {
+      "business_overview": "One of Turkey's largest cement groups with integrated clinker/grinding plants across multiple Turkish regions and export terminals.",
+      "asset_perimeter": "Domestic integrated cement plants (incl. listed Limak Do\u011fu Anadolu \u00c7imento) and international grinding operations.",
+      "ownership_governance": "Part of Limak Holding; maintains ICMA-aligned Sustainable Finance Framework."
+    },
+    "recent_drivers": [
+      "Early 2026: Fitch affirmed Limak Cement at 'B+' Stable following updated corporate criteria review.",
+      "2026: Regular Q1-Q3 2026 TFRS disclosures and active sustainability-linked financing alignment."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Consolidated TFRS Results & Export Volume Update",
+        "impact": "Tracks domestic vs export margin mix."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Fitch 2026 B+ Stable Affirmation & SLB Framework",
+      "source": "Fitch / Limak Cement",
+      "status": "Current Research Run",
+      "summary": "Affirmed B+ Stable IDR in early 2026; active Q1-Q3 2026 reporting and sustainability-linked finance alignment."
+    }
+  ]
 }

@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/golar.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- GLNG $500M 5NC2: price 99.5, YTM 7.85%, spread 420bp (as of 2026-09-22).
+- GLNG 7.50% Dec 2031 ($500m) / 7.50% 2030 ($500m): price 99.5, YTM 7.85%, spread 420bp (as of 2026-11-23).
 - Rating as recorded: B2 / B.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

@@ -7,15 +7,15 @@
     "region": "Middle East",
     "sector": "Consumer",
     "type": "corp",
-    "rating": "BB- / B1",
+    "rating": "BB- Stable (S&P, 2026) / B1",
     "tier": "BB",
-    "benchmark_bond": "AIRGLO 2029",
+    "benchmark_bond": "AIRGLO 7.875% 2031 ($425m, Oct-26)",
     "price": 100.0,
     "ytm": 7.5,
     "spread_bp": 385,
     "model_file": "Air_Global_Credit_Model.xlsx",
     "notion_id": "3e31d0ad-68c6-81e5-9e01-f9353fde4a7f",
-    "last_updated": "2026-09-22",
+    "last_updated": "2026-11-23",
     "fcf_2024a": 134.0,
     "net_leverage_2024a": 2.2
   },
@@ -102,6 +102,20 @@
         "tax": 10.9,
         "fcf": 101.0,
         "formula_check": "139.0 - -15.0 - 24.8 - (17.3) - 10.9 = 101.0"
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "AIR Global PLC Q3 2026 Financial Release & Bond Refinancing Disclosure (Oct-26), read 23-Nov-26",
+      "ebitda": 141.6,
+      "cash": 38.9,
+      "gross_debt": 403.7,
+      "net_debt": 364.8,
+      "net_leverage": 2.58,
+      "observations": {
+        "notes": "LTM Q3 2026 Adj. EBITDA $141.6m; Sep-26 gross debt & leases $403.7m, cash $38.9m, net debt $364.8m (~2.6x Net Debt/LTM EBITDA vs 2.5x target on Strait of Hormuz working capital & Nasdaq SPAC listing cash outflows)."
       }
     }
   ],
@@ -583,9 +597,29 @@
       "ebitda": 130.0,
       "fcf": 134.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BB- Stable (S&P, 2026) / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "air_global",
+      "sector": "Consumer",
+      "topic": "Oct-26 Bond Refinancing & Q326",
+      "source": "AIR Global / S&P (Oct-26)",
+      "note": "Closed $425m 7.875% 2031 senior unsecured notes on 01-Oct-26 (S&P BB- Stable), repaying term loan & RCF; Q326 LTM Adj. EBITDA $141.6m, net debt $364.8m (2.6x), Nasdaq ticker AIIR."
+    },
     {
       "sector": "Consumer",
       "topic": "Shisha & Inhalation Rituals Cash Generation",
@@ -609,6 +643,20 @@
     "thesis": "Consumer brand equity, distribution contracts across GCC, and high margin cash flow provide strong downside protection."
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "AIR Global PLC 7.875% Senior Unsecured Notes due Oct 2031",
+      "tranche_name": "AIR Global PLC 7.875% Senior Unsecured Notes due Oct 2031",
+      "currency": "USD",
+      "amount_issued_usd_m": 425.0,
+      "outstanding_usd_m": 425.0,
+      "amount_outstanding_usd_m": 425.0,
+      "amount_usd_m": 425.0,
+      "coupon": "7.875%",
+      "maturity": "2031-10-01",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Bond",
+      "governing_law": "New York / English"
+    },
     {
       "tranche_name": "AIRGLO  Senior Notes 2029",
       "instrument_type": "Senior Notes",
@@ -662,16 +710,74 @@
   ],
   "management_questions": [
     {
-      "focus_area": "Regulatory Excise & Tobacco Taxation Risks",
-      "question": "How will proposed GCC unified selective excise tax adjustments affect retail shisha molasses pricing and gross margins?",
-      "relevance": "Excise tax hikes could compress volumes if not fully passed to end-consumers.",
-      "deduced_from": "Middle East consumer tax regulatory framework.",
-      "conviction_trigger": "Ability to pass through 100% of excise increases confirms pricing power."
+      "question": "Quantify working capital release expected in Q4 2026 / Q1 2027 following Strait of Hormuz supply-chain rerouting.",
+      "focus_area": "Working Capital",
+      "relevance": "Drove Sep-26 leverage tick-up to 2.6x."
+    },
+    {
+      "question": "Confirm net cash proceeds retained post-SPAC closing vs transaction expenses and OOKA investment ramp.",
+      "focus_area": "Capital Allocation",
+      "relevance": "Monitors sponsor/equity payout discipline."
     }
   ],
   "supplementary_data": {
     "ebitda_margin_2024a": "34.5%",
     "fcf_conversion_2024a": "41.5%",
     "cash_balance_usd_m": 60.0
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Constructive / High-Margin Nasdaq-Listed Refinanced Consumer Credit (BB-)",
+      "target_price": null,
+      "current_price": 100.0,
+      "ytm": 7.875,
+      "spread_bp": 385,
+      "summary": "Completed US Nasdaq SPAC listing (AIIR, ~$1.75bn EV) in 2026 and closed inaugural $425m 7.875% 2031 senior unsecured notes on 01-Oct-26 (S&P BB- Stable), fully repaying bank term loan & RCF. Q3 2026 LTM Adj. EBITDA $141.6m, net debt $364.8m (~2.6x)."
+    },
+    "positives": [
+      "Global market leader in shisha molasses (Al Fakher) and heat-not-burn (OOKA) with ~35% EBITDA margins and low capex (~3-4% of sales).",
+      "01-Oct-26 $425m 7.875% 2031 notes pushed out all major maturities to 2031 and replaced floating bank debt with fixed unsecured notes.",
+      "Completed Nasdaq listing (ticker AIIR) in 2026, improving governance disclosure and equity market access."
+    ],
+    "negatives": [
+      "Leverage ticked up slightly to ~2.6x (net debt $364.8m / LTM EBITDA $141.6m) on Strait of Hormuz working capital & SPAC cash costs.",
+      "Tobacco/nicotine regulatory & excise tax headwinds across key European/MENA markets.",
+      "Financial sponsor heritage and potential post-listing M&A/shareholder return risk."
+    ],
+    "background": {
+      "business_overview": "Dubai-headquartered global leader in flavored shisha molasses (Al Fakher) and next-gen OOKA heated shisha devices, listed on Nasdaq (AIIR).",
+      "asset_perimeter": "UAE manufacturing plants and global distribution across MEAA, Europe, and Americas (~99% hard-currency revenues).",
+      "ownership_governance": "Publicly listed on US Nasdaq (AIIR) via 2026 SPAC merger (~$1.75bn valuation); S&P BB- Stable."
+    },
+    "recent_drivers": [
+      "01-Oct-26: Closed $425m 7.875% senior unsecured notes due 2031, fully repaying term loan & RCF.",
+      "Q3 2026: LTM Adj. EBITDA $141.6m, gross debt $403.7m, cash $38.9m, net debt $364.8m (2.6x); completed Nasdaq listing (AIIR)."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Form 20-F / Annual Results",
+        "impact": "Confirms normalization of Hormuz-related working capital and deleveraging back toward <2.2x."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 425.0,
+    "total_outstanding_usd_m": 425.0,
+    "source": "AIR Global Oct-26 $425m 7.875% 2031 senior unsecured notes (refinanced existing term loan & RCF)."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Nasdaq Listing, $425m 2031 Bond Refi & Q326 Metrics",
+      "source": "AIR Global / S&P",
+      "status": "Current Research Run",
+      "summary": "Closed $425m 7.875% 2031 notes (S&P BB- Stable); Q326 LTM EBITDA $141.6m, net debt $364.8m (2.6x)."
+    }
+  ]
 }

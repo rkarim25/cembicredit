@@ -7,16 +7,16 @@
     "region": "CEEMEA",
     "sector": "Infrastructure",
     "type": "corp",
-    "rating": "B / B3",
+    "rating": "B- Negative (Fitch, Sep-26) / B3",
     "tier": "B",
-    "benchmark_bond": "LIMPRT 7.85% 2036",
+    "benchmark_bond": "LIMPRT 9.50% Jul 2036 ($370m)",
     "price": 98.5,
     "ytm": 7.85,
     "spread_bp": 345,
     "model_file": "Limak_Port_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6814ab652d1e6a4fb5446",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Port_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": 7.5,
     "net_leverage_2024a": 3.08
@@ -330,6 +330,13 @@
   "annotations": [
     {
       "issuer_id": "limak_port",
+      "sector": "Infrastructure",
+      "topic": "Fitch Sep-26 Negative Outlook",
+      "source": "Fitch Ratings (Sep-26)",
+      "note": "Fitch affirmed LimakPort $370m 9.50% Jul 2036 senior secured notes at B- with Negative Outlook in Sep 2026; H1 2026 trading trailed budget amid Middle East shipping disruptions."
+    },
+    {
+      "issuer_id": "limak_port",
       "issuer_name": "LimakPort \u0130skenderun",
       "sector": "Infrastructure",
       "topic": "Concession Duration & Tariff Autonomy",
@@ -561,18 +568,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "What is current DSCR headroom under the $370m Jul 2036 senior secured notes after H1 2026 margin compression?",
+      "focus_area": "Covenants & DSCR",
+      "relevance": "Triggers Negative Outlook risk."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Confirm remaining insurance proceeds vs cost-to-complete on the grain berth rebuild.",
+      "focus_area": "Liquidity & Capex",
+      "relevance": "Ensures no unfunded capex shortfall."
     }
   ],
   "market_history": [
@@ -1186,6 +1189,19 @@
       "ebitda": 78.0,
       "fcf": 7.5,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B- Negative (Fitch, Sep-26) / B3",
+      "price": 98.5,
+      "ytm": 7.85,
+      "spread_bp": 345,
+      "net_leverage": 3.08,
+      "ebitda": 78.0,
+      "fcf": 7.5,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1272,5 +1288,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Underweight / Negative Outlook on Margin & Trade-Corridor Pressure (B- Neg)",
+      "target_price": null,
+      "current_price": 98.5,
+      "ytm": 7.85,
+      "spread_bp": 345,
+      "summary": "Fitch affirmed LimakPort's $370m 9.50% Jul 2036 senior secured notes at 'B-' with a Negative Outlook in Sep 2026. H1 2026 trading lagged budget due to Middle East geopolitical/shipping disruptions and contracted EBITDA margins, while liquidity relies on remaining insurance proceeds and cash flow for grain berth reconstruction."
+    },
+    "positives": [
+      "Strategic eastern Mediterranean deep-water port concession (\u0130skenderun) serving industrial/reconstruction hinterland.",
+      "USD-linked port tariff framework provides natural currency hedge for the $370m 2036 senior secured notes.",
+      "Insurance proceeds and internal cash support grain berth reconstruction capex."
+    ],
+    "negatives": [
+      "Fitch Negative Outlook (Sep-26): H1 2026 trading fell below budget with EBITDA margin contraction.",
+      "High sensitivity to Middle East/Red Sea/Strait of Hormuz shipping disruptions and regional conflict.",
+      "Single-asset concentration risk (post-2023 earthquake damage & ongoing reconstruction execution)."
+    ],
+    "background": {
+      "business_overview": "Operator of the Port of \u0130skenderun (Limak \u0130skenderun Uluslararas\u0131 Liman \u0130\u015fletmecili\u011fi A.\u015e.) under a long-term TCDD concession.",
+      "asset_perimeter": "Container, general cargo, ro-ro, and grain berth terminals in \u0130skenderun Bay, southeastern Turkey.",
+      "ownership_governance": "Limak Group port concession; $370m senior secured project/corporate notes due July 2036."
+    },
+    "recent_drivers": [
+      "Sep-26: Fitch affirmed $370m 9.50% Jul 2036 senior secured notes at 'B-' with Negative Outlook.",
+      "H1 2026: Performance trailed budget due to regional conflict; non-container volume shifts and tariff adjustments expected to partially stabilize FY26 margins."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "Grain Berth Reconstruction Milestone & FY2026 DSCR Test",
+        "impact": "Key trigger for Fitch Negative Outlook resolution vs downgrade to CCC+."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Fitch Sep-26 B- Negative Outlook Review",
+      "source": "Fitch Ratings",
+      "status": "Current Research Run",
+      "summary": "Affirmed B- Negative on $370m Jul 2036 notes; H1 2026 lagged budget, grain berth rebuild funded by insurance proceeds & cash."
+    }
+  ]
 }

@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "id": "mizrahi",
+    "name": "Mizrahi Tefahot Bank Ltd.",
+    "ticker": "MZTF",
+    "country": "Israel",
+    "region": "Middle East",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
+    "tier": "IG",
+    "benchmark_bond": "MZTF 3.077% Tier 2 Apr 2031 ($600m, IL0069508369)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Mizrahi_Tefahot_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Mizrahi_Tefahot_Credit_Model.xlsx",
+    "last_updated": "2026-11-23",
+    "model_type": "bank",
+    "financials_currency": "ILS",
+    "provenance": "financials built 23-Nov-26 from Mizrahi Tefahot Q3/9M 2026 financial filings (Nov-26); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "ILS",
+      "source": "Mizrahi Tefahot Bank Q3/9M 2026 Financial Statements (TASE), read 23-Nov-26",
+      "loans": 436000.0,
+      "deposits": 468000.0,
+      "nii": 2758.0,
+      "net_profit": 4032.0,
+      "roe_pct": 15.0,
+      "cir_pct": 35.3,
+      "npl_pct": 0.82,
+      "cet1_pct": 10.1,
+      "observations": {
+        "notes": "9M26 net profit NIS 4,032m (adj. NIS 4.6bn ex-special bank tax & relief), Q3 NPAT NIS 1,366m (adj. NIS 1,570m), ROE 15.0% reported / 17.1% adj. (17.2% Q3 adj.), Q3 CIR 35.3%. Loans +11.4% YoY to NIS 436bn (business +18% YoY; >36% Israel mortgage share), Deposits +11.1% YoY to NIS 468bn, NPL 0.82%, CoR 6bp, CET1 10.10%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "MZTF 3.077% Fixed-to-Reset Tier 2 Subordinated Notes due Apr 2031",
+      "tranche_name": "MZTF 3.077% Fixed-to-Reset Tier 2 Subordinated Notes due Apr 2031",
+      "currency": "USD",
+      "amount_issued_usd_m": 600.0,
+      "outstanding_usd_m": 600.0,
+      "amount_outstanding_usd_m": 600.0,
+      "amount_usd_m": 600.0,
+      "coupon": "3.077%",
+      "maturity": "2031-04-07",
+      "seniority": "Subordinated Tier 2",
+      "isin": "IL0069508369",
+      "instrument_type": "Tier 2 Subordinated",
+      "governing_law": "Israeli / New York"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 600.0,
+    "total_outstanding_usd_m": 600.0,
+    "source": "International USD Tier 2 benchmark ($600m Apr-2031, IL0069508369); excludes domestic ILS deposits and debentures."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-23",
+    "verdict": {
+      "stance": "Neutral / High-ROE Israeli Mortgage Champion with Tight CET1 Cushion (A-/BBB+)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Israel's 3rd-largest bank (>36% mortgage market share) generated 17.1% adjusted ROE in 9M26 (NPAT NIS 4.03bn reported / NIS 4.6bn adj.), sector-leading 35.3% Q3 cost-to-income, and pristine 0.82% NPLs (6bp CoR). Tight 10.10% CET1 alongside 50% dividend payout and +11.4% YoY loan growth requires capital discipline ahead of 2031 T2 reset."
+    },
+    "positives": [
+      "Dominant >36% Israeli mortgage market share driving resilient 17.1% adjusted ROE (15.0% reported) and 35.3% CIR.",
+      "Pristine asset quality: 0.82% NPL ratio and ultra-low 6bp quarterly credit loss ratio.",
+      "Granular retail deposit funding (NIS 468bn, +11.1% YoY vs NIS 436bn loans)."
+    ],
+    "negatives": [
+      "Lean 10.10% CET1 cushion relative to rapid +11.4% YoY loan growth (+18% business lending) and 50% dividend payout.",
+      "Sovereign/geopolitical exposure and 2026-2027 special Israeli bank tax levy.",
+      "Real estate & mortgage concentration risk in domestic Israeli economy."
+    ],
+    "background": {
+      "business_overview": "Israel's third-largest commercial bank (~$187.8bn total assets) and undisputed national leader in residential mortgages (>36% share).",
+      "asset_perimeter": "Israeli retail/mortgage banking (incl. Union Bank acquisition integration) and growing corporate/business lending.",
+      "ownership_governance": "Widely held on TASE (MZTF; Wertheim/Ofer anchor groups); BoI D-SIB."
+    },
+    "recent_drivers": [
+      "Nov-26 (Q3/9M26): 9M NPAT NIS 4.032bn (adj. NIS 4.6bn), Q3 NPAT NIS 1.366bn, 17.2% Q3 adj ROE, 35.3% CIR, loans NIS 436bn (+11.4% YoY), deposits NIS 468bn (+11.1% YoY), NPL 0.82%, CET1 10.10%."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & Tier 2 Call/Reset Assessment",
+        "impact": "Evaluates CET1 accumulation vs 50% dividend payout and 3.077% 2031 T2 reset window."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm internal CET1 floor vs 10.10% Q326 print and whether 50% payout slows under +18% business loan growth.",
+      "focus_area": "Capital Buffer",
+      "relevance": "Tightest CET1 among top-3 Israeli banks."
+    },
+    {
+      "question": "Explain credit underwriting standards behind the +43.3% YoY surge in medium-business lending.",
+      "focus_area": "Asset Quality",
+      "relevance": "Rapid expansion beyond core residential mortgages."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "mizrahi",
+      "sector": "Banks",
+      "topic": "Q3/9M26 Results & Tier 2",
+      "source": "Mizrahi Tefahot Q326 / Cbonds (Nov-26)",
+      "note": "9M26 NPAT NIS 4.032bn (adj. 4.6bn, 17.1% adj ROE), loans NIS 436bn (+11.4%), deposits NIS 468bn (+11.1%), NPL 0.82%, CoR 6bp, CET1 10.10%. $600m 3.077% Tier 2 due Apr 2031 (IL0069508369)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

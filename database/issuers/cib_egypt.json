@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "id": "cib_egypt",
+    "name": "Commercial International Bank (Egypt) S.A.E.",
+    "ticker": "COMI",
+    "country": "Egypt",
+    "region": "Middle East",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "B Stable (Fitch)",
+    "tier": "B",
+    "benchmark_bond": "CIB Egypt (IFC Tier 2 / Sovereign-Capped Egyptian Private Bank Leader)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "CIB_Egypt_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CIB_Egypt_Credit_Model.xlsx",
+    "last_updated": "2026-11-23",
+    "model_type": "bank",
+    "financials_currency": "EGP",
+    "provenance": "financials built 23-Nov-26 from CIB Egypt FY2025 & 9M 2026 EGX/LSE financial filings (Nov-26); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "EGP",
+      "source": "CIB Egypt FY2025 Audited Financial Statements (EGX / LSE RNS), read 23-Nov-26",
+      "assets": 1440000.0,
+      "loans": 576000.0,
+      "deposits": 1110000.0,
+      "total_income": 117000.0,
+      "net_profit": 82250.0,
+      "npl_pct": 1.67,
+      "car_pct": 27.3,
+      "observations": {
+        "notes": "FY25 assets EGP 1.44tn (vs 1.21tn FY24), gross loans EGP 576bn (+44% YoY), deposits EGP 1.11tn (+14% YoY), revenue EGP 117bn (+19% YoY), NPAT EGP 82.25bn (+49% YoY), NPL 1.67% (358% coverage), Total CAR 27.3%."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "EGP",
+      "source": "CIB Egypt 9M 2026 Financial Statements (EGX), read 23-Nov-26",
+      "total_income": 103000.0,
+      "net_profit": 63100.0,
+      "npl_pct": 1.47,
+      "cet1_pct": 25.3,
+      "car_pct": 28.8,
+      "observations": {
+        "notes": "9M26 revenue EGP 103bn (NII +19% YoY), NPAT EGP 63.1bn (+2% YoY headline / +18% normalized ex-Q325 EGP 13.1bn provision release), NPL 1.47% (343% coverage), CET1 25.3%, Total CAR 28.8%. Guided FY26 deposit growth ~30%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "IFC / Bilateral Subordinated Tier 2 Facility (USD)",
+      "tranche_name": "IFC / Bilateral Subordinated Tier 2 Facility (USD)",
+      "currency": "USD",
+      "amount_issued_usd_m": 100.0,
+      "outstanding_usd_m": 100.0,
+      "amount_outstanding_usd_m": 100.0,
+      "amount_usd_m": 100.0,
+      "coupon": "SOFR + margin",
+      "maturity": "2031-01-01",
+      "seniority": "Subordinated Tier 2",
+      "instrument_type": "DFI Subordinated Tier 2",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 100.0,
+    "total_outstanding_usd_m": 100.0,
+    "source": "Private/DFI USD Tier 2 facility; CIB primarily funded via deep EGP/FCY domestic CASA deposits (EGP 1.11tn+)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-23",
+    "verdict": {
+      "stance": "Overweight / Fortress-Capitalized Egyptian Private Bank Leader (Fitch B)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Egypt's flagship private-sector bank delivered +18% normalized 9M26 profit growth (EGP 63.1bn on EGP 103bn revenue; NII +19% YoY) alongside exceptional solvency (28.8% CAR, 25.3% CET1) and ultra-clean 1.47% NPLs with 343% coverage. Rating is strictly sovereign-capped at Fitch 'B' Stable due to Egyptian T-bill/sovereign holdings."
+    },
+    "positives": [
+      "Extraordinary capital fortress: Sep-26 CET1 25.3% and Total CAR 28.8% (vs 27.3% FY25).",
+      "Elite asset quality & coverage: 9M26 NPLs down to 1.47% with massive 343% loan-loss coverage.",
+      "Superior deposit franchise (~30% FY26 deposit growth guidance, high CASA) driving +19% YoY NII even as CBE cuts rates."
+    ],
+    "negatives": [
+      "Heavy balance sheet exposure to Egyptian sovereign debt caps Fitch IDR & VR at 'B'/'b'.",
+      "EGP FX/inflation sensitivity and historical CBE reserve/FX liquidity cycles.",
+      "Limited public USD Eurobond float (relies on domestic funding & DFI Tier 2 lines)."
+    ],
+    "background": {
+      "business_overview": "Egypt's largest private-sector bank (EGX: COMI / LSE GDR), dominant in corporate, SME, and affluent retail banking.",
+      "asset_perimeter": "Egyptian core banking (EGP 1.44tn+ assets), digital banking initiatives (yomo), and CIB Kenya.",
+      "ownership_governance": "Institutional free float + ADQ (~18.6% stake); best-in-class Egyptian corporate governance."
+    },
+    "recent_drivers": [
+      "9M26 (EGX): Revenue EGP 103bn (NII +19% YoY), NPAT EGP 63.1bn (+18% normalized YoY), NPL 1.47% (343% cov), CET1 25.3%, CAR 28.8%; lifted FY26 deposit growth guidance to ~30%."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited EGX/LSE Results & CBE Rate Cut NIM Sensitivity",
+        "impact": "Monitors NIM resilience and potential public Eurobond/T2 issuance."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Quantify NIM sensitivity per 100bp of CBE policy rate cuts given high CASA mix and T-bill rollover.",
+      "focus_area": "NIM Trajectory",
+      "relevance": "CBE easing cycle affects sovereign yield income."
+    },
+    {
+      "question": "Confirm FCY liquidity coverage ratio and appetite for public USD senior/Tier 2 Eurobond issuance.",
+      "focus_area": "FCY Funding",
+      "relevance": "Potential CEMBI Egypt benchmark entrant."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "cib_egypt",
+      "sector": "Banks",
+      "topic": "FY25 & 9M26 Filings",
+      "source": "CIB EGX/LSE / Fitch (Nov-26)",
+      "note": "FY25 assets EGP 1.44tn, NPAT EGP 82.25bn, CAR 27.3%. 9M26 rev EGP 103bn (NII +19%), NPAT EGP 63.1bn (+18% norm), NPL 1.47% (343% cov), CET1 25.3%, CAR 28.8%. Fitch B Stable."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

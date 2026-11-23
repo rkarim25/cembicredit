@@ -7,16 +7,16 @@
     "region": "Middle East",
     "sector": "Real Estate",
     "type": "corp",
-    "rating": "BB- / Ba3",
+    "rating": "Ba1 Stable (Moody's) / BB+ (S&P)",
     "tier": "BB",
-    "benchmark_bond": "DAMAC 7.25% 2027",
+    "benchmark_bond": "DAMAC 6.125% Jul 2029 Sukuk ($600m)",
     "price": 101.0,
     "ytm": 7.25,
     "spread_bp": 320,
     "model_file": "Damac_Properties_Credit_Model.xlsx",
     "notion_id": "3e01d0ad68c68194b911c9627e4c0595",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Damac_Properties_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -134.1,
     "net_leverage_2024a": 0.29
@@ -333,6 +333,13 @@
   "annotations": [
     {
       "issuer_id": "damac",
+      "sector": "Real Estate",
+      "topic": "Jan-26 $600m Sukuk",
+      "source": "DAMAC / Moody's / S&P (Jan-26)",
+      "note": "Issued $600m 3.5Y 6.125% sukuk via Alpha Star Holding X in Jan 2026 and redeemed $400m early-2026 sukuk; rated Ba1 Stable (Moody's) / BB+ (S&P)."
+    },
+    {
+      "issuer_id": "damac",
       "issuer_name": "Damac Properties",
       "sector": "Real Estate",
       "topic": "RERA Escrow Mechanics",
@@ -395,6 +402,20 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "Alpha Star Holding X Ltd 6.125% Senior Unsecured Sukuk due Jul 2029 (Jan-26)",
+      "tranche_name": "Alpha Star Holding X Ltd 6.125% Senior Unsecured Sukuk due Jul 2029 (Jan-26)",
+      "currency": "USD",
+      "amount_issued_usd_m": 600.0,
+      "outstanding_usd_m": 600.0,
+      "amount_outstanding_usd_m": 600.0,
+      "amount_usd_m": 600.0,
+      "coupon": "6.125%",
+      "maturity": "2029-07-01",
+      "seniority": "Senior Unsecured Sukuk",
+      "instrument_type": "USD Sukuk",
+      "governing_law": "English"
+    },
     {
       "tranche_name": "DAMAC Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -566,11 +587,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
-      "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
-      "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
-      "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
-      "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      "question": "Confirm 2026 YTD Dubai pre-sales vs 2025 record levels and cancellation/collection rates.",
+      "focus_area": "Sales & Backlog",
+      "relevance": "Tests Dubai cycle durability."
+    },
+    {
+      "question": "Detail capital commitments to non-core ventures (e.g. EDGNEX data centers) outside the restricted sukuk group.",
+      "focus_area": "Ring-Fencing",
+      "relevance": "Key IG upgrade gating factor for Moody's/S&P."
     }
   ],
   "market_history": [
@@ -1184,6 +1208,19 @@
       "ebitda": 680.0,
       "fcf": -134.1,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "Ba1 Stable (Moody's) / BB+ (S&P)",
+      "price": 101.0,
+      "ytm": 7.25,
+      "spread_bp": 320,
+      "net_leverage": 0.29,
+      "ebitda": 680.0,
+      "fcf": -134.1,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1270,5 +1307,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Constructive / Deleveraged Rising-Star Candidate (Ba1/BB+)",
+      "target_price": null,
+      "current_price": 101.0,
+      "ytm": 6.125,
+      "spread_bp": 320,
+      "summary": "DAMAC priced an oversubscribed $600m 3.5Y 6.125% Murabaha sukuk in Jan 2026 (Alpha Star Holding X) and redeemed its maturing $400m early-2026 sukuk, holding Ba1 Stable (Moody's) and BB+ (S&P) just one notch below IG. Massive Dubai pre-sales backlog and ultra-low ~0.3x net leverage anchor credit strength."
+    },
+    "positives": [
+      "Rated Ba1 Stable (Moody's) / BB+ (S&P) \u2014 one notch below investment grade, supported by ultra-low net leverage (~0.3x).",
+      "Jan 2026 $600m 6.125% 3.5Y sukuk priced cleanly inside prior coupon tiers and cleared early-2026 $400m maturity.",
+      "Multi-year Dubai residential sales backlog and escrow cash collections provide high revenue visibility."
+    ],
+    "negatives": [
+      "Heavy geographic concentration in cyclical Dubai luxury/branded residential real estate.",
+      "Large off-plan construction commitments & land bank replenishment capex can absorb cash if pre-sales cool.",
+      "Private controlling ownership (Hussain Sajwani) poses discretionary dividend/data-center capex risk."
+    ],
+    "background": {
+      "business_overview": "Leading Dubai luxury private real estate developer (DAMAC Hills, DAMAC Lagoons, Cavalli/de GRISOGONO branded towers).",
+      "asset_perimeter": "Dubai residential master communities, hospitality assets, and international luxury developments.",
+      "ownership_governance": "100% privately controlled by Hussain Sajwani following delisting from DFM; regular USD sukuk issuer."
+    },
+    "recent_drivers": [
+      "Jan-26: Issued $600m 3.5-year 6.125% RegS Murabaha sukuk (Alpha Star Holding X) and redeemed $400m early-2026 sukuk.",
+      "2026: Moody's Ba1 Stable and S&P BB+ supported by multi-billion AED Dubai backlog."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited Financial Results & IG Upgrade Review",
+        "impact": "Potential rising-star trigger if Dubai cash conversion sustains low leverage."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Jan-26 $600m 6.125% Sukuk & Ba1/BB+ Review",
+      "source": "Moody's / S&P",
+      "status": "Current Research Run",
+      "summary": "Issued $600m 3.5Y sukuk at 6.125%, redeemed $400m early-26 sukuk; Ba1 Stable / BB+."
+    }
+  ]
 }

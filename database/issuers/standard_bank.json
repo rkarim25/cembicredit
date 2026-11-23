@@ -7,7 +7,7 @@
     "region": "Africa",
     "sector": "Banks",
     "type": "bank",
-    "rating": "Ba2 / BB-",
+    "rating": "BB Stable (Fitch) / Ba2 Pos (Moody's)",
     "tier": "Tier-1",
     "benchmark_bond": "STANBI 5.95% 2029",
     "price": 98.0,
@@ -16,7 +16,7 @@
     "model_file": "Standard_Bank_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81d5-a689-ed9573171257",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Standard_Bank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "bank"
   },
   "financials_multi_year": [
@@ -334,6 +334,19 @@
         "fcf": 87.5,
         "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
       }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "ZAR",
+      "source": "Standard Bank Group H1 2026 Interim Results (ended 30-Jun-26), read 23-Nov-26",
+      "net_profit": 26100.0,
+      "roe_pct": 19.8,
+      "cet1_pct": 13.6,
+      "car_pct": 16.6,
+      "observations": {
+        "notes": "H1 2026 record headline earnings ZAR 26.1bn (+10% YoY), post-Basel III record ROE 19.8% (vs 19.1% H125), CET1 13.6% (vs 13.2%), Tier 1 14.9%, Total CAR 16.6%, interim dividend 902c/sh. Moody's Ba2 Positive (SBSA Baa3 Pos); Fitch BB Stable."
+      }
     }
   ],
   "supplementary_data": {
@@ -363,6 +376,13 @@
     "thesis": "Largest banking group in Africa by assets; pan-African footprint provides resilient hard currency earnings."
   },
   "annotations": [
+    {
+      "issuer_id": "standard_bank",
+      "sector": "Banks",
+      "topic": "H1 2026 Record Earnings & Capital",
+      "source": "Standard Bank H126 Release (2026)",
+      "note": "H126 record headline earnings R26.1bn (+10% YoY), ROE 19.8%, CET1 13.6%, Tier 1 14.9%, Total CAR 16.6%; Moody's Ba2 Positive (SBSA Baa3 Pos), Fitch BB Stable."
+    },
     {
       "issuer_id": "standard_bank",
       "issuer_name": "Standard Bank Group",
@@ -595,18 +615,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      "question": "Confirm Africa Regions percentage contribution to H1 2026 headline earnings and FX repatriation backlog.",
+      "focus_area": "Regional Risk",
+      "relevance": "Key source of earnings growth and FX risk."
     },
     {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Indicate appetite for USD Tier 2 / senior EMTN issuance under the updated $4bn programme.",
+      "focus_area": "Debt Supply",
+      "relevance": "Direct driver of secondary curve technicals."
     }
   ],
   "market_history": [
@@ -1220,6 +1236,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BB Stable (Fitch) / Ba2 Pos (Moody's)",
+      "price": 98.0,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1306,5 +1335,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Pan-African Scale Leader on Positive Sovereign Momentum (Ba2 Pos / BB)",
+      "target_price": null,
+      "current_price": 98.0,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "summary": "Record H1 2026 headline earnings of ZAR 26.1bn (+10% YoY) drove a post-Basel III record 19.8% ROE alongside strengthening CET1 (13.6%) and Total CAR (16.6%). Moody's Ba2 Positive outlook (SBSA Baa3 Positive) provides upgrade beta tied to South Africa's improving reform trajectory."
+    },
+    "positives": [
+      "Record H1 2026 headline earnings of R26.1bn (+10% YoY) and record post-Basel III ROE of 19.8%.",
+      "Rising capital buffers: CET1 13.6% (up from 13.2%), Tier 1 14.9%, Total CAR 16.6%.",
+      "Moody's Positive Outlook (Group Ba2 Pos / SBSA Baa3 Pos) backed by unmatched 20-country African banking footprint."
+    ],
+    "negatives": [
+      "Pan-African subsidiaries expose earnings/capital to sovereign debt and FX devaluation in Nigeria, Kenya, Angola, and Ghana.",
+      "Foreign currency ratings remain constrained by South Africa's sovereign ceiling.",
+      "Potential capital deployment into higher-risk African sovereign/corporate credit."
+    ],
+    "background": {
+      "business_overview": "Africa's largest banking group by assets, operating across 20 sub-Saharan African countries (Stanbic/Standard Bank).",
+      "asset_perimeter": "South African banking core (SBSA) plus high-ROE Africa Regions franchise and Liberty insurance.",
+      "ownership_governance": "JSE-listed (SBK); ICBC holds ~19-20% strategic stake; $4bn EMTN programme."
+    },
+    "recent_drivers": [
+      "H1 2026: Record headline earnings R26.1bn (+10% YoY), ROE 19.8%, CET1 13.6%, CAR 16.6%; declining NPLs in vehicle/asset finance.",
+      "2026: Moody's Ba2 Positive (SBSA Baa3 Pos); Fitch BB Stable; updated $4bn LSE EMTN programme."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & Moody's Upgrade Review",
+        "impact": "Potential upgrade trigger aligned with South Africa sovereign rating path."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "H1 2026 Record R26.1bn Earnings & 13.6% CET1",
+      "source": "Standard Bank H126 Filings",
+      "status": "Current Research Run",
+      "summary": "Record H126 headline earnings R26.1bn (+10%), ROE 19.8%, CET1 13.6%, CAR 16.6%, Moody's Ba2 Positive."
+    }
+  ]
 }

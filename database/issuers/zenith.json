@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "id": "zenith",
+    "name": "Zenith Bank Plc",
+    "ticker": "ZENITH",
+    "country": "Nigeria",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "B Stable (Fitch) / B3 Stable (Moody's)",
+    "tier": "B",
+    "benchmark_bond": "ZENITH (Active Nigerian Tier-1 Issuer; 2022 Redeemed)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Zenith_Bank_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Zenith_Bank_Credit_Model.xlsx",
+    "last_updated": "2026-11-23",
+    "model_type": "bank",
+    "financials_currency": "NGN",
+    "provenance": "financials built 23-Nov-26 from Zenith Bank FY2025 & 9M 2026 NGX financial filings (Nov-26); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "NGN",
+      "source": "Zenith Bank Plc FY2025 Audited Financial Statements (NGX), read 23-Nov-26",
+      "assets": 31460000.0,
+      "loans": 10450000.0,
+      "deposits": 24330000.0,
+      "observations": {
+        "notes": "FY25 assets NGN 31.46tn, loans NGN 10.45tn, customer deposits NGN 24.33tn."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "NGN",
+      "source": "Zenith Bank Plc 9M 2026 Financial Statements (NGX), read 23-Nov-26",
+      "assets": 34390000.0,
+      "loans": 11640000.0,
+      "deposits": 27110000.0,
+      "equity": 5070000.0,
+      "nii": 1930000.0,
+      "net_profit": 675830.0,
+      "roe_pct": 23.0,
+      "npl_pct": 3.8,
+      "observations": {
+        "notes": "9M26 assets NGN 34.39tn (+9.3% YTD), loans NGN 11.64tn (+11.4% YTD), deposits NGN 27.11tn (+11.4% YTD), equity NGN 5.07tn, NII NGN 1.93tn, PBT NGN 928.79bn, PAT NGN 675.83bn (-12% YoY on lower FX trading gains, partially offset by 70.5% drop in impairments to NGN 230.77bn). ROE ~23%, TCE/RWA ~26%, post-forbearance NPL ~3.8%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "CBN Recapitalisation Equity / Senior Bank Funding (2022 Eurobond Redeemed)",
+      "tranche_name": "CBN Recapitalisation Equity / Senior Bank Funding (2022 Eurobond Redeemed)",
+      "currency": "USD",
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0,
+      "amount_usd_m": 0.0,
+      "coupon": "n/a",
+      "maturity": "2027-01-01",
+      "seniority": "Deposits & Wholesale Trade Lines",
+      "instrument_type": "Active Corporate Bank / EMTN Candidate",
+      "governing_law": "Nigerian / English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 0.0,
+    "source": "Zero public USD Eurobond debt outstanding following May-2022 redemption; potential CEMBI re-entry candidate backed by NGN 5.07tn equity."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-23",
+    "verdict": {
+      "stance": "Constructive / Cleanest Nigerian Tier-1 Corporate Franchise (B/B3)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Nigeria's premier corporate bank delivered NGN 675.83bn 9M26 PAT (~23% ROE) as impairment charges plunged 70.5% YoY to NGN 230.77bn and post-forbearance problem loans stabilized at a sector-low ~3.8% (vs ~8.1% UBA). NGN 5.07tn equity (~26% TCE/RWA) provides standout solvency, though ratings remain sovereign-capped at B/B3."
+    },
+    "positives": [
+      "Best-in-class Nigerian post-forbearance asset quality: ~3.8% NPL ratio (well below peers) with 9M26 impairments down 70.5% YoY to NGN 230.77bn.",
+      "Strong core banking profitability: 9M26 NII NGN 1.93tn, PBT NGN 928.79bn, PAT NGN 675.83bn (~23% ROE).",
+      "Fortress equity base (NGN 5.07tn, TCE/RWA ~26%) and clean external debt slate (zero public Eurobond overhang)."
+    ],
+    "negatives": [
+      "High ~56% foreign-currency gross loan book creates borrower FX-mismatch risk in oil/gas & corporate exposures.",
+      "Sovereign concentration (FGN bonds & CBN CRR reserves) caps Fitch IDR at 'B' and Moody's at 'B3'.",
+      "Normalization of FX revaluation / trading gains vs 2024-2025 windfall periods."
+    ],
+    "background": {
+      "business_overview": "Nigeria's top corporate & institutional bank by Tier-1 capital and profitability, with UK, Ghana, Sierra Leone, and Gambia subsidiaries.",
+      "asset_perimeter": "NGN 34.39tn consolidated assets, NGN 27.11tn customer deposits, and NGN 11.64tn loans at Sep-26.",
+      "ownership_governance": "NGX/LSE-listed (ZENITHBANK); Jim Ovia founder/chairman; regulated by CBN."
+    },
+    "recent_drivers": [
+      "9M26 (NGX): Assets NGN 34.39tn (+9.3% YTD), Deposits NGN 27.11tn (+11.4%), Loans NGN 11.64tn (+11.4%), NII NGN 1.93tn, PAT NGN 675.83bn, impairments -70.5% to NGN 230.77bn, equity NGN 5.07tn.",
+      "2026: Fitch affirmed B Stable (AA(nga)); Moody's affirmed B3 Stable (~3.8% post-forbearance NPL, ~26% TCE/RWA)."
+    ],
+    "catalysts": [
+      {
+        "date": "H1 2027",
+        "event": "FY2026 Audited Results & Potential USD Eurobond / Subordinated Issuance",
+        "impact": "Confirms core NII durability as CBN monetary stance evolves."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm stage-2 restructured loan share in the ~56% FCY corporate loan book post-CBN forbearance exit.",
+      "focus_area": "FCY Asset Quality",
+      "relevance": "Primary credit risk highlighted by Moody's."
+    },
+    {
+      "question": "Outline appetite for returning to USD Eurobond markets in 2027 to term out trade finance lines.",
+      "focus_area": "Funding",
+      "relevance": "Zero public USD bonds currently outstanding."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "zenith",
+      "sector": "Banks",
+      "topic": "9M26 NGX Results & Ratings",
+      "source": "Zenith NGX / Fitch / Moody's (Nov-26)",
+      "note": "9M26 assets NGN 34.39tn, deposits NGN 27.11tn, loans NGN 11.64tn, equity NGN 5.07tn, NII NGN 1.93tn, PAT NGN 675.83bn, impairments -70.5% to NGN 230.77bn; NPL ~3.8%, ROE ~23%, Fitch B Stable / Moody's B3 Stable."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B Stable (Fitch) / B3 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

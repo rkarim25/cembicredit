@@ -7,16 +7,16 @@
     "region": "CEEMEA",
     "sector": "Utilities",
     "type": "corp",
-    "rating": "B / B2",
+    "rating": "BB- Stable (Fitch) / B2 exp (Moody's)",
     "tier": "B",
-    "benchmark_bond": "ADMTR 9.25% 2028",
+    "benchmark_bond": "ADMTR 9.50% Feb 2031 ($500m, XS3260262988)",
     "price": 98.0,
     "ytm": 9.25,
     "spread_bp": 485,
     "model_file": "ADM_Elektrik_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6814cb3a1fc47071d72c5",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADM_Elektrik_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -56.6,
     "net_leverage_2024a": 2.62
@@ -331,6 +331,13 @@
   "annotations": [
     {
       "issuer_id": "adm_elek",
+      "sector": "Utilities",
+      "topic": "2026 Eurobond & EMRA Reset",
+      "source": "Fitch / Cbonds (Feb-26)",
+      "note": "Issued $500m 9.50% senior unsecured notes due Feb 2031 (XS3260262988); Fitch assigned BB- IDR; EMRA 5th regulatory period (2026-2030) lifted real WACC to 13.5%."
+    },
+    {
+      "issuer_id": "adm_elek",
       "issuer_name": "ADM Elektrik",
       "sector": "Utilities",
       "topic": "Regulated Asset Base & Off-take PPA",
@@ -391,6 +398,21 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "ADMTR 9.500% Senior Unsecured Notes due Feb 2031",
+      "tranche_name": "ADMTR 9.500% Senior Unsecured Notes due Feb 2031",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "9.500%",
+      "maturity": "2031-02-01",
+      "seniority": "Senior Unsecured",
+      "isin": "XS3260262988",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English"
+    },
     {
       "tranche_name": "ADMELE Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -562,18 +584,19 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Confirm exact FX hedge coverage on the $500m 9.50% 2031 Eurobond coupons and principal.",
+      "focus_area": "FX & Liquidity",
+      "relevance": "TRY revenues vs USD debt service."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "What is the 2026-2030 cumulative RAB capex envelope approved by EMRA and expected annual FCF burn?",
+      "focus_area": "Capex & RAB",
+      "relevance": "Determines deleveraging pace."
+    },
+    {
+      "question": "Detail restricted-payment and intercompany lending covenants toward Aydem Holding.",
+      "focus_area": "Covenant Protection",
+      "relevance": "Ring-fencing from group entities."
     }
   ],
   "market_history": [
@@ -1187,6 +1210,19 @@
       "ebitda": 145.0,
       "fcf": -56.6,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BB- Stable (Fitch) / B2 exp (Moody's)",
+      "price": 98.0,
+      "ytm": 9.25,
+      "spread_bp": 485,
+      "net_leverage": 2.62,
+      "ebitda": 145.0,
+      "fcf": -56.6,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1273,5 +1309,56 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Constructive on EMRA Regulatory Reset (BB-)",
+      "target_price": null,
+      "current_price": 98.0,
+      "ytm": 9.25,
+      "spread_bp": 485,
+      "summary": "Inaugural $500m 9.50% Feb 2031 Eurobond (XS3260262988) extended liquidity and earned Fitch 'BB-' IDR alongside Turkey's 5th EMRA regulatory period (2026-2030, real WACC lifted to 13.5%). Capex intensity for Denizli/Ayd\u0131n/Mu\u011fla grid upgrades keeps FCF tight, though RAB growth underpins medium-term deleveraging."
+    },
+    "positives": [
+      "Monopolistic electricity distribution concession across Ayd\u0131n, Denizli, and Mu\u011fla under EMRA tariff framework.",
+      "5th EMRA regulatory period (2026-2030) lifted real WACC to 13.5% with higher allowed capex and RAB indexation.",
+      "Feb 2026 $500m 9.50% 2031 Eurobond (Euronext Dublin, XS3260262988) cleared near-term maturities and diversified funding."
+    ],
+    "negatives": [
+      "FX mismatch between USD Eurobond liabilities and TRY-denominated regulated tariffs (partially mitigated by CPI/FX RAB resets).",
+      "Heavy grid modernization capex across 2026-2030 limits near-term free cash flow generation.",
+      "Parent group (Aydem Holding) cross-portfolio leverage and sister utility/generation capex demands."
+    ],
+    "background": {
+      "business_overview": "Regulated electricity distribution operator in southwestern Turkey (Ayd\u0131n, Denizli, Mu\u011fla) owned by Aydem Holding.",
+      "asset_perimeter": "Regional power distribution network and regulated asset base (RAB) under EMRA 2026-2030 tariff cycle.",
+      "ownership_governance": "Subsidiary of Aydem Holding; bond documentation ring-fences distribution cash flows."
+    },
+    "recent_drivers": [
+      "Feb-26: Priced $500m 5-year 9.50% senior unsecured Eurobond due Feb 2031 (XS3260262988); Fitch assigned BB- IDR (Moody's B2).",
+      "2026: Commencement of EMRA 5th regulatory period (2026-2030) lifting allowed real WACC to 13.5%."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited TFRS Results & RAB Roll-Forward Disclosure",
+        "impact": "Confirms working capital recovery and net leverage post-2031 bond."
+      },
+      {
+        "date": "2026-2030",
+        "event": "EMRA 5th Regulatory Period Tariff & Capex Execution",
+        "impact": "Tracks real WACC realization vs FX/inflation path."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "2026 Eurobond & EMRA 5th Regulatory Period Update",
+      "source": "Fitch / ADM Elektrik / Cbonds",
+      "status": "Current Research Run",
+      "summary": "Added $500m 9.50% Feb 2031 Eurobond (XS3260262988), Fitch BB- IDR, and 2026-2030 EMRA real WACC reset to 13.5%."
+    }
+  ]
 }

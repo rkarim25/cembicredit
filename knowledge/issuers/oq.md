@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/oq.json`. Dated, sourced facts on
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- OQGN 5.80% 2033: price 99.5, YTM 5.9%, spread 185bp (as of 2026-09-19).
-- Rating as recorded: BB+ / BBB-.
+- OQSAOC 5.125% May 2028 ($750m, XS2248458395): price 99.5, YTM 5.9%, spread 185bp (as of 2026-11-23).
+- Rating as recorded: BBB- Stable (Fitch & S&P, 2026).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

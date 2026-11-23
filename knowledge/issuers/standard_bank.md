@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/standard_bank.json`. Dated, sourc
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- STANBI 5.95% 2029: price 98.0, YTM 6.85%, spread 280bp (as of 2026-09-19).
-- Rating as recorded: Ba2 / BB-.
+- STANBI 5.95% 2029: price 98.0, YTM 6.85%, spread 280bp (as of 2026-11-23).
+- Rating as recorded: BB Stable (Fitch) / Ba2 Pos (Moody's).
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|

@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/emlak.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- EMLVAR 10.50% 2027: price 97.5, YTM 10.5%, spread 610bp (as of 2026-09-19).
+- EMLVAR 10.50% 2027: price 97.5, YTM 10.5%, spread 610bp (as of 2026-11-23).
 - Rating as recorded: BB- Local.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

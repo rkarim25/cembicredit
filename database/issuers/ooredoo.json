@@ -16,7 +16,7 @@
     "model_file": "Ooredoo_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8104-b0c2-d4771573cd0a",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ooredoo_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "cognitive_credit_id": "ooredoo",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/ooredoo/description",
     "model_type": "corp",
@@ -303,6 +303,21 @@
         "fcf": 1090.2,
         "formula_check": "3472.0 - 1385.3 - 267.9 - (404.2) - 324.4 = 1090.2"
       }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "QAR",
+      "source": "Ooredoo Q.P.S.C. Q3/9M 2026 Earnings Release (28-Oct-26), read 23-Nov-26",
+      "revenue": 19000.0,
+      "ebitda": 8500.0,
+      "reported_ebitda": 8500.0,
+      "ebitda_margin_pct": 44.7,
+      "fcf": 5700.0,
+      "net_profit": 2900.0,
+      "observations": {
+        "notes": "9M26 rev QAR 19.0bn (+4.3% YoY; Q3 QAR 6.5bn +3.8% YoY), EBITDA QAR 8.5bn (+6.3% YoY, 44.7% margin +90bp), FCF QAR 5.7bn (+11.2% YoY), Net Profit QAR 2.9bn (-5.0% YoY; normalized QAR 3.0bn). Closed first phase of Zain tower JV."
+      }
     }
   ],
   "supplementary_data": {
@@ -331,6 +346,13 @@
     "thesis": "State-backed telecom operator across Qatar, Kuwait, Iraq, and Algeria; robust EBITDA margin and cash flow."
   },
   "annotations": [
+    {
+      "issuer_id": "ooredoo",
+      "sector": "Technology",
+      "topic": "9M 2026 Earnings & Zain Tower JV",
+      "source": "Ooredoo Earnings Release (28-Oct-26)",
+      "note": "9M26 rev QAR 19.0bn (+4.3% YoY), EBITDA QAR 8.5bn (+6.3%, 44.7% margin), FCF QAR 5.7bn (+11.2% YoY), NPAT QAR 2.9bn; completed first closing of Zain regional tower JV."
+    },
     {
       "issuer_id": "ooredoo",
       "issuer_name": "Ooredoo QPSC",
@@ -564,11 +586,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
-      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
-      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
-      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
-      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      "question": "Quantify net cash proceeds expected from subsequent closings of the Zain tower JV and intended allocation (debt paydown vs AI data centers).",
+      "focus_area": "Capital Allocation",
+      "relevance": "Tower monetization is key FCF catalyst."
+    },
+    {
+      "question": "Provide FY27 capex guidance for AI compute and submarine cable investments.",
+      "focus_area": "Capex",
+      "relevance": "Tests whether 9M26 +11.2% FCF growth persists."
     }
   ],
   "market_history": [
@@ -1182,6 +1207,19 @@
       "ebitda": 2800,
       "fcf": 547.3,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "A2 / A-",
+      "price": 97.8,
+      "ytm": 5,
+      "spread_bp": 95,
+      "net_leverage": 1.1,
+      "ebitda": 2800,
+      "fcf": 547.3,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1268,5 +1306,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / High-FCF Qatar Sovereign-Anchored Telecom (A2/A-)",
+      "target_price": null,
+      "current_price": 97.8,
+      "ytm": 5.0,
+      "spread_bp": 95,
+      "summary": "9M 2026 delivered broad operational momentum: revenue +4.3% YoY to QAR 19.0bn, EBITDA +6.3% to QAR 8.5bn (44.7% margin), and FCF +11.2% to QAR 5.7bn, plus first closing of the landmark Zain regional tower JV. Low ~1.1x leverage and Qatari state ownership anchor A2/A- ratings."
+    },
+    "positives": [
+      "Strong 9M 2026 FCF inflection (+11.2% YoY to QAR 5.7bn) and EBITDA margin expansion (+90bp to 44.7%).",
+      "First closing completed on Zain regional tower JV (unlocking asset-light capital across Qatar/Kuwait).",
+      "Majority Qatari state ownership (QIA / government entities) underpins A2 / A- investment-grade ratings and low ~1.1x leverage."
+    ],
+    "negatives": [
+      "FX and macro volatility in non-GCC emerging operations (Iraq, Algeria, Tunisia, Myanmar exit legacy).",
+      "Rising capex intensity into regional data centers / AI compute infrastructure.",
+      "Tight spreads (~95bp) leave limited price upside vs sovereign curve."
+    ],
+    "background": {
+      "business_overview": "Qatar-headquartered international telecom group operating across Qatar, Kuwait, Oman, Iraq (Asiacell), Algeria, Tunisia, and Maldives.",
+      "asset_perimeter": "Mobile/fixed networks, regional tower JV with Zain, and expanding data-center/AI compute arm (Meeza/Syntys).",
+      "ownership_governance": "Majority owned by Qatar Investment Authority (QIA) and Qatari state entities; listed on QSE."
+    },
+    "recent_drivers": [
+      "28-Oct-26 (9M26): Revenue QAR 19.0bn (+4.3% YoY), EBITDA QAR 8.5bn (+6.3% YoY, 44.7% margin), FCF QAR 5.7bn (+11.2% YoY).",
+      "Q3 2026: Completed first closing of regional tower JV combining portfolios with Zain."
+    ],
+    "catalysts": [
+      {
+        "date": "Feb 2027",
+        "event": "FY2026 Audited Results & Tower JV Cash Proceeds Allocation",
+        "impact": "Tests data-center capex pacing vs shareholder distributions."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "9M 2026 Results (+11.2% FCF) & Zain Tower Closing",
+      "source": "Ooredoo Release (28-Oct-26)",
+      "status": "Current Research Run",
+      "summary": "9M26 rev QAR 19.0bn, EBITDA QAR 8.5bn, FCF QAR 5.7bn (+11.2% YoY); closed phase 1 of Zain tower JV."
+    }
+  ]
 }

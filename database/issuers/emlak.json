@@ -16,7 +16,7 @@
     "model_file": "Emlak_Konut_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681d49d9cd4e3e2464afb",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Emlak_Konut_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -98.1,
     "net_leverage_2024a": 0.49
@@ -301,6 +301,20 @@
         "fcf": -52.3,
         "formula_check": "434.0 - 226.8 - 36.2 - (183.2) - 40.1 = -52.3"
       }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "TRY",
+      "source": "Emlak Konut GYO 9M 2026 Consolidated Financial Statements (KAP), read 23-Nov-26",
+      "revenue": 73600.0,
+      "net_profit": 2870.0,
+      "cash": 53410.0,
+      "assets": 494620.0,
+      "equity": 161660.0,
+      "observations": {
+        "notes": "9M26 revenue TRY 73.6bn (-13.6% YoY), net profit TRY 2.87bn (-78.6% YoY on TRY 22.6bn financial expenses & deferred tax; Q3 net profit TRY 379.8m), cash surged to TRY 53.41bn (vs TRY 18.3bn FY25), total assets TRY 494.62bn, equity TRY 161.66bn."
+      }
     }
   ],
   "supplementary_data": {
@@ -331,6 +345,13 @@
     "thesis": "TOK\u0130 50% state ownership; >$4.5B prime land bank; negligible net leverage (0.49x)."
   },
   "annotations": [
+    {
+      "issuer_id": "emlak",
+      "sector": "Real Estate",
+      "topic": "9M 2026 KAP Results",
+      "source": "Emlak Konut KAP (Nov-26)",
+      "note": "9M26 revenue TRY 73.6bn (-13.6% YoY), NPAT TRY 2.87bn (-78.6% YoY on TRY 22.6bn financial expenses), cash TRY 53.41bn, assets TRY 494.62bn, equity TRY 161.66bn."
+    },
     {
       "issuer_id": "emlak",
       "issuer_name": "Emlak Konut",
@@ -566,11 +587,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
-      "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
-      "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
-      "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
-      "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      "question": "Detail gross debt maturity profile and floating vs fixed rate mix driving the TRY 22.6bn 9M26 financing cost.",
+      "focus_area": "Interest Coverage",
+      "relevance": "9M26 earnings compressed sharply by interest expense."
+    },
+    {
+      "question": "How much of the TRY 53.41bn cash balance is restricted escrow vs unrestricted corporate liquidity?",
+      "focus_area": "Liquidity",
+      "relevance": "Determines net cash cushion."
     }
   ],
   "market_history": [
@@ -1184,6 +1208,19 @@
       "ebitda": 350.0,
       "fcf": -98.1,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BB- Local",
+      "price": 97.5,
+      "ytm": 10.5,
+      "spread_bp": 610,
+      "net_leverage": 0.49,
+      "ebitda": 350.0,
+      "fcf": -98.1,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1270,5 +1307,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / High-Liquidity Sovereign-Linked REIT (BB- Local)",
+      "target_price": null,
+      "current_price": 97.5,
+      "ytm": 10.5,
+      "spread_bp": 610,
+      "summary": "9M 2026 KAP results show cash surging to TRY 53.41bn (up ~3x from TRY 18.3bn FY25) on TRY 494.6bn asset base, though net profit dropped 78.6% YoY to TRY 2.87bn under TRY 22.6bn financial expenses. Sovereign linkage via TOK\u0130 underpins franchise stability."
+    },
+    "positives": [
+      "Cash & equivalents nearly tripled YTD to TRY 53.41bn at 30-Sep-26 (equity TRY 161.66bn).",
+      "Majority/controlling linkage to Turkey's Mass Housing Administration (TOK\u0130) provides privileged land bank access.",
+      "Revenue-sharing development model transfers construction cost inflation risk to private contractors."
+    ],
+    "negatives": [
+      "9M26 net profit slumped 78.6% YoY to TRY 2.87bn as elevated Turkish interest rates drove TRY 22.6bn in financial expenses.",
+      "9M26 revenue declined 13.6% YoY to TRY 73.6bn amid domestic mortgage affordability pressure.",
+      "Primarily domestic TRY cash flows with cyclical real estate sensitivity."
+    ],
+    "background": {
+      "business_overview": "Turkey's largest publicly traded REIT, acting as master developer in partnership with state housing agency TOK\u0130.",
+      "asset_perimeter": "Large prime Istanbul/Ankara land bank and revenue-sharing residential/mixed-use projects.",
+      "ownership_governance": "49.3% owned by TOK\u0130 (Ministry of Environment, Urbanisation & Climate Change); listed on BIST."
+    },
+    "recent_drivers": [
+      "9M26 (KAP): Revenue TRY 73.6bn (-13.6% YoY), Net Profit TRY 2.87bn (-78.6% YoY on TRY 22.6bn financing costs), Cash TRY 53.41bn (vs TRY 18.3bn YE25)."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited IAS 29 Results & Pre-Sales Backlog Update",
+        "impact": "Shows whether TCMB rate path eases financing expense drag."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "9M 2026 Consolidated KAP Financial Results",
+      "source": "Emlak Konut KAP",
+      "status": "Current Research Run",
+      "summary": "Revenue TRY 73.6bn, NPAT TRY 2.87bn (hit by TRY 22.6bn finance costs), cash surged to TRY 53.41bn."
+    }
+  ]
 }

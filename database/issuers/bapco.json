@@ -7,7 +7,7 @@
     "region": "GCC",
     "sector": "Energy",
     "type": "corp",
-    "rating": "B+ / B+",
+    "rating": "B Stable (Fitch, 2026) / B+",
     "tier": "Tier-2",
     "benchmark_bond": "BAPCO 7.50% 2027",
     "price": 101.8,
@@ -16,7 +16,7 @@
     "model_file": "Bapco_Energies_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8138-bce5-cc98fa4260f4",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bapco_Energies_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -222.1,
     "net_leverage_2024a": 3.4
@@ -332,6 +332,13 @@
   "annotations": [
     {
       "issuer_id": "bapco",
+      "sector": "Energy",
+      "topic": "Fitch 2026 B Stable",
+      "source": "Fitch Ratings (2026)",
+      "note": "Fitch affirmed Bapco Energies Long-Term IDR and senior unsecured/sukuk ratings at B Stable in 2026, equalized with Bahrain sovereign under 'virtually certain' GRE support."
+    },
+    {
+      "issuer_id": "bapco",
       "issuer_name": "Bapco Energies (nogaholding)",
       "sector": "Energy",
       "topic": "Offshore Debt Escrow Routing",
@@ -392,6 +399,48 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "Bapco Energies 6.250% Senior Notes due 2035",
+      "tranche_name": "Bapco Energies 6.250% Senior Notes due 2035",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "6.250%",
+      "maturity": "2035-01-01",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "Bapco Energies 6.625% Senior Notes due 2033",
+      "tranche_name": "Bapco Energies 6.625% Senior Notes due 2033",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "6.625%",
+      "maturity": "2033-05-01",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "Bapco Energies 7.500% Senior Notes due Oct 2027",
+      "tranche_name": "Bapco Energies 7.500% Senior Notes due Oct 2027",
+      "currency": "USD",
+      "amount_issued_usd_m": 600.0,
+      "outstanding_usd_m": 600.0,
+      "amount_outstanding_usd_m": 600.0,
+      "amount_usd_m": 600.0,
+      "coupon": "7.500%",
+      "maturity": "2027-10-25",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English"
+    },
     {
       "tranche_name": "BAPCO Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -563,18 +612,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      "question": "Confirm Sitra refinery (BMP) steady-state utilization and incremental EBITDA uplift in 2026.",
+      "focus_area": "Operations",
+      "relevance": "Core driver of standalone deleveraging."
     },
     {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Outline pre-funding plan for the October 2027 7.50% senior notes.",
+      "focus_area": "Refinancing",
+      "relevance": "Approaching 12-month window in Oct-26."
     }
   ],
   "market_history": [
@@ -1188,6 +1233,19 @@
       "ebitda": 1250.0,
       "fcf": -222.1,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B Stable (Fitch, 2026) / B+",
+      "price": 101.8,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": 3.4,
+      "ebitda": 1250.0,
+      "fcf": -222.1,
+      "guidance_status": "On Track"
     }
   ],
   "commodity_drivers": {
@@ -1292,5 +1350,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Bahrain Sovereign Proxy (Fitch B Stable)",
+      "target_price": null,
+      "current_price": 101.8,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "summary": "Fitch affirmed Bapco Energies at 'B' Stable in 2026, equalized with the Kingdom of Bahrain under GRE criteria ('virtually certain' extraordinary state support). Credit trajectory hinges on Bahrain sovereign fiscal health, Bapco Modernization Programme (BMP) refining utilization, and regional geopolitical/refining margin volatility."
+    },
+    "positives": [
+      "100% owned by Kingdom of Bahrain; Fitch views state support as 'virtually certain' and equalizes IDR at 'B' Stable.",
+      "Strategic monopoly over Bahrain's oil, gas, and Sitra refining complex (Bapco Modernization Programme upgrade).",
+      "Deep GCC sovereign-linked market access across 2027, 2033, and 2035 USD bond/sukuk tranches."
+    ],
+    "negatives": [
+      "Sovereign-capped at 'B' (Fitch) following sovereign downgrade; Bahrain fiscal deficits & debt >120% GDP constrain spread tightening.",
+      "Elevated standalone leverage post-BMP capex and sensitivity to compressed global refining crack spreads.",
+      "Regional Gulf geopolitical/operational disruption exposure."
+    ],
+    "background": {
+      "business_overview": "Bahrain's national energy holding company (formerly nogaholding), spanning upstream oil/gas, Sitra refinery, and petrochemicals.",
+      "asset_perimeter": "Bapco Refining (Sitra), Bapco Upstream (Bahrain Field), Banagas, Tatweer, and energy JVs.",
+      "ownership_governance": "100% owned by Kingdom of Bahrain (Mumtalakat/government)."
+    },
+    "recent_drivers": [
+      "2026: Fitch affirmed Bapco Energies Long-Term IDR and senior unsecured/sukuk programs at 'B' Stable, equalized with Bahrain.",
+      "2026: Monitoring post-BMP refining margin capture and Oct-2027 $600m 7.50% bond refinancing timeline."
+    ],
+    "catalysts": [
+      {
+        "date": "H1 2027",
+        "event": "Refinancing Execution for Oct-2027 7.50% Maturity & FY26 Results",
+        "impact": "Key test of BMP cash flow ramp and sovereign spread linkage."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Fitch B Stable Affirmation & 2027/2033/2035 Curve",
+      "source": "Fitch Ratings",
+      "status": "Current Research Run",
+      "summary": "Affirmed at B Stable (equalized with Bahrain); tracking BMP utilization and Oct-27 refinancing."
+    }
+  ]
 }

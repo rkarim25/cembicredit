@@ -7,7 +7,7 @@
     "region": "CEEMEA",
     "sector": "Utilities",
     "type": "corp",
-    "rating": "B / B3",
+    "rating": "B Stable (Fitch, 2026) / B3",
     "tier": "B",
     "benchmark_bond": "AYDEM 8.95% 2027",
     "price": 96.5,
@@ -16,7 +16,7 @@
     "model_file": "Aydem_Renewable_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681008c2ee5226c1af03d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aydem_Renewable_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -82.6,
     "net_leverage_2024a": 4.11,
@@ -330,6 +330,13 @@
     "thesis": "1,180 MW pure-play renewable portfolio; U\u015fak hybrid solar expansion diversifying hydro risk."
   },
   "annotations": [
+    {
+      "issuer_id": "aydem",
+      "sector": "Utilities",
+      "topic": "Fitch 2026 Rating Update",
+      "source": "Fitch Ratings (2026)",
+      "note": "Fitch revised Aydem Renewables Outlook to Stable (affirmed B) in 2026; tracking YEKDEM-to-merchant power transition and 4.7x-5.1x FFO net leverage."
+    },
     {
       "issuer_id": "aydem",
       "issuer_name": "Aydem Renewable",
@@ -1187,6 +1194,19 @@
       "ebitda": 190.0,
       "fcf": -82.6,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B Stable (Fitch, 2026) / B3",
+      "price": 96.5,
+      "ytm": 8.95,
+      "spread_bp": 455,
+      "net_leverage": 4.11,
+      "ebitda": 190.0,
+      "fcf": -82.6,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1299,6 +1319,7 @@
       "ownership_governance": "Subsidiary of Aydem Holding (~79%); BIST-listed (AYDEM)."
     },
     "recent_drivers": [
+      "2026: Fitch revised Aydem Renewables Outlook to Stable (affirmed 'B'), monitoring 4.7x-5.1x FFO net leverage and YEKDEM-to-merchant transition.",
       "Nov-26 (9M 2026): Revenue TRY 12.10bn (vs TRY 12.48bn 9M25), net profit TRY 5.24bn (boosted by deferred tax); $27.16m spring-26 coupon paid on $550m green bond."
     ],
     "catalysts": [
@@ -1308,7 +1329,7 @@
         "impact": "Clarifies merchant power exposure vs USD-linked YEKDEM share."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-23"
   },
   "historical_notes": [
     {

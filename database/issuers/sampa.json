@@ -9,14 +9,14 @@
     "type": "corp",
     "rating": "B / B2 Implied",
     "tier": "B",
-    "benchmark_bond": "SAMPA 10.40% 2027",
+    "benchmark_bond": "SAMPA EUR 300m 5Y Senior Secured (Jun-31) / SAMPA 2027",
     "price": 97.5,
     "ytm": 10.4,
     "spread_bp": 600,
     "model_file": "Sampa_Otomotiv_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681f7b42fd45e6b8cf51e",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sampa_Otomotiv_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": 8.7,
     "net_leverage_2024a": 1.54
@@ -330,6 +330,13 @@
   "annotations": [
     {
       "issuer_id": "sampa",
+      "sector": "Consumer",
+      "topic": "Jun-26 EUR 300m Bond",
+      "source": "ABG Sundal Collier / Sampa (Jun-26)",
+      "note": "Issued inaugural oversubscribed EUR 300m 5-year senior secured bond via Sampa Finance and Investment B.V. in June 2026 for refinancing and new plant capex."
+    },
+    {
+      "issuer_id": "sampa",
       "issuer_name": "Sampa Otomotiv",
       "sector": "Consumer",
       "topic": "Retail Footprint & Concession Moat",
@@ -386,6 +393,20 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "Sampa Finance & Investment B.V. 5-Year Senior Secured Bond due Jun 2031",
+      "tranche_name": "Sampa Finance & Investment B.V. 5-Year Senior Secured Bond due Jun 2031",
+      "currency": "EUR",
+      "amount_issued_usd_m": 325.0,
+      "outstanding_usd_m": 325.0,
+      "amount_outstanding_usd_m": 325.0,
+      "amount_usd_m": 325.0,
+      "coupon": "Fixed (Jun-26 issue)",
+      "maturity": "2031-06-01",
+      "seniority": "Senior Secured",
+      "instrument_type": "Senior Secured Eurobond",
+      "governing_law": "English / Nordic"
+    },
     {
       "tranche_name": "SAMPA Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -557,18 +578,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Confirm total capex remaining on the new manufacturing plant funded by the Jun-26 EUR 300m bond.",
+      "focus_area": "Capex & FCF",
+      "relevance": "Determines timeline to positive FCF inflection."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Provide exact coupon and security/guarantor package on the EUR 300m Jun 2031 senior secured notes.",
+      "focus_area": "Documentation",
+      "relevance": "Confirms collateral coverage vs local Turkish bank debt."
     }
   ],
   "market_history": [
@@ -1182,6 +1199,19 @@
       "ebitda": 78.0,
       "fcf": 8.7,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B / B2 Implied",
+      "price": 97.5,
+      "ytm": 10.4,
+      "spread_bp": 600,
+      "net_leverage": 1.54,
+      "ebitda": 78.0,
+      "fcf": 8.7,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1268,5 +1298,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Constructive / Hard-Currency Export Aftermarket Manufacturer (B)",
+      "target_price": null,
+      "current_price": 97.5,
+      "ytm": 10.4,
+      "spread_bp": 600,
+      "summary": "Sampa successfully placed an inaugural oversubscribed EUR 300m 5-year senior secured bond in June 2026 to refinance debt and fund its new manufacturing plant. High export share (>85% hard-currency aftermarket sales across 160+ countries) insulates credit quality from domestic Turkish demand swings."
+    },
+    "positives": [
+      "Strong hard-currency export revenue profile (~85%+ USD/EUR aftermarket sales) providing natural hedge against TRY volatility.",
+      "Inaugural EUR 300m 5-year senior secured bond (Jun-26, oversubscribed) extended maturity wall and funded expansion.",
+      "Low-cost integrated Turkish manufacturing base in Samsun serving heavy commercial vehicle aftermarket."
+    ],
+    "negatives": [
+      "Expansion capex for new manufacturing facility elevates near-term cash absorption.",
+      "Working capital intensity across broad SKU catalog (~100,000+ spare parts) and global distribution hubs.",
+      "Single-site production concentration in Samsun, Turkey."
+    ],
+    "background": {
+      "business_overview": "Global commercial vehicle aftermarket spare parts manufacturer headquartered in Samsun, Turkey, exporting to 160+ countries.",
+      "asset_perimeter": "Integrated manufacturing campus (foundries, rubber/metal, air springs, cabins) and European/US warehouses.",
+      "ownership_governance": "Privately owned Turkish industrial exporter; Eurobond issued via Sampa Finance and Investment B.V."
+    },
+    "recent_drivers": [
+      "Jun-26: Issued oversubscribed EUR 300m 5-year senior secured bond (maturing Jun 2031) for debt refinancing and new plant capex."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited Results & New Plant Commissioning Update",
+        "impact": "Verifies post-refinancing net leverage (~1.5x-2.0x) and capex ramp."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Jun-26 EUR 300m Senior Secured Eurobond",
+      "source": "ABG / Sampa",
+      "status": "Current Research Run",
+      "summary": "Added inaugural EUR 300m 5-year senior secured bond due Jun 2031; proceeds refinance debt and fund plant expansion."
+    }
+  ]
 }

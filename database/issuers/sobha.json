@@ -7,16 +7,16 @@
     "region": "Middle East",
     "sector": "Real Estate",
     "type": "corp",
-    "rating": "BB- / Ba3",
+    "rating": "BB- / Ba2 Sukuk (Moody's, 2026) / BB Neg (S&P, 2026)",
     "tier": "BB",
-    "benchmark_bond": "SOBHA 7.95% 2028",
+    "benchmark_bond": "SOBHA 8.75% Jul 2028 Sukuk",
     "price": 102.0,
     "ytm": 7.95,
     "spread_bp": 390,
     "model_file": "Sobha_Realty_Credit_Model.xlsx",
     "notion_id": "3e01d0ad68c6814fa4cfff9fdb4e339d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sobha_Realty_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -127.7,
     "net_leverage_2024a": 0.83
@@ -333,6 +333,13 @@
   "annotations": [
     {
       "issuer_id": "sobha",
+      "sector": "Real Estate",
+      "topic": "2026 Split Rating Action",
+      "source": "Moody's / S&P (2026)",
+      "note": "Moody's affirmed Ba3 CFR and upgraded senior unsecured sukuk to Ba2 Stable; S&P maintained BB but revised outlook to Negative in 2026 on term-loan leverage expansion."
+    },
+    {
+      "issuer_id": "sobha",
       "issuer_name": "Sobha Realty",
       "sector": "Real Estate",
       "topic": "RERA Escrow Mechanics",
@@ -395,6 +402,20 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "Sobha Realty (PNC Investments) 8.750% Senior Unsecured Sukuk due Jul 2028",
+      "tranche_name": "Sobha Realty (PNC Investments) 8.750% Senior Unsecured Sukuk due Jul 2028",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "8.750%",
+      "maturity": "2028-07-17",
+      "seniority": "Senior Unsecured Sukuk",
+      "instrument_type": "USD Sukuk",
+      "governing_law": "English"
+    },
     {
       "tranche_name": "SOBHA Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -566,11 +587,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
-      "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
-      "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
-      "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
-      "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      "question": "Detail total term-loan facilities drawn in 2026 that triggered S&P's Negative Outlook and expected peak gross debt.",
+      "focus_area": "Leverage & Ratings",
+      "relevance": "Explains Moody's Ba2 upgrade vs S&P BB Negative divergence."
+    },
+    {
+      "question": "Confirm 2026 YTD cash collections and construction spend across Sobha Hartland II and Siniya Island.",
+      "focus_area": "FCF & Liquidity",
+      "relevance": "Measures self-funding capacity."
     }
   ],
   "market_history": [
@@ -1184,6 +1208,19 @@
       "ebitda": 480.0,
       "fcf": -127.7,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BB- / Ba2 Sukuk (Moody's, 2026) / BB Neg (S&P, 2026)",
+      "price": 102.0,
+      "ytm": 7.95,
+      "spread_bp": 390,
+      "net_leverage": 0.83,
+      "ebitda": 480.0,
+      "fcf": -127.7,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1270,5 +1307,50 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / High-Growth Dubai Developer with S&P Negative Outlook Split (Ba2/BB Neg)",
+      "target_price": null,
+      "current_price": 102.0,
+      "ytm": 7.95,
+      "spread_bp": 390,
+      "summary": "Split rating dynamic in 2026: Moody's affirmed Ba3 CFR and upgraded senior unsecured sukuk to Ba2 Stable on strong AED 27.6bn prior sales momentum, while S&P revised its 'BB' outlook to Negative in 2026 after term-loan facilities pushed leverage above expectations. Vertical backward integration supports margins."
+    },
+    "positives": [
+      "Moody's upgraded senior unsecured sukuk to Ba2 Stable (CFR Ba3) on robust Dubai sales scale (AED 27.6bn prior-year bookings).",
+      "Backward-integrated design & construction model protects EBITDA margins and handover quality.",
+      "Strong escrow cash collections across Sobha Hartland II and Siniya Island developments."
+    ],
+    "negatives": [
+      "S&P revised 'BB' rating outlook to Negative in 2026 due to higher-than-expected leverage from new term-loan facilities & aggressive land/project expansion.",
+      "Geographic concentration in Dubai real estate cycle.",
+      "Significant ongoing construction capex & working capital commitments."
+    ],
+    "background": {
+      "business_overview": "Major Dubai private luxury developer (PNC Investments LLC) known for Sobha Hartland, Sobha Hartland II, and Siniya Island.",
+      "asset_perimeter": "Backward-integrated UAE engineering/construction and master-planned residential land bank.",
+      "ownership_governance": "Privately owned by Menon family (PNC Investments LLC); LSE-listed USD sukuk."
+    },
+    "recent_drivers": [
+      "2026: Moody's affirmed Ba3 CFR and upgraded senior unsecured sukuk to Ba2 Stable; S&P maintained BB but cut outlook to Negative on higher term-loan leverage."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited Results & S&P Negative Outlook Resolution",
+        "impact": "Tests whether handovers/collections restore leverage below S&P's downgrade trigger."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Moody's Ba2 Sukuk Upgrade vs S&P BB Negative Outlook",
+      "source": "Moody's / S&P",
+      "status": "Current Research Run",
+      "summary": "Captured 2026 agency divergence (Moody's Ba2 Stable sukuk vs S&P BB Negative on term-loan growth)."
+    }
+  ]
 }

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/aragvi.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ARAGVI 11.125% 2029: price 89.0, YTM 12.15%, spread 780bp (as of 2026-11-21).
 - Rating as recorded: B- (S&P Neg) / B- (Fitch).

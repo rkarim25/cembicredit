@@ -16,7 +16,7 @@
     "model_file": "FirstRand_Bank_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81a3-84c3-ccb890c49c45",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/FirstRand_Bank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "bank"
   },
   "financials_multi_year": [
@@ -334,6 +334,20 @@
         "fcf": 87.5,
         "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
       }
+    },
+    {
+      "period": "FY26",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "FirstRand Limited Audited FY2026 Results (ended 30-Jun-26), read 23-Nov-26",
+      "net_profit": 44500.0,
+      "roe_pct": 24.9,
+      "npl_pct": 4.62,
+      "cet1_pct": 13.9,
+      "car_pct": 17.1,
+      "observations": {
+        "notes": "FY26 (Jun-26) continuing normalised earnings +13% YoY to ZAR 44.5bn (ROE 24.9%), reported group earnings ZAR 39.7bn (-5% YoY on \u00a3518.4m / ~ZAR 12bn UK motor finance redress). CET1 13.9%, Total CAR 17.1%, Stage 3 loans 4.62% (vs 4.70% FY25), CLR 1.05%."
+      }
     }
   ],
   "supplementary_data": {
@@ -363,6 +377,13 @@
     "thesis": "Premier banking franchise in South Africa (FNB, RMB); industry-leading ROE and conservative risk management."
   },
   "annotations": [
+    {
+      "issuer_id": "firstrand",
+      "sector": "Banks",
+      "topic": "FY26 Audited Results (Jun-26)",
+      "source": "FirstRand FY26 Release (2026)",
+      "note": "Continuing normalised earnings +13% YoY to R44.5bn (ROE 24.9%), reported R39.7bn (-5% on \u00a3518.4m UK motor redress), CET1 13.9%, CAR 17.1%, Stage 3 NPL 4.62%, CLR 1.05%."
+    },
     {
       "issuer_id": "firstrand",
       "issuer_name": "FirstRand Bank",
@@ -595,18 +616,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      "question": "Confirm whether the \u00a3518.4m UK motor redress provision fully caps MotoNovo/Aldermore liability.",
+      "focus_area": "UK Litigation",
+      "relevance": "Reduced reported FY26 earnings by ~ZAR 12bn."
     },
     {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Outline USD EMTN vs domestic ZAR Tier 2 issuance plans for FY27.",
+      "focus_area": "Funding",
+      "relevance": "Guides secondary USD curve supply."
     }
   ],
   "market_history": [
@@ -1220,6 +1237,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "Ba2 / BB-",
+      "price": 98.8,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1306,5 +1336,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Sector-Best South African ROE & Capital Franchise (Ba2/BB-)",
+      "target_price": null,
+      "current_price": 98.8,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "summary": "Audited FY26 (Jun-26) results confirmed elite continuing profitability (+13% YoY normalised earnings to ZAR 44.5bn, 24.9% ROE) even after absorbing a \u00a3518.4m UK motor finance redress charge. Capital remains fortress-grade with 13.9% CET1 and 17.1% CAR while Stage 3 NPLs improved to 4.62%."
+    },
+    "positives": [
+      "Top-tier South African profitability: 24.9% normalised ROE (ZAR 44.5bn continuing earnings, +13% YoY) in FY26.",
+      "Strong solvency post-UK redress: CET1 13.9% and Total CAR 17.1% comfortably above SARB minimums.",
+      "Improving asset quality: Stage 3 loans fell to 4.62% (from 4.70% FY25); FNB/RMB/WesBank franchises lead domestic market share."
+    ],
+    "negatives": [
+      "Absorbed \u00a3518.4m (~ZAR 12bn) UK motor finance redress provision in FY26 and reshaping UK MotoNovo strategy.",
+      "Foreign-currency ratings constrained by South African sovereign ceiling (Ba2/BB-).",
+      "Credit loss ratio of 1.05% reflects lingering South African retail affordability pressure."
+    ],
+    "background": {
+      "business_overview": "South Africa's largest bank by market cap, operating FNB (retail/commercial), RMB (corporate/IB), WesBank (vehicle finance), and Aldermore (UK).",
+      "asset_perimeter": "South Africa core banking, broader Africa portfolio, and UK specialist bank Aldermore (issued \u00a3300m T2 in 2026).",
+      "ownership_governance": "Publicly listed on JSE (FSR); regulated by SARB Prudential Authority."
+    },
+    "recent_drivers": [
+      "FY26 (ended Jun-26): Continuing normalised earnings ZAR 44.5bn (+13% YoY), ROE 24.9%, CET1 13.9%, CAR 17.1%, Stage 3 4.62%; absorbed \u00a3518.4m UK motor redress.",
+      "2026: UK unit Aldermore issued \u00a3300m Tier 2 capital."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "H1 FY27 Interim Results (Dec-26 period)",
+        "impact": "Confirms post-redress UK capital trajectory and South African credit loss moderation."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "FY26 Audited Results (R44.5bn Norm. Earnings, 13.9% CET1)",
+      "source": "FirstRand FY26 Filings",
+      "status": "Current Research Run",
+      "summary": "Continuing earnings +13% to R44.5bn (24.9% ROE), CET1 13.9%, CAR 17.1%, Stage 3 4.62%; \u00a3518.4m UK redress absorbed."
+    }
+  ]
 }

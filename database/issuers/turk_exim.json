@@ -7,16 +7,16 @@
     "region": "CEEMEA",
     "sector": "Banks",
     "type": "bank",
-    "rating": "BB- / B1",
+    "rating": "BB- Stable (Fitch, 2026) / B1",
     "tier": "BB",
-    "benchmark_bond": "EXCRTU 6.75% 2029",
+    "benchmark_bond": "EXCRTU 6.125% 2029 / 6.75% 2029",
     "price": 99.8,
     "ytm": 6.75,
     "spread_bp": 215,
     "model_file": "Turk_Eximbank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6815aba39e1d30b4b8c8a",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turk_Eximbank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "bank"
   },
   "financials_multi_year": [
@@ -365,6 +365,13 @@
   "annotations": [
     {
       "issuer_id": "turk_exim",
+      "sector": "Banks",
+      "topic": "Nov-26 COP31 Multilateral Funding",
+      "source": "AIIB / AA / Fitch (Nov-26)",
+      "note": "Signed $300m sovereign-backed AIIB package ($200m liquidity + $100m green) at COP31 in Nov 2026 alongside IBRD & KfW; Fitch BB- Stable."
+    },
+    {
+      "issuer_id": "turk_exim",
       "issuer_name": "T\u00fcrk Eximbank",
       "sector": "Banks",
       "topic": "NIM & Asset-Liability Repricing",
@@ -595,18 +602,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
-      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
-      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
-      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
-      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      "question": "Confirm 2027 international Eurobond refinancing volume vs multilateral (AIIB/IBRD/KfW) undrawn pipeline.",
+      "focus_area": "Funding & Refinancing",
+      "relevance": "No retail deposits; relies on wholesale/IFI funding."
     },
     {
-      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
-      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
-      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
-      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
-      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      "question": "Update NPL trend across SME export portfolios under tight domestic lira/FX credit conditions.",
+      "focus_area": "Asset Quality",
+      "relevance": "Monitor migration beyond 0.4% historical NPL."
     }
   ],
   "market_history": [
@@ -1220,6 +1223,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BB- Stable (Fitch, 2026) / B1",
+      "price": 99.8,
+      "ytm": 6.75,
+      "spread_bp": 215,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1306,5 +1322,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Sovereign-Linked Export Policy Bank (BB-)",
+      "target_price": null,
+      "current_price": 99.8,
+      "ytm": 6.75,
+      "spread_bp": 215,
+      "summary": "Turkey's 100% state-owned official export credit agency (Fitch BB- Stable, equalized with sovereign). Secured $300m AIIB sovereign-backed facilities at COP31 in Nov 2026 alongside IBRD/KfW lines; ~87% loan-heavy asset base and >21% CAR anchor senior Eurobond curve (2027-2029)."
+    },
+    "positives": [
+      "100% owned by Turkish Ministry of Treasury and Finance; Fitch BB- Stable equalized with sovereign IDR.",
+      "Strong multilateral funding access: signed $300m AIIB package ($200m liquidity + $100m green) at COP31 in Nov 2026 plus IBRD/KfW lines.",
+      "High capital adequacy (CAR ~21.5%) and minimal NPLs (~0.4%) backed by Turkish commercial bank letters of guarantee."
+    ],
+    "negatives": [
+      "Ratings and spread direction are 100% tethered to Turkish sovereign credit and external reserve dynamics.",
+      "Wholesale-funded balance sheet (no retail deposit base) requires continuous Eurobond and IFI market access.",
+      "FX loan concentration across Turkish export sectors."
+    ],
+    "background": {
+      "business_overview": "T\u00fcrkiye's official Export Credit Agency (top-10 Turkish bank by assets), providing export credits, guarantees, and insurance.",
+      "asset_perimeter": "~87% of assets in short- and medium-term export loans (heavily backed by commercial bank LGs).",
+      "ownership_governance": "100% owned by the Republic of T\u00fcrkiye (Ministry of Treasury and Finance)."
+    },
+    "recent_drivers": [
+      "Nov-26 (COP31): Signed $300m sovereign-backed AIIB financing ($200m resilience/liquidity + $100m green energy) alongside World Bank & KfW lines.",
+      "2026: Fitch maintained Long-Term FC/LC IDRs at BB- Stable."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited BRSA Financials & 2027 Eurobond Issuance Plan",
+        "impact": "Confirms roll-over of 2027 Eurobond maturities."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "COP31 $300m AIIB Facility & Fitch BB- Stable",
+      "source": "AIIB / Fitch",
+      "status": "Current Research Run",
+      "summary": "Signed $300m AIIB package in Nov-26; Fitch maintains BB- Stable aligned with Turkey sovereign."
+    }
+  ]
 }

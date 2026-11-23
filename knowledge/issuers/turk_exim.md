@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/turk_exim.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- EXCRTU 6.75% 2029: price 99.8, YTM 6.75%, spread 215bp (as of 2026-09-19).
-- Rating as recorded: BB- / B1.
+- EXCRTU 6.125% 2029 / 6.75% 2029: price 99.8, YTM 6.75%, spread 215bp (as of 2026-11-23).
+- Rating as recorded: BB- Stable (Fitch, 2026) / B1.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|

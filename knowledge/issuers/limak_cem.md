@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/limak_cem.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- LIMAKC 8.25% 2028: price 98.8, YTM 8.25%, spread 385bp (as of 2026-09-19).
-- Rating as recorded: B+ / B.
+- LIMAKC 8.25% 2028: price 98.8, YTM 8.25%, spread 385bp (as of 2026-11-23).
+- Rating as recorded: B+ Stable (Fitch, 2026) / B.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

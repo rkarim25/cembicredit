@@ -7,7 +7,7 @@
     "region": "CEEMEA",
     "sector": "Materials / Cement",
     "type": "corp",
-    "rating": "B / B3",
+    "rating": "B+ Stable (Fitch, May-26) / B3",
     "tier": "High Yield",
     "benchmark_bond": "CIMKOC 8.60% 2030",
     "price": 105.0,
@@ -16,7 +16,7 @@
     "model_file": "Cimko_Cimento_Credit_Model.xlsx",
     "notion_id": "3e21d0ad-68c6-81c3-9b09-cd72a8ecc96e",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Cimko_Cimento_Credit_Model.xlsx",
-    "last_updated": "2026-09-21",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": 18.5,
     "net_leverage_2024a": 1.8
@@ -202,6 +202,13 @@
   },
   "annotations": [
     {
+      "issuer_id": "cimkoc",
+      "sector": "Materials / Cement",
+      "topic": "Fitch May-26 Affirmation",
+      "source": "Fitch Ratings (May-26)",
+      "note": "Fitch affirmed \u00c7imko Long-Term IDR at B+ Stable in May 2026, reflecting solid domestic market competitiveness and 2026-2027 financial structure projections."
+    },
+    {
       "sector": "Materials / Cement",
       "topic": "Earnings / Normalisation",
       "source": "J.P. Morgan",
@@ -347,12 +354,14 @@
   },
   "management_questions": [
     {
-      "question": "What is the projected IRR and commercial commissioning date for the  Syrian export border grinding expansion?",
-      "rationale": "Direct Syrian reconstruction off-take provides premium pricing in USD, insulating the business from Turkish domestic macro volatility."
+      "question": "What is the expected 2027 volume trajectory as post-earthquake reconstruction transitions to normalized demand?",
+      "focus_area": "Demand & Margins",
+      "relevance": "Key driver of EBITDA sustainability."
     },
     {
-      "question": "How will working capital requirements evolve as post-earthquake reconstruction projects transition to completion in late 2026?",
-      "rationale": "Normalising working capital release will support 2027 FCF and facilitate debt paydown back towards 2.0x."
+      "question": "Detail dividend/intercompany upstream policy to Sanko Holding.",
+      "focus_area": "Governance",
+      "relevance": "Cash leakage vs deleveraging."
     }
   ],
   "market_history": [
@@ -810,6 +819,19 @@
       "ebitda": 165.0,
       "fcf": 18.5,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B+ Stable (Fitch, May-26) / B3",
+      "price": 105.0,
+      "ytm": 8.6,
+      "spread_bp": 391,
+      "net_leverage": 1.8,
+      "ebitda": 165.0,
+      "fcf": 18.5,
+      "guidance_status": "On Track"
     }
   ],
   "commodity_drivers": {
@@ -887,5 +909,51 @@
     "net_leverage": 2.66,
     "total_mistakes_caught": 0,
     "last_reconciled": "2026-09-21"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Turkish Post-Quake Cement Beneficiary (B+)",
+      "target_price": null,
+      "current_price": 105.0,
+      "ytm": 8.6,
+      "spread_bp": 391,
+      "summary": "Fitch affirmed \u00c7imko \u00c7imento at 'B+' Stable in May 2026, supported by resilient southeastern Turkey reconstruction cement demand and moderate ~1.8x net leverage. Tightening domestic monetary conditions and energy/petcoke input swings remain key margin sensitivities."
+    },
+    "positives": [
+      "Fitch affirmed B+ Stable in May 2026 on solid competitive positioning in southeastern Turkey building materials.",
+      "Structural demand tailwind from post-earthquake reconstruction and regional infrastructure works.",
+      "Conservative balance sheet (~1.8x net leverage) vs Turkish HY peers."
+    ],
+    "negatives": [
+      "Geographic concentration in Turkish construction/cement cycle and high domestic interest rates.",
+      "Margin sensitivity to petcoke, coal, and electricity tariff inflation.",
+      "Relatively small standalone scale vs global cement majors."
+    ],
+    "background": {
+      "business_overview": "Major Turkish cement and ready-mix concrete producer operating integrated clinker plants in southeastern Anatolia (Sanko Holding group).",
+      "asset_perimeter": "Ad\u0131yaman, Kahramanmara\u015f, and Bart\u0131n cement/clinker & grinding facilities.",
+      "ownership_governance": "Subsidiary of Sanko Holding (private Turkish industrial group)."
+    },
+    "recent_drivers": [
+      "May-26: Fitch affirmed Long-Term Foreign and Local Currency IDRs at 'B+' with Stable Outlook.",
+      "2026: Ongoing reconstruction volume support across southeastern Turkey."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited Financial Statements",
+        "impact": "Assesses volume normalization and FCF post-reconstruction peak."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Fitch May-26 B+ Stable Affirmation",
+      "source": "Fitch Ratings",
+      "status": "Current Research Run",
+      "summary": "Affirmed B+ Stable IDR in May-26; southeastern Turkey reconstruction demand underpins cash flows."
+    }
+  ]
 }

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/thy.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - THYAO 7.25% 2029: price 99.2, YTM 7.45%, spread 340bp (as of 2026-11-22).
 - Rating as recorded: BB- / BB-.

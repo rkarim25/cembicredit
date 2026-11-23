@@ -51,18 +51,17 @@ The corporate universe lives in `database/issuers/*.json` (91 issuers today: 72 
 
 ## CEMBI CEEMEA coverage today and gaps
 
-Covered in `database/issuers` (22-Nov-26, 103 issuers): Turkey 26 (banks and corporates), UAE 16 (incl. Mashreqbank), Saudi Arabia 9 (incl. Ma'aden), South Africa 10 (incl. Absa, Sappi), Nigeria 5 (incl. Access Holdings, Seplat), Israel 3 (Teva, Bank Leumi, Bank Hapoalim), Kazakhstan 3, Angola 3, Ukraine 4, Georgia 2 (Bank of Georgia / Lion Finance, TBC Bank), Qatar 2, Kuwait 2, Poland 2, Romania 2, Hungary 2 (MOL, OTP Bank), Ghana 2, and single names in Bahrain, Czech Republic, Iraq, Morocco, Oman, Moldova, Brazil, Bermuda, Ireland, pan-Africa. The full list with quotes is `themes/corporate-monitor.md`.
+Covered in `database/issuers` (23-Nov-26, 112 issuers): Turkey 26 (banks and corporates), UAE 16 (incl. Mashreqbank), Saudi Arabia 9 (incl. Ma'aden), South Africa 11 (incl. Absa, Nedbank, Sappi), Nigeria 7 (incl. Access Holdings, Seplat, UBA, Zenith), Israel 5 (Teva, Bank Leumi, Bank Hapoalim, Israel Discount Bank, Mizrahi Tefahot), Kazakhstan 4 (incl. Kaspi.kz), Kuwait 4 (incl. Burgan Bank, KIPCO), Angola 3, Ukraine 4, Georgia 2 (Bank of Georgia / Lion Finance, TBC Bank), Qatar 2, Poland 2, Romania 2, Hungary 2 (MOL, OTP Bank), Ghana 2, and single names in Bahrain, Czech Republic, Egypt (CIB Egypt), Iraq, Morocco, Oman, Moldova, Brazil, Bermuda, Ireland, pan-Africa. The full list with quotes is `themes/corporate-monitor.md`.
 
 Index names with no record yet (build from filings with `/run credit <issuer>`, Cognitive Credit first where covered; priority order is by likely CEMBI weight):
 
-- Israel: Israel Discount Bank, Mizrahi Tefahot. (Teva, Bank Leumi, Bank Hapoalim covered.)
-- Nigeria: UBA, Zenith, First Bank (FBN Holdings). (Access Holdings, Seplat covered.)
+- Nigeria: First HoldCo (First Bank of Nigeria). (Access Holdings, Seplat, UBA, Zenith covered.)
 - Georgia / Armenia / Azerbaijan: Georgia Capital, Ameriabank (within Lion Finance / BGEO), SOCAR (check EMBI classification), International Bank of Azerbaijan. (Bank of Georgia and TBC Bank covered.)
 - Uzbekistan: National Bank of Uzbekistan, Uzbekneftegaz, SQB, Ipoteka (within OTP), Navoi Mining (check EMBI classification).
-- Kazakhstan: Kaspi, Development Bank of Kazakhstan (EMBI), Tengizchevroil (private, loans).
-- GCC: Burgan Bank, KIPCO, Dubai Holding, Majid Al Futtaim (covered), Mubadala and ADNOC entities (EMBI), Saudi Electricity (covered), QatarEnergy (EMBI), Ooredoo (covered). (Mashreqbank, Ma'aden covered.)
-- Egypt: Commercial International Bank, Banque Misr (quasi), Egypt's sukuk and corporate issuers are thin. Kenya: none in CEMBI of size. Jordan, Serbia, Croatia: no USD corporate issuers of index size.
-- South Africa: Nedbank, Petra Diamonds, Transnet (EMBI). (Standard Bank, FirstRand, Absa, Sappi covered.)
+- Kazakhstan: Development Bank of Kazakhstan (EMBI), Tengizchevroil (private, loans). (KMG, Halyk, QazaqGaz, Kaspi.kz covered.)
+- GCC: Dubai Holding, Mubadala and ADNOC entities (EMBI), QatarEnergy (EMBI). (Burgan Bank, KIPCO, Majid Al Futtaim, Mashreqbank, Ma'aden, Saudi Electricity, Ooredoo covered.)
+- Egypt: Banque Misr (quasi), Egypt's sukuk and corporate issuers are thin. (Commercial International Bank Egypt covered.) Kenya: none in CEMBI of size. Jordan, Serbia, Croatia: no USD corporate issuers of index size.
+- South Africa: Petra Diamonds, Transnet (EMBI). (Standard Bank, FirstRand, Absa, Nedbank, Sappi covered.)
 
 ## GBI-EM Global Diversified, CEEMEA local markets
 

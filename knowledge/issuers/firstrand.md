@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/firstrand.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- FIRSTR 6.25% 2028: price 98.8, YTM 6.75%, spread 270bp (as of 2026-09-19).
+- FIRSTR 6.25% 2028: price 98.8, YTM 6.75%, spread 270bp (as of 2026-11-23).
 - Rating as recorded: Ba2 / BB-.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |

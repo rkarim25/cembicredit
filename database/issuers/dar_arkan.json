@@ -9,14 +9,14 @@
     "type": "corp",
     "rating": "BB- / Ba3 / B+",
     "tier": "BB",
-    "benchmark_bond": "DARARK 8.15% 2029",
+    "benchmark_bond": "DARARK 7.25% May 2031 Sukuk ($600m)",
     "price": 99.5,
     "ytm": 8.15,
     "spread_bp": 410,
     "model_file": "Dar_Al_Arkan_Credit_Model.xlsx",
     "notion_id": "3e01d0ad68c681118a96c1193e9c5315",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dar_Al_Arkan_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -142.7,
     "net_leverage_2024a": 3.47
@@ -301,6 +301,16 @@
         "fcf": -77.5,
         "formula_check": "446.4 - 233.2 - 110.0 - (150.3) - 30.4 = -77.5"
       }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "SAR",
+      "source": "Dar Al Arkan 9M 2026 Consolidated Financial Results (Tadawul), read 23-Nov-26",
+      "net_profit": 789.4,
+      "observations": {
+        "notes": "9M 2026 net profit rose +12% YoY to SAR 789.40m (~$210.5m) on higher property sales and investment income."
+      }
     }
   ],
   "supplementary_data": {
@@ -331,6 +341,13 @@
     "thesis": "12.4M+ sqm Saudi strategic land bank covering gross debt by 2.5x; $850M liquid cash fortress."
   },
   "annotations": [
+    {
+      "issuer_id": "dar_arkan",
+      "sector": "Real Estate",
+      "topic": "9M26 Profit & May-26 Sukuk",
+      "source": "Tadawul / Argaam / Maaal (2026)",
+      "note": "9M26 net profit +12% YoY to SAR 789.40m; redeemed $400m sukuk in Feb-26 and issued $600m 5Y 7.25% sukuk due May 2031."
+    },
     {
       "issuer_id": "dar_arkan",
       "issuer_name": "Dar Al Arkan",
@@ -395,6 +412,20 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "Dar Al Arkan 7.250% Senior Unsecured Sukuk due May 2031 (15th Issue, May-26)",
+      "tranche_name": "Dar Al Arkan 7.250% Senior Unsecured Sukuk due May 2031 (15th Issue, May-26)",
+      "currency": "USD",
+      "amount_issued_usd_m": 600.0,
+      "outstanding_usd_m": 600.0,
+      "amount_outstanding_usd_m": 600.0,
+      "amount_usd_m": 600.0,
+      "coupon": "7.250%",
+      "maturity": "2031-05-01",
+      "seniority": "Senior Unsecured Sukuk",
+      "instrument_type": "USD Sukuk",
+      "governing_law": "English"
+    },
     {
       "tranche_name": "DARARK Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -566,11 +597,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
-      "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
-      "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
-      "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
-      "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      "question": "Break down 9M 2026 revenue/profit between bulk Saudi land sales and Dar Global residential handovers.",
+      "focus_area": "Earnings Quality",
+      "relevance": "Bulk land sales are volatile year to year."
+    },
+    {
+      "question": "Confirm total unrestricted cash vs project escrow balances post May-26 $600m sukuk.",
+      "focus_area": "Liquidity",
+      "relevance": "Measures true net debt coverage."
     }
   ],
   "market_history": [
@@ -1184,6 +1218,19 @@
       "ebitda": 360.0,
       "fcf": -142.7,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BB- / Ba3 / B+",
+      "price": 99.5,
+      "ytm": 8.15,
+      "spread_bp": 410,
+      "net_leverage": 3.47,
+      "ebitda": 360.0,
+      "fcf": -142.7,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1270,5 +1317,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / Saudi Land-Bank & International Developer (BB-/Ba3)",
+      "target_price": null,
+      "current_price": 99.5,
+      "ytm": 7.25,
+      "spread_bp": 410,
+      "summary": "Dar Al Arkan redeemed its $400m Feb-26 sukuk and priced a $600m 5Y 7.25% sukuk due May 2031 under its $2.25bn program. 9M 2026 net profit rose 12% YoY to SAR 789.4m, though structural reliance on lumpy land sales and Dar Global international luxury projects keeps leverage ~3.5x."
+    },
+    "positives": [
+      "Proven USD sukuk market access: redeemed $400m Feb-26 sukuk and issued $600m 7.25% May 2031 sukuk (15th international issue).",
+      "9M 2026 net profit climbed 12% YoY to SAR 789.4m supported by property sales and investment income.",
+      "Large unencumbered Saudi land bank carried below market value provides substantial asset coverage."
+    ],
+    "negatives": [
+      "Lumpy cash flow profile dependent on bulk land monetization timing and off-plan working capital cycles.",
+      "Elevated gross/net leverage (~3.5x) relative to Dubai peers (Emaar/Aldar/DAMAC).",
+      "International expansion via Dar Global (Oman, Dubai, Europe, Saudi Trump-branded projects) adds execution risk."
+    ],
+    "background": {
+      "business_overview": "Major Saudi real estate developer (Tadawul-listed) and international luxury project developer via Dar Global plc.",
+      "asset_perimeter": "Riyadh/Jeddah/Mecca land bank & residential developments plus Dar Global international luxury projects.",
+      "ownership_governance": "Publicly listed on Tadawul; frequent international sukuk issuer."
+    },
+    "recent_drivers": [
+      "9M26: Net profit +12% YoY to SAR 789.4m on higher property sales and investment income.",
+      "Feb-26 & May-26: Redeemed $400m Feb-26 sukuk and issued $600m 5Y 7.25% sukuk due May 2031."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited Tadawul Financials & Land-Sale Cash Conversion",
+        "impact": "Tests FCF generation vs Dar Global development spend."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "9M26 +12% Profit & $600m May-2031 Sukuk",
+      "source": "Tadawul / Maaal",
+      "status": "Current Research Run",
+      "summary": "9M26 NPAT SAR 789.4m (+12% YoY); redeemed $400m Feb-26 sukuk and priced $600m 7.25% May 2031 sukuk."
+    }
+  ]
 }

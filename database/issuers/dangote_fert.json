@@ -9,14 +9,14 @@
     "type": "corp",
     "rating": "B / B2",
     "tier": "B",
-    "benchmark_bond": "DANFER 11.50% 2028",
+    "benchmark_bond": "DANFER 7.75% 2031 ($750m) / 11.50% 2028",
     "price": 96.0,
     "ytm": 11.5,
     "spread_bp": 715,
     "model_file": "Dangote_Fertiliser_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681dcba20e1bd4b761c01",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dangote_Fertiliser_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -14.9,
     "net_leverage_2024a": 2.77
@@ -330,6 +330,13 @@
   "annotations": [
     {
       "issuer_id": "dangote_fert",
+      "sector": "Materials",
+      "topic": "2026 $750m Bond & $600m AFC",
+      "source": "Cbonds / AFC / Financial Nigeria (2026)",
+      "note": "Issued $750m 7.75% 2031 Eurobond and secured $600m AFC facility in Jun 2026 for Nigeria urea expansion and Ethiopia plant."
+    },
+    {
+      "issuer_id": "dangote_fert",
       "issuer_name": "Dangote Fertiliser",
       "sector": "Materials",
       "topic": "Global Cost Curve Advantage",
@@ -390,6 +397,20 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "Dangote Fertiliser 7.750% Senior Unsecured Eurobond due 2031",
+      "tranche_name": "Dangote Fertiliser 7.750% Senior Unsecured Eurobond due 2031",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "7.750%",
+      "maturity": "2031-01-01",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English"
+    },
     {
       "tranche_name": "DANFER Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -561,18 +582,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Detail ring-fencing and restricted-payment covenants between Dangote Fertiliser, Refinery, and DIL parent.",
+      "focus_area": "Group Ring-Fencing",
+      "relevance": "Prevents cash leakage to sister projects."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Confirm committed EPC schedule and debt-to-equity funding split for the Ethiopia plant.",
+      "focus_area": "Capex",
+      "relevance": "Quantifies incremental leverage from $600m AFC + expansion."
     }
   ],
   "market_history": [
@@ -1186,6 +1203,19 @@
       "ebitda": 650.0,
       "fcf": -14.9,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B / B2",
+      "price": 96.0,
+      "ytm": 11.5,
+      "spread_bp": 715,
+      "net_leverage": 2.77,
+      "ebitda": 650.0,
+      "fcf": -14.9,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1290,5 +1320,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Constructive / USD Export-Earning Nigerian Urea Champion (B/B2)",
+      "target_price": null,
+      "current_price": 96.0,
+      "ytm": 11.5,
+      "spread_bp": 715,
+      "summary": "Dangote Fertiliser priced $750m 7.75% 2031 international Eurobonds (JPM/BofA) and secured a $600m AFC facility in June 2026 to fund Nigeria urea trains and a new Ethiopia plant. Hard-currency export sales and low-cost Nigerian gas feedstock drive ~55%+ EBITDA margins, tempered by expansion capex & sovereign ceiling."
+    },
+    "positives": [
+      "First-quartile global urea cost position via captive Nigerian natural gas feedstock and Lekki Free Zone export terminal.",
+      "Secured $750m 7.75% 2031 Eurobond and $600m AFC facility (Jun-26), demonstrating deep international & DFI liquidity access.",
+      "USD-denominated export revenues insulate debt service from Naira depreciation."
+    ],
+    "negatives": [
+      "Large multi-billion dollar expansion capex across Nigeria urea trains and Ethiopia fertilizer complex.",
+      "Capped by Nigerian sovereign ceiling ('B') and domestic gas supply/pipeline reliability risks.",
+      "Group-level capital allocation and related-party linkages across Dangote ecosystem."
+    ],
+    "background": {
+      "business_overview": "Africa's largest granulated urea fertilizer complex (3 Mtpa capacity) located in Lekki Free Zone, Lagos, exporting globally.",
+      "asset_perimeter": "Dual 1.5 Mtpa ammonia/urea trains in Lekki plus planned Nigeria expansion and Ethiopia plant.",
+      "ownership_governance": "Part of Dangote Industries Limited; international Eurobond & DFI borrower."
+    },
+    "recent_drivers": [
+      "2026: Issued $750m 7.75% international Eurobond due 2031.",
+      "Jun-26: Secured $600m facility from Africa Finance Corporation (AFC) for Nigeria & Ethiopia urea expansions."
+    ],
+    "catalysts": [
+      {
+        "date": "H1 2027",
+        "event": "FY2026 Audited Financials & Ethiopia Plant EPC Milestone",
+        "impact": "Monitors capex drawdowns vs urea price realization."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "$750m 2031 Eurobond & Jun-26 $600m AFC Facility",
+      "source": "Cbonds / AFC",
+      "status": "Current Research Run",
+      "summary": "Added $750m 7.75% 2031 Eurobond and Jun-26 $600m AFC expansion facility."
+    }
+  ]
 }

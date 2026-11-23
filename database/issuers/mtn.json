@@ -1187,6 +1187,19 @@
       "ebitda": 4500,
       "fcf": 481.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "Ba2 (Moody's) / BB- Pos (S&P)",
+      "price": 99.4,
+      "ytm": 6.9,
+      "spread_bp": 285,
+      "net_leverage": 1.65,
+      "ebitda": 4500,
+      "fcf": 481.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [

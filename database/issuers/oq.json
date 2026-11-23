@@ -7,16 +7,16 @@
     "region": "GCC",
     "sector": "Energy",
     "type": "corp",
-    "rating": "BB+ / BBB-",
+    "rating": "BBB- Stable (Fitch & S&P, 2026)",
     "tier": "Tier-1",
-    "benchmark_bond": "OQGN 5.80% 2033",
+    "benchmark_bond": "OQSAOC 5.125% May 2028 ($750m, XS2248458395)",
     "price": 99.5,
     "ytm": 5.9,
     "spread_bp": 185,
     "model_file": "OQ_SAOC_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-810f-bf67-c7d031a7ae6b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OQ_SAOC_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -149.6,
     "net_leverage_2024a": 1.8
@@ -332,6 +332,13 @@
   "annotations": [
     {
       "issuer_id": "oq",
+      "sector": "Energy",
+      "topic": "Fitch/S&P BBB- & Tranche Verification",
+      "source": "Fitch / S&P / OQ (2026)",
+      "note": "Rated BBB- Stable by Fitch and S&P (matching Oman sovereign); $750m senior unsecured notes due May 2028 (XS2248458395); group net leverage target 2.0x-2.5x."
+    },
+    {
+      "issuer_id": "oq",
       "issuer_name": "OQ SAOC",
       "sector": "Energy",
       "topic": "Offshore Debt Escrow Routing",
@@ -392,6 +399,21 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "OQ S.A.O.C. 5.125% Senior Unsecured Notes due May 2028",
+      "tranche_name": "OQ S.A.O.C. 5.125% Senior Unsecured Notes due May 2028",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "5.125%",
+      "maturity": "2028-05-06",
+      "seniority": "Senior Unsecured",
+      "isin": "XS2248458395",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English"
+    },
     {
       "tranche_name": "OQ Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -563,18 +585,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
-      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
-      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
-      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
-      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      "question": "Confirm Duqm Refinery (OQ8) standalone cash generation and any parent support/guarantee obligations in 2026.",
+      "focus_area": "JV Risk",
+      "relevance": "Key off-balance-sheet / contingent liability focus."
     },
     {
-      "focus_area": "State Royalty & Windfall Tax Stability",
-      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
-      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
-      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
-      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      "question": "Provide latest parent/consolidated net leverage vs the 2.0x-2.5x financial policy ceiling.",
+      "focus_area": "Leverage",
+      "relevance": "Anchors standalone credit profile beneath BBB- sovereign uplift."
     }
   ],
   "market_history": [
@@ -1188,6 +1206,19 @@
       "ebitda": 4600.0,
       "fcf": -149.6,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BBB- Stable (Fitch & S&P, 2026)",
+      "price": 99.5,
+      "ytm": 5.9,
+      "spread_bp": 185,
+      "net_leverage": 1.8,
+      "ebitda": 4600.0,
+      "fcf": -149.6,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1292,5 +1323,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Constructive / Investment-Grade Oman National Energy Champion (BBB-)",
+      "target_price": null,
+      "current_price": 99.5,
+      "ytm": 5.9,
+      "spread_bp": 185,
+      "summary": "100% owned by Oman Investment Authority (OIA), OQ SAOC holds investment-grade 'BBB-' Stable ratings from both Fitch and S&P (tracking Oman's sovereign upgrade). Subsidiary IPOs (OQEP, OQGN, OQBI) accelerated deleveraging toward 2.0x-2.5x group target (and <1.0x at OQEP)."
+    },
+    "positives": [
+      "Investment-grade 'BBB-' Stable (Fitch & S&P) backed by 100% OIA ownership and strategic Oman energy monopoly.",
+      "Multi-year deleveraging executed via subsidiary IPOs (OQGN, OQEP, OQBI) targeting 2.0x-2.5x group net leverage.",
+      "Integrated upstream, midstream gas pipeline (OQGN), and downstream refining/petrochemicals portfolio."
+    ],
+    "negatives": [
+      "Exposure to global Brent crude and refining/petrochemical margin cycles (including Duqm Refinery ramp/leverage).",
+      "Large energy transition and green hydrogen/petrochemical capex commitments.",
+      "Ratings remain tied to Oman sovereign fiscal/oil price trajectory."
+    ],
+    "background": {
+      "business_overview": "Oman's integrated national energy group formed from consolidation of Oman Oil Company and Orpic.",
+      "asset_perimeter": "Upstream E&P (OQEP), regulated gas transmission (OQGN), Sohar/Duqm refineries, and Oman/international petrochemicals.",
+      "ownership_governance": "100% state-owned via Oman Investment Authority (OIA)."
+    },
+    "recent_drivers": [
+      "2026: Maintained BBB- Stable IG ratings at Fitch and S&P; OQEP and OQGN subsidiaries also rated BBB-.",
+      "2025-2026: Proceeds from partial IPOs and disciplined capex kept group net leverage aligned with 2.0x-2.5x policy."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Consolidated Audited Results & May-2028 Bond Refinancing Window",
+        "impact": "Confirms Duqm JV self-sufficiency and OIA dividend policy."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "IG BBB- Affirmation & XS2248458395 Tranche Verification",
+      "source": "Fitch / S&P",
+      "status": "Current Research Run",
+      "summary": "Verified BBB- Stable IG ratings and $750m May 2028 senior unsecured notes (XS2248458395); 2.0x-2.5x leverage policy."
+    }
+  ]
 }

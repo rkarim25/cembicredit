@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "id": "nedbank",
+    "name": "Nedbank Group Limited",
+    "ticker": "NED",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB Stable (Fitch, Oct-26) / Ba2 Stable (Moody's, Baa3 Pos opco dep)",
+    "tier": "BB",
+    "benchmark_bond": "NED $2.0B EMTN / JSE Tier 2 Curve",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Nedbank_Group_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Nedbank_Group_Credit_Model.xlsx",
+    "last_updated": "2026-11-23",
+    "model_type": "bank",
+    "financials_currency": "ZAR",
+    "provenance": "financials built 23-Nov-26 from Nedbank FY2025 & H1 2026 financial filings (2026); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Nedbank Group FY2025 Audited Financial Statements (JSE), read 23-Nov-26",
+      "cet1_pct": 12.9,
+      "observations": {
+        "notes": "FY25 Group CET1 12.9% (incl. unappropriated profits), well above 11.0%-12.5% target range."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "ZAR",
+      "source": "Nedbank Group H1 2026 Interim Results (ended 30-Jun-26, JSE), read 23-Nov-26",
+      "assets": 1560000.0,
+      "loans": 1010000.0,
+      "deposits": 1250000.0,
+      "npl_pct": 1.49,
+      "cet1_pct": 12.6,
+      "observations": {
+        "notes": "H1 2026 assets ~ZAR 1.56tn, gross loans ~ZAR 1,010bn (+7% YoY), deposits ~ZAR 1,250bn (+7% YoY), CET1 12.6% (vs 13.1% H125), Stage 3 NPL ratio improved to 1.49% (vs 1.81% H125), CLR 95bp (vs 81bp H125; within 60-100bp target)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Nedbank Group / Nedbank Ltd USD $2.0B EMTN & ZAR Basel III Tier 2 Programme",
+      "tranche_name": "Nedbank Group / Nedbank Ltd USD $2.0B EMTN & ZAR Basel III Tier 2 Programme",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "EMTN / JSE Tier 2",
+      "maturity": "2031-01-01",
+      "seniority": "Senior Unsecured / Tier 2",
+      "instrument_type": "EMTN / Domestic Tier 2",
+      "governing_law": "English / South African"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 500.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "USD $2.0bn EMTN programme benchmark placeholder & ZAR JSE Tier 2 capital stack; exact private/MTN maturities tracked via [BBG]."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-23",
+    "verdict": {
+      "stance": "Constructive / Clean Asset Quality South African Top-4 Bank (BB / Ba2 / Baa3 Pos opco)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Fitch affirmed Nedbank at 'BB' Stable in Oct 2026 and Moody's holds opco Nedbank Ltd deposits at Baa3 Positive (Group Ba2 Stable). H1 2026 showed +7% loan/deposit growth, Stage 3 NPL improvement to 1.49% (from 1.81%), and 12.6% CET1 above target, though CLR ticked up to 95bp near top of 60-100bp guidance."
+    },
+    "positives": [
+      "Strong capital buffer: H126 CET1 12.6% (FY25 12.9%) above board's 11.0%-12.5% target range.",
+      "Improving Stage 3 NPL ratio to 1.49% in H126 (vs 1.81% H125) alongside +7% YoY deposit & loan growth.",
+      "Moody's opco deposit rating Baa3 Positive (Oct-26 Fitch BB Stable, AAA(zaf) national)."
+    ],
+    "negatives": [
+      "Credit loss ratio rose to 95bp in H126 (from 81bp H125), testing upper end of 60-100bp through-the-cycle range.",
+      "Lower international scale and ROE vs FirstRand/Standard Bank peers.",
+      "Ratings constrained by South African sovereign ceiling."
+    ],
+    "background": {
+      "business_overview": "One of South Africa's 'Big Four' universal banks (JSE: NED), strong in Corporate & Investment Banking (CIB) and retail/wealth.",
+      "asset_perimeter": "South Africa core banking (~ZAR 1.56tn assets) plus SADC subsidiaries and Ecobank associate stake.",
+      "ownership_governance": "Widely held on JSE; regulated by SARB Prudential Authority; $2bn EMTN programme."
+    },
+    "recent_drivers": [
+      "Oct-26: Fitch affirmed Nedbank Long-Term IDR at 'BB' Stable (VR 'bb', AAA(zaf)); Moody's maintains Nedbank Ltd Baa3 Positive.",
+      "H126: Loans ZAR 1,010bn (+7% YoY), Deposits ZAR 1,250bn (+7% YoY), CET1 12.6%, Stage 3 1.49%, CLR 95bp."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited JSE Results & CLR Moderation Check",
+        "impact": "Confirms whether CLR drops back toward ~80bp and tracks Moody's Baa3 Positive trigger."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Identify specific CIB or retail portfolios driving the H126 CLR uptick from 81bp to 95bp despite lower Stage 3 ratios.",
+      "focus_area": "Credit Cost",
+      "relevance": "95bp sits near top of 60-100bp target band."
+    },
+    {
+      "question": "Confirm plans for public USD Tier 2 or senior issuance under the $2bn EMTN vs domestic ZAR Tier 2.",
+      "focus_area": "DCM Funding",
+      "relevance": "Currently largely ZAR-funded."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "nedbank",
+      "sector": "Banks",
+      "topic": "H126 Results & Fitch Oct-26 Affirmation",
+      "source": "Nedbank H126 / Fitch (Oct-26)",
+      "note": "H126 assets ~R1.56tn, loans R1,010bn (+7%), deposits R1,250bn (+7%), CET1 12.6%, Stage 3 1.49% (vs 1.81%), CLR 95bp. Fitch affirmed BB Stable (Oct-26); Moody's Ba2 Stable / opco Baa3 Pos."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BB Stable (Fitch, Oct-26) / Ba2 Stable (Moody's, Baa3 Pos opco dep)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

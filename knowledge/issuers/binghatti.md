@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/binghatti.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - BINGHA 8.85% 2027: price 101.5, YTM 8.85%, spread 480bp (as of 2026-11-22).
 - Rating as recorded: B+ / B.

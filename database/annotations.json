@@ -91,6 +91,13 @@
   },
   {
     "issuer_id": "adm_elek",
+    "sector": "Utilities",
+    "topic": "2026 Eurobond & EMRA Reset",
+    "source": "Fitch / Cbonds (Feb-26)",
+    "note": "Issued $500m 9.50% senior unsecured notes due Feb 2031 (XS3260262988); Fitch assigned BB- IDR; EMRA 5th regulatory period (2026-2030) lifted real WACC to 13.5%."
+  },
+  {
+    "issuer_id": "adm_elek",
     "issuer_name": "ADM Elektrik",
     "sector": "Utilities",
     "topic": "Regulated Asset Base & Off-take PPA",
@@ -115,6 +122,13 @@
   },
   {
     "issuer_id": "africell",
+    "sector": "Technology",
+    "topic": "Fitch Oct-26 Positive Outlook & $60m Tap",
+    "source": "Fitch Ratings / Africell (Oct-26)",
+    "note": "Fitch revised Outlook to Positive from Stable (affirmed B-) in Oct 2026 citing subscriber growth >16m, leverage trending <3.0x, and improving FCF; closed $60m tap on 10.50% 2029 notes."
+  },
+  {
+    "issuer_id": "africell",
     "issuer_name": "Africell",
     "sector": "Technology",
     "topic": "Master Lease Agreements & Indexation",
@@ -136,6 +150,13 @@
     "topic": "Contracted Revenue Backlog",
     "source": "Investor Presentations",
     "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "air_global",
+    "sector": "Consumer",
+    "topic": "Oct-26 Bond Refinancing & Q326",
+    "source": "AIR Global / S&P (Oct-26)",
+    "note": "Closed $425m 7.875% 2031 senior unsecured notes on 01-Oct-26 (S&P BB- Stable), repaying term loan & RCF; Q326 LTM Adj. EBITDA $141.6m, net debt $364.8m (2.6x), Nasdaq ticker AIIR."
   },
   {
     "sector": "Consumer",
@@ -260,6 +281,13 @@
     "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
   },
   {
+    "issuer_id": "asg",
+    "sector": "Transportation",
+    "topic": "2026-2028 Maturity Runway",
+    "source": "S&P / ASG 2Q26 (2026)",
+    "note": "Zero material financial debt maturities in 2026-2028; primary bullet is $300m 9.75% senior unsecured notes due 15-May-2029 (XS2815876920). Committed Boeing aircraft purchase obligations ~€514m (2026-28) & €1.51bn (2029-31)."
+  },
+  {
     "sector": "Transportation",
     "topic": "ACMI Rightsizing & 1H26 Cash Burn Transition",
     "source": "1H26 Earnings & Jefferies Desk Analysis",
@@ -282,6 +310,13 @@
     "topic": "Capital Structure & 2029 Notes Refinancing Call",
     "source": "Capital Markets Intelligence",
     "note": "AVIASG 9.75% 2029 notes trade at 87c (16.0% YTM / +1120bp spread). 104 call date arrives 22 October 2026. Gross debt €933M, net debt €807M (€765M at Aug-31 cash), net leverage 2.5x. Refinancing viable once ACMI cash burn stabilizes into 2027."
+  },
+  {
+    "issuer_id": "aydem",
+    "sector": "Utilities",
+    "topic": "Fitch 2026 Rating Update",
+    "source": "Fitch Ratings (2026)",
+    "note": "Fitch revised Aydem Renewables Outlook to Stable (affirmed B) in 2026; tracking YEKDEM-to-merchant power transition and 4.7x-5.1x FFO net leverage."
   },
   {
     "issuer_id": "aydem",
@@ -344,6 +379,13 @@
     "topic": "9M26 $3.05bn EBITDA",
     "source": "Azule Energy Q3/9M 2026 Release",
     "note": "9M26 revenue $3.60bn (+32% YoY), EBITDA $3.05bn, PAT $391m at $89/bbl average realized oil; $850m 2031 & $650m 8.625% 2033 bonds."
+  },
+  {
+    "issuer_id": "bapco",
+    "sector": "Energy",
+    "topic": "Fitch 2026 B Stable",
+    "source": "Fitch Ratings (2026)",
+    "note": "Fitch affirmed Bapco Energies Long-Term IDR and senior unsecured/sukuk ratings at B Stable in 2026, equalized with Bahrain sovereign under 'virtually certain' GRE support."
   },
   {
     "issuer_id": "bapco",
@@ -432,6 +474,13 @@
     "note": "Downgrade to 'RD' reflects standstill on coupon payments during restructuring negotiations. However, the operational execution of the Maceió relocation program (99.6% complete) and the long-dated installment structure of the R$1.2B Alagoas State settlement significantly reduce the probability of unforeseen cash-drain surprises."
   },
   {
+    "issuer_id": "burgan",
+    "sector": "Banks",
+    "topic": "9M26 Results & Subordinated Tranches",
+    "source": "Burgan Kuwait / Cbonds (Nov-26)",
+    "note": "9M26 assets KWD 9.4bn, deposits KWD 5.5bn (+6%), loans KWD 5.1bn (+8%), NPAT KWD 22m (Turkey IAS 29 drag), CoR 50bp. $500m 2.75% T2 Dec-31 (XS2265369491) & $500m 5.7492% Perp AT1 (XS2019231823)."
+  },
+  {
     "issuer_id": "cci",
     "issuer_name": "Coca-Cola İçecek (CCI)",
     "sector": "Consumer",
@@ -494,6 +543,20 @@
     "note": "9M26 EBITDA CZK 86.1bn (-17% YoY, FY26 guide CZK 109-114bn reaffirmed); net debt +14% YTD to CZK 236.0bn (2.0x vs 1.5x)."
   },
   {
+    "issuer_id": "cib_egypt",
+    "sector": "Banks",
+    "topic": "FY25 & 9M26 Filings",
+    "source": "CIB EGX/LSE / Fitch (Nov-26)",
+    "note": "FY25 assets EGP 1.44tn, NPAT EGP 82.25bn, CAR 27.3%. 9M26 rev EGP 103bn (NII +19%), NPAT EGP 63.1bn (+18% norm), NPL 1.47% (343% cov), CET1 25.3%, CAR 28.8%. Fitch B Stable."
+  },
+  {
+    "issuer_id": "cimkoc",
+    "sector": "Materials / Cement",
+    "topic": "Fitch May-26 Affirmation",
+    "source": "Fitch Ratings (May-26)",
+    "note": "Fitch affirmed Çimko Long-Term IDR at B+ Stable in May 2026, reflecting solid domestic market competitiveness and 2026-2027 financial structure projections."
+  },
+  {
     "sector": "Materials / Cement",
     "topic": "Earnings / Normalisation",
     "source": "J.P. Morgan",
@@ -510,6 +573,13 @@
     "topic": "Leverage & Relative Value",
     "source": "J.P. Morgan",
     "note": "Net leverage rose to 2.3x (expected 2.5-3.0x peak by YE26) following  post-period dividend and capex ramp. Net debt  against  cash. Interest coverage >7x offers attractive defensive carry in CIMKOC 30s at z+391 (8.6% YTW)."
+  },
+  {
+    "issuer_id": "damac",
+    "sector": "Real Estate",
+    "topic": "Jan-26 $600m Sukuk",
+    "source": "DAMAC / Moody's / S&P (Jan-26)",
+    "note": "Issued $600m 3.5Y 6.125% sukuk via Alpha Star Holding X in Jan 2026 and redeemed $400m early-2026 sukuk; rated Ba1 Stable (Moody's) / BB+ (S&P)."
   },
   {
     "issuer_id": "damac",
@@ -534,6 +604,13 @@
     "topic": "Asset Coverage & Land Bank",
     "source": "CBRE / JLL Independent Valuation",
     "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "dangote_fert",
+    "sector": "Materials",
+    "topic": "2026 $750m Bond & $600m AFC",
+    "source": "Cbonds / AFC / Financial Nigeria (2026)",
+    "note": "Issued $750m 7.75% 2031 Eurobond and secured $600m AFC facility in Jun 2026 for Nigeria urea expansion and Ethiopia plant."
   },
   {
     "issuer_id": "dangote_fert",
@@ -582,6 +659,13 @@
     "topic": "Commercial Reserve Life (1P/2P)",
     "source": "DeGolyer and MacNaughton / Ryder Scott",
     "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "dar_arkan",
+    "sector": "Real Estate",
+    "topic": "9M26 Profit & May-26 Sukuk",
+    "source": "Tadawul / Argaam / Maaal (2026)",
+    "note": "9M26 net profit +12% YoY to SAR 789.40m; redeemed $400m sukuk in Feb-26 and issued $600m 5Y 7.25% sukuk due May 2031."
   },
   {
     "issuer_id": "dar_arkan",
@@ -637,6 +721,13 @@
     "topic": "9M26 AED 427bn Assets & 16.5% CAR",
     "source": "DIB Q3/9M 2026 Release",
     "note": "9M26 total income AED 18.58bn (+7%), 9M NP AED 5.61bn, Assets AED 427.0bn (+10% YTD financing), CAR 16.5%."
+  },
+  {
+    "issuer_id": "discount_bank",
+    "sector": "Banks",
+    "topic": "Q3/9M26 Results & Tranche",
+    "source": "IDB Q326 Filing / Bondblox (Nov-26)",
+    "note": "9M26 NPAT NIS 3.04bn (13.4% adj ROE), assets ~NIS 483.5bn, NPL 0.64% (189% cov), CET1 10.32%, CAR 13.12%, LCR 121.6%. $800m 5.375% Jan 2028 senior notes (IL0011920878)."
   },
   {
     "issuer_id": "dp_world",
@@ -719,6 +810,13 @@
   },
   {
     "issuer_id": "emlak",
+    "sector": "Real Estate",
+    "topic": "9M 2026 KAP Results",
+    "source": "Emlak Konut KAP (Nov-26)",
+    "note": "9M26 revenue TRY 73.6bn (-13.6% YoY), NPAT TRY 2.87bn (-78.6% YoY on TRY 22.6bn financial expenses), cash TRY 53.41bn, assets TRY 494.62bn, equity TRY 161.66bn."
+  },
+  {
+    "issuer_id": "emlak",
     "issuer_name": "Emlak Konut",
     "sector": "Real Estate",
     "topic": "RERA Escrow Mechanics",
@@ -771,6 +869,13 @@
     "topic": "9M26 NPL Down to 2.0%",
     "source": "ENBD Q3/9M 2026 Release",
     "note": "9M26 PBT record AED 24.3bn, Assets AED 1.38tn (+18% YTD), NPL improved to 2.0%, CET1 13.4%."
+  },
+  {
+    "issuer_id": "equate",
+    "sector": "Materials",
+    "topic": "Moody's Nov-26 Negative Outlook",
+    "source": "Moody's Ratings (Nov-26)",
+    "note": "Moody's affirmed EQUATE at Baa2 in Nov 2026 and changed outlook to Negative from Stable due to weak global petrochemical margins and leverage metrics; $1.25bn 4.25% notes matured Nov-26."
   },
   {
     "issuer_id": "equate",
@@ -884,6 +989,13 @@
   },
   {
     "issuer_id": "firstrand",
+    "sector": "Banks",
+    "topic": "FY26 Audited Results (Jun-26)",
+    "source": "FirstRand FY26 Release (2026)",
+    "note": "Continuing normalised earnings +13% YoY to R44.5bn (ROE 24.9%), reported R39.7bn (-5% on £518.4m UK motor redress), CET1 13.9%, CAR 17.1%, Stage 3 NPL 4.62%, CLR 1.05%."
+  },
+  {
+    "issuer_id": "firstrand",
     "issuer_name": "FirstRand Bank",
     "sector": "Banks",
     "topic": "NIM & Asset-Liability Repricing",
@@ -939,6 +1051,13 @@
   },
   {
     "issuer_id": "gdz_elek",
+    "sector": "Utilities",
+    "topic": "Fitch Nov-26 Affirmation",
+    "source": "Fitch Ratings (Nov-26)",
+    "note": "Fitch affirmed GDZ Elektrik at BB- Stable in Nov 2026, citing EMRA 5th regulatory period (2026-2030) real WACC increase to 13.5% and higher capex allowances, while noting capex constrains FCF."
+  },
+  {
+    "issuer_id": "gdz_elek",
     "issuer_name": "GDZ Elektrik",
     "sector": "Utilities",
     "topic": "Regulated Asset Base & Off-take PPA",
@@ -960,6 +1079,13 @@
     "topic": "Sovereign Balancing & Guarantees",
     "source": "Ministry of Finance Disclosures",
     "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "golar",
+    "sector": "Energy",
+    "topic": "Q3/9M26 & $1.6bn Financing Wave",
+    "source": "Golar LNG Q3 2026 Release (Nov-26)",
+    "note": "9M26 rev $351.8m, Adj. EBITDA $288.8m; issued $500m 7.50% Dec-2031 notes (Oct-26), $600m Esperanza RCF, and upsized/extended FLNG Hilli leaseback to $960m due Jun 2038 (+$472m net cash)."
   },
   {
     "sector": "Energy",
@@ -1113,6 +1239,13 @@
   },
   {
     "issuer_id": "hidro",
+    "sector": "Utilities",
+    "topic": "9M 2026 BVB Results",
+    "source": "Hidroelectrica / BVB (Nov-26)",
+    "note": "9M26 rev RON 8,601m (+28% YoY), Adj. EBITDA RON 4,132m (+27% YoY), NPAT RON 3,108m (+34% YoY); Q3 NPAT RON 537m (-26% YoY due to Danube drought); retail points 1.46m (+56%)."
+  },
+  {
+    "issuer_id": "hidro",
     "issuer_name": "Hidroelectrica",
     "sector": "Utilities",
     "topic": "Regulated Asset Base & Off-take PPA",
@@ -1199,6 +1332,13 @@
   },
   {
     "issuer_id": "ittihad",
+    "sector": "Industrials",
+    "topic": "H1 2026 Earnings Surge & BB- Affirmation",
+    "source": "Ittihad / Fitch / S&P (2026)",
+    "note": "H126 rev $1,959.6m (+16.2% YoY), Adj. EBITDA $113.9m (+37.4% YoY), Net Debt/EBITDA ex-RMI 2.96x (vs 3.20x FY25), RCF upsized to $540m; Fitch & S&P BB- Stable."
+  },
+  {
+    "issuer_id": "ittihad",
     "issuer_name": "Ittihad Investment",
     "sector": "Industrials",
     "topic": "Conglomerate Cash Cushion",
@@ -1220,6 +1360,13 @@
     "topic": "Prudent Capital Allocation",
     "source": "Management Guidance",
     "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
+  },
+  {
+    "issuer_id": "kaspi",
+    "sector": "Technology",
+    "topic": "FY25 & 9M26 Filings",
+    "source": "Kaspi KASE / Nasdaq (Nov-26)",
+    "note": "FY25 assets KZT 11.08tn, equity KZT 2.60tn, NPAT KZT 1,068bn. 9M26 rev KZT 3.31tn, NPAT KZT 791.8bn, OCF KZT 1.24tn, gross NPLs KZT 533.4bn (74% cov). Fitch BBB- / Moody's Baa3."
   },
   {
     "issuer_id": "kfh",
@@ -1251,6 +1398,13 @@
     "topic": "9M26 30.8% CIR Cost Synergies",
     "source": "KFH Q3/9M 2026 Release",
     "note": "9M26 attributable NP KD 523.4m (+6.2% YoY), net op income ~KD 1.0bn (+11.7%), opex -3.0%, CIR 30.8%."
+  },
+  {
+    "issuer_id": "kipco",
+    "sector": "Industrials",
+    "topic": "9M26 Results & Oct-26 Debt Paydown",
+    "source": "KIPCO Releases / Fitch (Nov-26)",
+    "note": "9M26 rev $3.83bn (+2.2% YoY); repaid $354m Oct-2026 bond from internal cash; next maturity $500m 4.50% 23-Feb-2027 (XS1567906059). Fitch BB- Stable / CI BB+ Positive."
   },
   {
     "issuer_id": "kmg",
@@ -1354,6 +1508,13 @@
   },
   {
     "issuer_id": "limak_cem",
+    "sector": "Materials",
+    "topic": "Fitch 2026 Affirmation",
+    "source": "Fitch Ratings / Limak Cement (2026)",
+    "note": "Fitch affirmed Limak Cement at B+ Stable in early 2026; company operating under Sustainable Fitch-verified Sustainability-Linked Finance Framework."
+  },
+  {
+    "issuer_id": "limak_cem",
     "issuer_name": "Limak Cement",
     "sector": "Materials",
     "topic": "Global Cost Curve Advantage",
@@ -1378,6 +1539,13 @@
   },
   {
     "issuer_id": "limak_port",
+    "sector": "Infrastructure",
+    "topic": "Fitch Sep-26 Negative Outlook",
+    "source": "Fitch Ratings (Sep-26)",
+    "note": "Fitch affirmed LimakPort $370m 9.50% Jul 2036 senior secured notes at B- with Negative Outlook in Sep 2026; H1 2026 trading trailed budget amid Middle East shipping disruptions."
+  },
+  {
+    "issuer_id": "limak_port",
     "issuer_name": "LimakPort İskenderun",
     "sector": "Infrastructure",
     "topic": "Concession Duration & Tariff Autonomy",
@@ -1399,6 +1567,13 @@
     "topic": "Holding Company Structural Priority",
     "source": "Offering Circular Waterfall",
     "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
+  },
+  {
+    "issuer_id": "limak_ren",
+    "sector": "Utilities",
+    "topic": "Fitch 2026 Rating Update",
+    "source": "Fitch Ratings (Late-2026)",
+    "note": "Fitch adjusted Limak Yenilenebilir Enerji IDR to B+ Stable in late 2026 on macro pressures and extensive capex cycles."
   },
   {
     "issuer_id": "limak_ren",
@@ -1577,6 +1752,13 @@
     "note": "Fitch upgraded IDR to 'CCC' in 2026 after debt refinancing cleared near-term maturities; European expansion underpins covenant headroom."
   },
   {
+    "issuer_id": "mizrahi",
+    "sector": "Banks",
+    "topic": "Q3/9M26 Results & Tier 2",
+    "source": "Mizrahi Tefahot Q326 / Cbonds (Nov-26)",
+    "note": "9M26 NPAT NIS 4.032bn (adj. 4.6bn, 17.1% adj ROE), loans NIS 436bn (+11.4%), deposits NIS 468bn (+11.1%), NPL 0.82%, CoR 6bp, CET1 10.10%. $600m 3.077% Tier 2 due Apr 2031 (IL0069508369)."
+  },
+  {
     "issuer_id": "mol",
     "issuer_name": "MOL Group",
     "sector": "Energy",
@@ -1632,6 +1814,13 @@
     "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
   },
   {
+    "issuer_id": "nedbank",
+    "sector": "Banks",
+    "topic": "H126 Results & Fitch Oct-26 Affirmation",
+    "source": "Nedbank H126 / Fitch (Oct-26)",
+    "note": "H126 assets ~R1.56tn, loans R1,010bn (+7%), deposits R1,250bn (+7%), CET1 12.6%, Stage 3 1.49% (vs 1.81%), CLR 95bp. Fitch affirmed BB Stable (Oct-26); Moody's Ba2 Stable / opco Baa3 Pos."
+  },
+  {
     "issuer_id": "ocp",
     "issuer_name": "OCP Group",
     "sector": "Materials",
@@ -1664,6 +1853,13 @@
   },
   {
     "issuer_id": "ooredoo",
+    "sector": "Technology",
+    "topic": "9M 2026 Earnings & Zain Tower JV",
+    "source": "Ooredoo Earnings Release (28-Oct-26)",
+    "note": "9M26 rev QAR 19.0bn (+4.3% YoY), EBITDA QAR 8.5bn (+6.3%, 44.7% margin), FCF QAR 5.7bn (+11.2% YoY), NPAT QAR 2.9bn; completed first closing of Zain regional tower JV."
+  },
+  {
+    "issuer_id": "ooredoo",
     "issuer_name": "Ooredoo QPSC",
     "sector": "Technology",
     "topic": "Master Lease Agreements & Indexation",
@@ -1685,6 +1881,13 @@
     "topic": "Contracted Revenue Backlog",
     "source": "Investor Presentations",
     "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "oq",
+    "sector": "Energy",
+    "topic": "Fitch/S&P BBB- & Tranche Verification",
+    "source": "Fitch / S&P / OQ (2026)",
+    "note": "Rated BBB- Stable by Fitch and S&P (matching Oman sovereign); $750m senior unsecured notes due May 2028 (XS2248458395); group net leverage target 2.0x-2.5x."
   },
   {
     "issuer_id": "oq",
@@ -1788,6 +1991,13 @@
   },
   {
     "issuer_id": "pge",
+    "sector": "Utilities",
+    "topic": "Q326 Beat & Rating Affirmations",
+    "source": "PAP / Fitch / Moody's (2026)",
+    "note": "Q326 headline EBITDA PLN 4.61bn (recurring ~PLN 2.89bn), NPAT PLN 3.0bn; Fitch affirmed BBB Stable (Sep-26) and Moody's confirmed Baa1 Stable (Jul-26)."
+  },
+  {
+    "issuer_id": "pge",
     "issuer_name": "PGE Polska Grupa Energetyczna",
     "sector": "Utilities",
     "topic": "Regulated Asset Base & Off-take PPA",
@@ -1809,6 +2019,13 @@
     "topic": "Sovereign Balancing & Guarantees",
     "source": "Ministry of Finance Disclosures",
     "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "qazaqgaz",
+    "sector": "Infrastructure",
+    "topic": "S&P Sep-26 Upgrade to BBB-",
+    "source": "S&P Global Ratings (Sep-26)",
+    "note": "S&P upgraded QazaqGaz and its $700m Eurobonds to BBB- Stable from BB+ in Sep 2026 (SACP bb + 2-notch Samruk-Kazyna uplift); Moody's Baa2 Stable; executing ~$2bn BBS2 pipeline capex."
   },
   {
     "issuer_id": "qazaqgaz",
@@ -1929,6 +2146,13 @@
   },
   {
     "issuer_id": "romgaz",
+    "sector": "Energy",
+    "topic": "9M26 Results & Oct-29 Eurobond",
+    "source": "Romgaz BVB / Cbonds (2026)",
+    "note": "9M26 revenue RON 5,700.6m (-5.7% YoY), NPAT RON 2,217.68m (-8.9% YoY); €500m 4.75% Oct 2029 Eurobond (XS2914558593) under €1.5bn EMTN funding Neptun Deep."
+  },
+  {
+    "issuer_id": "romgaz",
     "issuer_name": "S.N.G.N. Romgaz",
     "sector": "Energy",
     "topic": "Offshore Debt Escrow Routing",
@@ -1974,6 +2198,13 @@
     "topic": "Strategic Sovereign Resource Moat",
     "source": "Credit Rating Agency Memo",
     "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "sampa",
+    "sector": "Consumer",
+    "topic": "Jun-26 EUR 300m Bond",
+    "source": "ABG Sundal Collier / Sampa (Jun-26)",
+    "note": "Issued inaugural oversubscribed EUR 300m 5-year senior secured bond via Sampa Finance and Investment B.V. in June 2026 for refinancing and new plant capex."
   },
   {
     "issuer_id": "sampa",
@@ -2139,6 +2370,13 @@
   },
   {
     "issuer_id": "sobha",
+    "sector": "Real Estate",
+    "topic": "2026 Split Rating Action",
+    "source": "Moody's / S&P (2026)",
+    "note": "Moody's affirmed Ba3 CFR and upgraded senior unsecured sukuk to Ba2 Stable; S&P maintained BB but revised outlook to Negative in 2026 on term-loan leverage expansion."
+  },
+  {
+    "issuer_id": "sobha",
     "issuer_name": "Sobha Realty",
     "sector": "Real Estate",
     "topic": "RERA Escrow Mechanics",
@@ -2191,6 +2429,13 @@
     "topic": "2026 $750m 10% Bond & Afreximbank",
     "source": "Angola Budget / Sonangol 2026 Disclosures",
     "note": "Jan-26 priced debut $750m 10% 2031 PP bond + $1.75bn Afreximbank facility; 9M26 external debt expanded on Kaminho cash calls & fuel imports."
+  },
+  {
+    "issuer_id": "standard_bank",
+    "sector": "Banks",
+    "topic": "H1 2026 Record Earnings & Capital",
+    "source": "Standard Bank H126 Release (2026)",
+    "note": "H126 record headline earnings R26.1bn (+10% YoY), ROE 19.8%, CET1 13.6%, Tier 1 14.9%, Total CAR 16.6%; Moody's Ba2 Positive (SBSA Baa3 Pos), Fitch BB Stable."
   },
   {
     "issuer_id": "standard_bank",
@@ -2291,6 +2536,13 @@
     "topic": "Innovative Pivot & Deleveraging",
     "source": "Teva Q3 2026 Release (03-Nov-26)",
     "note": "Austedo/Ajovy/Uzedy +33% YoY drove Q3 EBITDA $1.5bn (+7% YoY) and net leverage down to 2.71x toward 2.0x end-2027 IG target."
+  },
+  {
+    "issuer_id": "tharisa",
+    "sector": "Materials",
+    "topic": "Sep-26 $300m Bond & H1 FY26",
+    "source": "Tharisa RNS / S&P (Sep-26)",
+    "note": "H1 FY26 rev $359.4m (+28% YoY), NPAT $46.6m; FY26 output 153.7 koz PGMs & >1.56 Mt chrome; Sep-26 placed $300m 11.00% 2031 Nordic bond into escrow (S&P B Stable)."
   },
   {
     "issuer_id": "tharisa",
@@ -2435,6 +2687,13 @@
   },
   {
     "issuer_id": "turk_exim",
+    "sector": "Banks",
+    "topic": "Nov-26 COP31 Multilateral Funding",
+    "source": "AIIB / AA / Fitch (Nov-26)",
+    "note": "Signed $300m sovereign-backed AIIB package ($200m liquidity + $100m green) at COP31 in Nov 2026 alongside IBRD & KfW; Fitch BB- Stable."
+  },
+  {
+    "issuer_id": "turk_exim",
     "issuer_name": "Türk Eximbank",
     "sector": "Banks",
     "topic": "NIM & Asset-Liability Repricing",
@@ -2487,6 +2746,13 @@
     "topic": "Q3 2026 Real Growth & 0.31x Leverage",
     "source": "Turkcell Q3/9M 2026 Release",
     "note": "Real revenue +6.2% YoY in Q3 (TRY 82.04bn) and EBITDA +6.8% YoY (TRY 36.24bn, 44.2% margin); net leverage 0.31x."
+  },
+  {
+    "issuer_id": "uba",
+    "sector": "Banks",
+    "topic": "9M26 Results & Nov-26 Maturity",
+    "source": "UBA NGX / LSE / Moody's / Fitch (Nov-26)",
+    "note": "Redeemed $300m 6.75% Eurobond on 19-Nov-26 (XS2409171225). 9M26 assets NGN 34.96tn, deposits NGN 28.87tn, loans NGN 7.44tn, PAT NGN 401.6bn (-25.3% YoY on NGN 272.12bn provisions), T1 17.2%, Stage 3 ~8.1%."
   },
   {
     "issuer_id": "ukr_rail",
@@ -2588,6 +2854,13 @@
     "topic": "9M26 CAR 14.1% & 214bp CoR",
     "source": "Yapı Kredi 9M 2026 Release",
     "note": "9M26 NI TRY 41.7bn (+10% YoY, 20.6% ROTE), swap-adj NIM 2.76%, NPL 4.2%, net CoR 214bp, Consol CAR 14.1% / Tier-1 11.7%."
+  },
+  {
+    "issuer_id": "zenith",
+    "sector": "Banks",
+    "topic": "9M26 NGX Results & Ratings",
+    "source": "Zenith NGX / Fitch / Moody's (Nov-26)",
+    "note": "9M26 assets NGN 34.39tn, deposits NGN 27.11tn, loans NGN 11.64tn, equity NGN 5.07tn, NII NGN 1.93tn, PAT NGN 675.83bn, impairments -70.5% to NGN 230.77bn; NPL ~3.8%, ROE ~23%, Fitch B Stable / Moody's B3 Stable."
   },
   {
     "issuer_id": "zorlu",

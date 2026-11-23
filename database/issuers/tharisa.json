@@ -7,16 +7,16 @@
     "region": "Africa",
     "sector": "Materials",
     "type": "corp",
-    "rating": "BB- / Ba3 Implied",
+    "rating": "B Stable (S&P, Sep-26) / Ba3 Implied",
     "tier": "BB",
-    "benchmark_bond": "THARISA 9.85% 2027",
+    "benchmark_bond": "ARXOFN 11.00% Sep 2031 ($300m) / THARISA 2027",
     "price": 98.0,
     "ytm": 9.85,
     "spread_bp": 550,
     "model_file": "Tharisa_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6815aa0c2e66138027562",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tharisa_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": 9.7,
     "net_leverage_2024a": 0.38
@@ -301,6 +301,17 @@
         "fcf": 44.0,
         "formula_check": "229.4 - 109.0 - 19.4 - (35.8) - 21.2 = 44.0"
       }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Tharisa plc H1 FY26 Interim Results (ended 31-Mar-26, LSE RNS), read 23-Nov-26",
+      "revenue": 359.4,
+      "net_profit": 46.6,
+      "observations": {
+        "notes": "H1 FY26 (Mar-26) revenue +28% YoY to $359.4m, NPAT $46.6m. Full-year FY26 production: 153.7 koz PGMs & >1.56 Mt chrome concentrate. Sep-26: Arxo Finance plc placed $300m 5Y 11.00% senior secured Nordic bond into escrow for Karo Platinum (S&P B Stable)."
+      }
     }
   ],
   "supplementary_data": {
@@ -328,6 +339,13 @@
     "thesis": "Mechanized open-pit Bushveld mine; 14-yr open-pit life; structural chrome co-product hedge against PGM cycles; 0.38x net debt."
   },
   "annotations": [
+    {
+      "issuer_id": "tharisa",
+      "sector": "Materials",
+      "topic": "Sep-26 $300m Bond & H1 FY26",
+      "source": "Tharisa RNS / S&P (Sep-26)",
+      "note": "H1 FY26 rev $359.4m (+28% YoY), NPAT $46.6m; FY26 output 153.7 koz PGMs & >1.56 Mt chrome; Sep-26 placed $300m 11.00% 2031 Nordic bond into escrow (S&P B Stable)."
+    },
     {
       "issuer_id": "tharisa",
       "issuer_name": "Tharisa plc",
@@ -390,6 +408,20 @@
     }
   },
   "capital_structure_tranches": [
+    {
+      "instrument": "Arxo Finance plc 11.000% Senior Secured Nordic Bond due Sep 2031",
+      "tranche_name": "Arxo Finance plc 11.000% Senior Secured Nordic Bond due Sep 2031",
+      "currency": "USD",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0,
+      "amount_usd_m": 300.0,
+      "coupon": "11.000%",
+      "maturity": "2031-09-01",
+      "seniority": "Senior Secured (Escrow / Karo)",
+      "instrument_type": "Senior Secured Nordic Bond",
+      "governing_law": "Nordic"
+    },
     {
       "tranche_name": "THARISA Benchmark Senior Notes",
       "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -561,18 +593,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Detail exact escrow release conditions and total remaining capex to first ore at Karo Platinum.",
+      "focus_area": "Project Execution",
+      "relevance": "Determines whether $300m bond fully funds Karo."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Provide multi-year capex profile for the Tharisa South Africa underground transition.",
+      "focus_area": "Capex & FCF",
+      "relevance": "Tests standalone FCF coverage of 11% coupon."
     }
   ],
   "market_history": [
@@ -1186,6 +1214,19 @@
       "ebitda": 185.0,
       "fcf": 9.7,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B Stable (S&P, Sep-26) / Ba3 Implied",
+      "price": 98.0,
+      "ytm": 9.85,
+      "spread_bp": 550,
+      "net_leverage": 0.38,
+      "ebitda": 185.0,
+      "fcf": 9.7,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1290,5 +1331,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Neutral / High-Coupon Chrome/PGM Producer Funding Karo Build (S&P B)",
+      "target_price": null,
+      "current_price": 98.0,
+      "ytm": 11.0,
+      "spread_bp": 550,
+      "summary": "Tharisa rebounded in H1 FY26 (rev +28% YoY to $359.4m, NPAT $46.6m; FY26 output 153.7 koz PGMs & >1.56 Mt chrome) and placed a $300m 5Y 11.00% senior secured Nordic bond via Arxo Finance in Sep 2026 (escrowed for Karo Platinum, Zimbabwe; S&P B Stable). Execution risk on Karo & SA underground transition remains high."
+    },
+    "positives": [
+      "Co-product chrome & PGM model at Tharisa Mine (South Africa) provides counter-cyclical margin resilience (H1 FY26 rev $359.4m, NPAT $46.6m).",
+      "FY26 production met guidance (153.7 koz PGMs, >1.56 Mt chrome concentrate).",
+      "Sep 2026 oversubscribed $300m 11.00% 2031 Nordic bond secures project funding (held in escrow subject to release conditions)."
+    ],
+    "negatives": [
+      "Heavy leverage step-up from $300m 11.00% bond alongside Karo Platinum (Zimbabwe) capex & jurisdictional risk.",
+      "Multi-year transition of flagship Tharisa Mine from open-pit to underground raises execution & capex risk.",
+      "High volatility in metallurgical chrome and PGM basket prices."
+    ],
+    "background": {
+      "business_overview": "Integrated South African chrome and PGM mining group (LSE/JSE-listed) developing Karo Platinum in Zimbabwe.",
+      "asset_perimeter": "Tharisa Mine (Bushveld Complex, South Africa), Arxo Metals/Logistics, and Karo Platinum project (Zimbabwe).",
+      "ownership_governance": "LSE/JSE-listed; Pouroulis family anchor shareholder; Arxo Finance plc bond issuer."
+    },
+    "recent_drivers": [
+      "Sep-26: Placed $300m 5Y 11.00% senior secured Nordic bond (Arxo Finance plc, escrowed for Karo Platinum); S&P assigned 'B' Stable issuer & issue rating.",
+      "H1/FY26: H1 rev $359.4m (+28% YoY), NPAT $46.6m; FY26 output 153.7 koz PGMs & >1.56 Mt chrome."
+    ],
+    "catalysts": [
+      {
+        "date": "Dec 2026",
+        "event": "FY2026 Audited Full-Year Results & Karo Escrow Release Milestones",
+        "impact": "Confirms post-bond pro forma leverage and underground capex schedule."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "H1/FY26 Results & $300m 11.00% Sep-31 Nordic Bond",
+      "source": "Tharisa / S&P",
+      "status": "Current Research Run",
+      "summary": "H1 FY26 rev $359.4m, NPAT $46.6m; FY26 153.7 koz PGMs; placed $300m 11% 2031 Nordic bond (S&P B Stable)."
+    }
+  ]
 }

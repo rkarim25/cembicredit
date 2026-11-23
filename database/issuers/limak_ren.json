@@ -7,7 +7,7 @@
     "region": "CEEMEA",
     "sector": "Utilities",
     "type": "corp",
-    "rating": "B+ / B2",
+    "rating": "B+ Stable (Fitch, late-2026) / B2",
     "tier": "B",
     "benchmark_bond": "LIMAK 8.75% 2028",
     "price": 98.2,
@@ -16,7 +16,7 @@
     "model_file": "Limak_Renewable_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68159bc09d6b94337462d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Renewable_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": -110.8,
     "net_leverage_2024a": 4.0,
@@ -330,6 +330,13 @@
     "thesis": "1,060 MW hydro & solar portfolio; 72% EBITDA margin; YEKDEM 7.3c/kWh dollar floor guarantee."
   },
   "annotations": [
+    {
+      "issuer_id": "limak_ren",
+      "sector": "Utilities",
+      "topic": "Fitch 2026 Rating Update",
+      "source": "Fitch Ratings (Late-2026)",
+      "note": "Fitch adjusted Limak Yenilenebilir Enerji IDR to B+ Stable in late 2026 on macro pressures and extensive capex cycles."
+    },
     {
       "issuer_id": "limak_ren",
       "issuer_name": "Limak Renewable",
@@ -1187,6 +1194,19 @@
       "ebitda": 275.0,
       "fcf": -110.8,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B+ Stable (Fitch, late-2026) / B2",
+      "price": 98.2,
+      "ytm": 8.75,
+      "spread_bp": 435,
+      "net_leverage": 4.0,
+      "ebitda": 275.0,
+      "fcf": -110.8,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1324,6 +1344,7 @@
       "ownership_governance": "Owned by Limak Holding; BIST/international bond reporting."
     },
     "recent_drivers": [
+      "Late-2026: Fitch adjusted Limak Yenilenebilir Enerji IDR to 'B+' Stable citing macro pressures, leverage metrics, and extensive hydro capex cycles.",
       "Mid-2026 Issuance: Priced $525m 5.5NC2 green Eurobond ($1.25bn+ demand) refinancing ~80% of debt and funding \u0130ncir/Pervari hydro."
     ],
     "catalysts": [
@@ -1333,6 +1354,6 @@
         "impact": "Drives step-down in net leverage from ~4.0x toward 3.0x."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-23"
   }
 }

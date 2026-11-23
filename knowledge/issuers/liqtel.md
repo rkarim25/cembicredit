@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/liqtel.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: B- Stable (Fitch, May-26) / Caa1.
 

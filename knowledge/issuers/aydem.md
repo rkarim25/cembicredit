@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/aydem.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- AYDEM 8.95% 2027: price 96.5, YTM 8.95%, spread 455bp (as of 2026-11-22).
-- Rating as recorded: B / B3.
+- AYDEM 8.95% 2027: price 96.5, YTM 8.95%, spread 455bp (as of 2026-11-23).
+- Rating as recorded: B Stable (Fitch, 2026) / B3.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

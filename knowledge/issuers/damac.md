@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/damac.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- DAMAC 7.25% 2027: price 101.0, YTM 7.25%, spread 320bp (as of 2026-09-19).
-- Rating as recorded: BB- / Ba3.
+- DAMAC 6.125% Jul 2029 Sukuk ($600m): price 101.0, YTM 7.25%, spread 320bp (as of 2026-11-23).
+- Rating as recorded: Ba1 Stable (Moody's) / BB+ (S&P).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/dar_arkan.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 22-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- DARARK 8.15% 2029: price 99.5, YTM 8.15%, spread 410bp (as of 2026-09-19).
+- DARARK 7.25% May 2031 Sukuk ($600m): price 99.5, YTM 8.15%, spread 410bp (as of 2026-11-23).
 - Rating as recorded: BB- / Ba3 / B+.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

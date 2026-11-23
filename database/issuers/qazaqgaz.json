@@ -7,7 +7,7 @@
     "region": "Central Asia",
     "sector": "Infrastructure",
     "type": "corp",
-    "rating": "BBB-",
+    "rating": "BBB- Stable (S&P, Sep-26) / Baa2 Stable (Moody's)",
     "tier": "Tier-1",
     "benchmark_bond": "QAZGAS 4.375% 2027",
     "price": 97.2,
@@ -16,7 +16,7 @@
     "model_file": "QazaqGaz_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81a3-958e-f261c82a5611",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/QazaqGaz_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-11-23",
     "model_type": "corp",
     "fcf_2024a": 107.4,
     "net_leverage_2024a": 1.2
@@ -330,6 +330,13 @@
   "annotations": [
     {
       "issuer_id": "qazaqgaz",
+      "sector": "Infrastructure",
+      "topic": "S&P Sep-26 Upgrade to BBB-",
+      "source": "S&P Global Ratings (Sep-26)",
+      "note": "S&P upgraded QazaqGaz and its $700m Eurobonds to BBB- Stable from BB+ in Sep 2026 (SACP bb + 2-notch Samruk-Kazyna uplift); Moody's Baa2 Stable; executing ~$2bn BBS2 pipeline capex."
+    },
+    {
+      "issuer_id": "qazaqgaz",
       "issuer_name": "QazaqGaz (KazTransGas)",
       "sector": "Infrastructure",
       "topic": "Concession Duration & Tariff Autonomy",
@@ -561,18 +568,14 @@
   },
   "management_questions": [
     {
-      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
-      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
-      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
-      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
-      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      "question": "Confirm 2026-2027 capex phasing and state/DFI co-funding on the ~$2bn BBS2 pipeline.",
+      "focus_area": "Capex & Leverage",
+      "relevance": "Primary driver of 2026 leverage peak."
     },
     {
-      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
-      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
-      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
-      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
-      "deduced_from": "Debt schedule notes and capital management disclosures."
+      "question": "Update domestic gas tariff reform progress toward cost-recovery levels.",
+      "focus_area": "Tariffs",
+      "relevance": "Key to lifting SACP above 'bb'."
     }
   ],
   "market_history": [
@@ -1186,6 +1189,19 @@
       "ebitda": 850.0,
       "fcf": 107.4,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "BBB- Stable (S&P, Sep-26) / Baa2 Stable (Moody's)",
+      "price": 97.2,
+      "ytm": 5.95,
+      "spread_bp": 190,
+      "net_leverage": 1.2,
+      "ebitda": 850.0,
+      "fcf": 107.4,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1272,5 +1288,51 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
-  }
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Constructive / Newly Upgraded IG Quasi-Sovereign (BBB-/Baa2)",
+      "target_price": null,
+      "current_price": 97.2,
+      "ytm": 5.95,
+      "spread_bp": 190,
+      "summary": "S&P upgraded QazaqGaz and its $700m Eurobonds to 'BBB-' Stable from 'BB+' in Sep 2026 (matching Moody's Baa2 Stable), driven by Kazakhstan's sovereign upgrade and two-notch Samruk-Kazyna uplift above SACP 'bb'. Watch ~$2bn BBS2 Beineu-Shymkent pipeline capex peak in 2026."
+    },
+    "positives": [
+      "Upgraded by S&P to 'BBB-' Stable in Sep 2026 (joining Moody's Baa2 Stable), cementing dual-agency Investment Grade status.",
+      "Two-notch sovereign support uplift via 100% Samruk-Kazyna ownership as Kazakhstan's monopoly gas operator.",
+      "Solid operational cash flows buffer leverage during pipeline expansion."
+    ],
+    "negatives": [
+      "Heavy ~$2bn capex commitment for Beineu-Shymkent Gas Pipeline Line 2 (BBS2) driving 2026 leverage peak.",
+      "Regulated domestic gas tariffs below export parity constrain standalone profitability (SACP 'bb').",
+      "Regional transit and geopolitical concentration risk."
+    ],
+    "background": {
+      "business_overview": "Kazakhstan's national gas operator managing domestic gas transmission, distribution, storage, and export transit.",
+      "asset_perimeter": "Mainline gas pipelines across Kazakhstan (incl. Beineu-Shymkent and Central Asia-Center links).",
+      "ownership_governance": "100% owned by sovereign wealth fund Samruk-Kazyna; $700m senior unsecured Eurobond issuer."
+    },
+    "recent_drivers": [
+      "Sep-26: S&P upgraded QazaqGaz and its $700m Eurobonds to 'BBB-' Stable (from BB+) following Kazakhstan sovereign upgrade.",
+      "2026: Executing ~$2bn Beineu-Shymkent Line 2 (BBS2) pipeline capex."
+    ],
+    "catalysts": [
+      {
+        "date": "Q1 2027",
+        "event": "FY2026 Audited IFRS Results & BBS2 Capex Spend Update",
+        "impact": "Monitors peak net leverage vs SACP 'bb' anchor."
+      }
+    ],
+    "last_updated": "2026-11-23"
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "S&P Sep-26 Upgrade to BBB- & $2bn BBS2 Capex",
+      "source": "S&P Global Ratings",
+      "status": "Current Research Run",
+      "summary": "Upgraded to BBB- Stable in Sep-26 alongside Kazakhstan sovereign; Moody's Baa2 Stable."
+    }
+  ]
 }

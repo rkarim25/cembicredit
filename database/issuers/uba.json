@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "id": "uba",
+    "name": "United Bank for Africa Plc",
+    "ticker": "UBA",
+    "country": "Nigeria",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "B Stable (Fitch) / B3 Stable (Moody's)",
+    "tier": "B",
+    "benchmark_bond": "UBA $1.5B GMTN (6.75% Nov-26 Matured)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "UBA_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/UBA_Credit_Model.xlsx",
+    "last_updated": "2026-11-23",
+    "model_type": "bank",
+    "financials_currency": "NGN",
+    "provenance": "financials built 23-Nov-26 from UBA FY2025 & 9M 2026 NGX financial filings (Nov-26); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "NGN",
+      "source": "UBA Plc FY2025 Audited Financial Statements (NGX), read 23-Nov-26",
+      "assets": 33170000.0,
+      "loans": 7020000.0,
+      "deposits": 27210000.0,
+      "npl_pct": 7.67,
+      "observations": {
+        "notes": "FY25 assets NGN 33.17tn, loans ~NGN 7.02tn, group customer deposits NGN 27.21tn (core NGN 23.07tn), NPL 7.67% (123.6% coverage)."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "NGN",
+      "source": "UBA Plc 9M 2026 Financial Statements (NGX), read 23-Nov-26",
+      "assets": 34960000.0,
+      "loans": 7440000.0,
+      "deposits": 28870000.0,
+      "equity": 4390000.0,
+      "nii": 1190000.0,
+      "net_profit": 401600.0,
+      "npl_pct": 8.1,
+      "car_pct": 17.2,
+      "observations": {
+        "notes": "9M26 assets NGN 34.96tn (+5.4% YTD), loans NGN 7.44tn (+6.0% YTD), deposits NGN 28.87tn (core 24.60tn), equity NGN 4.39tn, NII NGN 1.19tn (+2.7% YoY), PBT NGN 502.98bn, PAT NGN 401.60bn (-25.3% YoY as impairments jumped to NGN 272.12bn post-forbearance). Moody's Tier 1 17.2%, Stage 3 ~8.1%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "UBA 6.750% Senior Unsecured Eurobond (Matured 19-Nov-2026)",
+      "tranche_name": "UBA 6.750% Senior Unsecured Eurobond (Matured 19-Nov-2026)",
+      "currency": "USD",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0,
+      "amount_usd_m": 0.0,
+      "coupon": "6.750%",
+      "maturity": "2026-11-19",
+      "seniority": "Senior Unsecured (Redeemed)",
+      "isin": "XS2409171225",
+      "instrument_type": "Matured Eurobond ($1.5bn GMTN active)",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 0.0,
+    "source": "Redeemed $300m 6.75% Eurobond on 19-Nov-2026 (XS2409171225); maintains active $1.5bn GMTN programme for potential 2027 issuance."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-23",
+    "verdict": {
+      "stance": "Neutral / Pan-African Diversified Nigerian Tier-1 Bank Post-Nov-26 Redemption (B/B3)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "UBA redeemed its $300m 6.75% Eurobond cleanly at maturity on 19-Nov-26 (XS2409171225), backed by >50% ex-Nigeria pan-African assets (total NGN 34.96tn) and 17.2% Tier 1 capital. Post-forbearance Stage 3 NPLs stepped up to ~8.1% (9M26 provisions NGN 272.12bn, PAT -25.3% YoY to NGN 401.6bn), requiring monitoring alongside Nigerian sovereign ceiling."
+    },
+    "positives": [
+      "Cleanly redeemed $300m 6.75% Eurobond on 19-Nov-2026; liquid balance sheet (NGN 28.87tn deposits vs NGN 7.44tn loans, ~26% LDR).",
+      "Superior geographic diversification: 20 African countries (>50% of assets outside Nigeria) buffer domestic shocks.",
+      "Solid 17.2% Tier 1 capital (TCE/RWA 27.2%, equity NGN 4.39tn) and Fitch B / Moody's B3 Stable ratings."
+    ],
+    "negatives": [
+      "Post-CBN forbearance expiration lifted Stage 3 NPL ratio to ~7.7%-8.1% and drove 9M26 impairment jump to NGN 272.12bn (PAT -25.3% YoY).",
+      "Ratings capped by Nigeria sovereign ceiling ('B'/'B3') given sovereign bond holdings & CBN cash reserves.",
+      "FX/inflation volatility across pan-African subsidiaries."
+    ],
+    "background": {
+      "business_overview": "Leading pan-African financial services group headquartered in Lagos operating in 20 African countries plus UK/US/France/UAE.",
+      "asset_perimeter": "Nigeria parent (~50% assets) plus UBA Africa subsidiaries (~50%+ assets) and international wholesale units.",
+      "ownership_governance": "NGX-listed (UBA); Tony Elumelu / Heirs Holdings anchor; regulated by CBN."
+    },
+    "recent_drivers": [
+      "19-Nov-26: Repaid & delisted $300m 6.75% senior Eurobond (XS2409171225) at maturity.",
+      "9M26 (NGX): Assets NGN 34.96tn, Deposits NGN 28.87tn, Loans NGN 7.44tn, NII NGN 1.19tn, PAT NGN 401.6bn (-25.3% YoY on NGN 272.12bn provisions)."
+    ],
+    "catalysts": [
+      {
+        "date": "H1 2027",
+        "event": "FY2026 Audited Results & Potential New GMTN Eurobond Issuance",
+        "impact": "Assesses post-forbearance NPL peak and whether UBA taps $1.5bn GMTN."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm peak Stage 3 NPL ratio (~8.1%) post-CBN forbearance exit and expected 2027 cost of risk.",
+      "focus_area": "Asset Quality",
+      "relevance": "9M26 provisions jumped nearly 5x YoY to NGN 272bn."
+    },
+    {
+      "question": "Indicate plans for a new USD Eurobond under the $1.5bn GMTN after redeeming the $300m Nov-26 bond.",
+      "focus_area": "DCM Supply",
+      "relevance": "Key CEMBI Nigeria bank issuance watch."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "uba",
+      "sector": "Banks",
+      "topic": "9M26 Results & Nov-26 Maturity",
+      "source": "UBA NGX / LSE / Moody's / Fitch (Nov-26)",
+      "note": "Redeemed $300m 6.75% Eurobond on 19-Nov-26 (XS2409171225). 9M26 assets NGN 34.96tn, deposits NGN 28.87tn, loans NGN 7.44tn, PAT NGN 401.6bn (-25.3% YoY on NGN 272.12bn provisions), T1 17.2%, Stage 3 ~8.1%."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "B Stable (Fitch) / B3 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

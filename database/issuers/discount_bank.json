@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "id": "discount_bank",
+    "name": "Israel Discount Bank Ltd.",
+    "ticker": "DSCT",
+    "country": "Israel",
+    "region": "Middle East",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ Stable (S&P)",
+    "tier": "IG",
+    "benchmark_bond": "DSCT 5.375% Jan 2028 ($800m, IL0011920878)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Israel_Discount_Bank_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Israel_Discount_Bank_Credit_Model.xlsx",
+    "last_updated": "2026-11-23",
+    "model_type": "bank",
+    "financials_currency": "ILS",
+    "provenance": "financials built 23-Nov-26 from Israel Discount Bank Q3/9M 2026 financial filings (mid-Nov-26); quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "ILS",
+      "source": "Israel Discount Bank Q3/9M 2026 Financial Statements (TASE), read 23-Nov-26",
+      "assets": 483500.0,
+      "nii": 2436.0,
+      "net_profit": 3040.0,
+      "roe_pct": 11.8,
+      "npl_pct": 0.64,
+      "cet1_pct": 10.32,
+      "car_pct": 13.12,
+      "observations": {
+        "notes": "9M26 net income NIS 3.04bn (ROE 11.8% reported / 13.4% ex-special taxes & Mercantile merger costs); Q326 NPAT NIS 910m (NIS 1.04bn adj.), Q3 NII NIS 2,436m. Assets ~NIS 483.5bn; loans +6.7% YTD (+12.7% corporate). NPL 0.64% (189% coverage), CoR 16bp, CET1 10.32% (vs 9.21% min), Total CAR 13.12%, LCR 121.6%, NSFR 110.4%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "DSCT 5.375% Senior Unsecured Notes due Jan 2028",
+      "tranche_name": "DSCT 5.375% Senior Unsecured Notes due Jan 2028",
+      "currency": "USD",
+      "amount_issued_usd_m": 800.0,
+      "outstanding_usd_m": 800.0,
+      "amount_outstanding_usd_m": 800.0,
+      "amount_usd_m": 800.0,
+      "coupon": "5.375%",
+      "maturity": "2028-01-26",
+      "seniority": "Senior Unsecured",
+      "isin": "IL0011920878",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "Israeli / New York"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 800.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 800.0,
+    "source": "International USD senior benchmark curve ($800m Jan-2028, IL0011920878); excludes domestic ILS deposits, debentures, and covered bond frameworks."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-23",
+    "verdict": {
+      "stance": "Neutral / Solid Israeli Systemic Bank with Leaner CET1 Cushion (A-/BBB+)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Israel's 4th-largest bank posted 9M26 net income of NIS 3.04bn (13.4% adj. ROE) with very clean 0.64% NPLs (189% coverage, 16bp CoR) and 121.6% LCR. Mercantile Bank integration is expected to yield ~NIS 250m annual savings, though 10.32% CET1 is leaner than Leumi (11.38%) ahead of 2026-2027 bank tax levies and Jan-28 $800m maturity."
+    },
+    "positives": [
+      "Benign asset quality: NPL ratio improved to 0.64% (189% coverage) with Q3 credit loss expense of just 16bp.",
+      "Cost synergy catalyst: Mercantile Bank operational streamlining & workforce program targeting ~NIS 250m annual savings.",
+      "Solid liquidity (LCR 121.6%, NSFR 110.4%) and AA- Fitch-rated covered bond framework."
+    ],
+    "negatives": [
+      "Thinner capital buffer than peers: CET1 10.32% (vs 9.21% BoI floor) and Total CAR 13.12% alongside 40% dividend payout.",
+      "Sovereign/geopolitical linkage and special Israeli bank taxes for 2026-2027.",
+      "NII compression from BoI rate easing and domestic deposit competition (Q3 NII NIS 2.44bn vs 2.65bn prior year)."
+    ],
+    "background": {
+      "business_overview": "Israel's fourth-largest commercial bank operating retail, corporate, and SME banking plus US subsidiary IDB Bank NY (~$14.4bn assets).",
+      "asset_perimeter": "Discount Bank Israel, Mercantile Discount Bank (integrating), CAL credit cards (divestment/perimeter tracking), and IDB Bank NY.",
+      "ownership_governance": "Widely held on TASE (DSCT); D-SIB regulated by Bank of Israel."
+    },
+    "recent_drivers": [
+      "Nov-26 (Q3/9M26): 9M NPAT NIS 3.04bn (11.8% ROE / 13.4% adj.), Q3 NPAT NIS 910m (NIS 1.04bn ex-merger charges), NPL 0.64%, CET1 10.32%, CAR 13.12%.",
+      "2026: Advancing Mercantile Bank restructuring (~NIS 250m run-rate savings); rating outlooks stabilized to Stable."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited TASE Results & Jan-2028 $800m Refinancing Window",
+        "impact": "Tests CET1 build above 10.5% and Mercantile synergy capture."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm path to rebuilding CET1 above 10.75% while sustaining 40% dividend payout and +12.7% YTD corporate loan growth.",
+      "focus_area": "Capital Adequacy",
+      "relevance": "Narrower ~111bp CET1 buffer over 9.21% regulatory floor."
+    },
+    {
+      "question": "Outline refinancing plan for the $800m 5.375% Jan 2028 senior notes (IL0011920878) across USD vs EUR/covered formats.",
+      "focus_area": "Funding",
+      "relevance": "Approaching 14 months to maturity."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "discount_bank",
+      "sector": "Banks",
+      "topic": "Q3/9M26 Results & Tranche",
+      "source": "IDB Q326 Filing / Bondblox (Nov-26)",
+      "note": "9M26 NPAT NIS 3.04bn (13.4% adj ROE), assets ~NIS 483.5bn, NPL 0.64% (189% cov), CET1 10.32%, CAR 13.12%, LCR 121.6%. $800m 5.375% Jan 2028 senior notes (IL0011920878)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-23",
+      "period_name": "2026-11-23",
+      "timestamp": "2026-11-23T16:01:32.212694",
+      "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}
