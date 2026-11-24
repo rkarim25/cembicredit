@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "id": "uzbekneftegaz",
+    "name": "JSC Uzbekneftegaz (UNG)",
+    "ticker": "UNGUZ",
+    "country": "Uzbekistan",
+    "region": "Central Asia",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BB Positive (Fitch, Nov-26, SCP b+) / BB- Stable (S&P)",
+    "tier": "BB",
+    "benchmark_bond": "UNGUZ 8.75% May 2030 ($850m, XS3063464070)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Uzbekneftegaz_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Uzbekneftegaz_Credit_Model.xlsx",
+    "last_updated": "2026-11-24",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 24-Nov-26 from Uzbekneftegaz LTM mid-2026 / Fitch Nov-26 disclosures; quotes await [BBG] capture",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "LTM26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Uzbekneftegaz London Rating Disclosures & Fitch Nov-2026 Review, read 24-Nov-26",
+      "revenue": 3000.0,
+      "ebitda": 1500.0,
+      "reported_ebitda": 1500.0,
+      "ebitda_margin_pct": 50.0,
+      "gross_debt": 3300.0,
+      "net_leverage": 2.2,
+      "observations": {
+        "notes": "LTM mid-2026 revenue ~$3.0bn (+10% YoY), Adj EBITDA ~$1.5bn, net leverage improved to 2.2x (from ~3.1x) aided by 67% cumulative regulated gas tariff hikes in 2026, ~$1bn state support package, and 2025-26 dividend exemption. Fitch revised outlook to Positive (Nov-26) & upgraded SCP to b+."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "UNGUZ 4.75% Senior Unsecured Notes due Nov 2028",
+      "tranche_name": "UNGUZ 4.75% Senior Unsecured Notes due Nov 2028",
+      "currency": "USD",
+      "amount_issued_usd_m": 700.0,
+      "outstanding_usd_m": 700.0,
+      "amount_outstanding_usd_m": 700.0,
+      "amount_usd_m": 700.0,
+      "coupon": "4.750%",
+      "maturity": "2028-11-16",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2010026727"
+    },
+    {
+      "instrument": "UNGUZ 8.75% Senior Unsecured Notes due May 2030",
+      "tranche_name": "UNGUZ 8.75% Senior Unsecured Notes due May 2030",
+      "currency": "USD",
+      "amount_issued_usd_m": 850.0,
+      "outstanding_usd_m": 850.0,
+      "amount_outstanding_usd_m": 850.0,
+      "amount_usd_m": 850.0,
+      "coupon": "8.750%",
+      "maturity": "2030-05-07",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS3063464070"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 700.0,
+    "2029": 0.0,
+    "2030_plus": 850.0,
+    "total_outstanding_usd_m": 1550.0,
+    "source": "LSE-listed USD Eurobonds: $700m 4.75% Nov-28 (XS2010026727) and $850m 8.75% May-30 (XS3063464070 / US91825MAC73)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-24",
+    "verdict": {
+      "stance": "Constructive / Tariff-Reform & State-Backed Uzbek GRE (BB Pos / BB-)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Fitch revised Uzbekneftegaz's outlook to Positive (Nov-2026) and upgraded its SCP to b+ (from b), reflecting cumulative 67% regulated gas tariff hikes in 2026, ~$1bn in state support, and 2025-26 dividend exemptions. LTM mid-2026 EBITDA reached ~$1.5bn with net leverage dropping from ~3.1x to 2.2x ahead of Nov-2028 ($700m) and May-2030 ($850m) maturities."
+    },
+    "positives": [
+      "Fitch Nov-26 Positive outlook & SCP upgrade to b+ driven by 67% 2026 domestic gas tariff reform.",
+      "Deleveraging to 2.2x net debt/EBITDA (from 3.1x) on ~$1.5bn LTM EBITDA plus ~$1bn state support & dividend waivers.",
+      "Equalized with Uzbekistan sovereign (BB Positive at Fitch) as strategic 100% state oil & gas operator."
+    ],
+    "negatives": [
+      "Structural decline in mature domestic gas fields requiring ongoing drilling/GTL capex.",
+      "Fitch forecasts medium-term leverage settling back toward 3x-4x if capex accelerates or state support normalizes.",
+      "S&P lags at BB- Stable (one notch below Fitch)."
+    ],
+    "background": {
+      "business_overview": "Uzbekistan's national vertically integrated oil, natural gas, and GTL producer (~100% state-owned).",
+      "asset_perimeter": "Domestic gas/oil extraction, Mubarek/Shurtan processing, Uzbekistan GTL complex.",
+      "ownership_governance": "100% Republic of Uzbekistan (Ministry of Economy & Finance); LSE-listed Eurobonds."
+    },
+    "recent_drivers": [
+      "Nov-26: Fitch affirmed BB, revised outlook to Positive, and upgraded SCP to b+ on 67% tariff hikes and deleveraging.",
+      "Mid-26: LTM revenue ~$3.0bn, Adj EBITDA ~$1.5bn, net leverage down to 2.2x."
+    ],
+    "catalysts": [
+      {
+        "date": "H1 2027",
+        "event": "FY2026 Audited IFRS & Post-2026 Dividend Policy Renewal",
+        "impact": "Determines whether dividend exemption extends beyond 2026."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm post-2026 state dividend policy now that the 2025-26 exemption window concludes.",
+      "focus_area": "State Support",
+      "relevance": "Key driver of FCF retention."
+    },
+    {
+      "question": "Detail Uzbekistan GTL utilization rate and FY26\u201327 upstream reserve-replacement capex.",
+      "focus_area": "Operations",
+      "relevance": "Natural gas decline curve management."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "uzbekneftegaz",
+      "sector": "Energy",
+      "topic": "Nov-26 Fitch Positive Outlook & Tariff Reform",
+      "source": "Fitch / UNG (Nov-26)",
+      "note": "Fitch revised outlook to Positive (BB, SCP upgraded to b+) in Nov-26 on 67% regulated gas tariff hikes, ~$1bn state support, and leverage falling to 2.2x on $1.5bn LTM EBITDA."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-05-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Tashkent",
+    "ir_webcast_url": "https://www.ung.uz/en",
+    "days_to_earnings": 188
+  },
+  "market_history": [
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BB Positive (Fitch, Nov-26, SCP b+) / BB- Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": 85.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "4.5x EBITDA + State Support",
+    "restructuring_framework": "Uzbekistan SOE / English Law",
+    "thesis": "2.2x net leverage with 67% tariff reform and strong sovereign backing (BB Positive Fitch)."
+  }
+}

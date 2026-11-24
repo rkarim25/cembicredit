@@ -1229,6 +1229,19 @@
       "ebitda": 380.0,
       "fcf": -98.3,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "RD / D (Selective Default, 2026)",
+      "price": 64.0,
+      "ytm": 19.25,
+      "spread_bp": 1485,
+      "net_leverage": 3.86,
+      "ebitda": 380.0,
+      "fcf": -98.3,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [

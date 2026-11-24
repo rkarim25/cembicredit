@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "id": "first_holdco",
+    "name": "First HoldCo Plc (FirstBank)",
+    "ticker": "FBNH",
+    "country": "Nigeria",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "B Stable (Fitch) / B (S&P)",
+    "tier": "B",
+    "benchmark_bond": "FBNNL 8.625% Oct 2025 ($350m, XS2243733685, Redeemed) / NGX: FIRSTHOLDCO",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "First_HoldCo_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/First_HoldCo_Credit_Model.xlsx",
+    "last_updated": "2026-11-24",
+    "model_type": "bank",
+    "financials_currency": "NGN",
+    "provenance": "financials built 24-Nov-26 from First HoldCo FY2025 & 9M 2026 NGX financial filings; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "NGN",
+      "source": "First HoldCo Plc FY2025 Audited Financial Statements (NGX), read 24-Nov-26",
+      "assets": 27250000.0,
+      "loans": 8970000.0,
+      "deposits": 18880000.0,
+      "nii": 1916900.0,
+      "net_profit": 139500.0,
+      "car_pct": 10.95,
+      "observations": {
+        "notes": "FY25 assets NGN 27.25tn, net loans NGN 8.97tn, deposits NGN 18.88tn, NII NGN 1,916.9bn, PBT NGN 235.0bn, PAT NGN 139.5bn after heavy risk-reserve deductions post-CBN forbearance expiry; CAR dipped to 10.95% at YE25."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "NGN",
+      "source": "First HoldCo Plc 9M 2026 Financial Statements (NGX), read 24-Nov-26",
+      "assets": 32200000.0,
+      "loans": 9390000.0,
+      "deposits": 22910000.0,
+      "nii": 1260000.0,
+      "net_profit": 744450.0,
+      "car_pct": 16.7,
+      "observations": {
+        "notes": "9M26 assets NGN 32.20tn (+18% YTD), net loans NGN 9.39tn, deposits NGN 22.91tn, NII NGN 1.26tn, PBT NGN 911.24bn, PAT NGN 744.45bn. Flagship FirstBank restored CAR to 16.7% by mid-2026 (~170bp above 15% CBN minimum), prompting S&P CreditWatch resolution."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "FBNNL 8.625% Senior Notes due Oct 2025 (Redeemed)",
+      "tranche_name": "FBNNL 8.625% Senior Notes due Oct 2025 (Redeemed)",
+      "currency": "USD",
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0,
+      "amount_usd_m": 0.0,
+      "coupon": "8.625%",
+      "maturity": "2025-10-27",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2243733685"
+    },
+    {
+      "instrument": "FirstBank Domestic Funding & Subordinated Capital Lines",
+      "tranche_name": "FirstBank Domestic Funding & Subordinated Capital Lines",
+      "currency": "NGN",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "Variable",
+      "maturity": "2028-12-31",
+      "seniority": "Senior / Subordinated",
+      "instrument_type": "Domestic Banking Funding",
+      "governing_law": "Nigerian",
+      "isin": "NGFBNH000009"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 500.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "Redeemed $350m 8.625% Oct-2025 Eurobond (XS2243733685) in full; ongoing funding anchored by NGN 22.91tn deposit base and recapitalisation."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-24",
+    "verdict": {
+      "stance": "Constructive / Tier-1 Nigerian Bank Turnaround Post-CAR Restoration (B/B)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "First HoldCo staged a decisive 2026 capital and earnings recovery: 9M26 PAT surged to NGN 744.45bn (vs NGN 139.5bn FY25) while flagship FirstBank restored CAR to 16.7% (~170bp above the 15% CBN floor) after dipping to 10.95% at YE25 on oil/gas forbearance exits. Redeemed its $350m Oct-25 Eurobond in full; NGN 22.91tn deposit franchise anchors liquidity."
+    },
+    "positives": [
+      "CAR remediated to 16.7% by mid-2026 (from 10.95% YE25), clearing S&P CreditWatch Negative.",
+      "Strong 9M26 earnings rebound: PBT NGN 911.24bn, PAT NGN 744.45bn, deposits NGN 22.91tn.",
+      "Clean external debt track record: $350m 8.625% Oct-2025 Eurobond (XS2243733685) redeemed on schedule."
+    ],
+    "negatives": [
+      "Residual NPL cleanup and oil & gas asset quality sensitivity following CBN forbearance expiration.",
+      "CBN cash reserve requirement (CRR) tightening and NGN/FX translation volatility.",
+      "Sovereign linkage to Nigeria (B) and potential dilution/capital deployment needs for CBN NGN 500bn minimum paid-up capital rule."
+    ],
+    "background": {
+      "business_overview": "Nigeria's oldest Tier-1 banking group (First Bank of Nigeria Limited, FBNQuest) operating retail, corporate, and commercial banking across Nigeria and West Africa/UK.",
+      "asset_perimeter": "FirstBank Nigeria, FirstBank UK, FBNBank subsidiaries across SSA, FBNQuest merchant banking/asset management.",
+      "ownership_governance": "Listed on NGX (FIRSTHOLDCO, ISIN NGFBNH000009); regulated by CBN."
+    },
+    "recent_drivers": [
+      "9M26: Assets NGN 32.20tn, deposits NGN 22.91tn, PBT NGN 911.24bn, PAT NGN 744.45bn.",
+      "Mid-2026: Flagship FirstBank restored CAR to 16.7% (+170bp over 15% CBN threshold); S&P updated CreditWatch Negative assessment."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Results & CBN Recapitalisation Compliance",
+        "impact": "Verifies sustained CAR >16% and post-forbearance NPL normalization."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm 3Q26 NPL ratio and Stage 2 oil & gas coverage post-forbearance write-downs.",
+      "focus_area": "Asset Quality",
+      "relevance": "2025 CAR breach stemmed from oil/gas risk reserves."
+    },
+    {
+      "question": "Outline any plans to return to USD Eurobond markets in 2027 following the Oct-25 $350m redemption.",
+      "focus_area": "External Funding",
+      "relevance": "Assesses FX liquidity and CEMBI index re-entry."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "first_holdco",
+      "sector": "Banks",
+      "topic": "9M26 Earnings & CAR Restoration",
+      "source": "First HoldCo NGX / S&P / Fitch (Nov-26)",
+      "note": "9M26 PAT NGN 744.45bn, assets NGN 32.20tn, deposits NGN 22.91tn; CAR restored to 16.7% by mid-26 (vs 10.95% YE25). $350m Oct-25 Eurobond (XS2243733685) redeemed."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Lagos",
+    "ir_webcast_url": "https://www.firstholdco.com/investor-relations/",
+    "days_to_earnings": 127
+  },
+  "market_history": [
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "B Stable (Fitch) / B (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

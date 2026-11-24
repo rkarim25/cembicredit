@@ -4,9 +4,15 @@ _Page created 23-Nov-26 from `database/issuers/kipco.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB- Stable (Fitch) / BB+ Positive (CI).
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2024A | 4898.0 |  |  |  |  |  |
+| 2025A | 5050.0 |  |  |  |  |  |
+_USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=kipco) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/kipco.json)
 <!-- auto-data-end -->

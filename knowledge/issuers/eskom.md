@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/eskom.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ESKOM 6.35% 2028: price 99.0, YTM 8.5%, spread 445bp (as of 2026-11-21).
+- ESKOM 6.35% 2028: price 99.0, YTM 8.5%, spread 445bp (as of 2026-11-24).
 - Rating as recorded: B+ (Fitch) / B2 (Moody's) / B (S&P).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 11890.0 | 1760.0 | -2070.9 | 14126.2 | 8.03 | 1.55 |
-| 2023A | 13340.0 | 1980.0 | -2416.3 | 14875.3 | 7.51 | 1.45 |
-| 2024A | 14500.0 | 2200.0 | -1991.7 | 14960.0 | 6.8 | 1.45 |
+| 2025A | 340900.0 | 98000.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=eskom) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/eskom.json)

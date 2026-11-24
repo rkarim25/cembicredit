@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/akbank.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- AKBNK 6.45% 2029: price 100.2, YTM 6.45%, spread 185bp (as of 2026-11-21).
+- AKBNK 6.45% 2029: price 100.2, YTM 6.45%, spread 185bp (as of 2026-11-24).
 - Rating as recorded: BB- (Fitch) / Ba3 (Moody's).
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2022A |  | 2809.0 |  | 19.4 | 1.5 |
-| 2023A |  | 3037.7 |  | 19.4 | 1.5 |
-| 2024A |  | 3249.4 |  | 19.4 | 1.5 |
+| 2025A |  |  |  | 16.7 | 3.66 |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=akbank) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/akbank.json)
 <!-- auto-data-end -->

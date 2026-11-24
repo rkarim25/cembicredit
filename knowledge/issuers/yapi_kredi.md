@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/yapi_kredi.json`. Dated, sourced 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- YKBNK 6.75% 2029: price 99.4, YTM 6.75%, spread 215bp (as of 2026-11-22).
+- YKBNK 6.75% 2029: price 99.4, YTM 6.75%, spread 215bp (as of 2026-11-24).
 - Rating as recorded: BB- / B1.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2022A |  | 2412.2 |  | 17.5 | 2.1 |
-| 2023A |  | 2608.6 |  | 17.5 | 2.1 |
-| 2024A |  | 2790.4 |  | 17.5 | 2.1 |
+| 2025A |  |  | 11.7 | 14.0 | 3.8 |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=yapi_kredi) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/yapi_kredi.json)
 <!-- auto-data-end -->

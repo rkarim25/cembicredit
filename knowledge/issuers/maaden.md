@@ -4,7 +4,7 @@ _Page created 21-Nov-26 from `database/issuers/maaden.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: Baa1 / BBB+.
 

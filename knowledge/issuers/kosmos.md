@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/kosmos.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- KOS 10.45% 2027: price 89.5, YTM 10.45%, spread 610bp (as of 2026-11-22).
+- KOS 10.45% 2027: price 89.5, YTM 10.45%, spread 610bp (as of 2026-11-24).
 - Rating as recorded: B- / B3.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 1850.0 | 1020.0 | 5.0 | 2404.8 | 2.36 | 4.48 |
-| 2023A | 1540.0 | 850.0 | -205.0 | 2479.3 | 2.92 | 4.2 |
-| 2024A | 1480.0 | 810.0 | -55.0 | 2425.5 | 2.99 | 4.2 |
+| 2024A | 1680.0 |  |  | 2450.0 |  |  |
+| 2025A |  |  |  | 2950.0 |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=kosmos) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/kosmos.json)

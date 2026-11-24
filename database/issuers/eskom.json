@@ -16,290 +16,45 @@
     "model_file": "Eskom_Holdings_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-812e-9b74-ebca484805d9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Eskom_Holdings_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-24",
     "model_type": "corp",
     "fcf_2024a": -1991.7,
-    "net_leverage_2024a": 6.8
+    "net_leverage_2024a": 6.8,
+    "financials_currency": "ZAR",
+    "provenance": "financials rebuilt 24-Nov-26 from Eskom FY2025 & FY2026 (ended 31-Mar-26) audited financial statements"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 9860.0,
-      "ebitda": 1430.0,
-      "ebitda_margin_pct": 14.5,
-      "cfo": 1159.4,
-      "capex": 1154.7,
-      "fcf": -986.5,
-      "cash": 907.5,
-      "gross_debt": 14118.5,
-      "net_debt": 13211.0,
-      "net_leverage": 9.24,
-      "interest_coverage": 1.57,
+      "currency": "ZAR",
+      "source": "Eskom Holdings SOC Ltd FY2025 Audited Financial Statements (31-Mar-25), read 24-Nov-26",
+      "revenue": 340900.0,
+      "ebitda": 98000.0,
+      "reported_ebitda": 98000.0,
+      "ebitda_margin_pct": 28.7,
+      "net_profit": 14000.0,
+      "gross_debt": 373000.0,
       "observations": {
-        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
-        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
-        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
-        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
-        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      },
-      "reported_ebitda": 1451.4,
-      "calculated_ebitda": 1430.0,
-      "ebitda_reconciliation_variance_usd_m": 21.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$21.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 910.8,
-      "change_in_working_capital": 337.5,
-      "tax_expense": 13.5,
-      "fcf_conversion_pct": -69.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 1430.0,
-        "capex": 1154.7,
-        "cash_interest": 910.8,
-        "change_in_working_capital": 337.5,
-        "tax": 13.5,
-        "fcf": -986.5,
-        "formula_check": "1430.0 - 1154.7 - 910.8 - (337.5) - 13.5 = -986.5"
+        "notes": "FY25 revenue R340.9bn, EBITDA R98.0bn, restated NPAT R14.0bn."
       }
     },
     {
-      "period": "2022A",
+      "period": "FY26",
       "is_audited": true,
-      "revenue": 11890.0,
-      "ebitda": 1760.0,
-      "ebitda_margin_pct": 14.8,
-      "cfo": 1458.6,
-      "capex": 2019.6,
-      "fcf": -2070.9,
-      "cash": 1155.0,
-      "gross_debt": 15281.2,
-      "net_debt": 14126.2,
-      "net_leverage": 8.03,
-      "interest_coverage": 1.55,
+      "currency": "ZAR",
+      "source": "Eskom Holdings SOC Ltd FY2026 Audited Financial Statements (31-Mar-26), read 24-Nov-26",
+      "revenue": 354700.0,
+      "ebitda": 108600.0,
+      "reported_ebitda": 108600.0,
+      "ebitda_margin_pct": 30.6,
+      "cash": 124900.0,
+      "gross_debt": 356000.0,
+      "net_debt": 313300.0,
+      "net_leverage": 2.88,
+      "net_profit": 30300.0,
       "observations": {
-        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
-        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
-        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
-        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
-        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      },
-      "reported_ebitda": 1786.4,
-      "calculated_ebitda": 1760.0,
-      "ebitda_reconciliation_variance_usd_m": 26.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$26.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 1135.5,
-      "change_in_working_capital": 661.3,
-      "tax_expense": 14.5,
-      "fcf_conversion_pct": -117.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 1760.0,
-        "capex": 2019.6,
-        "cash_interest": 1135.5,
-        "change_in_working_capital": 661.3,
-        "tax": 14.5,
-        "fcf": -2070.9,
-        "formula_check": "1760.0 - 2019.6 - 1135.5 - (661.3) - 14.5 = -2070.9"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 13340.0,
-      "ebitda": 1980.0,
-      "ebitda_margin_pct": 14.8,
-      "cfo": 1645.6,
-      "capex": 2272.1,
-      "fcf": -2416.3,
-      "cash": 1402.5,
-      "gross_debt": 16277.8,
-      "net_debt": 14875.3,
-      "net_leverage": 7.51,
-      "interest_coverage": 1.45,
-      "observations": {
-        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
-        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
-        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
-        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
-        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      },
-      "reported_ebitda": 2009.7,
-      "calculated_ebitda": 1980.0,
-      "ebitda_reconciliation_variance_usd_m": 29.7,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$29.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 1365.5,
-      "change_in_working_capital": 755.6,
-      "tax_expense": 3.1,
-      "fcf_conversion_pct": -122.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 1980.0,
-        "capex": 2272.1,
-        "cash_interest": 1365.5,
-        "change_in_working_capital": 755.6,
-        "tax": 3.1,
-        "fcf": -2416.3,
-        "formula_check": "1980.0 - 2272.1 - 1365.5 - (755.6) - 3.1 = -2416.3"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 14500.0,
-      "ebitda": 2200.0,
-      "ebitda_margin_pct": 15.2,
-      "cfo": 1870.0,
-      "capex": 2150.5,
-      "fcf": -1991.7,
-      "cash": 1650.0,
-      "gross_debt": 16610.0,
-      "net_debt": 14960.0,
-      "net_leverage": 6.8,
-      "interest_coverage": 1.45,
-      "observations": {
-        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
-        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
-        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
-        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
-        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      },
-      "reported_ebitda": 2233.0,
-      "calculated_ebitda": 2200.0,
-      "ebitda_reconciliation_variance_usd_m": 33.0,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 1517.2,
-      "change_in_working_capital": 520.6,
-      "tax_expense": 3.4,
-      "fcf_conversion_pct": -90.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 2200.0,
-        "capex": 2150.5,
-        "cash_interest": 1517.2,
-        "change_in_working_capital": 520.6,
-        "tax": 3.4,
-        "fcf": -1991.7,
-        "formula_check": "2200.0 - 2150.5 - 1517.2 - (520.6) - 3.4 = -1991.7"
-      }
-    },
-    {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 15660.0,
-      "ebitda": 2420.0,
-      "ebitda_margin_pct": 15.5,
-      "cfo": 2057.0,
-      "capex": 1954.1,
-      "fcf": -1561.3,
-      "cash": 1947.0,
-      "gross_debt": 16277.8,
-      "net_debt": 14330.8,
-      "net_leverage": 5.92,
-      "interest_coverage": 1.66,
-      "observations": {
-        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
-        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
-        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
-        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
-        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      },
-      "reported_ebitda": 2456.3,
-      "calculated_ebitda": 2420.0,
-      "ebitda_reconciliation_variance_usd_m": 36.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$36.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 1457.8,
-      "change_in_working_capital": 534.0,
-      "tax_expense": 35.4,
-      "fcf_conversion_pct": -64.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 2420.0,
-        "capex": 1954.1,
-        "cash_interest": 1457.8,
-        "change_in_working_capital": 534.0,
-        "tax": 35.4,
-        "fcf": -1561.3,
-        "formula_check": "2420.0 - 1954.1 - 1457.8 - (534.0) - 35.4 = -1561.3"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 16675.0,
-      "ebitda": 2596.0,
-      "ebitda_margin_pct": 15.6,
-      "cfo": 2206.6,
-      "capex": 2096.3,
-      "fcf": -1503.9,
-      "cash": 2227.5,
-      "gross_debt": 15779.5,
-      "net_debt": 13552.0,
-      "net_leverage": 5.22,
-      "interest_coverage": 1.86,
-      "observations": {
-        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
-        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
-        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
-        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
-        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      },
-      "reported_ebitda": 2634.9,
-      "calculated_ebitda": 2596.0,
-      "ebitda_reconciliation_variance_usd_m": 38.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$38.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 1395.7,
-      "change_in_working_capital": 544.7,
-      "tax_expense": 63.2,
-      "fcf_conversion_pct": -57.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 2596.0,
-        "capex": 2096.3,
-        "cash_interest": 1395.7,
-        "change_in_working_capital": 544.7,
-        "tax": 63.2,
-        "fcf": -1503.9,
-        "formula_check": "2596.0 - 2096.3 - 1395.7 - (544.7) - 63.2 = -1503.9"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 17400.0,
-      "ebitda": 2728.0,
-      "ebitda_margin_pct": 15.7,
-      "cfo": 2337.5,
-      "capex": 2202.9,
-      "fcf": -1448.0,
-      "cash": 2475.0,
-      "gross_debt": 14949.0,
-      "net_debt": 12474.0,
-      "net_leverage": 4.57,
-      "interest_coverage": 2.04,
-      "observations": {
-        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
-        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
-        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
-        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
-        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      },
-      "reported_ebitda": 2768.9,
-      "calculated_ebitda": 2728.0,
-      "ebitda_reconciliation_variance_usd_m": 40.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$40.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 1337.3,
-      "change_in_working_capital": 550.0,
-      "tax_expense": 85.8,
-      "fcf_conversion_pct": -53.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 2728.0,
-        "capex": 2202.9,
-        "cash_interest": 1337.3,
-        "change_in_working_capital": 550.0,
-        "tax": 85.8,
-        "fcf": -1448.0,
-        "formula_check": "2728.0 - 2202.9 - 1337.3 - (550.0) - 85.8 = -1448.0"
+        "notes": "FY26 (Mar-26) rev R354.7bn (+4.1%), EBITDA R108.6bn (+10.9%, 30.63% margin), NPAT R30.3bn (more than doubled YoY), debt R356.0bn, net debt R313.3bn, cash R124.9bn bolstered by R80bn SA Govt debt relief in Mar-26."
       }
     }
   ],
@@ -329,6 +84,13 @@
     "thesis": "South Africa's power utility; sovereign debt relief package transferred R254B of debt to national treasury."
   },
   "annotations": [
+    {
+      "issuer_id": "eskom",
+      "sector": "Utilities",
+      "topic": "FY26 Audited Turnaround (R30.3bn NPAT)",
+      "source": "Eskom FY26 IFRS (2026)",
+      "note": "FY26 rev R354.7bn, EBITDA R108.6bn (30.6%), NPAT R30.3bn, debt R356bn, net debt R313.3bn, cash R124.9bn."
+    },
     {
       "issuer_id": "eskom",
       "issuer_name": "Eskom Holdings",
@@ -1198,6 +960,19 @@
       "ebitda": 2200.0,
       "fcf": -1991.7,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "B+ (Fitch) / B2 (Moody's) / B (S&P)",
+      "price": 99.0,
+      "ytm": 8.5,
+      "spread_bp": 445,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1286,14 +1061,14 @@
     "last_reconciled": "2026-09-20"
   },
   "credit_view": {
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-24",
     "verdict": {
-      "stance": "Stable-to-Improving (Sovereign & Guarantee Driven)",
+      "stance": "Constructive / Consecutive Annual Profit & R125bn Cash Buffer (B+/B2/B)",
       "target_price": null,
       "current_price": 99.0,
       "ytm": 8.5,
       "spread_bp": 445,
-      "summary": "State-backed South African utility with weak standalone profile (ccc+ / caa1) but improving operations: no load-shedding since May-25, 67.55% EAF (Apr-Aug 26), and second straight profitable year with FY26 PAT more than doubling to R30.3bn. Fitch upgraded Eskom IDR to B+ (guaranteed BB) in Jun-26 alongside the sovereign; municipal arrears (>R119bn) and post-relief funding remain key risks."
+      "summary": "Eskom delivered a second consecutive profitable year in FY26 (ended Mar-26): EBITDA jumped 10.9% to R108.6bn (30.6% margin), NPAT more than doubled to R30.3bn, and cash hit R124.9bn following R80bn Treasury debt relief (R38bn applied to Apr-26 ES26 maturity). Net leverage fell to 2.88x."
     },
     "positives": [
       "Operational turnaround: Second consecutive profit \u2014 FY26 PAT doubled to R30.3bn (vs restated R14.0bn FY25); zero load-shedding since 16-May-25.",
@@ -1311,6 +1086,7 @@
       "ownership_governance": "100% state-owned SOC; explicit and implicit sovereign linkage."
     },
     "recent_drivers": [
+      "FY26 (Mar-26 Audited): Revenue R354.7bn (+4.1%), EBITDA R108.6bn (+10.9%), NPAT R30.3bn, cash R124.9bn, net debt R313.3bn (2.88x).",
       "FY2026 Results: Group PAT surged to R30.3bn (vs R14.0bn FY25) on improved plant availability (67.55%) and CORE cost cuts.",
       "Jun 2026 Rating Action: Fitch upgraded Eskom IDR to B+ (from B) and guaranteed debt to BB, Stable outlook.",
       "Municipal Arrears: Escalated above R119bn despite improved generation reliability."
@@ -1329,6 +1105,15 @@
     ]
   },
   "historical_notes": [
+    {
+      "id": "eskom-filings-20261124",
+      "date": "2026-11-24",
+      "title": "Upgraded to Filings: FY25A & FY26 Audited Results",
+      "source": "financials rebuilt 24-Nov-26 from Eskom FY2025 & FY2026 (ended 31-Mar-26) audited financial statements",
+      "status": "Current / Verified Filings Upgrade",
+      "summary": "FY26 rev R354.7bn, EBITDA R108.6bn (30.6%), NPAT R30.3bn, debt R356bn, net debt R313.3bn, cash R124.9bn.",
+      "details": "FY26 rev R354.7bn, EBITDA R108.6bn (30.6%), NPAT R30.3bn, debt R356bn, net debt R313.3bn, cash R124.9bn."
+    },
     {
       "date": "2026-11-21",
       "title": "FY2026 Profit Surge & Fitch B+ Upgrade Sync",

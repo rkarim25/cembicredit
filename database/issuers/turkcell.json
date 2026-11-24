@@ -1208,6 +1208,19 @@
       "ebitda": 1750,
       "fcf": 244.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BB / BB-",
+      "price": 96.8,
+      "ytm": 6.95,
+      "spread_bp": 290,
+      "net_leverage": 1.15,
+      "ebitda": 1750,
+      "fcf": 244.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [

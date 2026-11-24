@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/mtn.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- MTNSJ Eurobond Curve: price 99.4, YTM 6.9%, spread 285bp (as of 2026-11-21).
+- MTNSJ Eurobond Curve: price 99.4, YTM 6.9%, spread 285bp (as of 2026-11-24).
 - Rating as recorded: Ba2 (Moody's) / BB- Pos (S&P).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 9676 | 3600 | -223.9 | 7573.5 | 2.1 | 5.76 |
-| 2023A | 10856 | 4050 | -296.6 | 7715.2 | 1.9 | 5.4 |
-| 2024A | 11800 | 4500 | 481.2 | 7425 | 1.65 | 5.4 |
+| 2024A | 177756.0 | 60095.0 |  |  | 0.7 |  |
+| 2025A | 218500.0 | 98500.0 |  | 21800.0 | 0.3 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=mtn) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/mtn.json)

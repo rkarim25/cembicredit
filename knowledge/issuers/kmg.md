@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/kmg.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- KZOK 5.375% 2030: price 88.5, YTM 6.75%, spread 270bp (as of 2026-11-21).
+- KZOK 5.375% 2030: price 88.5, YTM 6.75%, spread 270bp (as of 2026-11-24).
 - Rating as recorded: BBB (S&P) / Baa1 (Moody's) / BBB (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 14924.0 | 3840.0 | -378.7 | 7195.2 | 1.87 | 7.25 |
-| 2023A | 16744.0 | 4320.0 | -462.7 | 7288.8 | 1.69 | 6.8 |
-| 2024A | 18200.0 | 4800.0 | 451.7 | 6960.0 | 1.45 | 6.8 |
+| 2024A | 8330000.0 | 2001000.0 | 1199000.0 | 1163000.0 | 0.58 |  |
+| 2025A | 9371000.0 | 2598000.0 |  | 375000.0 | 0.14 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=kmg) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/kmg.json)

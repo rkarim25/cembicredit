@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "id": "mubadala",
+    "name": "Mubadala (Mamoura Diversified Global Holding)",
+    "ticker": "MDGH",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Financials",
+    "type": "corp",
+    "rating": "AA Stable (Fitch) / Aa2 (Moody's) / AA (S&P)",
+    "tier": "IG",
+    "benchmark_bond": "MDGH 4.959% Apr 2034 ($1.0B, XS2797416760)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Mubadala_MDGH_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Mubadala_MDGH_Credit_Model.xlsx",
+    "last_updated": "2026-11-24",
+    "model_type": "corp",
+    "financials_currency": "AED",
+    "provenance": "financials built 24-Nov-26 from MDGH FY2025 PwC-audited IFRS consolidated statements (27-Mar-26); quotes await [BBG] capture",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "MDGH FY2025 Audited Consolidated IFRS Financial Statements (PwC / LSE RNS, 27-Mar-26), read 24-Nov-26",
+      "gross_debt": 190300.0,
+      "observations": {
+        "notes": "Group AUM reached AED 1,414bn (~$385bn, up from AED 1,212bn FY24); FY25 investments AED 143bn (~$39bn). MDGH total borrowings AED 190.3bn (~$51.8bn) and total consolidated liabilities AED 303.48bn (vs AED 211.74bn YE24) following CI Financial acquisition."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "MDGH GMTN 2.50% Senior Unsecured Notes due 2031",
+      "tranche_name": "MDGH GMTN 2.50% Senior Unsecured Notes due 2031",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "2.500%",
+      "maturity": "2031-06-03",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2348658035"
+    },
+    {
+      "instrument": "MDGH GMTN 4.959% Senior Unsecured Notes due Apr 2034",
+      "tranche_name": "MDGH GMTN 4.959% Senior Unsecured Notes due Apr 2034",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "4.959%",
+      "maturity": "2034-04-04",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2797416760"
+    },
+    {
+      "instrument": "MDGH GMTN 3.950% Senior Unsecured Notes due May 2050",
+      "tranche_name": "MDGH GMTN 3.950% Senior Unsecured Notes due May 2050",
+      "currency": "USD",
+      "amount_issued_usd_m": 2000.0,
+      "outstanding_usd_m": 2000.0,
+      "amount_outstanding_usd_m": 2000.0,
+      "amount_usd_m": 2000.0,
+      "coupon": "3.950%",
+      "maturity": "2050-05-21",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2175968580"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 4000.0,
+    "total_outstanding_usd_m": 4000.0,
+    "source": "Selected benchmark USD GMTN tranches ($1bn 2031 XS2348658035, $1bn Apr-34 XS2797416760, $2bn May-50 XS2175968580); full MDGH consolidated borrowings AED 190.3bn (~$51.8bn)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-24",
+    "verdict": {
+      "stance": "Neutral / Abu Dhabi Sovereign-Equalized SWF Debt Vehicle (AA/Aa2)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Mamoura Diversified Global Holding (MDGH) is Abu Dhabi sovereign wealth fund Mubadala's primary debt-issuing vehicle, equalized at AA/Aa2/AA (Fitch support score 55/60). AUM reached AED 1,414bn (~$385bn) at YE25 alongside AED 143bn annual deployments; consolidated debt rose to AED 190.3bn (~$51.8bn) on portfolio M&A (CI Financial) while LTV remains ultra-conservative."
+    },
+    "positives": [
+      "Virtually certain Abu Dhabi sovereign backing (AA/Aa2/AA; Fitch support score 55/60).",
+      "Massive AED 1,414bn (~$385bn) diversified global AUM across AI/tech, energy, infrastructure, and private credit.",
+      "Deep GMTN & Sukuk market access across USD and EUR curves."
+    ],
+    "negatives": [
+      "Consolidated borrowings rose to AED 190.3bn (liabilities AED 303.5bn vs AED 211.7bn YE24) from levered acquisitions (CI Financial).",
+      "Tight sovereign-proxy spreads limit upside vs Abu Dhabi sovereign bonds.",
+      "Rising private credit and illiquid alternative asset share in portfolio mix."
+    ],
+    "background": {
+      "business_overview": "Wholly-owned Abu Dhabi sovereign investor (Mubadala) operating via MDGH PJSC, MDGH GMTN, and MDGH Sukuk.",
+      "asset_perimeter": "GlobalFoundries, Masdar, Nova Chemicals, Cepsa/Moeve, CI Financial, global private credit & PE.",
+      "ownership_governance": "100% Government of Abu Dhabi; PwC-audited IFRS consolidated accounts."
+    },
+    "recent_drivers": [
+      "Mar-26 (FY25 Audited): AUM AED 1,414bn (~$385bn), FY25 investments AED 143bn, consolidated borrowings AED 190.3bn.",
+      "2026: Fitch affirmed AA Stable (virtually certain Abu Dhabi support)."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited Consolidated Statements & GMTN Issuance",
+        "impact": "Tracks portfolio valuation marks and net LTV discipline."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm HoldCo cash balance and standalone MDGH HoldCo LTV post-CI Financial consolidation.",
+      "focus_area": "Leverage",
+      "relevance": "Consolidated borrowings rose to AED 190.3bn in FY25."
+    },
+    {
+      "question": "Detail 2027 GMTN/Sukuk gross issuance plan vs portfolio realization proceeds.",
+      "focus_area": "Funding",
+      "relevance": "Sets supply technicals for Abu Dhabi GRE curve."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "mubadala",
+      "sector": "Financials",
+      "topic": "FY25 Audited AUM ($385bn) & Borrowings",
+      "source": "MDGH FY25 IFRS / Fitch (2026)",
+      "note": "FY25 AUM AED 1,414bn (~$385bn), investments AED 143bn, borrowings AED 190.3bn (~$51.8bn). Fitch AA Stable (55/60 support score) / Moody's Aa2."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Abu Dhabi",
+    "ir_webcast_url": "https://www.mubadala.com/en/investors",
+    "days_to_earnings": 127
+  },
+  "market_history": [
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "AA Stable (Fitch) / Aa2 (Moody's) / AA (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": 100.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "AED 1,414bn AUM / AA Sovereign Support",
+    "restructuring_framework": "Abu Dhabi GRE / English Law",
+    "thesis": "AED 190.3bn borrowings backed by AED 1,414bn AUM and virtually certain Abu Dhabi Government support."
+  }
+}

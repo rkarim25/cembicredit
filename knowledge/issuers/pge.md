@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/pge.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - PGE 5.125% 2029: price 99.2, YTM 5.3%, spread 125bp (as of 2026-11-23).
 - Rating as recorded: BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26).

@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "id": "navoi_mining",
+    "name": "Navoi Mining & Metallurgical Company (NMMC)",
+    "ticker": "NMMC",
+    "country": "Uzbekistan",
+    "region": "Central Asia",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BB Positive (Fitch, SCP bb+) / BB Stable (S&P)",
+    "tier": "BB",
+    "benchmark_bond": "NMMC 6.95% Oct 2031 ($500m, XS2911115645)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Navoi_Mining_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Navoi_Mining_Credit_Model.xlsx",
+    "last_updated": "2026-11-24",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 24-Nov-26 from NMMC FY2024/FY2025 audited IFRS & H1 2026 filings; quotes await [BBG] capture",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "NMMC FY2024 Audited IFRS Financial Statements (ngmk.uz), read 24-Nov-26",
+      "revenue": 7400.0,
+      "ebitda": 4561.0,
+      "reported_ebitda": 4561.0,
+      "ebitda_margin_pct": 61.6,
+      "cfo": 2702.0,
+      "capex": 914.0,
+      "net_debt": 2491.0,
+      "net_leverage": 0.55,
+      "observations": {
+        "notes": "FY24 rev ~$7.4bn, Adj EBITDA $4,561m, CFO $2,702m, cash capex $914m, equity $4,809m, net debt $2,491m (0.5x). Issued $1.0bn debut Eurobonds in Oct-24."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "NMMC FY2025 Audited IFRS Financial Statements (ngmk.uz), read 24-Nov-26",
+      "revenue": 10800.0,
+      "ebitda": 6951.0,
+      "reported_ebitda": 6951.0,
+      "ebitda_margin_pct": 64.4,
+      "cfo": 4652.0,
+      "capex": 1019.0,
+      "net_debt": 2360.0,
+      "net_leverage": 0.34,
+      "observations": {
+        "notes": "FY25 rev $10.8bn, gold output 3.15Moz, Adj EBITDA $6,951m (64.2% margin), CFO $4,652m, cash capex $1,019m, equity $5,425m, net debt $2,360m (0.3x). Tapped $500m 6.75% 2030 Eurobond in May-25."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "NMMC H1 2026 Consolidated Financial Results (ngmk.uz), read 24-Nov-26",
+      "revenue": 7070.0,
+      "ebitda": 4890.0,
+      "reported_ebitda": 4890.0,
+      "ebitda_margin_pct": 69.2,
+      "capex": 543.0,
+      "net_profit": 2380.0,
+      "net_leverage": 0.3,
+      "observations": {
+        "notes": "H126 rev $7,070m (+49.9% YoY), Adj EBITDA $4,890m (+59.8% YoY, 69.2% margin), NPAT $2,380m, gold output 1.51Moz (-1.8% YoY), AISC $1,647/oz (vs $1,164/oz H125 on gold-linked royalties/stripping), cash capex $543m, net leverage 0.3x."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "NMMC 6.70% Senior Unsecured Notes due Oct 2028",
+      "tranche_name": "NMMC 6.70% Senior Unsecured Notes due Oct 2028",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "6.700%",
+      "maturity": "2028-10-17",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2902087936"
+    },
+    {
+      "instrument": "NMMC 6.75% Senior Unsecured Notes due May 2030",
+      "tranche_name": "NMMC 6.75% Senior Unsecured Notes due May 2030",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "6.750%",
+      "maturity": "2030-05-14",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS3055730355"
+    },
+    {
+      "instrument": "NMMC 6.95% Senior Unsecured Notes due Oct 2031",
+      "tranche_name": "NMMC 6.95% Senior Unsecured Notes due Oct 2031",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "6.950%",
+      "maturity": "2031-10-17",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2911115645"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 500.0,
+    "2029": 0.0,
+    "2030_plus": 1000.0,
+    "total_outstanding_usd_m": 1500.0,
+    "source": "LSE-listed USD Eurobonds: $500m Oct-28 (XS2902087936), $500m May-30 (XS3055730355), $500m Oct-31 (XS2911115645)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-24",
+    "verdict": {
+      "stance": "Overweight / Sovereign-Capped Global Top-4 Gold Producer (BB Pos / BB)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "World's 4th-largest gold producer (3.15Moz/yr) delivering exceptional cash conversion: H126 revenue jumped 49.9% YoY to $7.07bn with Adj EBITDA of $4.89bn (69.2% margin) and net leverage just 0.3x ($2.36bn net debt YE25 vs $6.95bn FY25 EBITDA). Fitch assesses SCP at bb+ (capped at BB Positive by Uzbekistan sovereign)."
+    },
+    "positives": [
+      "Tier-1 global scale (Muruntau open-pit mega-mine, 3.15Moz FY25 gold output) and 69.2% H126 EBITDA margin.",
+      "Ultra-low 0.3x net leverage ($2.36bn net debt YE25 vs $4.65bn FY25 CFO); Fitch SCP bb+ sits above sovereign BB.",
+      "Clean $1.5bn Eurobond maturity ladder (2028/2030/2031) with no near-term refinancing wall."
+    ],
+    "negatives": [
+      "Sovereign cap (BB Positive Fitch / BB Stable S&P) and high fiscal extraction (royalties/dividends to Uzbek state).",
+      "AISC inflation to $1,647/oz in H126 (from $1,164/oz H125) driven by price-linked mineral extraction tax and Muruntau stripping.",
+      "Single-commodity (gold) price sensitivity and Muruntau asset concentration."
+    ],
+    "background": {
+      "business_overview": "Uzbekistan's flagship state-owned gold mining group (top-4 globally), producing ~3.15Moz gold annually led by the Muruntau complex.",
+      "asset_perimeter": "Muruntau open pit and regional gold mining/processing complexes across Uzbekistan.",
+      "ownership_governance": "100% Republic of Uzbekistan; IFRS audited financials."
+    },
+    "recent_drivers": [
+      "H126: Revenue $7.07bn (+49.9% YoY), Adj EBITDA $4.89bn (+59.8% YoY, 69.2% margin), NPAT $2.38bn, net leverage 0.3x.",
+      "FY25: Revenue $10.8bn, Adj EBITDA $6.95bn, CFO $4.65bn, net debt $2.36bn; Fitch affirmed BB Positive (SCP bb+, RR4)."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited IFRS Results & Sovereign Rating Review",
+        "impact": "Fitch Positive outlook on Uzbekistan could lift sovereign cap to BB+."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm 2027 dividend payout ratio to the Ministry of Economy & Finance and gross debt ceiling.",
+      "focus_area": "State Dividends",
+      "relevance": "Primary driver of FCF retention after high royalties."
+    },
+    {
+      "question": "Detail Muruntau Phase 5 expansion capex schedule and target AISC ex-price-linked royalties.",
+      "focus_area": "Cost & Capex",
+      "relevance": "H126 AISC rose to $1,647/oz."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "navoi_mining",
+      "sector": "Materials",
+      "topic": "H126 Results & 0.3x Net Leverage",
+      "source": "NMMC IFRS / Fitch (2026)",
+      "note": "H126 rev $7.07bn (+50% YoY), Adj EBITDA $4.89bn (69.2% margin), net debt/EBITDA 0.3x. $1.5bn Eurobonds (2028/2030/2031); Fitch BB Positive (SCP bb+)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Tashkent",
+    "ir_webcast_url": "https://www.ngmk.uz/en/investors",
+    "days_to_earnings": 127
+  },
+  "market_history": [
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BB Positive (Fitch, SCP bb+) / BB Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.55,
+      "ebitda": 4561.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": 100.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "4.0x Stress Gold EBITDA (<0.5x Leverage)",
+    "restructuring_framework": "Uzbekistan SOE / English Law",
+    "thesis": "SCP bb+ gold powerhouse with 0.3x net leverage and $4.9bn H126 EBITDA, well inside BB rating cap."
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "id": "sqb_uzb",
+    "name": "SQB (Uzpromstroybank)",
+    "ticker": "SQBUZB",
+    "country": "Uzbekistan",
+    "region": "Central Asia",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB Stable (Fitch, Mar-26, VR b) / BB- Negative (S&P, Jul-26)",
+    "tier": "BB",
+    "benchmark_bond": "SQBUZB 8.95% Jul 2029 Sustainability ($400m, XS2849506402)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "SQB_Uzbekistan_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/SQB_Uzbekistan_Credit_Model.xlsx",
+    "last_updated": "2026-11-24",
+    "model_type": "bank",
+    "financials_currency": "UZS",
+    "provenance": "financials built 24-Nov-26 from SQB FY2025 filings & S&P/Fitch 2026 reviews; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "UZS",
+      "source": "SQB FY2025 Financial Statements / S&P Jul-26 & Fitch Mar-26 Reviews, read 24-Nov-26",
+      "assets": 102000000.0,
+      "loans": 87500000.0,
+      "deposits": 54000000.0,
+      "net_profit": 1880000.0,
+      "npl_pct": 9.1,
+      "car_pct": 19.0,
+      "observations": {
+        "notes": "Assets >UZS 102tn (~11% system share), net loans >UZS 87.5tn, deposits >UZS 54tn, FY25 NPAT UZS 1.88tn (#2 in sector). Issued $300m perp AT1 in Oct-25 lifting Total CAR to ~19% (Tier 1 ~14.7%). Stage 3 loans & OREO 9.1% YE25; S&P revised outlook to Negative (Jul-26)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "SQBUZB Sustainability Notes due Jul 2027",
+      "tranche_name": "SQBUZB Sustainability Notes due Jul 2027",
+      "currency": "USD",
+      "amount_issued_usd_m": 179.0,
+      "outstanding_usd_m": 179.0,
+      "amount_outstanding_usd_m": 179.0,
+      "amount_usd_m": 179.0,
+      "coupon": "Fixed USD",
+      "maturity": "2027-07-24",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2855478496"
+    },
+    {
+      "instrument": "SQBUZB 8.95% Sustainability Notes due Jul 2029",
+      "tranche_name": "SQBUZB 8.95% Sustainability Notes due Jul 2029",
+      "currency": "USD",
+      "amount_issued_usd_m": 400.0,
+      "outstanding_usd_m": 400.0,
+      "amount_outstanding_usd_m": 400.0,
+      "amount_usd_m": 400.0,
+      "coupon": "8.950%",
+      "maturity": "2029-07-24",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2849506402"
+    },
+    {
+      "instrument": "SQBUZB Perpetual AT1 Capital Notes (Issued Oct 2025)",
+      "tranche_name": "SQBUZB Perpetual AT1 Capital Notes (Issued Oct 2025)",
+      "currency": "USD",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0,
+      "amount_usd_m": 300.0,
+      "coupon": "AT1 Fixed",
+      "maturity": "Perpetual",
+      "seniority": "Additional Tier 1",
+      "instrument_type": "AT1 Perpetual",
+      "governing_law": "English",
+      "isin": "XS3200158478"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 179.0,
+    "2028": 0.0,
+    "2029": 400.0,
+    "2030_plus": 300.0,
+    "total_outstanding_usd_m": 879.0,
+    "source": "LSE-listed USD notes: $179m Jul-27 (XS2855478496), $400m 8.95% Jul-29 (XS2849506402), $300m Perp AT1 (XS3200158478)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-24",
+    "verdict": {
+      "stance": "Neutral / High-Carry Uzbek State Bank Under Asset Cleanup (BB / BB- Neg)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Uzbekistan's #2/#3 corporate bank (>UZS 102tn assets, FY25 NPAT UZS 1.88tn) carries strong 19% Total CAR post-Oct-25 $300m AT1 issuance, but faces elevated 9.1% Stage 3/OREO ratios (potentially rising toward 12% during pre-privatization cleanup) and ~60% loan dollarization. S&P cut outlook to Negative (Jul-26) on privatization transition risks; Fitch remains BB Stable."
+    },
+    "positives": [
+      "Strong Total CAR (~19%, Tier 1 ~14.7%) following Oct-25 $300m perpetual AT1 placement.",
+      "Sector #2 FY25 profitability (UZS 1.88tn net profit) and ~11% banking system share.",
+      "Fitch BB Stable with state ownership still anchoring support ahead of stretched 2027 privatization timeline."
+    ],
+    "negatives": [
+      "S&P BB- Negative outlook (Jul-26): Stage 3/OREO at 9.1% YE25 (could peak up to ~12% during legacy book cleanup).",
+      "High ~60% loan dollarization creating borrower FX mismatch risk.",
+      "Privatization transition could gradually reduce extraordinary sovereign support uplift."
+    ],
+    "background": {
+      "business_overview": "Third-largest bank in Uzbekistan (~11% system assets) focused on industrial/corporate banking, transforming toward commercial/SME/retail ahead of privatization.",
+      "asset_perimeter": "Corporate, SME, retail banking and green/sustainability finance across Uzbekistan.",
+      "ownership_governance": "Majority state-owned (Ministry of Economy & Finance / UFRD); IFC/EBRD transformation engagement."
+    },
+    "recent_drivers": [
+      "Jul-26: S&P affirmed BB- and revised outlook to Negative on Stage 3 cleanup (9.1% YE25) and privatization execution risk.",
+      "Mar-26: Fitch affirmed BB Stable (VR b); Oct-25 $300m perp AT1 lifted CAR to ~19%."
+    ],
+    "catalysts": [
+      {
+        "date": "2027",
+        "event": "Privatization Milestone & $179m Jul-2027 Sustainability Bond Maturity",
+        "impact": "Tests asset cleanup trajectory and strategic investor entry."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Detail legacy SOE NPL workout timeline and peak Stage 3 guidance (9.1% vs 12% S&P sensitivity).",
+      "focus_area": "Asset Quality",
+      "relevance": "Triggered S&P Negative outlook in Jul-26."
+    },
+    {
+      "question": "Update privatization timeline and impact on sovereign support assumptions beyond 2027.",
+      "focus_area": "Ownership & Support",
+      "relevance": "Determines Fitch/S&P rating uplift."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "sqb_uzb",
+      "sector": "Banks",
+      "topic": "Jul-26 S&P Negative Outlook & AT1 Buffer",
+      "source": "SQB / S&P / Fitch (2026)",
+      "note": "FY25 NPAT UZS 1.88tn, assets >UZS 102tn, Stage 3/OREO 9.1%; CAR ~19% post-$300m AT1. S&P cut outlook to BB- Negative (Jul-26); Fitch BB Stable."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Tashkent",
+    "ir_webcast_url": "https://sqb.uz/en/investors/",
+    "days_to_earnings": 127
+  },
+  "market_history": [
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BB Stable (Fitch, Mar-26, VR b) / BB- Negative (S&P, Jul-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

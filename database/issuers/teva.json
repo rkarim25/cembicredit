@@ -260,6 +260,19 @@
       "ebitda": 4600.0,
       "fcf": 2068.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "Baa3 / BBB- / BBB-",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 3.11,
+      "ebitda": 4600.0,
+      "fcf": 2068.0,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
@@ -270,5 +283,14 @@
       "source": "Teva Q3 2026 Release (03-Nov-26)",
       "note": "Austedo/Ajovy/Uzedy +33% YoY drove Q3 EBITDA $1.5bn (+7% YoY) and net leverage down to 2.71x toward 2.0x end-2027 IG target."
     }
-  ]
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": 95.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "6.5x Pharma EBITDA (2.71x Net Lev)",
+    "restructuring_framework": "Israel / New York & English Law",
+    "thesis": "Rising-star IG pharma (Baa3/BBB-) deleveraging toward 2.0x by 2027 on +33% innovative brands growth (Austedo/Ajovy/Uzedy)."
+  }
 }

@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/thy.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- THYAO 7.25% 2029: price 99.2, YTM 7.45%, spread 340bp (as of 2026-11-22).
+- THYAO 7.25% 2029: price 99.2, YTM 7.45%, spread 340bp (as of 2026-11-24).
 - Rating as recorded: BB- / BB-.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 17220.0 | 3520.0 | -877.2 | 8619.6 | 2.45 | 5.12 |
-| 2023A | 19320.0 | 3960.0 | -1034.5 | 8837.4 | 2.23 | 4.8 |
-| 2024A | 21000.0 | 4400.0 | -9.9 | 8580.0 | 1.95 | 4.8 |
+| 2025A | 24100.0 | 5700.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=thy) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/thy.json)

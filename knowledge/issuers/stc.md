@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/stc.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- STC 3.922% 2029: price 97.5, YTM 4.85%, spread 80bp (as of 2026-11-22).
+- STC 3.922% 2029: price 97.5, YTM 4.85%, spread 80bp (as of 2026-11-24).
 - Rating as recorded: A1 / A+.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 16810 | 5760 | 250.2 | 5493.6 | 0.95 | 19.73 |
-| 2023A | 18860 | 6480 | 263.4 | 5288.4 | 0.82 | 18.5 |
-| 2024A | 20500 | 7200 | 1649.2 | 4680 | 0.65 | 18.5 |
+| 2025A | 77800.0 | 24500.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=stc) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/stc.json)

@@ -1188,6 +1188,19 @@
       "ebitda": 185.0,
       "fcf": 26.8,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "B- Stable (Fitch, May-26) / Caa1",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 4.13,
+      "ebitda": 185.0,
+      "fcf": 26.8,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [

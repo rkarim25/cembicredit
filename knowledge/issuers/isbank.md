@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/isbank.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ISCTR 6.85% 2029: price 99.5, YTM 6.85%, spread 225bp (as of 2026-11-22).
+- ISCTR 6.85% 2029: price 99.5, YTM 6.85%, spread 225bp (as of 2026-11-24).
 - Rating as recorded: BB- / B1.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2022A |  | 3138.3 |  | 17.8 | 1.8 |
-| 2023A |  | 3393.7 |  | 17.8 | 1.8 |
-| 2024A |  | 3630.4 |  | 17.8 | 1.8 |
+| 2025A |  |  |  | 17.2 | 4.2 |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=isbank) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/isbank.json)
 <!-- auto-data-end -->

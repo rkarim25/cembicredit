@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "transnet",
+    "name": "Transnet SOC Ltd",
+    "ticker": "TRANSN",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Infrastructure",
+    "type": "corp",
+    "rating": "Ba3 (Moody's)",
+    "tier": "BB",
+    "benchmark_bond": "TRANSN 8.25% Feb 2028 ($1.0B, XS2582981952)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Transnet_SOC_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Transnet_SOC_Credit_Model.xlsx",
+    "last_updated": "2026-11-24",
+    "model_type": "corp",
+    "financials_currency": "ZAR",
+    "provenance": "financials built 24-Nov-26 from Transnet FY2025 & FY2026 (ended 31-Mar-26) audited filings; quotes await [BBG] capture",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Transnet SOC Ltd FY2025 Audited Financial Statements (ended 31-Mar-25), read 24-Nov-26",
+      "revenue": 82700.0,
+      "ebitda": 30680.0,
+      "reported_ebitda": 30680.0,
+      "ebitda_margin_pct": 37.1,
+      "net_profit": -1900.0,
+      "observations": {
+        "notes": "FY25 (Mar-25) revenue R82.7bn, EBITDA R30.68bn, net loss R1.9bn."
+      }
+    },
+    {
+      "period": "FY26",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Transnet SOC Ltd FY2026 Audited Financial Statements (ended 31-Mar-26), read 24-Nov-26",
+      "revenue": 88600.0,
+      "ebitda": 30900.0,
+      "reported_ebitda": 30900.0,
+      "ebitda_margin_pct": 34.9,
+      "capex": 23300.0,
+      "gross_debt": 136000.0,
+      "net_profit": 4600.0,
+      "observations": {
+        "notes": "FY26 (ended 31-Mar-26) revenue R88.6bn (+7.1%), EBITDA R30.9bn (34.8% margin), capex R23.3bn, net profit R4.6bn (aided by 49.999% Durban Pier 2 disposal gain to ICTSI), gearing 49.5% (<50% covenant), total debt ~R136bn+, backed by R51bn\u2013R99.6bn SA Govt guarantee framework."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "TRANSN 8.25% Senior Unsecured Notes due Feb 2028",
+      "tranche_name": "TRANSN 8.25% Senior Unsecured Notes due Feb 2028",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "8.250%",
+      "maturity": "2028-02-06",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2582981952"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 1000.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 1000.0,
+    "source": "$1.0bn 8.25% Feb-2028 USD Eurobond (XS2582981952 / US89395PAA73); excludes ZAR ~R120bn domestic loans/bonds covered by R51bn-R99.6bn SA National Treasury guarantees."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-24",
+    "verdict": {
+      "stance": "Neutral / SA Guarantee-Anchored Rail & Port Monopolist Ahead of 2028 Maturity (Ba3)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Transnet returned to R4.6bn net profit in FY26 (Mar-26) on R88.6bn revenue (+7.1%) and R30.9bn EBITDA, aided by the Durban Pier 2 49.999% stake sale to ICTSI. Standalone metrics remain stretched (R136bn+ debt, R23.3bn capex, 49.5% gearing vs 50% covenant ceiling), but R51bn\u2013R99.6bn South African government guarantee frameworks backstop debt service and Feb-2028 $1bn Eurobond refinancing."
+    },
+    "positives": [
+      "Explicit South African National Treasury guarantee framework (R51bn\u2013R99.6bn) covering multi-year redemptions.",
+      "Strategic rail and port monopoly; ICTSI Durban Pier 2 JV monetization lifted FY26 profit to R4.6bn.",
+      "Moody's Ba3 CFR anchored by extraordinary state support."
+    ],
+    "negatives": [
+      "Weak standalone BCA (caa1/b3): ~R136bn+ gross debt, R23.3bn capex, and razor-thin 49.5% gearing vs 50% covenant cap.",
+      "Rail freight volume recovery remains gradual despite tariff increases.",
+      "$1.0bn 8.25% Eurobond bullet maturity approaches in Feb-2028."
+    ],
+    "background": {
+      "business_overview": "South Africa's 100% state-owned rail freight, port terminal, and fuel pipeline monopoly.",
+      "asset_perimeter": "Transnet Freight Rail, Transnet National Ports Authority, Transnet Port Terminals (incl. Durban Pier 2 JV), Pipelines.",
+      "ownership_governance": "100% Republic of South Africa."
+    },
+    "recent_drivers": [
+      "FY26 (Mar-26): Revenue R88.6bn (+7.1%), EBITDA R30.9bn, NPAT R4.6bn (Durban Pier 2 49.999% sale to ICTSI), capex R23.3bn, gearing 49.5%.",
+      "2025-26: SA government formalized R51bn guarantee facility & up to ~R99.6bn multi-year guarantee framework."
+    ],
+    "catalysts": [
+      {
+        "date": "27 Nov 2026",
+        "event": "Moody's & S&P South Africa Sovereign Review",
+        "impact": "Directly governs Transnet state-support rating ceiling."
+      },
+      {
+        "date": "Feb 2028",
+        "event": "$1.0bn 8.25% Eurobond Maturity (XS2582981952)",
+        "impact": "Will test National Treasury guarantee utilization or Eurobond rollover."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm exact guarantee allocation earmarked for the $1.0bn Feb-2028 Eurobond vs domestic ZAR maturities.",
+      "focus_area": "State Guarantees",
+      "relevance": "Feb-28 bond is 15 months out."
+    },
+    {
+      "question": "Detail rail freight tonnage run-rate and gearing headroom below the 50% bank covenant limit.",
+      "focus_area": "Covenants & Ops",
+      "relevance": "FY26 gearing at 49.5% leaves 50bp buffer."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "transnet",
+      "sector": "Infrastructure",
+      "topic": "FY26 Turnaround & SA Guarantee Framework",
+      "source": "Transnet FY26 Audited / Moody's (2026)",
+      "note": "FY26 rev R88.6bn (+7.1%), EBITDA R30.9bn, NPAT R4.6bn (Durban Pier 2 ICTSI deal), gearing 49.5%, debt ~R136bn+. Backed by R51-99.6bn SA Govt guarantees; Moody's Ba3."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-12-15",
+    "period_reporting": "H1 FY27 Interim",
+    "confirmation_status": "Estimated",
+    "call_time": "11:00 Johannesburg",
+    "ir_webcast_url": "https://www.transnet.net/InvestorRelations/",
+    "days_to_earnings": 21
+  },
+  "market_history": [
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "Ba3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": 85.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "State-Guaranteed SOE Infrastructure",
+    "restructuring_framework": "South African SOE / National Treasury Guarantee",
+    "thesis": "Critical SA rail/port monopoly backed by R51-99.6bn Treasury guarantee framework despite 49.5% standalone gearing."
+  }
+}

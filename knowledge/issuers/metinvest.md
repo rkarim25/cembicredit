@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/metinvest.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- METINV 7.65% 2027 ($322-332m): price 93.27, YTM 14.98%, spread 1022bp (as of 2026-11-21).
+- METINV 7.65% 2027 ($322-332m): price 93.27, YTM 14.98%, spread 1022bp (as of 2026-11-24).
 - Rating as recorded: CCC+ (S&P) / Caa3 (Moody's) / CCC- (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 8288.0 | 743.0 | -550.0 | 1666.9 | 2.26 | 4.09 |
-| 2023A | 7394.0 | 678.0 | -140.0 | 1703.6 | 2.51 | 3.83 |
-| 2024A | 7344.0 | 737.0 | -193.0 | 866.0 | 1.18 | 3.98 |
+| 2024A | 8050.0 | 1009.0 |  | 1335.0 | 1.32 |  |
+| 2025A | 7242.0 | 765.0 |  | 1065.0 | 1.39 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=metinvest) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/metinvest.json)

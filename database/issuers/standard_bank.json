@@ -1249,6 +1249,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BB Stable (Fitch) / Ba2 Pos (Moody's)",
+      "price": 98.0,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [

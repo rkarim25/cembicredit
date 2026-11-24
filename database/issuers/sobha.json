@@ -1221,6 +1221,19 @@
       "ebitda": 480.0,
       "fcf": -127.7,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BB- / Ba2 Sukuk (Moody's, 2026) / BB Neg (S&P, 2026)",
+      "price": 102.0,
+      "ytm": 7.95,
+      "spread_bp": 390,
+      "net_leverage": 0.83,
+      "ebitda": 480.0,
+      "fcf": -127.7,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [

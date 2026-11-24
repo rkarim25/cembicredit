@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/tullow.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- TLWLN 10.250% 2028 (15.00% all-in): price 97.0, YTM 16.5%, spread 1180bp (as of 2026-11-21).
+- TLWLN 10.250% 2028 (15.00% all-in): price 97.0, YTM 16.5%, spread 1180bp (as of 2026-11-24).
 - Rating as recorded: CCC+ / CCC+ / Caa2.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

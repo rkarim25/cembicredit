@@ -1202,6 +1202,19 @@
       "ebitda": 980.0,
       "fcf": 38.4,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "Baa2 Neg (Moody's, Nov-26) / BBB- / BBB",
+      "price": 98.2,
+      "ytm": 5.55,
+      "spread_bp": 150,
+      "net_leverage": 1.65,
+      "ebitda": 980.0,
+      "fcf": 38.4,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {

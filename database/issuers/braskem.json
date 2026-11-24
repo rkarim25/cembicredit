@@ -16,7 +16,7 @@
     "model_file": "Braskem_Credit_Model.xlsx",
     "notion_id": "3e31d0ad68c6819baaa2de6d03346ec9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Braskem_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-24",
     "cognitive_credit_id": "braskem",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/braskem/description",
     "model_type": "corp",
@@ -774,6 +774,13 @@
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "braskem",
+      "sector": "Materials",
+      "topic": "Late-Nov 2026 $4.9B Rescue Agreement",
+      "source": "Market / Company Disclosures (Nov-26)",
+      "note": "Agreed $4.9bn out-of-court restructuring ($1.3bn Petrobras/IG4 equity injection + $3.6bn D/E swap), averting formal RJ bankruptcy ahead of late-Nov deadline."
+    },
     {
       "sector": "Materials / Chemicals",
       "topic": "Restructuring & Creditor Impasse",
@@ -1576,17 +1583,30 @@
       "ebitda": 5759.0,
       "fcf": -2330.0,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "D (S&P) / RD (Fitch) / Ca (Moody's)",
+      "price": 51.8,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "net_leverage": 10.2,
+      "ebitda": 5759.0,
+      "fcf": -2330.0,
+      "guidance_status": "Under Watch"
     }
   ],
   "credit_view": {
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-24",
     "verdict": {
-      "stance": "Distressed / Restructuring Watch (Formal RJ Risk)",
+      "stance": "Restructuring Turnaround / $4.9B Out-of-Court Rescue Deal Agreed (Nov-26)",
       "target_price": null,
       "current_price": 51.8,
       "ytm": 19.8,
       "spread_bp": 1580,
-      "summary": "Severe restructuring crisis escalated on 16-Nov-26 when creditors formally rejected Braskem's restructuring proposal ($1.1B-$1.4B shareholder injection + $2.9B-$3.8B debt-to-equity swap over ~$10.9B unsecured debt). Q3 2026 recurring EBITDA plunged 63% QoQ to $382M with a $206M net loss and auditor going-concern warnings. Bonds trade ~50-53c (2050s ~45-46c) ahead of late-Nov judicial deadline."
+      "summary": "Late-Nov 2026 breakthrough: Braskem reached an out-of-court restructuring deal with creditors and controlling shareholders (Petrobras & IG4 Capital Group) ahead of the late-November judicial deadline, averting formal bankruptcy (RJ). The $4.9bn rescue package combines a $1.3bn shareholder capital injection with a $3.6bn debt-to-equity swap. Execution/closing and Alagoas liability containment remain key."
     },
     "positives": [
       "Scale petrochemical platform with strategic Brazilian ethylene/polyolefin market share and integrated feedstocks.",
@@ -1605,6 +1625,8 @@
       "ownership_governance": "Novonor (controlling voting shareholder, bank-pledged shares) and Petrobras (co-controlling / major shareholder) locked in protracted governance and equity-injection negotiations."
     },
     "recent_drivers": [
+      "Late-Nov 2026: Agreed $4.9bn out-of-court rescue deal ($1.3bn Petrobras/IG4 equity injection + $3.6bn creditor D/E swap), averting RJ bankruptcy ahead of deadline.",
+      "16-Nov-26: Earlier creditor rejection triggered RD/D/Ca ratings before revised terms cleared.",
       "16-Nov-26: Creditors formally rejected Braskem's extrajudicial restructuring plan ($1.1B-$1.4B equity + $2.9B-$3.8B D2E on $10.9B unsecured debt); stock fell 14%.",
       "Q3 2026 earnings: Recurring EBITDA dropped 63% sequentially to $382M on compressed global petrochemical spreads; net loss $206M with auditor going-concern doubts.",
       "Jun-Aug 2026: Court-ordered 60-day standstill and expired interest grace periods triggered S&P D, Fitch RD, and Moody's Ca downgrades."
@@ -1643,6 +1665,15 @@
     }
   ],
   "historical_notes": [
+    {
+      "id": "braskem-rescue-20261124",
+      "date": "2026-11-24",
+      "title": "Out-of-Court $4.9B Rescue Deal (Averts RJ Bankruptcy)",
+      "source": "Market Disclosures (Nov-26)",
+      "status": "Current / Verified Filings Upgrade",
+      "summary": "Agreed $1.3bn shareholder equity injection + $3.6bn creditor D/E swap ahead of late-Nov judicial deadline.",
+      "details": "Agreed $1.3bn shareholder equity injection + $3.6bn creditor D/E swap ahead of late-Nov judicial deadline."
+    },
     {
       "date": "2026-11-21",
       "title": "Creditor Rejection of Restructuring Plan (16-Nov-26) & Q3 2026 Earnings Collapse",

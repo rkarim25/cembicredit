@@ -4,9 +4,14 @@ _Page created 23-Nov-26 from `database/issuers/mizrahi.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P).
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2024A |  |  |  |  |  |
+| 2025A |  |  |  |  |  |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=mizrahi) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/mizrahi.json)
 <!-- auto-data-end -->

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/adm_elek.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ADMTR 9.50% Feb 2031 ($500m, XS3260262988): price 98.0, YTM 9.25%, spread 485bp (as of 2026-11-23).
 - Rating as recorded: BB- Stable (Fitch) / B2 exp (Moody's).

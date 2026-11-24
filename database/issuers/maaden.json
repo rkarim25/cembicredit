@@ -240,6 +240,19 @@
       "ebitda": 2477.3,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "Baa1 / BBB+",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 1.8,
+      "ebitda": 2477.3,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "debt_maturities": {
@@ -266,5 +279,14 @@
       "source": "Q3 2026 Earnings (09-Nov-26)",
       "note": "Q3 EBITDA fell 24% YoY to SAR 3.3bn ($880m) on elevated sulfur feedstock and phosphate logistics costs; net leverage stayed moderate at 1.4x."
     }
-  ]
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": 100.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "6.0x Stress Mining EBITDA (PIF 65%)",
+    "restructuring_framework": "Saudi GRE / English Sukuk",
+    "thesis": "PIF-controlled (65%) IG Saudi mining champion with $2.5bn sukuk curve and strong gold/phosphate cash flow."
+  }
 }

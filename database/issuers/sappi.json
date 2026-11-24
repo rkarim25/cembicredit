@@ -256,6 +256,19 @@
       "ebitda": 684.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BB Neg (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.08,
+      "ebitda": 684.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
@@ -273,5 +286,14 @@
       "source": "Bond Prospectuses / FY26 Release",
       "note": "EUR 400m 3.625% due Mar-28 (XS2310951103), EUR 300m 4.50% due Mar-32 (XS3017017990), USD 250m 7.50% due Jun-32 (XS0149581935); $707m liquidity ($165m cash + $542m RCF)."
     }
-  ]
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": 75.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "4.5x Cycle-Trough Pulp/Packaging EBITDA",
+    "restructuring_framework": "South Africa / New York & English Law",
+    "thesis": "Diversified North American/European/SA dissolving pulp and packaging asset base backing senior unsecured EUR/USD notes."
+  }
 }

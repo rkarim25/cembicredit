@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/qazaqgaz.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - QAZGAS 4.375% 2027: price 97.2, YTM 5.95%, spread 190bp (as of 2026-11-23).
 - Rating as recorded: BBB- Stable (S&P, Sep-26) / Baa2 Stable (Moody's).

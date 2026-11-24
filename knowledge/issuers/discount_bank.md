@@ -4,9 +4,14 @@ _Page created 23-Nov-26 from `database/issuers/discount_bank.json`. Dated, sourc
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: A- (Fitch) / Baa1 (Moody's dep) / BBB+ Stable (S&P).
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2024A |  |  |  |  |  |
+| 2025A |  |  |  |  | 1.4 |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=discount_bank) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/discount_bank.json)
 <!-- auto-data-end -->

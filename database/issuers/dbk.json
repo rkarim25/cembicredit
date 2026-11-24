@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "id": "dbk",
+    "name": "Development Bank of Kazakhstan (DBK)",
+    "ticker": "DBKZ",
+    "country": "Kazakhstan",
+    "region": "Central Asia",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "Baa1 Stable (Moody's) / BBB Stable (Fitch) / BBB (S&P)",
+    "tier": "IG",
+    "benchmark_bond": "DBKZ 5.625% Apr 2030 ($900m, XS3032932645)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "DBK_Kazakhstan_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DBK_Kazakhstan_Credit_Model.xlsx",
+    "last_updated": "2026-11-24",
+    "model_type": "bank",
+    "financials_currency": "KZT",
+    "provenance": "financials built 24-Nov-26 from DBK FY2024/FY2025 KASE audited IFRS statements & 1Q26 Fitch review; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "KZT",
+      "source": "DBK FY2024 Audited Consolidated IFRS Statements (KASE), read 24-Nov-26",
+      "assets": 5650000.0,
+      "equity": 962000.0,
+      "net_profit": 134520.0,
+      "npl_pct": 9.0,
+      "observations": {
+        "notes": "FY24 assets KZT 5.65tn, equity KZT 962bn, net profit KZT 134.52bn, impaired exposures ~9%."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "KZT",
+      "source": "DBK FY2025 Audited Consolidated IFRS Statements (KASE, Apr-26) & Fitch 1Q26 Review, read 24-Nov-26",
+      "assets": 7670000.0,
+      "equity": 1130000.0,
+      "net_profit": 111430.0,
+      "roe_pct": 9.82,
+      "npl_pct": 6.0,
+      "observations": {
+        "notes": "FY25 assets jumped +36% YoY to KZT 7.67tn (~47% loan/financing growth), equity KZT 1.13tn, NPAT KZT 111.43bn (ROE 9.82%, ROA 1.45%). Impaired exposures fell to 6% by 1Q26 (73% reserve coverage; Stage 2 ~18%)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "DBKZ 13.00% KZT-Denominated Eurobond due Apr 2027 (KZT 100bn)",
+      "tranche_name": "DBKZ 13.00% KZT-Denominated Eurobond due Apr 2027 (KZT 100bn)",
+      "currency": "KZT",
+      "amount_issued_usd_m": 210.0,
+      "outstanding_usd_m": 210.0,
+      "amount_outstanding_usd_m": 210.0,
+      "amount_usd_m": 210.0,
+      "coupon": "13.000%",
+      "maturity": "2027-04-15",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2800066370"
+    },
+    {
+      "instrument": "DBKZ 5.625% Senior Unsecured Notes due Apr 2030",
+      "tranche_name": "DBKZ 5.625% Senior Unsecured Notes due Apr 2030",
+      "currency": "USD",
+      "amount_issued_usd_m": 900.0,
+      "outstanding_usd_m": 900.0,
+      "amount_outstanding_usd_m": 900.0,
+      "amount_usd_m": 900.0,
+      "coupon": "5.625%",
+      "maturity": "2030-04-07",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS3032932645"
+    },
+    {
+      "instrument": "DBKZ Late-2025 Senior Unsecured USD Eurobond (5.3Y)",
+      "tranche_name": "DBKZ Late-2025 Senior Unsecured USD Eurobond (5.3Y)",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "Fixed USD",
+      "maturity": "2031-03-01",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 210.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 1400.0,
+    "total_outstanding_usd_m": 1610.0,
+    "source": "Primary international USD/KZT Eurobonds ($900m Apr-30 XS3032932645, $500m 2031, KZT 100bn Apr-27 XS2800066370); excludes 2025-26 KZT 300bn/230bn local-currency Eurobonds."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-24",
+    "verdict": {
+      "stance": "Constructive / Sovereign-Equalized Kazakhstan Policy Lender (Baa1/BBB/BBB)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Flagship Kazakh development bank (owned via Baiterek Holding) equalized with Kazakhstan's IG sovereign (Moody's Baa1 / Fitch BBB / S&P BBB). FY25 assets surged 36% to KZT 7.67tn with KZT 1.13tn equity and KZT 111.4bn profit, while impaired loans dropped to 6% in 1Q26 (from 9% YE24). Deep multi-currency market access across USD, KZT, and CNH."
+    },
+    "positives": [
+      "Sovereign-equalized IG ratings (Baa1 / BBB / BBB) backed by Baiterek / Republic of Kazakhstan.",
+      "Impaired loans reduced to 6% in 1Q26 (from 9% YE24) alongside KZT 1.13tn equity base (authorized capital KZT 826bn).",
+      "Strong multi-currency funding franchise (USD $900m 2030s, $500m 2031s, KZT 230bn-300bn Eurobonds)."
+    ],
+    "negatives": [
+      "Rapid 47% FY25 financing growth and elevated 18% Stage 2 exposure concentration.",
+      "Project-finance lumpy credit risk in non-oil industrial diversification mandates.",
+      "KZT/USD currency mismatch risk on unhedged domestic industrial borrowers."
+    ],
+    "background": {
+      "business_overview": "Kazakhstan's sole state development bank financing long-term non-extractive industrial, infrastructure, and energy projects.",
+      "asset_perimeter": "Corporate/project loan & leasing portfolio across Kazakhstan; subsidiary Baiterek National Managing Holding.",
+      "ownership_governance": "100% state-owned via Baiterek NMH; KASE/LSE-listed debt."
+    },
+    "recent_drivers": [
+      "Mid-26: S&P upgraded Kazakhstan sovereign to BBB -> DBK aligned; DBK placed KZT 230bn 3Y Eurobond.",
+      "Apr-26 (FY25 Audited): Assets KZT 7.67tn, equity KZT 1.13tn, NPAT KZT 111.4bn; 1Q26 impaired loans down to 6%."
+    ],
+    "catalysts": [
+      {
+        "date": "Apr 2027",
+        "event": "KZT 100bn 13% Apr-2027 Eurobond Maturity & FY26 Audited IFRS",
+        "impact": "Routine refi test and Stage 2 migration check."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Break down the 18% Stage 2 exposure concentration and expected provisioning trajectory in 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Key standalone risk flagged by Fitch."
+    },
+    {
+      "question": "Confirm planned USD vs KZT/Dim Sum Eurobond issuance mix for 2027.",
+      "focus_area": "Funding",
+      "relevance": "Monitors FX asset-liability matching."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "dbk",
+      "sector": "Banks",
+      "topic": "FY25 Audited Results & 1Q26 Asset Quality",
+      "source": "DBK KASE / Fitch / S&P (2026)",
+      "note": "FY25 assets KZT 7.67tn (+36%), equity KZT 1.13tn, NPAT KZT 111.4bn, 1Q26 impaired loans 6% (Stage 2 18%). Moody's Baa1 / Fitch BBB / S&P BBB."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-04-30",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Astana",
+    "ir_webcast_url": "https://www.kdb.kz/en/investors/",
+    "days_to_earnings": 157
+  },
+  "market_history": [
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "Baa1 Stable (Moody's) / BBB Stable (Fitch) / BBB (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

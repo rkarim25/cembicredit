@@ -1,0 +1,221 @@
+{
+  "metadata": {
+    "id": "qatarenergy",
+    "name": "QatarEnergy",
+    "ticker": "QATARE",
+    "country": "Qatar",
+    "region": "Middle East",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "AA Negative (Fitch, SCP aa+) / Aa2 (Moody's eq) / AA (S&P eq)",
+    "tier": "IG",
+    "benchmark_bond": "QATARE 2.25% Jul 2031 ($3.5B, XS2357494322)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "QatarEnergy_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/QatarEnergy_Credit_Model.xlsx",
+    "last_updated": "2026-11-24",
+    "model_type": "corp",
+    "financials_currency": "QAR",
+    "provenance": "financials built 24-Nov-26 from QatarEnergy FY2024/FY2025 LSE filings & H1 2026 interim financial statements (Oct-26); quotes await [BBG] capture",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "QAR",
+      "source": "QatarEnergy FY2024 Audited Consolidated Financial Statements (LSE NSM), read 24-Nov-26",
+      "revenue": 168300.0,
+      "observations": {
+        "notes": "FY24 revenue QAR 168.3bn (~$46.25bn); net cash (zero net debt) with QAR 219bn+ JV revenue contribution."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "QAR",
+      "source": "QatarEnergy FY2025 Audited Consolidated Financial Statements (LSE NSM), read 24-Nov-26",
+      "revenue": 286100.0,
+      "observations": {
+        "notes": "FY25 revenue QAR 286.1bn (~$78.6bn); North Field LNG expansion capex funded primarily from internal cash generation."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "QAR",
+      "source": "QatarEnergy H1 2026 Unaudited Consolidated Financial Statements (Oct-26), read 24-Nov-26",
+      "revenue": 87000.0,
+      "cfo": 21000.0,
+      "net_profit": 15000.0,
+      "observations": {
+        "notes": "H126 revenue fell 35% YoY to QAR 87bn (~$23.9bn) and NPAT dropped 69% to QAR 15bn (~$4.1bn) following Mar-26 Iranian missile strike on Ras Laffan LNG & Strait of Hormuz disruptions. CFO rose to QAR 21bn; total assets QAR 704bn vs total liabilities QAR 184bn."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "QATARE 1.375% Senior Unsecured Notes due Sep 2026 (Matured)",
+      "tranche_name": "QATARE 1.375% Senior Unsecured Notes due Sep 2026 (Matured)",
+      "currency": "USD",
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0,
+      "amount_usd_m": 0.0,
+      "coupon": "1.375%",
+      "maturity": "2026-09-12",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2357493860"
+    },
+    {
+      "instrument": "QATARE 2.250% Senior Unsecured Notes due Jul 2031",
+      "tranche_name": "QATARE 2.250% Senior Unsecured Notes due Jul 2031",
+      "currency": "USD",
+      "amount_issued_usd_m": 3500.0,
+      "outstanding_usd_m": 3500.0,
+      "amount_outstanding_usd_m": 3500.0,
+      "amount_usd_m": 3500.0,
+      "coupon": "2.250%",
+      "maturity": "2031-07-12",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2357494322"
+    },
+    {
+      "instrument": "QATARE 3.125% Senior Unsecured Notes due Jul 2041",
+      "tranche_name": "QATARE 3.125% Senior Unsecured Notes due Jul 2041",
+      "currency": "USD",
+      "amount_issued_usd_m": 3500.0,
+      "outstanding_usd_m": 3500.0,
+      "amount_outstanding_usd_m": 3500.0,
+      "amount_usd_m": 3500.0,
+      "coupon": "3.125%",
+      "maturity": "2041-07-12",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2359548935"
+    },
+    {
+      "instrument": "QATARE 3.300% Senior Unsecured Notes due Jul 2051",
+      "tranche_name": "QATARE 3.300% Senior Unsecured Notes due Jul 2051",
+      "currency": "USD",
+      "amount_issued_usd_m": 4000.0,
+      "outstanding_usd_m": 4000.0,
+      "amount_outstanding_usd_m": 4000.0,
+      "amount_usd_m": 4000.0,
+      "coupon": "3.300%",
+      "maturity": "2051-07-12",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2357494751"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 11000.0,
+    "total_outstanding_usd_m": 11000.0,
+    "source": "$1.5bn Sep-2026 matured; $11.0bn long-dated USD curve ($3.5bn Jul-31 XS2357494322, $3.5bn Jul-41 XS2359548935, $4.0bn Jul-51 XS2357494751)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-24",
+    "verdict": {
+      "stance": "Neutral / Fortress-Balance-Sheet LNG Giant Amid Hormuz & Ras Laffan Shock (AA Neg)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "H126 revenue dropped 35% YoY to QAR 87bn and net profit fell 69% to QAR 15bn following the March 2026 Ras Laffan strike and Strait of Hormuz disruptions, prompting Fitch to place QatarEnergy's AA rating on Negative outlook (mirroring Qatar sovereign). Balance sheet remains fortress-grade (QAR 704bn assets vs QAR 184bn total liabilities, SCP aa+) with no bond maturities until 2031."
+    },
+    "positives": [
+      "Fortress balance sheet: QAR 704bn assets vs QAR 184bn total liabilities (SCP aa+ at Fitch) and $1.5bn Sep-26 bond cleanly retired.",
+      "World's lowest-cost North Field LNG reserve base with $11bn bond curve locked in at 2.25%\u20133.30% through 2031\u20132051.",
+      "H126 operating cash flow resilient at QAR 21bn despite severe operational shock."
+    ],
+    "negatives": [
+      "Acute Middle East geopolitical/conflict exposure: Mar-26 Ras Laffan LNG infrastructure damage and Strait of Hormuz export disruptions.",
+      "Fitch AA Negative outlook reflecting prolonged export-route vulnerability.",
+      "Heavy multi-year North Field expansion capex requirements."
+    ],
+    "background": {
+      "business_overview": "State-owned national oil and global LNG champion of Qatar operating Ras Laffan and North Field concessions.",
+      "asset_perimeter": "North Field LNG trains (QatarEnergy LNG JVs), upstream oil/gas, refining, petrochemicals.",
+      "ownership_governance": "100% State of Qatar; LSE NSM reporting."
+    },
+    "recent_drivers": [
+      "Oct-26 (H126): Revenue QAR 87bn (-35% YoY), NPAT QAR 15bn (-69% YoY), CFO QAR 21bn; assets QAR 704bn vs liabilities QAR 184bn.",
+      "2026: Fitch affirmed AA but revised outlook to Negative (SCP aa+) after March-26 Ras Laffan & Strait of Hormuz disruptions."
+    ],
+    "catalysts": [
+      {
+        "date": "H1 2027",
+        "event": "Ras Laffan Restoration Progress & FY2026 Audited Results",
+        "impact": "Tests LNG export throughput recovery and Fitch Negative outlook resolution."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm Ras Laffan LNG repair timeline, insurance recoveries, and effective H226 export utilization.",
+      "focus_area": "Operations & Geopolitics",
+      "relevance": "Mar-26 strike caused 35% H1 revenue contraction."
+    },
+    {
+      "question": "Update North Field East/South/West capex phasing and any contingency liquidity draws.",
+      "focus_area": "Capex & Liquidity",
+      "relevance": "Tests internal cash funding capacity."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "qatarenergy",
+      "sector": "Energy",
+      "topic": "H126 Hormuz/Ras Laffan Impact & Fitch AA Neg",
+      "source": "QatarEnergy H126 / Fitch (Oct-26)",
+      "note": "H126 rev QAR 87bn (-35% YoY), NPAT QAR 15bn (-69%) post-Mar-26 Ras Laffan strike; assets QAR 704bn vs liabilities QAR 184bn. Fitch AA Negative (SCP aa+). $11bn 2031/41/51 bonds."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-04-30",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Doha",
+    "ir_webcast_url": "https://www.qatarenergy.qa/",
+    "days_to_earnings": 157
+  },
+  "market_history": [
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "AA Negative (Fitch, SCP aa+) / Aa2 (Moody's eq) / AA (S&P eq)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": 100.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "AA Sovereign-Backed LNG Fortress",
+    "restructuring_framework": "State of Qatar / English Law",
+    "thesis": "QAR 704bn assets vs QAR 184bn liabilities and $11bn ultra-low-coupon 2031-2051 curve buffer geopolitical LNG shock."
+  }
+}

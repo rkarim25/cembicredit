@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "id": "nbu_uzb",
+    "name": "National Bank of Uzbekistan (NBU)",
+    "ticker": "NBUUZB",
+    "country": "Uzbekistan",
+    "region": "Central Asia",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB Stable (Fitch, Mar-26, VR b+) / BB Stable (S&P, mid-26)",
+    "tier": "BB",
+    "benchmark_bond": "NBUUZB 7.20% Jul 2030 ($300m, XS3107110390)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "NBU_Uzbekistan_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/NBU_Uzbekistan_Credit_Model.xlsx",
+    "last_updated": "2026-11-24",
+    "model_type": "bank",
+    "financials_currency": "UZS",
+    "provenance": "financials built 24-Nov-26 from NBU FY2025 & 1H 2026 filings / Fitch & S&P 2026 reviews; quotes await [BBG] capture"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "UZS",
+      "source": "NBU FY2025 Financial Statements / Uzbekistan Banking Disclosures, read 24-Nov-26",
+      "net_profit": 1920000.0,
+      "roe_pct": 13.0,
+      "observations": {
+        "notes": "FY25 net profit UZS 1.92tn (#1 in Uzbekistan's banking sector), ROE >13%; issued $300m 7.20% Jul-2030 Eurobond (XS3107110390) + UZS 1.5tn 17.95% 2028 Eurobond in Jul-25 and repaid Oct-25 $300m bond (XS2242418957)."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "UZS",
+      "source": "NBU Q1/Mid-2026 Disclosures & S&P/Fitch 2026 Reviews, read 24-Nov-26",
+      "assets": 146500000.0,
+      "loans": 106600000.0,
+      "equity": 20600000.0,
+      "net_profit": 603200.0,
+      "npl_pct": 3.5,
+      "observations": {
+        "notes": "Mid-2026 total assets ~UZS 146.5tn (~$12.1bn, ~15% system share), gross loans UZS 106.6tn (Q126), equity UZS 20.6tn, Q126 net profit UZS 603.2bn (+28.9% YoY), NPLs improved to 3.3-3.7%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "NBUUZB 8.50% Senior Unsecured Notes due Jul 2029",
+      "tranche_name": "NBUUZB 8.50% Senior Unsecured Notes due Jul 2029",
+      "currency": "USD",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0,
+      "amount_usd_m": 300.0,
+      "coupon": "8.500%",
+      "maturity": "2029-07-05",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS2853544398"
+    },
+    {
+      "instrument": "NBUUZB 7.20% Senior Unsecured Notes due Jul 2030",
+      "tranche_name": "NBUUZB 7.20% Senior Unsecured Notes due Jul 2030",
+      "currency": "USD",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0,
+      "amount_usd_m": 300.0,
+      "coupon": "7.200%",
+      "maturity": "2030-07-17",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS3107110390"
+    },
+    {
+      "instrument": "NBUUZB 17.95% UZS-Linked Notes due Jul 2028 (UZS 1.5tn)",
+      "tranche_name": "NBUUZB 17.95% UZS-Linked Notes due Jul 2028 (UZS 1.5tn)",
+      "currency": "UZS",
+      "amount_issued_usd_m": 118.0,
+      "outstanding_usd_m": 118.0,
+      "amount_outstanding_usd_m": 118.0,
+      "amount_usd_m": 118.0,
+      "coupon": "17.950%",
+      "maturity": "2028-07-17",
+      "seniority": "Senior Unsecured",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "governing_law": "English",
+      "isin": "XS3113490315"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 118.0,
+    "2029": 300.0,
+    "2030_plus": 300.0,
+    "total_outstanding_usd_m": 718.0,
+    "source": "Active Eurobonds: UZS 1.5tn (~$118m) Jul-28 (XS3113490315), $300m Jul-29 (XS2853544398), $300m Jul-30 (XS3107110390)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-24",
+    "verdict": {
+      "stance": "Constructive / Flagship Uzbek State Policy & Commercial Bank (BB/BB)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Uzbekistan's #1 bank by assets (UZS 146.5tn / ~$12.1bn, ~15% market share) and profit (UZS 1.92tn FY25; Q126 +28.9% YoY). Equalized at BB Stable by both Fitch and S&P on extremely high state support, with superior asset quality vs SOE peers (NPLs 3.3-3.7%) and clean $600m USD Eurobond ladder (2029/2030)."
+    },
+    "positives": [
+      "Flagship ~15% banking system share (UZS 146.5tn assets) with sovereign-equalized BB ratings at Fitch & S&P.",
+      "Sector-leading profitability (UZS 1.92tn FY25 NPAT; Q126 +28.9% YoY) and improving 3.3-3.7% NPL ratio.",
+      "No near-term USD Eurobond maturities until 2029 ($300m) and 2030 ($300m)."
+    ],
+    "negatives": [
+      "High exposure to state-owned enterprise (SOE) directed lending and FX loan dollarization.",
+      "Standalone Viability Rating (Fitch b+) sits two notches below sovereign support.",
+      "Thinning ROE (~12% projected 2026-27) amid rising deposit competition and retail expansion capex."
+    ],
+    "background": {
+      "business_overview": "Uzbekistan's largest state-owned universal commercial bank, acting as primary financial agent for strategic SOEs and infrastructure.",
+      "asset_perimeter": "Corporate/SOE lending, SME, retail banking, treasury across Uzbekistan.",
+      "ownership_governance": "100% state-owned (Ministry of Economy & Finance / UFRD)."
+    },
+    "recent_drivers": [
+      "Mid-26: S&P affirmed BB Stable; assets UZS 146.5tn, Q126 NPAT UZS 603.2bn (+28.9% YoY), NPL 3.3-3.7%.",
+      "Mar-26: Fitch affirmed BB Stable (VR b+)."
+    ],
+    "catalysts": [
+      {
+        "date": "Mar 2027",
+        "event": "FY2026 Audited IFRS Results & Sovereign Outlook Review",
+        "impact": "Fitch Uzbekistan Positive outlook could lift NBU if sovereign upgrades."
+      }
+    ]
+  },
+  "management_questions": [
+    {
+      "question": "Confirm 9M26 CET1/Total CAR ratios and FX loan share vs UZS deposit funding.",
+      "focus_area": "Capital & FX",
+      "relevance": "Tests capital headroom for double-digit asset growth."
+    },
+    {
+      "question": "Detail exposure to restructured or subsidized SOE loans and Stage 2 migration.",
+      "focus_area": "Asset Quality",
+      "relevance": "Monitors hidden directed-lending risk."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "nbu_uzb",
+      "sector": "Banks",
+      "topic": "Mid-26 S&P/Fitch BB Stable & Balance Sheet Scale",
+      "source": "NBU / S&P / Fitch (2026)",
+      "note": "Mid-26 assets UZS 146.5tn (~$12.1bn), FY25 NPAT UZS 1.92tn (#1 in Uzbekistan), NPL 3.3-3.7%. Fitch BB Stable / S&P BB Stable; $600m USD Eurobonds (2029/2030)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Tashkent",
+    "ir_webcast_url": "https://nbu.uz/en/about-bank/investors/",
+    "days_to_earnings": 127
+  },
+  "market_history": [
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BB Stable (Fitch, Mar-26, VR b+) / BB Stable (S&P, mid-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

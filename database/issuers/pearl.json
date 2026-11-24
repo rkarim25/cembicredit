@@ -866,6 +866,19 @@
       "ebitda": 415.0,
       "fcf": 165.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "B- (Implied) / CCC+ (Geopolitical Floor)",
+      "price": 103.5,
+      "ytm": 11.45,
+      "spread_bp": 625,
+      "net_leverage": 1.14,
+      "ebitda": 415.0,
+      "fcf": 165.0,
+      "guidance_status": "On Track"
     }
   ],
   "debt_maturities": {

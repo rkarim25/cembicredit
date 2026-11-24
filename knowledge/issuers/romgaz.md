@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/romgaz.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ROMGAZ 4.75% Oct 2029 (€500m, XS2914558593): price 98.5, YTM 5.75%, spread 170bp (as of 2026-11-23).
 - Rating as recorded: BBB- Stable (Fitch).

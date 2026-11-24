@@ -16,7 +16,7 @@
     "model_file": "Tullow_Oil_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681c2ad7ddb4ae404fb62",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tullow_Oil_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-24",
     "cognitive_credit_id": "tullowoil",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description",
     "model_type": "corp",
@@ -462,6 +462,13 @@
     "thesis": "FPSO operator of Jubilee & TEN; $280M+ organic FCF sweep directed to 2026 Eurobond maturity refinancing."
   },
   "annotations": [
+    {
+      "issuer_id": "tullow",
+      "sector": "Energy",
+      "topic": "Nov-26 ~$48M Senior Secured Paydown",
+      "source": "Tullow Oil RNS / S&P / Fitch (Nov-26)",
+      "note": "Executed ~$48m open-market senior secured note paydown following 2026 restructuring (maturities extended to Nov-28, rated CCC+); Ghana $393m ICC tax award cash vs offset structure remains critical."
+    },
     {
       "issuer_id": "tullow",
       "issuer_name": "Tullow Oil",
@@ -1333,6 +1340,19 @@
       "ebitda": 1008.1,
       "fcf": 141.8,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "CCC+ / CCC+ / Caa2",
+      "price": 97.0,
+      "ytm": 16.5,
+      "spread_bp": 1180,
+      "net_leverage": 1.41,
+      "ebitda": 1008.1,
+      "fcf": 141.8,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1529,7 +1549,7 @@
     "last_reconciled": "2026-09-20"
   },
   "credit_view": {
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-24",
     "verdict": {
       "stance": "Neutral / Cautious (Overweight Withdrawn)",
       "target_price": null,
@@ -1553,6 +1573,7 @@
     ],
     "background": "Tullow Oil plc is an independent oil & gas exploration and production company anchored on world-class offshore assets in Ghana (Jubilee and TEN fields). Following comprehensive capital structure restructuring and licence extensions to 2040, Tullow operates with 2P reserves of ~122mmboe and low lifting costs.",
     "recent_drivers": [
+      "Nov-26: Post-restructuring (maturities extended to Nov-28; S&P/Fitch lifted from D to CCC+), executed ~$48m open-market senior secured note paydown from crude cargo proceeds while Ghana $393m ICC tax award settlement remains key.",
       "ICC Tax Arbitration: Tribunal upheld $393.09m assessment (tax + 100% penalty); Ghana MoF committed to implement while preserving Jubilee/TEN investment.",
       "Nov 2026 Operational Update: Focused on Jubilee/TEN uptime, 2025-26 drilling campaign execution, and managing 2026 debt/cash flow guidance.",
       "Debt Runway: Apr-26 refinancing (TLWLN 10.25% Nov-28 + Glencore junior notes) removed near-term maturities before Nov-28."

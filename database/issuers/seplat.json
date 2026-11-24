@@ -226,6 +226,19 @@
       "ebitda": 539.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "B / B2 / B",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.66,
+      "ebitda": 539.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
@@ -236,5 +249,14 @@
       "source": "Seplat 9M26 Filing",
       "note": "Mobil Producing Nigeria Unlimited (MPNU) acquisition lifted scale >135 kboepd; refinanced 2026s with $650m 9.125% 2030s at 0.53x net leverage."
     }
-  ]
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": 85.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "3.0x 2P Reserve / Post-MPNU Cash Flow",
+    "restructuring_framework": "Nigerian Upstream / English NY Law",
+    "thesis": "Expanded post-MPNU offshore/onshore Nigerian O&G cash flows with USD export revenues covering $650m 2030 notes."
+  }
 }

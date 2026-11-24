@@ -143,6 +143,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-24",
+      "period_name": "2026-11-24",
+      "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BB Stable (Fitch, Oct-26) / Ba2 Stable (Moody's, Baa3 Pos opco dep)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ]
 }
