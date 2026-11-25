@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "id": "ad_ports",
+    "name": "AD Ports Group",
+    "ticker": "ADPORTS",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Infrastructure",
+    "type": "corp",
+    "rating": "AA- (Fitch) / A1 (Moody's)",
+    "tier": "IG",
+    "benchmark_bond": "ADPORTS 2.50% May 2031",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "AD_Ports_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/AD_Ports_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "AED",
+    "provenance": "financials built 25-Nov-26 from AD Ports FY2025 & Q3/9M 2026 ADX Financial Statements (Nov-26); quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "AD Ports Group FY2025 Audited Consolidated Financial Statements (ADX), read 25-Nov-26",
+      "revenue": 20770.0,
+      "ebitda": 5110.0,
+      "reported_ebitda": 5110.0,
+      "ebitda_margin_pct": 24.6,
+      "net_profit": 2070.0,
+      "observations": {
+        "notes": "FY25 rev AED 20.77bn (+20% YoY), EBITDA AED 5.11bn (+13% YoY), NPAT AED 2.07bn (+16% YoY)."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "AED",
+      "source": "AD Ports Group Q3 & 9M 2026 Unaudited Financial Results (ADX, Nov-26), read 25-Nov-26",
+      "net_profit": 2460.0,
+      "net_debt": 23950.0,
+      "net_leverage": 3.5,
+      "observations": {
+        "notes": "Q326 rev surged 48% YoY to AED 7.99bn ($2.18bn), Q3 EBITDA +63% to AED 1.97bn (24.6% margin), Q3 NPAT record AED 975m (+64%), 9M NPAT AED 2.46bn. Net debt AED 23.95bn (~$6.5bn) post Oct-26 CLI Brazil acquisition; Net Debt/EBITDA improved sequentially to 3.5x."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "AD Ports 2.500% Senior Unsecured EMTN due May 2031",
+      "tranche_name": "AD Ports 2.500% Senior Unsecured EMTN due May 2031",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "2.500%",
+      "maturity": "2031-05-06",
+      "maturity_date": "2031-05-06",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 1000.0,
+    "total_outstanding_usd_m": 1000.0,
+    "source": "Reported USD EMTN benchmark bond (total net debt AED 23.95bn / ~$6.5bn includes bank/revolving acquisition facilities)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Overweight / Accelerating Ports & Maritime Cash Flows Deleveraging to 3.5x (AA- / A1)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Q3 2026 EBITDA jumped 63% YoY to AED 1.97bn (24.6% margin) and 9M26 net profit hit AED 2.46bn despite Strait of Hormuz disruptions, driving Net Debt/EBITDA sequentially down to 3.5x (AED 23.95bn net debt) even after closing Brazil's CLI Group acquisition on 1-Oct-26."
+    },
+    "positives": [
+      "Strong Abu Dhabi ADQ sovereign backing (AA-/A1) and strategic Khalifa Port + KEZAD monopoly concessions.",
+      "Q326 EBITDA surged 63% YoY to AED 1.97bn with 24.6% margin; leverage improving to 3.5x.",
+      "Global diversification across Noatum logistics, Spain/Egypt/Angola/Brazil terminals."
+    ],
+    "negatives": [
+      "Elevated net debt of AED 23.95bn (~$6.5bn) after aggressive M&A (Noatum, CLI Brazil).",
+      "Heavy multi-year capex and Red Sea / Hormuz maritime freight volatility."
+    ],
+    "background": {
+      "business_overview": "Abu Dhabi integrated ports, industrial zones, maritime shipping, and global logistics operator.",
+      "asset_perimeter": "5 core clusters: Ports (Khalifa Port, int'l terminals), Maritime & Shipping, Economic Cities & Free Zones (KEZAD), Logistics (Noatum), Digital.",
+      "ownership_governance": "Majority owned by ADQ (Abu Dhabi Sovereign); ADX listed (ADPORTS)."
+    },
+    "recent_drivers": [
+      "Nov-26 (Q3/9M26): Q3 rev AED 7.99bn (+48%), Q3 EBITDA AED 1.97bn (+63%), 9M NPAT AED 2.46bn, net debt AED 23.95bn (3.5x).",
+      "Oct-26: Completed acquisition of Brazil's CLI Group."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-20",
+        "event": "FY2026 Audited Results & 2027 Capex/M&A Pacing",
+        "impact": "Tests post-CLI deleveraging trajectory below 3.5x."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Net Leverage Trajectory",
+      "management_target": "Deleverage sequentially from peak M&A cycle",
+      "current_runrate": "3.5x at Q326 (AED 23.95bn net debt)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Q3 EBITDA +63% YoY accelerated organic deleveraging despite CLI Brazil cash outlay.",
+      "last_guided_source": "AD Ports Q3 2026 Release (Nov-26)",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Detail 2027 committed capex and M&A pipeline post-CLI Brazil closing; confirm target Net Debt/EBITDA ceiling.",
+      "focus_area": "Deleveraging",
+      "relevance": "Key to maintaining standalone investment grade profile alongside ADQ support."
+    },
+    {
+      "question": "Quantify Q3/Q4 maritime disruption impact and rerouting surcharges across Red Sea and Gulf lanes.",
+      "focus_area": "Operations",
+      "relevance": "Tests sustainability of 24.6% EBITDA margin."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ad_ports",
+      "sector": "Infrastructure",
+      "topic": "Q3 2026 Record Profit & 3.5x Leverage",
+      "source": "AD Ports ADX Release (Nov-26)",
+      "note": "Q3 rev AED 7.99bn (+48%), EBITDA AED 1.97bn (+63%), 9M NPAT AED 2.46bn; net debt AED 23.95bn (3.5x)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Abu Dhabi",
+    "ir_webcast_url": "https://www.adportsgroup.com/en/investors",
+    "days_to_earnings": 87
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "AA- (Fitch) / A1 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 85.0,
+    "base_case_px": 98.0,
+    "recovery_floor_pct": 85.0,
+    "recovery_base_pct": 98.0,
+    "implied_stress_ev_multiple": 7.5,
+    "restructuring_framework": "ADGM / UAE Law",
+    "thesis": "Strategic ADQ infrastructure monopoly with AED 5.1bn+ annual EBITDA."
+  }
+}

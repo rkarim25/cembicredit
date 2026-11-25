@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "id": "naftogaz",
+    "name": "Naftogaz of Ukraine",
+    "ticker": "NAFTO",
+    "country": "Ukraine",
+    "region": "CEE / CIS",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "Restructured (Jul-26) / CCC",
+    "tier": "Distressed",
+    "benchmark_bond": "NAFTO 8.95% Jan 2033 ($584M, XS2027393938)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Naftogaz_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Naftogaz_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "UAH",
+    "provenance": "financials built 25-Nov-26 from Naftogaz FY2025 Audited Financials & Jul-26 Eurobond Restructuring Notice; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "UAH",
+      "source": "Naftogaz Group FY2024 Audited Consolidated Financial Statements, read 25-Nov-26",
+      "revenue": 256360.0,
+      "net_profit": 37900.0,
+      "observations": {
+        "notes": "FY24 rev UAH 256.36bn, NI UAH 37.9bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "UAH",
+      "source": "Naftogaz Group FY2025 Audited Consolidated Financial Statements, read 25-Nov-26",
+      "revenue": 270910.0,
+      "net_profit": 5830.0,
+      "observations": {
+        "notes": "FY25 rev UAH 270.91bn (+5.7% YoY), NI dropped to UAH 5.83bn after 229 Russian strikes on gas infrastructure; restructured UAH 2.9bn domestic loans to 2026-2029."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Kondor Finance (Naftogaz) 8.950% Restructured EUR Notes due Jan 2032",
+      "tranche_name": "Kondor Finance (Naftogaz) 8.950% Restructured EUR Notes due Jan 2032",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "EUR",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "8.950%",
+      "maturity": "2032-01-15",
+      "maturity_date": "2032-01-15",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2027394233",
+      "observation": "EUR 695m (~$750m eq) extended in Jul-26 restructuring to Jan-32 at 8.95% coupon (>90% bondholder approval)."
+    },
+    {
+      "instrument": "Kondor Finance (Naftogaz) 8.950% Restructured USD Notes due Jan 2033",
+      "tranche_name": "Kondor Finance (Naftogaz) 8.950% Restructured USD Notes due Jan 2033",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 584.0,
+      "outstanding_usd_m": 584.0,
+      "amount_outstanding_usd_m": 584.0,
+      "amount_usd_m": 584.0,
+      "coupon": "8.950%",
+      "maturity": "2033-01-15",
+      "maturity_date": "2033-01-15",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2027393938",
+      "observation": "$584m extended in Jul-26 restructuring from 2028 to Jan-33 at 8.95% coupon."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 1334.0,
+    "total_outstanding_usd_m": 1334.0,
+    "source": "Jul-26 \u20ac1.2bn Eurobond restructuring pushed all principal out to Jan-2032 (EUR) and Jan-2033 (USD)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Neutral / Maturity Wall Cleared to 2032-33 Amid Heavy Infrastructure Strikes",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Naftogaz completed a landmark July 2026 restructuring of its \u20ac1.2bn Kondor Finance Eurobonds (>90% consent), pushing \u20ac695m to Jan-2032 and $584m to Jan-2033 at 8.95% coupons and eliminating near-term refinancing cliffs. War damage (229 strikes in 2025), winter gas import needs, and PSO receivables keep fundamental risk elevated."
+    },
+    "positives": [
+      "Jul-26 Eurobond restructuring cleared all principal maturities until Jan-2032 / Jan-2033.",
+      "Strategic monopoly over Ukrainian domestic gas production, storage, and winter heating supply.",
+      "100% Ukrainian sovereign ownership with Western IFI/EBRD winter gas financing support."
+    ],
+    "negatives": [
+      "Severe physical infrastructure vulnerability (229 Russian attacks in 2025; FY25 NI fell to UAH 5.83bn).",
+      "PSO working-capital absorption and state tariff arrears.",
+      "NBU FX transfer constraints on cross-border debt service."
+    ],
+    "background": {
+      "business_overview": "Ukraine's national oil and gas company (upstream UkrGasVydobuvannya, gas storage, trading).",
+      "asset_perimeter": "Domestic gas production, underground gas storage (largest in Europe), oil/gas transit and supply.",
+      "ownership_governance": "100% Cabinet of Ministers of Ukraine."
+    },
+    "recent_drivers": [
+      "Jul-26: Closed \u20ac1.2bn Kondor Finance Eurobond restructuring extending XS2027394233 to Jan-32 and XS2027393938 to Jan-33 at 8.95%."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-01-15",
+        "event": "Restructured 2032/2033 Eurobond Coupon & Winter Heating Season Liquidity Test",
+        "impact": "Monitors gas storage adequacy and NBU FX coupon transfer approvals."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Debt Maturity Relief",
+      "management_target": "Extend 2026 & 2028 Eurobonds to preserve capex for war repairs",
+      "current_runrate": "Completed Jul-26: maturities pushed to 2032 & 2033",
+      "tracking_status": "On Track",
+      "variance_analysis": "Achieved >90% bondholder consent across both Kondor Finance series.",
+      "last_guided_source": "Naftogaz Jul-26 Restructuring Release",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Confirm 2026/2027 winter gas import financing coverage (EBRD/IFI lines) and PSO state compensation receipts.",
+      "focus_area": "Winter Liquidity",
+      "relevance": "Determines operating cash buffer post-Jul-26 restructuring."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "naftogaz",
+      "sector": "Energy",
+      "topic": "Jul-26 \u20ac1.2bn Eurobond Restructuring Closed",
+      "source": "Naftogaz / FinPoint (Jul-26)",
+      "note": "Extended \u20ac695m to Jan-32 and $584m to Jan-33 at 8.95% coupon; FY25 rev UAH 270.91bn, NI UAH 5.83bn."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-04-30",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Kyiv",
+    "ir_webcast_url": "https://www.naftogaz.com/en/investors",
+    "days_to_earnings": 156
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Restructured (Jul-26) / CCC",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 45.0,
+    "base_case_px": 68.0,
+    "recovery_floor_pct": 45.0,
+    "recovery_base_pct": 68.0,
+    "implied_stress_ev_multiple": 3.5,
+    "restructuring_framework": "English Law / Ukraine Sovereign-Quasi",
+    "thesis": "2032-2033 maturity runway + strategic European gas storage assets vs war-damage capex."
+  }
+}

@@ -213,6 +213,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "debt_maturities": {
@@ -231,6 +244,26 @@
       "topic": "Uzbekistan Digital Growth",
       "source": "TBC Bank 9M26 RNS",
       "note": "9M26 ROE 25%+ with Uzbek digital franchise scaling rapidly; CET1 16.5% / CAR 23.0%."
+    }
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "See latest financial filing",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 9M26 disclosures.",
+      "last_guided_source": "TBC Bank Group Q3/9M 2026 Results (06-Nov-26, LSE RNS), read 21-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "NPL 3.30%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Core Georgian franchise remains highly profitable (9M26 group net profit GEL 1,155m, +12% YoY; Q3 record GEL 404m; ROE 23.4%) with Fitch BB Stable rating. However, group NPL rose to 3.3% due to acute credit stress in the",
+      "last_guided_source": "TBC Bank Group Q3/9M 2026 Results (06-Nov-26, LSE RNS), read 21-Nov-26",
+      "last_verified_period": "9M26"
     }
   ]
 }

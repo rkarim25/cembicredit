@@ -1108,12 +1108,12 @@
     }
   },
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-18",
+    "period_reporting": "FY 2026 Audited & Out-of-Court Restructuring Closing",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/BRASKM",
-    "days_to_earnings": 0
+    "call_time": "15:00 Sao Paulo",
+    "ir_webcast_url": "https://ri.braskem.com.br/en/",
+    "days_to_earnings": 113
   },
   "market_history": [
     {
@@ -1588,6 +1588,19 @@
       "date": "2026-11-24",
       "period_name": "2026-11-24",
       "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "D (S&P) / RD (Fitch) / Ca (Moody's)",
+      "price": 51.8,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "net_leverage": 10.2,
+      "ebitda": 5759.0,
+      "fcf": -2330.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
       "rating": "D (S&P) / RD (Fitch) / Ca (Moody's)",
       "price": 51.8,
       "ytm": 19.8,

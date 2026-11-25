@@ -16,291 +16,36 @@
     "model_file": "MOL_Group_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8168-8d54-e9b5f3d2a820",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MOL_Group_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": -22.2,
     "net_leverage_2024a": 1.1,
-    "provenance": "Q3/9M 2026 results integrated 22-Nov-26"
+    "provenance": "financials rebuilt 25-Nov-26 from MOL Group FY2025 Audited & Q3/9M 2026 Financial Statements (Nov-26)",
+    "financials_currency": "USD"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 16320.0,
-      "ebitda": 2015.0,
-      "ebitda_margin_pct": 12.3,
-      "cfo": 1633.7,
-      "capex": 861.4,
-      "fcf": 162.7,
-      "cash": 1278.8,
-      "gross_debt": 4874.8,
-      "net_debt": 3596.0,
-      "net_leverage": 1.78,
-      "interest_coverage": 8.88,
+      "currency": "USD",
+      "source": "MOL Group FY2025 Audited Consolidated Financial Statements (IR), read 25-Nov-26",
+      "ebitda": 3369.0,
+      "reported_ebitda": 3369.0,
+      "net_debt": 1541.0,
+      "net_leverage": 0.47,
       "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 2045.2,
-      "calculated_ebitda": 2015.0,
-      "ebitda_reconciliation_variance_usd_m": 30.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$30.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 226.9,
-      "change_in_working_capital": 586.5,
-      "tax_expense": 177.5,
-      "fcf_conversion_pct": 8.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 2015.0,
-        "capex": 861.4,
-        "cash_interest": 226.9,
-        "change_in_working_capital": 586.5,
-        "tax": 177.5,
-        "fcf": 162.7,
-        "formula_check": "2015.0 - 861.4 - 226.9 - (586.5) - 177.5 = 162.7"
+        "notes": "FY25 Clean CCS EBITDA $3,369m, net debt $1,541m, net debt/EBITDA 0.47x."
       }
     },
     {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 19680.0,
-      "ebitda": 2480.0,
-      "ebitda_margin_pct": 12.6,
-      "cfo": 2055.3,
-      "capex": 1506.6,
-      "fcf": -788.4,
-      "cash": 1627.5,
-      "gross_debt": 5276.2,
-      "net_debt": 3648.7,
-      "net_leverage": 1.47,
-      "interest_coverage": 8.75,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 2517.2,
-      "calculated_ebitda": 2480.0,
-      "ebitda_reconciliation_variance_usd_m": 37.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 283.4,
-      "change_in_working_capital": 1260.5,
-      "tax_expense": 217.9,
-      "fcf_conversion_pct": -31.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 2480.0,
-        "capex": 1506.6,
-        "cash_interest": 283.4,
-        "change_in_working_capital": 1260.5,
-        "tax": 217.9,
-        "fcf": -788.4,
-        "formula_check": "2480.0 - 1506.6 - 283.4 - (1260.5) - 217.9 = -788.4"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 22080.0,
-      "ebitda": 2790.0,
-      "ebitda_margin_pct": 12.6,
-      "cfo": 2318.8,
-      "capex": 1694.9,
-      "fcf": -904.7,
-      "cash": 1976.2,
-      "gross_debt": 5620.3,
-      "net_debt": 3644.1,
-      "net_leverage": 1.31,
-      "interest_coverage": 8.2,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 2831.8,
-      "calculated_ebitda": 2790.0,
-      "ebitda_reconciliation_variance_usd_m": 41.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$41.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 340.2,
-      "change_in_working_capital": 1417.7,
-      "tax_expense": 241.9,
-      "fcf_conversion_pct": -32.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 2790.0,
-        "capex": 1694.9,
-        "cash_interest": 340.2,
-        "change_in_working_capital": 1417.7,
-        "tax": 241.9,
-        "fcf": -904.7,
-        "formula_check": "2790.0 - 1694.9 - 340.2 - (1417.7) - 241.9 = -904.7"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 24000.0,
-      "ebitda": 3100.0,
-      "ebitda_margin_pct": 12.9,
-      "cfo": 2635.0,
-      "capex": 1604.2,
-      "fcf": -22.2,
-      "cash": 2325.0,
-      "gross_debt": 5735.0,
-      "net_debt": 3410.0,
-      "net_leverage": 1.1,
-      "interest_coverage": 8.2,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 3146.5,
-      "calculated_ebitda": 3100.0,
-      "ebitda_reconciliation_variance_usd_m": 46.5,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 378.0,
-      "change_in_working_capital": 871.2,
-      "tax_expense": 268.8,
-      "fcf_conversion_pct": -0.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 3100.0,
-        "capex": 1604.2,
-        "cash_interest": 378.0,
-        "change_in_working_capital": 871.2,
-        "tax": 268.8,
-        "fcf": -22.2,
-        "formula_check": "3100.0 - 1604.2 - 378.0 - (871.2) - 268.8 = -22.2"
-      }
-    },
-    {
-      "period": "2025E",
+      "period": "9M26",
       "is_audited": false,
-      "revenue": 25920.0,
-      "ebitda": 3410.0,
-      "ebitda_margin_pct": 13.2,
-      "cfo": 2898.5,
-      "capex": 1457.8,
-      "fcf": 350.8,
-      "cash": 2743.5,
-      "gross_debt": 5620.3,
-      "net_debt": 2876.8,
-      "net_leverage": 0.84,
-      "interest_coverage": 9.4,
+      "currency": "USD",
+      "source": "MOL Group Q3 & 9M 2026 Financial Results (IR, Nov-26), read 25-Nov-26",
+      "net_debt": 1367.0,
+      "net_leverage": 0.3,
       "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 3461.1,
-      "calculated_ebitda": 3410.0,
-      "ebitda_reconciliation_variance_usd_m": 51.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$51.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 362.8,
-      "change_in_working_capital": 935.0,
-      "tax_expense": 303.6,
-      "fcf_conversion_pct": 10.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 3410.0,
-        "capex": 1457.8,
-        "cash_interest": 362.8,
-        "change_in_working_capital": 935.0,
-        "tax": 303.6,
-        "fcf": 350.8,
-        "formula_check": "3410.0 - 1457.8 - 362.8 - (935.0) - 303.6 = 350.8"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 27600.0,
-      "ebitda": 3658.0,
-      "ebitda_margin_pct": 13.3,
-      "cfo": 3109.3,
-      "capex": 1563.8,
-      "fcf": 424.3,
-      "cash": 3138.8,
-      "gross_debt": 5448.2,
-      "net_debt": 2309.4,
-      "net_leverage": 0.63,
-      "interest_coverage": 10.52,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 3712.9,
-      "calculated_ebitda": 3658.0,
-      "ebitda_reconciliation_variance_usd_m": 54.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$54.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 347.7,
-      "change_in_working_capital": 990.3,
-      "tax_expense": 331.9,
-      "fcf_conversion_pct": 11.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 3658.0,
-        "capex": 1563.8,
-        "cash_interest": 347.7,
-        "change_in_working_capital": 990.3,
-        "tax": 331.9,
-        "fcf": 424.3,
-        "formula_check": "3658.0 - 1563.8 - 347.7 - (990.3) - 331.9 = 424.3"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 28800.0,
-      "ebitda": 3844.0,
-      "ebitda_margin_pct": 13.3,
-      "cfo": 3293.8,
-      "capex": 1643.3,
-      "fcf": 485.0,
-      "cash": 3487.5,
-      "gross_debt": 5161.5,
-      "net_debt": 1674.0,
-      "net_leverage": 0.44,
-      "interest_coverage": 11.55,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 3901.7,
-      "calculated_ebitda": 3844.0,
-      "ebitda_reconciliation_variance_usd_m": 57.7,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$57.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 332.8,
-      "change_in_working_capital": 1029.2,
-      "tax_expense": 353.7,
-      "fcf_conversion_pct": 12.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 3844.0,
-        "capex": 1643.3,
-        "cash_interest": 332.8,
-        "change_in_working_capital": 1029.2,
-        "tax": 353.7,
-        "fcf": 485.0,
-        "formula_check": "3844.0 - 1643.3 - 332.8 - (1029.2) - 353.7 = 485.0"
+        "notes": "Q326 net debt fell to $1,367m (from $1,541m YE25) and net leverage compressed to 0.30x (from 0.49x H126) on strong refining margins, insurance recoveries, and >95 mboepd upstream output."
       }
     }
   ],
@@ -331,6 +76,13 @@
     "thesis": "Integrated oil and gas giant across Hungary, Slovakia, and Croatia; resilient downstream consumer margins."
   },
   "annotations": [
+    {
+      "issuer_id": "mol",
+      "sector": "Energy",
+      "topic": "Q326 Results: Net Debt $1.37bn & 0.30x Leverage",
+      "source": "MOL Group IR Filings (Nov-26)",
+      "note": "Q326 net debt fell to $1,367m (from $1,541m YE25), net leverage 0.30x, upstream >95 mboepd."
+    },
     {
       "issuer_id": "mol",
       "issuer_name": "MOL Group",
@@ -1214,6 +966,19 @@
       "ebitda": 3100.0,
       "fcf": -22.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BBB-",
+      "price": 98.0,
+      "ytm": 5.5,
+      "spread_bp": 145,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1322,7 +1087,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Overweight / Q3 Clean CCS EBITDA $1.76bn (~2x YoY) & 0.3x Net Leverage",
-      "summary": "Blowout Q326 print: Clean CCS EBITDA nearly doubled YoY to $1.76bn (aided by extraordinary refining margins and $233m one-offs; reported EBITDA $1.68bn), pushing 9M26 Clean CCS EBITDA to $3.68bn. Net debt fell to $1.54bn (0.3x leverage vs <1.0x target).",
+      "summary": "MOL Group cut net debt to $1,367m and net leverage to 0.30x at Q326 (well inside its <1.0x ceiling) as surging refining margins and >95 mboepd production absorbed dividends and working capital builds.",
       "target_price": null,
       "current_price": 98.0,
       "ytm": 5.5,
@@ -1343,6 +1108,7 @@
       "ownership_governance": "Budapest Stock Exchange listed (MOL); Hungarian state/foundation stakes (~30%)."
     },
     "recent_drivers": [
+      "Q326 (Nov-26): Net debt cut to $1,367m (0.30x leverage, down from 0.49x H126); upstream >95 mboepd.",
       "Q3/9M 2026 Results: Q3 Clean CCS EBITDA $1.76bn (9M $3.68bn), net debt cut to $1.54bn (0.3x net leverage)."
     ],
     "catalysts": [
@@ -1352,7 +1118,7 @@
         "impact": "Clarifies Druzhba pipeline transition capex."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

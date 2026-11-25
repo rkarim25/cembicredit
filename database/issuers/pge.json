@@ -572,12 +572,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-17",
-    "period_reporting": "Q3 2026",
-    "confirmation_status": "Confirmed",
-    "call_time": "09:00 Warsaw",
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
     "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 105
   },
   "management_questions": [
     {
@@ -1220,6 +1220,19 @@
       "date": "2026-11-24",
       "period_name": "2026-11-24",
       "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26)",
+      "price": 99.2,
+      "ytm": 5.3,
+      "spread_bp": 125,
+      "net_leverage": 1.85,
+      "ebitda": 2800.0,
+      "fcf": -1080.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
       "rating": "BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26)",
       "price": 99.2,
       "ytm": 5.3,

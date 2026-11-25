@@ -336,12 +336,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-18",
-    "period_reporting": "9M 2026 Production & Financial Report",
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited & Liquidity Update",
     "confirmation_status": "Estimated",
     "call_time": "13:00 London",
     "ir_webcast_url": "https://metinvestholding.com/en/investors",
-    "days_to_earnings": 0
+    "days_to_earnings": 126
   },
   "management_questions": [
     {
@@ -986,6 +986,19 @@
       "date": "2026-11-24",
       "period_name": "2026-11-24",
       "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "CCC+ (S&P) / Caa3 (Moody's) / CCC- (Fitch)",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.32,
+      "ebitda": 1009.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
       "rating": "CCC+ (S&P) / Caa3 (Moody's) / CCC- (Fitch)",
       "price": 93.27,
       "ytm": 14.98,

@@ -207,6 +207,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "AA Negative (Fitch, SCP aa+) / Aa2 (Moody's eq) / AA (S&P eq)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -217,5 +230,25 @@
     "implied_stress_ev_multiple": "AA Sovereign-Backed LNG Fortress",
     "restructuring_framework": "State of Qatar / English Law",
     "thesis": "QAR 704bn assets vs QAR 184bn liabilities and $11bn ultra-low-coupon 2031-2051 curve buffer geopolitical LNG shock."
-  }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "See latest filing",
+      "tracking_status": "On Track",
+      "variance_analysis": "H126 revenue dropped 35% YoY to QAR 87bn and net profit fell 69% to QAR 15bn following the March 2026 Ras Laffan strike and Strait of Hormuz disruptions, prompting Fitch to place QatarEnergy's AA rating on Negative outlo",
+      "last_guided_source": "QatarEnergy H1 2026 Unaudited Consolidated Financial Statements (Oct-26), read 24-Nov-26",
+      "last_verified_period": "H126"
+    },
+    {
+      "guidance_metric": "Key Milestone: Ras Laffan Restoration Progress & FY2026 Audited Results",
+      "management_target": "Tests LNG export throughput recovery and Fitch Negative outlook resolution.",
+      "current_runrate": "Scheduled H1 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "Oct-26 (H126): Revenue QAR 87bn (-35% YoY), NPAT QAR 15bn (-69% YoY), CFO QAR 21bn; assets QAR 704bn vs liabilities QAR 184bn.",
+      "last_guided_source": "QatarEnergy H1 2026 Unaudited Consolidated Financial Statements (Oct-26), read 24-Nov-26",
+      "last_verified_period": "H126"
+    }
+  ]
 }

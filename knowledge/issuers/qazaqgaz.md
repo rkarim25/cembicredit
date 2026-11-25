@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/qazaqgaz.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- QAZGAS 4.375% 2027: price 97.2, YTM 5.95%, spread 190bp (as of 2026-11-23).
+- QAZGAS 5.625% May 2036 ($700M, S&P BBB-): price 97.2, YTM 5.95%, spread 190bp (as of 2026-11-25).
 - Rating as recorded: BBB- Stable (S&P, Sep-26) / Baa2 Stable (Moody's).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 2296.0 | 680.0 | -47.9 | 1078.7 | 1.59 | 7.68 |
-| 2023A | 2576.0 | 765.0 | -60.0 | 1082.4 | 1.41 | 7.2 |
-| 2024A | 2800.0 | 850.0 | 107.4 | 1020.0 | 1.2 | 7.2 |
+| 2025A | 1349814.0 |  |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=qazaqgaz) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/qazaqgaz.json)

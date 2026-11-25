@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "id": "sibanye",
+    "name": "Sibanye-Stillwater",
+    "ticker": "SSW",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "Ba3 (Moody's) / BB- (S&P)",
+    "tier": "HY",
+    "benchmark_bond": "SSW 6.25% Senior Notes Nov 2031 (USG8118LAA64)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Sibanye_Stillwater_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sibanye_Stillwater_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 25-Nov-26 from Sibanye-Stillwater FY24/FY25 Audited & Q3 2026 Releases (Nov-26); quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Sibanye-Stillwater FY2024 Audited Consolidated Financial Statements, read 25-Nov-26",
+      "revenue": 5970.0,
+      "ebitda": 1950.0,
+      "reported_ebitda": 1950.0,
+      "gross_debt": 2240.0,
+      "observations": {
+        "notes": "FY24 rev ~$5.97bn (R113.5bn), adj EBITDA ~$1.95bn, total debt ~$2.24bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Sibanye-Stillwater FY2025 Audited Consolidated Financial Statements, read 25-Nov-26",
+      "revenue": 7300.0,
+      "ebitda": 2100.0,
+      "reported_ebitda": 2100.0,
+      "gross_debt": 1900.0,
+      "cash": 1000.0,
+      "net_debt": 900.0,
+      "net_leverage": 0.59,
+      "observations": {
+        "notes": "FY25 rev ~$7.3bn (R129.7bn), adj EBITDA ~$2.1bn (R37.8bn, +189% YoY), reported net debt/adj EBITDA 0.59x, cash ~$1.0bn."
+      }
+    },
+    {
+      "period": "Q326",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Sibanye-Stillwater Q3 2026 Trading Update & Nov-26 Convertible Redemption Notice, read 25-Nov-26",
+      "ebitda": 662.0,
+      "reported_ebitda": 662.0,
+      "observations": {
+        "notes": "Q326 adj EBITDA R10.8bn ($662m, +9% YoY) on precious metals rally despite US PGM strike in Montana. Nov-26 announced early redemption of $500m 4.25% 2028 convertible bond to halve gross debt toward $1.1bn."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Sibanye-Stillwater 4.250% Convertible due Nov 2028 (Called Nov-26)",
+      "tranche_name": "Sibanye-Stillwater 4.250% Convertible due Nov 2028 (Called Nov-26)",
+      "instrument_type": "Convertible Senior Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "4.250%",
+      "maturity": "2028-11-28",
+      "maturity_date": "2028-11-28",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2725834043",
+      "observation": "Nov-26 early redemption notice issued; holders converting/cashing out by late Dec-26."
+    },
+    {
+      "instrument": "Stillwater Mining 4.500% Senior Notes due Nov 2029",
+      "tranche_name": "Stillwater Mining 4.500% Senior Notes due Nov 2029",
+      "instrument_type": "Senior Unsecured Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 525.0,
+      "outstanding_usd_m": 525.0,
+      "amount_outstanding_usd_m": 525.0,
+      "amount_usd_m": 525.0,
+      "coupon": "4.500%",
+      "maturity": "2029-11-16",
+      "maturity_date": "2029-11-16",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English"
+    },
+    {
+      "instrument": "Sibanye-Stillwater 6.250% Senior Notes due Nov 2031",
+      "tranche_name": "Sibanye-Stillwater 6.250% Senior Notes due Nov 2031",
+      "instrument_type": "Senior Unsecured Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "6.250%",
+      "maturity": "2031-11-15",
+      "maturity_date": "2031-11-15",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "USG8118LAA64"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 500.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 525.0,
+    "2030_plus": 500.0,
+    "total_outstanding_usd_m": 1525.0,
+    "source": "Nov-26 early redemption accelerates $500m 2028 CB elimination (equity conversion/cash) by Dec-26, leaving 2029 & 2031 senior notes."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Overweight / Rapid Deleveraging via $500m CB Early Redemption & Precious Metals Surge",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Sibanye announced in Nov-26 the early redemption of its $500m 4.25% 2028 convertible bond to slash gross debt toward ~$1.1bn, backed by Q326 adj EBITDA rising 9% YoY to $662m (R10.8bn) and 0.59x YE25 net leverage. Eliminating the 2028 CB removes ~1/3 of gross debt and de-risks the 2029/2031 senior notes."
+    },
+    "positives": [
+      "Nov-26 early redemption of $500m 4.25% CB halves gross debt toward $1.1bn target.",
+      "Low 0.59x net leverage at YE25 with ~$1.0bn cash and surging gold/PGM basket cash flows.",
+      "Diversified South African gold/PGM, US PGM/recycling, and Keliber lithium portfolio."
+    ],
+    "negatives": [
+      "US PGM strike disruption in Montana weighing on Stillwater volumes.",
+      "High SA labor/electricity cost inflation and PGM price cyclicality."
+    ],
+    "background": {
+      "business_overview": "Global precious metals and battery-metals producer (SA gold & PGMs, US PGMs, Keliber lithium).",
+      "asset_perimeter": "SA PGM operations (Rustenburg, Marikana, Kroondal), SA Gold (Driefontein, Kloof, Beatrix), US PGM (Montana), Keliber (Finland).",
+      "ownership_governance": "JSE & NYSE listed (SSW / SBSW)."
+    },
+    "recent_drivers": [
+      "Nov-26: Announced early redemption of $500m 4.25% 2028 CB (XS2725834043) by late Dec-26; Q326 adj EBITDA $662m (+9% YoY)."
+    ],
+    "catalysts": [
+      {
+        "date": "2026-12-28",
+        "event": "Completion of $500m 2028 Convertible Bond Redemption / Conversion",
+        "impact": "Pro-forma gross debt drops toward $1.1bn target (~14% equity dilution)."
+      },
+      {
+        "date": "2027-02-26",
+        "event": "FY2026 Audited Financial Results",
+        "impact": "Confirms post-redemption net leverage and Montana strike resolution."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Gross Debt Reduction",
+      "management_target": "Cut gross debt by ~50% toward $1.1bn",
+      "current_runrate": "Early-redeeming $500m 2028 CB in Nov/Dec-26",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Equity conversion removes $500m debt cleanly without draining cash.",
+      "last_guided_source": "Sibanye Nov-26 Release",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Confirm final cash vs equity-conversion split on Dec-26 $500m convertible redemption and pro-forma gross debt.",
+      "focus_area": "Deleveraging",
+      "relevance": "Validates $1.1bn gross debt target."
+    },
+    {
+      "question": "Update Montana US PGM strike resolution timeline and 2027 AISC guidance.",
+      "focus_area": "Operations",
+      "relevance": "Key cash drag on US segment."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "sibanye",
+      "sector": "Materials",
+      "topic": "Nov-26 $500m CB Early Redemption & Q326 EBITDA $662m",
+      "source": "Sibanye-Stillwater / OrePulse (Nov-26)",
+      "note": "Announced Nov-26 early redemption of $500m 4.25% 2028 CB (XS2725834043) targeting ~$1.1bn gross debt; Q326 adj EBITDA R10.8bn ($662m)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-26",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Johannesburg",
+    "ir_webcast_url": "https://www.sibanyestillwater.com/news-investors/",
+    "days_to_earnings": 93
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Ba3 (Moody's) / BB- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 1950.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 78.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 78.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.0,
+    "restructuring_framework": "SA Companies Act / NY Law Notes",
+    "thesis": "$2.1bn+ adj EBITDA and $500m CB equitization leave 2029/2031 senior notes heavily covered."
+  }
+}

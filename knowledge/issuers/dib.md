@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/dib.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- DIBUH 5.10% 2029: price 99.7, YTM 5.1%, spread 90bp (as of 2026-11-22).
+- DIBUH 4.572% Nov 2030 Sukuk (XS3002400540): price 99.7, YTM 5.1%, spread 90bp (as of 2026-11-25).
 - Rating as recorded: A3 / A.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2022A |  | 2025.9 |  | 17.2 | 4.5 |
-| 2023A |  | 2190.8 |  | 17.2 | 4.5 |
-| 2024A |  | 2343.6 |  | 17.2 | 4.5 |
+| 2025A |  |  | 13.0 | 16.7 | 3.36 |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=dib) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/dib.json)
 <!-- auto-data-end -->

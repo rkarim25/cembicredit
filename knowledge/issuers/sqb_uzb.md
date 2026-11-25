@@ -4,12 +4,13 @@ _Page created 24-Nov-26 from `database/issuers/sqb_uzb.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB Stable (Fitch, Mar-26, VR b) / BB- Negative (S&P, Jul-26).
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
+| 2024A |  |  |  |  |  |
 | 2025A |  |  |  | 19.0 | 9.1 |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=sqb_uzb) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/sqb_uzb.json)

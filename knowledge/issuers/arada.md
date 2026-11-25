@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/arada.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ARADA 8.05% 2029: price 99.66, YTM 8.13%, spread 329bp (as of 2026-11-22).
+- ARADA 8.875% Oct 2031 Sukuk ($400M): price 99.66, YTM 8.13%, spread 329bp (as of 2026-11-25).
 - Rating as recorded: B+ / B1.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 754.4 | 216.0 | -173.7 | 514.0 | 2.38 | 4.43 |
-| 2023A | 846.4 | 243.0 | -198.6 | 526.4 | 2.17 | 4.15 |
-| 2024A | 1580.0 | 414.0 | -185.0 | 1133.0 | 2.74 | 5.52 |
+| 2025A |  |  |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=arada) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/arada.json)

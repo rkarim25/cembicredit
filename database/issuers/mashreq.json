@@ -219,6 +219,39 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "A (Fitch) / A3 (Moody's) / A (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "CAR 16.7%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 9M26 disclosures.",
+      "last_guided_source": "Mashreqbank Q3/9M 2026 Financial Results, read 22-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "NPL 0.70%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Standout growth and profitability among GCC A-rated private banks: 9M26 NPAT +18% YoY to AED 6.1bn (20.4% ROE) as assets surpassed AED 405.6bn (+33% YoY) with 0.7% NPLs and 311% coverage. Rapid 33% loan expansion is back",
+      "last_guided_source": "Mashreqbank Q3/9M 2026 Financial Results, read 22-Nov-26",
+      "last_verified_period": "9M26"
     }
   ]
 }

@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "abb_az",
+    "name": "International Bank of Azerbaijan (ABB)",
+    "ticker": "ABB",
+    "country": "Azerbaijan",
+    "region": "CEE / CIS",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB Stable (Fitch)",
+    "tier": "HY",
+    "benchmark_bond": "ABB Local AZN Bonds (AZ2002004581) / Planned $300-500M Eurobond",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "ABB_Azerbaijan_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ABB_Azerbaijan_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "bank",
+    "financials_currency": "AZN",
+    "provenance": "financials built 25-Nov-26 from ABB FY2025 Audited & H1 2026 Financial Statements (abb-bank.az); quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "AZN",
+      "source": "ABB FY2024 Audited Consolidated Financial Statements, read 25-Nov-26",
+      "net_profit": 360.0,
+      "observations": {
+        "notes": "FY24 net profit AZN 360m."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AZN",
+      "source": "ABB FY2025 Audited Consolidated Financial Statements, read 25-Nov-26",
+      "loans": 7080.0,
+      "net_profit": 404.5,
+      "observations": {
+        "notes": "FY25 net profit AZN 404.5m; net loan book grew 11.5% YoY to AZN 7.08bn ($4.18bn: corporate AZN 3.54bn, consumer AZN 1.98bn, mortgage AZN 1.55bn)."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "AZN",
+      "source": "ABB H1 2026 Financial Results (abb-bank.az), read 25-Nov-26",
+      "assets": 15304.0,
+      "loans": 6960.0,
+      "deposits": 9257.0,
+      "equity": 2230.0,
+      "net_profit": 250.6,
+      "observations": {
+        "notes": "H126 total assets AZN 15.304bn (~$9.0bn), net loans AZN 6.96bn (+14.3% in H1), deposits AZN 9.257bn, equity AZN 2.23bn (+11.4%), total revenue AZN 903.4m (+23.6%), NI AZN 250.56m (+61.2% YoY)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "ABB Baku Stock Exchange Local AZN Bonds",
+      "tranche_name": "ABB Baku Stock Exchange Local AZN Bonds",
+      "instrument_type": "Senior Unsecured Domestic",
+      "currency": "AZN",
+      "amount_issued_usd_m": 100.0,
+      "outstanding_usd_m": 100.0,
+      "amount_outstanding_usd_m": 100.0,
+      "amount_usd_m": 100.0,
+      "coupon": "AZN Fixed",
+      "maturity": "2026-12-31",
+      "maturity_date": "2026-12-31",
+      "seniority": "Senior Unsecured",
+      "governing_law": "Azerbaijan Law",
+      "isin": "AZ2002004581"
+    },
+    {
+      "instrument": "ABB $230M Gulf-Backed Syndicated Facility",
+      "tranche_name": "ABB $230M Gulf-Backed Syndicated Facility",
+      "instrument_type": "Senior Unsecured Loan",
+      "currency": "USD",
+      "amount_issued_usd_m": 230.0,
+      "outstanding_usd_m": 230.0,
+      "amount_outstanding_usd_m": 230.0,
+      "amount_usd_m": 230.0,
+      "coupon": "SOFR+Margin",
+      "maturity": "2028-06-30",
+      "maturity_date": "2028-06-30",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "Evaluated $300-500m debut Eurobond to fund corporate growth & Uzbekistan (ABB Davr Bank)."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 100.0,
+    "2027": 0.0,
+    "2028": 230.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 330.0,
+    "source": "Local AZN bond series + $230m Gulf syndicated loan; $300-500m USD Eurobond evaluated."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Neutral / Sovereign-Owned Dominant Azerbaijani Bank (BB Stable)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Azerbaijan's largest bank (88.5% Ministry of Finance) surged to AZN 15.30bn assets and AZN 250.6m H126 net profit (+61.2% YoY), backed by AZN 2.23bn equity and 75% LDR. Watchpoints are rapid loan expansion (+14.3% in H1), Uzbekistan entry (ABB Davr Bank), and potential $300\u2013500m debut Eurobond supply."
+    },
+    "positives": [
+      "88.5% owned by Ministry of Finance of Azerbaijan; dominant systemic franchise (BB Fitch).",
+      "Surging profitability: H126 net profit AZN 250.6m (+61.2% YoY) after AZN 404.5m in FY25.",
+      "Ample funding liquidity (AZN 9.26bn deposits vs AZN 6.96bn net loans = 75% LDR) and AZN 2.23bn equity."
+    ],
+    "negatives": [
+      "Rapid loan expansion and cross-border execution risk in Uzbekistan (ABB Davr Bank).",
+      "Hydrocarbon-driven Azerbaijani macro sensitivity and potential USD Eurobond supply."
+    ],
+    "background": {
+      "business_overview": "Largest state-owned universal commercial bank in Azerbaijan.",
+      "asset_perimeter": "Corporate, SME, retail, and mortgage banking in Azerbaijan plus Uzbekistan expansion.",
+      "ownership_governance": "88.5% Azerbaijan Ministry of Finance."
+    },
+    "recent_drivers": [
+      "H126: Assets AZN 15.30bn, NI AZN 250.6m (+61.2% YoY), equity AZN 2.23bn; $300-500m Eurobond evaluated."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-31",
+        "event": "FY2026 Audited IFRS Results & Potential Debut USD Eurobond",
+        "impact": "Establishes CEMBI USD curve if $300-500m debut prints."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Profitability & Equity Growth",
+      "management_target": "Scale earnings and equity ahead of Uzbekistan expansion",
+      "current_runrate": "H126 NI AZN 250.6m (+61.2%), equity AZN 2.23bn (+11.4%)",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "Revenue +23.6% YoY outpaced 15.1% expense growth.",
+      "last_guided_source": "ABB H1 2026 Results",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Confirm 2027 timing and target size for debut $300-500m USD Eurobond vs local AZN bond issuance.",
+      "focus_area": "Wholesale Funding",
+      "relevance": "Key new-issue catalyst for CEMBI CEEMEA."
+    },
+    {
+      "question": "Report exact H126 CET1, CAR, and Stage 3 NPL ratio under IFRS 9.",
+      "focus_area": "Capital & Asset Quality",
+      "relevance": "Confirms buffer post-14.3% loan growth."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "abb_az",
+      "sector": "Banks",
+      "topic": "H126 Net Profit +61.2% & Eurobond Pipeline",
+      "source": "ABB H1 2026 Financial Results",
+      "note": "Assets AZN 15.30bn, net loans AZN 6.96bn, deposits AZN 9.26bn, NI AZN 250.6m (+61.2% YoY); Fitch BB affirmed."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Baku",
+    "ir_webcast_url": "https://abb-bank.az/en/about-us/investor-relations",
+    "days_to_earnings": 126
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

@@ -182,6 +182,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB- Stable (Fitch) / BB+ Positive (CI)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -192,5 +205,33 @@
     "implied_stress_ev_multiple": "HoldCo LTV <45% (Burgan/Equate Stakes)",
     "restructuring_framework": "Kuwait HoldCo / English EMTN",
     "thesis": "HoldCo structural subordination mitigated by declining parent debt (repaid $354m Oct-26 bond from cash) ahead of $500m Feb-27 bullet."
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "See latest filing",
+      "tracking_status": "On Track",
+      "variance_analysis": "KIPCO cleanly repaid its $354m Oct-2026 bond from internal HoldCo liquidity (without tapping markets) while growing 9M26 consolidated revenue 2.2% YoY to $3.83bn. Attention now shifts to the imminent $500m 4.50% 23-Feb-2",
+      "last_guided_source": "KIPCO 9M 2026 Financial Results Release (Boursa Kuwait), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Key Milestone: Maturity of $500m 4.50% Senior Unsecured EMTN (XS1567906059)",
+      "management_target": "Primary near-term HoldCo liquidity test (cash vs KWD/USD bond refi).",
+      "current_runrate": "Scheduled 23 Feb 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "Oct/Nov-26: Repaid $354m Oct-2026 bond from internal liquidity; reported 9M26 consolidated revenue $3.83bn (+2.2% YoY).",
+      "last_guided_source": "KIPCO 9M 2026 Financial Results Release (Boursa Kuwait), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 105
   }
 }

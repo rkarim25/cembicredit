@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/cci.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- CCOLA 4.50% 2029: price 97.2, YTM 5.35%, spread 130bp (as of 2026-11-22).
+- CCOLA 4.50% 2029: price 97.2, YTM 5.35%, spread 130bp (as of 2026-11-25).
 - Rating as recorded: BBB- / BBB.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 3116.0 | 576.0 | 16.5 | 814.3 | 1.41 | 9.49 |
-| 2023A | 3496.0 | 648.0 | 14.5 | 811.1 | 1.25 | 8.9 |
-| 2024A | 3800.0 | 720.0 | 150.1 | 756.0 | 1.05 | 8.9 |
+| 2025A | 187200.0 | 33197.0 |  | 25593.0 | 0.77 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=cci) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/cci.json)

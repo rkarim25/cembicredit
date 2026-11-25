@@ -1421,6 +1421,19 @@
       "ebitda": 322.9,
       "fcf": -189.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB- (S&P) / BB (Fitch)",
+      "price": 87.0,
+      "ytm": 16.0,
+      "spread_bp": 1120,
+      "net_leverage": 4.69,
+      "ebitda": 322.9,
+      "fcf": -189.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "supplementary_data": {
@@ -1571,12 +1584,12 @@
     }
   },
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/AVIASG",
-    "days_to_earnings": 0
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 105
   },
   "debt_maturities": {
     "2026": 0.0,

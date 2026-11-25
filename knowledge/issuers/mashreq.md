@@ -4,7 +4,7 @@ _Page created 22-Nov-26 from `database/issuers/mashreq.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: A (Fitch) / A3 (Moody's) / A (S&P).
 

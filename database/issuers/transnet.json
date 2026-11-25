@@ -165,6 +165,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Ba3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -175,5 +188,25 @@
     "implied_stress_ev_multiple": "State-Guaranteed SOE Infrastructure",
     "restructuring_framework": "South African SOE / National Treasury Guarantee",
     "thesis": "Critical SA rail/port monopoly backed by R51-99.6bn Treasury guarantee framework despite 49.5% standalone gearing."
-  }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "EBITDA ZAR 30,900.0M",
+      "tracking_status": "On Track",
+      "variance_analysis": "Transnet returned to R4.6bn net profit in FY26 (Mar-26) on R88.6bn revenue (+7.1%) and R30.9bn EBITDA, aided by the Durban Pier 2 49.999% stake sale to ICTSI. Standalone metrics remain stretched (R136bn+ debt, R23.3bn ca",
+      "last_guided_source": "Transnet SOC Ltd FY2026 Audited Financial Statements (ended 31-Mar-26), read 24-Nov-26",
+      "last_verified_period": "FY26"
+    },
+    {
+      "guidance_metric": "Key Milestone: Moody's & S&P South Africa Sovereign Review",
+      "management_target": "Directly governs Transnet state-support rating ceiling.",
+      "current_runrate": "Scheduled 27 Nov 2026",
+      "tracking_status": "On Track",
+      "variance_analysis": "FY26 (Mar-26): Revenue R88.6bn (+7.1%), EBITDA R30.9bn, NPAT R4.6bn (Durban Pier 2 49.999% sale to ICTSI), capex R23.3bn, gearing 49.5%.",
+      "last_guided_source": "Transnet SOC Ltd FY2026 Audited Financial Statements (ended 31-Mar-26), read 24-Nov-26",
+      "last_verified_period": "FY26"
+    }
+  ]
 }

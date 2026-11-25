@@ -333,12 +333,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-20",
+    "period_reporting": "FY 2026 Audited IFRS Results",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
-    "days_to_earnings": 0
+    "call_time": "16:00 Astana",
+    "ir_webcast_url": "https://www.kmg.kz/en/investors/",
+    "days_to_earnings": 115
   },
   "management_questions": [
     {
@@ -983,6 +983,19 @@
       "date": "2026-11-24",
       "period_name": "2026-11-24",
       "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
+      "price": 88.5,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "net_leverage": 0.58,
+      "ebitda": 2001000.0,
+      "fcf": 1199000.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
       "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
       "price": 88.5,
       "ytm": 6.75,

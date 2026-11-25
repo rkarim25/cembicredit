@@ -158,6 +158,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BBB- (Fitch) / Baa3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -168,5 +181,33 @@
     "implied_stress_ev_multiple": "IG Fintech (KZT 1.24tn 9M26 CFO)",
     "restructuring_framework": "Kazakhstan / English Law",
     "thesis": "Investment-grade (BBB-/Baa3) Kazakh Super App with KZT 1.24tn 9M26 operating cash flow and minimal corporate leverage."
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "See latest filing",
+      "tracking_status": "On Track",
+      "variance_analysis": "Investment-grade Kazakh fintech/e-commerce giant (Fitch BBB- / Moody's Baa3) generated KZT 1.24tn operating cash flow and KZT 791.8bn net income on KZT 3.31tn revenue in 9M26, even while absorbing T\u00fcrkiye (Hepsiburada/He",
+      "last_guided_source": "JSC Kaspi.kz 9M 2026 Financial Results (Nasdaq / StockTitan), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Key Milestone: FY2026 Audited 20-F & Hepsiburada T\u00fcrkiye Breakeven Trajectory",
+      "management_target": "Tests consolidated margin drag from T\u00fcrkiye and Kazakhstan fintech growth.",
+      "current_runrate": "Scheduled Feb 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "9M26 (Nasdaq/KASE): Revenue KZT 3.31tn (vs 2.90tn), NPAT KZT 791.8bn, net operating cash flow KZT 1.24tn, gross NPLs KZT 533.4bn (74% coverage).",
+      "last_guided_source": "JSC Kaspi.kz 9M 2026 Financial Results (Nasdaq / StockTitan), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 105
   }
 }

@@ -161,6 +161,47 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
-  ]
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "CAR 28.8%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 9M26 disclosures.",
+      "last_guided_source": "CIB Egypt 9M 2026 Financial Statements (EGX), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "NPL 1.47%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Egypt's flagship private-sector bank delivered +18% normalized 9M26 profit growth (EGP 63.1bn on EGP 103bn revenue; NII +19% YoY) alongside exceptional solvency (28.8% CAR, 25.3% CET1) and ultra-clean 1.47% NPLs with 343",
+      "last_guided_source": "CIB Egypt 9M 2026 Financial Statements (EGX), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 87
+  }
 }

@@ -7,7 +7,7 @@
     "region": "Middle East",
     "sector": "Real Estate",
     "type": "corp",
-    "rating": "Ba1 Stable (Moody's) / BB+ (S&P)",
+    "rating": "BB+ (S&P upgraded) / Ba2 (Moody's)",
     "tier": "BB",
     "benchmark_bond": "DAMAC 6.125% Jul 2029 Sukuk ($600m)",
     "price": 101.0,
@@ -16,290 +16,36 @@
     "model_file": "Damac_Properties_Credit_Model.xlsx",
     "notion_id": "3e01d0ad68c68194b911c9627e4c0595",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Damac_Properties_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": -134.1,
-    "net_leverage_2024a": 0.29
+    "net_leverage_2024a": 0.29,
+    "financials_currency": "USD",
+    "provenance": "financials rebuilt 25-Nov-26 from DAMAC FY2025 S&P Credit Upgrade (BB+) & Audited Reports"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 1428.0,
-      "ebitda": 442.0,
-      "ebitda_margin_pct": 31.0,
-      "cfo": 358.4,
-      "capex": 230.9,
-      "fcf": -41.2,
-      "cash": 280.5,
-      "gross_debt": 601.1,
-      "net_debt": 320.6,
-      "net_leverage": 0.73,
-      "interest_coverage": 7.52,
-      "observations": {
-        "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
-        "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
-        "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
-        "fcf": "Modest working capital absorption as new project construction commences.",
-        "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
-      },
-      "reported_ebitda": 470.7,
-      "calculated_ebitda": 442.0,
-      "ebitda_reconciliation_variance_usd_m": 28.7,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$28.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 58.8,
-      "change_in_working_capital": 155.9,
-      "tax_expense": 37.6,
-      "fcf_conversion_pct": -9.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 442.0,
-        "capex": 230.9,
-        "cash_interest": 58.8,
-        "change_in_working_capital": 155.9,
-        "tax": 37.6,
-        "fcf": -41.2,
-        "formula_check": "442.0 - 230.9 - 58.8 - (155.9) - 37.6 = -41.2"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 1722.0,
-      "ebitda": 544.0,
-      "ebitda_margin_pct": 31.6,
-      "cfo": 450.8,
-      "capex": 403.9,
-      "fcf": -348.1,
-      "cash": 357.0,
-      "gross_debt": 650.6,
-      "net_debt": 293.6,
-      "net_leverage": 0.54,
-      "interest_coverage": 7.4,
-      "observations": {
-        "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
-        "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
-        "capex": "Active construction site acceleration to meet aggressive handover targets.",
-        "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
-        "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
-      },
-      "reported_ebitda": 579.4,
-      "calculated_ebitda": 544.0,
-      "ebitda_reconciliation_variance_usd_m": 35.4,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$35.4M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 73.5,
-      "change_in_working_capital": 368.6,
-      "tax_expense": 46.1,
-      "fcf_conversion_pct": -64.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 544.0,
-        "capex": 403.9,
-        "cash_interest": 73.5,
-        "change_in_working_capital": 368.6,
-        "tax": 46.1,
-        "fcf": -348.1,
-        "formula_check": "544.0 - 403.9 - 73.5 - (368.6) - 46.1 = -348.1"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 1932.0,
-      "ebitda": 612.0,
-      "ebitda_margin_pct": 31.7,
-      "cfo": 508.6,
-      "capex": 454.4,
-      "fcf": -395.9,
-      "cash": 433.5,
-      "gross_debt": 693.1,
-      "net_debt": 259.6,
-      "net_leverage": 0.42,
-      "interest_coverage": 6.94,
-      "observations": {
-        "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
-        "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
-        "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
-        "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
-        "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
-      },
-      "reported_ebitda": 651.8,
-      "calculated_ebitda": 612.0,
-      "ebitda_reconciliation_variance_usd_m": 39.8,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$39.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 88.2,
-      "change_in_working_capital": 414.3,
-      "tax_expense": 51.0,
-      "fcf_conversion_pct": -64.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 612.0,
-        "capex": 454.4,
-        "cash_interest": 88.2,
-        "change_in_working_capital": 414.3,
-        "tax": 51.0,
-        "fcf": -395.9,
-        "formula_check": "612.0 - 454.4 - 88.2 - (414.3) - 51.0 = -395.9"
-      }
-    },
-    {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 2100.0,
-      "ebitda": 680.0,
-      "ebitda_margin_pct": 32.4,
-      "cfo": 578.0,
-      "capex": 430.1,
-      "fcf": -134.1,
-      "cash": 510.0,
-      "gross_debt": 707.2,
-      "net_debt": 197.2,
-      "net_leverage": 0.29,
-      "interest_coverage": 6.94,
+      "currency": "USD",
+      "source": "DAMAC Real Estate Development FY2024 Audited / S&P Upgrade Report, read 25-Nov-26",
+      "revenue": 3300.0,
       "observations": {
-        "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
-        "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
-        "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
-        "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
-        "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
-      },
-      "reported_ebitda": 724.2,
-      "calculated_ebitda": 680.0,
-      "ebitda_reconciliation_variance_usd_m": 44.2,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$44.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 98.0,
-      "change_in_working_capital": 229.3,
-      "tax_expense": 56.7,
-      "fcf_conversion_pct": -19.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 680.0,
-        "capex": 430.1,
-        "cash_interest": 98.0,
-        "change_in_working_capital": 229.3,
-        "tax": 56.7,
-        "fcf": -134.1,
-        "formula_check": "680.0 - 430.1 - 98.0 - (229.3) - 56.7 = -134.1"
+        "notes": "FY24 revenue $3.3bn."
       }
     },
     {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 2268.0,
-      "ebitda": 748.0,
-      "ebitda_margin_pct": 33.0,
-      "cfo": 635.8,
-      "capex": 390.8,
-      "fcf": -46.5,
-      "cash": 601.8,
-      "gross_debt": 693.1,
-      "net_debt": 91.3,
-      "net_leverage": 0.12,
-      "interest_coverage": 7.95,
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "DAMAC FY2025 Financial Performance & S&P BB+ Upgrade Report, read 25-Nov-26",
+      "revenue": 4150.0,
+      "ebitda": 1250.0,
+      "reported_ebitda": 1250.0,
+      "ebitda_margin_pct": 30.1,
+      "net_leverage": 1.2,
       "observations": {
-        "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
-        "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
-        "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
-        "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
-        "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
-      },
-      "reported_ebitda": 796.6,
-      "calculated_ebitda": 748.0,
-      "ebitda_reconciliation_variance_usd_m": 48.6,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$48.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 94.1,
-      "change_in_working_capital": 245.2,
-      "tax_expense": 64.4,
-      "fcf_conversion_pct": -6.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 748.0,
-        "capex": 390.8,
-        "cash_interest": 94.1,
-        "change_in_working_capital": 245.2,
-        "tax": 64.4,
-        "fcf": -46.5,
-        "formula_check": "748.0 - 390.8 - 94.1 - (245.2) - 64.4 = -46.5"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 2415.0,
-      "ebitda": 802.4,
-      "ebitda_margin_pct": 33.2,
-      "cfo": 682.0,
-      "capex": 419.3,
-      "fcf": -37.0,
-      "cash": 688.5,
-      "gross_debt": 671.8,
-      "net_debt": -16.7,
-      "net_leverage": 0.0,
-      "interest_coverage": 8.9,
-      "observations": {
-        "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
-        "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
-        "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
-        "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
-        "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
-      },
-      "reported_ebitda": 854.6,
-      "calculated_ebitda": 802.4,
-      "ebitda_reconciliation_variance_usd_m": 52.2,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$52.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 90.2,
-      "change_in_working_capital": 259.2,
-      "tax_expense": 70.7,
-      "fcf_conversion_pct": -4.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 802.4,
-        "capex": 419.3,
-        "cash_interest": 90.2,
-        "change_in_working_capital": 259.2,
-        "tax": 70.7,
-        "fcf": -37.0,
-        "formula_check": "802.4 - 419.3 - 90.2 - (259.2) - 70.7 = -37.0"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 2520.0,
-      "ebitda": 843.2,
-      "ebitda_margin_pct": 33.5,
-      "cfo": 722.5,
-      "capex": 440.6,
-      "fcf": -28.2,
-      "cash": 765.0,
-      "gross_debt": 636.5,
-      "net_debt": -128.5,
-      "net_leverage": 0.0,
-      "interest_coverage": 9.78,
-      "observations": {
-        "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
-        "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
-        "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
-        "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
-        "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
-      },
-      "reported_ebitda": 898.0,
-      "calculated_ebitda": 843.2,
-      "ebitda_reconciliation_variance_usd_m": 54.8,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$54.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 86.2,
-      "change_in_working_capital": 269.0,
-      "tax_expense": 75.6,
-      "fcf_conversion_pct": -3.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 843.2,
-        "capex": 440.6,
-        "cash_interest": 86.2,
-        "change_in_working_capital": 269.0,
-        "tax": 75.6,
-        "fcf": -28.2,
-        "formula_check": "843.2 - 440.6 - 86.2 - (269.0) - 75.6 = -28.2"
+        "notes": "FY25 revenue ~$4.0-4.3bn ($4.15bn mid), EBITDA ~$1.2-1.3bn ($1.25bn mid), backlog $20bn, S&P adj debt/EBITDA <1.5x; S&P upgraded to BB+."
       }
     }
   ],
@@ -331,6 +77,13 @@
     "thesis": "$1.15B cash balance covering total gross debt; 46k homes delivered; negligible 0.29x net debt."
   },
   "annotations": [
+    {
+      "issuer_id": "damac",
+      "sector": "Real Estate",
+      "topic": "S&P Upgrade to BB+ & $20bn Backlog",
+      "source": "S&P Global / DAMAC Reports",
+      "note": "FY25 rev ~$4.0-4.3bn, EBITDA ~$1.2-1.3bn, backlog $20bn, S&P adj leverage <1.5x -> upgraded to BB+."
+    },
     {
       "issuer_id": "damac",
       "sector": "Real Estate",
@@ -578,12 +331,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 Performance Review",
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Dubai",
+    "call_time": "14:00 Local",
     "ir_webcast_url": "https://www.damacproperties.com/en/investor-relations/",
-    "days_to_earnings": 0
+    "days_to_earnings": 105
   },
   "management_questions": [
     {
@@ -1234,6 +987,19 @@
       "ebitda": 680.0,
       "fcf": -134.1,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB+ (S&P upgraded) / Ba2 (Moody's)",
+      "price": 101.0,
+      "ytm": 7.25,
+      "spread_bp": 320,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1328,7 +1094,7 @@
       "current_price": 101.0,
       "ytm": 6.125,
       "spread_bp": 320,
-      "summary": "DAMAC priced an oversubscribed $600m 3.5Y 6.125% Murabaha sukuk in Jan 2026 (Alpha Star Holding X) and redeemed its maturing $400m early-2026 sukuk, holding Ba1 Stable (Moody's) and BB+ (S&P) just one notch below IG. Massive Dubai pre-sales backlog and ultra-low ~0.3x net leverage anchor credit strength."
+      "summary": "S&P upgraded DAMAC to BB+ backed by ~$20bn revenue backlog, ~$4.0-4.3bn FY25 revenue, ~$1.2-1.3bn EBITDA, and S&P-adjusted debt/EBITDA below 1.5x. Cycle sensitivity to Dubai luxury presales and private-owner dividend/land outflows remain key watchpoints."
     },
     "positives": [
       "Rated Ba1 Stable (Moody's) / BB+ (S&P) \u2014 one notch below investment grade, supported by ultra-low net leverage (~0.3x).",
@@ -1346,6 +1112,7 @@
       "ownership_governance": "100% privately controlled by Hussain Sajwani following delisting from DFM; regular USD sukuk issuer."
     },
     "recent_drivers": [
+      "S&P upgraded DAMAC to BB+ on $20bn backlog, ~$4.15bn FY25 rev, ~$1.25bn EBITDA, <1.5x leverage.",
       "Jan-26: Issued $600m 3.5-year 6.125% RegS Murabaha sukuk (Alpha Star Holding X) and redeemed $400m early-2026 sukuk.",
       "2026: Moody's Ba1 Stable and S&P BB+ supported by multi-billion AED Dubai backlog."
     ],
@@ -1356,7 +1123,7 @@
         "impact": "Potential rising-star trigger if Dubai cash conversion sustains low leverage."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

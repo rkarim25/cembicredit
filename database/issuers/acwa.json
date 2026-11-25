@@ -16,291 +16,40 @@
     "model_file": "ACWA_Power_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8150-a7d3-e1d310024720",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ACWA_Power_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": -1205.0,
     "net_leverage_2024a": 3.85,
-    "provenance": "Q3/9M 2026 Tadawul filings integrated 22-Nov-26"
+    "provenance": "financials rebuilt 25-Nov-26 from ACWA Power FY2025 Audited & H1 2026 Tadawul Statements",
+    "financials_currency": "SAR"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 1122.0,
-      "ebitda": 598.0,
-      "ebitda_margin_pct": 53.3,
-      "cfo": 484.8,
-      "capex": 680.0,
-      "fcf": -352.0,
-      "cash": 379.5,
-      "gross_debt": 3597.2,
-      "net_debt": 3217.7,
-      "net_leverage": 5.38,
-      "interest_coverage": 3.68,
+      "currency": "SAR",
+      "source": "ACWA Power FY2025 Audited Consolidated Financial Statements (Tadawul), read 25-Nov-26",
+      "revenue": 7410.0,
+      "ebitda": 3590.0,
+      "reported_ebitda": 3590.0,
+      "net_leverage": 5.18,
       "observations": {
-        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
-        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
-        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
-        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
-        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      },
-      "reported_ebitda": 609.96,
-      "calculated_ebitda": 598.0,
-      "ebitda_reconciliation_variance_usd_m": 9.0,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 162.5,
-      "change_in_working_capital": 69.1,
-      "tax_expense": 38.4,
-      "fcf_conversion_pct": -58.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 598.0,
-        "capex": 680.0,
-        "cash_interest": 162.5,
-        "change_in_working_capital": 69.1,
-        "tax": 38.4,
-        "fcf": -352.0,
-        "formula_check": "598.0 - 680.0 - 162.5 - (69.1) - 38.4 = -352.0"
+        "notes": "FY25 rev SAR 7.41bn (+17.7% YoY), operating income before impairment SAR 3.59bn (+20.5%), net debt/cash flow reduced to 5.18x (from 6.36x)."
       }
     },
     {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 1285.0,
-      "ebitda": 685.0,
-      "ebitda_margin_pct": 53.3,
-      "cfo": 610.0,
-      "capex": 950.0,
-      "fcf": -592.0,
-      "cash": 483.0,
-      "gross_debt": 3893.4,
-      "net_debt": 3410.4,
-      "net_leverage": 4.98,
-      "interest_coverage": 3.63,
-      "observations": {
-        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
-        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
-        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
-        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
-        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      },
-      "reported_ebitda": 698.7,
-      "calculated_ebitda": 685.0,
-      "ebitda_reconciliation_variance_usd_m": 11.0,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 188.7,
-      "change_in_working_capital": 94.7,
-      "tax_expense": 43.6,
-      "fcf_conversion_pct": -86.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 685.0,
-        "capex": 950.0,
-        "cash_interest": 188.7,
-        "change_in_working_capital": 94.7,
-        "tax": 43.6,
-        "fcf": -592.0,
-        "formula_check": "685.0 - 950.0 - 188.7 - (94.7) - 43.6 = -592.0"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 1440.0,
-      "ebitda": 780.0,
-      "ebitda_margin_pct": 54.2,
-      "cfo": 688.2,
-      "capex": 1350.0,
-      "fcf": -955.0,
-      "cash": 586.5,
-      "gross_debt": 4147.4,
-      "net_debt": 3560.9,
-      "net_leverage": 4.57,
-      "interest_coverage": 3.4,
-      "observations": {
-        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
-        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
-        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
-        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
-        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      },
-      "reported_ebitda": 795.6,
-      "calculated_ebitda": 780.0,
-      "ebitda_reconciliation_variance_usd_m": 12.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 229.4,
-      "change_in_working_capital": 108.1,
-      "tax_expense": 47.5,
-      "fcf_conversion_pct": -122.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 780.0,
-        "capex": 1350.0,
-        "cash_interest": 229.4,
-        "change_in_working_capital": 108.1,
-        "tax": 47.5,
-        "fcf": -955.0,
-        "formula_check": "780.0 - 1350.0 - 229.4 - (108.1) - 47.5 = -955.0"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 1620.0,
-      "ebitda": 920.0,
-      "ebitda_margin_pct": 56.8,
-      "cfo": 782.0,
-      "capex": 1680.0,
-      "fcf": -1205.0,
-      "cash": 690.0,
-      "gross_debt": 4232.0,
-      "net_debt": 3542.0,
-      "net_leverage": 3.85,
-      "interest_coverage": 3.4,
-      "observations": {
-        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
-        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
-        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
-        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
-        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      },
-      "reported_ebitda": 938.4,
-      "calculated_ebitda": 920.0,
-      "ebitda_reconciliation_variance_usd_m": 13.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 270.6,
-      "change_in_working_capital": 118.4,
-      "tax_expense": 56.0,
-      "fcf_conversion_pct": -131.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 920.0,
-        "capex": 1680.0,
-        "cash_interest": 270.6,
-        "change_in_working_capital": 118.4,
-        "tax": 56.0,
-        "fcf": -1205.0,
-        "formula_check": "920.0 - 1680.0 - 270.6 - (118.4) - 56.0 = -1205.0"
-      }
-    },
-    {
-      "period": "2025E",
+      "period": "H126",
       "is_audited": false,
-      "revenue": 1850.0,
-      "ebitda": 1080.0,
-      "ebitda_margin_pct": 58.4,
-      "cfo": 860.2,
-      "capex": 1550.0,
-      "fcf": -930.0,
-      "cash": 814.2,
-      "gross_debt": 4147.4,
-      "net_debt": 3333.2,
-      "net_leverage": 3.09,
-      "interest_coverage": 3.9,
+      "currency": "SAR",
+      "source": "ACWA Power H1 2026 Unaudited Financial Statements (Tadawul / Argaam), read 25-Nov-26",
+      "revenue": 4030.0,
+      "ebitda": 1440.0,
+      "reported_ebitda": 1440.0,
+      "gross_debt": 27550.0,
+      "cash": 5900.0,
+      "net_debt": 21650.0,
       "observations": {
-        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
-        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
-        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
-        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
-        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      },
-      "reported_ebitda": 1101.6,
-      "calculated_ebitda": 1080.0,
-      "ebitda_reconciliation_variance_usd_m": 15.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 276.9,
-      "change_in_working_capital": 111.2,
-      "tax_expense": 71.9,
-      "fcf_conversion_pct": -86.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 1080.0,
-        "capex": 1550.0,
-        "cash_interest": 276.9,
-        "change_in_working_capital": 111.2,
-        "tax": 71.9,
-        "fcf": -930.0,
-        "formula_check": "1080.0 - 1550.0 - 276.9 - (111.2) - 71.9 = -930.0"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 2150.0,
-      "ebitda": 1280.0,
-      "ebitda_margin_pct": 59.5,
-      "cfo": 922.8,
-      "capex": 1200.0,
-      "fcf": -395.0,
-      "cash": 931.5,
-      "gross_debt": 4020.4,
-      "net_debt": 3088.9,
-      "net_leverage": 2.41,
-      "interest_coverage": 4.36,
-      "observations": {
-        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
-        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
-        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
-        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
-        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      },
-      "reported_ebitda": 1305.6,
-      "calculated_ebitda": 1280.0,
-      "ebitda_reconciliation_variance_usd_m": 16.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 293.6,
-      "change_in_working_capital": 91.0,
-      "tax_expense": 90.4,
-      "fcf_conversion_pct": -30.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 1280.0,
-        "capex": 1200.0,
-        "cash_interest": 293.6,
-        "change_in_working_capital": 91.0,
-        "tax": 90.4,
-        "fcf": -395.0,
-        "formula_check": "1280.0 - 1200.0 - 293.6 - (91.0) - 90.4 = -395.0"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 2500.0,
-      "ebitda": 1520.0,
-      "ebitda_margin_pct": 60.8,
-      "cfo": 977.5,
-      "capex": 950.0,
-      "fcf": 100.0,
-      "cash": 1035.0,
-      "gross_debt": 3808.8,
-      "net_debt": 2773.8,
-      "net_leverage": 1.82,
-      "interest_coverage": 4.79,
-      "observations": {
-        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
-        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
-        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
-        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
-        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      },
-      "reported_ebitda": 1550.4,
-      "calculated_ebitda": 1520.0,
-      "ebitda_reconciliation_variance_usd_m": 17.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 317.3,
-      "change_in_working_capital": 40.7,
-      "tax_expense": 112.0,
-      "fcf_conversion_pct": 6.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 1520.0,
-        "capex": 950.0,
-        "cash_interest": 317.3,
-        "change_in_working_capital": 40.7,
-        "tax": 112.0,
-        "fcf": 100.0,
-        "formula_check": "1520.0 - 950.0 - 317.3 - (40.7) - 112.0 = 100.0"
+        "notes": "H126 rev SAR 4.03bn (+8.6% YoY), operating income SAR 1.44bn (vs SAR 2.21bn H125 on project timing/DPC); parent-level debt SAR 27.55bn less SAR 5.90bn cash = SAR 21.65bn parent net debt."
       }
     }
   ],
@@ -330,6 +79,13 @@
     "thesis": "Global green hydrogen and desalinated water powerhouse backed by PIF; long-term off-take contracts."
   },
   "annotations": [
+    {
+      "issuer_id": "acwa",
+      "sector": "Utilities",
+      "topic": "H126 Results: Parent Net Debt SAR 21.65bn & 8.6% Rev Growth",
+      "source": "ACWA Power Tadawul Filings (2026)",
+      "note": "FY25 rev SAR 7.41bn, op inc SAR 3.59bn, 5.18x net debt/CF; H126 rev SAR 4.03bn, parent net debt SAR 21.65bn."
+    },
     {
       "issuer_id": "acwa",
       "issuer_name": "ACWA Power",
@@ -1213,6 +969,19 @@
       "ebitda": 920.0,
       "fcf": -1205.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Baa2 / BBB",
+      "price": 96.5,
+      "ytm": 6.45,
+      "spread_bp": 235,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1303,7 +1072,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Neutral / Q3 Profit Rebound (+71% YoY) & SAR 30bn YTD Non-Recourse Funding",
-      "summary": "9M26 revenue grew +16.0% YoY to SAR 6,236.6m (Q3 SAR 2,202.1m, +32.7% YoY) with Q3 operating income surging +88.2% YoY to SAR 1,105.8m and Q3 net income +71.1% YoY to SAR 635.1m (9M SAR 1,288.3m, +0.6%). Raised ~SAR 30bn YTD in non-recourse project debt (incl. Noor Energy 1 refi) supporting SAR 478bn AUM.",
+      "summary": "ACWA Power grew H126 revenue 8.6% to SAR 4.03bn after cutting net debt/cash flow to 5.18x in FY25 (from 6.36x), though H126 operating income dipped to SAR 1.44bn on project timing and parent net debt sits at SAR 21.65bn. PIF ownership (44%) and 25-year sovereign-backed PPAs anchor long-dated bonds.",
       "target_price": null,
       "current_price": 96.5,
       "ytm": 6.45,
@@ -1325,6 +1094,7 @@
       "ownership_governance": "~44% PIF; listed on Tadawul (2082)."
     },
     "recent_drivers": [
+      "H126: Rev SAR 4.03bn (+8.6%), operating income SAR 1.44bn, parent net debt SAR 21.65bn (cash SAR 5.90bn).",
       "Q3/9M 2026 Results: 9M rev SAR 6,236.6m (+16.0% YoY), 9M op inc SAR 2,549.9m (-8.8%), Q3 op inc SAR 1,105.8m (+88.2%), 9M NI SAR 1,288.3m; ~SAR 30bn YTD non-recourse financing."
     ],
     "catalysts": [
@@ -1334,7 +1104,7 @@
         "impact": "Clarifies HoldCo recourse leverage vs SPV distributions."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

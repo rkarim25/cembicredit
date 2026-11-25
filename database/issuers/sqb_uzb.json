@@ -16,12 +16,22 @@
     "model_file": "SQB_Uzbekistan_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/SQB_Uzbekistan_Credit_Model.xlsx",
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-25",
     "model_type": "bank",
     "financials_currency": "UZS",
-    "provenance": "financials built 24-Nov-26 from SQB FY2025 filings & S&P/Fitch 2026 reviews; quotes await [BBG] capture"
+    "provenance": "financials rebuilt 25-Nov-26 from SQB FY2024/FY2025 Audited Reports & 2026 S&P/Fitch Reviews"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "UZS",
+      "source": "SQB (Uzpromstroybank) FY2024 Audited Consolidated Financial Statements, read 25-Nov-26",
+      "assets": 84800000.0,
+      "observations": {
+        "notes": "YE24 total assets UZS 84.8tn (+15.7% YoY), retail lending +26% YoY."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -95,7 +105,7 @@
     "source": "LSE-listed USD notes: $179m Jul-27 (XS2855478496), $400m 8.95% Jul-29 (XS2849506402), $300m Perp AT1 (XS3200158478)."
   },
   "credit_view": {
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-25",
     "verdict": {
       "stance": "Neutral / High-Carry Uzbek State Bank Under Asset Cleanup (BB / BB- Neg)",
       "target_price": null,
@@ -120,6 +130,7 @@
       "ownership_governance": "Majority state-owned (Ministry of Economy & Finance / UFRD); IFC/EBRD transformation engagement."
     },
     "recent_drivers": [
+      "FY25 & 2026: YE25 assets hit UZS 102tn (~$8.5bn) and NI UZS 1.88-1.9tn (+$300m Oct-25 AT1); S&P BB- Negative mid-26 on Stage 3 cleanup.",
       "Jul-26: S&P affirmed BB- and revised outlook to Negative on Stage 3 cleanup (9.1% YE25) and privatization execution risk.",
       "Mar-26: Fitch affirmed BB Stable (VR b); Oct-25 $300m perp AT1 lifted CAR to ~19%."
     ],
@@ -144,6 +155,13 @@
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "sqb_uzb",
+      "sector": "Banks",
+      "topic": "FY24-25 Growth & Mid-26 S&P Stage 3 Watch",
+      "source": "SQB Annual Reports / S&P (2026)",
+      "note": "Assets grew from UZS 84.8tn (YE24) to UZS 102tn (YE25), NI UZS 1.9tn; S&P BB- Neg mid-26 on 9-12% Stage 3 cleanup."
+    },
     {
       "issuer_id": "sqb_uzb",
       "sector": "Banks",
@@ -173,6 +191,39 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB Stable (Fitch, Mar-26, VR b) / BB- Negative (S&P, Jul-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Under Watch"
+    }
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "CAR 19.0%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 2025A disclosures.",
+      "last_guided_source": "SQB FY2025 Financial Statements / S&P Jul-26 & Fitch Mar-26 Reviews, read 24-Nov-26",
+      "last_verified_period": "2025A"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "NPL 9.10%",
+      "tracking_status": "Under Watch",
+      "variance_analysis": "Uzbekistan's #2/#3 corporate bank (>UZS 102tn assets, FY25 NPAT UZS 1.88tn) carries strong 19% Total CAR post-Oct-25 $300m AT1 issuance, but faces elevated 9.1% Stage 3/OREO ratios (potentially rising toward 12% during p",
+      "last_guided_source": "SQB FY2025 Financial Statements / S&P Jul-26 & Fitch Mar-26 Reviews, read 24-Nov-26",
+      "last_verified_period": "2025A"
     }
   ]
 }

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/tharisa.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ARXOFN 11.00% Sep 2031 ($300m) / THARISA 2027: price 98.0, YTM 9.85%, spread 550bp (as of 2026-11-23).
 - Rating as recorded: B Stable (S&P, Sep-26) / Ba3 Implied.

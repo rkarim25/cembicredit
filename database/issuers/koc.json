@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "koc",
-    "name": "Ko\u00e7 Holding",
+    "name": "Koç Holding",
     "ticker": "KCHOL",
     "country": "Turkey",
     "region": "Turkey",
@@ -16,291 +16,22 @@
     "model_file": "Koc_Holding_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8174-b709-ea630f75c350",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Koc_Holding_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": -512.9,
     "net_leverage_2024a": 1.25,
-    "provenance": "Q3/9M 2026 consolidated results & $963m standalone net cash integrated 22-Nov-26"
+    "provenance": "financials rebuilt 25-Nov-26 from Koç Holding Q3/9M 2026 KAP Statements & S&P Rating Assessments (Nov-26)",
+    "financials_currency": "USD"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 28560.0,
-      "ebitda": 3120.0,
-      "ebitda_margin_pct": 10.9,
-      "cfo": 2529.6,
-      "capex": 1244.9,
-      "fcf": -84.9,
-      "cash": 1980.0,
-      "gross_debt": 8160.0,
-      "net_debt": 6180.0,
-      "net_leverage": 1.98,
-      "interest_coverage": 7.04,
-      "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 3166.8,
-      "calculated_ebitda": 3120.0,
-      "ebitda_reconciliation_variance_usd_m": 46.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 443.2,
-      "change_in_working_capital": 1255.7,
-      "tax_expense": 261.1,
-      "fcf_conversion_pct": -2.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 3120.0,
-        "capex": 1244.9,
-        "cash_interest": 443.2,
-        "change_in_working_capital": 1255.7,
-        "tax": 261.1,
-        "fcf": -84.9,
-        "formula_check": "3120.0 - 1244.9 - 443.2 - (1255.7) - 261.1 = -84.9"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 34440.0,
-      "ebitda": 3840.0,
-      "ebitda_margin_pct": 11.1,
-      "cfo": 3182.4,
-      "capex": 2177.3,
-      "fcf": -1935.2,
-      "cash": 2520.0,
-      "gross_debt": 8832.0,
-      "net_debt": 6312.0,
-      "net_leverage": 1.64,
-      "interest_coverage": 6.93,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 4051.2,
-      "calculated_ebitda": 3840.0,
-      "ebitda_reconciliation_variance_usd_m": 211.2,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$211.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 554.1,
-      "change_in_working_capital": 2723.7,
-      "tax_expense": 320.1,
-      "fcf_conversion_pct": -50.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 3840.0,
-        "capex": 2177.3,
-        "cash_interest": 554.1,
-        "change_in_working_capital": 2723.7,
-        "tax": 320.1,
-        "fcf": -1935.2,
-        "formula_check": "3840.0 - 2177.3 - 554.1 - (2723.7) - 320.1 = -1935.2"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 38640.0,
-      "ebitda": 4320.0,
-      "ebitda_margin_pct": 11.2,
-      "cfo": 3590.4,
-      "capex": 2449.4,
-      "fcf": -2210.4,
-      "cash": 3060.0,
-      "gross_debt": 9408.0,
-      "net_debt": 6348.0,
-      "net_leverage": 1.47,
-      "interest_coverage": 6.5,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 4557.6,
-      "calculated_ebitda": 4320.0,
-      "ebitda_reconciliation_variance_usd_m": 237.6,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$237.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 664.6,
-      "change_in_working_capital": 3062.5,
-      "tax_expense": 353.9,
-      "fcf_conversion_pct": -51.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 4320.0,
-        "capex": 2449.4,
-        "cash_interest": 664.6,
-        "change_in_working_capital": 3062.5,
-        "tax": 353.9,
-        "fcf": -2210.4,
-        "formula_check": "4320.0 - 2449.4 - 664.6 - (3062.5) - 353.9 = -2210.4"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 42000.0,
-      "ebitda": 4800.0,
-      "ebitda_margin_pct": 11.4,
-      "cfo": 4080.0,
-      "capex": 2318.4,
-      "fcf": -512.9,
-      "cash": 3600.0,
-      "gross_debt": 9600.0,
-      "net_debt": 6000.0,
-      "net_leverage": 1.25,
-      "interest_coverage": 6.5,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 5064.0,
-      "calculated_ebitda": 4800.0,
-      "ebitda_reconciliation_variance_usd_m": 264.0,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$264.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 738.5,
-      "change_in_working_capital": 1862.8,
-      "tax_expense": 393.2,
-      "fcf_conversion_pct": -10.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 4800.0,
-        "capex": 2318.4,
-        "cash_interest": 738.5,
-        "change_in_working_capital": 1862.8,
-        "tax": 393.2,
-        "fcf": -512.9,
-        "formula_check": "4800.0 - 2318.4 - 738.5 - (1862.8) - 393.2 = -512.9"
-      }
-    },
-    {
-      "period": "2025E",
+      "period": "9M26",
       "is_audited": false,
-      "revenue": 45360.0,
-      "ebitda": 5280.0,
-      "ebitda_margin_pct": 11.6,
-      "cfo": 4488.0,
-      "capex": 2106.7,
-      "fcf": 16.6,
-      "cash": 4248.0,
-      "gross_debt": 9408.0,
-      "net_debt": 5160.0,
-      "net_leverage": 0.98,
-      "interest_coverage": 7.45,
+      "currency": "USD",
+      "source": "Koç Holding Q3 & 9M 2026 Combined & Consolidated KAP Filings (Nov-26), read 25-Nov-26",
+      "revenue": 57600.0,
       "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 5359.2,
-      "calculated_ebitda": 5280.0,
-      "ebitda_reconciliation_variance_usd_m": 79.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$79.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 708.7,
-      "change_in_working_capital": 1999.9,
-      "tax_expense": 448.1,
-      "fcf_conversion_pct": 0.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 5280.0,
-        "capex": 2106.7,
-        "cash_interest": 708.7,
-        "change_in_working_capital": 1999.9,
-        "tax": 448.1,
-        "fcf": 16.6,
-        "formula_check": "5280.0 - 2106.7 - 708.7 - (1999.9) - 448.1 = 16.6"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 48300.0,
-      "ebitda": 5664.0,
-      "ebitda_margin_pct": 11.7,
-      "cfo": 4814.4,
-      "capex": 2259.9,
-      "fcf": 113.3,
-      "cash": 4860.0,
-      "gross_debt": 9120.0,
-      "net_debt": 4260.0,
-      "net_leverage": 0.75,
-      "interest_coverage": 8.34,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 5749.0,
-      "calculated_ebitda": 5664.0,
-      "ebitda_reconciliation_variance_usd_m": 85.0,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$85.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 679.1,
-      "change_in_working_capital": 2118.8,
-      "tax_expense": 492.9,
-      "fcf_conversion_pct": 2.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 5664.0,
-        "capex": 2259.9,
-        "cash_interest": 679.1,
-        "change_in_working_capital": 2118.8,
-        "tax": 492.9,
-        "fcf": 113.3,
-        "formula_check": "5664.0 - 2259.9 - 679.1 - (2118.8) - 492.9 = 113.3"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 50400.0,
-      "ebitda": 5952.0,
-      "ebitda_margin_pct": 11.8,
-      "cfo": 5100.0,
-      "capex": 2374.8,
-      "fcf": 197.2,
-      "cash": 5400.0,
-      "gross_debt": 8640.0,
-      "net_debt": 3240.0,
-      "net_leverage": 0.54,
-      "interest_coverage": 9.16,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 6041.3,
-      "calculated_ebitda": 5952.0,
-      "ebitda_reconciliation_variance_usd_m": 89.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$89.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 649.8,
-      "change_in_working_capital": 2202.7,
-      "tax_expense": 527.5,
-      "fcf_conversion_pct": 3.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 5952.0,
-        "capex": 2374.8,
-        "cash_interest": 649.8,
-        "change_in_working_capital": 2202.7,
-        "tax": 527.5,
-        "fcf": 197.2,
-        "formula_check": "5952.0 - 2374.8 - 649.8 - (2202.7) - 527.5 = 197.2"
+        "notes": "Trailing combined group revenue ~$57.6bn (>TRY 3tn annualized); Q326 consolidated net income jumped to TRY 34.9bn led by Tüpraş energy surge. Standalone HoldCo maintains resilient net cash buffer."
       }
     }
   ],
@@ -326,20 +57,27 @@
     "recovery_base_pct": 101.5,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Turkey's premier industrial conglomerate (T\u00fcpra\u015f, Ford Otosan, Ar\u00e7elik, Yap\u0131 Kredi); net cash at holdco."
+    "thesis": "Turkey's premier industrial conglomerate (Tüpraş, Ford Otosan, Arçelik, Yapı Kredi); net cash at holdco."
   },
   "annotations": [
     {
       "issuer_id": "koc",
-      "issuer_name": "Ko\u00e7 Holding",
+      "sector": "Industrials",
+      "topic": "Q326 Results: TRY 34.9bn Net Income & HoldCo Net Cash",
+      "source": "Koç Holding KAP / IR (Nov-26)",
+      "note": "Q326 consolidated NI surged to TRY 34.9bn on Tüpraş energy beat; trailing combined rev ~$57.6bn; HoldCo net cash intact."
+    },
+    {
+      "issuer_id": "koc",
+      "issuer_name": "Koç Holding",
       "sector": "Industrials",
       "topic": "Conglomerate Cash Cushion",
-      "source": "Cognitive Credit / Ko\u00e7 / Ittihad",
+      "source": "Cognitive Credit / Koç / Ittihad",
       "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
     },
     {
       "issuer_id": "koc",
-      "issuer_name": "Ko\u00e7 Holding",
+      "issuer_name": "Koç Holding",
       "sector": "Industrials",
       "topic": "Export Orientation & Competitive Edge",
       "source": "Trade Ministry Data",
@@ -347,7 +85,7 @@
     },
     {
       "issuer_id": "koc",
-      "issuer_name": "Ko\u00e7 Holding",
+      "issuer_name": "Koç Holding",
       "sector": "Industrials",
       "topic": "Prudent Capital Allocation",
       "source": "Management Guidance",
@@ -357,12 +95,12 @@
       "issuer_id": "koc",
       "sector": "Industrials",
       "topic": "Standalone Net Cash $963m",
-      "source": "Ko\u00e7 Holding 9M 2026 Report",
+      "source": "Koç Holding 9M 2026 Report",
       "note": "HoldCo standalone net cash stood at $963m as of 30-Sep-26 while 9M attributable net profit rose 203% YoY to TRY 56.37bn."
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+    "source_deck": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
@@ -505,7 +243,7 @@
       "current_runrate": "$44730.0M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $45360.0M (+8.0% YoY growth). With current run-rate at $44730.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -516,7 +254,7 @@
       "current_runrate": "$5184.0M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $5280.0M (11.6% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -527,7 +265,7 @@
       "current_runrate": "1.25x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 2.50x buffer below covenant limit.",
-      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.25x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -538,7 +276,7 @@
       "current_runrate": "$1622.9M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $1764.0M (Maximum growth and sustaining envelope). Current commitments stand at $1622.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -549,7 +287,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -1208,6 +946,19 @@
       "ebitda": 4800.0,
       "fcf": -512.9,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB / BB+",
+      "price": 98.5,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1215,7 +966,7 @@
       "broker": "Consensus Sell-Side",
       "analyst": "Composite EM Credit Desk",
       "report_date": "2024-12-01",
-      "report_title": "Ko\u00e7 Holding: Forward Earnings & Refinancing Profile",
+      "report_title": "Koç Holding: Forward Earnings & Refinancing Profile",
       "recommendation": "Neutral",
       "target_spread_bps": 450,
       "raw_model": {
@@ -1298,7 +1049,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Overweight / Premier Turkish HoldCo with $963m Standalone Net Cash",
-      "summary": "Ko\u00e7 Holding's 9M26 attributable net profit tripled (+203% YoY) to TRY 56.37bn (Q3 TRY 34.9bn vs TRY 9.9bn Q325) on T\u00fcpra\u015f refining windfalls, lower financing costs, and Ko\u00e7 Finansman sale. HoldCo standalone net cash stood at a rock-solid $963m at end-Sep 2026.",
+      "summary": "Turkey's premier industrial holding company posted TRY 34.9bn Q326 consolidated net income propelled by Tüpraş's blockbuster refining margins ($36.3/bbl Q3 NRM). Standalone HoldCo net cash position and S&P rating uplift above sovereign ceiling anchor tight HoldCo spreads.",
       "target_price": null,
       "current_price": 98.5,
       "ytm": 6.85,
@@ -1306,36 +1057,37 @@
     },
     "positives": [
       "Fortress HoldCo balance sheet: $963m standalone net cash at end-Sep 2026 gives unmatched liquidity cushion.",
-      "Diversified blue-chip portfolio (T\u00fcpra\u015f, Ford Otosan, Tofa\u015f, Ar\u00e7elik, Yap\u0131 Kredi) with 9M26 NI +203% YoY to TRY 56.37bn.",
+      "Diversified blue-chip portfolio (Tüpraş, Ford Otosan, Tofaş, Arçelik, Yapı Kredi) with 9M26 NI +203% YoY to TRY 56.37bn.",
       "Strong governance and consistent investment-grade standalone credit discipline despite BB/BB+ sovereign cap."
     ],
     "negatives": [
       "Structural HoldCo subordination to operating subsidiary debt (though offset by $963m net cash).",
-      "Cyclical exposure to European auto/appliance demand (Ford Otosan/Ar\u00e7elik) and Turkish macro.",
+      "Cyclical exposure to European auto/appliance demand (Ford Otosan/Arçelik) and Turkish macro.",
       "Large combined group capex ($2.7bn in 9M26) across subsidiaries."
     ],
     "background": {
-      "business_overview": "T\u00fcrkiye's largest industrial & financial conglomerate (~7-8% of Turkish GDP) across energy, automotive, consumer durables, and finance.",
-      "asset_perimeter": "Stakes in T\u00fcpra\u015f, Ford Otosan, Tofa\u015f, Ar\u00e7elik, Otoko\u00e7, Yap\u0131 Kredi, Entek.",
-      "ownership_governance": "Controlled by Ko\u00e7 family; BIST-listed (KCHOL) with institutional governance."
+      "business_overview": "Türkiye's largest industrial & financial conglomerate (~7-8% of Turkish GDP) across energy, automotive, consumer durables, and finance.",
+      "asset_perimeter": "Stakes in Tüpraş, Ford Otosan, Tofaş, Arçelik, Otokoç, Yapı Kredi, Entek.",
+      "ownership_governance": "Controlled by Koç family; BIST-listed (KCHOL) with institutional governance."
     },
     "recent_drivers": [
+      "Q326 (Nov-26): Consolidated NI jumped to TRY 34.9bn led by Tüpraş energy; standalone HoldCo net cash preserved.",
       "Nov-26 (9M 2026): Consolidated rev TL 2.82tn (~$57.6bn), op profit TL 199.2bn (+89.4% YoY), attributable NI TL 56.37bn (+203% YoY), standalone net cash $963m."
     ],
     "catalysts": [
       {
         "date": "Mar 2027",
         "event": "FY2026 Results & Upstream Dividend Flow",
-        "impact": "Confirms T\u00fcpra\u015f/OpCo dividend cash inflow into HoldCo standalone cash."
+        "impact": "Confirms Tüpraş/OpCo dividend cash inflow into HoldCo standalone cash."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {
       "date": "2026-11-22",
       "title": "9M 2026 Results: Net Profit +203% YoY to TL 56.4bn & $963m Standalone Net Cash",
-      "source": "Ko\u00e7 Holding 9M 2026 Filing",
+      "source": "Koç Holding 9M 2026 Filing",
       "status": "Q3/9M 2026 Credit Update",
       "summary": "9M26 rev TL 2.82tn ($57.6bn), op profit TL 199.2bn (+89.4% YoY), attributable NI TL 56.37bn (+203% YoY), standalone net cash $963m."
     }

@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "id": "afreximbank",
+    "name": "Afreximbank",
+    "ticker": "AFREXIM",
+    "country": "Pan-Africa",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "Baa2 (Moody's) / BBB (Fitch)",
+    "tier": "IG",
+    "benchmark_bond": "AFREXIM 7.125% Jul 2036 ($750M, XS3437376612)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Afreximbank_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Afreximbank_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "bank",
+    "financials_currency": "USD",
+    "provenance": "financials built 25-Nov-26 from Afreximbank FY2025 Audited & 9M 2026 IFRS Financial Statements; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Afreximbank FY2025 Audited IFRS Financial Statements, read 25-Nov-26",
+      "net_profit": 1200.0,
+      "equity": 8400.0,
+      "observations": {
+        "notes": "FY25 record net income $1.20bn (+19% YoY), shareholders' funds $8.4bn, total approvals $29.72bn."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Afreximbank 9M 2026 Unaudited IFRS Financial Results, read 25-Nov-26",
+      "assets": 54100.0,
+      "loans": 36200.0,
+      "equity": 9000.0,
+      "net_profit": 813.5,
+      "observations": {
+        "notes": "9M26 total assets & contingencies $54.1bn (+12% vs YE25), net loans & advances $36.2bn (+8%), shareholders' funds $9.0bn (GCI II + retained earnings), net income $813.5m (+24% YoY)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Afreximbank 6.250% Senior Unsecured due Jan 2032",
+      "tranche_name": "Afreximbank 6.250% Senior Unsecured due Jan 2032",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "6.250%",
+      "maturity": "2032-01-23",
+      "maturity_date": "2032-01-23",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "Jul-26 dual-tranche debut ($3.8bn peak orderbook)."
+    },
+    {
+      "instrument": "Afreximbank 7.125% Senior Unsecured due Jul 2036",
+      "tranche_name": "Afreximbank 7.125% Senior Unsecured due Jul 2036",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "7.125%",
+      "maturity": "2036-07-23",
+      "maturity_date": "2036-07-23",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3437376612",
+      "observation": "10Y tranche priced Jul-26."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 1500.0,
+    "total_outstanding_usd_m": 1500.0,
+    "source": "Jul-26 $1.5bn dual-tranche public Eurobond (XS3437376612 + 2032 tranche; bank also carries private/loan/EUR debt)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Overweight / Preferred-Creditor-Treated African Trade Bank Growing NI +24% (Baa2 / BBB)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Afreximbank's 9M26 net income jumped 24% YoY to $813.5m on $54.1bn assets/contingencies and $9.0bn equity, after pricing a landmark $1.5bn dual-tranche Eurobond in July 2026 ($3.8bn orderbook). Sovereign restructuring treatments (Ghana/Zambia/Malawi) remain the primary rating debate vs strong profitability and GCI II capital inflows."
+    },
+    "positives": [
+      "9M26 net income surged 24% YoY to $813.5m; FY25 NI $1.2bn.",
+      "Equity strengthened to $9.0bn (up from $8.4bn YE25) via GCI II paid-in capital and retained earnings.",
+      "Successful market re-entry with $1.5bn Jul-26 dual-tranche Eurobond ($3.8bn peak book)."
+    ],
+    "negatives": [
+      "Sovereign borrower concentration and preferred-creditor-status (PCS) disputes in African restructurings.",
+      "High exposure to Nigerian/Ghanaian/Egyptian sovereign & energy trade flows."
+    ],
+    "background": {
+      "business_overview": "Pan-African multilateral trade-finance institution established by African states and central banks.",
+      "asset_perimeter": "Trade finance, sovereign/quasi-sovereign project loans, export guarantees, and PAPSS payment platform.",
+      "ownership_governance": "53 African member states, central banks, and institutional shareholders."
+    },
+    "recent_drivers": [
+      "9M26: NI $813.5m (+24%), assets & contingencies $54.1bn, net loans $36.2bn, equity $9.0bn.",
+      "Jul-26: Priced $1.5bn dual-tranche Eurobond ($750m Jan-32 at 6.25%, $750m Jul-36 XS3437376612 at 7.125%)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-31",
+        "event": "FY2026 Audited IFRS Results & Sovereign Restructuring Exposure Update",
+        "impact": "Monitors NPL/Stage 3 evolution on sovereign borrowers and GCI II capital inflows."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Equity & Capital Expansion",
+      "management_target": "Expand equity via GCI II and internal profit retention",
+      "current_runrate": "$9.0bn equity at 9M26 (up from $8.4bn YE25)",
+      "tracking_status": "On Track",
+      "variance_analysis": "24% YoY profit growth and GCI II subscriptions tracking well.",
+      "last_guided_source": "Afreximbank 9M26 Release",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Update Stage 3 loan resolutions and PCS treatment on sovereign exposures in Ghana, Zambia, and Malawi.",
+      "focus_area": "Asset Quality & PCS",
+      "relevance": "Core Moody's/Fitch rating sensitivity."
+    },
+    {
+      "question": "Report 9M26 CET1/Basel CAR and liquid treasury asset buffer post-Jul-26 $1.5bn bond.",
+      "focus_area": "Capital & Liquidity",
+      "relevance": "Tests funding headroom for 2027 loan growth."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "afreximbank",
+      "sector": "Banks",
+      "topic": "9M26 Profit +24% ($813.5m) & Jul-26 $1.5B Eurobond",
+      "source": "Afreximbank 9M26 / Jul-26 Release",
+      "note": "9M26 NI $813.5m (+24%), assets & contingencies $54.1bn, equity $9.0bn; priced $1.5bn dual-tranche Eurobond Jul-26."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Cairo",
+    "ir_webcast_url": "https://www.afreximbank.com/investors/",
+    "days_to_earnings": 126
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Baa2 (Moody's) / BBB (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

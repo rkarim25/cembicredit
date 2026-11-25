@@ -16,290 +16,32 @@
     "model_file": "Bapco_Energies_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8138-bce5-cc98fa4260f4",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bapco_Energies_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": -222.1,
-    "net_leverage_2024a": 3.4
+    "net_leverage_2024a": 3.4,
+    "financials_currency": "BHD",
+    "provenance": "financials rebuilt 25-Nov-26 from Bapco Energies FY2025 Audited Statements & Fitch 'B' Rating Review"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 5780.0,
-      "ebitda": 812.5,
-      "ebitda_margin_pct": 14.1,
-      "cfo": 658.8,
-      "capex": 347.3,
-      "fcf": -59.1,
-      "cash": 515.6,
-      "gross_debt": 4409.4,
-      "net_debt": 3893.8,
-      "net_leverage": 4.79,
-      "interest_coverage": 3.36,
-      "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 824.7,
-      "calculated_ebitda": 812.5,
-      "ebitda_reconciliation_variance_usd_m": 12.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 241.8,
-      "change_in_working_capital": 233.5,
-      "tax_expense": 49.0,
-      "fcf_conversion_pct": -7.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 812.5,
-        "capex": 347.3,
-        "cash_interest": 241.8,
-        "change_in_working_capital": 233.5,
-        "tax": 49.0,
-        "fcf": -59.1,
-        "formula_check": "812.5 - 347.3 - 241.8 - (233.5) - 49.0 = -59.1"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 6970.0,
-      "ebitda": 1000.0,
-      "ebitda_margin_pct": 14.3,
-      "cfo": 828.8,
-      "capex": 607.5,
-      "fcf": -447.8,
-      "cash": 656.2,
-      "gross_debt": 4772.5,
-      "net_debt": 4116.3,
-      "net_leverage": 4.12,
-      "interest_coverage": 3.31,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 1015.0,
-      "calculated_ebitda": 1000.0,
-      "ebitda_reconciliation_variance_usd_m": 15.0,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 302.1,
-      "change_in_working_capital": 478.5,
-      "tax_expense": 59.7,
-      "fcf_conversion_pct": -44.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 1000.0,
-        "capex": 607.5,
-        "cash_interest": 302.1,
-        "change_in_working_capital": 478.5,
-        "tax": 59.7,
-        "fcf": -447.8,
-        "formula_check": "1000.0 - 607.5 - 302.1 - (478.5) - 59.7 = -447.8"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 7820.0,
-      "ebitda": 1125.0,
-      "ebitda_margin_pct": 14.4,
-      "cfo": 935.0,
-      "capex": 683.4,
-      "fcf": -525.5,
-      "cash": 796.9,
-      "gross_debt": 5083.8,
-      "net_debt": 4286.9,
-      "net_leverage": 3.81,
-      "interest_coverage": 3.1,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 1141.9,
-      "calculated_ebitda": 1125.0,
-      "ebitda_reconciliation_variance_usd_m": 16.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 362.9,
-      "change_in_working_capital": 540.5,
-      "tax_expense": 63.7,
-      "fcf_conversion_pct": -46.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 1125.0,
-        "capex": 683.4,
-        "cash_interest": 362.9,
-        "change_in_working_capital": 540.5,
-        "tax": 63.7,
-        "fcf": -525.5,
-        "formula_check": "1125.0 - 683.4 - 362.9 - (540.5) - 63.7 = -525.5"
-      }
-    },
-    {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 8500.0,
-      "ebitda": 1250.0,
-      "ebitda_margin_pct": 14.7,
-      "cfo": 1062.5,
-      "capex": 646.9,
-      "fcf": -222.1,
-      "cash": 937.5,
-      "gross_debt": 5187.5,
-      "net_debt": 4250.0,
-      "net_leverage": 3.4,
-      "interest_coverage": 3.1,
+      "currency": "BHD",
+      "source": "Bapco Energies FY2025 Audited Statements (2024 comparative) & Fitch Ratings, read 25-Nov-26",
+      "net_profit": 111.0,
       "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 1268.7,
-      "calculated_ebitda": 1250.0,
-      "ebitda_reconciliation_variance_usd_m": 18.7,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 403.2,
-      "change_in_working_capital": 351.2,
-      "tax_expense": 70.8,
-      "fcf_conversion_pct": -17.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 1250.0,
-        "capex": 646.9,
-        "cash_interest": 403.2,
-        "change_in_working_capital": 351.2,
-        "tax": 70.8,
-        "fcf": -222.1,
-        "formula_check": "1250.0 - 646.9 - 403.2 - (351.2) - 70.8 = -222.1"
+        "notes": "FY24 net profit BHD 111m."
       }
     },
     {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 9180.0,
-      "ebitda": 1375.0,
-      "ebitda_margin_pct": 15.0,
-      "cfo": 1168.8,
-      "capex": 587.8,
-      "fcf": -58.9,
-      "cash": 1106.2,
-      "gross_debt": 5083.8,
-      "net_debt": 3977.6,
-      "net_leverage": 2.89,
-      "interest_coverage": 3.55,
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "BHD",
+      "source": "Bapco Energies FY2025 Audited Consolidated Financial Statements (mid-26) & Fitch Assessment, read 25-Nov-26",
+      "net_profit": 96.0,
       "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 1395.6,
-      "calculated_ebitda": 1375.0,
-      "ebitda_reconciliation_variance_usd_m": 20.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 387.3,
-      "change_in_working_capital": 372.5,
-      "tax_expense": 86.3,
-      "fcf_conversion_pct": -4.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 1375.0,
-        "capex": 587.8,
-        "cash_interest": 387.3,
-        "change_in_working_capital": 372.5,
-        "tax": 86.3,
-        "fcf": -58.9,
-        "formula_check": "1375.0 - 587.8 - 387.3 - (372.5) - 86.3 = -58.9"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 9775.0,
-      "ebitda": 1475.0,
-      "ebitda_margin_pct": 15.1,
-      "cfo": 1253.8,
-      "capex": 630.6,
-      "fcf": -16.0,
-      "cash": 1265.6,
-      "gross_debt": 4928.1,
-      "net_debt": 3662.5,
-      "net_leverage": 2.48,
-      "interest_coverage": 3.98,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 1497.1,
-      "calculated_ebitda": 1475.0,
-      "ebitda_reconciliation_variance_usd_m": 22.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$22.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 370.6,
-      "change_in_working_capital": 390.5,
-      "tax_expense": 99.3,
-      "fcf_conversion_pct": -1.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 1475.0,
-        "capex": 630.6,
-        "cash_interest": 370.6,
-        "change_in_working_capital": 390.5,
-        "tax": 99.3,
-        "fcf": -16.0,
-        "formula_check": "1475.0 - 630.6 - 370.6 - (390.5) - 99.3 = -16.0"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 10200.0,
-      "ebitda": 1550.0,
-      "ebitda_margin_pct": 15.2,
-      "cfo": 1328.1,
-      "capex": 662.6,
-      "fcf": 20.3,
-      "cash": 1406.2,
-      "gross_debt": 4668.8,
-      "net_debt": 3262.6,
-      "net_leverage": 2.1,
-      "interest_coverage": 4.37,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 1573.2,
-      "calculated_ebitda": 1550.0,
-      "ebitda_reconciliation_variance_usd_m": 23.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$23.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 354.7,
-      "change_in_working_capital": 402.9,
-      "tax_expense": 109.5,
-      "fcf_conversion_pct": 1.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 1550.0,
-        "capex": 662.6,
-        "cash_interest": 354.7,
-        "change_in_working_capital": 402.9,
-        "tax": 109.5,
-        "fcf": 20.3,
-        "formula_check": "1550.0 - 662.6 - 354.7 - (402.9) - 109.5 = 20.3"
+        "notes": "FY25 net profit compressed to BHD 96m (from BHD 111m FY24) on softer oil margins; consolidated debt ~23% of Bahrain GDP funding Sitra refinery expansion; Fitch 'B' with $3bn GMTN/$3bn Sukuk programs."
       }
     }
   ],
@@ -330,6 +72,13 @@
     "thesis": "Bahrain sovereign energy vehicle; BMP refinery modernization program near completion, sovereign support."
   },
   "annotations": [
+    {
+      "issuer_id": "bapco",
+      "sector": "Energy",
+      "topic": "FY25 Audited: NI BHD 96m & Sitra Debt ~23% GDP",
+      "source": "Bapco Energies / Fitch (2026)",
+      "note": "FY25 NI BHD 96m (vs 111m FY24); debt ~23% of Bahrain GDP; Fitch 'B' on $3bn GMTN/$3bn Sukuk programs."
+    },
     {
       "issuer_id": "bapco",
       "sector": "Energy",
@@ -603,12 +352,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
-    "days_to_earnings": 0
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 105
   },
   "management_questions": [
     {
@@ -1259,6 +1008,19 @@
       "ebitda": 1250.0,
       "fcf": -222.1,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B Stable (Fitch, 2026) / B+",
+      "price": 101.8,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "commodity_drivers": {
@@ -1371,7 +1133,7 @@
       "current_price": 101.8,
       "ytm": 6.85,
       "spread_bp": 280,
-      "summary": "Fitch affirmed Bapco Energies at 'B' Stable in 2026, equalized with the Kingdom of Bahrain under GRE criteria ('virtually certain' extraordinary state support). Credit trajectory hinges on Bahrain sovereign fiscal health, Bapco Modernization Programme (BMP) refining utilization, and regional geopolitical/refining margin volatility."
+      "summary": "Bapco Energies' FY25 net profit dipped to BHD 96m (vs BHD 111m FY24) as Sitra refinery expansion debt climbed to ~23% of Bahrain GDP, keeping Fitch's rating anchored at 'B' alongside the Bahrain sovereign."
     },
     "positives": [
       "100% owned by Kingdom of Bahrain; Fitch views state support as 'virtually certain' and equalizes IDR at 'B' Stable.",
@@ -1389,6 +1151,7 @@
       "ownership_governance": "100% owned by Kingdom of Bahrain (Mumtalakat/government)."
     },
     "recent_drivers": [
+      "FY25 Audited: NI BHD 96m (down from BHD 111m FY24); consolidated debt ~23% of Bahrain GDP (Fitch B).",
       "2026: Fitch affirmed Bapco Energies Long-Term IDR and senior unsecured/sukuk programs at 'B' Stable, equalized with Bahrain.",
       "2026: Monitoring post-BMP refining margin capture and Oct-2027 $600m 7.50% bond refinancing timeline."
     ],
@@ -1399,7 +1162,7 @@
         "impact": "Key test of BMP cash flow ramp and sovereign spread linkage."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

@@ -163,6 +163,47 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B Stable (Fitch) / B3 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Under Watch"
     }
-  ]
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "CAR 17.2%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 9M26 disclosures.",
+      "last_guided_source": "UBA Plc 9M 2026 Financial Statements (NGX), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "NPL 8.10%",
+      "tracking_status": "Under Watch",
+      "variance_analysis": "UBA redeemed its $300m 6.75% Eurobond cleanly at maturity on 19-Nov-26 (XS2409171225), backed by >50% ex-Nigeria pan-African assets (total NGN 34.96tn) and 17.2% Tier 1 capital. Post-forbearance Stage 3 NPLs stepped up t",
+      "last_guided_source": "UBA Plc 9M 2026 Financial Statements (NGX), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 87
+  }
 }

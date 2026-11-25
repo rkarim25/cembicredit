@@ -269,6 +269,19 @@
       "ebitda": 684.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB Neg (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.08,
+      "ebitda": 684.0,
+      "fcf": null,
+      "guidance_status": "Under Watch"
     }
   ],
   "annotations": [
@@ -295,5 +308,25 @@
     "implied_stress_ev_multiple": "4.5x Cycle-Trough Pulp/Packaging EBITDA",
     "restructuring_framework": "South Africa / New York & English Law",
     "thesis": "Diversified North American/European/SA dissolving pulp and packaging asset base backing senior unsecured EUR/USD notes."
-  }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "6.97x Net Debt/EBITDA",
+      "tracking_status": "Under Watch",
+      "variance_analysis": "Credit deteriorated sharply in FY2026 (ended Sep-26, reported 06-Nov-26): Adj EBITDA fell 41% YoY to $294m (vs $684m FY24) while net debt climbed to $2,050m, spiking trailing net leverage to 7.0x and prompting Fitch to r",
+      "last_guided_source": "Sappi FY2026 Full-Year Results (ended Sep-26, released 06-Nov-26), read 21-Nov-26 (Audited Financial Statements)",
+      "last_verified_period": "2026A"
+    },
+    {
+      "guidance_metric": "Key Milestone: Q1 FY27 Results & Covenant Headroom Update",
+      "management_target": "Tests whether Q4's $99m EBITDA run-rate holds and confirms RCF financial covenant waivers/headroom at 7.0x.",
+      "current_runrate": "Scheduled Feb 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "06-Nov-26 (FY2026 Results): Revenue $5,277m (-3% YoY), Adj EBITDA $294m (-41% YoY), Net Loss $747m (incl. $319m impairments), Net Debt $2,050m (7.0x), Liquidity $707m.",
+      "last_guided_source": "Sappi FY2026 Full-Year Results (ended Sep-26, released 06-Nov-26), read 21-Nov-26 (Audited Financial Statements)",
+      "last_verified_period": "2026A"
+    }
+  ]
 }

@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/ocp.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- OCP 6.45% 2034: price 99.5, YTM 6.45%, spread 155bp (as of 2026-11-22).
+- OCP 6.45% 2034: price 99.5, YTM 6.45%, spread 155bp (as of 2026-11-25).
 - Rating as recorded: BBB- / Baa3.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 7790 | 2560 | -345.9 | 7417 | 2.9 | 7.58 |
-| 2023A | 8740 | 2880 | -412.6 | 7650.2 | 2.66 | 7.11 |
-| 2024A | 9500 | 3200 | 209.9 | 7488 | 2.34 | 7.11 |
+| 2025A | 114000.0 |  |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=ocp) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/ocp.json)

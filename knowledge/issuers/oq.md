@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/oq.json`. Dated, sourced facts on
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- OQSAOC 5.125% May 2028 ($750m, XS2248458395): price 99.5, YTM 5.9%, spread 185bp (as of 2026-11-23).
-- Rating as recorded: BBB- Stable (Fitch & S&P, 2026).
+- OQSAOC 5.125% May 2028 ($750m, XS2248458395): price 99.5, YTM 5.9%, spread 185bp (as of 2026-11-25).
+- Rating as recorded: BBB- Stable (S&P / Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 26240.0 | 3680.0 | -1166.1 | 8376.6 | 2.28 | 6.19 |
-| 2023A | 29440.0 | 4140.0 | -1352.1 | 8562.9 | 2.07 | 5.8 |
-| 2024A | 32000.0 | 4600.0 | -149.6 | 8280.0 | 1.8 | 5.8 |
+| 2025A | 16000.0 | 1348.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=oq) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/oq.json)

@@ -4,15 +4,13 @@ _Page created 08-Oct-26 from `database/issuers/liqtel.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: B- Stable (Fitch, May-26) / Caa1.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 557.6 | 168 | -75.5 | 1023.9 | 6.09 | 1.95 |
-| 2023A | 625.6 | 189 | -91.1 | 1074.1 | 5.68 | 1.83 |
-| 2024A | 633.2 | 185.0 | 26.8 | 764.2 | 4.13 | 2.57 |
+| 2026A | 781.9 | 295.6 |  | 781.1 | 2.64 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=liqtel) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/liqtel.json)

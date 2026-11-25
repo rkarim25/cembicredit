@@ -215,6 +215,39 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Ba2 / BB- / AAA(zaf)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "CAR 16.1%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from H126 disclosures.",
+      "last_guided_source": "Absa Group H1 2026 Interim Results (ended 30-Jun-26), read 22-Nov-26",
+      "last_verified_period": "H126"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "ROE 15.0%",
+      "tracking_status": "On Track",
+      "variance_analysis": "South Africa Tier-1 peer to Standard Bank & FirstRand: H126 headline earnings rose 8% YoY to R12.8bn (15.0% ROE) with CET1 strengthening to 12.8% (above 11.0-12.5% board target) and Total CAR 16.1%. Credit loss ratio com",
+      "last_guided_source": "Absa Group H1 2026 Interim Results (ended 30-Jun-26), read 22-Nov-26",
+      "last_verified_period": "H126"
     }
   ]
 }

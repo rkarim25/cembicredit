@@ -4,12 +4,13 @@ _Page created 24-Nov-26 from `database/issuers/mubadala.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: AA Stable (Fitch) / Aa2 (Moody's) / AA (S&P).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A |  |  |  |  |  |  |
 | 2025A |  |  |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 

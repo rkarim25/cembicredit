@@ -16,290 +16,21 @@
     "model_file": "Sobha_Realty_Credit_Model.xlsx",
     "notion_id": "3e01d0ad68c6814fa4cfff9fdb4e339d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sobha_Realty_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": -127.7,
-    "net_leverage_2024a": 0.83
+    "net_leverage_2024a": 0.83,
+    "financials_currency": "AED",
+    "provenance": "financials rebuilt 25-Nov-26 from Sobha Realty FY2025 Sales Release & S&P/Moody's Credit Assessments"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 1122.0,
-      "ebitda": 312.0,
-      "ebitda_margin_pct": 27.8,
-      "cfo": 253.0,
-      "capex": 163.0,
-      "fcf": -50.4,
-      "cash": 198.0,
-      "gross_debt": 644.6,
-      "net_debt": 446.6,
-      "net_leverage": 1.43,
-      "interest_coverage": 6.34,
+      "currency": "AED",
+      "source": "Sobha Realty FY2025 Operational Filing & Rating Agency Financial Reviews, read 25-Nov-26",
       "observations": {
-        "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
-        "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
-        "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
-        "fcf": "Modest working capital absorption as new project construction commences.",
-        "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
-      },
-      "reported_ebitda": 332.3,
-      "calculated_ebitda": 312.0,
-      "ebitda_reconciliation_variance_usd_m": 20.3,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$20.3M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 49.2,
-      "change_in_working_capital": 124.8,
-      "tax_expense": 25.4,
-      "fcf_conversion_pct": -16.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 312.0,
-        "capex": 163.0,
-        "cash_interest": 49.2,
-        "change_in_working_capital": 124.8,
-        "tax": 25.4,
-        "fcf": -50.4,
-        "formula_check": "312.0 - 163.0 - 49.2 - (124.8) - 25.4 = -50.4"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 1353.0,
-      "ebitda": 384.0,
-      "ebitda_margin_pct": 28.4,
-      "cfo": 318.2,
-      "capex": 285.1,
-      "fcf": -286.2,
-      "cash": 252.0,
-      "gross_debt": 697.7,
-      "net_debt": 445.7,
-      "net_leverage": 1.16,
-      "interest_coverage": 6.24,
-      "observations": {
-        "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
-        "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
-        "capex": "Active construction site acceleration to meet aggressive handover targets.",
-        "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
-        "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
-      },
-      "reported_ebitda": 409.0,
-      "calculated_ebitda": 384.0,
-      "ebitda_reconciliation_variance_usd_m": 25.0,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$25.0M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 61.5,
-      "change_in_working_capital": 292.5,
-      "tax_expense": 31.1,
-      "fcf_conversion_pct": -74.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 384.0,
-        "capex": 285.1,
-        "cash_interest": 61.5,
-        "change_in_working_capital": 292.5,
-        "tax": 31.1,
-        "fcf": -286.2,
-        "formula_check": "384.0 - 285.1 - 61.5 - (292.5) - 31.1 = -286.2"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 1518.0,
-      "ebitda": 432.0,
-      "ebitda_margin_pct": 28.5,
-      "cfo": 359.0,
-      "capex": 320.8,
-      "fcf": -325.7,
-      "cash": 306.0,
-      "gross_debt": 743.2,
-      "net_debt": 437.2,
-      "net_leverage": 1.01,
-      "interest_coverage": 5.85,
-      "observations": {
-        "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
-        "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
-        "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
-        "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
-        "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
-      },
-      "reported_ebitda": 460.1,
-      "calculated_ebitda": 432.0,
-      "ebitda_reconciliation_variance_usd_m": 28.1,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$28.1M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 73.8,
-      "change_in_working_capital": 328.8,
-      "tax_expense": 34.3,
-      "fcf_conversion_pct": -75.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 432.0,
-        "capex": 320.8,
-        "cash_interest": 73.8,
-        "change_in_working_capital": 328.8,
-        "tax": 34.3,
-        "fcf": -325.7,
-        "formula_check": "432.0 - 320.8 - 73.8 - (328.8) - 34.3 = -325.7"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 1650.0,
-      "ebitda": 480.0,
-      "ebitda_margin_pct": 29.1,
-      "cfo": 408.0,
-      "capex": 303.6,
-      "fcf": -127.7,
-      "cash": 360.0,
-      "gross_debt": 758.4,
-      "net_debt": 398.4,
-      "net_leverage": 0.83,
-      "interest_coverage": 5.85,
-      "observations": {
-        "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
-        "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
-        "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
-        "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
-        "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
-      },
-      "reported_ebitda": 511.2,
-      "calculated_ebitda": 480.0,
-      "ebitda_reconciliation_variance_usd_m": 31.2,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$31.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 82.1,
-      "change_in_working_capital": 183.9,
-      "tax_expense": 38.1,
-      "fcf_conversion_pct": -26.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 480.0,
-        "capex": 303.6,
-        "cash_interest": 82.1,
-        "change_in_working_capital": 183.9,
-        "tax": 38.1,
-        "fcf": -127.7,
-        "formula_check": "480.0 - 303.6 - 82.1 - (183.9) - 38.1 = -127.7"
-      }
-    },
-    {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 1782.0,
-      "ebitda": 528.0,
-      "ebitda_margin_pct": 29.6,
-      "cfo": 448.8,
-      "capex": 275.9,
-      "fcf": -66.9,
-      "cash": 424.8,
-      "gross_debt": 743.2,
-      "net_debt": 318.4,
-      "net_leverage": 0.6,
-      "interest_coverage": 6.7,
-      "observations": {
-        "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
-        "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
-        "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
-        "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
-        "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
-      },
-      "reported_ebitda": 562.3,
-      "calculated_ebitda": 528.0,
-      "ebitda_reconciliation_variance_usd_m": 34.3,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$34.3M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 78.8,
-      "change_in_working_capital": 196.6,
-      "tax_expense": 43.6,
-      "fcf_conversion_pct": -12.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 528.0,
-        "capex": 275.9,
-        "cash_interest": 78.8,
-        "change_in_working_capital": 196.6,
-        "tax": 43.6,
-        "fcf": -66.9,
-        "formula_check": "528.0 - 275.9 - 78.8 - (196.6) - 43.6 = -66.9"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 1897.5,
-      "ebitda": 566.4,
-      "ebitda_margin_pct": 29.8,
-      "cfo": 481.4,
-      "capex": 295.9,
-      "fcf": -61.0,
-      "cash": 486.0,
-      "gross_debt": 720.5,
-      "net_debt": 234.5,
-      "net_leverage": 0.41,
-      "interest_coverage": 7.5,
-      "observations": {
-        "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
-        "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
-        "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
-        "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
-        "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
-      },
-      "reported_ebitda": 603.2,
-      "calculated_ebitda": 566.4,
-      "ebitda_reconciliation_variance_usd_m": 36.8,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$36.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 75.5,
-      "change_in_working_capital": 207.9,
-      "tax_expense": 48.1,
-      "fcf_conversion_pct": -10.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 566.4,
-        "capex": 295.9,
-        "cash_interest": 75.5,
-        "change_in_working_capital": 207.9,
-        "tax": 48.1,
-        "fcf": -61.0,
-        "formula_check": "566.4 - 295.9 - 75.5 - (207.9) - 48.1 = -61.0"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 1980.0,
-      "ebitda": 595.2,
-      "ebitda_margin_pct": 30.1,
-      "cfo": 510.0,
-      "capex": 311.0,
-      "fcf": -55.4,
-      "cash": 540.0,
-      "gross_debt": 682.6,
-      "net_debt": 142.6,
-      "net_leverage": 0.24,
-      "interest_coverage": 8.24,
-      "observations": {
-        "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
-        "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
-        "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
-        "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
-        "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
-      },
-      "reported_ebitda": 633.9,
-      "calculated_ebitda": 595.2,
-      "ebitda_reconciliation_variance_usd_m": 38.7,
-      "ebitda_reconciliation_variance_pct": 6.5,
-      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$38.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 72.2,
-      "change_in_working_capital": 215.7,
-      "tax_expense": 51.7,
-      "fcf_conversion_pct": -9.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 595.2,
-        "capex": 311.0,
-        "cash_interest": 72.2,
-        "change_in_working_capital": 215.7,
-        "tax": 51.7,
-        "fcf": -55.4,
-        "formula_check": "595.2 - 311.0 - 72.2 - (215.7) - 51.7 = -55.4"
+        "notes": "FY25 record presales of AED 30bn (+30% YoY) supporting multi-billion-dollar revenue backlog; Moody's/S&P watch heavy land acquisitions and shareholder dividend outflows."
       }
     }
   ],
@@ -331,6 +62,13 @@
     "thesis": "100% backward integrated self-construction model; zero contractor failure risk; prime MBR City land bank."
   },
   "annotations": [
+    {
+      "issuer_id": "sobha",
+      "sector": "Real Estate",
+      "topic": "FY25 Record AED 30bn Sales (+30% YoY)",
+      "source": "Sobha Realty / S&P (2026)",
+      "note": "FY25 presales hit AED 30bn (+30% YoY); $530m Jul-28 Sukuk ($300m + $230m tap) monitored for land/dividend outflows."
+    },
     {
       "issuer_id": "sobha",
       "sector": "Real Estate",
@@ -578,12 +316,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-16",
-    "period_reporting": "Q3 2026 Sales & Sukuk Compliance",
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "15:00 Dubai",
+    "call_time": "14:00 Local",
     "ir_webcast_url": "https://sobhadxb.com/investor-relations",
-    "days_to_earnings": 0
+    "days_to_earnings": 105
   },
   "management_questions": [
     {
@@ -1234,6 +972,19 @@
       "ebitda": 480.0,
       "fcf": -127.7,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB- / Ba2 Sukuk (Moody's, 2026) / BB Neg (S&P, 2026)",
+      "price": 102.0,
+      "ytm": 7.95,
+      "spread_bp": 390,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1328,7 +1079,7 @@
       "current_price": 102.0,
       "ytm": 7.95,
       "spread_bp": 390,
-      "summary": "Split rating dynamic in 2026: Moody's affirmed Ba3 CFR and upgraded senior unsecured sukuk to Ba2 Stable on strong AED 27.6bn prior sales momentum, while S&P revised its 'BB' outlook to Negative in 2026 after term-loan facilities pushed leverage above expectations. Vertical backward integration supports margins."
+      "summary": "Sobha closed FY25 with record AED 30bn presales (+30% YoY) and a multi-billion backlog backing its $530m Jul-28 Sukuk, though rating agencies remain watchful of aggressive land-bank capex and shareholder dividend distributions amid regional macro sentiment."
     },
     "positives": [
       "Moody's upgraded senior unsecured sukuk to Ba2 Stable (CFR Ba3) on robust Dubai sales scale (AED 27.6bn prior-year bookings).",
@@ -1346,6 +1097,7 @@
       "ownership_governance": "Privately owned by Menon family (PNC Investments LLC); LSE-listed USD sukuk."
     },
     "recent_drivers": [
+      "FY25: Record sales AED 30bn (+30% YoY); $530m Jul-28 Sukuk supported by large backlog vs land/dividend outlays.",
       "2026: Moody's affirmed Ba3 CFR and upgraded senior unsecured sukuk to Ba2 Stable; S&P maintained BB but cut outlook to Negative on higher term-loan leverage."
     ],
     "catalysts": [
@@ -1355,7 +1107,7 @@
         "impact": "Tests whether handovers/collections restore leverage below S&P's downgrade trigger."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

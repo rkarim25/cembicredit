@@ -4,16 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/vakifbank.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- VAKBN 6.95% 2029: price 99.2, YTM 6.95%, spread 235bp (as of 2026-11-22).
+- VAKBN 6.95% 2029: price 99.2, YTM 6.95%, spread 235bp (as of 2026-11-25).
 - Rating as recorded: BB- / B1.
-
-| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
-|---|---:|---:|---:|---:|---:|
-| 2022A |  | 2716.2 |  | 16.8 | 2.4 |
-| 2023A |  | 2937.3 |  | 16.8 | 2.4 |
-| 2024A |  | 3142.1 |  | 16.8 | 2.4 |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=vakifbank) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/vakifbank.json)
 <!-- auto-data-end -->

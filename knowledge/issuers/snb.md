@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/snb.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- SNB 4.95% 2029: price 100.1, YTM 4.95%, spread 75bp (as of 2026-11-22).
+- SNB 5.129% Feb 2029 Sukuk (XS2747631914): price 100.1, YTM 4.95%, spread 75bp (as of 2026-11-25).
 - Rating as recorded: A1 / A-.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2022A |  | 5776.6 |  | 19.8 | 1.4 |
-| 2023A |  | 6246.9 |  | 19.8 | 1.4 |
-| 2024A |  | 6682.5 |  | 19.8 | 1.4 |
+| 2025A |  |  |  |  |  |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=snb) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/snb.json)
 <!-- auto-data-end -->

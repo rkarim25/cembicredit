@@ -223,6 +223,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB / Ba2",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "debt_maturities": {
@@ -241,6 +254,26 @@
       "topic": "9M26 Capital & Growth",
       "source": "Lion Finance 9M26 RNS",
       "note": "9M26 net profit GEL 1,865.7m (+18.6% YoY), ROAE 27.2%, BoG CET1 18.1% (+260bp over 15.5% req), Ameriabank CET1 14.0%."
+    }
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "CAR 22.0%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 9M26 disclosures.",
+      "last_guided_source": "Lion Finance Group 9M/3Q 2026 Results (LSE RNS), read 21-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "NPL 2.00%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Best-in-class profitability and capital generation across CEEMEA: 9M26 net profit rose 18.6% YoY to GEL 1,865.7m with 27.2% ROAE and 32.1% cost-to-income. Asset quality is benign (2.0% NPL, 0.7% CoR) and capital buffers ",
+      "last_guided_source": "Lion Finance Group 9M/3Q 2026 Results (LSE RNS), read 21-Nov-26",
+      "last_verified_period": "9M26"
     }
   ]
 }

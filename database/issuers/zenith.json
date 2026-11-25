@@ -161,6 +161,47 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B Stable (Fitch) / B3 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
-  ]
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "See latest financial filing",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 9M26 disclosures.",
+      "last_guided_source": "Zenith Bank Plc 9M 2026 Financial Statements (NGX), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "NPL 3.80%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Nigeria's premier corporate bank delivered NGN 675.83bn 9M26 PAT (~23% ROE) as impairment charges plunged 70.5% YoY to NGN 230.77bn and post-forbearance problem loans stabilized at a sector-low ~3.8% (vs ~8.1% UBA). NGN ",
+      "last_guided_source": "Zenith Bank Plc 9M 2026 Financial Statements (NGX), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 87
+  }
 }

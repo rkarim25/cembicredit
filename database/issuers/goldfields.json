@@ -16,293 +16,40 @@
     "model_file": "Gold_Fields_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8108-a0bc-e03884d172de",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Gold_Fields_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "cognitive_credit_id": "goldfields",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/goldfields/description",
     "model_type": "corp",
     "fcf_2024a": 281.4,
     "net_leverage_2024a": 0.85,
-    "provenance": "Q3 2026 operational & balance sheet update integrated 22-Nov-26"
+    "provenance": "financials rebuilt 25-Nov-26 from Gold Fields FY2025 Audited & Q3 2026 Operational/Financial Updates (Nov-26)",
+    "financials_currency": "USD"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 3060,
-      "ebitda": 1365,
-      "ebitda_margin_pct": 44.6,
-      "cfo": 1106.7,
-      "capex": 648.4,
-      "fcf": 325.0,
-      "cash": 866.3,
-      "gross_debt": 2856,
-      "net_debt": 1989.7,
-      "net_leverage": 1.46,
-      "interest_coverage": 10.29,
+      "currency": "USD",
+      "source": "Gold Fields FY2025 Audited Consolidated Financial Statements (JSE / NYSE), read 25-Nov-26",
+      "revenue": 8751.3,
+      "ebitda": 5637.4,
+      "reported_ebitda": 5637.4,
+      "ebitda_margin_pct": 64.4,
+      "net_debt": 1442.0,
+      "net_leverage": 0.26,
       "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 1385.5,
-      "calculated_ebitda": 1365,
-      "ebitda_reconciliation_variance_usd_m": 20.5,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 132.7,
-      "change_in_working_capital": 135.5,
-      "tax_expense": 123.4,
-      "fcf_conversion_pct": 23.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 1365.0,
-        "capex": 648.4,
-        "cash_interest": 132.7,
-        "change_in_working_capital": 135.5,
-        "tax": 123.4,
-        "fcf": 325.0,
-        "formula_check": "1365.0 - 648.4 - 132.7 - (135.5) - 123.4 = 325.0"
+        "notes": "FY25 rev $8,751.3m, adj EBITDA $5,637.4m, net debt $1,442m ($959m ex-leases)."
       }
     },
     {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 3690,
-      "ebitda": 1680,
-      "ebitda_margin_pct": 45.5,
-      "cfo": 1392.3,
-      "capex": 1134.0,
-      "fcf": -64.6,
-      "cash": 1102.5,
-      "gross_debt": 3091.2,
-      "net_debt": 1988.7,
-      "net_leverage": 1.18,
-      "interest_coverage": 10.13,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 1705.2,
-      "calculated_ebitda": 1680,
-      "ebitda_reconciliation_variance_usd_m": 25.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$25.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 165.8,
-      "change_in_working_capital": 293.3,
-      "tax_expense": 151.5,
-      "fcf_conversion_pct": -3.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 1680.0,
-        "capex": 1134.0,
-        "cash_interest": 165.8,
-        "change_in_working_capital": 293.3,
-        "tax": 151.5,
-        "fcf": -64.6,
-        "formula_check": "1680.0 - 1134.0 - 165.8 - (293.3) - 151.5 = -64.6"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 4140,
-      "ebitda": 1890,
-      "ebitda_margin_pct": 45.7,
-      "cfo": 1570.8,
-      "capex": 1275.8,
-      "fcf": -84.2,
-      "cash": 1338.8,
-      "gross_debt": 3292.8,
-      "net_debt": 1954,
-      "net_leverage": 1.03,
-      "interest_coverage": 9.5,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 1918.3,
-      "calculated_ebitda": 1890,
-      "ebitda_reconciliation_variance_usd_m": 28.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$28.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 198.9,
-      "change_in_working_capital": 330.9,
-      "tax_expense": 168.6,
-      "fcf_conversion_pct": -4.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 1890.0,
-        "capex": 1275.8,
-        "cash_interest": 198.9,
-        "change_in_working_capital": 330.9,
-        "tax": 168.6,
-        "fcf": -84.2,
-        "formula_check": "1890.0 - 1275.8 - 198.9 - (330.9) - 168.6 = -84.2"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 4500,
-      "ebitda": 2100,
-      "ebitda_margin_pct": 46.7,
-      "cfo": 1785,
-      "capex": 1207.5,
-      "fcf": 281.4,
-      "cash": 1575,
-      "gross_debt": 3360,
-      "net_debt": 1785,
-      "net_leverage": 0.85,
-      "interest_coverage": 9.5,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 2131.5,
-      "calculated_ebitda": 2100,
-      "ebitda_reconciliation_variance_usd_m": 31.5,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 221.1,
-      "change_in_working_capital": 202.7,
-      "tax_expense": 187.3,
-      "fcf_conversion_pct": 13.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 2100.0,
-        "capex": 1207.5,
-        "cash_interest": 221.1,
-        "change_in_working_capital": 202.7,
-        "tax": 187.3,
-        "fcf": 281.4,
-        "formula_check": "2100.0 - 1207.5 - 221.1 - (202.7) - 187.3 = 281.4"
-      }
-    },
-    {
-      "period": "2025E",
+      "period": "Q326",
       "is_audited": false,
-      "revenue": 4860,
-      "ebitda": 2310,
-      "ebitda_margin_pct": 47.5,
-      "cfo": 1963.5,
-      "capex": 1097.2,
-      "fcf": 575.3,
-      "cash": 1858.5,
-      "gross_debt": 3292.8,
-      "net_debt": 1434.3,
-      "net_leverage": 0.62,
-      "interest_coverage": 10.89,
+      "currency": "USD",
+      "source": "Gold Fields Q3 2026 Operational & Balance Sheet Update (Nov-26), read 25-Nov-26",
+      "net_debt": 981.0,
+      "net_leverage": 0.13,
       "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 2344.6,
-      "calculated_ebitda": 2310,
-      "ebitda_reconciliation_variance_usd_m": 34.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$34.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 212.1,
-      "change_in_working_capital": 214.7,
-      "tax_expense": 210.7,
-      "fcf_conversion_pct": 24.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 2310.0,
-        "capex": 1097.2,
-        "cash_interest": 212.1,
-        "change_in_working_capital": 214.7,
-        "tax": 210.7,
-        "fcf": 575.3,
-        "formula_check": "2310.0 - 1097.2 - 212.1 - (214.7) - 210.7 = 575.3"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 5175,
-      "ebitda": 2478,
-      "ebitda_margin_pct": 47.9,
-      "cfo": 2106.3,
-      "capex": 1177.0,
-      "fcf": 642.8,
-      "cash": 2126.2,
-      "gross_debt": 3192,
-      "net_debt": 1065.8,
-      "net_leverage": 0.43,
-      "interest_coverage": 12.18,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 2515.2,
-      "calculated_ebitda": 2478,
-      "ebitda_reconciliation_variance_usd_m": 37.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 203.4,
-      "change_in_working_capital": 225.1,
-      "tax_expense": 229.7,
-      "fcf_conversion_pct": 25.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 2478.0,
-        "capex": 1177.0,
-        "cash_interest": 203.4,
-        "change_in_working_capital": 225.1,
-        "tax": 229.7,
-        "fcf": 642.8,
-        "formula_check": "2478.0 - 1177.0 - 203.4 - (225.1) - 229.7 = 642.8"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 5400,
-      "ebitda": 2604,
-      "ebitda_margin_pct": 48.2,
-      "cfo": 2231.2,
-      "capex": 1236.9,
-      "fcf": 696.2,
-      "cash": 2362.5,
-      "gross_debt": 3024,
-      "net_debt": 661.5,
-      "net_leverage": 0.25,
-      "interest_coverage": 13.39,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 2643.1,
-      "calculated_ebitda": 2604,
-      "ebitda_reconciliation_variance_usd_m": 39.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$39.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 194.5,
-      "change_in_working_capital": 232.2,
-      "tax_expense": 244.2,
-      "fcf_conversion_pct": 26.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 2604.0,
-        "capex": 1236.9,
-        "cash_interest": 194.5,
-        "change_in_working_capital": 232.2,
-        "tax": 244.2,
-        "fcf": 696.2,
-        "formula_check": "2604.0 - 1236.9 - 194.5 - (232.2) - 244.2 = 696.2"
+        "notes": "Q326 attributable gold-eq output 605 koz (on track for upper end of 2.4-2.6Moz FY26 guidance), AISC $1,965/oz; net debt $981m (up from $437m Jun-26 on interim dividends & $854m buybacks), ultra-low 0.13x net debt/adj EBITDA."
       }
     }
   ],
@@ -331,6 +78,13 @@
     "thesis": "Tier-1 global gold producer (Australia, Ghana, South Africa, Chile); benefit from high gold prices and Salares Norte ramp-up."
   },
   "annotations": [
+    {
+      "issuer_id": "goldfields",
+      "sector": "Materials",
+      "topic": "Q326 Update: 0.13x Leverage Post-$854m Buybacks",
+      "source": "Gold Fields JSE/NYSE Filings (Nov-26)",
+      "note": "FY25 rev $8.75bn, adj EBITDA $5.64bn; Q326 output 605 koz, AISC $1,965/oz, net debt $981m (0.13x)."
+    },
     {
       "issuer_id": "goldfields",
       "issuer_name": "Gold Fields Ltd",
@@ -1214,6 +968,19 @@
       "ebitda": 2100,
       "fcf": 281.4,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BBB- / Baa3",
+      "price": 100.2,
+      "ytm": 6.05,
+      "spread_bp": 200,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1322,7 +1089,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Neutral / Ultra-Low 0.13x Leverage ($981m Net Debt) & Record Gold Cash Flow",
-      "summary": "Closed Q326 with virtually zero net leverage at 0.13x Net Debt/Adjusted EBITDA ($981m net debt, or just $410m excluding capitalized leases) even after funding interim dividends and share buybacks, buoyed by record gold prices and Salares Norte ramp.",
+      "summary": "Gold Fields compressed net leverage to a near-zero 0.13x ($981m net debt) at Q326 even after returning $854m via buybacks plus interim dividends, backed by 605 koz Q3 output and $5.64bn FY25 adj EBITDA. Fortress Baa3/BBB- gold credit.",
       "target_price": null,
       "current_price": 100.2,
       "ytm": 6.05,
@@ -1344,6 +1111,7 @@
       "ownership_governance": "JSE & NYSE listed (GFI)."
     },
     "recent_drivers": [
+      "Q326 (Nov-26): 605 koz output, AISC $1,965/oz, net debt $981m (0.13x leverage) post-$854m buybacks.",
       "Q3 2026 Update: Net debt $981m ($410m ex-leases) at 30-Sep-26; Net Debt/Adj EBITDA 0.13x after interim dividends & buybacks."
     ],
     "catalysts": [
@@ -1353,7 +1121,7 @@
         "impact": "Confirms Salares Norte steady-state run rate and M&A discipline."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

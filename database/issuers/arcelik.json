@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "arcelik",
+    "name": "Ar\u00e7elik (Beko)",
+    "ticker": "ARCLK",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Industrials",
+    "type": "corp",
+    "rating": "B (S&P, late-26) / B+ (Fitch)",
+    "tier": "HY",
+    "benchmark_bond": "ARCLK 8.50% Sep 2028 ($400M, XS2695038401)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Arcelik_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Arcelik_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "TRY",
+    "provenance": "financials built 25-Nov-26 from Ar\u00e7elik FY2025 Audited & 9M 2026 KAP IAS 29 Statements + S&P Rating Action; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Ar\u00e7elik FY2024 Audited Consolidated Financial Statements (KAP), read 25-Nov-26",
+      "revenue": 560937.0,
+      "ebitda_margin_pct": 5.3,
+      "fcf": -11400.0,
+      "observations": {
+        "notes": "FY24 rev TRY 560.94bn, EBITDA margin 5.3%, FCF -TRY 11.4bn amid Whirlpool EMEA integration."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Ar\u00e7elik FY2025 Audited Consolidated Financial Statements (KAP), read 25-Nov-26",
+      "revenue": 523933.0,
+      "ebitda_margin_pct": 5.9,
+      "fcf": 5700.0,
+      "net_leverage": 3.74,
+      "observations": {
+        "notes": "FY25 rev TRY 523.93bn (-6.6% real YoY), EBITDA margin 5.9%, FCF turned positive +TRY 5.7bn, MGL-adjusted net leverage 3.74x."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "TRY",
+      "source": "Ar\u00e7elik 9M 2026 Unaudited Financial Statements (Nov-26) & S&P Downgrade to B, read 25-Nov-26",
+      "revenue": 435300.0,
+      "net_profit": -5770.0,
+      "observations": {
+        "notes": "9M26 net sales TRY 435.3bn, net loss TRY 5.77bn under TRY 36.3bn financial expenses; pursuing Dec-26 covenant waivers; S&P downgraded to B in late 2026."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Ar\u00e7elik 8.500% Senior Unsecured due Sep 2028",
+      "tranche_name": "Ar\u00e7elik 8.500% Senior Unsecured due Sep 2028",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 400.0,
+      "outstanding_usd_m": 400.0,
+      "amount_outstanding_usd_m": 400.0,
+      "amount_usd_m": 400.0,
+      "coupon": "8.500%",
+      "maturity": "2028-09-25",
+      "maturity_date": "2028-09-25",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2695038401"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 400.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 400.0,
+    "source": "Benchmark 8.50% Sep-28 USD Eurobond XS2695038401 (alongside substantial TRY/EUR bank & syndicated loans)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Underweight / Margin Squeeze, S&P Downgrade to B & Dec-26 Covenant Waiver Pursuit",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "S&P downgraded Ar\u00e7elik to 'B' in late 2026 as 9M26 net losses hit TRY 5.77bn under TRY 36.3bn financial expenses and weak European appliance demand. Management is seeking Dec-2026 covenant waivers and executing JV rationalizations (Hitachi/LG) to protect liquidity; Ko\u00e7 Holding parentage remains key backstop."
+    },
+    "positives": [
+      "Ko\u00e7 Holding flagship consumer durables subsidiary with strong domestic market share and Beko/Whirlpool European scale.",
+      "FY25 FCF turned positive (+TRY 5.7bn) on strict NWC/capex discipline.",
+      "Portfolio simplification (Hitachi/LG JV adjustments) aimed at debt paydown."
+    ],
+    "negatives": [
+      "S&P downgraded to 'B' in late 2026; actively pursuing Dec-2026 covenant waivers.",
+      "Heavy financial expense burden (TRY 36.3bn in 9M26) drove TRY 5.77bn 9M net loss.",
+      "Structurally thin EBITDA margins (~5-6%) amid depressed European white-goods pricing."
+    ],
+    "background": {
+      "business_overview": "Major global home-appliances manufacturer (Beko, Grundig, Whirlpool EMEA) controlled by Ko\u00e7 Holding.",
+      "asset_perimeter": "Manufacturing facilities across Turkey, Europe, Asia, and Africa; Whirlpool Europe & MENA integration.",
+      "ownership_governance": "Ko\u00e7 Holding (~57% economic/voting control); Borsa Istanbul listed (ARCLK)."
+    },
+    "recent_drivers": [
+      "Late-26: S&P downgraded Ar\u00e7elik to B; pursuing Dec-26 covenant waivers after 9M26 net loss of TRY 5.77bn and TRY 36.3bn interest/fin costs."
+    ],
+    "catalysts": [
+      {
+        "date": "2026-12-31",
+        "event": "December 2026 Bank Covenant Waiver Resolution & IFRS 18 Transition",
+        "impact": "Binary short-term liquidity/default-avoidance catalyst."
+      },
+      {
+        "date": "2027-02-15",
+        "event": "FY2026 Audited Results & Deleveraging Progress",
+        "impact": "Tests asset sale proceeds and European margin stabilization."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Covenant Compliance & Deleveraging",
+      "management_target": "Maintain bank covenant headroom (was 3.74x MGL net leverage FY25)",
+      "current_runrate": "Pursuing Dec-26 covenant waivers; 9M26 loss TRY 5.77bn",
+      "tracking_status": "Under Watch",
+      "variance_analysis": "High TRY rates and weak EU margins eroded headroom, triggering S&P downgrade to B.",
+      "last_guided_source": "Ar\u00e7elik 9M26 / S&P Late-26",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Confirm status and lender sign-off on all December 2026 financial covenant waivers and margin step-ups.",
+      "focus_area": "Covenants & Liquidity",
+      "relevance": "Critical near-term technical trigger."
+    },
+    {
+      "question": "Quantify cash proceeds from Hitachi/LG JV restructurings earmarked for gross debt reduction.",
+      "focus_area": "Deleveraging",
+      "relevance": "Needed to offset TRY 36.3bn 9M financing drag."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "arcelik",
+      "sector": "Industrials",
+      "topic": "S&P Downgrade to B & Dec-26 Covenant Waivers",
+      "source": "S&P Global / Ar\u00e7elik 9M26 (Late-26)",
+      "note": "S&P downgraded Ar\u00e7elik to B; 9M26 sales TRY 435.3bn, net loss TRY 5.77bn, fin expenses TRY 36.3bn; pursuing Dec-26 covenant waivers."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-15",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "17:30 Istanbul",
+    "ir_webcast_url": "https://www.arcelikglobal.com/en/investors/",
+    "days_to_earnings": 82
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B (S&P, late-26) / B+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": -11400.0,
+      "guidance_status": "Under Watch"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 62.0,
+    "base_case_px": 88.0,
+    "recovery_floor_pct": 62.0,
+    "recovery_base_pct": 88.0,
+    "implied_stress_ev_multiple": 5.0,
+    "restructuring_framework": "Turkey Commercial Law",
+    "thesis": "Global white-goods scale + Ko\u00e7 Holding parentage vs thin 5-6% margins and heavy TRY debt service."
+  }
+}

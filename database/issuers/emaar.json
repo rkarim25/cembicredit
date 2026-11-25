@@ -344,12 +344,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-11",
-    "period_reporting": "Q3 2026 / 9M Results",
-    "confirmation_status": "Confirmed",
+    "scheduled_date": "2027-02-12",
+    "period_reporting": "FY 2026 Audited Financial Results",
+    "confirmation_status": "Estimated",
     "call_time": "15:00 Dubai",
     "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-    "days_to_earnings": 0
+    "days_to_earnings": 79
   },
   "management_questions": [
     {
@@ -1006,6 +1006,19 @@
       "date": "2026-11-24",
       "period_name": "2026-11-24",
       "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "BBB+ / Baa1",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": -1.51,
+      "ebitda": 5217.8,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
       "rating": "BBB+ / Baa1",
       "price": null,
       "ytm": null,

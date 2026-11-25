@@ -239,6 +239,19 @@
       "ebitda": 539.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B / B2 / B",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.66,
+      "ebitda": 539.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
@@ -258,5 +271,25 @@
     "implied_stress_ev_multiple": "3.0x 2P Reserve / Post-MPNU Cash Flow",
     "restructuring_framework": "Nigerian Upstream / English NY Law",
     "thesis": "Expanded post-MPNU offshore/onshore Nigerian O&G cash flows with USD export revenues covering $650m 2030 notes."
-  }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "0.14x Net Debt/EBITDA",
+      "tracking_status": "On Track",
+      "variance_analysis": "Exceptionally strong post-MPNU cash generation: 9M26 Adj EBITDA jumped 38% YoY to $1,530m and FCF hit $749m, slashing net debt 65% to $234.9m (0.14x Net Leverage). On 27-Oct-26 Seplat cleared the final $100m MPNU acquisi",
+      "last_guided_source": "Seplat Energy 9M 2026 Unaudited Results (ended 30-Sep-26, LSE/NGX), read 21-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Key Milestone: FY2026 Audited Results & 2027 Capex/Dividend Policy",
+      "management_target": "Confirms year-end net cash trajectory and ANOH gas ramp.",
+      "current_runrate": "Scheduled Mar 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "9M 2026 Results: Revenue $2,764m (+27% YoY), Adj EBITDA $1,530m (+38% YoY), FCF $749m, Net Debt $234.9m (0.14x).",
+      "last_guided_source": "Seplat Energy 9M 2026 Unaudited Results (ended 30-Sep-26, LSE/NGX), read 21-Nov-26",
+      "last_verified_period": "9M26"
+    }
+  ]
 }

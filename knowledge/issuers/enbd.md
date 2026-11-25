@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/enbd.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- EMIRAT 4.90% 2029: price 100.25, YTM 4.9%, spread 70bp (as of 2026-11-22).
+- EMIRAT 5.875% Oct 2028 Green (XS2625209270): price 100.25, YTM 4.9%, spread 70bp (as of 2026-11-25).
 - Rating as recorded: A2 / A+.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2022A |  | 5377.5 |  | 18.5 | 4.1 |
-| 2023A |  | 5815.3 |  | 18.5 | 4.1 |
-| 2024A |  | 6220.8 |  | 18.5 | 4.1 |
+| 2025A |  |  | 14.4 |  | 2.4 |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=enbd) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/enbd.json)
 <!-- auto-data-end -->

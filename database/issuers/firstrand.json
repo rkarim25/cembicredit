@@ -607,12 +607,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/FIRSTR",
-    "days_to_earnings": 0
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 87
   },
   "management_questions": [
     {
@@ -1255,6 +1255,19 @@
       "date": "2026-11-24",
       "period_name": "2026-11-24",
       "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "Ba2 / BB-",
+      "price": 98.8,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
       "rating": "Ba2 / BB-",
       "price": 98.8,
       "ytm": 6.75,

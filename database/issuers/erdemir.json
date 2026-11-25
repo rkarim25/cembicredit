@@ -16,291 +16,39 @@
     "model_file": "Erdemir_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681f8b554cf9edd7b8f1c",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Erdemir_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": -162.4,
     "net_leverage_2024a": 2.12,
-    "provenance": "Q3/9M 2026 earnings & EBITDA/ton recovery integrated 22-Nov-26"
+    "provenance": "financials rebuilt 25-Nov-26 from Erdemir FY2025 Audited & 9M 2026 USD Financial Statements (KAP / IR, Nov-26)",
+    "financials_currency": "USD"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 4624.0,
-      "ebitda": 552.5,
-      "ebitda_margin_pct": 11.9,
-      "cfo": 447.9,
-      "capex": 262.4,
-      "fcf": -50.2,
-      "cash": 350.6,
-      "gross_debt": 2073.6,
-      "net_debt": 1723.0,
-      "net_leverage": 3.12,
-      "interest_coverage": 5.52,
+      "currency": "TRY",
+      "source": "Erdemir FY2025 Consolidated Financial Statements (KAP / SteelRadar), read 25-Nov-26",
+      "revenue": 209000.0,
+      "net_debt": 43000.0,
+      "net_leverage": 1.92,
       "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 560.8,
-      "calculated_ebitda": 552.5,
-      "ebitda_reconciliation_variance_usd_m": 8.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 100.1,
-      "change_in_working_capital": 197.2,
-      "tax_expense": 43.0,
-      "fcf_conversion_pct": -9.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 552.5,
-        "capex": 262.4,
-        "cash_interest": 100.1,
-        "change_in_working_capital": 197.2,
-        "tax": 43.0,
-        "fcf": -50.2,
-        "formula_check": "552.5 - 262.4 - 100.1 - (197.2) - 43.0 = -50.2"
+        "notes": "FY25 revenue ~TRY 209bn, net debt TRY 43bn (1.92x net leverage; Q4 EBITDA TRY 7.5bn)."
       }
     },
     {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 5576.0,
-      "ebitda": 680.0,
-      "ebitda_margin_pct": 12.2,
-      "cfo": 563.6,
-      "capex": 459.0,
-      "fcf": -390.2,
-      "cash": 446.2,
-      "gross_debt": 2244.3,
-      "net_debt": 1798.1,
-      "net_leverage": 2.64,
-      "interest_coverage": 5.44,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 717.4,
-      "calculated_ebitda": 680.0,
-      "ebitda_reconciliation_variance_usd_m": 37.4,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$37.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 125.0,
-      "change_in_working_capital": 433.6,
-      "tax_expense": 52.6,
-      "fcf_conversion_pct": -57.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 680.0,
-        "capex": 459.0,
-        "cash_interest": 125.0,
-        "change_in_working_capital": 433.6,
-        "tax": 52.6,
-        "fcf": -390.2,
-        "formula_check": "680.0 - 459.0 - 125.0 - (433.6) - 52.6 = -390.2"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 6256.0,
-      "ebitda": 765.0,
-      "ebitda_margin_pct": 12.2,
-      "cfo": 635.8,
-      "capex": 516.4,
-      "fcf": -447.1,
-      "cash": 541.9,
-      "gross_debt": 2390.7,
-      "net_debt": 1848.8,
-      "net_leverage": 2.42,
-      "interest_coverage": 5.1,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 807.1,
-      "calculated_ebitda": 765.0,
-      "ebitda_reconciliation_variance_usd_m": 42.1,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$42.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 150.0,
-      "change_in_working_capital": 487.9,
-      "tax_expense": 57.8,
-      "fcf_conversion_pct": -58.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 765.0,
-        "capex": 516.4,
-        "cash_interest": 150.0,
-        "change_in_working_capital": 487.9,
-        "tax": 57.8,
-        "fcf": -447.1,
-        "formula_check": "765.0 - 516.4 - 150.0 - (487.9) - 57.8 = -447.1"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 6800.0,
-      "ebitda": 850.0,
-      "ebitda_margin_pct": 12.5,
-      "cfo": 722.5,
-      "capex": 488.7,
-      "fcf": -162.4,
-      "cash": 637.5,
-      "gross_debt": 2439.5,
-      "net_debt": 1802.0,
-      "net_leverage": 2.12,
-      "interest_coverage": 5.1,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 896.8,
-      "calculated_ebitda": 850.0,
-      "ebitda_reconciliation_variance_usd_m": 46.8,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$46.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 166.7,
-      "change_in_working_capital": 292.8,
-      "tax_expense": 64.2,
-      "fcf_conversion_pct": -19.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 850.0,
-        "capex": 488.7,
-        "cash_interest": 166.7,
-        "change_in_working_capital": 292.8,
-        "tax": 64.2,
-        "fcf": -162.4,
-        "formula_check": "850.0 - 488.7 - 166.7 - (292.8) - 64.2 = -162.4"
-      }
-    },
-    {
-      "period": "2025E",
+      "period": "9M26",
       "is_audited": false,
-      "revenue": 7344.0,
-      "ebitda": 935.0,
-      "ebitda_margin_pct": 12.7,
-      "cfo": 794.8,
-      "capex": 444.1,
-      "fcf": -56.5,
-      "cash": 752.2,
-      "gross_debt": 2390.7,
-      "net_debt": 1638.5,
-      "net_leverage": 1.75,
-      "interest_coverage": 5.84,
+      "currency": "USD",
+      "source": "Erdemir 9M 2026 Unaudited Financial Results (IR, Nov-26), read 25-Nov-26",
+      "revenue": 4300.0,
+      "ebitda": 490.0,
+      "reported_ebitda": 490.0,
+      "ebitda_margin_pct": 11.4,
+      "net_debt": 1002.0,
+      "net_leverage": 1.54,
       "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 949.0,
-      "calculated_ebitda": 935.0,
-      "ebitda_reconciliation_variance_usd_m": 14.0,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 160.1,
-      "change_in_working_capital": 313.1,
-      "tax_expense": 74.2,
-      "fcf_conversion_pct": -6.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 935.0,
-        "capex": 444.1,
-        "cash_interest": 160.1,
-        "change_in_working_capital": 313.1,
-        "tax": 74.2,
-        "fcf": -56.5,
-        "formula_check": "935.0 - 444.1 - 160.1 - (313.1) - 74.2 = -56.5"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 7820.0,
-      "ebitda": 1003.0,
-      "ebitda_margin_pct": 12.8,
-      "cfo": 852.5,
-      "capex": 476.4,
-      "fcf": -39.9,
-      "cash": 860.6,
-      "gross_debt": 2317.5,
-      "net_debt": 1456.9,
-      "net_leverage": 1.45,
-      "interest_coverage": 6.54,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 1018.0,
-      "calculated_ebitda": 1003.0,
-      "ebitda_reconciliation_variance_usd_m": 15.0,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 153.4,
-      "change_in_working_capital": 330.8,
-      "tax_expense": 82.3,
-      "fcf_conversion_pct": -4.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 1003.0,
-        "capex": 476.4,
-        "cash_interest": 153.4,
-        "change_in_working_capital": 330.8,
-        "tax": 82.3,
-        "fcf": -39.9,
-        "formula_check": "1003.0 - 476.4 - 153.4 - (330.8) - 82.3 = -39.9"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 8160.0,
-      "ebitda": 1054.0,
-      "ebitda_margin_pct": 12.9,
-      "cfo": 903.1,
-      "capex": 500.6,
-      "fcf": -25.0,
-      "cash": 956.2,
-      "gross_debt": 2195.6,
-      "net_debt": 1239.4,
-      "net_leverage": 1.18,
-      "interest_coverage": 7.19,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 1069.8,
-      "calculated_ebitda": 1054.0,
-      "ebitda_reconciliation_variance_usd_m": 15.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 146.6,
-      "change_in_working_capital": 343.1,
-      "tax_expense": 88.7,
-      "fcf_conversion_pct": -2.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 1054.0,
-        "capex": 500.6,
-        "cash_interest": 146.6,
-        "change_in_working_capital": 343.1,
-        "tax": 88.7,
-        "fcf": -25.0,
-        "formula_check": "1054.0 - 500.6 - 146.6 - (343.1) - 88.7 = -25.0"
+        "notes": "9M26 USD revenue $4.3bn (+12% YoY vs $3.84bn), EBITDA surged to $490m (11.4% margin vs 8.9% prior year), net debt $1,002m (1.54x net leverage, improved from 1.92x YE25)."
       }
     }
   ],
@@ -329,6 +77,13 @@
     "thesis": "Flat steel monopoly in Turkey; OYAK pension backing; $3.2B green DRI decarbonization transformation."
   },
   "annotations": [
+    {
+      "issuer_id": "erdemir",
+      "sector": "Materials",
+      "topic": "9M26 Results: EBITDA $490m & 1.54x Leverage",
+      "source": "Erdemir IR Filings (Nov-26)",
+      "note": "9M26 USD rev $4.3bn (+12% YoY), EBITDA $490m (11.4% margin), net debt $1,002m (1.54x vs 1.92x YE25)."
+    },
     {
       "issuer_id": "erdemir",
       "issuer_name": "Erdemir",
@@ -1212,6 +967,19 @@
       "ebitda": 850.0,
       "fcf": -162.4,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB- / B1",
+      "price": 98.5,
+      "ytm": 7.95,
+      "spread_bp": 355,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1320,7 +1088,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Overweight / Sharp Steel Margin Recovery ($100/t in Q3, +70% 9M EBITDA)",
-      "summary": "Strong operational inflection: 9M26 EBITDA jumped +70.2% YoY to TRY 22.35bn (~$449m; 11.4% margin vs 8.9% 9M25) and Q3 EBITDA rose +68% YoY (+21% QoQ) to TRY 7.98bn (~$209m), lifting EBITDA/ton to $100/t (vs $75/t Q2 and $68/t Q325).",
+      "summary": "Erdemir expanded 9M26 EBITDA margin by 250bps YoY to 11.4% ($490m EBITDA on $4.3bn revenue, +12% YoY), deleveraging net debt/EBITDA down to 1.54x ($1,002m net debt) from 1.92x at YE25 despite Turkish flat-steel import competition.",
       "target_price": null,
       "current_price": 98.5,
       "ytm": 7.95,
@@ -1342,6 +1110,7 @@
       "ownership_governance": "49.29% owned by OYAK (Turkish Armed Forces Pension Fund); BIST-listed (EREGL)."
     },
     "recent_drivers": [
+      "9M26 (Nov-26): Rev $4.3bn (+12%), EBITDA $490m (11.4% margin vs 8.9%), net debt $1,002m (1.54x).",
       "Q3/9M 2026 Results: Q3 EBITDA TRY 7,977m (~$209m, +68% YoY, 11.2% margin, $100/t); 9M EBITDA TRY 22,350m (+70.2% YoY, 11.4% margin)."
     ],
     "catalysts": [
@@ -1351,7 +1120,7 @@
         "impact": "Tests whether $100/t EBITDA sustains into 2027."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

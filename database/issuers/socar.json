@@ -191,6 +191,19 @@
       "ebitda": 8700.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Baa3 Stable (Moody's) / BBB- Stable (Fitch, SCP bb) / BB Positive (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 8700.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -201,5 +214,25 @@
     "implied_stress_ev_multiple": "5.0x Normalized EBITDA + State Support",
     "restructuring_framework": "Azerbaijan SOE / English Law",
     "thesis": "Investment-grade quasi-sovereign backed by AZN 14.98bn cash+deposits, SGC gas transit cash flows, and 100% state ownership."
-  }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "0.59x Net Debt/EBITDA",
+      "tracking_status": "On Track",
+      "variance_analysis": "100% Azerbaijan state-owned national oil & gas champion equalized with the IG sovereign by Moody's (Baa3 Stable) and Fitch (BBB- Stable, SCP upgraded to bb). FY25 audited EBITDA jumped 26% YoY to AZN 10.9bn ($6.4bn) with",
+      "last_guided_source": "SOCAR FY2025 Audited IFRS Financial Statements (EY, unmodified opinion), read 24-Nov-26",
+      "last_verified_period": "2025A"
+    },
+    {
+      "guidance_metric": "Key Milestone: FY2026 Audited IFRS Statements & S&P Rating Review",
+      "management_target": "Potential S&P upgrade toward IG/BB+ if Azerbaijan sovereign positive outlook converts.",
+      "current_runrate": "Scheduled Jun 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "FY25 (EY Audited): Revenue AZN 86.3bn, EBITDA AZN 10.9bn (+26% YoY), cash AZN 8.72bn (+AZN 6.26bn deposits), debt AZN 15.10bn.",
+      "last_guided_source": "SOCAR FY2025 Audited IFRS Financial Statements (EY, unmodified opinion), read 24-Nov-26",
+      "last_verified_period": "2025A"
+    }
+  ]
 }

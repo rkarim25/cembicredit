@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/dangote_ref.json`. Dated, sourced
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - DAPERE 7.50% 2031 ($750m): price 95.0, YTM 12.5%, spread 815bp (as of 2026-11-21).
 - Rating as recorded: B / B3 / B (Sovereign-Capped).

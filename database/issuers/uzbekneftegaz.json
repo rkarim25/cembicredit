@@ -16,14 +16,30 @@
     "model_file": "Uzbekneftegaz_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Uzbekneftegaz_Credit_Model.xlsx",
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "financials_currency": "USD",
-    "provenance": "financials built 24-Nov-26 from Uzbekneftegaz LTM mid-2026 / Fitch Nov-26 disclosures; quotes await [BBG] capture",
+    "provenance": "financials rebuilt 25-Nov-26 from Uzbekneftegaz FY2024 Audited & HY2025 LTM Results + Fitch BB Positive",
     "fcf_2024a": null,
     "net_leverage_2024a": null
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "UZS",
+      "source": "Uzbekneftegaz JSC FY2024 Audited IFRS Financial Statements (ung.uz), read 25-Nov-26",
+      "revenue": 34127000.0,
+      "ebitda": 16154000.0,
+      "reported_ebitda": 16154000.0,
+      "net_profit": 5122000.0,
+      "gross_debt": 42774000.0,
+      "net_debt": 41491000.0,
+      "net_leverage": 2.57,
+      "observations": {
+        "notes": "FY24 rev UZS 34,127bn (~$2.7bn), adj EBITDA UZS 16,154bn (~$1.3bn), NPAT UZS 5,122bn, gross debt UZS 42,774bn, net debt UZS 41,491bn (2.57x)."
+      }
+    },
     {
       "period": "LTM26",
       "is_audited": false,
@@ -82,7 +98,7 @@
     "source": "LSE-listed USD Eurobonds: $700m 4.75% Nov-28 (XS2010026727) and $850m 8.75% May-30 (XS3063464070 / US91825MAC73)."
   },
   "credit_view": {
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-25",
     "verdict": {
       "stance": "Constructive / Tariff-Reform & State-Backed Uzbek GRE (BB Pos / BB-)",
       "target_price": null,
@@ -107,6 +123,7 @@
       "ownership_governance": "100% Republic of Uzbekistan (Ministry of Economy & Finance); LSE-listed Eurobonds."
     },
     "recent_drivers": [
+      "HY25/2026: LTM HY25 rev UZS 34.57tn, adj EBITDA UZS 16.69tn, net debt UZS 45.02tn (~2.7x); Fitch affirmed BB Positive; KPMG advising Uzbekistan GTL privatization.",
       "Nov-26: Fitch affirmed BB, revised outlook to Positive, and upgraded SCP to b+ on 67% tariff hikes and deleveraging.",
       "Mid-26: LTM revenue ~$3.0bn, Adj EBITDA ~$1.5bn, net leverage down to 2.2x."
     ],
@@ -131,6 +148,13 @@
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "uzbekneftegaz",
+      "sector": "Energy",
+      "topic": "FY24-HY25 IFRS & Fitch BB Positive",
+      "source": "Uzbekneftegaz IR / Fitch (2026)",
+      "note": "FY24 rev UZS 34.13tn, adj EBITDA UZS 16.15tn, net debt 2.57x; LTM HY25 EBITDA UZS 16.69tn (~2.7x); Fitch BB Positive."
+    },
     {
       "issuer_id": "uzbekneftegaz",
       "sector": "Energy",
@@ -160,6 +184,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB Positive (Fitch, Nov-26, SCP b+) / BB- Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.57,
+      "ebitda": 16154000.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -170,5 +207,25 @@
     "implied_stress_ev_multiple": "4.5x EBITDA + State Support",
     "restructuring_framework": "Uzbekistan SOE / English Law",
     "thesis": "2.2x net leverage with 67% tariff reform and strong sovereign backing (BB Positive Fitch)."
-  }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "2.20x Net Debt/EBITDA",
+      "tracking_status": "On Track",
+      "variance_analysis": "Fitch revised Uzbekneftegaz's outlook to Positive (Nov-2026) and upgraded its SCP to b+ (from b), reflecting cumulative 67% regulated gas tariff hikes in 2026, ~$1bn in state support, and 2025-26 dividend exemptions. LTM",
+      "last_guided_source": "Uzbekneftegaz London Rating Disclosures & Fitch Nov-2026 Review, read 24-Nov-26",
+      "last_verified_period": "LTM26"
+    },
+    {
+      "guidance_metric": "Key Milestone: FY2026 Audited IFRS & Post-2026 Dividend Policy Renewal",
+      "management_target": "Determines whether dividend exemption extends beyond 2026.",
+      "current_runrate": "Scheduled H1 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "HY25/2026: LTM HY25 rev UZS 34.57tn, adj EBITDA UZS 16.69tn, net debt UZS 45.02tn (~2.7x); Fitch affirmed BB Positive; KPMG advising Uzbekistan GTL privatization.",
+      "last_guided_source": "Uzbekneftegaz London Rating Disclosures & Fitch Nov-2026 Review, read 24-Nov-26",
+      "last_verified_period": "LTM26"
+    }
+  ]
 }

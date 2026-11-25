@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/ihs.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- IHS 10.25% 2027: price 91.5, YTM 10.25%, spread 590bp (as of 2026-11-22).
+- IHS 10.25% 2027: price 91.5, YTM 10.25%, spread 590bp (as of 2026-11-25).
 - Rating as recorded: B+ / B2.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 1763 | 896 | -114.5 | 3440.9 | 3.84 | 3.41 |
-| 2023A | 1978 | 1008 | -147.9 | 3577.6 | 3.55 | 3.2 |
-| 2024A | 2150 | 1120 | 8.6 | 3539.2 | 3.16 | 3.2 |
+| 2025A | 1582.0 | 1353.9 |  |  | 3.3 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=ihs) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/ihs.json)

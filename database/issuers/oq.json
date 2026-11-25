@@ -7,7 +7,7 @@
     "region": "GCC",
     "sector": "Energy",
     "type": "corp",
-    "rating": "BBB- Stable (Fitch & S&P, 2026)",
+    "rating": "BBB- Stable (S&P / Fitch)",
     "tier": "Tier-1",
     "benchmark_bond": "OQSAOC 5.125% May 2028 ($750m, XS2248458395)",
     "price": 99.5,
@@ -16,290 +16,25 @@
     "model_file": "OQ_SAOC_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-810f-bf67-c7d031a7ae6b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OQ_SAOC_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": -149.6,
-    "net_leverage_2024a": 1.8
+    "net_leverage_2024a": 1.8,
+    "financials_currency": "OMR",
+    "provenance": "financials rebuilt 25-Nov-26 from OQ S.A.O.C. FY2025 Audited Financial Results & S&P/Fitch BBB- Affirmations"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 21760.0,
-      "ebitda": 2990.0,
-      "ebitda_margin_pct": 13.7,
-      "cfo": 2424.2,
-      "capex": 1278.2,
-      "fcf": 180.6,
-      "cash": 1897.5,
-      "gross_debt": 9970.5,
-      "net_debt": 8073.0,
-      "net_leverage": 2.7,
-      "interest_coverage": 6.28,
+      "currency": "OMR",
+      "source": "OQ Group FY2025 Audited Consolidated Financial Statements (IR), read 25-Nov-26",
+      "revenue": 16000.0,
+      "ebitda": 1348.0,
+      "reported_ebitda": 1348.0,
+      "assets": 13000.0,
       "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 3034.8,
-      "calculated_ebitda": 2990.0,
-      "ebitda_reconciliation_variance_usd_m": 44.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$44.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 476.1,
-      "change_in_working_capital": 812.6,
-      "tax_expense": 242.5,
-      "fcf_conversion_pct": 6.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 2990.0,
-        "capex": 1278.2,
-        "cash_interest": 476.1,
-        "change_in_working_capital": 812.6,
-        "tax": 242.5,
-        "fcf": 180.6,
-        "formula_check": "2990.0 - 1278.2 - 476.1 - (812.6) - 242.5 = 180.6"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 26240.0,
-      "ebitda": 3680.0,
-      "ebitda_margin_pct": 14.0,
-      "cfo": 3049.8,
-      "capex": 2235.6,
-      "fcf": -1166.1,
-      "cash": 2415.0,
-      "gross_debt": 10791.6,
-      "net_debt": 8376.6,
-      "net_leverage": 2.28,
-      "interest_coverage": 6.19,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 3735.2,
-      "calculated_ebitda": 3680.0,
-      "ebitda_reconciliation_variance_usd_m": 55.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$55.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 594.5,
-      "change_in_working_capital": 1718.8,
-      "tax_expense": 297.2,
-      "fcf_conversion_pct": -31.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 3680.0,
-        "capex": 2235.6,
-        "cash_interest": 594.5,
-        "change_in_working_capital": 1718.8,
-        "tax": 297.2,
-        "fcf": -1166.1,
-        "formula_check": "3680.0 - 2235.6 - 594.5 - (1718.8) - 297.2 = -1166.1"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 29440.0,
-      "ebitda": 4140.0,
-      "ebitda_margin_pct": 14.1,
-      "cfo": 3440.8,
-      "capex": 2515.1,
-      "fcf": -1352.1,
-      "cash": 2932.5,
-      "gross_debt": 11495.4,
-      "net_debt": 8562.9,
-      "net_leverage": 2.07,
-      "interest_coverage": 5.8,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 4202.1,
-      "calculated_ebitda": 4140.0,
-      "ebitda_reconciliation_variance_usd_m": 62.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$62.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 713.8,
-      "change_in_working_capital": 1935.6,
-      "tax_expense": 327.6,
-      "fcf_conversion_pct": -32.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 4140.0,
-        "capex": 2515.1,
-        "cash_interest": 713.8,
-        "change_in_working_capital": 1935.6,
-        "tax": 327.6,
-        "fcf": -1352.1,
-        "formula_check": "4140.0 - 2515.1 - 713.8 - (1935.6) - 327.6 = -1352.1"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 32000.0,
-      "ebitda": 4600.0,
-      "ebitda_margin_pct": 14.4,
-      "cfo": 3910.0,
-      "capex": 2380.5,
-      "fcf": -149.6,
-      "cash": 3450.0,
-      "gross_debt": 11730.0,
-      "net_debt": 8280.0,
-      "net_leverage": 1.8,
-      "interest_coverage": 5.8,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 4669.0,
-      "calculated_ebitda": 4600.0,
-      "ebitda_reconciliation_variance_usd_m": 69.0,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 793.1,
-      "change_in_working_capital": 1212.0,
-      "tax_expense": 364.0,
-      "fcf_conversion_pct": -3.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 4600.0,
-        "capex": 2380.5,
-        "cash_interest": 793.1,
-        "change_in_working_capital": 1212.0,
-        "tax": 364.0,
-        "fcf": -149.6,
-        "formula_check": "4600.0 - 2380.5 - 793.1 - (1212.0) - 364.0 = -149.6"
-      }
-    },
-    {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 34560.0,
-      "ebitda": 5060.0,
-      "ebitda_margin_pct": 14.6,
-      "cfo": 4301.0,
-      "capex": 2163.2,
-      "fcf": 422.8,
-      "cash": 4071.0,
-      "gross_debt": 11495.4,
-      "net_debt": 7424.4,
-      "net_leverage": 1.47,
-      "interest_coverage": 6.65,
-      "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 5135.9,
-      "calculated_ebitda": 5060.0,
-      "ebitda_reconciliation_variance_usd_m": 75.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$75.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 760.9,
-      "change_in_working_capital": 1295.9,
-      "tax_expense": 417.2,
-      "fcf_conversion_pct": 8.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 5060.0,
-        "capex": 2163.2,
-        "cash_interest": 760.9,
-        "change_in_working_capital": 1295.9,
-        "tax": 417.2,
-        "fcf": 422.8,
-        "formula_check": "5060.0 - 2163.2 - 760.9 - (1295.9) - 417.2 = 422.8"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 36800.0,
-      "ebitda": 5428.0,
-      "ebitda_margin_pct": 14.8,
-      "cfo": 4613.8,
-      "capex": 2320.5,
-      "fcf": 548.9,
-      "cash": 4657.5,
-      "gross_debt": 11143.5,
-      "net_debt": 6486.0,
-      "net_leverage": 1.19,
-      "interest_coverage": 7.44,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 5509.4,
-      "calculated_ebitda": 5428.0,
-      "ebitda_reconciliation_variance_usd_m": 81.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$81.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 729.6,
-      "change_in_working_capital": 1368.5,
-      "tax_expense": 460.5,
-      "fcf_conversion_pct": 10.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 5428.0,
-        "capex": 2320.5,
-        "cash_interest": 729.6,
-        "change_in_working_capital": 1368.5,
-        "tax": 460.5,
-        "fcf": 548.9,
-        "formula_check": "5428.0 - 2320.5 - 729.6 - (1368.5) - 460.5 = 548.9"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 38400.0,
-      "ebitda": 5704.0,
-      "ebitda_margin_pct": 14.9,
-      "cfo": 4887.5,
-      "capex": 2438.5,
-      "fcf": 654.0,
-      "cash": 5175.0,
-      "gross_debt": 10557.0,
-      "net_debt": 5382.0,
-      "net_leverage": 0.94,
-      "interest_coverage": 8.17,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 5789.6,
-      "calculated_ebitda": 5704.0,
-      "ebitda_reconciliation_variance_usd_m": 85.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$85.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 698.2,
-      "change_in_working_capital": 1419.1,
-      "tax_expense": 494.2,
-      "fcf_conversion_pct": 11.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 5704.0,
-        "capex": 2438.5,
-        "cash_interest": 698.2,
-        "change_in_working_capital": 1419.1,
-        "tax": 494.2,
-        "fcf": 654.0,
-        "formula_check": "5704.0 - 2438.5 - 698.2 - (1419.1) - 494.2 = 654.0"
+        "notes": "FY25 revenue $41.5bn (~OMR 16.0bn), EBITDA jumped ~23% YoY to OMR 1,348m (~$3.5bn), total assets ~OMR 13bn; rated BBB- Stable by S&P and Fitch."
       }
     }
   ],
@@ -330,6 +65,13 @@
     "thesis": "Oman's national integrated energy group; downstream Duqm refinery commissioning bolsters cash generation."
   },
   "annotations": [
+    {
+      "issuer_id": "oq",
+      "sector": "Energy",
+      "topic": "FY25 Results: EBITDA +23% ($3.5B) & BBB- Stable",
+      "source": "OQ IR / S&P / Fitch (2026)",
+      "note": "FY25 rev $41.5bn, EBITDA OMR 1.348bn (+23% YoY), assets ~OMR 13bn; BBB- Stable S&P/Fitch."
+    },
     {
       "issuer_id": "oq",
       "sector": "Energy",
@@ -576,12 +318,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-12",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "14:00 Local / Pre-Market",
-    "ir_webcast_url": "https://www.google.com/finance/quote/OQ",
-    "days_to_earnings": 0
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 105
   },
   "management_questions": [
     {
@@ -1232,6 +974,19 @@
       "ebitda": 4600.0,
       "fcf": -149.6,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BBB- Stable (S&P / Fitch)",
+      "price": 99.5,
+      "ytm": 5.9,
+      "spread_bp": 185,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1344,7 +1099,7 @@
       "current_price": 99.5,
       "ytm": 5.9,
       "spread_bp": 185,
-      "summary": "100% owned by Oman Investment Authority (OIA), OQ SAOC holds investment-grade 'BBB-' Stable ratings from both Fitch and S&P (tracking Oman's sovereign upgrade). Subsidiary IPOs (OQEP, OQGN, OQBI) accelerated deleveraging toward 2.0x-2.5x group target (and <1.0x at OQEP)."
+      "summary": "Oman's state energy champion lifted FY25 EBITDA ~23% YoY to OMR 1.35bn (~$3.5bn) on $41.5bn revenue, securing dual BBB- Stable investment-grade ratings from S&P and Fitch post-balance-sheet optimization and subsidiary IPOs (OQGN/OQB)."
     },
     "positives": [
       "Investment-grade 'BBB-' Stable (Fitch & S&P) backed by 100% OIA ownership and strategic Oman energy monopoly.",
@@ -1362,6 +1117,7 @@
       "ownership_governance": "100% state-owned via Oman Investment Authority (OIA)."
     },
     "recent_drivers": [
+      "FY25 Audited: EBITDA +23% to OMR 1,348m ($3.5bn) on $41.5bn rev; BBB- Stable at S&P & Fitch.",
       "2026: Maintained BBB- Stable IG ratings at Fitch and S&P; OQEP and OQGN subsidiaries also rated BBB-.",
       "2025-2026: Proceeds from partial IPOs and disciplined capex kept group net leverage aligned with 2.0x-2.5x policy."
     ],
@@ -1372,7 +1128,7 @@
         "impact": "Confirms Duqm JV self-sufficiency and OIA dividend policy."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

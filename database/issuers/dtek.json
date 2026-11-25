@@ -16,7 +16,7 @@
     "model_file": "DTEK_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6810884b0f8366b6f9dce",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DTEK_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "cognitive_credit_id": "dtek",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/dtek/description",
     "model_type": "corp",
@@ -332,6 +332,13 @@
     "thesis": "Critical national power utility; 500MW+ renewables + domestic gas upstream; ENTSO-E EU grid connectivity."
   },
   "annotations": [
+    {
+      "issuer_id": "dtek",
+      "sector": "Utilities",
+      "topic": "H126 DTEK Renewables EBITDA +100% ($104m) vs Thermal Strikes",
+      "source": "DTEK / Dragon Capital / Fitch (2026)",
+      "note": "DTEK Renewables H126 rev +92% YoY to $133m, EBITDA doubled to $104m (78% margin); DTEK Energy remains CCC-/CC under NBU FX transfer controls and thermal plant strikes."
+    },
     {
       "issuer_id": "dtek",
       "issuer_name": "DTEK Energy",
@@ -1215,6 +1222,19 @@
       "ebitda": 420.0,
       "fcf": -100.0,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "CCC / Caa3",
+      "price": 68.5,
+      "ytm": 18.5,
+      "spread_bp": 1410,
+      "net_leverage": 3.02,
+      "ebitda": 420.0,
+      "fcf": -100.0,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1327,6 +1347,7 @@
       "ownership_governance": "100% SCM Group (Rinat Akhmetov)."
     },
     "recent_drivers": [
+      "H126: DTEK Renewables EBITDA doubled to $104m (78% margin) while DTEK Energy remained CCC-/CC amid thermal strikes.",
       "2026 Restructuring: DTEK Oil & Gas ($425m NGD Holdings) extended repayments to Dec-2029 at 9.875% coupon; DTEK Renewables affirmed at Fitch 'CC' ahead of \u20ac281m Nov-2027 green bond maturity."
     ],
     "catalysts": [
@@ -1336,7 +1357,7 @@
         "impact": "Critical maturity wall test for DTEK Renewables."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

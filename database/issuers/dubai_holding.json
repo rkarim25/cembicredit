@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "id": "dubai_holding",
+    "name": "Dubai Holding",
+    "ticker": "DUBAIH",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Real Estate",
+    "type": "corp",
+    "rating": "Government of Dubai GRE (Unrated / Subsidiary Rated)",
+    "tier": "IG",
+    "benchmark_bond": "Dubai Holding Commercial Operations EMTN",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Dubai_Holding_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dubai_Holding_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "AED",
+    "provenance": "financials built 25-Nov-26 from Dubai Holding Impact Report & DFM subsidiary disclosures (2025/2026); quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "Dubai Holding 2025 Impact Report & DFM Subsidiary Filings (TECOM / Dubai Residential REIT), read 25-Nov-26",
+      "assets": 500000.0,
+      "observations": {
+        "notes": "Manages >AED 500bn ($136bn) diversified asset portfolio across 10 sectors; accounted for 13.5% of Dubai GDP in 2025. Consolidated group P&L private; listed subsidiaries (TECOM, Dubai Residential REIT) report ~75% leasing EBITDA margins."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Dubai Holding Commercial Operations EMTN / Sukuk Program",
+      "tranche_name": "Dubai Holding Commercial Operations EMTN / Sukuk Program",
+      "instrument_type": "Senior Unsecured EMTN / Sukuk",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "Program",
+      "maturity": "2029-12-31",
+      "maturity_date": "2029-12-31",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "Active multi-currency EMTN & subsidiary Sukuk/loan funding platform; historical GBP/USD/CHF issuances."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 1000.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 1000.0,
+    "source": "Indicative holding/commercial financing program placeholder; full private consolidated debt schedule awaits bondholder disclosure."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Neutral / Flagship Dubai Sovereign GRE Portfolio (>AED 500bn Assets)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Owned by the Government of Dubai, Dubai Holding manages >AED 500bn ($136bn) of prime real estate, hospitality (Jumeirah), and business parks (TECOM, Dubai Residential REIT), contributing 13.5% of Dubai's GDP. Private consolidated financial reporting requires monitoring subsidiary filings and Dubai sovereign fiscal dynamics."
+    },
+    "positives": [
+      ">AED 500bn ($136bn) diversified real estate, hospitality, and business-district asset base.",
+      "Strategic pillar of Dubai economy (13.5% direct GDP share; 30% ecosystem impact) with strong implicit Dubai sovereign backing.",
+      "High-margin recurring leasing income across TECOM and Dubai Residential REIT (~75% EBITDA margin)."
+    ],
+    "negatives": [
+      "Consolidated group-level revenue, EBITDA, and total debt figures are private.",
+      "Exposure to cyclical Dubai real estate and luxury tourism demand."
+    ],
+    "background": {
+      "business_overview": "Strategic investment holding company owned by the Government of Dubai.",
+      "asset_perimeter": "10 sectors including Dubai Holding Asset Management, Jumeirah Group, TECOM Group (DFM-listed), Dubai Residential REIT, Dubai Holding Entertainment.",
+      "ownership_governance": "100% Government of Dubai."
+    },
+    "recent_drivers": [
+      "2025/2026: Impact Report confirmed >AED 500bn ($136bn) AUM and 13.5% share of Dubai GDP; listed REIT/TECOM leasing portfolios posting double-digit growth."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-31",
+        "event": "FY2026 Subsidiary Filings (TECOM / Dubai Residential REIT) & Annual Review",
+        "impact": "Visibility on leasing occupancy, rental growth, and GRE leverage."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Portfolio Scale & GDP Footprint",
+      "management_target": "Sustain >AED 500bn diversified real estate & hospitality asset base",
+      "current_runrate": ">AED 500bn ($136bn) assets in 2025",
+      "tracking_status": "On Track",
+      "variance_analysis": "Listed subsidiary leasing portfolios (TECOM/REIT) sustaining ~75% EBITDA margins.",
+      "last_guided_source": "Dubai Holding Impact Report (2025/2026)",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Provide consolidated group EBITDA, gross debt, and cash balances alongside standalone HoldCo debt-service coverage.",
+      "focus_area": "Financial Disclosure",
+      "relevance": "Private HoldCo reporting limits direct consolidated leverage visibility."
+    },
+    {
+      "question": "Outline upcoming 2027-2028 USD/AED bond or Sukuk refinancing plans.",
+      "focus_area": "Funding & Liquidity",
+      "relevance": "Tracks primary market supply."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "dubai_holding",
+      "sector": "Real Estate",
+      "topic": "AED 500bn+ Asset Base & GRE Footprint",
+      "source": "Dubai Holding Impact Report / DFM (2026)",
+      "note": "Manages >AED 500bn ($136bn) across 10 sectors (13.5% of Dubai GDP); core leasing REITs/TECOM running ~75% EBITDA margins."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Annual Review",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Dubai",
+    "ir_webcast_url": "https://dubaiholding.com/en/",
+    "days_to_earnings": 126
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Government of Dubai GRE (Unrated / Subsidiary Rated)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 80.0,
+    "base_case_px": 96.0,
+    "recovery_floor_pct": 80.0,
+    "recovery_base_pct": 96.0,
+    "implied_stress_ev_multiple": 8.0,
+    "restructuring_framework": "Dubai Decree / UAE Law",
+    "thesis": "Prime Dubai landbank and recurring business-park assets backed by Government of Dubai."
+  }
+}

@@ -273,6 +273,19 @@
       "ebitda": 4600.0,
       "fcf": 2068.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Baa3 / BBB- / BBB-",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 3.11,
+      "ebitda": 4600.0,
+      "fcf": 2068.0,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
@@ -292,5 +305,25 @@
     "implied_stress_ev_multiple": "6.5x Pharma EBITDA (2.71x Net Lev)",
     "restructuring_framework": "Israel / New York & English Law",
     "thesis": "Rising-star IG pharma (Baa3/BBB-) deleveraging toward 2.0x by 2027 on +33% innovative brands growth (Austedo/Ajovy/Uzedy)."
-  }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "2.71x Net Debt/EBITDA",
+      "tracking_status": "On Track",
+      "variance_analysis": "Teva regained Investment Grade ratings across all three agencies (Moody's Baa3 Stable, S&P & Fitch IG) in 2026 after paying down ~$12bn debt since 2019. Q3 2026 Adj EBITDA grew 7% YoY to $1.5bn as innovative brands (+33%",
+      "last_guided_source": "Teva Q3 2026 Earnings Release (03-Nov-26), read 21-Nov-26",
+      "last_verified_period": "Q326"
+    },
+    {
+      "guidance_metric": "Key Milestone: FY2026 Audited Results & 2027 Guidance",
+      "management_target": "Confirms pace toward 2.0x YE27 net leverage target and Austedo peak trajectory.",
+      "current_runrate": "Scheduled Feb 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "03-Nov-26 (Q3 2026): Revenue $4.4bn (-2% YoY), Adj EBITDA $1.5bn (+7% YoY), FCF $495m, Net Leverage 2.71x (vs 3.11x YoY).",
+      "last_guided_source": "Teva Q3 2026 Earnings Release (03-Nov-26), read 21-Nov-26",
+      "last_verified_period": "Q326"
+    }
+  ]
 }

@@ -4,9 +4,14 @@ _Page created 24-Nov-26 from `database/issuers/uzbekneftegaz.json`. Dated, sourc
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB Positive (Fitch, Nov-26, SCP b+) / BB- Stable (S&P).
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2024A | 34127000.0 | 16154000.0 |  | 41491000.0 | 2.57 |  |
+_USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=uzbekneftegaz) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/uzbekneftegaz.json)
 <!-- auto-data-end -->

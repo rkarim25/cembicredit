@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "id": "pko_bp",
+    "name": "PKO Bank Polski",
+    "ticker": "PKOBP",
+    "country": "Poland",
+    "region": "CEE",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A2 (Moody's) / A- (S&P)",
+    "tier": "IG",
+    "benchmark_bond": "PKOBP 4.09% Green Tier 2 EUR due Jun 2036",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "PKO_BP_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PKO_BP_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "bank",
+    "financials_currency": "PLN",
+    "provenance": "financials built 25-Nov-26 from PKO BP FY2025 Audited & 9M 2026 WSE Financial Statements (Nov-26); quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "PLN",
+      "source": "PKO Bank Polski FY2025 Audited Consolidated Financial Statements (WSE / IR), read 25-Nov-26",
+      "net_profit": 10700.0,
+      "observations": {
+        "notes": "FY25 net profit PLN 10.7bn after absorbing PLN 4.4bn CHF mortgage legal risk provisions; total assets ~$162.3bn."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "PLN",
+      "source": "PKO Bank Polski 9M 2026 Unaudited Financial Results (Nov-26), read 25-Nov-26",
+      "net_profit": 8220.0,
+      "cir_pct": 31.0,
+      "roe_pct": 19.0,
+      "tier1_pct": 15.28,
+      "observations": {
+        "notes": "9M26 NI PLN 8.22bn (incl. PLN 1.1bn CHF provisions \u2014 sharply down YoY), ROE 19.0%, C/I 31.0%, CoR 27-30bps, Tier 1 15.28%, financing growth +15.3% YoY."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "PKO BP 4.090% Green Tier 2 Subordinated due Jun 2036 (10NC5)",
+      "tranche_name": "PKO BP 4.090% Green Tier 2 Subordinated due Jun 2036 (10NC5)",
+      "instrument_type": "Subordinated Tier 2 (Green)",
+      "currency": "EUR",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "4.090%",
+      "maturity": "2036-06-24",
+      "maturity_date": "2036-06-24",
+      "seniority": "Subordinated Tier 2",
+      "governing_law": "English",
+      "observation": "10NC5 EUR Green Tier 2 under EMTN Programme."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 500.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "EUR Green Tier 2 10NC5 benchmark tranche (MREL senior/NPS EUR tranches also issued under EMTN)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Neutral / Poland's #1 Bank with Waning CHF Legal Drag & 19% ROE (A2 / A-)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "PKO BP posted PLN 8.22bn 9M26 net profit with 19.0% ROE, 31.0% cost-to-income, and ultra-low 27-30bps cost of risk as CHF mortgage legal provisions dropped sharply to PLN 1.1bn (vs PLN 4.4bn in FY25). Strong 15.28% Tier 1 ratio underpins tight IG MREL/Tier 2 spreads."
+    },
+    "positives": [
+      "Poland's #1 universal bank (~$162.3bn assets) with 29.4% Polish State Treasury ownership.",
+      "Exceptional efficiency (31.0% C/I, 19.0% ROE) and pristine 27-30bps cost of risk in 9M26.",
+      "CHF mortgage legal provisioning declining rapidly (PLN 1.1bn in 9M26 vs PLN 4.4bn FY25)."
+    ],
+    "negatives": [
+      "Polish bank windfall/CIT tax rates and sensitivity to NBP rate cuts.",
+      "Ongoing MREL debt issuance supply in EUR."
+    ],
+    "background": {
+      "business_overview": "Poland's largest commercial bank by assets, deposits, and retail/corporate franchise.",
+      "asset_perimeter": "Retail, corporate, investment banking, leasing, and Ukraine (Kredobank) operations.",
+      "ownership_governance": "29.4% State Treasury of Poland; WSE listed (PKO)."
+    },
+    "recent_drivers": [
+      "Nov-26 (9M26): NI PLN 8.22bn, ROE 19.0%, C/I 31.0%, Tier 1 15.28%, CoR 27-30bps, CHF provisions down to PLN 1.1bn."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-04",
+        "event": "FY2026 Audited Results & Dividend / MREL Issuance Plan",
+        "impact": "Confirms full-year ROE and 2027 MREL/T2 supply."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Operational Efficiency & ROE",
+      "management_target": "Sustain ROE >15% and C/I <35%",
+      "current_runrate": "19.0% ROE / 31.0% C/I in 9M26",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "Waning CHF drag and 15.3% loan growth drove strong returns.",
+      "last_guided_source": "PKO BP 9M26 Release (Nov-26)",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Quantify remaining CHF mortgage settlement/litigation coverage and residual 2027 provision drag.",
+      "focus_area": "Legal Risk",
+      "relevance": "Determines full normalization of distributable capital."
+    },
+    {
+      "question": "Detail 2027 EUR MREL senior non-preferred and Tier 2 issuance guidance.",
+      "focus_area": "MREL Supply",
+      "relevance": "Technical spread driver."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "pko_bp",
+      "sector": "Banks",
+      "topic": "9M26 Profit PLN 8.22bn & 15.28% Tier 1",
+      "source": "PKO BP WSE Filings (Nov-26)",
+      "note": "9M26 NI PLN 8.22bn, ROE 19.0%, C/I 31.0%, CoR 27-30bps, Tier 1 15.28%; CHF provisions down to PLN 1.1bn."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-04",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "09:00 Warsaw",
+    "ir_webcast_url": "https://www.pkobp.pl/en/investor-relations",
+    "days_to_earnings": 99
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "A2 (Moody's) / A- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}

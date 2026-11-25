@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/rajhi.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- RAJHI 4.75% 2029: price 100.8, YTM 4.75%, spread 55bp (as of 2026-11-22).
+- RAJHI 4.865% May 2030 Sukuk (XS3038530229): price 100.8, YTM 4.75%, spread 55bp (as of 2026-11-25).
 - Rating as recorded: A1 / A-.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2022A |  | 7191.1 |  | 20.5 | 0.9 |
-| 2023A |  | 7776.5 |  | 20.5 | 0.9 |
-| 2024A |  | 8318.7 |  | 20.5 | 0.9 |
+| 2025A |  |  |  |  |  |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=rajhi) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/rajhi.json)
 <!-- auto-data-end -->

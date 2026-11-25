@@ -224,6 +224,39 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B (Fitch) / AA-(nga)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "CAR 17.4%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 9M26 disclosures.",
+      "last_guided_source": "Access Holdings 9M 2026 Unaudited Results (NGX), read 22-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "Monitored quarterly",
+      "tracking_status": "On Track",
+      "variance_analysis": "Nigeria's largest banking group by assets (NGN 52.6tn at 3Q26) proved FC liquidity resilience by redeeming its $500m 6.125% Sep-2026 Eurobond in full from internal FX resources and satisfying CBN's NGN 500bn recapitaliza",
+      "last_guided_source": "Access Holdings 9M 2026 Unaudited Results (NGX), read 22-Nov-26",
+      "last_verified_period": "9M26"
     }
   ]
 }

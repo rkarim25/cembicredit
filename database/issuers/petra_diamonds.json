@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "id": "petra_diamonds",
+    "name": "Petra Diamonds",
+    "ticker": "PDL",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "SD (S&P, Jul-26) / LSE Suspended (Nov-26)",
+    "tier": "Distressed",
+    "benchmark_bond": "PDL 10.5%/11.5% 2L Notes Mar 2030 ($228M, XS2289895927)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Petra_Diamonds_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Petra_Diamonds_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 25-Nov-26 from Petra Diamonds FY25/FY26 Reports, S&P SD Action (Jul-26) & Nov-26 LSE Suspension; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Petra Diamonds FY2025 Annual Report (YE Jun-25), read 25-Nov-26",
+      "revenue": 207.0,
+      "ebitda": 27.0,
+      "reported_ebitda": 27.0,
+      "ebitda_margin_pct": 13.0,
+      "net_debt": 261.0,
+      "net_leverage": 9.67,
+      "observations": {
+        "notes": "FY25 (ended Jun-25) rev $207m (-33% YoY), adj EBITDA $27m (13% margin), consolidated net debt $261m."
+      }
+    },
+    {
+      "period": "2026A",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Petra Diamonds FY2026 Financial Results & Nov-26 Audit Delay Disclosure, read 25-Nov-26",
+      "revenue": 206.0,
+      "net_debt": 322.0,
+      "observations": {
+        "notes": "FY26 (ended Jun-26) rev ~$206m, net debt climbed to $322m (from $284m at Dec-25 / H126 EBITDA $26m). Finsch mine placed in business rescue; S&P cut to SD in Jul-26 on interest deferral to Jan-27; LSE shares suspended Nov-26 over audit delay."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Petra Diamonds US$ Treasury 10.5%/11.5% 2L Senior Secured Notes due Mar 2030",
+      "tranche_name": "Petra Diamonds US$ Treasury 10.5%/11.5% 2L Senior Secured Notes due Mar 2030",
+      "instrument_type": "Second Lien Senior Secured",
+      "currency": "USD",
+      "amount_issued_usd_m": 228.0,
+      "outstanding_usd_m": 228.0,
+      "amount_outstanding_usd_m": 228.0,
+      "amount_usd_m": 228.0,
+      "coupon": "10.50%/11.50%",
+      "maturity": "2030-03-01",
+      "maturity_date": "2030-03-01",
+      "seniority": "Second Lien Secured",
+      "governing_law": "English",
+      "isin": "XS2289895927",
+      "observation": "144A: XS2289899242; extended from Mar-26 to Mar-30 in 2025/26 refi; interest deferred to Jan-27 (S&P SD)."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 94.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 228.0,
+    "total_outstanding_usd_m": 322.0,
+    "source": "$228m 2L notes extended to Mar-30 + ~$94m RCF/other debt implied by $322m consolidated net debt; senior interest deferred to Jan-27."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Underweight / Distressed Workout: S&P SD, Finsch Business Rescue & LSE Suspension",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Petra's liquidity deteriorated further in H2 FY26 as net debt climbed to $322m (Jun-26), forcing S&P to cut the issuer to 'SD' in July 2026 on deferred senior interest (pushed to Jan-2027), Finsch mine into South African business rescue, and LSE share trading into suspension in November 2026 over delayed FY26 audit completion."
+    },
+    "positives": [
+      "2L notes ($228m) already extended from Mar-26 to Mar-30 with PIK/share-coupon flexibility.",
+      "Cullinan flagship mine provides core blue/type-IIa diamond optionality if tender prices recover."
+    ],
+    "negatives": [
+      "S&P Selective Default (SD, Jul-26) on interest deferral to Jan-2027.",
+      "Finsch mine in business rescue; LSE shares suspended Nov-26 due to delayed FY26 audit.",
+      "Depressed rough diamond market + stronger ZAR squeezing margins (net debt $322m vs $27m FY25 EBITDA)."
+    ],
+    "background": {
+      "business_overview": "South African rough diamond producer operating Cullinan and Finsch mines.",
+      "asset_perimeter": "Cullinan Diamond Mine (SA) and Finsch Diamond Mine (in business rescue, SA).",
+      "ownership_governance": "LSE listed (PDL, trading suspended Nov-26)."
+    },
+    "recent_drivers": [
+      "Nov-26: LSE trading suspended on delayed FY26 audit; Jun-26 net debt $322m; Finsch in business rescue.",
+      "Jul-26: S&P downgraded to SD after deferring senior debt interest to Jan-2027."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-01-15",
+        "event": "Deferred Senior Debt Interest Payment Date & FY26 Audit Publication",
+        "impact": "Binary default/comprehensive restructuring trigger."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Audit & Liquidity Survival",
+      "management_target": "Publish audited FY26 accounts and service Jan-27 deferred interest",
+      "current_runrate": "LSE suspended Nov-26; net debt $322m (Jun-26)",
+      "tracking_status": "Lagging",
+      "variance_analysis": "Depressed diamond prices and Finsch rescue triggered S&P SD.",
+      "last_guided_source": "Petra Diamonds / S&P (Jul/Nov-26)",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Clarify Jan-2027 deferred interest cure plan, RCF lender standstill terms, and Finsch business rescue ring-fencing.",
+      "focus_area": "Restructuring & Liquidity",
+      "relevance": "Immediate binary trigger for 2L noteholders."
+    },
+    {
+      "question": "Confirm expected release date for audited FY2026 accounts and going-concern qualification.",
+      "focus_area": "Governance & Audit",
+      "relevance": "Required to lift Nov-26 LSE suspension."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "petra_diamonds",
+      "sector": "Materials",
+      "topic": "Nov-26 LSE Suspension & Jul-26 S&P SD Downgrade",
+      "source": "S&P / LSE / Petra Disclosures (Jul-Nov 26)",
+      "note": "Jun-26 net debt $322m, Finsch in business rescue, S&P SD (Jul-26) on Jan-27 interest deferral, LSE suspended Nov-26 on audit delay."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-01-15",
+    "period_reporting": "FY 2026 Audited (Delayed)",
+    "confirmation_status": "Estimated",
+    "call_time": "09:00 London",
+    "ir_webcast_url": "https://www.petradiamonds.com/investors/",
+    "days_to_earnings": 51
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "SD (S&P, Jul-26) / LSE Suspended (Nov-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Lagging"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 25.0,
+    "base_case_px": 48.0,
+    "recovery_floor_pct": 25.0,
+    "recovery_base_pct": 48.0,
+    "implied_stress_ev_multiple": 3.5,
+    "restructuring_framework": "SA Business Rescue / English Law 2L Notes",
+    "thesis": "Cullinan standalone value minus first-lien RCF and Finsch liabilities leaves deep impairment risk on 2L notes."
+  }
+}

@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/riyad.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- RIYAD 5.15% 2029: price 99.6, YTM 5.15%, spread 95bp (as of 2026-11-22).
+- RIYAD 6.209% Jul 2035 Tier 2 Sukuk (XS3068748618): price 99.6, YTM 5.15%, spread 95bp (as of 2026-11-25).
 - Rating as recorded: A2 / A.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2022A |  | 2800.8 |  | 18.0 | 1.6 |
-| 2023A |  | 3028.8 |  | 18.0 | 1.6 |
-| 2024A |  | 3240.0 |  | 18.0 | 1.6 |
+| 2025A |  |  |  |  |  |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=riyad) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/riyad.json)
 <!-- auto-data-end -->

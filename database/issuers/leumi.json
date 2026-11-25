@@ -263,6 +263,39 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "CAR 14.2%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 9M26 disclosures.",
+      "last_guided_source": "Bank Leumi Q3/9M 2026 Financial Results (17-Nov-26), read 22-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "NPL 0.43%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Israel's largest bank delivered record 9M26 earnings (NIS 8.2bn, +5.9% YoY; Q3 NIS 3.0bn) with sector-best 26% cost-to-income and ultra-clean 0.43% NPLs. June 2026 $1bn 5.70% Tier 2 CoCo issue (+155bp) underscores tight ",
+      "last_guided_source": "Bank Leumi Q3/9M 2026 Financial Results (17-Nov-26), read 22-Nov-26",
+      "last_verified_period": "9M26"
     }
   ]
 }

@@ -30,7 +30,7 @@
       "period": "2024A",
       "is_audited": true,
       "currency": "USD",
-      "source": "Kosmos Energy Ltd FY2024 Form 10-K (SEC), read 24-Nov-26",
+      "source": "Kosmos Energy Ltd FY2024 Form 10-K (SEC), read 24-Nov-26 (SEC Filing)",
       "revenue": 1680.0,
       "capex": 575.0,
       "net_debt": 2450.0,
@@ -42,7 +42,7 @@
       "period": "2025A",
       "is_audited": true,
       "currency": "USD",
-      "source": "Kosmos Energy Ltd FY2025 Form 10-K (SEC), read 24-Nov-26",
+      "source": "Kosmos Energy Ltd FY2025 Form 10-K (SEC), read 24-Nov-26 (SEC Filing)",
       "capex": 292.0,
       "net_debt": 2950.0,
       "observations": {
@@ -53,7 +53,7 @@
       "period": "9M26",
       "is_audited": false,
       "currency": "USD",
-      "source": "Kosmos Energy Ltd Q3/9M 2026 Form 10-Q & Nov-2026 RBL Extension Release, read 24-Nov-26",
+      "source": "Kosmos Energy Ltd Q3/9M 2026 Form 10-Q & Nov-2026 RBL Extension Release, read 24-Nov-26 (SEC Filing)",
       "revenue": 1390.0,
       "ebitda": 800.0,
       "reported_ebitda": 800.0,
@@ -984,6 +984,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B- / B3",
+      "price": 89.5,
+      "ytm": 10.45,
+      "spread_bp": 610,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1130,7 +1143,7 @@
     {
       "id": "kosmos-filings-20261124",
       "date": "2026-11-24",
-      "title": "Upgraded to Filings: FY24A\u20139M26 SEC Filings & Nov-26 RBL Extension",
+      "title": "Upgraded to Filings: FY24A–9M26 SEC Filings & Nov-26 RBL Extension",
       "source": "financials rebuilt 24-Nov-26 from Kosmos Energy FY2024/FY2025 SEC 10-K & 9M 2026 10-Q/IR filings + Nov-26 RBL extension",
       "status": "Current / Verified Filings Upgrade",
       "summary": "Extended $1.2bn RBL to Apr-2033; 9M26 EBITDAX ~$800m, capex $281m, net debt cut >$500m YTD to $2.47bn, cash $103.75m.",

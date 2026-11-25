@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/erdemir.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- EREGL 7.95% 2029: price 98.5, YTM 7.95%, spread 355bp (as of 2026-11-22).
+- EREGL 7.95% 2029: price 98.5, YTM 7.95%, spread 355bp (as of 2026-11-25).
 - Rating as recorded: BB- / B1.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 5576.0 | 680.0 | -390.2 | 1798.1 | 2.64 | 5.44 |
-| 2023A | 6256.0 | 765.0 | -447.1 | 1848.8 | 2.42 | 5.1 |
-| 2024A | 6800.0 | 850.0 | -162.4 | 1802.0 | 2.12 | 5.1 |
+| 2025A | 209000.0 |  |  | 43000.0 | 1.92 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=erdemir) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/erdemir.json)

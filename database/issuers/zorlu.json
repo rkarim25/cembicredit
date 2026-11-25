@@ -967,12 +967,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-06",
-    "period_reporting": "Q3 2026 / 9M",
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
     "confirmation_status": "Estimated",
-    "call_time": "18:00 Istanbul (Post-Market)",
+    "call_time": "14:00 Local",
     "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-    "days_to_earnings": 0
+    "days_to_earnings": 105
   },
   "management_questions": [
     {
@@ -1626,6 +1626,19 @@
       "date": "2026-11-24",
       "period_name": "2026-11-24",
       "timestamp": "2026-11-24T05:11:23.346699",
+      "rating": "Caa1 Neg (Moody's) / B- RWN (Fitch)",
+      "price": 63.5,
+      "ytm": 27.2,
+      "spread_bp": 2250,
+      "net_leverage": 3.62,
+      "ebitda": 15958.0,
+      "fcf": -4991.7,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
       "rating": "Caa1 Neg (Moody's) / B- RWN (Fitch)",
       "price": 63.5,
       "ytm": 27.2,

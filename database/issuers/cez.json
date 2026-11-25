@@ -16,293 +16,43 @@
     "model_file": "CEZ_Group_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81b1-a1f6-f74b7c94e35e",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEZ_Group_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "cognitive_credit_id": "cez",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/cez/description",
     "model_type": "corp",
     "fcf_2024a": -1083.6,
     "net_leverage_2024a": 1.4,
-    "provenance": "Q1-Q3 2026 results integrated 22-Nov-26"
+    "provenance": "financials rebuilt 25-Nov-26 from \u010cEZ FY2025 Audited & 9M 2026 Financial Statements (Nov-26)",
+    "financials_currency": "CZK"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 10336,
-      "ebitda": 2730,
-      "ebitda_margin_pct": 26.4,
-      "cfo": 2213.4,
-      "capex": 2204.5,
-      "fcf": -227.5,
-      "cash": 1732.5,
-      "gross_debt": 7675.5,
-      "net_debt": 5943,
-      "net_leverage": 2.18,
-      "interest_coverage": 9.53,
+      "currency": "CZK",
+      "source": "\u010cEZ Group FY2025 Audited Consolidated Financial Statements (IR), read 25-Nov-26",
+      "revenue": 333000.0,
+      "ebitda": 137000.0,
+      "reported_ebitda": 137000.0,
+      "ebitda_margin_pct": 41.1,
       "observations": {
-        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
-        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
-        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
-        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
-        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      },
-      "reported_ebitda": 2770.9,
-      "calculated_ebitda": 2730,
-      "ebitda_reconciliation_variance_usd_m": 40.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$40.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 286.5,
-      "change_in_working_capital": 222.8,
-      "tax_expense": 243.7,
-      "fcf_conversion_pct": -8.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 2730.0,
-        "capex": 2204.5,
-        "cash_interest": 286.5,
-        "change_in_working_capital": 222.8,
-        "tax": 243.7,
-        "fcf": -227.5,
-        "formula_check": "2730.0 - 2204.5 - 286.5 - (222.8) - 243.7 = -227.5"
+        "notes": "FY25 revenue CZK 333.0bn (-3.3% YoY), EBITDA CZK 137.0bn."
       }
     },
     {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 12464,
-      "ebitda": 3360,
-      "ebitda_margin_pct": 27,
-      "cfo": 2784.6,
-      "capex": 3855.6,
-      "fcf": -1683.1,
-      "cash": 2205,
-      "gross_debt": 8307.6,
-      "net_debt": 6102.6,
-      "net_leverage": 1.82,
-      "interest_coverage": 9.39,
-      "observations": {
-        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
-        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
-        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
-        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
-        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      },
-      "reported_ebitda": 3410.4,
-      "calculated_ebitda": 3360,
-      "ebitda_reconciliation_variance_usd_m": 50.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 357.8,
-      "change_in_working_capital": 530.6,
-      "tax_expense": 299.1,
-      "fcf_conversion_pct": -50.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 3360.0,
-        "capex": 3855.6,
-        "cash_interest": 357.8,
-        "change_in_working_capital": 530.6,
-        "tax": 299.1,
-        "fcf": -1683.1,
-        "formula_check": "3360.0 - 3855.6 - 357.8 - (530.6) - 299.1 = -1683.1"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 13984,
-      "ebitda": 3780,
-      "ebitda_margin_pct": 27,
-      "cfo": 3141.6,
-      "capex": 4337.6,
-      "fcf": -1918.8,
-      "cash": 2677.5,
-      "gross_debt": 8849.4,
-      "net_debt": 6171.9,
-      "net_leverage": 1.63,
-      "interest_coverage": 8.8,
-      "observations": {
-        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
-        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
-        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
-        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
-        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      },
-      "reported_ebitda": 3836.7,
-      "calculated_ebitda": 3780,
-      "ebitda_reconciliation_variance_usd_m": 56.7,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 429.5,
-      "change_in_working_capital": 599.2,
-      "tax_expense": 332.5,
-      "fcf_conversion_pct": -50.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 3780.0,
-        "capex": 4337.6,
-        "cash_interest": 429.5,
-        "change_in_working_capital": 599.2,
-        "tax": 332.5,
-        "fcf": -1918.8,
-        "formula_check": "3780.0 - 4337.6 - 429.5 - (599.2) - 332.5 = -1918.8"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 15200,
-      "ebitda": 4200,
-      "ebitda_margin_pct": 27.6,
-      "cfo": 3570,
-      "capex": 4105.5,
-      "fcf": -1083.6,
-      "cash": 3150,
-      "gross_debt": 9030,
-      "net_debt": 5880,
-      "net_leverage": 1.4,
-      "interest_coverage": 8.8,
-      "observations": {
-        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
-        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
-        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
-        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
-        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      },
-      "reported_ebitda": 4263,
-      "calculated_ebitda": 4200,
-      "ebitda_reconciliation_variance_usd_m": 63,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$63.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 477.3,
-      "change_in_working_capital": 331.4,
-      "tax_expense": 369.4,
-      "fcf_conversion_pct": -25.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 4200.0,
-        "capex": 4105.5,
-        "cash_interest": 477.3,
-        "change_in_working_capital": 331.4,
-        "tax": 369.4,
-        "fcf": -1083.6,
-        "formula_check": "4200.0 - 4105.5 - 477.3 - (331.4) - 369.4 = -1083.6"
-      }
-    },
-    {
-      "period": "2025E",
+      "period": "9M26",
       "is_audited": false,
-      "revenue": 16416,
-      "ebitda": 4620,
-      "ebitda_margin_pct": 28.1,
-      "cfo": 3927,
-      "capex": 3730.6,
-      "fcf": -332.5,
-      "cash": 3717,
-      "gross_debt": 8849.4,
-      "net_debt": 5132.4,
-      "net_leverage": 1.11,
-      "interest_coverage": 10.08,
+      "currency": "CZK",
+      "source": "\u010cEZ Group 9M 2026 Unaudited Financial Results (Nov-26), read 25-Nov-26",
+      "revenue": 238500.0,
+      "ebitda": 86100.0,
+      "reported_ebitda": 86100.0,
+      "ebitda_margin_pct": 36.1,
+      "net_profit": 26600.0,
+      "net_debt": 236000.0,
+      "net_leverage": 2.0,
       "observations": {
-        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
-        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
-        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
-        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
-        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      },
-      "reported_ebitda": 4689.3,
-      "calculated_ebitda": 4620,
-      "ebitda_reconciliation_variance_usd_m": 69.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 458.3,
-      "change_in_working_capital": 347.2,
-      "tax_expense": 416.4,
-      "fcf_conversion_pct": -7.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 4620.0,
-        "capex": 3730.6,
-        "cash_interest": 458.3,
-        "change_in_working_capital": 347.2,
-        "tax": 416.4,
-        "fcf": -332.5,
-        "formula_check": "4620.0 - 3730.6 - 458.3 - (347.2) - 416.4 = -332.5"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 17480,
-      "ebitda": 4956,
-      "ebitda_margin_pct": 28.4,
-      "cfo": 4212.6,
-      "capex": 4002.0,
-      "fcf": -301.0,
-      "cash": 4252.5,
-      "gross_debt": 8578.5,
-      "net_debt": 4326,
-      "net_leverage": 0.87,
-      "interest_coverage": 11.29,
-      "observations": {
-        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
-        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
-        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
-        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
-        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      },
-      "reported_ebitda": 5030.3,
-      "calculated_ebitda": 4956,
-      "ebitda_reconciliation_variance_usd_m": 74.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$74.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 439.0,
-      "change_in_working_capital": 361.5,
-      "tax_expense": 454.5,
-      "fcf_conversion_pct": -6.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 4956.0,
-        "capex": 4002.0,
-        "cash_interest": 439.0,
-        "change_in_working_capital": 361.5,
-        "tax": 454.5,
-        "fcf": -301.0,
-        "formula_check": "4956.0 - 4002.0 - 439.0 - (361.5) - 454.5 = -301.0"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 18240,
-      "ebitda": 5208,
-      "ebitda_margin_pct": 28.6,
-      "cfo": 4462.5,
-      "capex": 4205.5,
-      "fcf": -271.9,
-      "cash": 4725,
-      "gross_debt": 8127,
-      "net_debt": 3402,
-      "net_leverage": 0.65,
-      "interest_coverage": 12.4,
-      "observations": {
-        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
-        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
-        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
-        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
-        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      },
-      "reported_ebitda": 5286.1,
-      "calculated_ebitda": 5208,
-      "ebitda_reconciliation_variance_usd_m": 78.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$78.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 420.0,
-      "change_in_working_capital": 370.6,
-      "tax_expense": 483.8,
-      "fcf_conversion_pct": -5.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 5208.0,
-        "capex": 4205.5,
-        "cash_interest": 420.0,
-        "change_in_working_capital": 370.6,
-        "tax": 483.8,
-        "fcf": -271.9,
-        "formula_check": "5208.0 - 4205.5 - 420.0 - (370.6) - 483.8 = -271.9"
+        "notes": "9M26 rev CZK 238.5bn (-1% YoY), EBITDA CZK 86.1bn (-17% YoY on lower European power prices/nuclear output), NPAT rose 24% YoY to CZK 26.6bn on windfall tax expiry; net debt CZK 236.0bn (+14% YTD, 2.0x leverage)."
       }
     }
   ],
@@ -332,6 +82,13 @@
     "thesis": "Czech integrated utility powerhouse; Temel\u00edn and Dukovany nuclear generation guarantees low-cost baseload."
   },
   "annotations": [
+    {
+      "issuer_id": "cez",
+      "sector": "Utilities",
+      "topic": "9M26 Results: NPAT +24% Ex-Windfall Tax & 2.0x Leverage",
+      "source": "\u010cEZ IR Filings (Nov-26)",
+      "note": "9M26 rev CZK 238.5bn, EBITDA CZK 86.1bn (-17%), NPAT CZK 26.6bn (+24%), net debt CZK 236.0bn (2.0x)."
+    },
     {
       "issuer_id": "cez",
       "issuer_name": "\u010cEZ Group",
@@ -1215,6 +972,19 @@
       "ebitda": 4200,
       "fcf": -1083.6,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "A- / A3",
+      "price": 99.8,
+      "ytm": 4.95,
+      "spread_bp": 90,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1305,7 +1075,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Neutral / Reaffirmed CZK 109-114bn Guide Amid Capex Leverage Creep (2.0x)",
-      "summary": "9M26 EBITDA fell 17% YoY to CZK 86.1bn on lower realized power prices, though management reaffirmed FY26 EBITDA guidance of CZK 109-114bn. Net debt rose +14% YTD to CZK 236.0bn on elevated capex, lifting net leverage to 2.0x (from 1.5x).",
+      "summary": "\u010cEZ 9M26 net income jumped 24% YoY to CZK 26.6bn on the expiry of the Czech windfall tax even as EBITDA eased 17% to CZK 86.1bn on lower power realizations; net debt rose 14% YTD to CZK 236bn (2.0x vs 1.5x prior year) on transition capex.",
       "target_price": null,
       "current_price": 99.8,
       "ytm": 4.95,
@@ -1327,6 +1097,7 @@
       "ownership_governance": "69.8% Czech Ministry of Finance; Prague Stock Exchange listed."
     },
     "recent_drivers": [
+      "9M26 (Nov-26): EBITDA CZK 86.1bn (-17%), NPAT CZK 26.6bn (+24% ex-windfall tax), net debt CZK 236bn (2.0x).",
       "9M 2026 Results: EBITDA CZK 86.1bn (-17% YoY), FY26 EBITDA guide reaffirmed CZK 109-114bn, Net Debt CZK 236.0bn (+14% YTD, 2.0x vs 1.5x)."
     ],
     "catalysts": [
@@ -1336,7 +1107,7 @@
         "impact": "Clarifies off-balance-sheet vs on-balance-sheet nuclear debt burden."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

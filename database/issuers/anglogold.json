@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "id": "anglogold",
+    "name": "AngloGold Ashanti",
+    "ticker": "AU",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "Baa3 (Moody's) / BB+ (S&P/Fitch)",
+    "tier": "IG",
+    "benchmark_bond": "AU 3.75% Oct 2030 (US03512TAE10)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "AngloGold_Ashanti_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/AngloGold_Ashanti_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 25-Nov-26 from AngloGold Ashanti FY24/FY25 SEC 20-F & Q3 2026 Financial Results (Nov-26); quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "AngloGold Ashanti FY2024 Audited SEC Form 20-F, read 25-Nov-26",
+      "revenue": 5790.0,
+      "ebitda": 2747.0,
+      "reported_ebitda": 2747.0,
+      "ebitda_margin_pct": 47.4,
+      "net_debt": 567.0,
+      "net_leverage": 0.21,
+      "observations": {
+        "notes": "FY24 product sales $5.79bn, adj EBITDA $2,747m, adj net debt $567m (total net debt $728m)."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "AngloGold Ashanti FY2025 Audited SEC Form 20-F, read 25-Nov-26",
+      "revenue": 9890.0,
+      "ebitda": 6290.0,
+      "reported_ebitda": 6290.0,
+      "ebitda_margin_pct": 63.6,
+      "net_debt": -879.0,
+      "net_leverage": -0.14,
+      "observations": {
+        "notes": "FY25 product sales $9.89bn, record adj EBITDA $6.29bn (+129% YoY), shifted to $879m adjusted net cash (-0.14x net leverage)."
+      }
+    },
+    {
+      "period": "Q326",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "AngloGold Ashanti Q3 2026 Financial Results (Nov-26), read 25-Nov-26",
+      "net_profit": 787.0,
+      "observations": {
+        "notes": "Q326 net income $787m on $4,239/oz realized gold price, maintaining net cash balance sheet and reaffirmed FY26 production guidance."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "AngloGold Ashanti 3.375% Senior Notes due Nov 2028",
+      "tranche_name": "AngloGold Ashanti 3.375% Senior Notes due Nov 2028",
+      "instrument_type": "Senior Unsecured SEC Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 700.0,
+      "outstanding_usd_m": 700.0,
+      "amount_outstanding_usd_m": 700.0,
+      "amount_usd_m": 700.0,
+      "coupon": "3.375%",
+      "maturity": "2028-11-01",
+      "maturity_date": "2028-11-01",
+      "seniority": "Senior Unsecured",
+      "governing_law": "NY Law",
+      "isin": "US03512TAF84"
+    },
+    {
+      "instrument": "AngloGold Ashanti 3.750% Senior Notes due Oct 2030",
+      "tranche_name": "AngloGold Ashanti 3.750% Senior Notes due Oct 2030",
+      "instrument_type": "Senior Unsecured SEC Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 700.0,
+      "outstanding_usd_m": 700.0,
+      "amount_outstanding_usd_m": 700.0,
+      "amount_usd_m": 700.0,
+      "coupon": "3.750%",
+      "maturity": "2030-10-01",
+      "maturity_date": "2030-10-01",
+      "seniority": "Senior Unsecured",
+      "governing_law": "NY Law",
+      "isin": "US03512TAE10"
+    },
+    {
+      "instrument": "AngloGold Ashanti 6.500% Senior Notes due Apr 2040",
+      "tranche_name": "AngloGold Ashanti 6.500% Senior Notes due Apr 2040",
+      "instrument_type": "Senior Unsecured SEC Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0,
+      "amount_usd_m": 300.0,
+      "coupon": "6.500%",
+      "maturity": "2040-04-15",
+      "maturity_date": "2040-04-15",
+      "seniority": "Senior Unsecured",
+      "governing_law": "NY Law",
+      "isin": "US03512TAB70"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 700.0,
+    "2029": 0.0,
+    "2030_plus": 1000.0,
+    "total_outstanding_usd_m": 1700.0,
+    "source": "SEC-registered USD senior notes curve (2028, 2030, 2040)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Overweight / Net-Cash Global Gold Producer Generating Windfall FCF (Baa3 / BB+)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Record gold prices ($4,239/oz realized in Q326) drove $787m Q3 net income after FY25 adj EBITDA hit $6.29bn (+129% YoY) and flipped the balance sheet to $879m net cash (-0.14x). Strong rising-star trajectory at S&P/Fitch (BB+ vs Moody's Baa3) with no bond maturities until Nov-2028."
+    },
+    "positives": [
+      "Net cash balance sheet ($879m net cash at YE25) and $6.29bn FY25 adj EBITDA.",
+      "Geographically diversified Tier-1/Tier-2 assets (Tanzania, Ghana, Australia, Americas, Sukari Egypt) after NYSE/UK redomiciliation.",
+      "Low fixed-coupon USD bond stack (3.375%-3.75% for 2028/2030)."
+    ],
+    "negatives": [
+      "Gold price cyclicality and elevated royalty/tax regimes in West Africa and Tanzania.",
+      "Weather/operational interruptions in Q326 production volumes."
+    ],
+    "background": {
+      "business_overview": "Global gold mining company (founded in South Africa; primary listing NYSE, corporate domicile UK).",
+      "asset_perimeter": "Geita (Tanzania), Obuasi & Iduapriem (Ghana), Sukari (Egypt via Centamin), Tropicana/Sunrise Dam (Australia), Americas.",
+      "ownership_governance": "NYSE listed (AU); widely held institutional equity."
+    },
+    "recent_drivers": [
+      "Nov-26 (Q326): NI $787m at $4,239/oz realized gold; net cash balance sheet preserved; FY26 guidance reaffirmed."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-20",
+        "event": "FY2026 Audited Form 20-F & S&P/Fitch Rising-Star Review",
+        "impact": "Net cash scale makes upgrade from BB+ to BBB- likely at S&P/Fitch."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Balance Sheet & Production",
+      "management_target": "Maintain net cash / <1.0x leverage and hit FY26 production target",
+      "current_runrate": "$879m net cash (YE25); Q326 NI $787m, FY26 output reaffirmed",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "Gold rally ($4,239/oz Q3) delivers massive FCF cushion.",
+      "last_guided_source": "AngloGold Q3 2026 Release (Nov-26)",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Confirm Sukari integration synergies and 2027 dividend vs M&A capital allocation.",
+      "focus_area": "Capital Allocation",
+      "relevance": "Tests whether net cash buffer is preserved for IG ratings."
+    },
+    {
+      "question": "Update Ghana/Tanzania fiscal stability and cash repatriation status.",
+      "focus_area": "Jurisdiction Risk",
+      "relevance": "African cash trapping check."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "anglogold",
+      "sector": "Materials",
+      "topic": "Q326 NI $787m & $879m Net Cash",
+      "source": "AngloGold Ashanti Q326 (Nov-26)",
+      "note": "Q326 NI $787m at $4,239/oz gold; FY25 rev $9.89bn, adj EBITDA $6.29bn, net cash $879m (-0.14x)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 London",
+    "ir_webcast_url": "https://www.anglogoldashanti.com/investors/",
+    "days_to_earnings": 87
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Baa3 (Moody's) / BB+ (S&P/Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.21,
+      "ebitda": 2747.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 90.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 90.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.5,
+    "restructuring_framework": "UK / NY Law SEC Notes",
+    "thesis": "Net cash balance sheet and $6.3bn EBITDA cover $1.7bn bond stack >3.5x."
+  }
+}

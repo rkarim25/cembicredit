@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/mol.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- MOL 4.875% 2028: price 98.0, YTM 5.5%, spread 145bp (as of 2026-11-22).
+- MOL 4.875% 2028: price 98.0, YTM 5.5%, spread 145bp (as of 2026-11-25).
 - Rating as recorded: BBB-.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 19680.0 | 2480.0 | -788.4 | 3648.7 | 1.47 | 8.75 |
-| 2023A | 22080.0 | 2790.0 | -904.7 | 3644.1 | 1.31 | 8.2 |
-| 2024A | 24000.0 | 3100.0 | -22.2 | 3410.0 | 1.1 | 8.2 |
+| 2025A |  | 3369.0 |  | 1541.0 | 0.47 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=mol) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/mol.json)

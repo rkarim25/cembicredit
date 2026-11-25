@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/damac.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- DAMAC 6.125% Jul 2029 Sukuk ($600m): price 101.0, YTM 7.25%, spread 320bp (as of 2026-11-23).
-- Rating as recorded: Ba1 Stable (Moody's) / BB+ (S&P).
+- DAMAC 6.125% Jul 2029 Sukuk ($600m): price 101.0, YTM 7.25%, spread 320bp (as of 2026-11-25).
+- Rating as recorded: BB+ (S&P upgraded) / Ba2 (Moody's).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 1722.0 | 544.0 | -348.1 | 293.6 | 0.54 | 7.4 |
-| 2023A | 1932.0 | 612.0 | -395.9 | 259.6 | 0.42 | 6.94 |
-| 2024A | 2100.0 | 680.0 | -134.1 | 197.2 | 0.29 | 6.94 |
+| 2024A | 3300.0 |  |  |  |  |  |
+| 2025A | 4150.0 | 1250.0 |  |  | 1.2 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=damac) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/damac.json)

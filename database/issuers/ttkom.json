@@ -16,291 +16,41 @@
     "model_file": "Turk_Telekom_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81b8-a403-f39bd0b0ad41",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turk_Telekom_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": 127.3,
     "net_leverage_2024a": 1.45,
-    "provenance": "Q3/9M 2026 IAS 29 earnings integrated 22-Nov-26; historical Legacy series retained"
+    "provenance": "financials rebuilt 25-Nov-26 from T\u00fcrk Telekom FY2025 Audited & Q3/9M 2026 IAS 29 Statements (KAP / IR, Nov-26)",
+    "financials_currency": "TRY"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 2448.0,
-      "ebitda": 877.5,
-      "ebitda_margin_pct": 35.8,
-      "cfo": 711.5,
-      "capex": 350.1,
-      "fcf": 165.2,
-      "cash": 556.9,
-      "gross_debt": 2524.5,
-      "net_debt": 1967.6,
-      "net_leverage": 2.24,
-      "interest_coverage": 5.52,
+      "currency": "TRY",
+      "source": "T\u00fcrk Telekom FY2025 Audited IAS 29 Consolidated Statements (KAP / IR), read 25-Nov-26",
+      "revenue": 242200.0,
+      "ebitda": 99400.0,
+      "reported_ebitda": 99400.0,
+      "ebitda_margin_pct": 41.0,
+      "net_profit": 22980.0,
       "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 890.7,
-      "calculated_ebitda": 877.5,
-      "ebitda_reconciliation_variance_usd_m": 13.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 159.0,
-      "change_in_working_capital": 134.9,
-      "tax_expense": 68.3,
-      "fcf_conversion_pct": 18.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 877.5,
-        "capex": 350.1,
-        "cash_interest": 159.0,
-        "change_in_working_capital": 134.9,
-        "tax": 68.3,
-        "fcf": 165.2,
-        "formula_check": "877.5 - 350.1 - 159.0 - (134.9) - 68.3 = 165.2"
+        "notes": "FY25 IAS 29 revenue TRY 242.2bn (+14.5% YoY), EBITDA TRY 99.4bn (+20.2%, 41.0% margin), NPAT TRY 22.98bn (+107.6%), 56.6m subscribers."
       }
     },
     {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 2952.0,
-      "ebitda": 1080.0,
-      "ebitda_margin_pct": 36.6,
-      "cfo": 895.1,
-      "capex": 612.4,
-      "fcf": -81.9,
-      "cash": 708.8,
-      "gross_debt": 2732.4,
-      "net_debt": 2023.6,
-      "net_leverage": 1.87,
-      "interest_coverage": 5.44,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 1139.4,
-      "calculated_ebitda": 1080.0,
-      "ebitda_reconciliation_variance_usd_m": 59.4,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$59.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 198.5,
-      "change_in_working_capital": 267.4,
-      "tax_expense": 83.6,
-      "fcf_conversion_pct": -7.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 1080.0,
-        "capex": 612.4,
-        "cash_interest": 198.5,
-        "change_in_working_capital": 267.4,
-        "tax": 83.6,
-        "fcf": -81.9,
-        "formula_check": "1080.0 - 612.4 - 198.5 - (267.4) - 83.6 = -81.9"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 3312.0,
-      "ebitda": 1215.0,
-      "ebitda_margin_pct": 36.7,
-      "cfo": 1009.8,
-      "capex": 688.9,
-      "fcf": -106.3,
-      "cash": 860.6,
-      "gross_debt": 2910.6,
-      "net_debt": 2050.0,
-      "net_leverage": 1.69,
-      "interest_coverage": 5.1,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 1281.8,
-      "calculated_ebitda": 1215.0,
-      "ebitda_reconciliation_variance_usd_m": 66.8,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$66.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 238.2,
-      "change_in_working_capital": 302.4,
-      "tax_expense": 91.8,
-      "fcf_conversion_pct": -8.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 1215.0,
-        "capex": 688.9,
-        "cash_interest": 238.2,
-        "change_in_working_capital": 302.4,
-        "tax": 91.8,
-        "fcf": -106.3,
-        "formula_check": "1215.0 - 688.9 - 238.2 - (302.4) - 91.8 = -106.3"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 3600.0,
-      "ebitda": 1350.0,
-      "ebitda_margin_pct": 37.5,
-      "cfo": 1147.5,
-      "capex": 652.0,
-      "fcf": 127.3,
-      "cash": 1012.5,
-      "gross_debt": 2970.0,
-      "net_debt": 1957.5,
-      "net_leverage": 1.45,
-      "interest_coverage": 5.1,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 1424.2,
-      "calculated_ebitda": 1350.0,
-      "ebitda_reconciliation_variance_usd_m": 74.2,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$74.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 264.7,
-      "change_in_working_capital": 204.0,
-      "tax_expense": 102.0,
-      "fcf_conversion_pct": 9.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 1350.0,
-        "capex": 652.0,
-        "cash_interest": 264.7,
-        "change_in_working_capital": 204.0,
-        "tax": 102.0,
-        "fcf": 127.3,
-        "formula_check": "1350.0 - 652.0 - 264.7 - (204.0) - 102.0 = 127.3"
-      }
-    },
-    {
-      "period": "2025E",
+      "period": "9M26",
       "is_audited": false,
-      "revenue": 3888.0,
-      "ebitda": 1485.0,
-      "ebitda_margin_pct": 38.2,
-      "cfo": 1262.2,
-      "capex": 592.5,
-      "fcf": 304.5,
-      "cash": 1194.8,
-      "gross_debt": 2910.6,
-      "net_debt": 1715.8,
-      "net_leverage": 1.16,
-      "interest_coverage": 5.84,
+      "currency": "TRY",
+      "source": "T\u00fcrk Telekom Q3 & 9M 2026 IAS 29 Financial Results (KAP / IR, Nov-26), read 25-Nov-26",
+      "revenue": 236500.0,
+      "ebitda": 37000.0,
+      "reported_ebitda": 37000.0,
+      "ebitda_margin_pct": 42.9,
+      "net_debt": 125400.0,
+      "net_leverage": 0.98,
       "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 1507.3,
-      "calculated_ebitda": 1485.0,
-      "ebitda_reconciliation_variance_usd_m": 22.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$22.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 254.3,
-      "change_in_working_capital": 215.9,
-      "tax_expense": 117.8,
-      "fcf_conversion_pct": 20.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 1485.0,
-        "capex": 592.5,
-        "cash_interest": 254.3,
-        "change_in_working_capital": 215.9,
-        "tax": 117.8,
-        "fcf": 304.5,
-        "formula_check": "1485.0 - 592.5 - 254.3 - (215.9) - 117.8 = 304.5"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 4140.0,
-      "ebitda": 1593.0,
-      "ebitda_margin_pct": 38.5,
-      "cfo": 1354.0,
-      "capex": 635.6,
-      "fcf": 357.0,
-      "cash": 1366.9,
-      "gross_debt": 2821.5,
-      "net_debt": 1454.6,
-      "net_leverage": 0.91,
-      "interest_coverage": 6.54,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 1616.9,
-      "calculated_ebitda": 1593.0,
-      "ebitda_reconciliation_variance_usd_m": 23.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$23.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 243.6,
-      "change_in_working_capital": 226.1,
-      "tax_expense": 130.7,
-      "fcf_conversion_pct": 22.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 1593.0,
-        "capex": 635.6,
-        "cash_interest": 243.6,
-        "change_in_working_capital": 226.1,
-        "tax": 130.7,
-        "fcf": 357.0,
-        "formula_check": "1593.0 - 635.6 - 243.6 - (226.1) - 130.7 = 357.0"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 4320.0,
-      "ebitda": 1674.0,
-      "ebitda_margin_pct": 38.8,
-      "cfo": 1434.4,
-      "capex": 667.9,
-      "fcf": 399.6,
-      "cash": 1518.8,
-      "gross_debt": 2673.0,
-      "net_debt": 1154.2,
-      "net_leverage": 0.69,
-      "interest_coverage": 7.19,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 1699.1,
-      "calculated_ebitda": 1674.0,
-      "ebitda_reconciliation_variance_usd_m": 25.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$25.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 232.8,
-      "change_in_working_capital": 232.9,
-      "tax_expense": 140.8,
-      "fcf_conversion_pct": 23.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 1674.0,
-        "capex": 667.9,
-        "cash_interest": 232.8,
-        "change_in_working_capital": 232.9,
-        "tax": 140.8,
-        "fcf": 399.6,
-        "formula_check": "1674.0 - 667.9 - 232.8 - (232.9) - 140.8 = 399.6"
+        "notes": "9M26 consolidated rev >TRY 236.5bn (Q3 rev TRY 86.4bn +11.9% YoY, Q3 EBITDA TRY 37.0bn 42.9% margin); net debt TRY 125.4bn (~0.95-1.00x net leverage) on concession extension and 5G license installments."
       }
     }
   ],
@@ -330,6 +80,13 @@
     "thesis": "Fixed-line telecom monopoly with nationwide fiber backbone; successful maturity refinancing."
   },
   "annotations": [
+    {
+      "issuer_id": "ttkom",
+      "sector": "Technology",
+      "topic": "9M26 Results: 42.9% Q3 Margin & ~1.0x Leverage",
+      "source": "T\u00fcrk Telekom KAP / IR (Nov-26)",
+      "note": "9M26 rev >TRY 236.5bn, Q3 rev TRY 86.4bn (+11.9%), Q3 EBITDA TRY 37.0bn (42.9% margin), net debt TRY 125.4bn (~0.95-1.0x)."
+    },
     {
       "issuer_id": "ttkom",
       "issuer_name": "T\u00fcrk Telekom",
@@ -1213,6 +970,19 @@
       "ebitda": 1350.0,
       "fcf": 127.3,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB / BB-",
+      "price": 99.8,
+      "ytm": 7.15,
+      "spread_bp": 310,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1303,7 +1073,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Neutral / Sub-1.0x Deleveraging Amid 5G & Concession Capex",
-      "summary": "9M26 revenue grew ~10% YoY to TRY 236.5bn (Q3 TRY 86.4bn, +11.9% YoY) and 9M EBITDA rose +8.3% YoY to TRY 97.8bn (Q3 TRY 37.0bn, 42.9% margin; 46% ex-IFRIC 12). Net debt stood at TRY 125.4bn with net leverage improving to 0.95x (from 1.00x in Q2).",
+      "summary": "T\u00fcrk Telekom accelerated Q326 revenue growth to +11.9% YoY (TRY 86.4bn; 9M >TRY 236.5bn) with a 42.9% Q3 EBITDA margin (TRY 37.0bn). Net debt rose to TRY 125.4bn on fixed-line concession renewal and 5G spectrum installments, keeping leverage comfortable at ~0.95-1.0x.",
       "target_price": null,
       "current_price": 99.8,
       "ytm": 7.15,
@@ -1325,6 +1095,7 @@
       "ownership_governance": "61.68% T\u00fcrkiye Wealth Fund (TVF), 25% Turkish Treasury, 13.32% free float."
     },
     "recent_drivers": [
+      "Q3/9M26 (Nov-26): 9M rev >TRY 236.5bn, Q3 EBITDA TRY 37.0bn (42.9% margin), net debt TRY 125.4bn (~0.98x).",
       "Q3/9M 2026 Results: 9M rev TRY 236.5bn (+10% YoY), 9M EBITDA TRY 97.8bn (+8.3% YoY), Q3 NI TRY 7.7bn (9M TRY 25.8bn), Net Debt TRY 125.4bn (0.95x)."
     ],
     "catalysts": [
@@ -1334,7 +1105,7 @@
         "impact": "Clarifies 2027 FCF after concession payments."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

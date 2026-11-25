@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/maf.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- MAF 5.00% 2029: price 98.0, YTM 5.65%, spread 160bp (as of 2026-11-22).
+- MAF 5.00% 2029: price 98.0, YTM 5.65%, spread 160bp (as of 2026-11-25).
 - Rating as recorded: BBB / BBB.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 8036.0 | 1160.0 | -165.4 | 4041.2 | 3.48 | 4.8 |
-| 2023A | 9016.0 | 1305.0 | -203.1 | 4191.2 | 3.21 | 4.5 |
-| 2024A | 9800.0 | 1450.0 | 91.5 | 4132.5 | 2.85 | 4.5 |
+| 2025A | 35900.0 | 5100.0 |  | 11900.0 | 2.33 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=maf) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/maf.json)

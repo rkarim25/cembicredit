@@ -210,6 +210,19 @@
       "ebitda": 4561.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB Positive (Fitch, SCP bb+) / BB Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.55,
+      "ebitda": 4561.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -220,5 +233,25 @@
     "implied_stress_ev_multiple": "4.0x Stress Gold EBITDA (<0.5x Leverage)",
     "restructuring_framework": "Uzbekistan SOE / English Law",
     "thesis": "SCP bb+ gold powerhouse with 0.3x net leverage and $4.9bn H126 EBITDA, well inside BB rating cap."
-  }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "0.30x Net Debt/EBITDA",
+      "tracking_status": "On Track",
+      "variance_analysis": "World's 4th-largest gold producer (3.15Moz/yr) delivering exceptional cash conversion: H126 revenue jumped 49.9% YoY to $7.07bn with Adj EBITDA of $4.89bn (69.2% margin) and net leverage just 0.3x ($2.36bn net debt YE25 ",
+      "last_guided_source": "NMMC H1 2026 Consolidated Financial Results (ngmk.uz), read 24-Nov-26",
+      "last_verified_period": "H126"
+    },
+    {
+      "guidance_metric": "Key Milestone: FY2026 Audited IFRS Results & Sovereign Rating Review",
+      "management_target": "Fitch Positive outlook on Uzbekistan could lift sovereign cap to BB+.",
+      "current_runrate": "Scheduled Mar 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "H126: Revenue $7.07bn (+49.9% YoY), Adj EBITDA $4.89bn (+59.8% YoY, 69.2% margin), NPAT $2.38bn, net leverage 0.3x.",
+      "last_guided_source": "NMMC H1 2026 Consolidated Financial Results (ngmk.uz), read 24-Nov-26",
+      "last_verified_period": "H126"
+    }
+  ]
 }

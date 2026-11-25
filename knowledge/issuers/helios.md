@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/helios.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- HT 8.75% 2028: price 94.25, YTM 8.75%, spread 440bp (as of 2026-11-22).
+- HT 8.75% 2028: price 94.25, YTM 8.75%, spread 440bp (as of 2026-11-25).
 - Rating as recorded: B / B2.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 561.0 | 283.0 | -114.0 | 1653.9 | 5.84 | 2.93 |
-| 2023A | 673.0 | 350.0 | -53.0 | 1731.7 | 5 | 2.75 |
-| 2024A | 745.0 | 395.0 | 15.0 | 1728.6 | 4.49 | 2.75 |
+| 2025A | 854.1 | 471.1 |  | 1735.5 | 3.4 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=helios) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/helios.json)

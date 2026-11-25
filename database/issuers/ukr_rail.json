@@ -16,291 +16,34 @@
     "model_file": "Ukraine_Rail_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6816bb15ffe27db5eeb55",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ukraine_Rail_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "fcf_2024a": -98.3,
     "net_leverage_2024a": 3.86,
-    "provenance": "2026 selective default, Jul-26 $703m missed bullet & Aug-26 30% freight tariff hike integrated 22-Nov-26"
+    "provenance": "financials rebuilt 25-Nov-26 from Ukrainian Railways FY2025 Results, Q1 2026 Disclosures & Jan-26 Default Notice",
+    "financials_currency": "USD"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 3170.0,
-      "ebitda": 485.0,
-      "ebitda_margin_pct": 15.3,
-      "cfo": 410.0,
-      "capex": 193.5,
-      "fcf": -18.5,
-      "cash": 190.0,
-      "gross_debt": 1620.0,
-      "net_debt": 1430.0,
-      "net_leverage": 2.95,
-      "interest_coverage": 3.88,
+      "currency": "USD",
+      "source": "Ukrzaliznytsia FY2025 Financial Statements & Q1 2026 Regulatory Filings, read 25-Nov-26",
+      "revenue": 2189.0,
+      "ebitda": 293.0,
+      "reported_ebitda": 293.0,
       "observations": {
-        "revenue": "Pre-war revenue normalization at $1,948M on record agricultural crop export volumes.",
-        "ebitda": "EBITDA of $247M (12.7% margin) supported by 180.5 Bntkm gross freight turnover.",
-        "capex": "Commercial rolling stock acquisition and track electrification investments.",
-        "fcf": "Operating cash flow of $220M supported positive free cash flow of $187.2M.",
-        "net_leverage": "Consolidated net leverage stable at 5.57x under pre-war commercial operations."
-      },
-      "reported_ebitda": 494.7,
-      "calculated_ebitda": 485.0,
-      "ebitda_reconciliation_variance_usd_m": 9.7,
-      "ebitda_reconciliation_variance_pct": 2.0,
-      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$9.7M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
-      "cash_interest": 125.0,
-      "change_in_working_capital": 152.8,
-      "tax_expense": 32.2,
-      "fcf_conversion_pct": -3.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 485.0,
-        "capex": 193.5,
-        "cash_interest": 125.0,
-        "change_in_working_capital": 152.8,
-        "tax": 32.2,
-        "fcf": -18.5,
-        "formula_check": "485.0 - 193.5 - 125.0 - (152.8) - 32.2 = -18.5"
+        "notes": "FY25 rev $2,189m (-15.6% YoY), total reported EBITDA $293m (Fitch core EBITDA ex-grants negative -UAH 141m). Halted Jan-26 Eurobond payments on $703m Jul-26 & $351.9m 2028 LPNs."
       }
     },
     {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 2340.0,
-      "ebitda": 190.0,
-      "ebitda_margin_pct": 8.1,
-      "cfo": 240.0,
-      "capex": 107.7,
-      "fcf": -231.2,
-      "cash": 245.0,
-      "gross_debt": 1665.0,
-      "net_debt": 1420.0,
-      "net_leverage": 7.47,
-      "interest_coverage": 1.65,
-      "observations": {
-        "revenue": "Revenue contracted to $744M following the outbreak of full-scale war and maritime port blockades.",
-        "ebitda": "EBITDA compressed to $101M; emergency state subsidies and passenger evacuation priority.",
-        "capex": "Pivoted entirely to emergency track repairs, bridge rebuilding, and diesel power restoration.",
-        "fcf": "FCF supported by international donor assistance and operational cost retrenchment.",
-        "net_leverage": "Net leverage rose to 4.62x; initiation of comprehensive debt standstill with bondholders."
-      },
-      "reported_ebitda": 225.2,
-      "calculated_ebitda": 190.0,
-      "ebitda_reconciliation_variance_usd_m": 35.2,
-      "ebitda_reconciliation_variance_pct": 18.5,
-      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$35.2M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow.",
-      "cash_interest": 115.2,
-      "change_in_working_capital": 195.6,
-      "tax_expense": 2.7,
-      "fcf_conversion_pct": -121.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 190.0,
-        "capex": 107.7,
-        "cash_interest": 115.2,
-        "change_in_working_capital": 195.6,
-        "tax": 2.7,
-        "fcf": -231.2,
-        "formula_check": "190.0 - 107.7 - 115.2 - (195.6) - 2.7 = -231.2"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 2630.0,
-      "ebitda": 340.0,
-      "ebitda_margin_pct": 12.9,
-      "cfo": 380.0,
-      "capex": 192.8,
-      "fcf": -220.6,
-      "cash": 280.0,
-      "gross_debt": 1695.0,
-      "net_debt": 1415.0,
-      "net_leverage": 4.16,
-      "interest_coverage": 2.62,
-      "observations": {
-        "revenue": "Revenue rebounded +252% YoY to $2,622M following the 70% freight tariff indexation decree.",
-        "ebitda": "EBITDA recovered strongly to $342M; Western border crossings and Danube barge transshipment active.",
-        "capex": "Receipt of $195M in non-repayable multilateral donor grants (World Bank, EBRD, USAID).",
-        "fcf": "FCF of $157.9M generated, rebuilding vital operational and rolling stock spare parts reserves.",
-        "net_leverage": "Net leverage improved to 4.29x with 100% sovereign backing on external debt obligations."
-      },
-      "reported_ebitda": 402.9,
-      "calculated_ebitda": 340.0,
-      "ebitda_reconciliation_variance_usd_m": 62.9,
-      "ebitda_reconciliation_variance_pct": 18.5,
-      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$62.9M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow.",
-      "cash_interest": 129.8,
-      "change_in_working_capital": 221.8,
-      "tax_expense": 16.2,
-      "fcf_conversion_pct": -64.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 340.0,
-        "capex": 192.8,
-        "cash_interest": 129.8,
-        "change_in_working_capital": 221.8,
-        "tax": 16.2,
-        "fcf": -220.6,
-        "formula_check": "340.0 - 192.8 - 129.8 - (221.8) - 16.2 = -220.6"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 2850.0,
-      "ebitda": 380.0,
-      "ebitda_margin_pct": 13.3,
-      "cfo": 420.0,
-      "capex": 183.5,
-      "fcf": -98.3,
-      "cash": 265.0,
-      "gross_debt": 1730.0,
-      "net_debt": 1465.0,
-      "net_leverage": 3.86,
-      "interest_coverage": 2.81,
-      "observations": {
-        "revenue": "Revenue reached $2,850M as Black Sea humanitarian corridor achieved full maritime shipping scale.",
-        "ebitda": "EBITDA expanded to $380M (13.3% margin) on 175.2 Mt consolidated freight volume carried.",
-        "capex": "Donor-funded capex of $145M deployed for track gauge integration and electric substation restoration.",
-        "fcf": "FCF of $190M maintains fortress cash balance ($380M) protecting against wartime logistics disruption.",
-        "net_leverage": "Net leverage reduced to 3.84x, providing significant headroom under restructured debt covenants."
-      },
-      "reported_ebitda": 450.3,
-      "calculated_ebitda": 380.0,
-      "ebitda_reconciliation_variance_usd_m": 70.3,
-      "ebitda_reconciliation_variance_pct": 18.5,
-      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$70.3M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow.",
-      "cash_interest": 135.2,
-      "change_in_working_capital": 140.0,
-      "tax_expense": 19.6,
-      "fcf_conversion_pct": -25.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 380.0,
-        "capex": 183.5,
-        "cash_interest": 135.2,
-        "change_in_working_capital": 140.0,
-        "tax": 19.6,
-        "fcf": -98.3,
-        "formula_check": "380.0 - 183.5 - 135.2 - (140.0) - 19.6 = -98.3"
-      }
-    },
-    {
-      "period": "2025E",
+      "period": "Q126",
       "is_audited": false,
-      "revenue": 3160.0,
-      "ebitda": 440.0,
-      "ebitda_margin_pct": 13.9,
-      "cfo": 460.0,
-      "capex": 175.6,
-      "fcf": -54.9,
-      "cash": 290.0,
-      "gross_debt": 1710.0,
-      "net_debt": 1420.0,
-      "net_leverage": 3.23,
-      "interest_coverage": 3.14,
+      "currency": "USD",
+      "source": "Ukrzaliznytsia FY2025 Financial Statements & Q1 2026 Regulatory Filings, read 25-Nov-26",
+      "net_profit": -178.0,
       "observations": {
-        "revenue": "Forecast revenue of $3,078M supported by sustained agricultural grain and metallurgical export demand.",
-        "ebitda": "EBITDA projected at $418M reflecting improved electric traction efficiency and normalized energy tariffs.",
-        "capex": "Reconstruction capex envelope supported by $250M committed multilateral grant disbursements.",
-        "fcf": "Free cash flow expected to reach $215.6M, ensuring self-sufficiency for scheduled operational liabilities.",
-        "net_leverage": "Net leverage projected to drop to 3.28x under continued conservative financial management."
-      },
-      "reported_ebitda": 448.8,
-      "calculated_ebitda": 440.0,
-      "ebitda_reconciliation_variance_usd_m": 8.8,
-      "ebitda_reconciliation_variance_pct": 2.0,
-      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$8.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
-      "cash_interest": 140.1,
-      "change_in_working_capital": 154.0,
-      "tax_expense": 25.2,
-      "fcf_conversion_pct": -12.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 440.0,
-        "capex": 175.6,
-        "cash_interest": 140.1,
-        "change_in_working_capital": 154.0,
-        "tax": 25.2,
-        "fcf": -54.9,
-        "formula_check": "440.0 - 175.6 - 140.1 - (154.0) - 25.2 = -54.9"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 3520.0,
-      "ebitda": 510.0,
-      "ebitda_margin_pct": 14.5,
-      "cfo": 520.0,
-      "capex": 203.5,
-      "fcf": -25.6,
-      "cash": 320.0,
-      "gross_debt": 1640.0,
-      "net_debt": 1320.0,
-      "net_leverage": 2.59,
-      "interest_coverage": 3.92,
-      "observations": {
-        "revenue": "Revenue expands to $3,277M as industrial manufacturing and steel logistics recover across Central Ukraine.",
-        "ebitda": "EBITDA reaches $448M; freight tariff stabilization supports long-term commercial contract renewals.",
-        "capex": "TEN-T European standard gauge corridor construction advances with EU Solidarity Lane funding.",
-        "fcf": "Robust FCF of $245.4M provides substantial liquidity buffer ahead of bond maturity restructuring.",
-        "net_leverage": "Net leverage declines to 2.84x; Ukraine Rail solidifies its role as the national economic backbone."
-      },
-      "reported_ebitda": 520.2,
-      "calculated_ebitda": 510.0,
-      "ebitda_reconciliation_variance_usd_m": 10.2,
-      "ebitda_reconciliation_variance_pct": 2.0,
-      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$10.2M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
-      "cash_interest": 130.1,
-      "change_in_working_capital": 168.0,
-      "tax_expense": 34.0,
-      "fcf_conversion_pct": -5.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 510.0,
-        "capex": 203.5,
-        "cash_interest": 130.1,
-        "change_in_working_capital": 168.0,
-        "tax": 34.0,
-        "fcf": -25.6,
-        "formula_check": "510.0 - 203.5 - 130.1 - (168.0) - 34.0 = -25.6"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 3950.0,
-      "ebitda": 590.0,
-      "ebitda_margin_pct": 14.9,
-      "cfo": 590.0,
-      "capex": 235.4,
-      "fcf": 5.9,
-      "cash": 360.0,
-      "gross_debt": 1445.0,
-      "net_debt": 1085.0,
-      "net_leverage": 1.84,
-      "interest_coverage": 4.92,
-      "observations": {
-        "revenue": "Top-line reaches $3,420M driven by full peacetime economic reconstruction and European freight integration.",
-        "ebitda": "EBITDA reaches $471M with operating margin expanding toward 13.8% on modern electric locomotive fleet.",
-        "capex": "Sustaining capex fully covered by operational cash flow as emergency repairs phase out.",
-        "fcf": "FCF generation hits $273.5M, allowing rapid retirement of commercial bank debt.",
-        "net_leverage": "Net leverage reaches 2.42x, reflecting an institutional turnaround supported by sovereign and multilateral backing."
-      },
-      "reported_ebitda": 601.8,
-      "calculated_ebitda": 590.0,
-      "ebitda_reconciliation_variance_usd_m": 11.8,
-      "ebitda_reconciliation_variance_pct": 2.0,
-      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$11.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
-      "cash_interest": 119.9,
-      "change_in_working_capital": 184.8,
-      "tax_expense": 44.0,
-      "fcf_conversion_pct": 1.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 590.0,
-        "capex": 235.4,
-        "cash_interest": 119.9,
-        "change_in_working_capital": 184.8,
-        "tax": 44.0,
-        "fcf": 5.9,
-        "formula_check": "590.0 - 235.4 - 119.9 - (184.8) - 44.0 = 5.9"
+        "notes": "Q126 net loss UAH 7.9bn (~$178m) amid >540 infrastructure attacks and energy cost spikes; pursuing comprehensive Eurobond restructuring alongside 30% freight tariff hike."
       }
     }
   ],
@@ -333,6 +76,13 @@
     "thesis": "FORENSIC DISTRESSED FOCUS: 100% state-owned rail monopoly operating 82% of Ukraine's freight. $595M 2026 and $300M 2028 notes price in deep 36% haircut; base restructuring expectation is standalone 3-year maturity extension + partial PIK yielding $71.50 recovery."
   },
   "annotations": [
+    {
+      "issuer_id": "ukr_rail",
+      "sector": "Transportation & Logistics (Railways)",
+      "topic": "Jan-26 Eurobond Default & Q126 $178m Loss",
+      "source": "Ukrzaliznytsia / Fitch / Interfax (2026)",
+      "note": "Halted payments Jan-26 on $703m Jul-26 & $351.9m 2028 LPNs; FY25 rev $2.19bn, Q126 loss $178m; pursuing restructuring + 30% freight tariff hike."
+    },
     {
       "issuer_id": "ukr_rail",
       "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
@@ -1242,6 +992,19 @@
       "ebitda": 380.0,
       "fcf": -98.3,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "RD / D (Selective Default, 2026)",
+      "price": 64.0,
+      "ytm": 19.25,
+      "spread_bp": 1485,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1332,7 +1095,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Distressed Hold / Selective Default (RD) & Active Restructuring on $1.1bn Debt",
-      "summary": "Entered selective default (RD/D) in 2026 after suspending Eurobond coupons in Jan-26 and missing the >$703m July 2026 bullet (~$1.1bn debt under restructuring). Ad-hoc bondholders rejected the initial 20% haircut / June-2033 extension plan; following a government-approved 30% freight tariff hike (Aug 1, 2026) and \u20ac130m EBRD liquidity reallocation, a revised restructuring plan is underway.",
+      "summary": "Ukrzaliznytsia entered technical default in Jan-26 by halting payments on its $703m Jul-26 and $351.9m 2028 LPNs after FY25 core EBITDA ex-grants turned negative (-UAH 141m) and Q126 posted a $178m (UAH 7.9bn) loss. Restructuring talks and a 30% freight tariff hike are underway.",
       "target_price": null,
       "current_price": 64.0,
       "ytm": 19.25,
@@ -1340,7 +1103,7 @@
     },
     "positives": [
       "30% freight tariff hike effective Aug 1, 2026 meaningfully improves operating cash flow baseline.",
-      "Essential wartime sovereign logistics backbone backed by \u20ac130m EBRD emergency liquidity reallocation.",
+      "Essential wartime sovereign logistics backbone backed by €130m EBRD emergency liquidity reallocation.",
       "Bondholder ad-hoc committee pushback forced tariff reform rather than purely punitive haircuts."
     ],
     "negatives": [
@@ -1354,8 +1117,9 @@
       "ownership_governance": "100% Cabinet of Ministers of Ukraine."
     },
     "recent_drivers": [
+      "2026 Restructuring: Halted Jan-26 debt service on $1.05bn LPNs; Q126 net loss $178m (UAH 7.9bn) amid >540 attacks.",
       "Jan/Jul 2026 Default: Suspended coupons (Jan-26) and missed >$703m July-26 bullet (~$1.1bn debt in restructuring); downgraded to RD/D.",
-      "Aug 2026 Tariff & Plan: Initial 20% haircut/2033 plan rejected by bondholders; government approved +30% freight tariff hike (eff. Aug 1, 2026); \u20ac130m EBRD loan reallocated to liquidity; revised plan being drafted."
+      "Aug 2026 Tariff & Plan: Initial 20% haircut/2033 plan rejected by bondholders; government approved +30% freight tariff hike (eff. Aug 1, 2026); €130m EBRD loan reallocated to liquidity; revised plan being drafted."
     ],
     "catalysts": [
       {
@@ -1364,7 +1128,7 @@
         "impact": "Determines final recovery package (haircut/coupon/maturity) for 2026/2028 LPNs."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {
@@ -1372,7 +1136,7 @@
       "title": "2026 Restructuring Update: RD/D Selective Default, Jul-26 $703m Miss & Aug-26 +30% Tariff Hike",
       "source": "Fitch / S&P / Interfax / RailwayPro (2026)",
       "status": "Q3/9M 2026 Credit Update",
-      "summary": "Suspended Jan-26 coupons & missed $703m Jul-26 bullet (~$1.1bn in restructuring, RD/D). Initial 20% haircut rejected; +30% freight tariff hike eff. Aug 1, 2026 + \u20ac130m EBRD liquidity."
+      "summary": "Suspended Jan-26 coupons & missed $703m Jul-26 bullet (~$1.1bn in restructuring, RD/D). Initial 20% haircut rejected; +30% freight tariff hike eff. Aug 1, 2026 + €130m EBRD liquidity."
     }
   ]
 }

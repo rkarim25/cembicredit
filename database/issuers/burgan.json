@@ -177,6 +177,47 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "A+ (Fitch) / BBB+ (CI)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
-  ]
+  ],
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Regulatory Capital Buffer (CAR / CET1)",
+      "management_target": "Maintain comfortable regulatory buffer above Basel III / local CB minimums",
+      "current_runrate": "See latest financial filing",
+      "tracking_status": "On Track",
+      "variance_analysis": "Verified from 9M26 disclosures.",
+      "last_guided_source": "Burgan Bank 9M 2026 Financial Results (Boursa Kuwait), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    },
+    {
+      "guidance_metric": "Asset Quality & Provisioning (NPL / CoR)",
+      "management_target": "Contain Stage 3 NPL formation and preserve reserve coverage",
+      "current_runrate": "Monitored quarterly",
+      "tracking_status": "On Track",
+      "variance_analysis": "Core Kuwait franchise expanded cleanly in 9M26 (assets KWD 9.4bn, deposits KWD 5.5bn +6%, loans KWD 5.1bn +8%, CoR 50bp), though headline NPAT dipped to KWD 22m (vs 32m) under Burgan Turkey IAS 29 hyperinflation accounti",
+      "last_guided_source": "Burgan Bank 9M 2026 Financial Results (Boursa Kuwait), read 23-Nov-26",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "",
+    "days_to_earnings": 87
+  }
 }

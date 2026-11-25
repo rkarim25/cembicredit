@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/orlen.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- PKN 4.75% 2030: price 98.8, YTM 5.05%, spread 100bp (as of 2026-11-22).
+- PKN 4.75% 2030: price 98.8, YTM 5.05%, spread 100bp (as of 2026-11-25).
 - Rating as recorded: BBB+ / A3.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 55760 | 6800 | -2163.9 | 8831.5 | 1.3 | 10.13 |
-| 2023A | 62560 | 7650 | -2474.3 | 8742.2 | 1.14 | 9.5 |
-| 2024A | 68000 | 8500 | 10.5 | 8075 | 0.95 | 9.5 |
+| 2024A | 294900.0 |  |  |  |  |  |
+| 2025A | 267800.0 | 41500.0 |  | -1400.0 | -0.06 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=orlen) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/orlen.json)

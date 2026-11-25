@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/sisecam.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- SISETR 6.85% 2029: price 99.5, YTM 6.85%, spread 245bp (as of 2026-11-22).
+- SISETR 6.85% 2029: price 99.5, YTM 6.85%, spread 245bp (as of 2026-11-25).
 - Rating as recorded: BB- / B1.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 4510.0 | 880.0 | -293.0 | 2387.7 | 2.71 | 5.76 |
-| 2023A | 5060.0 | 990.0 | -340.0 | 2457.3 | 2.48 | 5.4 |
-| 2024A | 5500.0 | 1100.0 | -66.2 | 2398.0 | 2.18 | 5.4 |
+| 2025A | 225000.0 |  |  | 133000.0 |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=sisecam) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/sisecam.json)

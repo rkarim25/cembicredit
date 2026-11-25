@@ -16,293 +16,45 @@
     "model_file": "Helios_Towers_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6819fb0afce386998b737",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Helios_Towers_Credit_Model.xlsx",
-    "last_updated": "2026-11-22",
+    "last_updated": "2026-11-25",
     "cognitive_credit_id": "helios",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/helios/description",
     "model_type": "corp",
     "fcf_2024a": 15.0,
     "net_leverage_2024a": 4.49,
-    "provenance": "Q3/9M 2026 results integrated 22-Nov-26"
+    "provenance": "financials rebuilt 25-Nov-26 from Helios Towers FY2025 Audited & Q3/9M 2026 LSE Statements (Nov-26)",
+    "financials_currency": "USD"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 449.0,
-      "ebitda": 241.0,
-      "ebitda_margin_pct": 53.7,
-      "cfo": 202.9,
-      "capex": 210.0,
-      "fcf": -87.0,
-      "cash": 158.8,
-      "gross_debt": 1714.8,
-      "net_debt": 1556,
-      "net_leverage": 6.46,
-      "interest_coverage": 2.98,
+      "currency": "USD",
+      "source": "Helios Towers plc FY2025 Audited Consolidated Financial Statements (LSE), read 25-Nov-26",
+      "revenue": 854.1,
+      "ebitda": 471.1,
+      "reported_ebitda": 471.1,
+      "ebitda_margin_pct": 55.2,
+      "net_debt": 1735.5,
+      "net_leverage": 3.4,
       "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 245.82,
-      "calculated_ebitda": 241.0,
-      "ebitda_reconciliation_variance_usd_m": 3.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 80.9,
-      "change_in_working_capital": 23.9,
-      "tax_expense": 13.2,
-      "fcf_conversion_pct": -36.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 241.0,
-        "capex": 210.0,
-        "cash_interest": 80.9,
-        "change_in_working_capital": 23.9,
-        "tax": 13.2,
-        "fcf": -87.0,
-        "formula_check": "241.0 - 210.0 - 80.9 - (23.9) - 13.2 = -87.0"
+        "notes": "FY25 rev $854.1m, adj EBITDA $471.1m, net debt $1,735.5m (3.4x net leverage)."
       }
     },
     {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 561.0,
-      "ebitda": 283.0,
-      "ebitda_margin_pct": 50.4,
-      "cfo": 255.3,
-      "capex": 245.0,
-      "fcf": -114.0,
-      "cash": 202.1,
-      "gross_debt": 1856,
-      "net_debt": 1653.9,
-      "net_leverage": 5.84,
-      "interest_coverage": 2.93,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 288.66,
-      "calculated_ebitda": 283.0,
-      "ebitda_reconciliation_variance_usd_m": 4.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 96.6,
-      "change_in_working_capital": 40.2,
-      "tax_expense": 15.2,
-      "fcf_conversion_pct": -40.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 283.0,
-        "capex": 245.0,
-        "cash_interest": 96.6,
-        "change_in_working_capital": 40.2,
-        "tax": 15.2,
-        "fcf": -114.0,
-        "formula_check": "283.0 - 245.0 - 96.6 - (40.2) - 15.2 = -114.0"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 673.0,
-      "ebitda": 350.0,
-      "ebitda_margin_pct": 52.0,
-      "cfo": 288,
-      "capex": 220.0,
-      "fcf": -53.0,
-      "cash": 245.4,
-      "gross_debt": 1977.1,
-      "net_debt": 1731.7,
-      "net_leverage": 5,
-      "interest_coverage": 2.75,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 357.0,
-      "calculated_ebitda": 350.0,
-      "ebitda_reconciliation_variance_usd_m": 5.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 127.3,
-      "change_in_working_capital": 38.0,
-      "tax_expense": 17.7,
-      "fcf_conversion_pct": -15.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 350.0,
-        "capex": 220.0,
-        "cash_interest": 127.3,
-        "change_in_working_capital": 38.0,
-        "tax": 17.7,
-        "fcf": -53.0,
-        "formula_check": "350.0 - 220.0 - 127.3 - (38.0) - 17.7 = -53.0"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 745.0,
-      "ebitda": 395.0,
-      "ebitda_margin_pct": 53.0,
-      "cfo": 327.2,
-      "capex": 195.0,
-      "fcf": 15.0,
-      "cash": 288.8,
-      "gross_debt": 2017.4,
-      "net_debt": 1728.6,
-      "net_leverage": 4.49,
-      "interest_coverage": 2.75,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 402.90000000000003,
-      "calculated_ebitda": 395.0,
-      "ebitda_reconciliation_variance_usd_m": 5.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 143.6,
-      "change_in_working_capital": 21.5,
-      "tax_expense": 19.9,
-      "fcf_conversion_pct": 3.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 395.0,
-        "capex": 195.0,
-        "cash_interest": 143.6,
-        "change_in_working_capital": 21.5,
-        "tax": 19.9,
-        "fcf": 15.0,
-        "formula_check": "395.0 - 195.0 - 143.6 - (21.5) - 19.9 = 15.0"
-      }
-    },
-    {
-      "period": "2025E",
+      "period": "9M26",
       "is_audited": false,
-      "revenue": 810.0,
-      "ebitda": 440.0,
-      "ebitda_margin_pct": 54.3,
-      "cfo": 360,
-      "capex": 180.0,
-      "fcf": 77.0,
-      "cash": 340.7,
-      "gross_debt": 1977.1,
-      "net_debt": 1636.4,
-      "net_leverage": 3.86,
-      "interest_coverage": 3.15,
+      "currency": "USD",
+      "source": "Helios Towers plc Q3 & 9M 2026 Financial Results (LSE RNS, Nov-26), read 25-Nov-26",
+      "revenue": 718.8,
+      "ebitda": 392.2,
+      "reported_ebitda": 392.2,
+      "ebitda_margin_pct": 54.6,
+      "fcf": 133.7,
+      "net_debt": 1818.4,
+      "net_leverage": 3.4,
       "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 448.8,
-      "calculated_ebitda": 440.0,
-      "ebitda_reconciliation_variance_usd_m": 6.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 139.7,
-      "change_in_working_capital": 18.1,
-      "tax_expense": 25.2,
-      "fcf_conversion_pct": 17.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 440.0,
-        "capex": 180.0,
-        "cash_interest": 139.7,
-        "change_in_working_capital": 18.1,
-        "tax": 25.2,
-        "fcf": 77.0,
-        "formula_check": "440.0 - 180.0 - 139.7 - (18.1) - 25.2 = 77.0"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 880.0,
-      "ebitda": 485.0,
-      "ebitda_margin_pct": 55.1,
-      "cfo": 386.2,
-      "capex": 170.0,
-      "fcf": 139.0,
-      "cash": 389.8,
-      "gross_debt": 1916.5,
-      "net_debt": 1526.7,
-      "net_leverage": 3.15,
-      "interest_coverage": 3.53,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 494.7,
-      "calculated_ebitda": 485.0,
-      "ebitda_reconciliation_variance_usd_m": 6.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 137.4,
-      "change_in_working_capital": 8.3,
-      "tax_expense": 30.3,
-      "fcf_conversion_pct": 28.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 485.0,
-        "capex": 170.0,
-        "cash_interest": 137.4,
-        "change_in_working_capital": 8.3,
-        "tax": 30.3,
-        "fcf": 139.0,
-        "formula_check": "485.0 - 170.0 - 137.4 - (8.3) - 30.3 = 139.0"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 950.0,
-      "ebitda": 535.0,
-      "ebitda_margin_pct": 56.3,
-      "cfo": 409.1,
-      "capex": 160.0,
-      "fcf": 205.0,
-      "cash": 433.1,
-      "gross_debt": 1815.7,
-      "net_debt": 1382.6,
-      "net_leverage": 2.58,
-      "interest_coverage": 3.87,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 545.7,
-      "calculated_ebitda": 535.0,
-      "ebitda_reconciliation_variance_usd_m": 7.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 138.2,
-      "change_in_working_capital": -3.6,
-      "tax_expense": 35.4,
-      "fcf_conversion_pct": 38.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 535.0,
-        "capex": 160.0,
-        "cash_interest": 138.2,
-        "change_in_working_capital": -3.6,
-        "tax": 35.4,
-        "fcf": 205.0,
-        "formula_check": "535.0 - 160.0 - 138.2 - (-3.6) - 35.4 = 205.0"
+        "notes": "9M26 rev $718.8m (+13% YoY; Q3 $252m +17%), adj EBITDA $392.2m (+13% YoY, ~55% margin), recurring FCF $133.7m (+10%), net debt $1,818.4m (3.4x, -0.2x YoY), FY26 adj EBITDA guidance tightened up to ~$535m."
       }
     }
   ],
@@ -332,6 +84,13 @@
     "thesis": ">65% hard currency / pegged contracts; 14.2k towers with 2.1x tenancy; FCF inflection underway."
   },
   "annotations": [
+    {
+      "issuer_id": "helios",
+      "sector": "Technology",
+      "topic": "9M26 Results: FY26 EBITDA Guidance Up to ~$535m",
+      "source": "Helios Towers LSE RNS (Nov-26)",
+      "note": "9M26 rev $718.8m (+13%), adj EBITDA $392.2m (+13%), RFCF $133.7m, net debt $1,818.4m (3.4x)."
+    },
     {
       "issuer_id": "helios",
       "issuer_name": "Helios Towers",
@@ -1215,6 +974,19 @@
       "ebitda": 395.0,
       "fcf": 15.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B / B2",
+      "price": 94.25,
+      "ytm": 8.75,
+      "spread_bp": 440,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1305,7 +1077,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Neutral / Steady 13% EBITDA Growth & 3.4x Deleveraging (FY26 Guide ~$535m)",
-      "summary": "9M26 Adjusted EBITDA climbed +13% YoY to $392.2m and management tightened full-year 2026 guidance to ~$535m. Net debt stood at $1,818.4m at 3Q26, bringing net leverage down to 3.4x (vs 4.5x in FY24) on steady tenancy-ratio expansion.",
+      "summary": "Helios Towers lifted FY26 adj EBITDA guidance to ~$535m after 9M26 revenue and adj EBITDA both rose 13% YoY ($718.8m / $392.2m) on record tenancy additions (35,379 tenancies), driving 10% recurring FCF growth ($133.7m) at steady 3.4x net leverage.",
       "target_price": null,
       "current_price": 94.25,
       "ytm": 8.75,
@@ -1327,6 +1099,7 @@
       "ownership_governance": "LSE FTSE-250 listed (HTWS)."
     },
     "recent_drivers": [
+      "9M26 (Nov-26): Rev $718.8m (+13%), adj EBITDA $392.2m (+13%), RFCF $133.7m (+10%), FY26 guidance up to ~$535m.",
       "Q3/9M 2026 Results: 9M Adj EBITDA $392.2m (+13% YoY), FY26 Adj EBITDA guidance tightened to ~$535m, Q3 net debt $1,818.4m (3.4x net leverage)."
     ],
     "catalysts": [
@@ -1336,7 +1109,7 @@
         "impact": "Sub-3.2x leverage supports 2028 Eurobond refinancing."
       }
     ],
-    "last_updated": "2026-11-22"
+    "last_updated": "2026-11-25"
   },
   "historical_notes": [
     {

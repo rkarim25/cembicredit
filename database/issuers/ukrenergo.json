@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "id": "ukrenergo",
+    "name": "NPC Ukrenergo",
+    "ticker": "UKRENE",
+    "country": "Ukraine",
+    "region": "CEE / CIS",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "CCC (Fitch, Oct-26 upgrade)",
+    "tier": "Distressed",
+    "benchmark_bond": "MAVKA Secured Reconstruction Notes 7.30% Oct 2041 (XS3450183101)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Ukrenergo_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ukrenergo_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "UAH",
+    "provenance": "financials built 25-Nov-26 from Ukrenergo Fitch Oct-26 Post-Restructuring Review & Mavka Finance Exchange Docs; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "UAH",
+      "source": "Ukrenergo FY2025 Financial Statements / Fitch Ratings Oct-26 Assessment, read 25-Nov-26",
+      "ebitda": 8400.0,
+      "reported_ebitda": 8400.0,
+      "observations": {
+        "notes": "FY25 EBITDA UAH 8.4bn per Fitch Ratings; Fitch projects FY26 EBITDA ~UAH 4.0bn due to grid attacks & balancing deficits before recovery."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Mavka Finance Secured Reconstruction Notes 7.2967% due Oct 2041",
+      "tranche_name": "Mavka Finance Secured Reconstruction Notes 7.2967% due Oct 2041",
+      "instrument_type": "Secured Reconstruction Bond (DFC PRI)",
+      "currency": "USD",
+      "amount_issued_usd_m": 494.75,
+      "outstanding_usd_m": 494.75,
+      "amount_outstanding_usd_m": 494.75,
+      "amount_usd_m": 494.75,
+      "coupon": "7.297%",
+      "maturity": "2041-10-13",
+      "maturity_date": "2041-10-13",
+      "seniority": "Senior Secured (DFC PRI)",
+      "governing_law": "English",
+      "isin": "XS3450183101",
+      "observation": "Backed by sovereign guarantee and US DFC political risk insurance (Oct-26 debt-for-energy swap)."
+    },
+    {
+      "instrument": "Ukrenergo Unsecured Notes 8.500% due Dec 2031",
+      "tranche_name": "Ukrenergo Unsecured Notes 8.500% due Dec 2031",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 395.0,
+      "outstanding_usd_m": 395.0,
+      "amount_outstanding_usd_m": 395.0,
+      "amount_usd_m": 395.0,
+      "coupon": "8.500%",
+      "maturity": "2031-12-01",
+      "maturity_date": "2031-12-01",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3526064210",
+      "observation": "Issued in Oct-26 restructuring of $825m 6.875% 2028 green bonds (97.49% consent)."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 889.75,
+    "total_outstanding_usd_m": 889.75,
+    "source": "Oct-26 Mavka Finance debt-for-energy swap ($494.75m 2041 DFC-insured + $395m 2031 unsecured; saved ~$135m debt service)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Overweight (Mavka DFC-Insured) / Landmark Oct-26 Debt-for-Energy Swap (Fitch CCC)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Ukrenergo closed its landmark Oct-2026 restructuring of $825m 2028 green bonds (97.49% bondholder participation) into DFC-insured Mavka Finance 2041 reconstruction notes ($494.75m at 7.30%) and unsecured 2031 notes ($395m at 8.50%), generating ~$135m in debt-service savings earmarked for HV grid repairs and earning a Fitch upgrade to CCC."
+    },
+    "positives": [
+      "Oct-26 restructuring achieved 97.49% participation and ~$135m debt-service savings.",
+      "Mavka Finance 2041 tranche carries sovereign guarantee + US DFC political risk insurance.",
+      "Natural monopoly over Ukraine's high-voltage electricity transmission grid (ENTSO-E synchronized)."
+    ],
+    "negatives": [
+      "Continuous Russian strikes on high-voltage substations compressing FY26 EBITDA (~UAH 4bn Fitch est vs UAH 8.4bn FY25).",
+      "Balancing market payment deficits from state distribution/PSO counterparties."
+    ],
+    "background": {
+      "business_overview": "Ukraine's state-owned high-voltage electricity transmission system operator (TSO).",
+      "asset_perimeter": "National HV transmission grid and cross-border ENTSO-E interconnectors.",
+      "ownership_governance": "100% Ministry of Energy of Ukraine."
+    },
+    "recent_drivers": [
+      "Oct-26: Closed $825m green bond debt-for-energy swap via Mavka Finance DAC (XS3450183101 & XS3526064210); Fitch upgraded to CCC."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-04-13",
+        "event": "First Semi-Annual Mavka Finance Coupon & Grid Repair Verification",
+        "impact": "Tests DFC-backed debt-service mechanics and transmission tariff collections."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Debt-for-Energy Swap",
+      "management_target": "Restructure $825m 2028 green bond and unlock grid repair savings",
+      "current_runrate": "Closed Oct-26 (97.49% consent, ~$135m savings)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Fitch upgraded IDR to CCC following settlement.",
+      "last_guided_source": "Ukrenergo / Fitch Oct-26",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Confirm ENTSO-E import/export capacity revenues and 2027 NEURC transmission tariff sufficiency post-restructuring.",
+      "focus_area": "Tariffs & Repairs",
+      "relevance": "Drives post-2026 EBITDA recovery from UAH 4bn trough."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ukrenergo",
+      "sector": "Utilities",
+      "topic": "Oct-26 Mavka DFC-Insured Restructuring & Fitch CCC Upgrade",
+      "source": "Fitch / White & Case / Cbonds (Oct-26)",
+      "note": "97.49% consent on $825m swap into $494.75m 7.30% Oct-41 (XS3450183101, DFC PRI) + $395m 8.50% Dec-31 (XS3526064210); Fitch upgraded to CCC."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-04-30",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Kyiv",
+    "ir_webcast_url": "https://ua.energy/en/",
+    "days_to_earnings": 156
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "CCC (Fitch, Oct-26 upgrade)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 50.0,
+    "base_case_px": 82.0,
+    "recovery_floor_pct": 50.0,
+    "recovery_base_pct": 82.0,
+    "implied_stress_ev_multiple": 4.0,
+    "restructuring_framework": "English Law / DFC PRI Structure",
+    "thesis": "DFC political risk insurance on Mavka 2041 tranche creates structural floor vs unsecured 2031s."
+  }
+}

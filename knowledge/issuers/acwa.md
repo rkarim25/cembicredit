@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/acwa.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ACWA 5.95% 2039: price 96.5, YTM 6.45%, spread 235bp (as of 2026-11-22).
+- ACWA 5.95% 2039: price 96.5, YTM 6.45%, spread 235bp (as of 2026-11-25).
 - Rating as recorded: Baa2 / BBB.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 1285.0 | 685.0 | -592.0 | 3410.4 | 4.98 | 3.63 |
-| 2023A | 1440.0 | 780.0 | -955.0 | 3560.9 | 4.57 | 3.4 |
-| 2024A | 1620.0 | 920.0 | -1205.0 | 3542.0 | 3.85 | 3.4 |
+| 2025A | 7410.0 | 3590.0 |  |  | 5.18 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=acwa) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/acwa.json)

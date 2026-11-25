@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "id": "anadolu_efes",
+    "name": "Anadolu Efes",
+    "ticker": "AEFES",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Consumer & Retail",
+    "type": "corp",
+    "rating": "BB Negative (Fitch, Nov-26)",
+    "tier": "HY",
+    "benchmark_bond": "AEFES 3.375% Jun 2028 ($500M, XS2355105292)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Anadolu_Efes_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Anadolu_Efes_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "TRY",
+    "provenance": "financials built 25-Nov-26 from Anadolu Efes FY2025 Audited IAS 29 Filings & Fitch Nov-26 Rating Action; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Anadolu Efes FY2024/FY2025 Proforma Audited Financial Statements (ex-Russia), read 25-Nov-26",
+      "revenue": 238000.0,
+      "observations": {
+        "notes": "Proforma FY24 revenue ~TRY 238bn (excluding deconsolidated Russian JV)."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Anadolu Efes FY2025 Audited Financial Statements (KAP / IR), read 25-Nov-26",
+      "revenue": 243847.1,
+      "ebitda": 40509.5,
+      "reported_ebitda": 40509.5,
+      "ebitda_margin_pct": 16.6,
+      "fcf": -4179.6,
+      "observations": {
+        "notes": "FY25 proforma rev TRY 243,847.1m (+2.5%), BNRI EBITDA TRY 40,509.5m (16.6% margin), FCF -TRY 4,179.6m on heavy capex & interest."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "TRY",
+      "source": "Anadolu Efes 9M 2026 Results & Fitch Nov-26 Review, read 25-Nov-26",
+      "observations": {
+        "notes": "9M26 domestic beer volumes fell ~15% YoY amid Turkish inflation; Fitch affirmed BB with Negative Outlook in Nov-26 forecasting YE26 gross leverage ~4.7x."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Anadolu Efes 3.375% Senior Unsecured due Jun 2028",
+      "tranche_name": "Anadolu Efes 3.375% Senior Unsecured due Jun 2028",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "3.375%",
+      "maturity": "2028-06-29",
+      "maturity_date": "2028-06-29",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2355105292"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 500.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "Benchmark 2028 USD Eurobond XS2355105292 (plus local Beer Group & CCI subsidiary facilities)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Underweight / Deconsolidated Russia + Beer Volume Pressure Lifting Gross Leverage (BB Neg)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Fitch affirmed Anadolu Efes at BB with Negative Outlook in Nov-26 as 9M26 domestic beer volumes dropped ~15% YoY and loss of Russian JV dividends leaves Beer Group carrying elevated standalone debt (Fitch projects ~4.7x YE26 gross leverage). 50.3% control of Coca-Cola \u0130\u00e7ecek (CCI) remains the core credit anchor."
+    },
+    "positives": [
+      "Controlling 50.3% ownership of high-margin, low-leverage Coca-Cola \u0130\u00e7ecek (CCI, 0.3x net leverage at 9M26).",
+      "Leading market shares in Turkey, Kazakhstan, Georgia, and Moldova beer markets.",
+      "2028 USD Eurobond maturity provides medium-term runway."
+    ],
+    "negatives": [
+      "Fitch Negative Outlook (Nov-26) with projected YE26 gross leverage of ~4.7x.",
+      "Deconsolidation/loss of Russian JV cash flows and 15% drop in 9M26 Turkish beer volumes.",
+      "Negative FY25 consolidated FCF (-TRY 4.18bn) due to capex and interest costs."
+    ],
+    "background": {
+      "business_overview": "Turkish beverage conglomerate operating Beer Group across Turkey/CIS and consolidating Coca-Cola \u0130\u00e7ecek (50.3%).",
+      "asset_perimeter": "Beer operations in Turkey, Kazakhstan, Georgia, Moldova + 50.3% stake in CCI.",
+      "ownership_governance": "Anadolu Group (43%) and AB InBev (24%); Borsa Istanbul listed (AEFES)."
+    },
+    "recent_drivers": [
+      "Nov-26: Fitch affirmed BB / Negative Outlook, projecting ~4.7x YE26 gross leverage; 9M26 Turkish beer volume -15% YoY."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-05",
+        "event": "FY2026 Audited Results & 2028 Bond Refinancing Plan",
+        "impact": "Tests Beer Group standalone FCF and Fitch Negative outlook."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Gross Leverage",
+      "management_target": "Reduce Fitch gross leverage from ~4.9x (FY24) toward <3.5x",
+      "current_runrate": "~4.7x projected YE26 (Fitch Nov-26)",
+      "tracking_status": "Lagging",
+      "variance_analysis": "Russian JV loss and -15% domestic beer volume keep gross leverage stretched.",
+      "last_guided_source": "Fitch Ratings (Nov-26)",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Provide Beer Group standalone net debt and cash balance excluding CCI consolidated cash.",
+      "focus_area": "Ring-Fencing & Subordination",
+      "relevance": "HoldCo bondholders rely on Beer Group cash and CCI dividends rather than direct CCI cash."
+    },
+    {
+      "question": "Detail 2027 capex cuts and working capital plans to reverse negative FCF ahead of Jun-28 bond maturity.",
+      "focus_area": "Refinancing",
+      "relevance": "Tests deleveraging capacity."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "anadolu_efes",
+      "sector": "Consumer & Retail",
+      "topic": "Fitch BB Negative Outlook (Nov-26)",
+      "source": "Fitch Ratings (Nov-26)",
+      "note": "Fitch affirmed BB / Negative Outlook in Nov-26 on 9M26 -15% Turkish beer volumes and ~4.7x projected YE26 gross leverage."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-05",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "17:00 Istanbul",
+    "ir_webcast_url": "https://www.anadoluefes.com/en/investor-relations",
+    "days_to_earnings": 100
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB Negative (Fitch, Nov-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Lagging"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 70.0,
+    "base_case_px": 94.0,
+    "recovery_floor_pct": 70.0,
+    "recovery_base_pct": 94.0,
+    "implied_stress_ev_multiple": 5.5,
+    "restructuring_framework": "Turkey Commercial Law",
+    "thesis": "50.3% equity stake in CCI underpins enterprise value above Beer Group debt."
+  }
+}

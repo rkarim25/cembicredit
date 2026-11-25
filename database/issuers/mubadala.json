@@ -16,14 +16,24 @@
     "model_file": "Mubadala_MDGH_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Mubadala_MDGH_Credit_Model.xlsx",
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-25",
     "model_type": "corp",
     "financials_currency": "AED",
-    "provenance": "financials built 24-Nov-26 from MDGH FY2025 PwC-audited IFRS consolidated statements (27-Mar-26); quotes await [BBG] capture",
+    "provenance": "financials built 25-Nov-26 from Mubadala 2024 & 2025 Annual Reviews (AUM AED 1.41tn / $385bn)",
     "fcf_2024a": null,
     "net_leverage_2024a": null
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "Mubadala Investment Company 2024 Annual Review, read 25-Nov-26",
+      "assets": 1210000.0,
+      "observations": {
+        "notes": "YE24 AUM c. AED 1.21tn (~$330bn)."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -92,7 +102,7 @@
     "source": "Selected benchmark USD GMTN tranches ($1bn 2031 XS2348658035, $1bn Apr-34 XS2797416760, $2bn May-50 XS2175968580); full MDGH consolidated borrowings AED 190.3bn (~$51.8bn)."
   },
   "credit_view": {
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-25",
     "verdict": {
       "stance": "Neutral / Abu Dhabi Sovereign-Equalized SWF Debt Vehicle (AA/Aa2)",
       "target_price": null,
@@ -117,6 +127,7 @@
       "ownership_governance": "100% Government of Abu Dhabi; PwC-audited IFRS consolidated accounts."
     },
     "recent_drivers": [
+      "2025 Annual Review: AUM grew ~17% YoY to AED 1.41tn ($385bn); deployments AED 143bn, monetizations AED 138bn, 10Y return 10.3%.",
       "Mar-26 (FY25 Audited): AUM AED 1,414bn (~$385bn), FY25 investments AED 143bn, consolidated borrowings AED 190.3bn.",
       "2026: Fitch affirmed AA Stable (virtually certain Abu Dhabi support)."
     ],
@@ -141,6 +152,13 @@
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "mubadala",
+      "sector": "Financials",
+      "topic": "2024-2025 AUM Growth (+17% to $385bn)",
+      "source": "Mubadala Annual Reviews (2025/2026)",
+      "note": "AUM grew from AED 1.21tn ($330bn) YE24 to AED 1.41tn ($385bn) YE25; AED 143bn deployments vs AED 138bn realizations."
+    },
     {
       "issuer_id": "mubadala",
       "sector": "Financials",
@@ -170,6 +188,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "AA Stable (Fitch) / Aa2 (Moody's) / AA (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -180,5 +211,25 @@
     "implied_stress_ev_multiple": "AED 1,414bn AUM / AA Sovereign Support",
     "restructuring_framework": "Abu Dhabi GRE / English Law",
     "thesis": "AED 190.3bn borrowings backed by AED 1,414bn AUM and virtually certain Abu Dhabi Government support."
-  }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Balance Sheet Discipline",
+      "management_target": "Preserve debt-service coverage and manage refinancing wall",
+      "current_runrate": "See latest filing",
+      "tracking_status": "On Track",
+      "variance_analysis": "Mamoura Diversified Global Holding (MDGH) is Abu Dhabi sovereign wealth fund Mubadala's primary debt-issuing vehicle, equalized at AA/Aa2/AA (Fitch support score 55/60). AUM reached AED 1,414bn (~$385bn) at YE25 alongsid",
+      "last_guided_source": "MDGH FY2025 Audited Consolidated IFRS Financial Statements (PwC / LSE RNS, 27-Mar-26), read 24-Nov-26",
+      "last_verified_period": "2025A"
+    },
+    {
+      "guidance_metric": "Key Milestone: FY2026 Audited Consolidated Statements & GMTN Issuance",
+      "management_target": "Tracks portfolio valuation marks and net LTV discipline.",
+      "current_runrate": "Scheduled Mar 2027",
+      "tracking_status": "On Track",
+      "variance_analysis": "2025 Annual Review: AUM grew ~17% YoY to AED 1.41tn ($385bn); deployments AED 143bn, monetizations AED 138bn, 10Y return 10.3%.",
+      "last_guided_source": "MDGH FY2025 Audited Consolidated IFRS Financial Statements (PwC / LSE RNS, 27-Mar-26), read 24-Nov-26",
+      "last_verified_period": "2025A"
+    }
+  ]
 }

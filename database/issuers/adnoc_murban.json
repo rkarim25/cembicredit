@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "adnoc_murban",
+    "name": "ADNOC Murban",
+    "ticker": "ADNOCM",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "Aa2 (Moody's) / AA (S&P) / AA (Fitch)",
+    "tier": "IG",
+    "benchmark_bond": "ADNOCM 4.75% May 2035 Sukuk ($1.5B, XS3044357047)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "ADNOC_Murban_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADNOC_Murban_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 25-Nov-26 from ADNOC Murban LSE filings & Fitch AA affirmation (Aug-26); quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "ADNOC Murban RSC Ltd Audited Financial Statements & Fitch Rating Report (Aug-26), read 25-Nov-26",
+      "gross_debt": 5500.0,
+      "observations": {
+        "notes": "Dedicated ADNOC debt funding vehicle backed by contractual rights over designated Murban onshore crude production; ~$5.5bn total debt raised across 2024-2025 bonds/sukuk. Fitch affirmed AA Stable in Aug-26."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "ADNOC Murban 4.250% Notes due Sep 2029",
+      "tranche_name": "ADNOC Murban 4.250% Notes due Sep 2029",
+      "instrument_type": "Senior Unsecured GMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "4.250%",
+      "maturity": "2029-09-11",
+      "maturity_date": "2029-09-11",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2898198358"
+    },
+    {
+      "instrument": "ADNOC Murban Sukuk 4.750% due May 2035",
+      "tranche_name": "ADNOC Murban Sukuk 4.750% due May 2035",
+      "instrument_type": "Senior Unsecured Sukuk",
+      "currency": "USD",
+      "amount_issued_usd_m": 1500.0,
+      "outstanding_usd_m": 1500.0,
+      "amount_outstanding_usd_m": 1500.0,
+      "amount_usd_m": 1500.0,
+      "coupon": "4.750%",
+      "maturity": "2035-05-06",
+      "maturity_date": "2035-05-06",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3044357047"
+    },
+    {
+      "instrument": "ADNOC Murban 5.125% Notes due Sep 2054",
+      "tranche_name": "ADNOC Murban 5.125% Notes due Sep 2054",
+      "instrument_type": "Senior Unsecured GMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 1500.0,
+      "outstanding_usd_m": 1500.0,
+      "amount_outstanding_usd_m": 1500.0,
+      "amount_usd_m": 1500.0,
+      "coupon": "5.125%",
+      "maturity": "2054-09-11",
+      "maturity_date": "2054-09-11",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2898198515"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 1000.0,
+    "2030_plus": 3000.0,
+    "total_outstanding_usd_m": 4000.0,
+    "source": "Listed benchmark USD tranches ($4.0bn shown; total debt raised ~$5.5bn per Fitch Aug-26)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Neutral / Abu Dhabi Sovereign-Tied AA Upstream Proxy (Aa2 / AA / AA)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "ADNOC Murban RSC Ltd serves as ADNOC Group's primary international debt funding vehicle backed by contractual cash flows from ultra-low-cost onshore Murban crude volumes, rated Aa2/AA/AA Stable (Fitch affirmed Aug-26). Tightly aligned to Abu Dhabi sovereign risk; main watchpoint is incremental multi-billion supply and Fujairah bypass resilience."
+    },
+    "positives": [
+      "Triple-AA/Aa2 ratings mirroring Government of Abu Dhabi (Fitch AA affirmed Aug-26).",
+      "Contractual access to low-cost flagship Murban onshore crude export cash flows.",
+      "Fujairah pipeline terminal provides non-Hormuz export bypass optionality."
+    ],
+    "negatives": [
+      "Dedicated financing SPV (~$5.5bn debt raised) without full consolidated ADNOC Group line-item P&L disclosure.",
+      "Ongoing primary issuance supply across GMTN and Sukuk programs."
+    ],
+    "background": {
+      "business_overview": "100% subsidiary of Abu Dhabi National Oil Company (ADNOC) serving as primary debt capital markets issuer.",
+      "asset_perimeter": "Contractual entitlement to designated volumes of Murban onshore crude oil production.",
+      "ownership_governance": "100% ADNOC / Emirate of Abu Dhabi; LSE NSM listed."
+    },
+    "recent_drivers": [
+      "Aug-26: Fitch affirmed AA Stable on ~$5.5bn outstanding debt backed by Murban crude allocations.",
+      "2025: Issued $1.5bn 4.75% May-2035 debut Sukuk (XS3044357047 / US006921AA84)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-31",
+        "event": "FY2026 Audited SPV Financial Statements (LSE NSM)",
+        "impact": "Confirms Murban crude allocation cash flows and new issuance headroom."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Credit Rating Floor",
+      "management_target": "Maintain Abu Dhabi-aligned AA/Aa2 rating",
+      "current_runrate": "Aa2 / AA / AA Stable (Aug-26)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Fitch affirmed AA Stable in Aug-26 on $5.5bn debt stack.",
+      "last_guided_source": "Fitch Ratings (Aug-26)",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Confirm 2027 GMTN/Sukuk issuance budget and target debt ceiling for ADNOC Murban.",
+      "focus_area": "Supply & Structure",
+      "relevance": "Assesses secondary curve supply pressure."
+    },
+    {
+      "question": "Detail Fujairah export pipeline capacity utilization vs Hormuz marine export routes.",
+      "focus_area": "Geopolitics",
+      "relevance": "Tests export continuity under regional tensions."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "adnoc_murban",
+      "sector": "Energy",
+      "topic": "Fitch AA Affirmation & $5.5bn Debt Stack",
+      "source": "Fitch Ratings / LSE (Aug-26)",
+      "note": "Fitch affirmed AA Stable on ADNOC Murban RSC Ltd (~$5.5bn raised across 2029/2035/2054 USD bonds & sukuk)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Abu Dhabi",
+    "ir_webcast_url": "https://www.adnoc.ae/en/about-us/investors",
+    "days_to_earnings": 126
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Aa2 (Moody's) / AA (S&P) / AA (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 90.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 90.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.5,
+    "restructuring_framework": "ADGM / UAE Law",
+    "thesis": "Sovereign-grade AA/Aa2 Murban crude cash flow backing."
+  }
+}

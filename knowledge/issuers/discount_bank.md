@@ -4,7 +4,7 @@ _Page created 23-Nov-26 from `database/issuers/discount_bank.json`. Dated, sourc
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: A- (Fitch) / Baa1 (Moody's dep) / BBB+ Stable (S&P).
 

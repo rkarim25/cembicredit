@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/fab.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 24-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- FABUH 4.85% 2029: price 100.5, YTM 4.85%, spread 65bp (as of 2026-11-22).
+- FABUH 5.153% Jan 2030 Sukuk (XS2976350004): price 100.5, YTM 4.85%, spread 65bp (as of 2026-11-25).
 - Rating as recorded: Aa3 / AA-.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2022A |  | 3977.1 |  | 17.4 | 3.2 |
-| 2023A |  | 4300.9 |  | 17.4 | 3.2 |
-| 2024A |  | 4600.8 |  | 17.4 | 3.2 |
+| 2025A |  |  |  |  |  |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=fab) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/fab.json)
 <!-- auto-data-end -->

@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "id": "saudi_aramco",
+    "name": "Saudi Aramco",
+    "ticker": "ARAMCO",
+    "country": "Saudi Arabia",
+    "region": "Middle East",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "Aa3 (Moody's) / A+ (Fitch)",
+    "tier": "IG",
+    "benchmark_bond": "ARAMCO 4.75% Jun 2030 ($1.5B, XS3084344863)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Saudi_Aramco_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Saudi_Aramco_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 25-Nov-26 from Saudi Aramco FY24/FY25 Annual Reports & Q3/9M 2026 IFRS Results (Tadawul / IR, Nov-26); quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Saudi Aramco FY2024 Audited Consolidated Financial Statements (Tadawul / IR), read 25-Nov-26",
+      "revenue": 436600.0,
+      "cfo": 135700.0,
+      "capex": 53300.0,
+      "fcf": 85300.0,
+      "net_profit": 106200.0,
+      "observations": {
+        "notes": "FY24 sales SAR 1,637.3bn (~$436.6bn), NI $106.2bn, CFO $135.7bn, capex $53.3bn ($50.4bn organic), FCF $85.3bn, gearing 4.5%."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Saudi Aramco FY2025 Audited Consolidated Financial Statements (Tadawul / IR), read 25-Nov-26",
+      "revenue": 415800.0,
+      "cfo": 136200.0,
+      "capex": 52200.0,
+      "fcf": 85400.0,
+      "net_profit": 93400.0,
+      "observations": {
+        "notes": "FY25 sales SAR 1,559.34bn (~$415.8bn), reported NI $93.4bn (adj NI $104.7bn), CFO $136.2bn, capex $52.2bn, FCF $85.4bn, gearing 3.8%."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Saudi Aramco Q3 & 9M 2026 Unaudited Financial Results (Nov-26), read 25-Nov-26",
+      "revenue": 404230.0,
+      "capex": 35780.0,
+      "net_profit": 101070.0,
+      "observations": {
+        "notes": "9M26 rev SAR 1,515.88bn ($404.23bn, +20.8% YoY), NI SAR 379.02bn ($101.07bn, +36% YoY), adj NI $98.38bn, capex $35.78bn, gearing 5.5% (down from 6.2% Jun-26). Q326 CFO $38.7bn, Q3 FCF $28.2bn."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "ARAMCO 4.750% Senior Notes due Jun 2030",
+      "tranche_name": "ARAMCO 4.750% Senior Notes due Jun 2030",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 1500.0,
+      "outstanding_usd_m": 1500.0,
+      "amount_outstanding_usd_m": 1500.0,
+      "amount_usd_m": 1500.0,
+      "coupon": "4.750%",
+      "maturity": "2030-06-02",
+      "maturity_date": "2030-06-02",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3084344863"
+    },
+    {
+      "instrument": "SA Global Sukuk 4.625% due Sep 2035",
+      "tranche_name": "SA Global Sukuk 4.625% due Sep 2035",
+      "instrument_type": "Senior Unsecured Sukuk",
+      "currency": "USD",
+      "amount_issued_usd_m": 1500.0,
+      "outstanding_usd_m": 1500.0,
+      "amount_outstanding_usd_m": 1500.0,
+      "amount_usd_m": 1500.0,
+      "coupon": "4.625%",
+      "maturity": "2035-09-17",
+      "maturity_date": "2035-09-17",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3182417249"
+    },
+    {
+      "instrument": "ARAMCO 2026 Multi-Tranche USD Notes (3Y/5Y/10Y/30Y)",
+      "tranche_name": "ARAMCO 2026 Multi-Tranche USD Notes (3Y/5Y/10Y/30Y)",
+      "instrument_type": "Senior Unsecured GMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 4000.0,
+      "outstanding_usd_m": 4000.0,
+      "amount_outstanding_usd_m": 4000.0,
+      "amount_usd_m": 4000.0,
+      "coupon": "4.000%-6.000%",
+      "maturity": "2056-03-01",
+      "maturity_date": "2056-03-01",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "Early 2026 $4bn package across 3Y (4.000%), 5Y (4.375%), 10Y (5.000%), 30Y (6.000%)."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 1000.0,
+    "2030_plus": 6000.0,
+    "total_outstanding_usd_m": 7000.0,
+    "source": "Reported 2025/2026 USD bond & sukuk benchmark tranches (excluding legacy 2019/2020/2024 GMTN tranches & lease/project debt)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Neutral / Sovereign-Anchored Ultra-Low-Cost Energy Giant (Aa3 / A+)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "9M26 revenue jumped 20.8% YoY to $404.2bn and reported NI rose 36% to $101.1bn (Q3 FCF $28.2bn, downstream EBIT +234% YoY) on stronger refining margins and affiliate gains, pulling gearing down to 5.5%. Sovereign dividend commitments ($21.9bn Q3 base dividend) and Vision 2030 strategic outlays (e.g. $2.6bn HUMAIN AI stake) plus Strait of Hormuz export routing risks anchor credit spreads near the Saudi sovereign."
+    },
+    "positives": [
+      "World's lowest-cost upstream oil & gas reserve base generating $85.4bn FY25 FCF and $28.2bn in Q326 alone.",
+      "Minimal balance sheet leverage with 5.5% gearing at 30-Sep-26 (down from 6.2% at Jun-26).",
+      "East-West Pipeline provides partial export redundancy around Strait of Hormuz transit bottlenecks."
+    ],
+    "negatives": [
+      "Sovereign fiscal and dividend extraction ($21.9bn/qtr base dividend) absorbs bulk of organic FCF.",
+      "Heavy multi-year capex ($52.2bn FY25, $35.78bn 9M26) plus non-core strategic tech investments (HUMAIN 49% stake).",
+      "Regional conflict & Red Sea / Strait of Hormuz shipping disruption sensitivity."
+    ],
+    "background": {
+      "business_overview": "World's largest integrated oil, gas, and downstream company; national oil champion of Saudi Arabia.",
+      "asset_perimeter": "Ghawar, Safaniya, Khurais upstream fields, Zuluf increment, Jafurah unconventional gas, Fadhili expansion, global refining/petchems (SABIC 70%).",
+      "ownership_governance": "Majority owned by State of Saudi Arabia (81.48%) and PIF/Sanabil (16%); Tadawul listed (2222.SE)."
+    },
+    "recent_drivers": [
+      "Nov-26 (Q3/9M26): Rev $140.5bn in Q3 ($404.2bn 9M), Q3 adj NI $31.2bn (+9.1%), Q3 FCF $28.2bn, gearing 5.5%.",
+      "Early 2026: Priced $4.0bn multi-tranche USD bonds (3Y 4.00% to 30Y 6.00%) following $3.0bn 2025 bond/sukuk issues."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-10",
+        "event": "FY2026 Audited Results & FY27 Capex Guidance",
+        "impact": "Tests gearing trajectory, Jafurah ramp, and dividend payout."
+      },
+      {
+        "date": "2026-12-31",
+        "event": "Q4 Dividend & Strategic M&A Closing (HUMAIN)",
+        "impact": "Cash outflow check vs Q4 oil & refining margins."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Gearing Ratio",
+      "management_target": "Conservative single-digit gearing (<15%)",
+      "current_runrate": "5.5% at 30-Sep-26 (down from 6.2% Jun-26)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Strong Q3 FCF ($28.2bn) compressed gearing sequentially despite $21.9bn dividend.",
+      "last_guided_source": "Saudi Aramco Q3 2026 Release (Nov-26)",
+      "last_verified_period": "9M / FY 2026"
+    },
+    {
+      "guidance_metric": "9M26 Capital Expenditure",
+      "management_target": "Sustaining + Jafurah/Zuluf growth capex (~$50-55bn FY pace)",
+      "current_runrate": "$35.78bn in 9M26 ($10.52bn Q3)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Q3 capex moderated 16% YoY ($10.52bn vs $12.55bn) while Zuluf crude increment started.",
+      "last_guided_source": "Saudi Aramco Q3 2026 Release (Nov-26)",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Quantify East-West Pipeline utilization and incremental export freight/insurance costs during 2026 regional disruptions.",
+      "focus_area": "Logistics & Geopolitics",
+      "relevance": "Hormuz disruption resilience underpins sovereign-tight spreads."
+    },
+    {
+      "question": "Outline 2027 capital expenditure and non-core AI/mineral JV funding budgets.",
+      "focus_area": "Capital Allocation",
+      "relevance": "Determines whether FCF covers base dividends without incremental debt."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "saudi_aramco",
+      "sector": "Energy",
+      "topic": "Q3 & 9M 2026 Earnings & Gearing",
+      "source": "Saudi Aramco IR / Tadawul (Nov-26)",
+      "note": "9M26 rev $404.23bn (+20.8%), NI $101.07bn (+36%), Q3 FCF $28.2bn, gearing improved to 5.5% from 6.2% in Q2."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "15:00 Riyadh",
+    "ir_webcast_url": "https://www.aramco.com/en/investors",
+    "days_to_earnings": 105
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Aa3 (Moody's) / A+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 85300.0,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 92.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 92.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.5,
+    "restructuring_framework": "Saudi Commercial Law / Sovereign Quasi-Sovereign",
+    "thesis": "Ultra-low lifting cost and single-digit gearing provide near-sovereign asset coverage."
+  }
+}

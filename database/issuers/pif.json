@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "id": "pif",
+    "name": "Public Investment Fund (PIF)",
+    "ticker": "PIF",
+    "country": "Saudi Arabia",
+    "region": "Middle East",
+    "sector": "Diversified Financials",
+    "type": "corp",
+    "rating": "Aa3 (Moody's) / A+ (Fitch)",
+    "tier": "IG",
+    "benchmark_bond": "PIF 4.375% Sep 2027 (XS2898168799)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "PIF_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PIF_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 25-Nov-26 from PIF FY2025 Annual Report & 2026 Capital Markets Releases; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "PIF FY2025 Audited Consolidated Financial Statements & Annual Report, read 25-Nov-26",
+      "revenue": 120000.0,
+      "net_profit": 17000.0,
+      "gross_debt": 193413.0,
+      "assets": 904500.0,
+      "observations": {
+        "notes": "FY25 AUM ~$904.5bn (SAR 3.4tn; 76% domestic, 20% int'l, 4% treasury), consolidated revenue $120bn (+9% YoY), net profit $17bn (SAR 65.2bn, >2x YoY), consolidated loans & borrowings SAR 725.3bn (~$193.4bn)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "PIF 4.375% Senior Unsecured Notes due Sep 2027",
+      "tranche_name": "PIF 4.375% Senior Unsecured Notes due Sep 2027",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 1500.0,
+      "outstanding_usd_m": 1500.0,
+      "amount_outstanding_usd_m": 1500.0,
+      "amount_usd_m": 1500.0,
+      "coupon": "4.375%",
+      "maturity": "2027-09-01",
+      "maturity_date": "2027-09-01",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2898168799"
+    },
+    {
+      "instrument": "PIF $2.0B 10Y Sukuk due Jan 2036 (T+85bps)",
+      "tranche_name": "PIF $2.0B 10Y Sukuk due Jan 2036 (T+85bps)",
+      "instrument_type": "Senior Unsecured Sukuk",
+      "currency": "USD",
+      "amount_issued_usd_m": 2000.0,
+      "outstanding_usd_m": 2000.0,
+      "amount_outstanding_usd_m": 2000.0,
+      "amount_usd_m": 2000.0,
+      "coupon": "T+85bps",
+      "maturity": "2036-01-21",
+      "maturity_date": "2036-01-21",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "Priced 21-Jan-26 at T+85bps."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 1500.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 2000.0,
+    "total_outstanding_usd_m": 3500.0,
+    "source": "Benchmark 2026/2027 USD tranches captured; consolidated group borrowings total SAR 725.3bn across PIF & portfolio entities."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Neutral / Sovereign Wealth Proxy Funding Vision 2030 (Aa3 / A+)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "PIF holds $904.5bn AUM (SAR 3.4tn) with consolidated FY25 revenue of $120bn (+9%) and net profit doubling to $17bn, underpinned by 100% Saudi sovereign ownership (Aa3/A+). Rising consolidated borrowings (SAR 725.3bn) and heavy domestic giga-project capex as PIF pivots into its 2026-2030 strategy drive persistent multi-currency bond/sukuk supply."
+    },
+    "positives": [
+      "100% Kingdom of Saudi Arabia sovereign wealth fund (Aa3/A+); core engine of Vision 2030.",
+      "$904.5bn AUM with 76% domestic strategic holdings (Aramco 16%, STC, Ma'aden, SNB) and 5.8% TSR since 2017.",
+      "FY25 net profit doubled to $17bn on maturing domestic portfolio dividends."
+    ],
+    "negatives": [
+      "Consolidated borrowings climbed to SAR 725.3bn (~$193.4bn) funding capital-intensive giga-projects.",
+      "Heavy ongoing USD/EUR/Sukuk issuance supply keeps spread compression capped vs sovereign.",
+      "Mark-to-market volatility on global listed holdings drove negative other comprehensive income in FY25."
+    ],
+    "background": {
+      "business_overview": "Sovereign wealth fund of the Kingdom of Saudi Arabia.",
+      "asset_perimeter": "SAR 3.4tn AUM: 76% domestic (SAR 2.57tn), 20% international, 4% treasury; major stakes in Aramco, STC, Ma'aden, ACWA, giga-projects.",
+      "ownership_governance": "100% State of Saudi Arabia; governed by Council of Economic and Development Affairs."
+    },
+    "recent_drivers": [
+      "Jan-26: Priced $2.0bn 10Y benchmark USD Sukuk due Jan-36 at T+85bps; transition into 2026-2030 strategy.",
+      "FY25 Report: AUM $904.5bn, revenue $120bn (+9%), net profit $17bn (SAR 65.2bn), borrowings SAR 725.3bn."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-06-30",
+        "event": "FY2026 Consolidated Financial Statements & 2026-2030 Capex Pacing",
+        "impact": "Monitors giga-project reprioritization and borrowing pace."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "AUM & Strategy Cycle",
+      "management_target": "Transition to 2026-2030 Vision 2030 deployment phase",
+      "current_runrate": "$904.5bn AUM (SAR 3.4tn) at YE25",
+      "tracking_status": "On Track",
+      "variance_analysis": "SAR 199bn+ domestic cumulative deployment 2021-2025 achieved; 5.8% annualized TSR.",
+      "last_guided_source": "PIF FY2025 Annual Report",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Provide a breakdown of standalone HoldCo debt vs consolidated portfolio-company debt within SAR 725.3bn borrowings.",
+      "focus_area": "Structural Subordination",
+      "relevance": "Separates PIF direct senior unsecured claim from opco leverage."
+    },
+    {
+      "question": "Detail 2026-2030 domestic capital deployment pacing and any giga-project scope recalibrations.",
+      "focus_area": "Issuance Supply",
+      "relevance": "Drives annual Eurobond/Sukuk issuance budget."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "pif",
+      "sector": "Diversified Financials",
+      "topic": "FY25 Consolidated Results & Jan-26 $2B Sukuk",
+      "source": "PIF Annual Report / Emirates NBD Research (2026)",
+      "note": "AUM $904.5bn, rev $120bn, NI $17bn, borrowings SAR 725.3bn; Jan-26 $2bn 10Y Sukuk at T+85bps."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-06-30",
+    "period_reporting": "FY 2026 Annual Report",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Riyadh",
+    "ir_webcast_url": "https://www.pif.gov.sa/en/investors/",
+    "days_to_earnings": 217
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Aa3 (Moody's) / A+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 88.0,
+    "base_case_px": 99.0,
+    "recovery_floor_pct": 88.0,
+    "recovery_base_pct": 99.0,
+    "implied_stress_ev_multiple": 5.0,
+    "restructuring_framework": "Saudi Sovereign Wealth Entity",
+    "thesis": "Sovereign-backed balance sheet with $904.5bn AUM against SAR 725.3bn consolidated debt."
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "id": "ziraat",
+    "name": "Ziraat Bank (T.C. Ziraat Bankas\u0131)",
+    "ticker": "ZIRAAT",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB- (Fitch) / Ba3 (Moody's)",
+    "tier": "HY",
+    "benchmark_bond": "ZIRAAT 8.994% Subordinated Aug 2034 (XS2802184999)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Ziraat_Bank_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ziraat_Bank_Credit_Model.xlsx",
+    "last_updated": "2026-11-25",
+    "model_type": "bank",
+    "financials_currency": "TRY",
+    "provenance": "financials built 25-Nov-26 from Ziraat Bank FY2025 Audited & 9M 2026 BRSA/KAP Results (Nov-26); quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Ziraat Bank FY2025 Audited BRSA Financial Statements (KAP / IR), read 25-Nov-26",
+      "loans": 4200000.0,
+      "car_pct": 18.6,
+      "npl_pct": 1.7,
+      "observations": {
+        "notes": "FY25 cash loans TRY 4.2tn (~50% of assets), securities TRY 2.0tn, CAR 18.6% (supported by $600m AT1), cash NPL 1.7%."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "TRY",
+      "source": "Ziraat Bank 9M 2026 Unaudited BRSA Financial Statements (Nov-26), read 25-Nov-26",
+      "assets": 10100000.0,
+      "loans": 5500000.0,
+      "net_profit": 124500.0,
+      "npl_pct": 2.0,
+      "observations": {
+        "notes": "First Turkish bank to surpass TRY 10.1tn total assets in 9M26; cash loans TRY 5.5tn (+non-cash TRY 2.2tn), 9M26 net profit TRY 124.5bn, NPL 2.0% (vs ~3% sector avg)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Ziraat Bank 9.500% Senior Unsecured due Aug 2026 (Matured)",
+      "tranche_name": "Ziraat Bank 9.500% Senior Unsecured due Aug 2026 (Matured)",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 0.0,
+      "outstanding_usd_m": 0.0,
+      "amount_outstanding_usd_m": 0.0,
+      "amount_usd_m": 0.0,
+      "coupon": "9.500%",
+      "maturity": "2026-08-01",
+      "maturity_date": "2026-08-01",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2581381634"
+    },
+    {
+      "instrument": "Ziraat Bank 8.994% Subordinated Tier 2 due Aug 2034",
+      "tranche_name": "Ziraat Bank 8.994% Subordinated Tier 2 due Aug 2034",
+      "instrument_type": "Subordinated Tier 2",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "8.994%",
+      "maturity": "2034-08-02",
+      "maturity_date": "2034-08-02",
+      "seniority": "Subordinated Tier 2",
+      "governing_law": "English",
+      "isin": "XS2802184999"
+    },
+    {
+      "instrument": "Ziraat Bank Perpetual AT1 Capital Notes",
+      "tranche_name": "Ziraat Bank Perpetual AT1 Capital Notes",
+      "instrument_type": "Additional Tier 1",
+      "currency": "USD",
+      "amount_issued_usd_m": 600.0,
+      "outstanding_usd_m": 600.0,
+      "amount_outstanding_usd_m": 600.0,
+      "amount_usd_m": 600.0,
+      "coupon": "AT1",
+      "maturity": "Perpetual",
+      "maturity_date": "Perpetual",
+      "seniority": "Additional Tier 1",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 1100.0,
+    "total_outstanding_usd_m": 1100.0,
+    "source": "Reported Tier 2 (XS2802184999) and $600m AT1 benchmarks; Aug-26 senior bond retired."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-25",
+    "verdict": {
+      "stance": "Neutral / Largest Turkish State Bank Crossing TRY 10.1tn Assets (BB- / Ba3)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Ziraat became Turkey's first bank to exceed TRY 10.1tn in assets at 9M26, generating TRY 124.5bn net profit with NPLs contained at 2.0% (well below ~3% sector average). 100% T\u00fcrkiye Wealth Fund ownership anchors systemic support, though subsidized agricultural/SME policy lending and sovereign ceiling cap ratings at BB-/Ba3."
+    },
+    "positives": [
+      "100% owned by T\u00fcrkiye Wealth Fund (TWF); Turkey's #1 bank by assets (TRY 10.1tn at 9M26).",
+      "Superior asset quality vs sector (2.0% NPL vs ~3.0% system) and strong 18.6% YE25 CAR.",
+      "9M26 net profit of TRY 124.5bn supports internal capital generation."
+    ],
+    "negatives": [
+      "Policy-mandated agricultural/SME lending caps NIM upside relative to private Turkish peers.",
+      "Direct sovereign rating linkage and FX deposit dollarization sensitivity."
+    ],
+    "background": {
+      "business_overview": "Largest state-owned commercial and agricultural bank in T\u00fcrkiye.",
+      "asset_perimeter": "Corporate, SME, agricultural, retail, and international banking (Azerbaijan, Bosnia, Uzbekistan, Georgia, Europe).",
+      "ownership_governance": "100% T\u00fcrkiye Wealth Fund (TWF)."
+    },
+    "recent_drivers": [
+      "Nov-26 (9M26): Total assets hit TRY 10.1tn, cash loans TRY 5.5tn, NI TRY 124.5bn, NPL 2.0%."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-25",
+        "event": "FY2026 Audited BRSA Results & Capital Ratios",
+        "impact": "Confirms YE26 CAR/CET1 post-TRY 10tn expansion and NIM trajectory."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Asset Quality",
+      "management_target": "Keep NPL well below Turkish banking sector average (~3%)",
+      "current_runrate": "2.0% at 9M26 (up slightly from 1.7% YE25)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Outperforming sector by ~100bps despite tight monetary policy.",
+      "last_guided_source": "Ziraat Bank 9M26 Release (Nov-26)",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Report 9M26 standalone CET1 and Tier 1 ratios excluding BRSA forbearance adjustments.",
+      "focus_area": "Capital Quality",
+      "relevance": "Standardizes comparison with private peers Akbank/Garanti."
+    },
+    {
+      "question": "Detail senior Eurobond refinancing plans following Aug-26 maturity.",
+      "focus_area": "FX Liquidity",
+      "relevance": "Tests wholesale market access."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ziraat",
+      "sector": "Banks",
+      "topic": "9M26 Assets >TRY 10.1tn & Profit TRY 124.5bn",
+      "source": "Ziraat Bank BRSA Release (Nov-26)",
+      "note": "First Turkish bank >TRY 10.1tn assets; 9M26 NI TRY 124.5bn, cash loans TRY 5.5tn, NPL 2.0%."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-25",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "18:00 Istanbul",
+    "ir_webcast_url": "https://www.ziraatbank.com.tr/en/investor-relations",
+    "days_to_earnings": 92
+  },
+  "market_history": [
+    {
+      "date": "2026-11-25",
+      "period_name": "2026-11-25",
+      "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB- (Fitch) / Ba3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ]
+}
