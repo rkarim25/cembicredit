@@ -453,7 +453,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1109,6 +1109,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B- Positive (Fitch, Oct-26) / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "B- Positive (Fitch, Oct-26) / B3",
       "price": 103.24,
       "ytm": 9.26,

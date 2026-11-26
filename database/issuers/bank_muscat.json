@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "id": "bank_muscat",
+    "name": "Bank Muscat S.A.O.G.",
+    "ticker": "BKMB",
+    "country": "Oman",
+    "region": "GCC",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BBB- Stable (S&P / Fitch) / Baa3 (Moody's)",
+    "tier": "IG",
+    "benchmark_bond": "BKMB 4.846% Oct 2030 ($750m, XS3184474891)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Bank_Muscat_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bank_Muscat_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "bank",
+    "financials_currency": "OMR",
+    "provenance": "financials built 26-Nov-26 from Bank Muscat FY24/FY25 Audited & 9M 2026 MSX Statements + XS3184474891; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "OMR",
+      "source": "Bank Muscat FY2024 Audited MSX Financial Statements, read 26-Nov-26",
+      "assets": 14100.0,
+      "net_profit": 225.6,
+      "observations": {
+        "notes": "FY24 assets ~OMR 14.1bn, net profit OMR 225.58m."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "OMR",
+      "source": "Bank Muscat FY2025 Audited MSX Financial Statements, read 26-Nov-26",
+      "net_profit": 255.5,
+      "car_pct": 19.66,
+      "observations": {
+        "notes": "FY25 NPAT OMR 255.54m (+13.3% YoY), deposits >OMR 10.4bn, Basel III CAR 19.66%. Issued $750m 4.846% Oct-30 EMTN (XS3184474891)."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "OMR",
+      "source": "Bank Muscat 9M 2026 Unaudited MSX Financial Statements (Nov-26), read 26-Nov-26",
+      "assets": 15998.0,
+      "net_profit": 209.2,
+      "observations": {
+        "notes": "9M26 NPAT OMR 209.18m (+9.2% YoY vs OMR 191.57m), assets OMR 15.998bn (+9.9% YoY), net impairment charges fell 25% YoY to OMR 32.76m."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Bank Muscat 4.846% Senior Unsecured EMTN due Oct 2030",
+      "tranche_name": "Bank Muscat 4.846% Senior Unsecured EMTN due Oct 2030",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "4.846%",
+      "maturity": "2030-10-01",
+      "maturity_date": "2030-10-01",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3184474891",
+      "observation": "Issued under EMTN programme; rated BBB- Stable S&P/Fitch."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 750.0,
+    "total_outstanding_usd_m": 750.0,
+    "source": "Bank Muscat $750m 4.846% Oct-30 EMTN (XS3184474891)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / Oman Sovereign Proxy with 19.66% CAR (BBB- / Baa3)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Bank Muscat (~35%+ Oman banking market share) posted 9.2% YoY net profit growth to OMR 209.2m in 9M26 as assets reached OMR 16.0bn (+9.9%) and impairments fell 25%. Oman's return to IG (BBB-/Baa3) and a 19.66% Basel III CAR make the $750m 4.846% Oct-30 bond (XS3184474891) a high-quality GCC IG anchor."
+    },
+    "positives": [
+      "Dominant Omani systemic franchise (~19.66% CAR) aligned with Oman's IG sovereign upgrade.",
+      "9M26 net profit +9.2% YoY with impairments down 25% YoY."
+    ],
+    "negatives": [
+      "Hydrocarbon sensitivity of Oman sovereign and corporate borrowers.",
+      "Tight IG spread compression post-Oman rising-star upgrades."
+    ],
+    "background": {
+      "business_overview": "Oman's largest financial institution (~35%+ market share).",
+      "asset_perimeter": "Oman corporate, retail, Meethaq Islamic banking.",
+      "ownership_governance": "Royal Court Affairs / OIA-linked shareholders; MSX listed."
+    },
+    "recent_drivers": [
+      "9M26: NPAT OMR 209.2m (+9.2% YoY), assets OMR 16.0bn (+9.9%), impairments down 25%."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-01-25",
+        "event": "FY2026 Audited MSX Results",
+        "impact": "Confirms FY26 ROE, NPL ratio, and CET1/CAR build."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Profitability & Credit Cost",
+      "management_target": "High single-digit growth with benign CoR",
+      "current_runrate": "9M26 NPAT +9.2%, impairments OMR 32.8m (-25%)",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "Lower credit costs & Oman macro stability.",
+      "last_guided_source": "Bank Muscat 9M26 Release",
+      "last_verified_period": "9M 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Provide exact 9M26 CET1 and Stage 3 NPL ratios.",
+      "focus_area": "Capital & Asset Quality",
+      "relevance": "Completes prudential benchmarking vs GCC IG peers."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "bank_muscat",
+      "sector": "Banks",
+      "topic": "9M26 Results (NPAT OMR 209.2m, +9.2%) & XS3184474891",
+      "source": "Bank Muscat MSX / Cbonds (Nov-26)",
+      "note": "9M26 NPAT OMR 209.18m (+9.2%), assets OMR 16.0bn, CAR 19.66% (FY25); $750m 4.846% Oct-30 XS3184474891."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-01-25",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Muscat",
+    "ir_webcast_url": "https://www.bankmuscat.com/en/investor-relations/Pages/default.aspx",
+    "days_to_earnings": 60
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB- Stable (S&P / Fitch) / Baa3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Bank Muscat S.A.O.G.",
+      "source": "financials built 26-Nov-26 from Bank Muscat FY24/FY25 Audited & 9M 2026 MSX Statements + XS3184474891; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "Bank Muscat (~35%+ Oman banking market share) posted 9.2% YoY net profit growth to OMR 209.2m in 9M26 as assets reached OMR 16.0bn (+9.9%) and impairments fell 25%. Oman's return to IG (BBB-/Baa3) and a 19.66% Basel III CAR make the $750m 4.846% Oct-30 bond (XS3184474891) a high-quality GCC IG anchor."
+    }
+  ]
+}

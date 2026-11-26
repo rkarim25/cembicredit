@@ -4,7 +4,7 @@ _Page created 22-Nov-26 from `database/issuers/otp.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: Baa1 Pos (Moody's dep) / Baa3 Pos (Sr) / BBB+ (Scope).
 

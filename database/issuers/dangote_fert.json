@@ -7,299 +7,31 @@
     "region": "Africa",
     "sector": "Materials",
     "type": "corp",
-    "rating": "B / B2",
+    "rating": "Unrated / Sovereign-Capped (Nigeria B / B3 / B)",
     "tier": "B",
     "benchmark_bond": "DANFER 7.75% 2031 ($750m) / 11.50% 2028",
-    "price": 96.0,
-    "ytm": 11.5,
-    "spread_bp": 715,
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
     "model_file": "Dangote_Fertiliser_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681dcba20e1bd4b761c01",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dangote_Fertiliser_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": -14.9,
-    "net_leverage_2024a": 2.77
+    "fcf_2024a": null,
+    "net_leverage_2024a": null,
+    "financials_currency": "USD",
+    "provenance": "financials rebuilt 26-Nov-26 from AFC $600m Facility Disclosure (Mid-26) & Dangote Group Filings; issuer-level standalone audited P&L private"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 952.0,
-      "ebitda": 422.5,
-      "ebitda_margin_pct": 44.4,
-      "cfo": 342.6,
-      "capex": 200.7,
-      "fcf": 39.4,
-      "cash": 268.1,
-      "gross_debt": 1944.8,
-      "net_debt": 1676.7,
-      "net_leverage": 3.97,
-      "interest_coverage": 4.14,
-      "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 458.4,
-      "calculated_ebitda": 422.5,
-      "ebitda_reconciliation_variance_usd_m": 35.9,
-      "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$35.9M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-      "cash_interest": 102.1,
-      "change_in_working_capital": 51.3,
-      "tax_expense": 29.0,
-      "fcf_conversion_pct": 9.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 422.5,
-        "capex": 200.7,
-        "cash_interest": 102.1,
-        "change_in_working_capital": 51.3,
-        "tax": 29.0,
-        "fcf": 39.4,
-        "formula_check": "422.5 - 200.7 - 102.1 - (51.3) - 29.0 = 39.4"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 1148.0,
-      "ebitda": 520.0,
-      "ebitda_margin_pct": 45.3,
-      "cfo": 430.9,
-      "capex": 351.0,
-      "fcf": -96.9,
-      "cash": 341.2,
-      "gross_debt": 2105.0,
-      "net_debt": 1763.8,
-      "net_leverage": 3.39,
-      "interest_coverage": 4.07,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 564.2,
-      "calculated_ebitda": 520.0,
-      "ebitda_reconciliation_variance_usd_m": 44.2,
-      "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$44.2M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-      "cash_interest": 127.8,
-      "change_in_working_capital": 102.7,
-      "tax_expense": 35.4,
-      "fcf_conversion_pct": -18.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 520.0,
-        "capex": 351.0,
-        "cash_interest": 127.8,
-        "change_in_working_capital": 102.7,
-        "tax": 35.4,
-        "fcf": -96.9,
-        "formula_check": "520.0 - 351.0 - 127.8 - (102.7) - 35.4 = -96.9"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 1288.0,
-      "ebitda": 585.0,
-      "ebitda_margin_pct": 45.4,
-      "cfo": 486.2,
-      "capex": 394.9,
-      "fcf": -118.1,
-      "cash": 414.4,
-      "gross_debt": 2242.2,
-      "net_debt": 1827.8,
-      "net_leverage": 3.12,
-      "interest_coverage": 3.82,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 634.7,
-      "calculated_ebitda": 585.0,
-      "ebitda_reconciliation_variance_usd_m": 49.7,
-      "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$49.7M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-      "cash_interest": 153.1,
-      "change_in_working_capital": 116.6,
-      "tax_expense": 38.5,
-      "fcf_conversion_pct": -20.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 585.0,
-        "capex": 394.9,
-        "cash_interest": 153.1,
-        "change_in_working_capital": 116.6,
-        "tax": 38.5,
-        "fcf": -118.1,
-        "formula_check": "585.0 - 394.9 - 153.1 - (116.6) - 38.5 = -118.1"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 1400.0,
-      "ebitda": 650.0,
-      "ebitda_margin_pct": 46.4,
-      "cfo": 552.5,
-      "capex": 373.7,
-      "fcf": -14.9,
-      "cash": 487.5,
-      "gross_debt": 2288.0,
-      "net_debt": 1800.5,
-      "net_leverage": 2.77,
-      "interest_coverage": 3.82,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 705.2,
-      "calculated_ebitda": 650.0,
-      "ebitda_reconciliation_variance_usd_m": 55.2,
-      "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$55.2M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-      "cash_interest": 170.2,
-      "change_in_working_capital": 78.3,
-      "tax_expense": 42.7,
-      "fcf_conversion_pct": -2.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 650.0,
-        "capex": 373.7,
-        "cash_interest": 170.2,
-        "change_in_working_capital": 78.3,
-        "tax": 42.7,
-        "fcf": -14.9,
-        "formula_check": "650.0 - 373.7 - 170.2 - (78.3) - 42.7 = -14.9"
-      }
-    },
-    {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 1512.0,
-      "ebitda": 715.0,
-      "ebitda_margin_pct": 47.3,
-      "cfo": 607.8,
-      "capex": 339.6,
-      "fcf": 80.2,
-      "cash": 575.2,
-      "gross_debt": 2242.2,
-      "net_debt": 1667.0,
-      "net_leverage": 2.33,
-      "interest_coverage": 4.38,
-      "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 775.8,
-      "calculated_ebitda": 715.0,
-      "ebitda_reconciliation_variance_usd_m": 60.8,
-      "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$60.8M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-      "cash_interest": 163.2,
-      "change_in_working_capital": 81.4,
-      "tax_expense": 50.6,
-      "fcf_conversion_pct": 11.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 715.0,
-        "capex": 339.6,
-        "cash_interest": 163.2,
-        "change_in_working_capital": 81.4,
-        "tax": 50.6,
-        "fcf": 80.2,
-        "formula_check": "715.0 - 339.6 - 163.2 - (81.4) - 50.6 = 80.2"
-      }
-    },
-    {
       "period": "2026E",
       "is_audited": false,
-      "revenue": 1610.0,
-      "ebitda": 767.0,
-      "ebitda_margin_pct": 47.6,
-      "cfo": 651.9,
-      "capex": 364.3,
-      "fcf": 105.1,
-      "cash": 658.1,
-      "gross_debt": 2173.6,
-      "net_debt": 1515.5,
-      "net_leverage": 1.98,
-      "interest_coverage": 4.9,
+      "currency": "USD",
+      "source": "Africa Finance Corporation (AFC) $600m Facility Announcement & Expansion Filings (Mid-26), read 26-Nov-26",
+      "gross_debt": 600.0,
       "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 832.2,
-      "calculated_ebitda": 767.0,
-      "ebitda_reconciliation_variance_usd_m": 65.2,
-      "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$65.2M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-      "cash_interest": 156.5,
-      "change_in_working_capital": 84.0,
-      "tax_expense": 57.1,
-      "fcf_conversion_pct": 13.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 767.0,
-        "capex": 364.3,
-        "cash_interest": 156.5,
-        "change_in_working_capital": 84.0,
-        "tax": 57.1,
-        "fcf": 105.1,
-        "formula_check": "767.0 - 364.3 - 156.5 - (84.0) - 57.1 = 105.1"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 1680.0,
-      "ebitda": 806.0,
-      "ebitda_margin_pct": 48.0,
-      "cfo": 690.6,
-      "capex": 382.8,
-      "fcf": 125.6,
-      "cash": 731.2,
-      "gross_debt": 2059.2,
-      "net_debt": 1328.0,
-      "net_leverage": 1.65,
-      "interest_coverage": 5.38,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 874.5,
-      "calculated_ebitda": 806.0,
-      "ebitda_reconciliation_variance_usd_m": 68.5,
-      "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$68.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-      "cash_interest": 149.8,
-      "change_in_working_capital": 85.6,
-      "tax_expense": 62.2,
-      "fcf_conversion_pct": 15.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 806.0,
-        "capex": 382.8,
-        "cash_interest": 149.8,
-        "change_in_working_capital": 85.6,
-        "tax": 62.2,
-        "fcf": 125.6,
-        "formula_check": "806.0 - 382.8 - 149.8 - (85.6) - 62.2 = 125.6"
+        "notes": "Greenview Fertiliser Corp (Dangote Fertiliser holding arm) secured a $600m facility from AFC in mid-2026 toward a $7bn expansion program tripling Nigeria urea capacity toward 9 Mtpa plus Ethiopia development. Standalone audited P&L remains private."
       }
     }
   ],
@@ -328,6 +60,13 @@
     "thesis": "World's largest single-train urea complex (3.0 mtpa); Lekki Free Zone tax holiday; dollar exports to US and Brazil."
   },
   "annotations": [
+    {
+      "issuer_id": "dangote_fert",
+      "sector": "Materials",
+      "topic": "AFC $600m Facility & $7bn Expansion Plan",
+      "source": "Africa Finance Corporation (Mid-26)",
+      "note": "Greenview Fertiliser secured $600m AFC facility for $7bn expansion to 9 Mtpa; standalone P&L private."
+    },
     {
       "issuer_id": "dangote_fert",
       "sector": "Materials",
@@ -578,7 +317,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1242,6 +981,19 @@
       "ebitda": 650.0,
       "fcf": -14.9,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "Unrated / Sovereign-Capped (Nigeria B / B3 / B)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1349,12 +1101,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Constructive / USD Export-Earning Nigerian Urea Champion (B/B2)",
+      "stance": "Neutral / Export-Oriented Hard-Currency Urea Producer (Private Filings)",
       "target_price": null,
       "current_price": 96.0,
       "ytm": 11.5,
       "spread_bp": 715,
-      "summary": "Dangote Fertiliser priced $750m 7.75% 2031 international Eurobonds (JPM/BofA) and secured a $600m AFC facility in June 2026 to fund Nigeria urea trains and a new Ethiopia plant. Hard-currency export sales and low-cost Nigerian gas feedstock drive ~55%+ EBITDA margins, tempered by expansion capex & sovereign ceiling."
+      "summary": "Greenview Fertiliser / Dangote Fertiliser secured a $600m AFC facility in mid-2026 to back a $7bn expansion targeting 9 Mtpa capacity and Ethiopia development. Hard-currency urea exports insulate against naira weakness, though standalone audited P&L and parent DIL intercompany terms remain private."
     },
     "positives": [
       "First-quartile global urea cost position via captive Nigerian natural gas feedstock and Lekki Free Zone export terminal.",
@@ -1372,6 +1124,7 @@
       "ownership_governance": "Part of Dangote Industries Limited; international Eurobond & DFI borrower."
     },
     "recent_drivers": [
+      "Mid-2026: Secured $600m AFC facility toward $7bn capacity tripling expansion (target 9 Mtpa).",
       "2026: Issued $750m 7.75% international Eurobond due 2031.",
       "Jun-26: Secured $600m facility from Africa Finance Corporation (AFC) for Nigeria & Ethiopia urea expansions."
     ],
@@ -1382,9 +1135,16 @@
         "impact": "Monitors capex drawdowns vs urea price realization."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 Dangote Fertiliser",
+      "source": "financials rebuilt 26-Nov-26 from AFC $600m Facility Disclosure (Mid-26) & Dangote Group Filings; issuer-level standalone audited P&L private",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from AFC $600m Facility Disclosure (Mid-26) & Dangote Group Filings; issuer-level standalone audited P&L private"
+    },
     {
       "date": "2026-11-23",
       "title": "$750m 2031 Eurobond & Jun-26 $600m AFC Facility",

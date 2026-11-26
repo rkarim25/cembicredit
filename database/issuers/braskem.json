@@ -16,7 +16,7 @@
     "model_file": "Braskem_Credit_Model.xlsx",
     "notion_id": "3e31d0ad68c6819baaa2de6d03346ec9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Braskem_Credit_Model.xlsx",
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-26",
     "cognitive_credit_id": "braskem",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/braskem/description",
     "model_type": "corp",
@@ -777,6 +777,13 @@
     {
       "issuer_id": "braskem",
       "sector": "Materials",
+      "topic": "Late-Nov 2026 Out-of-Court Restructuring Agreement in Principle",
+      "source": "Morningstar / Bondblox (Nov-26)",
+      "note": "Agreement covering >$10.9bn claims: $2.25bn rights offering ($1.3bn Petrobras/IG4 backstop), up to $3.6bn D2E, maturities pushed to 2031 at 10.5% weighted coupon."
+    },
+    {
+      "issuer_id": "braskem",
+      "sector": "Materials",
       "topic": "Late-Nov 2026 $4.9B Rescue Agreement",
       "source": "Market / Company Disclosures (Nov-26)",
       "note": "Agreed $4.9bn out-of-court restructuring ($1.3bn Petrobras/IG4 equity injection + $3.6bn D/E swap), averting formal RJ bankruptcy ahead of late-Nov deadline."
@@ -1113,7 +1120,7 @@
     "confirmation_status": "Estimated",
     "call_time": "15:00 Sao Paulo",
     "ir_webcast_url": "https://ri.braskem.com.br/en/",
-    "days_to_earnings": 113
+    "days_to_earnings": 112
   },
   "market_history": [
     {
@@ -1609,17 +1616,30 @@
       "ebitda": 5759.0,
       "fcf": -2330.0,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "D (S&P) / RD (Fitch) / Ca (Moody's)",
+      "price": 51.8,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "net_leverage": 10.2,
+      "ebitda": 5759.0,
+      "fcf": -2330.0,
+      "guidance_status": "Under Watch"
     }
   ],
   "credit_view": {
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-26",
     "verdict": {
-      "stance": "Restructuring Turnaround / $4.9B Out-of-Court Rescue Deal Agreed (Nov-26)",
+      "stance": "Distressed Restructuring / Late-Nov-26 Agreement in Principle (> $10.9bn Claims)",
       "target_price": null,
       "current_price": 51.8,
       "ytm": 19.8,
       "spread_bp": 1580,
-      "summary": "Late-Nov 2026 breakthrough: Braskem reached an out-of-court restructuring deal with creditors and controlling shareholders (Petrobras & IG4 Capital Group) ahead of the late-November judicial deadline, averting formal bankruptcy (RJ). The $4.9bn rescue package combines a $1.3bn shareholder capital injection with a $3.6bn debt-to-equity swap. Execution/closing and Alagoas liability containment remain key."
+      "summary": "In late Nov-26 Braskem reached a non-binding out-of-court restructuring agreement in principle with its ad-hoc creditor steering committee covering >$10.9bn in claims: $2.25bn equity rights offering ($1.3bn backstopped by Petrobras & IG4 Capital), up to $3.6bn debt-to-equity conversion, and new secured takeback debt extending maturities to 2031 at 10.5% weighted coupon with suspended principal repayments."
     },
     "positives": [
       "Scale petrochemical platform with strategic Brazilian ethylene/polyolefin market share and integrated feedstocks.",
@@ -1638,6 +1658,7 @@
       "ownership_governance": "Novonor (controlling voting shareholder, bank-pledged shares) and Petrobras (co-controlling / major shareholder) locked in protracted governance and equity-injection negotiations."
     },
     "recent_drivers": [
+      "Late-Nov 2026: Non-binding out-of-court agreement in principle ($10.9bn+ claims; $2.25bn rights issue, $3.6bn D2E, 2031 takeback debt at 10.5%).",
       "Late-Nov 2026: Agreed $4.9bn out-of-court rescue deal ($1.3bn Petrobras/IG4 equity injection + $3.6bn creditor D/E swap), averting RJ bankruptcy ahead of deadline.",
       "16-Nov-26: Earlier creditor rejection triggered RD/D/Ca ratings before revised terms cleared.",
       "16-Nov-26: Creditors formally rejected Braskem's extrajudicial restructuring plan ($1.1B-$1.4B equity + $2.9B-$3.8B D2E on $10.9B unsecured debt); stock fell 14%.",
@@ -1678,6 +1699,13 @@
     }
   ],
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Late-Nov 2026 Out-of-Court Restructuring Agreement in Principle",
+      "source": "Morningstar / Bondblox (Nov-26)",
+      "status": "Archived / Previous Note Run",
+      "summary": "Non-binding deal covering >$10.9bn claims ($2.25bn equity raise, $3.6bn D2E, 2031 takeback debt at 10.5%)."
+    },
     {
       "id": "braskem-rescue-20261124",
       "date": "2026-11-24",

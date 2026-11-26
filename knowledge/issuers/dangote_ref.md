@@ -4,16 +4,13 @@ _Page created 08-Oct-26 from `database/issuers/dangote_ref.json`. Dated, sourced
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- DAPERE 7.50% 2031 ($750m): price 95.0, YTM 12.5%, spread 815bp (as of 2026-11-21).
-- Rating as recorded: B / B3 / B (Sovereign-Capped).
+- Rating as recorded: Unrated Notes / Nigeria Sovereign Ceiling B / B3 / B (Fitch withdrew DIL B+(nga)).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 0.0 | -60.0 | -1990.0 | 240.1 | 3.0 | 4.37 |
-| 2023A | 0.0 | -80.0 | -1400.0 | 247.8 | 2.75 | 4.1 |
-| 2024A | 420.0 | 100.0 | -735.0 | 243.0 | 2.43 | 4.1 |
+| 2025A |  |  |  | 1730.0 |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=dangote_ref) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/dangote_ref.json)

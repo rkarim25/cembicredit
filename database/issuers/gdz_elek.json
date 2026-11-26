@@ -9,297 +9,33 @@
     "type": "corp",
     "rating": "BB- Stable (Fitch, Nov-26) / B2 (Moody's)",
     "tier": "B",
-    "benchmark_bond": "GDZTR 9.00% Oct 2029 ($500m)",
+    "benchmark_bond": "GDZTR 9.00% Oct 2029 ($519m)",
     "price": 98.2,
     "ytm": 9.1,
     "spread_bp": 470,
     "model_file": "GDZ_Elektrik_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681f5b7e6ec2e994a620f",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/GDZ_Elektrik_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": -77.1,
-    "net_leverage_2024a": 2.62
+    "fcf_2024a": null,
+    "net_leverage_2024a": 3.0,
+    "financials_currency": "USD",
+    "provenance": "financials rebuilt 26-Nov-26 from GDZ Elektrik Investor Disclosures & Fitch BB- Stable Assessment (Nov-26)"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 394.4,
-      "ebitda": 126.8,
-      "ebitda_margin_pct": 32.2,
-      "cfo": 102.8,
-      "capex": 102.4,
-      "fcf": -26.4,
-      "cash": 80.4,
-      "gross_debt": 558.6,
-      "net_debt": 478.2,
-      "net_leverage": 3.77,
-      "interest_coverage": 4.06,
+      "currency": "USD",
+      "source": "GDZ Elektrik Regulatory Filings & Fitch BB- Stable Review (Nov-26), read 26-Nov-26",
+      "capex": 250.0,
+      "fcf": -80.0,
+      "assets": 942.0,
+      "net_leverage": 3.0,
+      "interest_coverage": 3.1,
       "observations": {
-        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
-        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
-        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
-        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
-        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      },
-      "reported_ebitda": 128.7,
-      "calculated_ebitda": 126.8,
-      "ebitda_reconciliation_variance_usd_m": 1.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 31.2,
-      "change_in_working_capital": 11.0,
-      "tax_expense": 8.6,
-      "fcf_conversion_pct": -20.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 126.8,
-        "capex": 102.4,
-        "cash_interest": 31.2,
-        "change_in_working_capital": 11.0,
-        "tax": 8.6,
-        "fcf": -26.4,
-        "formula_check": "126.8 - 102.4 - 31.2 - (11.0) - 8.6 = -26.4"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 475.6,
-      "ebitda": 156.0,
-      "ebitda_margin_pct": 32.8,
-      "cfo": 129.3,
-      "capex": 179.0,
-      "fcf": -95.9,
-      "cash": 102.4,
-      "gross_debt": 604.6,
-      "net_debt": 502.2,
-      "net_leverage": 3.22,
-      "interest_coverage": 4.0,
-      "observations": {
-        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
-        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
-        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
-        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
-        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      },
-      "reported_ebitda": 164.6,
-      "calculated_ebitda": 156.0,
-      "ebitda_reconciliation_variance_usd_m": 8.6,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$8.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 39.0,
-      "change_in_working_capital": 23.4,
-      "tax_expense": 10.5,
-      "fcf_conversion_pct": -61.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 156.0,
-        "capex": 179.0,
-        "cash_interest": 39.0,
-        "change_in_working_capital": 23.4,
-        "tax": 10.5,
-        "fcf": -95.9,
-        "formula_check": "156.0 - 179.0 - 39.0 - (23.4) - 10.5 = -95.9"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 533.6,
-      "ebitda": 175.5,
-      "ebitda_margin_pct": 32.9,
-      "cfo": 145.9,
-      "capex": 201.4,
-      "fcf": -110.7,
-      "cash": 124.3,
-      "gross_debt": 644.0,
-      "net_debt": 519.7,
-      "net_leverage": 2.96,
-      "interest_coverage": 3.75,
-      "observations": {
-        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
-        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
-        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
-        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
-        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      },
-      "reported_ebitda": 185.2,
-      "calculated_ebitda": 175.5,
-      "ebitda_reconciliation_variance_usd_m": 9.7,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$9.7M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 46.8,
-      "change_in_working_capital": 26.6,
-      "tax_expense": 11.4,
-      "fcf_conversion_pct": -63.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 175.5,
-        "capex": 201.4,
-        "cash_interest": 46.8,
-        "change_in_working_capital": 26.6,
-        "tax": 11.4,
-        "fcf": -110.7,
-        "formula_check": "175.5 - 201.4 - 46.8 - (26.6) - 11.4 = -110.7"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 580.0,
-      "ebitda": 195.0,
-      "ebitda_margin_pct": 33.6,
-      "cfo": 165.8,
-      "capex": 190.6,
-      "fcf": -77.1,
-      "cash": 146.2,
-      "gross_debt": 657.2,
-      "net_debt": 511.0,
-      "net_leverage": 2.62,
-      "interest_coverage": 3.75,
-      "observations": {
-        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
-        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
-        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
-        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
-        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      },
-      "reported_ebitda": 205.7,
-      "calculated_ebitda": 195.0,
-      "ebitda_reconciliation_variance_usd_m": 10.7,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$10.7M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 52.0,
-      "change_in_working_capital": 16.8,
-      "tax_expense": 12.7,
-      "fcf_conversion_pct": -39.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 195.0,
-        "capex": 190.6,
-        "cash_interest": 52.0,
-        "change_in_working_capital": 16.8,
-        "tax": 12.7,
-        "fcf": -77.1,
-        "formula_check": "195.0 - 190.6 - 52.0 - (16.8) - 12.7 = -77.1"
-      }
-    },
-    {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 626.4,
-      "ebitda": 214.5,
-      "ebitda_margin_pct": 34.2,
-      "cfo": 182.3,
-      "capex": 173.2,
-      "fcf": -40.8,
-      "cash": 172.6,
-      "gross_debt": 644.0,
-      "net_debt": 471.4,
-      "net_leverage": 2.2,
-      "interest_coverage": 4.3,
-      "observations": {
-        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
-        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
-        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
-        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
-        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      },
-      "reported_ebitda": 217.7,
-      "calculated_ebitda": 214.5,
-      "ebitda_reconciliation_variance_usd_m": 3.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 49.9,
-      "change_in_working_capital": 17.2,
-      "tax_expense": 15.0,
-      "fcf_conversion_pct": -19.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 214.5,
-        "capex": 173.2,
-        "cash_interest": 49.9,
-        "change_in_working_capital": 17.2,
-        "tax": 15.0,
-        "fcf": -40.8,
-        "formula_check": "214.5 - 173.2 - 49.9 - (17.2) - 15.0 = -40.8"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 667.0,
-      "ebitda": 230.1,
-      "ebitda_margin_pct": 34.5,
-      "cfo": 195.6,
-      "capex": 185.8,
-      "fcf": -37.9,
-      "cash": 197.4,
-      "gross_debt": 624.3,
-      "net_debt": 426.9,
-      "net_leverage": 1.86,
-      "interest_coverage": 4.81,
-      "observations": {
-        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
-        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
-        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
-        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
-        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      },
-      "reported_ebitda": 233.6,
-      "calculated_ebitda": 230.1,
-      "ebitda_reconciliation_variance_usd_m": 3.5,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 47.8,
-      "change_in_working_capital": 17.4,
-      "tax_expense": 17.0,
-      "fcf_conversion_pct": -16.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 230.1,
-        "capex": 185.8,
-        "cash_interest": 47.8,
-        "change_in_working_capital": 17.4,
-        "tax": 17.0,
-        "fcf": -37.9,
-        "formula_check": "230.1 - 185.8 - 47.8 - (17.4) - 17.0 = -37.9"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 696.0,
-      "ebitda": 241.8,
-      "ebitda_margin_pct": 34.7,
-      "cfo": 207.2,
-      "capex": 195.3,
-      "fcf": -35.3,
-      "cash": 219.4,
-      "gross_debt": 591.4,
-      "net_debt": 372.0,
-      "net_leverage": 1.54,
-      "interest_coverage": 5.28,
-      "observations": {
-        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
-        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
-        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
-        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
-        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      },
-      "reported_ebitda": 245.4,
-      "calculated_ebitda": 241.8,
-      "ebitda_reconciliation_variance_usd_m": 3.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 45.8,
-      "change_in_working_capital": 17.5,
-      "tax_expense": 18.5,
-      "fcf_conversion_pct": -14.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 241.8,
-        "capex": 195.3,
-        "cash_interest": 45.8,
-        "change_in_working_capital": 17.5,
-        "tax": 18.5,
-        "fcf": -35.3,
-        "formula_check": "241.8 - 195.3 - 45.8 - (17.5) - 18.5 = -35.3"
+        "notes": "Serves ~6m population / 16 TWh in Izmir & Manisa; financial assets ~$942m, LTM EBITDA+capex reimbursements ~$575m. Fitch projects FFO net leverage <=3.0-3.2x, FFO int coverage ~3.1x, FCF ~-$80m/yr on ~$250m/yr grid capex with zero dividends through 2030."
       }
     }
   ],
@@ -329,6 +65,13 @@
     "thesis": "\u0130zmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
   },
   "annotations": [
+    {
+      "issuer_id": "gdz_elek",
+      "sector": "Utilities",
+      "topic": "Fitch BB- Stable Affirmation & 2026-30 Trajectory",
+      "source": "Fitch Ratings / GDZ IR (Nov-26)",
+      "note": "FFO net lev <=3.0x, FFO cov 3.1x, capex ~$250m/yr, FCF ~-$80m/yr, zero dividends to 2030; $519m 9% Oct-29 notes."
+    },
     {
       "issuer_id": "gdz_elek",
       "sector": "Utilities",
@@ -565,7 +308,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1229,6 +972,19 @@
       "ebitda": 195.0,
       "fcf": -77.1,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB- Stable (Fitch, Nov-26) / B2 (Moody's)",
+      "price": 98.2,
+      "ytm": 9.1,
+      "spread_bp": 470,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1318,12 +1074,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Neutral / Constructive Regulated Utility Anchor (BB-)",
+      "stance": "Neutral / Core Regulated Turkish Grid Utility (BB- Stable Fitch)",
       "target_price": null,
       "current_price": 98.2,
       "ytm": 9.1,
       "spread_bp": 470,
-      "summary": "Fitch affirmed GDZ Elektrik at 'BB-' Stable in Nov 2026, underpinned by \u0130zmir/Manisa regional monopoly and Turkey's 5th EMRA regulatory period (2026-2030, 13.5% real WACC). Heavy grid modernization capex constrains near-term FCF, requiring ongoing monitoring of FX hedging against USD notes."
+      "summary": "Fitch affirmed GDZ Elektrik and its $519m 9.00% Oct-29 notes at BB- Stable in Nov-26. Under EMRA's supportive 2026-2030 framework (13.49% real WACC), Fitch expects ~8% annual USD EBITDA growth and FFO net leverage <=3.0x with zero dividends through 2030, despite -$80m/yr FCF from $250m/yr grid capex."
     },
     "positives": [
       "Monopoly electricity distribution concession serving \u0130zmir and Manisa (high-growth industrial/commercial corridor).",
@@ -1351,9 +1107,16 @@
         "impact": "Verifies FCF deficit sizing and FX hedge mark-to-market."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 GDZ Elektrik",
+      "source": "financials rebuilt 26-Nov-26 from GDZ Elektrik Investor Disclosures & Fitch BB- Stable Assessment (Nov-26)",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from GDZ Elektrik Investor Disclosures & Fitch BB- Stable Assessment (Nov-26)"
+    },
     {
       "date": "2026-11-23",
       "title": "Fitch Nov-26 Affirmation & EMRA Period 5",

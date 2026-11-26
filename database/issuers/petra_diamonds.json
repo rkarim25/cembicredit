@@ -16,7 +16,7 @@
     "model_file": "Petra_Diamonds_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Petra_Diamonds_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
     "financials_currency": "USD",
     "provenance": "financials built 25-Nov-26 from Petra Diamonds FY25/FY26 Reports, S&P SD Action (Jul-26) & Nov-26 LSE Suspension; quotes await [BBG]",
@@ -80,14 +80,14 @@
     "source": "$228m 2L notes extended to Mar-30 + ~$94m RCF/other debt implied by $322m consolidated net debt; senior interest deferred to Jan-27."
   },
   "credit_view": {
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "verdict": {
-      "stance": "Underweight / Distressed Workout: S&P SD, Finsch Business Rescue & LSE Suspension",
+      "stance": "Distressed / Nov-26 LSE Share Suspension, CEO Exit & $20m Offtake Lifeline",
       "target_price": null,
       "current_price": null,
       "ytm": null,
       "spread_bp": null,
-      "summary": "Petra's liquidity deteriorated further in H2 FY26 as net debt climbed to $322m (Jun-26), forcing S&P to cut the issuer to 'SD' in July 2026 on deferred senior interest (pushed to Jan-2027), Finsch mine into South African business rescue, and LSE share trading into suspension in November 2026 over delayed FY26 audit completion."
+      "summary": "In Nov-26 Petra Diamonds' LSE shares were suspended after delaying FY26 audited accounts and its CEO resigned amid Finsch business rescue proceedings. Liquidity was temporarily patched by a $20m Cullinan diamond advance-payment offtake and a 12-month senior lender extension ahead of the Jan-27 deferred interest deadline."
     },
     "positives": [
       "2L notes ($228m) already extended from Mar-26 to Mar-30 with PIK/share-coupon flexibility.",
@@ -104,6 +104,7 @@
       "ownership_governance": "LSE listed (PDL, trading suspended Nov-26)."
     },
     "recent_drivers": [
+      "Nov-26: LSE shares suspended on delayed FY26 accounts; CEO resigned; secured $20m Cullinan offtake & 12m senior extension.",
       "Nov-26: LSE trading suspended on delayed FY26 audit; Jun-26 net debt $322m; Finsch in business rescue.",
       "Jul-26: S&P downgraded to SD after deferring senior debt interest to Jan-2027."
     ],
@@ -142,6 +143,13 @@
     {
       "issuer_id": "petra_diamonds",
       "sector": "Materials",
+      "topic": "Nov-26 LSE Suspension, CEO Exit & $20m Offtake",
+      "source": "Miningmx / IDEX (Nov-26)",
+      "note": "LSE shares suspended on delayed FY26 accounts; CEO resigned; Finsch business rescue; $20m Cullinan advance-payment offtake."
+    },
+    {
+      "issuer_id": "petra_diamonds",
+      "sector": "Materials",
       "topic": "Nov-26 LSE Suspension & Jul-26 S&P SD Downgrade",
       "source": "S&P / LSE / Petra Disclosures (Jul-Nov 26)",
       "note": "Jun-26 net debt $322m, Finsch in business rescue, S&P SD (Jul-26) on Jan-27 interest deferral, LSE suspended Nov-26 on audit delay."
@@ -153,13 +161,26 @@
     "confirmation_status": "Estimated",
     "call_time": "09:00 London",
     "ir_webcast_url": "https://www.petradiamonds.com/investors/",
-    "days_to_earnings": 51
+    "days_to_earnings": 50
   },
   "market_history": [
     {
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "SD (S&P, Jul-26) / LSE Suspended (Nov-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Lagging"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "SD (S&P, Jul-26) / LSE Suspended (Nov-26)",
       "price": null,
       "ytm": null,

@@ -4,12 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/liqtel.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: B- Stable (Fitch, May-26) / Caa1.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A | 686.7 |  |  |  |  |  |
+| 2025A | 693.5 |  |  |  |  |  |
 | 2026A | 781.9 | 295.6 |  | 781.1 | 2.64 |  |
 _USD m unless the record says otherwise; audited years only._
 

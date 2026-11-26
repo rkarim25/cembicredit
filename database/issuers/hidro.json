@@ -7,7 +7,7 @@
     "region": "CEE",
     "sector": "Utilities",
     "type": "corp",
-    "rating": "BBB-",
+    "rating": "BBB- (Fitch / Sovereign Floor)",
     "tier": "Tier-1",
     "benchmark_bond": "HIDRO 5.25% 2029",
     "price": 99.0,
@@ -16,304 +16,58 @@
     "model_file": "Hidroelectrica_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81f3-af65-e587d3fd6fdc",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Hidroelectrica_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": -250.0,
-    "net_leverage_2024a": 0.4
+    "fcf_2024a": null,
+    "net_leverage_2024a": -0.85,
+    "financials_currency": "RON",
+    "provenance": "financials rebuilt 26-Nov-26 from Hidroelectrica FY24/FY25 Audited & 9M 2026 BVB Financial Statements"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 1632.0,
-      "ebitda": 1007.5,
-      "ebitda_margin_pct": 61.7,
-      "cfo": 816.9,
-      "capex": 813.6,
-      "fcf": 12.1,
-      "cash": 639.4,
-      "gross_debt": 1515.1,
-      "net_debt": 875.7,
-      "net_leverage": 0.87,
-      "interest_coverage": 16.25,
-      "observations": {
-        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
-        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
-        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
-        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
-        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      },
-      "reported_ebitda": 1022.6,
-      "calculated_ebitda": 1007.5,
-      "ebitda_reconciliation_variance_usd_m": 15.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 62.0,
-      "change_in_working_capital": 23.3,
-      "tax_expense": 96.5,
-      "fcf_conversion_pct": 1.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 1007.5,
-        "capex": 813.6,
-        "cash_interest": 62.0,
-        "change_in_working_capital": 23.3,
-        "tax": 96.5,
-        "fcf": 12.1,
-        "formula_check": "1007.5 - 813.6 - 62.0 - (23.3) - 96.5 = 12.1"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 1968.0,
-      "ebitda": 1240.0,
-      "ebitda_margin_pct": 63.0,
-      "cfo": 1027.7,
-      "capex": 1422.9,
-      "fcf": -448.2,
-      "cash": 813.8,
-      "gross_debt": 1639.9,
-      "net_debt": 826.1,
-      "net_leverage": 0.67,
-      "interest_coverage": 16.0,
-      "observations": {
-        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
-        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
-        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
-        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
-        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      },
-      "reported_ebitda": 1258.6,
-      "calculated_ebitda": 1240.0,
-      "ebitda_reconciliation_variance_usd_m": 18.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 77.5,
-      "change_in_working_capital": 69.2,
-      "tax_expense": 118.6,
-      "fcf_conversion_pct": -36.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 1240.0,
-        "capex": 1422.9,
-        "cash_interest": 77.5,
-        "change_in_working_capital": 69.2,
-        "tax": 118.6,
-        "fcf": -448.2,
-        "formula_check": "1240.0 - 1422.9 - 77.5 - (69.2) - 118.6 = -448.2"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 2208.0,
-      "ebitda": 1395.0,
-      "ebitda_margin_pct": 63.2,
-      "cfo": 1159.4,
-      "capex": 1600.8,
-      "fcf": -509.8,
-      "cash": 988.1,
-      "gross_debt": 1746.8,
-      "net_debt": 758.7,
-      "net_leverage": 0.54,
-      "interest_coverage": 15.0,
-      "observations": {
-        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
-        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
-        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
-        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
-        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      },
-      "reported_ebitda": 1415.9,
-      "calculated_ebitda": 1395.0,
-      "ebitda_reconciliation_variance_usd_m": 20.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 93.0,
-      "change_in_working_capital": 78.5,
-      "tax_expense": 132.5,
-      "fcf_conversion_pct": -36.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 1395.0,
-        "capex": 1600.8,
-        "cash_interest": 93.0,
-        "change_in_working_capital": 78.5,
-        "tax": 132.5,
-        "fcf": -509.8,
-        "formula_check": "1395.0 - 1600.8 - 93.0 - (78.5) - 132.5 = -509.8"
-      }
-    },
-    {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 2400.0,
-      "ebitda": 1550.0,
-      "ebitda_margin_pct": 64.6,
-      "cfo": 1317.5,
-      "capex": 1515.1,
-      "fcf": -250.0,
-      "cash": 1162.5,
-      "gross_debt": 1782.5,
-      "net_debt": 620.0,
-      "net_leverage": 0.4,
-      "interest_coverage": 15.0,
+      "currency": "RON",
+      "source": "Hidroelectrica FY2024 Audited Annual Report (BVB), read 26-Nov-26",
+      "revenue": 9123.0,
+      "ebitda": 5503.0,
+      "reported_ebitda": 5517.0,
+      "ebitda_margin_pct": 60.3,
+      "net_profit": 4128.0,
+      "net_debt": -4677.0,
+      "net_leverage": -0.85,
       "observations": {
-        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
-        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
-        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
-        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
-        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      },
-      "reported_ebitda": 1573.2,
-      "calculated_ebitda": 1550.0,
-      "ebitda_reconciliation_variance_usd_m": 23.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$23.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 103.3,
-      "change_in_working_capital": 34.3,
-      "tax_expense": 147.3,
-      "fcf_conversion_pct": -16.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 1550.0,
-        "capex": 1515.1,
-        "cash_interest": 103.3,
-        "change_in_working_capital": 34.3,
-        "tax": 147.3,
-        "fcf": -250.0,
-        "formula_check": "1550.0 - 1515.1 - 103.3 - (34.3) - 147.3 = -250.0"
+        "notes": "FY24 rev RON 9,123m, EBITDA RON 5,503m (Adj RON 5,517m), NPAT RON 4,128m, adjusted net cash RON 4,677m."
       }
     },
     {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 2592.0,
-      "ebitda": 1705.0,
-      "ebitda_margin_pct": 65.8,
-      "cfo": 1449.3,
-      "capex": 1376.8,
-      "fcf": 30.4,
-      "cash": 1371.8,
-      "gross_debt": 1746.8,
-      "net_debt": 375.0,
-      "net_leverage": 0.22,
-      "interest_coverage": 17.19,
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "RON",
+      "source": "Hidroelectrica FY2025 Audited Annual Report (BVB), read 26-Nov-26",
+      "revenue": 9619.0,
+      "ebitda": 4646.0,
+      "reported_ebitda": 4768.0,
+      "ebitda_margin_pct": 48.3,
+      "net_profit": 3370.0,
       "observations": {
-        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
-        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
-        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
-        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
-        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      },
-      "reported_ebitda": 1730.6,
-      "calculated_ebitda": 1705.0,
-      "ebitda_reconciliation_variance_usd_m": 25.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$25.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 99.2,
-      "change_in_working_capital": 34.5,
-      "tax_expense": 164.1,
-      "fcf_conversion_pct": 1.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 1705.0,
-        "capex": 1376.8,
-        "cash_interest": 99.2,
-        "change_in_working_capital": 34.5,
-        "tax": 164.1,
-        "fcf": 30.4,
-        "formula_check": "1705.0 - 1376.8 - 99.2 - (34.5) - 164.1 = 30.4"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 2760.0,
-      "ebitda": 1829.0,
-      "ebitda_margin_pct": 66.3,
-      "cfo": 1554.6,
-      "capex": 1476.9,
-      "fcf": 44.5,
-      "cash": 1569.4,
-      "gross_debt": 1693.4,
-      "net_debt": 124.0,
-      "net_leverage": 0.07,
-      "interest_coverage": 19.24,
-      "observations": {
-        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
-        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
-        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
-        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
-        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      },
-      "reported_ebitda": 1856.4,
-      "calculated_ebitda": 1829.0,
-      "ebitda_reconciliation_variance_usd_m": 27.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 95.1,
-      "change_in_working_capital": 34.7,
-      "tax_expense": 177.8,
-      "fcf_conversion_pct": 2.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 1829.0,
-        "capex": 1476.9,
-        "cash_interest": 95.1,
-        "change_in_working_capital": 34.7,
-        "tax": 177.8,
-        "fcf": 44.5,
-        "formula_check": "1829.0 - 1476.9 - 95.1 - (34.7) - 177.8 = 44.5"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 2880.0,
-      "ebitda": 1922.0,
-      "ebitda_margin_pct": 66.7,
-      "cfo": 1646.9,
-      "capex": 1552.0,
-      "fcf": 56.2,
-      "cash": 1743.8,
-      "gross_debt": 1604.2,
-      "net_debt": -139.6,
-      "net_leverage": 0.0,
-      "interest_coverage": 21.14,
-      "observations": {
-        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
-        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
-        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
-        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
-        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      },
-      "reported_ebitda": 1950.8,
-      "calculated_ebitda": 1922.0,
-      "ebitda_reconciliation_variance_usd_m": 28.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$28.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 90.9,
-      "change_in_working_capital": 34.7,
-      "tax_expense": 188.2,
-      "fcf_conversion_pct": 2.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 1922.0,
-        "capex": 1552.0,
-        "cash_interest": 90.9,
-        "change_in_working_capital": 34.7,
-        "tax": 188.2,
-        "fcf": 56.2,
-        "formula_check": "1922.0 - 1552.0 - 90.9 - (34.7) - 188.2 = 56.2"
+        "notes": "FY25 rev RON 9,619m, EBITDA RON 4,646m (Adj RON 4,768m), NPAT RON 3,370m."
       }
     },
     {
       "period": "9M26",
       "is_audited": false,
       "currency": "RON",
-      "source": "Hidroelectrica S.A. 9M 2026 Consolidated Financial Results (BVB), read 23-Nov-26",
-      "revenue": 8601.0,
-      "ebitda": 4132.0,
-      "reported_ebitda": 4132.0,
-      "ebitda_margin_pct": 48.0,
+      "source": "Hidroelectrica 9M 2026 Unaudited BVB Financial Results (Nov-26), read 26-Nov-26",
+      "revenue": 8600.0,
+      "ebitda": 4145.0,
+      "reported_ebitda": 4130.0,
+      "ebitda_margin_pct": 48.2,
+      "cfo": 3190.0,
       "net_profit": 3108.0,
+      "cash": 1390.0,
       "observations": {
-        "notes": "9M26 revenue +28% YoY to RON 8,601m, Adj. EBITDA +27% YoY to RON 4,132m, Net Profit +34% YoY to RON 3,108m (despite Q3 drought cutting Q3 NPAT -26% YoY to RON 537m). Retail supply customers +56% to 1.46m; RON 1.4bn self-funded capex."
+        "notes": "9M26 rev RON 8.60bn (+28% YoY on retail supply expansion & +10% hydro generation), EBITDA RON 4,145m (48.2% margin), NPAT RON 3,108m (+34% YoY), CFO RON 3.19bn, cash RON 1.39bn."
       }
     }
   ],
@@ -343,6 +97,13 @@
     "thesis": "Pure-play hydropower generator in Romania with exceptional 65% EBITDA margin and minimal debt."
   },
   "annotations": [
+    {
+      "issuer_id": "hidro",
+      "sector": "Utilities",
+      "topic": "FY24/FY25 Audited & 9M26 BVB Results (+34% NPAT)",
+      "source": "BVB Filings (Nov-26)",
+      "note": "9M26 rev RON 8.60bn (+28%), EBITDA RON 4.15bn, NPAT RON 3.11bn (+34% YoY), CFO RON 3.19bn, cash RON 1.39bn."
+    },
     {
       "issuer_id": "hidro",
       "sector": "Utilities",
@@ -579,7 +340,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1243,6 +1004,19 @@
       "ebitda": 1550.0,
       "fcf": -250.0,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB- (Fitch / Sovereign Floor)",
+      "price": 99.0,
+      "ytm": 5.5,
+      "spread_bp": 145,
+      "net_leverage": -0.85,
+      "ebitda": 5503.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1332,12 +1106,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Overweight / Fortress Zero-Carbon Utility Balance Sheet (BBB-)",
+      "stance": "Overweight / Net-Cash Zero-Carbon Romanian Monopoly (BBB-)",
       "target_price": null,
       "current_price": 99.0,
       "ytm": 5.5,
       "spread_bp": 145,
-      "summary": "9M 2026 Adj. EBITDA surged 27% YoY to RON 4,132m (revenue +28% to RON 8,601m, NPAT +34% to RON 3,108m) despite Q3 Danube drought compressing Q3 profit -26% YoY to RON 537m. Ultra-low ~0.4x leverage and self-funded RON 1.4bn capex anchor IG profile."
+      "summary": "Hidroelectrica delivered a strong 9M26 rebound with revenue up 28% YoY to RON 8.60bn, EBITDA of RON 4.15bn (48.2% margin), and net profit up 34% YoY to RON 3.11bn alongside RON 3.19bn operating cash flow. Fortress net-cash balance sheet leaves credit anchored solely to the Romania sovereign ceiling (BBB-)."
     },
     "positives": [
       "Strong 9M 2026 earnings momentum: Adj. EBITDA RON 4,132m (+27% YoY, 48% margin) and NPAT RON 3,108m (+34% YoY).",
@@ -1364,9 +1138,16 @@
         "impact": "Monitors Q4 Danube reservoir recovery and 2027 dividend payout."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 Hidroelectrica",
+      "source": "financials rebuilt 26-Nov-26 from Hidroelectrica FY24/FY25 Audited & 9M 2026 BVB Financial Statements",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from Hidroelectrica FY24/FY25 Audited & 9M 2026 BVB Financial Statements"
+    },
     {
       "date": "2026-11-23",
       "title": "9M 2026 Strong Earnings (+27% EBITDA) Despite Q3 Drought",

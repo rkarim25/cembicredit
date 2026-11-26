@@ -16,302 +16,53 @@
     "model_file": "PGE_Poland_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81f6-b482-cbf468f60b59",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PGE_Poland_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": -1080.6,
-    "net_leverage_2024a": 1.85
+    "fcf_2024a": null,
+    "net_leverage_2024a": 0.34,
+    "financials_currency": "PLN",
+    "provenance": "financials rebuilt 26-Nov-26 from PGE Polska Grupa Energetyczna FY24/FY25 Audited & 9M 2026 WSE Financial Statements"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 13260.0,
-      "ebitda": 1820.0,
-      "ebitda_margin_pct": 13.7,
-      "cfo": 1475.6,
-      "capex": 1469.6,
-      "fcf": -384.2,
-      "cash": 1155.0,
-      "gross_debt": 6188.0,
-      "net_debt": 5033.0,
-      "net_leverage": 2.77,
-      "interest_coverage": 6.72,
-      "observations": {
-        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
-        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
-        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
-        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
-        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      },
-      "reported_ebitda": 1847.3,
-      "calculated_ebitda": 1820.0,
-      "ebitda_reconciliation_variance_usd_m": 27.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 270.8,
-      "change_in_working_capital": 313.3,
-      "tax_expense": 150.5,
-      "fcf_conversion_pct": -21.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 1820.0,
-        "capex": 1469.6,
-        "cash_interest": 270.8,
-        "change_in_working_capital": 313.3,
-        "tax": 150.5,
-        "fcf": -384.2,
-        "formula_check": "1820.0 - 1469.6 - 270.8 - (313.3) - 150.5 = -384.2"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 15990.0,
-      "ebitda": 2240.0,
-      "ebitda_margin_pct": 14.0,
-      "cfo": 1856.4,
-      "capex": 2570.4,
-      "fcf": -1568.0,
-      "cash": 1470.0,
-      "gross_debt": 6697.6,
-      "net_debt": 5227.6,
-      "net_leverage": 2.33,
-      "interest_coverage": 6.61,
-      "observations": {
-        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
-        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
-        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
-        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
-        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      },
-      "reported_ebitda": 2273.6,
-      "calculated_ebitda": 2240.0,
-      "ebitda_reconciliation_variance_usd_m": 33.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 338.9,
-      "change_in_working_capital": 714.3,
-      "tax_expense": 184.4,
-      "fcf_conversion_pct": -70.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 2240.0,
-        "capex": 2570.4,
-        "cash_interest": 338.9,
-        "change_in_working_capital": 714.3,
-        "tax": 184.4,
-        "fcf": -1568.0,
-        "formula_check": "2240.0 - 2570.4 - 338.9 - (714.3) - 184.4 = -1568.0"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 17940.0,
-      "ebitda": 2520.0,
-      "ebitda_margin_pct": 14.0,
-      "cfo": 2094.4,
-      "capex": 2891.7,
-      "fcf": -1787.1,
-      "cash": 1785.0,
-      "gross_debt": 7134.4,
-      "net_debt": 5349.4,
-      "net_leverage": 2.12,
-      "interest_coverage": 6.2,
-      "observations": {
-        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
-        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
-        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
-        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
-        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      },
-      "reported_ebitda": 2557.8,
-      "calculated_ebitda": 2520.0,
-      "ebitda_reconciliation_variance_usd_m": 37.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 406.5,
-      "change_in_working_capital": 805.3,
-      "tax_expense": 203.6,
-      "fcf_conversion_pct": -70.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 2520.0,
-        "capex": 2891.7,
-        "cash_interest": 406.5,
-        "change_in_working_capital": 805.3,
-        "tax": 203.6,
-        "fcf": -1787.1,
-        "formula_check": "2520.0 - 2891.7 - 406.5 - (805.3) - 203.6 = -1787.1"
-      }
-    },
-    {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 19500.0,
-      "ebitda": 2800.0,
-      "ebitda_margin_pct": 14.4,
-      "cfo": 2380.0,
-      "capex": 2737.0,
-      "fcf": -1080.6,
-      "cash": 2100.0,
-      "gross_debt": 7280.0,
-      "net_debt": 5180.0,
-      "net_leverage": 1.85,
-      "interest_coverage": 6.2,
+      "currency": "PLN",
+      "source": "PGE FY2024 Audited Consolidated Financial Statements (WSE), read 26-Nov-26",
+      "revenue": 64483.0,
+      "ebitda": 10878.0,
+      "reported_ebitda": 12215.0,
+      "ebitda_margin_pct": 16.9,
+      "net_debt": 4161.0,
+      "net_leverage": 0.34,
+      "net_profit": -3163.0,
       "observations": {
-        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
-        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
-        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
-        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
-        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      },
-      "reported_ebitda": 2842.0,
-      "calculated_ebitda": 2800.0,
-      "ebitda_reconciliation_variance_usd_m": 42.0,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$42.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 451.6,
-      "change_in_working_capital": 465.7,
-      "tax_expense": 226.3,
-      "fcf_conversion_pct": -38.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 2800.0,
-        "capex": 2737.0,
-        "cash_interest": 451.6,
-        "change_in_working_capital": 465.7,
-        "tax": 226.3,
-        "fcf": -1080.6,
-        "formula_check": "2800.0 - 2737.0 - 451.6 - (465.7) - 226.3 = -1080.6"
+        "notes": "FY24 rev PLN 64,483m, recurring EBITDA PLN 10,878m (reported PLN 12,215m), net financial debt PLN 4,161m (economic net debt PLN 17,204m incl CO2 provisions), net loss -PLN 3,163m on impairments."
       }
     },
     {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 21060.0,
-      "ebitda": 3080.0,
-      "ebitda_margin_pct": 14.6,
-      "cfo": 2618.0,
-      "capex": 2487.1,
-      "fcf": -592.7,
-      "cash": 2478.0,
-      "gross_debt": 7134.4,
-      "net_debt": 4656.4,
-      "net_leverage": 1.51,
-      "interest_coverage": 7.1,
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "PLN",
+      "source": "PGE FY2025 Audited Consolidated Financial Statements (WSE), read 26-Nov-26",
+      "ebitda": 12900.0,
+      "reported_ebitda": 12900.0,
+      "net_debt": 4200.0,
+      "net_leverage": 1.23,
+      "net_profit": -3400.0,
       "observations": {
-        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
-        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
-        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
-        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
-        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      },
-      "reported_ebitda": 3126.2,
-      "calculated_ebitda": 3080.0,
-      "ebitda_reconciliation_variance_usd_m": 46.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 433.8,
-      "change_in_working_capital": 493.5,
-      "tax_expense": 258.3,
-      "fcf_conversion_pct": -19.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 3080.0,
-        "capex": 2487.1,
-        "cash_interest": 433.8,
-        "change_in_working_capital": 493.5,
-        "tax": 258.3,
-        "fcf": -592.7,
-        "formula_check": "3080.0 - 2487.1 - 433.8 - (493.5) - 258.3 = -592.7"
+        "notes": "FY25 recurring EBITDA reached record PLN 12.9bn; net economic debt fell to PLN 4.2bn (reported net debt/EBITDA 1.23x); net loss -PLN 3.4bn from non-cash generation write-downs."
       }
     },
     {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 22425.0,
-      "ebitda": 3304.0,
-      "ebitda_margin_pct": 14.7,
-      "cfo": 2808.4,
-      "capex": 2668.0,
-      "fcf": -582.1,
-      "cash": 2835.0,
-      "gross_debt": 6916.0,
-      "net_debt": 4081.0,
-      "net_leverage": 1.24,
-      "interest_coverage": 7.95,
-      "observations": {
-        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
-        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
-        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
-        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
-        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      },
-      "reported_ebitda": 3353.6,
-      "calculated_ebitda": 3304.0,
-      "ebitda_reconciliation_variance_usd_m": 49.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$49.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 415.6,
-      "change_in_working_capital": 517.9,
-      "tax_expense": 284.6,
-      "fcf_conversion_pct": -17.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 3304.0,
-        "capex": 2668.0,
-        "cash_interest": 415.6,
-        "change_in_working_capital": 517.9,
-        "tax": 284.6,
-        "fcf": -582.1,
-        "formula_check": "3304.0 - 2668.0 - 415.6 - (517.9) - 284.6 = -582.1"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 23400.0,
-      "ebitda": 3472.0,
-      "ebitda_margin_pct": 14.8,
-      "cfo": 2975.0,
-      "capex": 2803.6,
-      "fcf": -568.3,
-      "cash": 3150.0,
-      "gross_debt": 6552.0,
-      "net_debt": 3402.0,
-      "net_leverage": 0.98,
-      "interest_coverage": 8.74,
-      "observations": {
-        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
-        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
-        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
-        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
-        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      },
-      "reported_ebitda": 3524.1,
-      "calculated_ebitda": 3472.0,
-      "ebitda_reconciliation_variance_usd_m": 52.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$52.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 397.3,
-      "change_in_working_capital": 534.4,
-      "tax_expense": 305.0,
-      "fcf_conversion_pct": -16.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 3472.0,
-        "capex": 2803.6,
-        "cash_interest": 397.3,
-        "change_in_working_capital": 534.4,
-        "tax": 305.0,
-        "fcf": -568.3,
-        "formula_check": "3472.0 - 2803.6 - 397.3 - (534.4) - 305.0 = -568.3"
-      }
-    },
-    {
-      "period": "Q326",
+      "period": "9M26",
       "is_audited": false,
       "currency": "PLN",
-      "source": "PGE Polska Grupa Energetyczna Q3 2026 Estimated Results (PAP, Nov-26), read 23-Nov-26",
-      "ebitda": 4610.0,
-      "reported_ebitda": 4610.0,
-      "net_profit": 3000.0,
+      "source": "PGE 9M 2026 WSE Financial Results (Nov-26), read 26-Nov-26",
+      "revenue": 48570.0,
+      "net_profit": 7040.0,
       "observations": {
-        "notes": "Q3 2026 estimated EBITDA PLN 4.61bn (recurring EBITDA ~PLN 2.89bn; includes +PLN 1.67bn non-cash reclamation reserve change & Tur\u00f3w settlement) and attributable net profit PLN 3.0bn."
+        "notes": "9M26 rev PLN 48.57bn, net profit swung to +PLN 7.04bn aided by one-off reclamation provision release and solid gas/heat/grid earnings."
       }
     }
   ],
@@ -341,6 +92,13 @@
     "thesis": "Poland's primary electricity generator and grid operator; accelerating offshore Baltic wind transition."
   },
   "annotations": [
+    {
+      "issuer_id": "pge",
+      "sector": "Utilities",
+      "topic": "FY24/FY25 Audited & 9M26 WSE Results (+PLN 7.04bn NPAT)",
+      "source": "PGE WSE Filings (Nov-26)",
+      "note": "FY25 recurring EBITDA PLN 12.9bn, net lev 1.23x; 9M26 rev PLN 48.57bn, NPAT PLN 7.04bn."
+    },
     {
       "issuer_id": "pge",
       "sector": "Utilities",
@@ -577,7 +335,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1241,6 +999,19 @@
       "ebitda": 2800.0,
       "fcf": -1080.6,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26)",
+      "price": 99.2,
+      "ytm": 5.3,
+      "spread_bp": 125,
+      "net_leverage": 0.34,
+      "ebitda": 10878.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1330,12 +1101,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Neutral / Heavy Transition Capex Polish State Utility (BBB/Baa1)",
+      "stance": "Neutral / Low-Leverage Polish Utility with Offshore Capex Ramp (BBB / Baa1)",
       "target_price": null,
       "current_price": 99.2,
       "ytm": 5.3,
       "spread_bp": 125,
-      "summary": "Fitch affirmed PGE at 'BBB' Stable in Sep 2026 (Moody's Baa1 Stable in Jul 2026). Q3 2026 recurring EBITDA hit ~PLN 2.89bn (headline PLN 4.61bn boosted by PLN 1.67bn reclamation reserve adjustment), while massive grid & offshore wind capex drives medium-term negative FCF projections."
+      "summary": "PGE posted 9M26 revenue of PLN 48.57bn and swung to a PLN 7.04bn net profit following FY25's record PLN 12.9bn recurring EBITDA and 1.23x leverage. Fitch (BBB Stable) and Moody's (Baa1 Stable) balance strong grid/heat cash flows against multi-billion PLN offshore wind capex."
     },
     "positives": [
       "Strong IG ratings: Fitch BBB Stable (Sep-26) and Moody's Baa1 Stable (Jul-26), anchored by ~61% Polish state ownership.",
@@ -1363,9 +1134,16 @@
         "impact": "Tracks leverage trajectory under Fitch BBB Stable tolerances."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 PGE Polska Grupa Energetyczna",
+      "source": "financials rebuilt 26-Nov-26 from PGE Polska Grupa Energetyczna FY24/FY25 Audited & 9M 2026 WSE Financial Statements",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from PGE Polska Grupa Energetyczna FY24/FY25 Audited & 9M 2026 WSE Financial Statements"
+    },
     {
       "date": "2026-11-23",
       "title": "Q326 Recurring EBITDA PLN 2.89bn & Fitch/Moody's Affirmations",

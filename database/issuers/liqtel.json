@@ -16,7 +16,7 @@
     "model_file": "Liquid_Telecom_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68106a069d7d8c091ffa8",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Liquid_Telecom_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "cognitive_credit_id": "liquidtech",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description",
     "model_type": "corp",
@@ -25,10 +25,32 @@
     "ltm_revenue": 633.2,
     "ltm_ebitda": 185.0,
     "ltm_net_debt": 764.2,
-    "provenance": "financials rebuilt 25-Nov-26 from Liquid Telecom FY26 Audited Results (YE Feb-26) & Apr-26 $660M Refinancing",
+    "provenance": "financials rebuilt 26-Nov-26 from Liquid Intelligent Technologies FY24/FY25/FY26 Audited Annual Reports (Euronext Dublin)",
     "financials_currency": "USD"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Liquid Intelligent Technologies FY2024 Audited Annual Report (Feb-24), read 26-Nov-26",
+      "revenue": 686.7,
+      "net_profit": 5.3,
+      "observations": {
+        "notes": "FY24 (ended Feb-24) rev $686.7m, PAT $5.3m."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Liquid Intelligent Technologies FY2025 Audited Annual Report (Feb-25), read 26-Nov-26",
+      "revenue": 693.5,
+      "net_profit": 18.4,
+      "observations": {
+        "notes": "FY25 (ended Feb-25) rev $693.5m (+1.0%), PAT $18.4m, 108,868 km fibre network."
+      }
+    },
     {
       "period": "2026A",
       "is_audited": true,
@@ -296,7 +318,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 London",
     "ir_webcast_url": "https://www.liquid.tech/",
-    "days_to_earnings": 220
+    "days_to_earnings": 216
   },
   "management_questions": [
     {
@@ -948,6 +970,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B- Stable (Fitch, May-26) / Caa1",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "B- Stable (Fitch, May-26) / Caa1",
       "price": null,
       "ytm": null,

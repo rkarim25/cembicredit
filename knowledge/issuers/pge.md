@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/pge.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- PGE 5.125% 2029: price 99.2, YTM 5.3%, spread 125bp (as of 2026-11-23).
+- PGE 5.125% 2029: price 99.2, YTM 5.3%, spread 125bp (as of 2026-11-26).
 - Rating as recorded: BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 15990.0 | 2240.0 | -1568.0 | 5227.6 | 2.33 | 6.61 |
-| 2023A | 17940.0 | 2520.0 | -1787.1 | 5349.4 | 2.12 | 6.2 |
-| 2024A | 19500.0 | 2800.0 | -1080.6 | 5180.0 | 1.85 | 6.2 |
+| 2024A | 64483.0 | 10878.0 |  | 4161.0 | 0.34 |  |
+| 2025A |  | 12900.0 |  | 4200.0 | 1.23 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=pge) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/pge.json)

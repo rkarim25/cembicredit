@@ -7,299 +7,43 @@
     "region": "CEEMEA",
     "sector": "Infrastructure",
     "type": "corp",
-    "rating": "B- Negative (Fitch, Sep-26) / B3",
+    "rating": "B- Negative (Fitch, Sep-26) / B3 Negative (Moody's, late-26)",
     "tier": "B",
-    "benchmark_bond": "LIMPRT 9.50% Jul 2036 ($370m)",
+    "benchmark_bond": "LIMPRT 9.50% Jul 2036 ($370m, XS2339789732)",
     "price": 98.5,
     "ytm": 7.85,
     "spread_bp": 345,
     "model_file": "Limak_Port_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6814ab652d1e6a4fb5446",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Port_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": 7.5,
-    "net_leverage_2024a": 3.08
+    "fcf_2024a": null,
+    "net_leverage_2024a": null,
+    "financials_currency": "USD",
+    "provenance": "financials rebuilt 26-Nov-26 from Fitch B- Negative (Sep-26) & Moody's B3 Negative (late-26) Rating Reports + Bond Disclosures"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 81.6,
-      "ebitda": 50.7,
-      "ebitda_margin_pct": 62.1,
-      "cfo": 41.1,
-      "capex": 20.2,
-      "fcf": 10.0,
-      "cash": 32.2,
-      "gross_debt": 253.9,
-      "net_debt": 221.7,
-      "net_leverage": 4.37,
-      "interest_coverage": 4.55,
-      "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 51.5,
-      "calculated_ebitda": 50.7,
-      "ebitda_reconciliation_variance_usd_m": 0.8,
-      "ebitda_reconciliation_variance_pct": 1.6,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.6% (+$0.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 11.1,
-      "change_in_working_capital": 5.7,
-      "tax_expense": 3.7,
-      "fcf_conversion_pct": 19.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 50.7,
-        "capex": 20.2,
-        "cash_interest": 11.1,
-        "change_in_working_capital": 5.7,
-        "tax": 3.7,
-        "fcf": 10.0,
-        "formula_check": "50.7 - 20.2 - 11.1 - (5.7) - 3.7 = 10.0"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 98.4,
-      "ebitda": 62.4,
-      "ebitda_margin_pct": 63.4,
-      "cfo": 51.7,
-      "capex": 35.4,
-      "fcf": -1.8,
-      "cash": 40.9,
-      "gross_debt": 274.8,
-      "net_debt": 233.9,
-      "net_leverage": 3.75,
-      "interest_coverage": 4.48,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 65.8,
-      "calculated_ebitda": 62.4,
-      "ebitda_reconciliation_variance_usd_m": 3.4,
-      "ebitda_reconciliation_variance_pct": 5.4,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$3.4M / +5.4%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 13.9,
-      "change_in_working_capital": 10.4,
-      "tax_expense": 4.5,
-      "fcf_conversion_pct": -2.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 62.4,
-        "capex": 35.4,
-        "cash_interest": 13.9,
-        "change_in_working_capital": 10.4,
-        "tax": 4.5,
-        "fcf": -1.8,
-        "formula_check": "62.4 - 35.4 - 13.9 - (10.4) - 4.5 = -1.8"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 110.4,
-      "ebitda": 70.2,
-      "ebitda_margin_pct": 63.6,
-      "cfo": 58.3,
-      "capex": 39.8,
-      "fcf": -3.0,
-      "cash": 49.7,
-      "gross_debt": 292.8,
-      "net_debt": 243.1,
-      "net_leverage": 3.46,
-      "interest_coverage": 4.2,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 74.1,
-      "calculated_ebitda": 70.2,
-      "ebitda_reconciliation_variance_usd_m": 3.9,
-      "ebitda_reconciliation_variance_pct": 5.6,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$3.9M / +5.6%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 16.7,
-      "change_in_working_capital": 11.8,
-      "tax_expense": 4.9,
-      "fcf_conversion_pct": -4.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 70.2,
-        "capex": 39.8,
-        "cash_interest": 16.7,
-        "change_in_working_capital": 11.8,
-        "tax": 4.9,
-        "fcf": -3.0,
-        "formula_check": "70.2 - 39.8 - 16.7 - (11.8) - 4.9 = -3.0"
-      }
-    },
-    {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 120.0,
-      "ebitda": 78.0,
-      "ebitda_margin_pct": 65.0,
-      "cfo": 66.3,
-      "capex": 37.7,
-      "fcf": 7.5,
-      "cash": 58.5,
-      "gross_debt": 298.7,
-      "net_debt": 240.2,
-      "net_leverage": 3.08,
-      "interest_coverage": 4.2,
+      "currency": "USD",
+      "source": "Fitch Ratings LimakPort Filing Review (2024 budgeted container rev $89.2m + $7.4m marine), read 26-Nov-26",
+      "revenue": 96.6,
       "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 82.3,
-      "calculated_ebitda": 78.0,
-      "ebitda_reconciliation_variance_usd_m": 4.3,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$4.3M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 18.6,
-      "change_in_working_capital": 8.8,
-      "tax_expense": 5.4,
-      "fcf_conversion_pct": 9.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 78.0,
-        "capex": 37.7,
-        "cash_interest": 18.6,
-        "change_in_working_capital": 8.8,
-        "tax": 5.4,
-        "fcf": 7.5,
-        "formula_check": "78.0 - 37.7 - 18.6 - (8.8) - 5.4 = 7.5"
+        "notes": "2024 container + marine revenue budgeted at $96.6m ($89.2m container + $7.4m marine), though actual post-earthquake volumes/cash generation tracked below budget."
       }
     },
     {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 129.6,
-      "ebitda": 85.8,
-      "ebitda_margin_pct": 66.2,
-      "cfo": 72.9,
-      "capex": 34.2,
-      "fcf": 18.3,
-      "cash": 69.0,
-      "gross_debt": 292.8,
-      "net_debt": 223.8,
-      "net_leverage": 2.61,
-      "interest_coverage": 4.81,
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Fitch Sep-26 B- Negative & Moody's Late-26 B3 Negative Bond Filings, read 26-Nov-26",
+      "cash": 95.0,
+      "gross_debt": 346.0,
+      "net_debt": 251.0,
       "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 87.1,
-      "calculated_ebitda": 85.8,
-      "ebitda_reconciliation_variance_usd_m": 1.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 17.8,
-      "change_in_working_capital": 9.2,
-      "tax_expense": 6.3,
-      "fcf_conversion_pct": 21.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 85.8,
-        "capex": 34.2,
-        "cash_interest": 17.8,
-        "change_in_working_capital": 9.2,
-        "tax": 6.3,
-        "fcf": 18.3,
-        "formula_check": "85.8 - 34.2 - 17.8 - (9.2) - 6.3 = 18.3"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 138.0,
-      "ebitda": 92.0,
-      "ebitda_margin_pct": 66.7,
-      "cfo": 78.2,
-      "capex": 36.7,
-      "fcf": 21.7,
-      "cash": 79.0,
-      "gross_debt": 283.8,
-      "net_debt": 204.8,
-      "net_leverage": 2.23,
-      "interest_coverage": 5.38,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 93.4,
-      "calculated_ebitda": 92.0,
-      "ebitda_reconciliation_variance_usd_m": 1.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 17.1,
-      "change_in_working_capital": 9.4,
-      "tax_expense": 7.1,
-      "fcf_conversion_pct": 23.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 92.0,
-        "capex": 36.7,
-        "cash_interest": 17.1,
-        "change_in_working_capital": 9.4,
-        "tax": 7.1,
-        "fcf": 21.7,
-        "formula_check": "92.0 - 36.7 - 17.1 - (9.4) - 7.1 = 21.7"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 144.0,
-      "ebitda": 96.7,
-      "ebitda_margin_pct": 67.2,
-      "cfo": 82.9,
-      "capex": 38.6,
-      "fcf": 24.4,
-      "cash": 87.8,
-      "gross_debt": 268.9,
-      "net_debt": 181.1,
-      "net_leverage": 1.87,
-      "interest_coverage": 5.92,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 98.2,
-      "calculated_ebitda": 96.7,
-      "ebitda_reconciliation_variance_usd_m": 1.5,
-      "ebitda_reconciliation_variance_pct": 1.6,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.6% (+$1.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 16.3,
-      "change_in_working_capital": 9.7,
-      "tax_expense": 7.7,
-      "fcf_conversion_pct": 25.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 96.7,
-        "capex": 38.6,
-        "cash_interest": 16.3,
-        "change_in_working_capital": 9.7,
-        "tax": 7.7,
-        "fcf": 24.4,
-        "formula_check": "96.7 - 38.6 - 16.3 - (9.7) - 7.7 = 24.4"
+        "notes": "YE25 liquidity ~$95m (aided by $105m cumulative earthquake insurance payouts) against ~$346m outstanding on $370m 9.50% Jul-36 notes (XS2339789732); mid-26 liquidity declined to ~$58m as 1H26 EBITDA trailed budget on Middle East/Red Sea disruptions."
       }
     }
   ],
@@ -328,6 +72,13 @@
     "thesis": "36-year deepwater BOT concession; 100% USD-denominated tariffs; 65% EBITDA margin."
   },
   "annotations": [
+    {
+      "issuer_id": "limak_port",
+      "sector": "Infrastructure",
+      "topic": "Fitch B- Neg / Moody's B3 Neg & Mid-26 Liquidity $58m",
+      "source": "Fitch (Sep-26) / Moody's (Late-26)",
+      "note": "Mid-26 liquidity ~$58m (vs ~$95m YE25); ~$346m amortizing project bond XS2339789732; 1H26 EBITDA trailed budget."
+    },
     {
       "issuer_id": "limak_port",
       "sector": "Infrastructure",
@@ -398,64 +149,21 @@
   },
   "capital_structure_tranches": [
     {
-      "tranche_name": "LMKPRT Benchmark Senior Notes",
-      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "instrument": "LimakPort 9.500% Amortizing Senior Secured Project Notes due Jul 2036",
+      "tranche_name": "LimakPort 9.500% Amortizing Senior Secured Project Notes due Jul 2036",
+      "instrument_type": "Senior Secured Project Bond",
       "currency": "USD",
-      "amount_issued_usd_m": 134.4,
-      "amount_outstanding_usd_m": 134.4,
-      "coupon": "7.850%",
-      "clean_price": 98.5,
-      "ytm": 7.85,
-      "spread_bp": 345,
-      "maturity_date": "2029-07-25",
-      "seniority": "Senior Unsecured (Pari Passu)",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "LMKPRT Secondary Eurobond / Sukuk Tranche 2",
-      "instrument_type": "Senior Unsecured Notes",
-      "currency": "USD",
-      "amount_issued_usd_m": 89.6,
-      "amount_outstanding_usd_m": 89.6,
-      "coupon": "7.200%",
-      "clean_price": 100.5,
-      "ytm": 7.199999999999999,
-      "spread_bp": 280,
-      "maturity_date": "2027-10-18",
-      "seniority": "Senior Unsecured",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "Syndicated Commercial Bank Term Facility",
-      "instrument_type": "Senior Secured / Priority Amortizing Loan",
-      "currency": "USD / EUR",
-      "amount_issued_usd_m": 58.2,
-      "amount_outstanding_usd_m": 44.8,
-      "coupon": "SOFR + 185 bps",
-      "clean_price": 100.0,
-      "ytm": 6.85,
-      "spread_bp": 185,
-      "maturity_date": "2031-03-31",
+      "amount_issued_usd_m": 346.0,
+      "outstanding_usd_m": 346.0,
+      "amount_outstanding_usd_m": 346.0,
+      "amount_usd_m": 346.0,
+      "coupon": "9.500%",
+      "maturity": "2036-07-15",
+      "maturity_date": "2036-07-15",
       "seniority": "Senior Secured",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
-      "instrument_type": "Revolving Working Capital Credit Line",
-      "currency": "USD",
-      "amount_issued_usd_m": 104.6,
-      "amount_outstanding_usd_m": 29.9,
-      "coupon": "SOFR + 150 bps",
-      "clean_price": 100.0,
-      "ytm": 6.5,
-      "spread_bp": 150,
-      "maturity_date": "2028-06-30",
-      "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
+      "governing_law": "English",
+      "isin": "XS2339789732",
+      "observation": "$370m initial issue (~$346m amortized); min DSCR 1.25x, DSRA/MRA ring-fence."
     }
   ],
   "rcf_facility_liquidity": {
@@ -564,7 +272,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1228,6 +936,19 @@
       "ebitda": 78.0,
       "fcf": 7.5,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B- Negative (Fitch, Sep-26) / B3 Negative (Moody's, late-26)",
+      "price": 98.5,
+      "ytm": 7.85,
+      "spread_bp": 345,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1317,12 +1038,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Underweight / Negative Outlook on Margin & Trade-Corridor Pressure (B- Neg)",
+      "stance": "Underweight / Volume Recovery Lag & Liquidity Draw (B- Neg / B3 Neg)",
       "target_price": null,
       "current_price": 98.5,
       "ytm": 7.85,
       "spread_bp": 345,
-      "summary": "Fitch affirmed LimakPort's $370m 9.50% Jul 2036 senior secured notes at 'B-' with a Negative Outlook in Sep 2026. H1 2026 trading lagged budget due to Middle East geopolitical/shipping disruptions and contracted EBITDA margins, while liquidity relies on remaining insurance proceeds and cash flow for grain berth reconstruction."
+      "summary": "Fitch (Sep-26 B- Negative) and Moody's (late-26 B3 Negative) flagged that 1H26 EBITDA and container volumes at LimakPort \u0130skenderun tracked below budget amid Red Sea/Middle East disruptions, drawing liquidity from ~$95m (YE25, post-$105m insurance receipts) to ~$58m by mid-26. Debt sustainability on the ~$346m 9.50% Jul-36 notes (XS2339789732) depends on throughput recovery."
     },
     "positives": [
       "Strategic eastern Mediterranean deep-water port concession (\u0130skenderun) serving industrial/reconstruction hinterland.",
@@ -1350,9 +1071,16 @@
         "impact": "Key trigger for Fitch Negative Outlook resolution vs downgrade to CCC+."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 LimakPort \u0130skenderun",
+      "source": "financials rebuilt 26-Nov-26 from Fitch B- Negative (Sep-26) & Moody's B3 Negative (late-26) Rating Reports + Bond Disclosures",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from Fitch B- Negative (Sep-26) & Moody's B3 Negative (late-26) Rating Reports + Bond Disclosures"
+    },
     {
       "date": "2026-11-23",
       "title": "Fitch Sep-26 B- Negative Outlook Review",

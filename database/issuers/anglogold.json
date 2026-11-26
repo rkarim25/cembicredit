@@ -197,13 +197,26 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 London",
     "ir_webcast_url": "https://www.anglogoldashanti.com/investors/",
-    "days_to_earnings": 87
+    "days_to_earnings": 86
   },
   "market_history": [
     {
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Baa3 (Moody's) / BB+ (S&P/Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.21,
+      "ebitda": 2747.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "Baa3 (Moody's) / BB+ (S&P/Fitch)",
       "price": null,
       "ytm": null,

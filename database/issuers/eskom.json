@@ -16,7 +16,7 @@
     "model_file": "Eskom_Holdings_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-812e-9b74-ebca484805d9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Eskom_Holdings_Credit_Model.xlsx",
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
     "fcf_2024a": -1991.7,
     "net_leverage_2024a": 6.8,
@@ -84,6 +84,13 @@
     "thesis": "South Africa's power utility; sovereign debt relief package transferred R254B of debt to national treasury."
   },
   "annotations": [
+    {
+      "issuer_id": "eskom",
+      "sector": "Utilities",
+      "topic": "Nov-26 Municipal Arrears >ZAR 122.5bn",
+      "source": "Daily Investor / Eskom (Nov-26)",
+      "note": "Sustained no-loadshedding operational stabilization, but municipal arrears climbed past ZAR 122.5bn alongside declining sales volumes."
+    },
     {
       "issuer_id": "eskom",
       "sector": "Utilities",
@@ -320,7 +327,7 @@
     "confirmation_status": "Estimated",
     "call_time": "11:00 Johannesburg",
     "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
-    "days_to_earnings": 11
+    "days_to_earnings": 4
   },
   "management_questions": [
     {
@@ -978,6 +985,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B+ (Fitch) / B2 (Moody's) / B (S&P)",
+      "price": 99.0,
+      "ytm": 8.5,
+      "spread_bp": 445,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "B+ (Fitch) / B2 (Moody's) / B (S&P)",
       "price": 99.0,
       "ytm": 8.5,

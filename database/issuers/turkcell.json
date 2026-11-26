@@ -332,7 +332,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:30 Istanbul / 15:30 UK",
     "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
-    "days_to_earnings": 102
+    "days_to_earnings": 98
   },
   "management_questions": [
     {
@@ -990,6 +990,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB / BB-",
+      "price": 96.8,
+      "ytm": 6.95,
+      "spread_bp": 290,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "BB / BB-",
       "price": 96.8,
       "ytm": 6.95,

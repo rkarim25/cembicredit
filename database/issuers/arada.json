@@ -16,17 +16,29 @@
     "model_file": "Arada_Credit_Model.xlsx",
     "notion_id": "3e01d0ad68c6819c9db2e3117db89214",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Arada_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
     "fcf_2024a": -185.0,
     "net_leverage_2024a": 2.74,
     "ltm_revenue": 1580.0,
     "ltm_ebitda": 414.0,
     "ltm_net_debt": 1133.0,
-    "provenance": "financials rebuilt 25-Nov-26 from Arada FY2025 Nasdaq Dubai Audited Filings & Oct-26 $400M Sukuk Pricing",
+    "provenance": "financials rebuilt 26-Nov-26 from Arada Developments FY24/FY25 Audited Statements & Late-26 $400m Sukuk Disclosure",
     "financials_currency": "AED"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "Arada Developments FY2024 Audited Annual Report & Fitch 5.3x Gross Leverage Review, read 26-Nov-26",
+      "revenue": 2480.0,
+      "ebitda": 584.0,
+      "net_leverage": 5.3,
+      "observations": {
+        "notes": "FY24 rev ~AED 2.48bn, EBITDA ~AED 584m (derived from +170%/+174% FY25 growth to AED 6.7bn / AED 1.6bn), gross debt/EBITDA 5.3x per Fitch."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -65,6 +77,13 @@
     "thesis": "Royal shareholding (Sharjah ruling family); Sharjah master development monopoly + Dubai expansion."
   },
   "annotations": [
+    {
+      "issuer_id": "arada",
+      "sector": "Real Estate",
+      "topic": "Late-26 $400m 5Y Sukuk Issuance",
+      "source": "Forbes ME / Arada (Late-26)",
+      "note": "Arada raised $400m via a 5-year sukuk in late 2026 following FY25 revenue AED 6.7bn (+170%) and EBITDA AED 1.6bn (+174%)."
+    },
     {
       "issuer_id": "arada",
       "sector": "Real Estate",
@@ -266,7 +285,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Dubai",
     "ir_webcast_url": "https://arada.com/en/investor-relations/",
-    "days_to_earnings": 113
+    "days_to_earnings": 109
   },
   "management_questions": [
     {
@@ -924,6 +943,19 @@
       "spread_bp": 329,
       "net_leverage": null,
       "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B+ / B1",
+      "price": 99.66,
+      "ytm": 8.13,
+      "spread_bp": 329,
+      "net_leverage": 5.3,
+      "ebitda": 584.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
     }

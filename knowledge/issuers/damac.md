@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/damac.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - DAMAC 6.125% Jul 2029 Sukuk ($600m): price 101.0, YTM 7.25%, spread 320bp (as of 2026-11-25).
 - Rating as recorded: BB+ (S&P upgraded) / Ba2 (Moody's).

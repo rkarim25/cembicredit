@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/metinvest.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - METINV 7.65% 2027 ($322-332m): price 93.27, YTM 14.98%, spread 1022bp (as of 2026-11-24).
 - Rating as recorded: CCC+ (S&P) / Caa3 (Moody's) / CCC- (Fitch).

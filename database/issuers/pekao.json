@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "id": "pekao",
+    "name": "Bank Pekao S.A.",
+    "ticker": "PEOPOL",
+    "country": "Poland",
+    "region": "CEE / CIS",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A- (S&P) / BBB+ Stable (Fitch)",
+    "tier": "IG",
+    "benchmark_bond": "PEOPOL 4.276% Jul 2037c32 Tier 2 (\u20ac500m, XS3438593926)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Bank_Pekao_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bank_Pekao_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "bank",
+    "financials_currency": "PLN",
+    "provenance": "financials built 26-Nov-26 from Bank Pekao FY24/FY25 Audited & Q3 2026 WSE Statements + Tier 2 Bond Filings; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "PLN",
+      "source": "Bank Pekao FY2024 Audited WSE Financial Statements, read 26-Nov-26",
+      "total_income": 16049.0,
+      "ppop": 10805.0,
+      "net_profit": 6376.0,
+      "assets": 318000.0,
+      "observations": {
+        "notes": "FY24 operating income PLN 16,049m, gross operating profit PLN 10,805m, NPAT PLN 6,376m."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "PLN",
+      "source": "Bank Pekao FY2025 Audited WSE Financial Statements, read 26-Nov-26",
+      "total_income": 17165.0,
+      "ppop": 11635.0,
+      "net_profit": 7015.0,
+      "assets": 337858.0,
+      "car_pct": 19.4,
+      "observations": {
+        "notes": "FY25 operating income PLN 17,165m, gross operating profit PLN 11,635m, NPAT PLN 7,015m (+10% YoY), assets PLN 337.86bn, TCR ~19.4%. Issued \u20ac500m Tier 2 due Feb-36 (XS3238272572) in Nov-25."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "PLN",
+      "source": "Bank Pekao Q3 2026 Capital & Jul-26 Tier 2 Issuance Disclosures, read 26-Nov-26",
+      "car_pct": 20.2,
+      "observations": {
+        "notes": "Total Capital Ratio (TCR) rose to ~20.2% by Q3 2026 following \u20ac500m Sustainable Tier 2 issuance in Jul-26 (4.276% due Jul-37c32, XS3438593926)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Bank Pekao 4.276% Sustainable Tier 2 due Jul 2037 (Call 2032)",
+      "tranche_name": "Bank Pekao 4.276% Sustainable Tier 2 due Jul 2037 (Call 2032)",
+      "instrument_type": "Subordinated Tier 2 Eurobond",
+      "currency": "EUR",
+      "amount_issued_usd_m": 540.0,
+      "outstanding_usd_m": 540.0,
+      "amount_outstanding_usd_m": 540.0,
+      "amount_usd_m": 540.0,
+      "coupon": "4.276%",
+      "maturity": "2037-07-13",
+      "maturity_date": "2037-07-13",
+      "seniority": "Tier 2 Subordinated",
+      "governing_law": "English / Polish",
+      "isin": "XS3438593926",
+      "observation": "\u20ac500m issued Jul-26; fixed 4.276% for 6Y then 3M Euribor+margin."
+    },
+    {
+      "instrument": "Bank Pekao 4.0101% Tier 2 due Feb 2036",
+      "tranche_name": "Bank Pekao 4.0101% Tier 2 due Feb 2036",
+      "instrument_type": "Subordinated Tier 2 Eurobond",
+      "currency": "EUR",
+      "amount_issued_usd_m": 540.0,
+      "outstanding_usd_m": 540.0,
+      "amount_outstanding_usd_m": 540.0,
+      "amount_usd_m": 540.0,
+      "coupon": "4.0101%",
+      "maturity": "2036-02-27",
+      "maturity_date": "2036-02-27",
+      "seniority": "Tier 2 Subordinated",
+      "governing_law": "English / Polish",
+      "isin": "XS3238272572",
+      "observation": "\u20ac500m issued Nov-25."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 1080.0,
+    "total_outstanding_usd_m": 1080.0,
+    "source": "Bank Pekao \u20ac1.0bn Tier 2 EMTN tranches (XS3238272572 & XS3438593926)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / 20.2% TCR Polish Tier-1 Bank (A- S&P / BBB+ Fitch)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Poland's #2 bank grew FY25 net profit 10% to PLN 7,015m on PLN 337.9bn assets and lifted Total Capital Ratio to ~20.2% in Q3 2026 after printing two \u20ac500m Tier 2 benchmarks (Nov-25 and Jul-26). Minimal CHF mortgage overhang vs peers supports A-/BBB+ ratings."
+    },
+    "positives": [
+      "~20.2% Q3 2026 Total Capital Ratio and PLN 7.0bn+ earnings power.",
+      "Low legacy CHF mortgage exposure vs Polish peers; PZU/PFR state anchor."
+    ],
+    "negatives": [
+      "NBP rate-cut cycle normalizing net interest margins from 2025 peaks.",
+      "Potential PZU/Pekao group corporate restructuring headlines."
+    ],
+    "background": {
+      "business_overview": "Poland's second-largest universal bank.",
+      "asset_perimeter": "Polish retail, corporate, and wealth banking.",
+      "ownership_governance": "PZU & Polish Development Fund (PFR) strategic shareholders; WSE listed."
+    },
+    "recent_drivers": [
+      "Q3/Jul-26: TCR rose to 20.2% following \u20ac500m 4.276% Tier 2 issue (XS3438593926)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-25",
+        "event": "FY2026 Audited WSE Results",
+        "impact": "Confirms NIM compression pace and dividend payout."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Capital Adequacy & Profitability",
+      "management_target": "TCR >17% & high-teens ROE",
+      "current_runrate": "Q3-26 TCR ~20.2%; FY25 NPAT PLN 7.02bn",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "Twin \u20ac500m Tier 2 issuances fortified total capital.",
+      "last_guided_source": "Bank Pekao Q3-26 Release",
+      "last_verified_period": "Q3 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Detail exact 9M26 net profit, CET1 ratio, and NBP rate-cut sensitivity on 2027 NIM.",
+      "focus_area": "NIM & Capital",
+      "relevance": "Determines Tier 2 spread compression vs PKO BP."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "pekao",
+      "sector": "Banks",
+      "topic": "Q3-26 20.2% TCR & Dual \u20ac500m Tier 2 Issues (XS3438593926)",
+      "source": "Bank Pekao WSE / Bondblox (2026)",
+      "note": "FY25 NPAT PLN 7.02bn, assets PLN 337.9bn; Q3-26 TCR 20.2%; \u20ac500m Tier 2 XS3238272572 & XS3438593926."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-25",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "09:30 CET",
+    "ir_webcast_url": "https://www.pekao.com.pl/en/investors-relations",
+    "days_to_earnings": 91
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A- (S&P) / BBB+ Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Bank Pekao S.A.",
+      "source": "financials built 26-Nov-26 from Bank Pekao FY24/FY25 Audited & Q3 2026 WSE Statements + Tier 2 Bond Filings; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "Poland's #2 bank grew FY25 net profit 10% to PLN 7,015m on PLN 337.9bn assets and lifted Total Capital Ratio to ~20.2% in Q3 2026 after printing two \u20ac500m Tier 2 benchmarks (Nov-25 and Jul-26). Minimal CHF mortgage overhang vs peers supports A-/BBB+ ratings."
+    }
+  ]
+}

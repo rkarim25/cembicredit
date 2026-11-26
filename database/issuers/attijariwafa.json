@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "id": "attijariwafa",
+    "name": "Attijariwafa Bank S.A.",
+    "ticker": "ATW",
+    "country": "Morocco",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB+ Stable (S&P / Moody's / Fitch)",
+    "tier": "BB",
+    "benchmark_bond": "ATW Syndicated / Domestic MAD Subordinated Notes (CSE: ATW)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Attijariwafa_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Attijariwafa_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "bank",
+    "financials_currency": "MAD",
+    "provenance": "financials built 26-Nov-26 from Attijariwafa Bank FY2024 Audited CSE Statements & S&P BB+ Upgrade; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "MAD",
+      "source": "Attijariwafa Bank FY2024 Audited Annual Report (CSE), read 26-Nov-26",
+      "assets": 726500.0,
+      "total_income": 34500.0,
+      "ppop": 22000.0,
+      "cir_pct": 36.1,
+      "net_profit": 11700.0,
+      "roe_pct": 22.5,
+      "observations": {
+        "notes": "FY24 assets MAD 726.5bn (~$72.6bn), Net Banking Income MAD 34.5bn (+15.2%), Gross Operating Income MAD 22.0bn (+24.2%, CIR 36.1%), consolidated NPAT MAD 11.7bn (Group Share MAD 9.5bn +26.6%), RoaTE 22.5%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Attijariwafa Domestic Subordinated & Syndicated Lines",
+      "tranche_name": "Attijariwafa Domestic Subordinated & Syndicated Lines",
+      "instrument_type": "Subordinated / Syndicated Debt",
+      "currency": "MAD",
+      "amount_issued_usd_m": 1200.0,
+      "outstanding_usd_m": 1200.0,
+      "amount_outstanding_usd_m": 1200.0,
+      "amount_usd_m": 1200.0,
+      "coupon": "MAD Fixed / Floating",
+      "maturity": "2030-12-31",
+      "maturity_date": "2030-12-31",
+      "seniority": "Subordinated / Senior",
+      "governing_law": "Moroccan Law",
+      "observation": "Primarily funded via deep Moroccan deposit franchise & local MAD bond market."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 150.0,
+    "2027": 200.0,
+    "2028": 250.0,
+    "2029": 300.0,
+    "2030_plus": 300.0,
+    "total_outstanding_usd_m": 1200.0,
+    "source": "Attijariwafa FY24 Annual Report wholesale/subordinated funding."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Neutral / Morocco's Largest Bank with 36.1% CIR & BB+ Upgrade",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Morocco's largest banking group delivered FY24 Net Banking Income of MAD 34.5bn (+15.2%), a sector-leading 36.1% cost-to-income ratio, and MAD 11.7bn consolidated net profit (22.5% RoaTE), earning an S&P upgrade to BB+ Stable alongside Morocco's sovereign strength."
+    },
+    "positives": [
+      "36.1% cost-to-income ratio and 22.5% RoaTE on MAD 726.5bn asset base.",
+      "S&P upgraded to BB+ Stable; dominant Moroccan + Francophone West Africa franchise."
+    ],
+    "negatives": [
+      "Sub-Saharan / UEMOA sovereign and FX exposures across regional subsidiaries.",
+      "Limited USD Eurobond float; primary market exposure via local/syndicated debt."
+    ],
+    "background": {
+      "business_overview": "Morocco's #1 universal bank with pan-African UEMOA/CEMAC footprint.",
+      "asset_perimeter": "Morocco banking/insurance + CBAO Senegal, Attijari Bank Tunisia, SCB Cameroon, Egypt.",
+      "ownership_governance": "Al Mada (~46.5%); Casablanca Stock Exchange listed."
+    },
+    "recent_drivers": [
+      "2025/2026: S&P upgraded to BB+ Stable following FY24 MAD 11.7bn NPAT and 36.1% CIR."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-10",
+        "event": "FY2026 Audited CSE Results",
+        "impact": "Updates post-2025 CET1, NPLs, and Morocco 2030 infrastructure lending."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Efficiency & Returns",
+      "management_target": "CIR <38% & RoaTE >20%",
+      "current_runrate": "FY24 CIR 36.1%, RoaTE 22.5%",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "Strong fee & net interest income expansion with tight cost control.",
+      "last_guided_source": "Attijariwafa FY24 Report",
+      "last_verified_period": "FY 2024"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Publish FY25/9M26 consolidated CET1, NPL ratio, and any plans for a debut USD Eurobond.",
+      "focus_area": "Capital & DCM",
+      "relevance": "Monitors potential new Moroccan bank CEMBI supply."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "attijariwafa",
+      "sector": "Banks",
+      "topic": "S&P BB+ Upgrade & FY24 (MAD 11.7bn NPAT, 36.1% CIR)",
+      "source": "Attijariwafa / S&P (2025/26)",
+      "note": "FY24 assets MAD 726.5bn, NBI MAD 34.5bn, NPAT MAD 11.7bn, CIR 36.1%, RoaTE 22.5%; S&P BB+ Stable."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "15:00 CET",
+    "ir_webcast_url": "https://ir.attijariwafabank.com/",
+    "days_to_earnings": 104
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB+ Stable (S&P / Moody's / Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Attijariwafa Bank S.A.",
+      "source": "financials built 26-Nov-26 from Attijariwafa Bank FY2024 Audited CSE Statements & S&P BB+ Upgrade; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "Morocco's largest banking group delivered FY24 Net Banking Income of MAD 34.5bn (+15.2%), a sector-leading 36.1% cost-to-income ratio, and MAD 11.7bn consolidated net profit (22.5% RoaTE), earning an S&P upgrade to BB+ Stable alongside Morocco's sovereign strength."
+    }
+  ]
+}

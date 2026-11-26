@@ -4,10 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/halyk.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- HSBKK 5.70% 2028: price 99.0, YTM 6.2%, spread 215bp (as of 2026-11-25).
+- HSBKK 5.70% 2028: price 99.0, YTM 6.2%, spread 215bp (as of 2026-11-26).
 - Rating as recorded: Baa1 / BBB-.
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2024A |  |  |  |  |  |
+| 2025A |  |  |  |  |  |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=halyk) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/halyk.json)
 <!-- auto-data-end -->

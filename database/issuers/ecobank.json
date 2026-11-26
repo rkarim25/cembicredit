@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "id": "ecobank",
+    "name": "Ecobank Transnational Inc. (ETI)",
+    "ticker": "ETIBNK",
+    "country": "Pan-Africa (Togo)",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "B- Stable (S&P, Nov-26)",
+    "tier": "B",
+    "benchmark_bond": "ETIBNK $450m Tier 2 Sustainable Notes",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Ecobank_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ecobank_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "bank",
+    "financials_currency": "USD",
+    "provenance": "financials built 26-Nov-26 from ETI FY2024 Audited & 9M 2026 NGX Statements + S&P Nov-26 Stable Outlook; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Ecobank Transnational FY2024 Audited NGX Statements, read 26-Nov-26",
+      "nii": 1200.0,
+      "fees": 914.0,
+      "total_income": 2100.0,
+      "cir_pct": 53.0,
+      "net_profit": 333.0,
+      "car_pct": 15.8,
+      "npl_pct": 6.7,
+      "observations": {
+        "notes": "FY24 net rev $2.10bn (+18% CC; NII $1.20bn + NIR $914m), CIR record low 53.0%, PBT $658m, PAT attributable $333m (+45% CC), CAR 15.8%, NPL 6.7%, CoR 1.79%."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Ecobank Transnational 9M 2026 Unaudited NGX Statements & S&P Nov-26 Review, read 26-Nov-26",
+      "assets": 36000.0,
+      "total_income": 1962.1,
+      "net_profit": 510.0,
+      "observations": {
+        "notes": "9M26 gross earnings $2,551.2m (+11% YoY), revenue $1,962.1m (+12% YoY), PBT $736.9m (+12% YoY), assets $36.0bn. Subsidiary Ecobank Nigeria repaid $300m Eurobond in Feb-26; S&P revised ETI Outlook to Stable (B-/B) in Nov-26."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "ETI $450m Tier 2 Sustainable Notes",
+      "tranche_name": "ETI $450m Tier 2 Sustainable Notes",
+      "instrument_type": "Subordinated Tier 2 Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 450.0,
+      "outstanding_usd_m": 450.0,
+      "amount_outstanding_usd_m": 450.0,
+      "amount_usd_m": 450.0,
+      "coupon": "Subordinated T2",
+      "maturity": "2031-06-30",
+      "maturity_date": "2031-06-30",
+      "seniority": "Tier 2 Subordinated",
+      "governing_law": "English",
+      "observation": "Issued under ETI Sustainable Finance programme; Ecobank Nigeria $300m senior bond fully repaid Feb-26."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 450.0,
+    "total_outstanding_usd_m": 450.0,
+    "source": "ETI $450m Tier 2 Sustainable Notes post Feb-26 Ecobank Nigeria $300m repayment."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / Pan-African Franchise Post-Nigeria Bond Repayment (S&P B- Stable Nov-26)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "ETI grew 9M26 revenue 12% YoY to $1,962m and PBT 12% to $736.9m ($36.0bn assets), while Ecobank Nigeria cleanly repaid its $300m Eurobond in Feb-26. In Nov-26 S&P revised ETI's B-/B outlook to Stable on resolved subsidiary debt risks and resilient UEMOA/Anglophone cash flows."
+    },
+    "positives": [
+      "S&P revised Outlook to Stable (Nov-26) following Ecobank Nigeria $300m Eurobond repayment.",
+      "35-country diversification with 53% CIR and 9M26 PBT up 12% to $736.9m."
+    ],
+    "negatives": [
+      "Nigeria/Ghana sovereign & FX volatility (6.7% FY24 NPLs).",
+      "HoldCo structural subordination to operating bank subsidiaries."
+    ],
+    "background": {
+      "business_overview": "Pan-African banking group operating across 35 countries from Lom\u00e9, Togo.",
+      "asset_perimeter": "UEMOA, Nigeria, AWA (Ghana), CESA.",
+      "ownership_governance": "Nedbank (~21%), Qatar National Bank (~20%), PIC; NGX/BRVM/GSE listed."
+    },
+    "recent_drivers": [
+      "Nov-26: S&P revised B-/B Outlook to Stable; 9M26 rev $1.96bn (+12%), PBT $736.9m (+12%), assets $36.0bn."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-01",
+        "event": "FY2026 Audited Full-Year Results",
+        "impact": "Confirms Nigeria NPL clean-up and HoldCo cash upstreaming."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Revenue & PBT Growth",
+      "management_target": "Double-digit USD revenue growth & <55% CIR",
+      "current_runrate": "9M26 rev +12% ($1.96bn), PBT +12% ($736.9m)",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "Broad FX stabilization and UEMOA/CESA strength.",
+      "last_guided_source": "ETI 9M26 Release",
+      "last_verified_period": "9M 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Report 9M26 consolidated CAR, HoldCo double leverage, and Nigeria Stage 3 NPL ratio.",
+      "focus_area": "HoldCo & Nigeria",
+      "relevance": "Assesses Tier 2 cushion vs Nigerian recovery."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ecobank",
+      "sector": "Banks",
+      "topic": "Nov-26 S&P B- Stable & 9M26 $736.9m PBT",
+      "source": "ETI NGX / S&P (Nov-26)",
+      "note": "9M26 rev $1,962m (+12%), PBT $736.9m (+12%), assets $36.0bn; Nigeria $300m bond repaid Feb-26; S&P B- Stable Nov-26."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-01",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 GMT",
+    "ir_webcast_url": "https://www.ecobank.com/group/investor-relations",
+    "days_to_earnings": 95
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B- Stable (S&P, Nov-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Ecobank Transnational Inc. (ETI)",
+      "source": "financials built 26-Nov-26 from ETI FY2024 Audited & 9M 2026 NGX Statements + S&P Nov-26 Stable Outlook; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "ETI grew 9M26 revenue 12% YoY to $1,962m and PBT 12% to $736.9m ($36.0bn assets), while Ecobank Nigeria cleanly repaid its $300m Eurobond in Feb-26. In Nov-26 S&P revised ETI's B-/B outlook to Stable on resolved subsidiary debt risks and resilient UEMOA/Anglophone cash flows."
+    }
+  ]
+}

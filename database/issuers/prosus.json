@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "id": "prosus",
+    "name": "Prosus N.V. (Naspers Group)",
+    "ticker": "PRX",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "BBB (S&P) / Baa2 (Moody's)",
+    "tier": "IG",
+    "benchmark_bond": "PRX 4.193% Jan 2032 (USN7163RAX19) / 5.528% 2033",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Prosus_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Prosus_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 26-Nov-26 from Prosus N.V. FY2026 (ended Mar-26) & H1 FY27 (ended Sep-26) Audited/Interim Reports; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2026A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Prosus N.V. FY2026 Audited Annual Report (ended 31-Mar-26), read 26-Nov-26",
+      "revenue": 7300.0,
+      "ebitda": 1100.0,
+      "reported_ebitda": 1100.0,
+      "ebitda_margin_pct": 15.1,
+      "observations": {
+        "notes": "FY26 (ended Mar-26) ecosystem revenue >$7.3bn, ecosystem Adj EBITDA $1.1bn."
+      }
+    },
+    {
+      "period": "H127",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Prosus N.V. H1 FY2027 Interim Financial Results (ended 30-Sep-26), read 26-Nov-26",
+      "revenue": 5700.0,
+      "ebitda": 496.0,
+      "reported_ebitda": 496.0,
+      "ebitda_margin_pct": 8.7,
+      "observations": {
+        "notes": "H1 FY27 rev $5.7bn (+10% reported / +16% LFL), Adj EBITDA ~$492-500m; FY27 rev guided $12.0-12.3bn. Raised $1.65bn in 7Y (5.528% 2033) & 10Y (5.873% 2036) notes to pre-fund 2027 maturities."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Prosus 5.528% Senior Unsecured Notes due 2033",
+      "tranche_name": "Prosus 5.528% Senior Unsecured Notes due 2033",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 825.0,
+      "outstanding_usd_m": 825.0,
+      "amount_outstanding_usd_m": 825.0,
+      "amount_usd_m": 825.0,
+      "coupon": "5.528%",
+      "maturity": "2033-06-30",
+      "maturity_date": "2033-06-30",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "Part of $1.65bn 2026 dual-tranche refinancing issue."
+    },
+    {
+      "instrument": "Prosus 5.873% Senior Unsecured Notes due 2036",
+      "tranche_name": "Prosus 5.873% Senior Unsecured Notes due 2036",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 825.0,
+      "outstanding_usd_m": 825.0,
+      "amount_outstanding_usd_m": 825.0,
+      "amount_usd_m": 825.0,
+      "coupon": "5.873%",
+      "maturity": "2036-06-30",
+      "maturity_date": "2036-06-30",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "Part of $1.65bn 2026 dual-tranche refinancing issue."
+    },
+    {
+      "instrument": "Prosus 4.193% Senior Unsecured Notes due 2032",
+      "tranche_name": "Prosus 4.193% Senior Unsecured Notes due 2032",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "4.193%",
+      "maturity": "2032-01-19",
+      "maturity_date": "2032-01-19",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "USN7163RAX19"
+    },
+    {
+      "instrument": "Prosus 3.257% Senior Unsecured Notes due 2027",
+      "tranche_name": "Prosus 3.257% Senior Unsecured Notes due 2027",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 1000.0,
+      "outstanding_usd_m": 1000.0,
+      "amount_outstanding_usd_m": 1000.0,
+      "amount_usd_m": 1000.0,
+      "coupon": "3.257%",
+      "maturity": "2027-01-19",
+      "maturity_date": "2027-01-19",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "USN7163RAW36",
+      "observation": "Pre-funded by 2026 $1.65bn bond issuance."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 1000.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 2650.0,
+    "total_outstanding_usd_m": 3650.0,
+    "source": "Prosus EMTN curve (incl. 2027, 2032, 2033, 2036 USD tranches)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / High-LTV-Cushion Tech HoldCo (BBB / Baa2)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Prosus grew H1 FY27 ecosystem revenue 16% LFL to $5.7bn (~$496m Adj EBITDA; FY27 revenue guided $12.0-12.3bn) after $7.3bn rev / $1.1bn EBITDA in FY26. Proactive $1.65bn 2033/2036 issuance pre-funded 2027 maturities, leaving vast Tencent/e-commerce NAV asset coverage above HoldCo debt."
+    },
+    "positives": [
+      "Massive liquid Tencent stake + profitable consolidated e-commerce ($1.1bn FY26 Adj EBITDA) yielding conservative HoldCo LTV.",
+      "Pre-funded 2027 maturities via $1.65bn 2033/2036 issuance."
+    ],
+    "negatives": [
+      "Tencent dividend/regulatory sensitivity in China and ongoing open-ended share buybacks.",
+      "M&A deployment risk across European/LatAm food delivery and classifieds."
+    ],
+    "background": {
+      "business_overview": "Global consumer internet group (Naspers subsidiary) holding Tencent stake plus consolidated e-commerce/fintech/food delivery.",
+      "asset_perimeter": "Tencent equity stake + iFood, PayU, OLX, eMAG.",
+      "ownership_governance": "Euronext Amsterdam listed (PRX); controlled by Naspers (South Africa)."
+    },
+    "recent_drivers": [
+      "Nov-26 H1 FY27: Ecosystem rev $5.7bn (+16% LFL), Adj EBITDA ~$496m; FY27 rev guided $12.0-12.3bn."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-06-22",
+        "event": "FY2027 Full-Year Results (Mar-27 Year-End)",
+        "impact": "Tests $12.0-12.3bn revenue & consolidated FCF inflection."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "FY27 Ecosystem Revenue",
+      "management_target": "$12.0bn - $12.3bn",
+      "current_runrate": "$5.7bn in H1 FY27 (+16% LFL)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Accelerating scale post-Just Eat Takeaway/portfolio consolidation.",
+      "last_guided_source": "Prosus H1 FY27 Release",
+      "last_verified_period": "H1 FY27"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Detail gross cash balance and net cash/debt at HoldCo post-$1.65bn bond issuance and ongoing Tencent trim.",
+      "focus_area": "Liquidity & LTV",
+      "relevance": "Tracks HoldCo coverage ratio."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "prosus",
+      "sector": "Technology",
+      "topic": "H1 FY27 Results ($5.7bn Rev) & $1.65bn 2033/36 Refi",
+      "source": "Prosus IR / Investing.com (Nov-26)",
+      "note": "FY26 rev >$7.3bn, Adj EBITDA $1.1bn; H1 FY27 rev $5.7bn, Adj EBITDA ~$496m; issued $1.65bn 2033/2036 notes."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-06-22",
+    "period_reporting": "FY 2027 Audited (Mar-27 YE)",
+    "confirmation_status": "Estimated",
+    "call_time": "15:00 CET",
+    "ir_webcast_url": "https://www.prosus.com/investors",
+    "days_to_earnings": 208
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB (S&P) / Baa2 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Prosus N.V. (Naspers Group)",
+      "source": "financials built 26-Nov-26 from Prosus N.V. FY2026 (ended Mar-26) & H1 FY27 (ended Sep-26) Audited/Interim Reports; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "Prosus grew H1 FY27 ecosystem revenue 16% LFL to $5.7bn (~$496m Adj EBITDA; FY27 revenue guided $12.0-12.3bn) after $7.3bn rev / $1.1bn EBITDA in FY26. Proactive $1.65bn 2033/2036 issuance pre-funded 2027 maturities, leaving vast Tencent/e-commerce NAV asset coverage above HoldCo debt."
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 92.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 92.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 8.0,
+    "restructuring_framework": "Dutch / English Law",
+    "thesis": "Deep liquid equity NAV (Tencent + consolidated e-commerce) provides multi-turn HoldCo debt coverage."
+  }
+}

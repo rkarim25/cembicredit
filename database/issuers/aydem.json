@@ -7,300 +7,49 @@
     "region": "CEEMEA",
     "sector": "Utilities",
     "type": "corp",
-    "rating": "B Stable (Fitch, 2026) / B3",
+    "rating": "B Stable (Fitch, 2026)",
     "tier": "B",
-    "benchmark_bond": "AYDEM 8.95% 2027",
+    "benchmark_bond": "AYDEM $550m Green Bond due 2030 (Refinanced late-25)",
     "price": 96.5,
     "ytm": 8.95,
     "spread_bp": 455,
     "model_file": "Aydem_Renewable_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681008c2ee5226c1af03d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aydem_Renewable_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": -82.6,
-    "net_leverage_2024a": 4.11,
-    "provenance": "9M 2026 earnings & $550m late-2025 green Eurobond profile integrated 22-Nov-26"
+    "fcf_2024a": null,
+    "net_leverage_2024a": 4.2,
+    "provenance": "financials rebuilt 26-Nov-26 from Aydem Renewables FY24/FY25 Audited KAP IFRS Statements & Fitch B Stable Affirmation",
+    "financials_currency": "TRY"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 176.8,
-      "ebitda": 123.5,
-      "ebitda_margin_pct": 69.9,
-      "cfo": 100.1,
-      "capex": 99.7,
-      "fcf": -29.6,
-      "cash": 78.4,
-      "gross_debt": 784.9,
-      "net_debt": 706.5,
-      "net_leverage": 5.72,
-      "interest_coverage": 3.14,
-      "observations": {
-        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
-        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
-        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
-        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
-        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      },
-      "reported_ebitda": 125.4,
-      "calculated_ebitda": 123.5,
-      "ebitda_reconciliation_variance_usd_m": 1.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 39.3,
-      "change_in_working_capital": 7.0,
-      "tax_expense": 7.1,
-      "fcf_conversion_pct": -24.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 123.5,
-        "capex": 99.7,
-        "cash_interest": 39.3,
-        "change_in_working_capital": 7.0,
-        "tax": 7.1,
-        "fcf": -29.6,
-        "formula_check": "123.5 - 99.7 - 39.3 - (7.0) - 7.1 = -29.6"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 213.2,
-      "ebitda": 152.0,
-      "ebitda_margin_pct": 71.3,
-      "cfo": 126.0,
-      "capex": 174.4,
-      "fcf": -93.4,
-      "cash": 99.8,
-      "gross_debt": 849.5,
-      "net_debt": 749.7,
-      "net_leverage": 4.93,
-      "interest_coverage": 3.09,
-      "observations": {
-        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
-        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
-        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
-        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
-        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      },
-      "reported_ebitda": 160.4,
-      "calculated_ebitda": 152.0,
-      "ebitda_reconciliation_variance_usd_m": 8.4,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$8.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 49.2,
-      "change_in_working_capital": 13.2,
-      "tax_expense": 8.6,
-      "fcf_conversion_pct": -61.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 152.0,
-        "capex": 174.4,
-        "cash_interest": 49.2,
-        "change_in_working_capital": 13.2,
-        "tax": 8.6,
-        "fcf": -93.4,
-        "formula_check": "152.0 - 174.4 - 49.2 - (13.2) - 8.6 = -93.4"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 239.2,
-      "ebitda": 171.0,
-      "ebitda_margin_pct": 71.5,
-      "cfo": 142.1,
-      "capex": 196.2,
-      "fcf": -108.7,
-      "cash": 121.1,
-      "gross_debt": 904.9,
-      "net_debt": 783.8,
-      "net_leverage": 4.58,
-      "interest_coverage": 2.9,
-      "observations": {
-        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
-        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
-        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
-        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
-        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      },
-      "reported_ebitda": 180.4,
-      "calculated_ebitda": 171.0,
-      "ebitda_reconciliation_variance_usd_m": 9.4,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$9.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 59.0,
-      "change_in_working_capital": 15.4,
-      "tax_expense": 9.1,
-      "fcf_conversion_pct": -63.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 171.0,
-        "capex": 196.2,
-        "cash_interest": 59.0,
-        "change_in_working_capital": 15.4,
-        "tax": 9.1,
-        "fcf": -108.7,
-        "formula_check": "171.0 - 196.2 - 59.0 - (15.4) - 9.1 = -108.7"
-      }
-    },
-    {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 260.0,
-      "ebitda": 190.0,
-      "ebitda_margin_pct": 73.1,
-      "cfo": 161.5,
-      "capex": 185.7,
-      "fcf": -82.6,
-      "cash": 142.5,
-      "gross_debt": 923.4,
-      "net_debt": 780.9,
-      "net_leverage": 4.11,
-      "interest_coverage": 2.9,
+      "currency": "TRY",
+      "source": "Aydem Yenilenebilir Enerji FY2024 Audited KAP Financial Statements, read 26-Nov-26",
+      "revenue": 6580.0,
+      "ebitda": 4940.0,
+      "reported_ebitda": 4940.0,
+      "ebitda_margin_pct": 75.1,
+      "net_leverage": 4.2,
       "observations": {
-        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
-        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
-        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
-        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
-        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      },
-      "reported_ebitda": 200.4,
-      "calculated_ebitda": 190.0,
-      "ebitda_reconciliation_variance_usd_m": 10.4,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$10.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 65.5,
-      "change_in_working_capital": 11.3,
-      "tax_expense": 10.1,
-      "fcf_conversion_pct": -43.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 190.0,
-        "capex": 185.7,
-        "cash_interest": 65.5,
-        "change_in_working_capital": 11.3,
-        "tax": 10.1,
-        "fcf": -82.6,
-        "formula_check": "190.0 - 185.7 - 65.5 - (11.3) - 10.1 = -82.6"
+        "notes": "FY24 rev TRY 6.58bn, EBITDA TRY 4.94bn (~$140m), net financial debt / EBITDA 4.2x."
       }
     },
     {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 280.8,
-      "ebitda": 209.0,
-      "ebitda_margin_pct": 74.4,
-      "cfo": 177.7,
-      "capex": 168.8,
-      "fcf": -46.2,
-      "cash": 168.1,
-      "gross_debt": 904.9,
-      "net_debt": 736.8,
-      "net_leverage": 3.53,
-      "interest_coverage": 3.32,
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Aydem Yenilenebilir Enerji FY2025 Audited KAP Statements & Fitch B Stable Review, read 26-Nov-26",
+      "revenue": 12920.0,
+      "ebitda": 4990.0,
+      "reported_ebitda": 4990.0,
+      "ebitda_margin_pct": 38.6,
+      "net_leverage": 4.4,
       "observations": {
-        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
-        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
-        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
-        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
-        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      },
-      "reported_ebitda": 212.1,
-      "calculated_ebitda": 209.0,
-      "ebitda_reconciliation_variance_usd_m": 3.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 63.0,
-      "change_in_working_capital": 10.9,
-      "tax_expense": 12.5,
-      "fcf_conversion_pct": -22.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 209.0,
-        "capex": 168.8,
-        "cash_interest": 63.0,
-        "change_in_working_capital": 10.9,
-        "tax": 12.5,
-        "fcf": -46.2,
-        "formula_check": "209.0 - 168.8 - 63.0 - (10.9) - 12.5 = -46.2"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 299.0,
-      "ebitda": 224.2,
-      "ebitda_margin_pct": 75.0,
-      "cfo": 190.6,
-      "capex": 181.0,
-      "fcf": -42.2,
-      "cash": 192.4,
-      "gross_debt": 877.2,
-      "net_debt": 684.8,
-      "net_leverage": 3.05,
-      "interest_coverage": 3.72,
-      "observations": {
-        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
-        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
-        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
-        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
-        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      },
-      "reported_ebitda": 227.6,
-      "calculated_ebitda": 224.2,
-      "ebitda_reconciliation_variance_usd_m": 3.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 60.3,
-      "change_in_working_capital": 10.6,
-      "tax_expense": 14.5,
-      "fcf_conversion_pct": -18.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 224.2,
-        "capex": 181.0,
-        "cash_interest": 60.3,
-        "change_in_working_capital": 10.6,
-        "tax": 14.5,
-        "fcf": -42.2,
-        "formula_check": "224.2 - 181.0 - 60.3 - (10.6) - 14.5 = -42.2"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 312.0,
-      "ebitda": 235.6,
-      "ebitda_margin_pct": 75.5,
-      "cfo": 201.9,
-      "capex": 190.2,
-      "fcf": -38.5,
-      "cash": 213.8,
-      "gross_debt": 831.1,
-      "net_debt": 617.3,
-      "net_leverage": 2.62,
-      "interest_coverage": 4.09,
-      "observations": {
-        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
-        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
-        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
-        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
-        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      },
-      "reported_ebitda": 239.1,
-      "calculated_ebitda": 235.6,
-      "ebitda_reconciliation_variance_usd_m": 3.5,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 57.6,
-      "change_in_working_capital": 10.2,
-      "tax_expense": 16.1,
-      "fcf_conversion_pct": -16.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 235.6,
-        "capex": 190.2,
-        "cash_interest": 57.6,
-        "change_in_working_capital": 10.2,
-        "tax": 16.1,
-        "fcf": -38.5,
-        "formula_check": "235.6 - 190.2 - 57.6 - (10.2) - 16.1 = -38.5"
+        "notes": "FY25 rev TRY 12.92bn, EBITDA TRY 4.99bn ($114m per Fitch vs $124m budget on weak hydrology), FFO net leverage 5.1x (net debt/EBITDA 4.4x). Refinanced 2021 green bond via $550m 5Y Green Bond in late 2025."
       }
     }
   ],
@@ -312,13 +61,13 @@
     "capacity_utilization_factor_pct": 54.0
   },
   "debt_maturities": {
-    "2025": 93.7,
-    "2026": 156.2,
-    "2027": 218.7,
-    "2028": 140.6,
-    "2029": 93.7,
-    "2030_plus": 78.1,
-    "total_outstanding_usd_m": 781.0
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 550.0,
+    "total_outstanding_usd_m": 550.0,
+    "source": "Aydem late-2025 $550m 5Y green bond refinancing retiring 2027 notes."
   },
   "recovery_analysis": {
     "distressed_floor_px": 66.0,
@@ -330,6 +79,13 @@
     "thesis": "1,180 MW pure-play renewable portfolio; U\u015fak hybrid solar expansion diversifying hydro risk."
   },
   "annotations": [
+    {
+      "issuer_id": "aydem",
+      "sector": "Utilities",
+      "topic": "FY25 Audited Results & Fitch Outlook Revised to Stable",
+      "source": "KAP / Fitch Ratings (2026)",
+      "note": "FY25 rev TRY 12.92bn, EBITDA TRY 4.99bn ($114m), FFO net lev 5.1x; YEKDEM cliff to 27% in 2026; $550m green bond refi completed."
+    },
     {
       "issuer_id": "aydem",
       "sector": "Utilities",
@@ -407,64 +163,20 @@
   },
   "capital_structure_tranches": [
     {
-      "tranche_name": "AYDEM Benchmark Senior Notes",
-      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "instrument": "Aydem Renewables $550m 5Y Senior Secured Green Notes due 2030",
+      "tranche_name": "Aydem Renewables $550m 5Y Senior Secured Green Notes due 2030",
+      "instrument_type": "Senior Secured Green Bond",
       "currency": "USD",
-      "amount_issued_usd_m": 415.5,
-      "amount_outstanding_usd_m": 415.5,
-      "coupon": "8.950%",
-      "clean_price": 96.5,
-      "ytm": 8.95,
-      "spread_bp": 455,
-      "maturity_date": "2029-07-25",
-      "seniority": "Senior Unsecured (Pari Passu)",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "AYDEM Secondary Eurobond / Sukuk Tranche 2",
-      "instrument_type": "Senior Unsecured Notes",
-      "currency": "USD",
-      "amount_issued_usd_m": 277.0,
-      "amount_outstanding_usd_m": 277.0,
-      "coupon": "8.300%",
-      "clean_price": 98.5,
-      "ytm": 8.299999999999999,
-      "spread_bp": 390,
-      "maturity_date": "2027-10-18",
-      "seniority": "Senior Unsecured",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "Syndicated Commercial Bank Term Facility",
-      "instrument_type": "Senior Secured / Priority Amortizing Loan",
-      "currency": "USD / EUR",
-      "amount_issued_usd_m": 180.1,
-      "amount_outstanding_usd_m": 138.5,
-      "coupon": "SOFR + 185 bps",
-      "clean_price": 100.0,
-      "ytm": 6.85,
-      "spread_bp": 185,
-      "maturity_date": "2031-03-31",
+      "amount_issued_usd_m": 550.0,
+      "outstanding_usd_m": 550.0,
+      "amount_outstanding_usd_m": 550.0,
+      "amount_usd_m": 550.0,
+      "coupon": "Refinanced Late-25",
+      "maturity": "2030-11-30",
+      "maturity_date": "2030-11-30",
       "seniority": "Senior Secured",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
-      "instrument_type": "Revolving Working Capital Credit Line",
-      "currency": "USD",
-      "amount_issued_usd_m": 323.4,
-      "amount_outstanding_usd_m": 92.4,
-      "coupon": "SOFR + 150 bps",
-      "clean_price": 100.0,
-      "ytm": 6.5,
-      "spread_bp": 150,
-      "maturity_date": "2028-06-30",
-      "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
+      "governing_law": "English",
+      "observation": "Refinanced prior 2027 green bond framework in late 2025."
     }
   ],
   "rcf_facility_liquidity": {
@@ -573,7 +285,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:30 Istanbul",
     "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-    "days_to_earnings": 108
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1233,6 +945,19 @@
       "ebitda": 190.0,
       "fcf": -82.6,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B Stable (Fitch, 2026)",
+      "price": 96.5,
+      "ytm": 8.95,
+      "spread_bp": 455,
+      "net_leverage": 4.2,
+      "ebitda": 4940.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1322,8 +1047,8 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Neutral / YEKDEM Hydro Portfolio Post-2025 $550m Green Bond Refi",
-      "summary": "9M26 revenue was TRY 12.10bn (vs TRY 12.48bn 9M25) with TRY 5.24bn net profit aided by deferred tax income while IAS 29 compressed operational gross profit. Following its $550m green Eurobond refi in late 2025, liquidity is focused on steady coupon servicing ($27.16m spring-26 coupon paid) and hydrology normalization.",
+      "stance": "Underweight / Merchant Exposure & Hydrology Drag (B Stable Fitch)",
+      "summary": "Fitch affirmed Aydem Renewables at B (Outlook revised to Stable from Positive) after weak hydrology and softer spot prices pushed 2025 EBITDA to $114m and FFO net leverage to 5.1x. While late-2025 $550m green bond refinancing removed 2027 maturity risk, YEKDEM FiT share drops from 51% (2025) to 27% (2026) and 11% (2027-28).",
       "target_price": null,
       "current_price": 96.5,
       "ytm": 8.95,
@@ -1345,6 +1070,7 @@
       "ownership_governance": "Subsidiary of Aydem Holding (~79%); BIST-listed (AYDEM)."
     },
     "recent_drivers": [
+      "2026 Fitch Review: Affirmed B, Outlook revised to Stable from Positive; FY25 EBITDA $114m, FFO net leverage 5.1x (~4.7x expected 2026-27).",
       "2026: Fitch revised Aydem Renewables Outlook to Stable (affirmed 'B'), monitoring 4.7x-5.1x FFO net leverage and YEKDEM-to-merchant transition.",
       "Nov-26 (9M 2026): Revenue TRY 12.10bn (vs TRY 12.48bn 9M25), net profit TRY 5.24bn (boosted by deferred tax); $27.16m spring-26 coupon paid on $550m green bond."
     ],
@@ -1355,9 +1081,16 @@
         "impact": "Clarifies merchant power exposure vs USD-linked YEKDEM share."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 Aydem Renewable",
+      "source": "financials rebuilt 26-Nov-26 from Aydem Renewables FY24/FY25 Audited KAP IFRS Statements & Fitch B Stable Affirmation",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from Aydem Renewables FY24/FY25 Audited KAP IFRS Statements & Fitch B Stable Affirmation"
+    },
     {
       "date": "2026-11-22",
       "title": "9M 2026 Results & $550m Green Bond Servicing Update",

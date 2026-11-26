@@ -4,7 +4,7 @@ _Page created 24-Nov-26 from `database/issuers/mubadala.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: AA Stable (Fitch) / Aa2 (Moody's) / AA (S&P).
 

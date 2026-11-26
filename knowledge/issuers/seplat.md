@@ -4,7 +4,7 @@ _Page created 21-Nov-26 from `database/issuers/seplat.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: B / B2 / B.
 

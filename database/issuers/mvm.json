@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "id": "mvm",
+    "name": "MVM Group (MVM Energetika Zrt.)",
+    "ticker": "MVMHUN",
+    "country": "Hungary",
+    "region": "CEE / CIS",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "BBB (Fitch) / Baa2 Stable (Moody's, Nov-26) / BBB- (S&P)",
+    "tier": "IG",
+    "benchmark_bond": "MVMHUN 7.50% Jun 2028 ($750m, XS2634075399) / 6.50% Mar 2031",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "MVM_Group_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MVM_Group_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "corp",
+    "financials_currency": "HUF",
+    "provenance": "financials built 26-Nov-26 from MVM Group FY2024 Audited Annual Report, Moody's Nov-26 Baa2 Stable Action & Eurobond Filings; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "HUF",
+      "source": "MVM Energetika FY2024 Audited IFRS Annual Report & Moody's Nov-26 Review, read 26-Nov-26",
+      "net_profit": 323900.0,
+      "observations": {
+        "notes": "FY24 profit after tax attributable to owners HUF 323.9bn (~\u20ac825m). In Nov-26 Moody's revised Outlook on Baa2 rating to Stable alongside BBB Fitch / BBB- S&P."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "MVM 7.500% Senior Unsecured Green Bond due Jun 2028",
+      "tranche_name": "MVM 7.500% Senior Unsecured Green Bond due Jun 2028",
+      "instrument_type": "Senior Unsecured Green Bond",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "7.500%",
+      "maturity": "2028-06-09",
+      "maturity_date": "2028-06-09",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2634075399"
+    },
+    {
+      "instrument": "MVM 6.500% Senior Unsecured Notes due Mar 2031",
+      "tranche_name": "MVM 6.500% Senior Unsecured Notes due Mar 2031",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "6.500%",
+      "maturity": "2031-03-13",
+      "maturity_date": "2031-03-13",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "Euronext Dublin listed USD benchmark."
+    },
+    {
+      "instrument": "MVM 0.875% Senior Unsecured Notes due Nov 2027",
+      "tranche_name": "MVM 0.875% Senior Unsecured Notes due Nov 2027",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "EUR",
+      "amount_issued_usd_m": 540.0,
+      "outstanding_usd_m": 540.0,
+      "amount_outstanding_usd_m": 540.0,
+      "amount_usd_m": 540.0,
+      "coupon": "0.875%",
+      "maturity": "2027-11-18",
+      "maturity_date": "2027-11-18",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "\u20ac500m (~$540m) EUR benchmark."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 540.0,
+    "2028": 750.0,
+    "2029": 0.0,
+    "2030_plus": 750.0,
+    "total_outstanding_usd_m": 2040.0,
+    "source": "MVM EUR & USD Eurobond schedule (Nov-27, Jun-28, Mar-31)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / Sovereign-Backed Hungarian Utility (Moody's Baa2 Stable Nov-26)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Moody's revised MVM Group's Baa2 outlook to Stable in Nov-26 (joining Fitch BBB and S&P BBB-), recognizing solid cash generation (FY24 NPAT HUF 323.9bn) and sovereign strategic backing across Paks nuclear, grid, and gas supply. Watchpoint remains heavy decarbonization/LNG capex and Nov-27/Jun-28 refinancing."
+    },
+    "positives": [
+      "100% Hungarian state-owned integrated utility (Paks nuclear, grids, Shah Deniz stake).",
+      "Moody's revised outlook to Stable (Baa2) in Nov-26; covenant leverage well contained."
+    ],
+    "negatives": [
+      "Large infrastructure/renewables capex and Hungarian regulatory tariff/windfall tax exposure.",
+      "Russian gas diversification transition costs."
+    ],
+    "background": {
+      "business_overview": "Hungary's state-owned integrated electricity and gas utility.",
+      "asset_perimeter": "Paks NPP, MAVIR transmission, regional gas/power distribution, Innogy Czech, Shah Deniz stake.",
+      "ownership_governance": "100% Hungarian State."
+    },
+    "recent_drivers": [
+      "Nov-26: Moody's affirmed Baa2 and revised Outlook to Stable; FY24 NPAT HUF 323.9bn."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-04-30",
+        "event": "FY2026 Audited Annual Report & Nov-27 \u20ac500m Refi Prep",
+        "impact": "Quantifies 2026 EBITDA/net debt and 2027 Eurobond refinancing."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Rating",
+      "management_target": "Preserve Baa2/BBB- IG covenants",
+      "current_runrate": "Moody's Baa2 Stable (Nov-26)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Improved Hungarian macro/rating alignment stabilized outlook.",
+      "last_guided_source": "Moody's / MVM (Nov-26)",
+      "last_verified_period": "FY 2025/26"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Provide FY25/H126 consolidated EBITDA and net debt figures plus Nov-27 \u20ac500m refinancing plan.",
+      "focus_area": "Financials & Refinancing",
+      "relevance": "Next benchmark maturity is Nov-27."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "mvm",
+      "sector": "Utilities",
+      "topic": "Nov-26 Moody's Baa2 Stable & USD 2028/2031 Curve",
+      "source": "MVM IR / Moody's (Nov-26)",
+      "note": "Moody's revised Baa2 to Stable (Nov-26); FY24 NPAT HUF 323.9bn; 7.50% Jun-28 (XS2634075399) & 6.50% Mar-31."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-04-30",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 CET",
+    "ir_webcast_url": "https://mvm.hu/en/Befektetok",
+    "days_to_earnings": 155
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB (Fitch) / Baa2 Stable (Moody's, Nov-26) / BBB- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 MVM Group (MVM Energetika Zrt.)",
+      "source": "financials built 26-Nov-26 from MVM Group FY2024 Audited Annual Report, Moody's Nov-26 Baa2 Stable Action & Eurobond Filings; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "Moody's revised MVM Group's Baa2 outlook to Stable in Nov-26 (joining Fitch BBB and S&P BBB-), recognizing solid cash generation (FY24 NPAT HUF 323.9bn) and sovereign strategic backing across Paks nuclear, grid, and gas supply. Watchpoint remains heavy decarbonization/LNG capex and Nov-27/Jun-28 refinancing."
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 88.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 88.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 6.0,
+    "restructuring_framework": "Hungarian / English Law",
+    "thesis": "100% state-owned Hungarian nuclear/grid champion with Baa2/BBB rating."
+  }
+}

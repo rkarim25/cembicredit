@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "id": "ford_otosan",
+    "name": "Ford Otomotiv Sanayi (Ford Otosan)",
+    "ticker": "FROTO",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Industrials",
+    "type": "corp",
+    "rating": "BB+ Stable (Fitch, 2026)",
+    "tier": "BB",
+    "benchmark_bond": "FROTO 7.125% Apr 2029 ($500m, XS2782775345)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Ford_Otosan_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ford_Otosan_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 26-Nov-26 from Ford Otosan FY2025 Audited KAP/Investor Results, Fitch BB+ Review & XS2782775345; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Ford Otosan FY2025 Audited Results & Fitch BB+ Assessment (2026), read 26-Nov-26",
+      "revenue": 19400.0,
+      "net_leverage": 3.0,
+      "observations": {
+        "notes": "FY25 consolidated revenue $19.4bn ($11.5bn exports across 400k+ units; 4Q25 EBITDA TRY 13.77bn). H126 faced Turkish inflation/FX margin squeeze + $137m Ko\u00e7 Finans acquisition; Fitch estimates 2026 gross leverage ~3.0x (BB+ Stable)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Ford Otosan 7.125% Senior Unsecured Eurobond due Apr 2029",
+      "tranche_name": "Ford Otosan 7.125% Senior Unsecured Eurobond due Apr 2029",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "outstanding_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "amount_usd_m": 500.0,
+      "coupon": "7.125%",
+      "maturity": "2029-04-25",
+      "maturity_date": "2029-04-25",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2782775345",
+      "observation": "Benchmark USD Eurobond; Fitch BB+ Stable."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 500.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "Ford Otosan $500m 7.125% Apr-29 Eurobond (XS2782775345)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / Ko\u00e7-Ford Export Champion (BB+ Stable Fitch)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Ford Otosan generated $19.4bn FY25 revenue ($11.5bn hard-currency exports) as Ford's primary European commercial vehicle hub (Turkey + Craiova Romania). While H126 Turkish inflation outpacing FX and the $137m Ko\u00e7 Finans buyout pushed 2026E gross leverage toward ~3.0x, dual Ko\u00e7/Ford parentage anchors BB+ Stable."
+    },
+    "positives": [
+      "$11.5bn+ EUR/USD export revenue base + Craiova Romania EV/commercial vehicle hub.",
+      "41%/41% Ford Motor & Ko\u00e7 Holding JV governance; rated BB+ Stable (above Turkish sovereign)."
+    ],
+    "negatives": [
+      "Turkish real TRY appreciation compressing domestic/export conversion margins in 2026.",
+      "Heavy EV transition capex and $137m Ko\u00e7 Finans acquisition funding."
+    ],
+    "background": {
+      "business_overview": "Turkey's largest automotive exporter & Ford's European LCV hub.",
+      "asset_perimeter": "G\u00f6lc\u00fck, Yenik\u00f6y, Eski\u015fehir plants (Turkey) + Craiova plant (Romania).",
+      "ownership_governance": "41% Ford Motor, 41% Ko\u00e7 Holding; BIST listed (FROTO)."
+    },
+    "recent_drivers": [
+      "2026: Fitch affirmed BB+ Stable, projecting ~3.0x gross debt/EBITDA post-$137m Ko\u00e7 Finans acquisition."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-18",
+        "event": "FY2026 Audited KAP Results",
+        "impact": "Tests European EV ramp and real-FX margin recovery."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Gross Leverage & Export Volume",
+      "management_target": "Gross debt/EBITDA ~3.0x",
+      "current_runrate": "FY25 rev $19.4bn ($11.5bn exports); ~3.0x 2026E",
+      "tracking_status": "On Track",
+      "variance_analysis": "H126 margin squeeze balanced by cost pass-through contracts with Ford.",
+      "last_guided_source": "Fitch / Ford Otosan 2026",
+      "last_verified_period": "H1 / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Detail 9M26 EUR/TRY margin impact and peak net leverage trajectory into 2027.",
+      "focus_area": "FX & Capex",
+      "relevance": "Monitors BB+ rating headroom."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ford_otosan",
+      "sector": "Industrials",
+      "topic": "FY25 $19.4bn Rev, BB+ Stable & $500m Apr-29 Bond",
+      "source": "Ford Otosan KAP / Fitch (2026)",
+      "note": "FY25 rev $19.4bn ($11.5bn exports), 2026E gross leverage ~3.0x (Fitch BB+ Stable); $500m 7.125% Apr-29 XS2782775345."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-18",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "17:30 Istanbul",
+    "ir_webcast_url": "https://www.fordotosan.com.tr/en/investors",
+    "days_to_earnings": 84
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB+ Stable (Fitch, 2026)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Ford Otomotiv Sanayi (Ford Otosan)",
+      "source": "financials built 26-Nov-26 from Ford Otosan FY2025 Audited KAP/Investor Results, Fitch BB+ Review & XS2782775345; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "Ford Otosan generated $19.4bn FY25 revenue ($11.5bn hard-currency exports) as Ford's primary European commercial vehicle hub (Turkey + Craiova Romania). While H126 Turkish inflation outpacing FX and the $137m Ko\u00e7 Finans buyout pushed 2026E gross leverage toward ~3.0x, dual Ko\u00e7/Ford parentage anchors BB+ Stable."
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 85.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 85.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 5.0,
+    "restructuring_framework": "Turkey Commercial Law",
+    "thesis": "Hard-currency Ford/Ko\u00e7 export franchise with multi-plant European asset base."
+  }
+}

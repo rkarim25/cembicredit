@@ -4,16 +4,13 @@ _Page created 08-Oct-26 from `database/issuers/air_global.json`. Dated, sourced 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- AIRGLO 7.875% 2031 ($425m, Oct-26): price 100.0, YTM 7.5%, spread 385bp (as of 2026-11-23).
-- Rating as recorded: BB- Stable (S&P, 2026) / B1.
+- Rating as recorded: BB- Stable (S&P, Oct-26).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2023A | 364.0 | 118.0 | 49.0 | 285.0 | 2.42 | 4.8 |
-| 2024A | 377.0 | 130.0 | 134.0 | 285.0 | 2.19 | 5.2 |
-| 2025A | 400.0 | 139.0 | 101.0 | 292.0 | 2.1 | 5.6 |
+| 2025A | 400.0 | 159.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=air_global) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/air_global.json)

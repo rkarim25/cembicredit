@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/enbd.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - EMIRAT 5.875% Oct 2028 Green (XS2625209270): price 100.25, YTM 4.9%, spread 70bp (as of 2026-11-25).
 - Rating as recorded: A2 / A+.

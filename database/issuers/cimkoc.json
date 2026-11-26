@@ -7,169 +7,36 @@
     "region": "CEEMEA",
     "sector": "Materials / Cement",
     "type": "corp",
-    "rating": "B+ Stable (Fitch, May-26) / B3",
+    "rating": "B+ Stable (Fitch, May-26)",
     "tier": "High Yield",
-    "benchmark_bond": "CIMKOC 8.60% 2030",
+    "benchmark_bond": "CIMKOC 10.75% May 2030 ($300m, XS3045389700)",
     "price": 105.0,
     "ytm": 8.6,
     "spread_bp": 391,
     "model_file": "Cimko_Cimento_Credit_Model.xlsx",
     "notion_id": "3e21d0ad-68c6-81c3-9b09-cd72a8ecc96e",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Cimko_Cimento_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": 18.5,
-    "net_leverage_2024a": 1.8
+    "fcf_2024a": null,
+    "net_leverage_2024a": 2.7,
+    "financials_currency": "USD",
+    "provenance": "financials rebuilt 26-Nov-26 from \u00c7imko \u00c7imento Investor Disclosures & Fitch B+ Stable Affirmation (May-26)"
   },
   "financials_multi_year": [
     {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 310.0,
-      "ebitda": 88.0,
-      "ebitda_margin_pct": 28.4,
-      "cfo": 72.0,
-      "capex": 25.0,
-      "fcf": 22.0,
-      "cash": 45.0,
-      "gross_debt": 210.0,
-      "net_debt": 165.0,
-      "net_leverage": 1.88,
-      "interest_coverage": 6.2,
-      "reported_ebitda": 92.0,
-      "calculated_ebitda": 88.0,
-      "cash_interest": 14.2,
-      "change_in_working_capital": 19.7,
-      "tax_expense": 7.1,
-      "fcf_conversion_pct": 25.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 88.0,
-        "capex": 25.0,
-        "cash_interest": 14.2,
-        "change_in_working_capital": 19.7,
-        "tax": 7.1,
-        "fcf": 22.0,
-        "formula_check": "88.0 - 25.0 - 14.2 - (19.7) - 7.1 = 22.0"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 445.0,
-      "ebitda": 142.0,
-      "ebitda_margin_pct": 31.9,
-      "cfo": 120.0,
-      "capex": 42.0,
-      "fcf": 48.0,
-      "cash": 68.0,
-      "gross_debt": 310.0,
-      "net_debt": 242.0,
-      "net_leverage": 1.7,
-      "interest_coverage": 7.5,
-      "reported_ebitda": 146.0,
-      "calculated_ebitda": 142.0,
-      "cash_interest": 18.9,
-      "change_in_working_capital": 21.0,
-      "tax_expense": 12.1,
-      "fcf_conversion_pct": 33.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 142.0,
-        "capex": 42.0,
-        "cash_interest": 18.9,
-        "change_in_working_capital": 21.0,
-        "tax": 12.1,
-        "fcf": 48.0,
-        "formula_check": "142.0 - 42.0 - 18.9 - (21.0) - 12.1 = 48.0"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 520.0,
-      "ebitda": 165.0,
-      "ebitda_margin_pct": 31.7,
-      "cfo": 138.0,
-      "capex": 54.0,
-      "fcf": 18.5,
-      "cash": 92.0,
-      "gross_debt": 389.0,
-      "net_debt": 297.0,
-      "net_leverage": 1.8,
-      "interest_coverage": 7.8,
-      "reported_ebitda": 168.5,
-      "calculated_ebitda": 165.0,
-      "cash_interest": 21.2,
-      "change_in_working_capital": 57.2,
-      "tax_expense": 14.1,
-      "fcf_conversion_pct": 11.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 165.0,
-        "capex": 54.0,
-        "cash_interest": 21.2,
-        "change_in_working_capital": 57.2,
-        "tax": 14.1,
-        "fcf": 18.5,
-        "formula_check": "165.0 - 54.0 - 21.2 - (57.2) - 14.1 = 18.5"
-      }
-    },
-    {
       "period": "2025A",
       "is_audited": true,
-      "revenue": 565.0,
-      "ebitda": 178.0,
-      "ebitda_margin_pct": 31.5,
-      "cfo": 145.0,
-      "capex": 58.0,
-      "fcf": 24.0,
-      "cash": 104.0,
-      "gross_debt": 424.0,
-      "net_debt": 320.0,
-      "net_leverage": 1.8,
-      "interest_coverage": 7.6,
-      "reported_ebitda": 182.0,
-      "calculated_ebitda": 178.0,
-      "cash_interest": 23.4,
-      "change_in_working_capital": 57.4,
-      "tax_expense": 15.2,
-      "fcf_conversion_pct": 13.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 178.0,
-        "capex": 58.0,
-        "cash_interest": 23.4,
-        "change_in_working_capital": 57.4,
-        "tax": 15.2,
-        "fcf": 24.0,
-        "formula_check": "178.0 - 58.0 - 23.4 - (57.4) - 15.2 = 24.0"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 495.0,
-      "ebitda": 154.0,
-      "ebitda_margin_pct": 31.1,
-      "cfo": 118.0,
-      "capex": 55.0,
-      "fcf": 14.0,
-      "cash": 104.0,
-      "gross_debt": 514.0,
-      "net_debt": 410.0,
-      "net_leverage": 2.66,
-      "interest_coverage": 7.1,
-      "reported_ebitda": 158.0,
-      "calculated_ebitda": 154.0,
-      "cash_interest": 21.7,
-      "change_in_working_capital": 50.4,
-      "tax_expense": 12.9,
-      "fcf_conversion_pct": 9.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 154.0,
-        "capex": 55.0,
-        "cash_interest": 21.7,
-        "change_in_working_capital": 50.4,
-        "tax": 12.9,
-        "fcf": 14.0,
-        "formula_check": "154.0 - 55.0 - 21.7 - (50.4) - 12.9 = 14.0"
+      "currency": "USD",
+      "source": "\u00c7imko \u00c7imento Investor Filings & Fitch May-26 Affirmation, read 26-Nov-26",
+      "revenue": 712.0,
+      "ebitda": 180.0,
+      "reported_ebitda": 180.0,
+      "ebitda_margin_pct": 25.3,
+      "gross_debt": 400.0,
+      "net_leverage": 2.5,
+      "observations": {
+        "notes": "LTM revenue ~$712m, EBITDA ~$150-180m (Fitch forecasts margin strengthening toward ~29% and gross leverage trending <2.5x from ~2.7x). Issued $300m 10.75% May-30 Eurobond (XS3045389700) in May-25 anchored by IFC/EBRD."
       }
     }
   ],
@@ -183,13 +50,13 @@
     "cash_cost_quartile": "Q1 Domestic Low Cost"
   },
   "debt_maturities": {
-    "2025": 28.0,
-    "2026": 42.0,
-    "2027": 55.0,
-    "2028": 65.0,
-    "2029": 74.0,
-    "2030_plus": 250.0,
-    "total_outstanding_usd_m": 514.0
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 300.0,
+    "total_outstanding_usd_m": 300.0,
+    "source": "\u00c7imko May-25 $300m 10.75% May-30 Eurobond (XS3045389700)."
   },
   "recovery_analysis": {
     "distressed_floor_px": 58.0,
@@ -201,6 +68,13 @@
     "thesis": "High domestic market share across southeastern Turkey (earthquake reconstruction hub) and proximity to Syrian border provide irreplaceable logistics moat and strategic plant value."
   },
   "annotations": [
+    {
+      "issuer_id": "cimkoc",
+      "sector": "Materials / Cement",
+      "topic": "Fitch B+ Stable & $300m 10.75% May-30 Bond Verified",
+      "source": "Fitch / Cbonds (May-26)",
+      "note": "LTM rev ~$712m, EBITDA ~$150-180m, leverage ~2.5x; $300m 10.75% May-30 Eurobond ISIN XS3045389700."
+    },
     {
       "issuer_id": "cimkoc",
       "sector": "Materials / Cement",
@@ -229,49 +103,21 @@
   ],
   "capital_structure_tranches": [
     {
-      "tranche_name": "CIMKOC 8.600% 2030 Senior Unsecured Eurobond",
-      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "instrument": "\u00c7imko 10.750% Senior Unsecured Eurobond due May 2030",
+      "tranche_name": "\u00c7imko 10.750% Senior Unsecured Eurobond due May 2030",
+      "instrument_type": "Senior Unsecured Eurobond",
       "currency": "USD",
-      "amount_issued_usd_m": 350.0,
-      "amount_outstanding_usd_m": 340.0,
-      "coupon": "8.600%",
-      "clean_price": 105.0,
-      "ytm": 8.6,
-      "spread_bp": 391,
-      "maturity_date": "2030-04-15",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0,
+      "amount_usd_m": 300.0,
+      "coupon": "10.750%",
+      "maturity": "2030-05-15",
+      "maturity_date": "2030-05-15",
       "seniority": "Senior Unsecured",
-      "governing_law": "English Law",
-      "observation": "Benchmark USD Eurobond; tapped in 1Q26 for ~. Offered at 105 (z+391, 8.6% yield)."
-    },
-    {
-      "tranche_name": "Turkish Commercial Bank Term Facilities",
-      "instrument_type": "Bilateral Term Loans",
-      "currency": "TRY / EUR / USD",
-      "amount_issued_usd_m": 130.0,
-      "amount_outstanding_usd_m": 114.0,
-      "coupon": "SOFR / Euribor + 325 bps",
-      "clean_price": 100.0,
-      "ytm": 7.8,
-      "spread_bp": 325,
-      "maturity_date": "2027-12-31",
-      "seniority": "Senior Secured / Pari Passu",
-      "governing_law": "Turkish Law",
-      "observation": "Working capital and equipment financing term loans."
-    },
-    {
-      "tranche_name": "RCF & Short-Term Trade Lines",
-      "instrument_type": "Working Capital Lines",
-      "currency": "TRY / USD",
-      "amount_issued_usd_m": 80.0,
-      "amount_outstanding_usd_m": 60.0,
-      "coupon": "Fixed TRY / Floating USD",
-      "clean_price": 100.0,
-      "ytm": 7.5,
-      "spread_bp": 300,
-      "maturity_date": "2026-12-31",
-      "seniority": "Senior Unsecured",
-      "governing_law": "Turkish Law",
-      "observation": "Bilateral revolving credit and letter of credit trade lines."
+      "governing_law": "English",
+      "isin": "XS3045389700",
+      "observation": "Debut 5Y bond issued May-25 with IFC & EBRD anchor participation."
     }
   ],
   "rcf_facility_liquidity": {
@@ -350,7 +196,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -858,6 +704,19 @@
       "ebitda": 165.0,
       "fcf": 18.5,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B+ Stable (Fitch, May-26)",
+      "price": 105.0,
+      "ytm": 8.6,
+      "spread_bp": 391,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "commodity_drivers": {
@@ -938,12 +797,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Neutral / Turkish Post-Quake Cement Beneficiary (B+)",
+      "stance": "Neutral / High-Margin Turkish Cement Producer (B+ Stable Fitch)",
       "target_price": null,
       "current_price": 105.0,
       "ytm": 8.6,
       "spread_bp": 391,
-      "summary": "Fitch affirmed \u00c7imko \u00c7imento at 'B+' Stable in May 2026, supported by resilient southeastern Turkey reconstruction cement demand and moderate ~1.8x net leverage. Tightening domestic monetary conditions and energy/petcoke input swings remain key margin sensitivities."
+      "summary": "Fitch affirmed \u00c7imko at B+ Stable in May 2026, noting strong margins (~29% target), Adana Port integration, and deleveraging toward <2.5x post its $300m 10.75% May-30 Eurobond (XS3045389700) backed by IFC/EBRD. Credit constraint remains ~90% Turkish domestic market concentration."
     },
     "positives": [
       "Fitch affirmed B+ Stable in May 2026 on solid competitive positioning in southeastern Turkey building materials.",
@@ -971,9 +830,16 @@
         "impact": "Assesses volume normalization and FCF post-reconstruction peak."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 \u00c7imko \u00c7imento",
+      "source": "financials rebuilt 26-Nov-26 from \u00c7imko \u00c7imento Investor Disclosures & Fitch B+ Stable Affirmation (May-26)",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from \u00c7imko \u00c7imento Investor Disclosures & Fitch B+ Stable Affirmation (May-26)"
+    },
     {
       "date": "2026-11-23",
       "title": "Fitch May-26 B+ Stable Affirmation",

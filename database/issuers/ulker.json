@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "id": "ulker",
+    "name": "\u00dclker Bisk\u00fcvi Sanayi A.\u015e.",
+    "ticker": "ULKER",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Consumer",
+    "type": "corp",
+    "rating": "BB Stable (Fitch) / BB Negative (S&P)",
+    "tier": "BB",
+    "benchmark_bond": "ULKER 7.875% Jul 2031 ($550m, XS2855391533)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Ulker_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ulker_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "corp",
+    "financials_currency": "TRY",
+    "provenance": "financials built 26-Nov-26 from \u00dclker FY2025 Audited & 9M 2026 KAP Statements + Fitch/S&P BB Reviews; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "\u00dclker FY2025 Audited KAP Financial Statements, read 26-Nov-26",
+      "revenue": 112000.0,
+      "ebitda": 18480.0,
+      "ebitda_margin_pct": 16.5,
+      "net_leverage": 0.97,
+      "observations": {
+        "notes": "FY25 rev TRY 112.0bn, EBITDA margin 16.5% (~TRY 18.48bn), covenant net debt/EBITDA 0.97x."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "TRY",
+      "source": "\u00dclker 9M 2026 Unaudited KAP Financial Statements (Nov-26), read 26-Nov-26",
+      "revenue": 95700.0,
+      "net_leverage": 1.45,
+      "observations": {
+        "notes": "9M26 reported IAS 29 rev TRY 95.7bn (-8.8% YoY; ex-IAS 29 +19.4% to TRY 89.4bn; Q3 TRY 32.5bn). Covenant net debt/EBITDA moved to 1.45x on dividend payouts & debt service (~71% LT / 29% ST debt). Fitch BB Stable supported by offshore hard-currency cash."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "\u00dclker 7.875% Senior Unsecured Eurobond due Jul 2031",
+      "tranche_name": "\u00dclker 7.875% Senior Unsecured Eurobond due Jul 2031",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 550.0,
+      "outstanding_usd_m": 550.0,
+      "amount_outstanding_usd_m": 550.0,
+      "amount_usd_m": 550.0,
+      "coupon": "7.875%",
+      "maturity": "2031-07-08",
+      "maturity_date": "2031-07-08",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2855391533",
+      "observation": "Rated BB Stable (Fitch) / BB Negative (S&P)."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 150.0,
+    "2028": 150.0,
+    "2029": 0.0,
+    "2030_plus": 550.0,
+    "total_outstanding_usd_m": 850.0,
+    "source": "\u00dclker 9M26 KAP (~71% LT incl. $550m Jul-31 XS2855391533, 29% ST)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / Low-Leverage Turkish Consumer Defensive with Offshore FX Cash (BB)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "\u00dclker posted 19.4% organic ex-IAS 29 sales growth in 9M26 (TRY 95.7bn reported) with conservative 1.45x covenant net leverage (up from 0.97x YE25 after dividends). Offshore hard-currency cash reserves and easing cocoa costs support BB Stable (Fitch) / BB Negative (S&P) on the $550m 7.875% Jul-31 bond (XS2855391533)."
+    },
+    "positives": [
+      "Conservative 1.45x covenant net leverage with substantial offshore hard-currency cash.",
+      "Dominant Turkish/MENA biscuit & confectionery market share + easing cocoa inflation."
+    ],
+    "negatives": [
+      "S&P Negative outlook on parent Y\u0131ld\u0131z Holding governance/dividend linkage.",
+      "IAS 29 accounting noise and high TRY working capital financing costs."
+    ],
+    "background": {
+      "business_overview": "Leading Turkish & regional confectionery/biscuit manufacturer (pladis/Y\u0131ld\u0131z affiliate).",
+      "asset_perimeter": "Plants in Turkey, Saudi Arabia, Egypt, Kazakhstan.",
+      "ownership_governance": "Controlled by Y\u0131ld\u0131z Holding (pladis); BIST listed (ULKER)."
+    },
+    "recent_drivers": [
+      "9M26: Ex-IAS 29 rev +19.4% YoY (TRY 95.7bn reported), covenant net leverage 1.45x."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-05",
+        "event": "FY2026 Audited KAP Results",
+        "impact": "Monitors dividend upstreaming to Y\u0131ld\u0131z and cocoa margin tailwind."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Net Leverage & Margin",
+      "management_target": "Net leverage <2.0x; ~16-17% EBITDA margin",
+      "current_runrate": "1.45x covenant net lev at Sep-26",
+      "tracking_status": "On Track",
+      "variance_analysis": "Dividend payout lifted leverage modestly from 0.97x while remaining conservative.",
+      "last_guided_source": "\u00dclker 9M26 KAP",
+      "last_verified_period": "9M 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Detail offshore USD cash balance and 2027 dividend policy relative to Y\u0131ld\u0131z Holding needs.",
+      "focus_area": "Governance & Liquidity",
+      "relevance": "Key to S&P BB Negative resolution."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ulker",
+      "sector": "Consumer",
+      "topic": "9M26 KAP Results (1.45x Net Lev) & $550m Jul-31 Bond",
+      "source": "\u00dclker KAP / Fitch / S&P (Nov-26)",
+      "note": "FY25 rev TRY 112bn (16.5% margin, 0.97x); 9M26 rev TRY 95.7bn, net lev 1.45x; XS2855391533 ($550m 7.875% Jul-31)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-05",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "17:30 Istanbul",
+    "ir_webcast_url": "https://www.ulkerbiskuvi.com.tr/en/investor-relations",
+    "days_to_earnings": 99
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB Stable (Fitch) / BB Negative (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 \u00dclker Bisk\u00fcvi Sanayi A.\u015e.",
+      "source": "financials built 26-Nov-26 from \u00dclker FY2025 Audited & 9M 2026 KAP Statements + Fitch/S&P BB Reviews; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "\u00dclker posted 19.4% organic ex-IAS 29 sales growth in 9M26 (TRY 95.7bn reported) with conservative 1.45x covenant net leverage (up from 0.97x YE25 after dividends). Offshore hard-currency cash reserves and easing cocoa costs support BB Stable (Fitch) / BB Negative (S&P) on the $550m 7.875% Jul-31 bond (XS2855391533)."
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 80.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 80.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 5.5,
+    "restructuring_framework": "Turkey Commercial Law",
+    "thesis": "1.45x net leverage consumer defensive with offshore USD cash reserves."
+  }
+}

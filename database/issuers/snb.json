@@ -273,7 +273,7 @@
     "confirmation_status": "Estimated",
     "call_time": "15:00 Riyadh",
     "ir_webcast_url": "https://www.alahli.com/en-us/Investor_Relation",
-    "days_to_earnings": 71
+    "days_to_earnings": 67
   },
   "management_questions": [
     {
@@ -925,6 +925,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "A1 / A-",
+      "price": 100.1,
+      "ytm": 4.95,
+      "spread_bp": 75,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "A1 / A-",
       "price": 100.1,
       "ytm": 4.95,

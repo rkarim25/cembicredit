@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/cimkoc.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- CIMKOC 8.60% 2030: price 105.0, YTM 8.6%, spread 391bp (as of 2026-11-23).
-- Rating as recorded: B+ Stable (Fitch, May-26) / B3.
+- CIMKOC 10.75% May 2030 ($300m, XS3045389700): price 105.0, YTM 8.6%, spread 391bp (as of 2026-11-26).
+- Rating as recorded: B+ Stable (Fitch, May-26).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2023A | 445.0 | 142.0 | 48.0 | 242.0 | 1.7 | 7.5 |
-| 2024A | 520.0 | 165.0 | 18.5 | 297.0 | 1.8 | 7.8 |
-| 2025A | 565.0 | 178.0 | 24.0 | 320.0 | 1.8 | 7.6 |
+| 2025A | 712.0 | 180.0 |  |  | 2.5 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=cimkoc) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/cimkoc.json)

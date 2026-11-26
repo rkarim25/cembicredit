@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/riyad.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - RIYAD 6.209% Jul 2035 Tier 2 Sukuk (XS3068748618): price 99.6, YTM 5.15%, spread 95bp (as of 2026-11-25).
 - Rating as recorded: A2 / A.

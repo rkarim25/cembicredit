@@ -202,13 +202,26 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Johannesburg",
     "ir_webcast_url": "https://www.sibanyestillwater.com/news-investors/",
-    "days_to_earnings": 93
+    "days_to_earnings": 92
   },
   "market_history": [
     {
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Ba3 (Moody's) / BB- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 1950.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "Ba3 (Moody's) / BB- (S&P)",
       "price": null,
       "ytm": null,

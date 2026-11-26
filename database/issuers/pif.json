@@ -16,25 +16,36 @@
     "model_file": "PIF_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PIF_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
     "financials_currency": "USD",
-    "provenance": "financials built 25-Nov-26 from PIF FY2025 Annual Report & 2026 Capital Markets Releases; quotes await [BBG]",
+    "provenance": "financials rebuilt 26-Nov-26 from PIF FY2024 & FY2025 Audited Consolidated Financial Statements (pif.gov.sa)",
     "fcf_2024a": null,
     "net_leverage_2024a": null
   },
   "financials_multi_year": [
     {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "SAR",
+      "source": "PIF FY2024 Audited Consolidated Financial Statements, read 26-Nov-26",
+      "revenue": 412500.0,
+      "net_profit": 26625.0,
+      "observations": {
+        "notes": "FY24 rev ~$110bn (~SAR 412.5bn), net profit ~$7.1bn (~SAR 26.6bn)."
+      }
+    },
+    {
       "period": "2025A",
       "is_audited": true,
-      "currency": "USD",
-      "source": "PIF FY2025 Audited Consolidated Financial Statements & Annual Report, read 25-Nov-26",
-      "revenue": 120000.0,
-      "net_profit": 17000.0,
-      "gross_debt": 193413.0,
-      "assets": 904500.0,
+      "currency": "SAR",
+      "source": "PIF FY2025 Audited Consolidated Financial Statements, read 26-Nov-26",
+      "revenue": 449900.0,
+      "net_profit": 65200.0,
+      "assets": 4540000.0,
+      "gross_debt": 725300.0,
       "observations": {
-        "notes": "FY25 AUM ~$904.5bn (SAR 3.4tn; 76% domestic, 20% int'l, 4% treasury), consolidated revenue $120bn (+9% YoY), net profit $17bn (SAR 65.2bn, >2x YoY), consolidated loans & borrowings SAR 725.3bn (~$193.4bn)."
+        "notes": "FY25 rev SAR 449.9bn (~$120bn, +9% YoY), net profit SAR 65.2bn (~$17bn, +152% YoY), total consolidated assets SAR 4.54tn (AUM >$900bn), borrowings SAR 725.3bn (~2.5-3% debt/assets)."
       }
     }
   ],
@@ -156,13 +167,26 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Riyadh",
     "ir_webcast_url": "https://www.pif.gov.sa/en/investors/",
-    "days_to_earnings": 217
+    "days_to_earnings": 216
   },
   "market_history": [
     {
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Aa3 (Moody's) / A+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "Aa3 (Moody's) / A+ (Fitch)",
       "price": null,
       "ytm": null,

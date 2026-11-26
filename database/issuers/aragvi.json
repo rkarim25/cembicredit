@@ -7,8 +7,8 @@
     "region": "CEEMEA",
     "sector": "Consumer",
     "type": "corp",
-    "rating": "B- (S&P Neg) / B- (Fitch)",
-    "tier": "B",
+    "rating": "CCC- (S&P, Nov-26) / C (Fitch, Nov-26)",
+    "tier": "Distressed",
     "benchmark_bond": "ARAGVI 11.125% 2029",
     "price": 89.0,
     "ytm": 12.15,
@@ -16,7 +16,7 @@
     "model_file": "Aragvi_Holding_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681089456caf1fef61b55",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aragvi_Holding_Credit_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
     "fcf_2024a": -52.2,
     "net_leverage_2024a": 3.47,
@@ -598,6 +598,13 @@
   "annotations": [
     {
       "issuer_id": "aragvi",
+      "sector": "Consumer",
+      "topic": "Nov-26 Coupon Deferral Consent & Cut to CCC-/C",
+      "source": "S&P / Fitch (Nov-26)",
+      "note": "Missed initial coupon, entered 10-day grace period, seeking to defer ~$44m coupons on 2029/2031 notes to Mar-27; S&P CCC-, Fitch C."
+    },
+    {
+      "issuer_id": "aragvi",
       "issuer_name": "Aragvi / Trans-Oil",
       "sector": "Consumer",
       "topic": "Retail Footprint & Concession Moat",
@@ -821,7 +828,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1493,6 +1500,19 @@
       "ebitda": 212.5,
       "fcf": -52.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "CCC- (S&P, Nov-26) / C (Fitch, Nov-26)",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 3.47,
+      "ebitda": 212.5,
+      "fcf": -52.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1654,14 +1674,14 @@
     }
   },
   "credit_view": {
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-26",
     "verdict": {
-      "stance": "Cautious / Liquidity & Covenant Watch",
+      "stance": "Distressed / Nov-26 Consent Solicitation & Downgrade to CCC-/C (Grace Period)",
       "target_price": null,
       "current_price": 89.0,
       "ytm": 12.15,
       "spread_bp": 780,
-      "summary": "S&P downgraded Aragvi to B- (Negative) in Nov-26 as EBITDA slipped to ~$165M against ~$148M fixed financing charges and a ~$19M litigation provision. Weak FCF forced bank covenant waiver requests and an extension of the $247M PXF toward Jun-27 while arranging a $400M 2027 RCF. Survival of the 11.125% 2029 Eurobond rests on bank trade-line rollovers."
+      "summary": "In Nov-26 Aragvi missed an initial coupon, entered its 10-day grace period, and launched a consent solicitation to postpone ~$44m of coupon payments on its 11.125% 2029 and 12.75% 2031 notes until March 2027. S&P downgraded Aragvi to CCC- and Fitch to C, warning of imminent default or distressed exchange if consent fails."
     },
     "positives": [
       "Strategic Black Sea / Danube grain and oilseed origination and port export infrastructure (Giurgiulesti, Reni, Chornomorsk).",
@@ -1679,6 +1699,7 @@
       "ownership_governance": "Privately held agribusiness group; elevated related-party/working-capital intensity requires close monitoring of inventory pledges."
     },
     "recent_drivers": [
+      "Nov-26: Launched consent solicitation to defer ~$44m coupons to Mar-27 after missing payment; S&P cut to CCC-, Fitch to C.",
       "Nov 2026: S&P downgraded Aragvi to B- with Negative outlook citing weakened cash flow, ~$165M EBITDA vs ~$148M financing charges, and covenant waivers.",
       "PXF Extension: Seeking extension of $247M pre-export working capital facility toward Jun-27 while lining up a $400M RCF for 2027.",
       "Coupon servicing: Prioritizing semi-annual coupon payments on the 11.125% 2029 notes amid Black Sea freight/margin pressure."
@@ -1697,6 +1718,13 @@
     ]
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Nov-26 Coupon Deferral Consent & Cut to CCC-/C",
+      "source": "S&P / Fitch (Nov-26)",
+      "status": "Archived / Previous Note Run",
+      "summary": "Consent solicitation to defer ~$44m coupons to Mar-27; downgraded to CCC- (S&P) and C (Fitch)."
+    },
     {
       "date": "2026-11-21",
       "title": "S&P Downgrade to B- Negative, Covenant Waivers & $247M PXF Extension",

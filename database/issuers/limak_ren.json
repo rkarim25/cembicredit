@@ -7,300 +7,32 @@
     "region": "CEEMEA",
     "sector": "Utilities",
     "type": "corp",
-    "rating": "B+ Stable (Fitch, late-2026) / B2",
+    "rating": "B+ Stable (Fitch downgrade from BB-, Sep-26)",
     "tier": "B",
-    "benchmark_bond": "LIMAK 8.75% 2028",
+    "benchmark_bond": "LIMAKR 9.625% Aug 2030 Green ($525m, Feb-25)",
     "price": 98.2,
     "ytm": 8.75,
     "spread_bp": 435,
     "model_file": "Limak_Renewable_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68159bc09d6b94337462d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Renewable_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": -110.8,
-    "net_leverage_2024a": 4.0,
-    "provenance": "Mid-2026 $525m 5.5NC2 green Eurobond refinancing integrated 22-Nov-26"
+    "fcf_2024a": null,
+    "net_leverage_2024a": null,
+    "provenance": "financials rebuilt 26-Nov-26 from Limak Renewable Energy Green Bond Disclosures ($525m 9.625% Aug-30) & Fitch Sep-26 Downgrade to B+ Stable",
+    "financials_currency": "USD"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 258.4,
-      "ebitda": 178.8,
-      "ebitda_margin_pct": 69.2,
-      "cfo": 144.9,
-      "capex": 144.4,
-      "fcf": -37.6,
-      "cash": 113.4,
-      "gross_debt": 1110.3,
-      "net_debt": 996.9,
-      "net_leverage": 5.58,
-      "interest_coverage": 3.47,
+      "currency": "USD",
+      "source": "Limak Yenilenebilir Enerji FY25 Green Bond Filings & Fitch Sep-26 Downgrade Report, read 26-Nov-26",
+      "revenue": 240.0,
+      "gross_debt": 525.0,
       "observations": {
-        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
-        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
-        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
-        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
-        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      },
-      "reported_ebitda": 181.5,
-      "calculated_ebitda": 178.8,
-      "ebitda_reconciliation_variance_usd_m": 2.7,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 51.5,
-      "change_in_working_capital": 9.5,
-      "tax_expense": 11.0,
-      "fcf_conversion_pct": -21.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 178.8,
-        "capex": 144.4,
-        "cash_interest": 51.5,
-        "change_in_working_capital": 9.5,
-        "tax": 11.0,
-        "fcf": -37.6,
-        "formula_check": "178.8 - 144.4 - 51.5 - (9.5) - 11.0 = -37.6"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 311.6,
-      "ebitda": 220.0,
-      "ebitda_margin_pct": 70.6,
-      "cfo": 182.3,
-      "capex": 252.5,
-      "fcf": -128.6,
-      "cash": 144.4,
-      "gross_debt": 1201.8,
-      "net_debt": 1057.4,
-      "net_leverage": 4.81,
-      "interest_coverage": 3.41,
-      "observations": {
-        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
-        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
-        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
-        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
-        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      },
-      "reported_ebitda": 232.1,
-      "calculated_ebitda": 220.0,
-      "ebitda_reconciliation_variance_usd_m": 12.1,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$12.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 64.5,
-      "change_in_working_capital": 18.2,
-      "tax_expense": 13.4,
-      "fcf_conversion_pct": -58.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 220.0,
-        "capex": 252.5,
-        "cash_interest": 64.5,
-        "change_in_working_capital": 18.2,
-        "tax": 13.4,
-        "fcf": -128.6,
-        "formula_check": "220.0 - 252.5 - 64.5 - (18.2) - 13.4 = -128.6"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 349.6,
-      "ebitda": 247.5,
-      "ebitda_margin_pct": 70.8,
-      "cfo": 205.7,
-      "capex": 284.0,
-      "fcf": -149.3,
-      "cash": 175.3,
-      "gross_debt": 1280.1,
-      "net_debt": 1104.8,
-      "net_leverage": 4.46,
-      "interest_coverage": 3.2,
-      "observations": {
-        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
-        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
-        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
-        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
-        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      },
-      "reported_ebitda": 261.1,
-      "calculated_ebitda": 247.5,
-      "ebitda_reconciliation_variance_usd_m": 13.6,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 77.3,
-      "change_in_working_capital": 21.1,
-      "tax_expense": 14.4,
-      "fcf_conversion_pct": -60.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 247.5,
-        "capex": 284.0,
-        "cash_interest": 77.3,
-        "change_in_working_capital": 21.1,
-        "tax": 14.4,
-        "fcf": -149.3,
-        "formula_check": "247.5 - 284.0 - 77.3 - (21.1) - 14.4 = -149.3"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 380.0,
-      "ebitda": 275.0,
-      "ebitda_margin_pct": 72.4,
-      "cfo": 233.8,
-      "capex": 268.8,
-      "fcf": -110.8,
-      "cash": 206.2,
-      "gross_debt": 1306.2,
-      "net_debt": 1100.0,
-      "net_leverage": 4.0,
-      "interest_coverage": 3.2,
-      "observations": {
-        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
-        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
-        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
-        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
-        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      },
-      "reported_ebitda": 290.1,
-      "calculated_ebitda": 275.0,
-      "ebitda_reconciliation_variance_usd_m": 15.1,
-      "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$15.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-      "cash_interest": 85.9,
-      "change_in_working_capital": 15.1,
-      "tax_expense": 16.0,
-      "fcf_conversion_pct": -40.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 275.0,
-        "capex": 268.8,
-        "cash_interest": 85.9,
-        "change_in_working_capital": 15.1,
-        "tax": 16.0,
-        "fcf": -110.8,
-        "formula_check": "275.0 - 268.8 - 85.9 - (15.1) - 16.0 = -110.8"
-      }
-    },
-    {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 410.4,
-      "ebitda": 302.5,
-      "ebitda_margin_pct": 73.7,
-      "cfo": 257.1,
-      "capex": 244.3,
-      "fcf": -58.2,
-      "cash": 243.4,
-      "gross_debt": 1280.1,
-      "net_debt": 1036.7,
-      "net_leverage": 3.43,
-      "interest_coverage": 3.67,
-      "observations": {
-        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
-        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
-        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
-        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
-        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      },
-      "reported_ebitda": 307.0,
-      "calculated_ebitda": 302.5,
-      "ebitda_reconciliation_variance_usd_m": 4.5,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 82.4,
-      "change_in_working_capital": 14.6,
-      "tax_expense": 19.4,
-      "fcf_conversion_pct": -19.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 302.5,
-        "capex": 244.3,
-        "cash_interest": 82.4,
-        "change_in_working_capital": 14.6,
-        "tax": 19.4,
-        "fcf": -58.2,
-        "formula_check": "302.5 - 244.3 - 82.4 - (14.6) - 19.4 = -58.2"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 437.0,
-      "ebitda": 324.5,
-      "ebitda_margin_pct": 74.3,
-      "cfo": 275.8,
-      "capex": 262.0,
-      "fcf": -53.1,
-      "cash": 278.4,
-      "gross_debt": 1240.9,
-      "net_debt": 962.5,
-      "net_leverage": 2.97,
-      "interest_coverage": 4.1,
-      "observations": {
-        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
-        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
-        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
-        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
-        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      },
-      "reported_ebitda": 329.4,
-      "calculated_ebitda": 324.5,
-      "ebitda_reconciliation_variance_usd_m": 4.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 79.1,
-      "change_in_working_capital": 14.3,
-      "tax_expense": 22.2,
-      "fcf_conversion_pct": -16.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 324.5,
-        "capex": 262.0,
-        "cash_interest": 79.1,
-        "change_in_working_capital": 14.3,
-        "tax": 22.2,
-        "fcf": -53.1,
-        "formula_check": "324.5 - 262.0 - 79.1 - (14.3) - 22.2 = -53.1"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 456.0,
-      "ebitda": 341.0,
-      "ebitda_margin_pct": 74.8,
-      "cfo": 292.2,
-      "capex": 275.4,
-      "fcf": -48.2,
-      "cash": 309.4,
-      "gross_debt": 1175.6,
-      "net_debt": 866.2,
-      "net_leverage": 2.54,
-      "interest_coverage": 4.51,
-      "observations": {
-        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
-        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
-        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
-        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
-        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      },
-      "reported_ebitda": 346.1,
-      "calculated_ebitda": 341.0,
-      "ebitda_reconciliation_variance_usd_m": 5.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 75.6,
-      "change_in_working_capital": 13.7,
-      "tax_expense": 24.5,
-      "fcf_conversion_pct": -14.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 341.0,
-        "capex": 275.4,
-        "cash_interest": 75.6,
-        "change_in_working_capital": 13.7,
-        "tax": 24.5,
-        "fcf": -48.2,
-        "formula_check": "341.0 - 275.4 - 75.6 - (13.7) - 24.5 = -48.2"
+        "notes": "Annual revenue range ~$220-260m (~90% EBITDA from \u00c7etin & Alkumru HPPs with USD-linked YEKDEM tariffs). Issued $450m + $75m tap = $525m 9.625% Aug-30 Green Bond in Feb-25. Fitch downgraded to B+ Stable in Sep-26 as weak hydrology + front-loaded capex pushed FFO net leverage >5x."
       }
     }
   ],
@@ -312,13 +44,13 @@
     "capacity_utilization_factor_pct": 54.0
   },
   "debt_maturities": {
-    "2025": 132.0,
-    "2026": 220.0,
-    "2027": 308.0,
-    "2028": 198.0,
-    "2029": 132.0,
-    "2030_plus": 110.0,
-    "total_outstanding_usd_m": 1100.0
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 525.0,
+    "total_outstanding_usd_m": 525.0,
+    "source": "Limak Renewable Feb-25 $525m 9.625% Aug-30 Green Bond."
   },
   "recovery_analysis": {
     "distressed_floor_px": 70.0,
@@ -330,6 +62,13 @@
     "thesis": "1,060 MW hydro & solar portfolio; 72% EBITDA margin; YEKDEM 7.3c/kWh dollar floor guarantee."
   },
   "annotations": [
+    {
+      "issuer_id": "limak_ren",
+      "sector": "Utilities",
+      "topic": "Fitch Downgrade to B+ Stable (Sep-26) & $525m Aug-30 Green Bond",
+      "source": "Fitch (Sep-26) / Limak IR",
+      "note": "Downgraded to B+ from BB- on >5x FFO net leverage (weak hydrology + capex); $525m 9.625% Aug-30 green bond verified."
+    },
     {
       "issuer_id": "limak_ren",
       "sector": "Utilities",
@@ -407,64 +146,20 @@
   },
   "capital_structure_tranches": [
     {
-      "tranche_name": "LMKREN Benchmark Senior Notes",
-      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "instrument": "Limak Yenilenebilir 9.625% Senior Secured Green Notes due Aug 2030",
+      "tranche_name": "Limak Yenilenebilir 9.625% Senior Secured Green Notes due Aug 2030",
+      "instrument_type": "Senior Secured Green Bond",
       "currency": "USD",
-      "amount_issued_usd_m": 587.8,
-      "amount_outstanding_usd_m": 587.8,
-      "coupon": "8.750%",
-      "clean_price": 98.2,
-      "ytm": 8.75,
-      "spread_bp": 435,
-      "maturity_date": "2029-07-25",
-      "seniority": "Senior Unsecured (Pari Passu)",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "LMKREN Secondary Eurobond / Sukuk Tranche 2",
-      "instrument_type": "Senior Unsecured Notes",
-      "currency": "USD",
-      "amount_issued_usd_m": 391.9,
-      "amount_outstanding_usd_m": 391.9,
-      "coupon": "8.100%",
-      "clean_price": 100.2,
-      "ytm": 8.1,
-      "spread_bp": 370,
-      "maturity_date": "2027-10-18",
-      "seniority": "Senior Unsecured",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "Syndicated Commercial Bank Term Facility",
-      "instrument_type": "Senior Secured / Priority Amortizing Loan",
-      "currency": "USD / EUR",
-      "amount_issued_usd_m": 254.7,
-      "amount_outstanding_usd_m": 195.9,
-      "coupon": "SOFR + 185 bps",
-      "clean_price": 100.0,
-      "ytm": 6.85,
-      "spread_bp": 185,
-      "maturity_date": "2031-03-31",
+      "amount_issued_usd_m": 525.0,
+      "outstanding_usd_m": 525.0,
+      "amount_outstanding_usd_m": 525.0,
+      "amount_usd_m": 525.0,
+      "coupon": "9.625%",
+      "maturity": "2030-08-15",
+      "maturity_date": "2030-08-15",
       "seniority": "Senior Secured",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
-    },
-    {
-      "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
-      "instrument_type": "Revolving Working Capital Credit Line",
-      "currency": "USD",
-      "amount_issued_usd_m": 457.1,
-      "amount_outstanding_usd_m": 130.6,
-      "coupon": "SOFR + 150 bps",
-      "clean_price": 100.0,
-      "ytm": 6.5,
-      "spread_bp": 150,
-      "maturity_date": "2028-06-30",
-      "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-      "governing_law": "English Law",
-      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
+      "governing_law": "English",
+      "observation": "Feb-25 $450m + $75m tap; ~90% EBITDA from \u00c7etin & Alkumru hydro assets."
     }
   ],
   "rcf_facility_liquidity": {
@@ -573,7 +268,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Istanbul",
     "ir_webcast_url": "https://www.limak.com.tr",
-    "days_to_earnings": 113
+    "days_to_earnings": 109
   },
   "management_questions": [
     {
@@ -1233,6 +928,19 @@
       "ebitda": 275.0,
       "fcf": -110.8,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B+ Stable (Fitch downgrade from BB-, Sep-26)",
+      "price": 98.2,
+      "ytm": 8.75,
+      "spread_bp": 435,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1322,6 +1030,13 @@
   },
   "historical_notes": [
     {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 Limak Renewable",
+      "source": "financials rebuilt 26-Nov-26 from Limak Renewable Energy Green Bond Disclosures ($525m 9.625% Aug-30) & Fitch Sep-26 Downgrade to B+ Stable",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from Limak Renewable Energy Green Bond Disclosures ($525m 9.625% Aug-30) & Fitch Sep-26 Downgrade to B+ Stable"
+    },
+    {
       "date": "2026-11-22",
       "title": "Mid-2026 $525m 5.5NC2 Green Eurobond Refinancing Integrated",
       "source": "Limak Renewable Bond Disclosure (2026)",
@@ -1347,8 +1062,8 @@
   ],
   "credit_view": {
     "verdict": {
-      "stance": "Neutral / De-Risked Maturity Profile via Mid-2026 $525m Green Eurobond",
-      "summary": "Successfully executed a $525m 5.5NC2 green Eurobond in mid-2026 ($1.25bn+ orderbook), refinancing ~80% of existing project/corporate debt and funding the \u0130ncir and Pervari hydro projects. High ~4.0x leverage is cushioned by USD-linked YEKDEM/PPA hydro cash flows.",
+      "stance": "Neutral / Hydro-Linked USD Cash Flows vs Elevated >5x Capex Leverage (B+ Stable)",
+      "summary": "Fitch downgraded Limak Renewable to B+ Stable (from BB-) in Sep-26 after weak hydrology depressed EBITDA alongside front-loaded expansion capex, keeping FFO net leverage >5x until expected deleveraging around 2029. The $525m 9.625% Aug-30 Green Bond retains natural USD cash flow protection from \u00c7etin/Alkumru YEKDEM tariffs.",
       "target_price": null,
       "current_price": 98.2,
       "ytm": 8.75,
@@ -1380,6 +1095,6 @@
         "impact": "Drives step-down in net leverage from ~4.0x toward 3.0x."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   }
 }

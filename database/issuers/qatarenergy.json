@@ -192,7 +192,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Doha",
     "ir_webcast_url": "https://www.qatarenergy.qa/",
-    "days_to_earnings": 157
+    "days_to_earnings": 155
   },
   "market_history": [
     {
@@ -212,6 +212,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "AA Negative (Fitch, SCP aa+) / Aa2 (Moody's eq) / AA (S&P eq)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "AA Negative (Fitch, SCP aa+) / Aa2 (Moody's eq) / AA (S&P eq)",
       "price": null,
       "ytm": null,

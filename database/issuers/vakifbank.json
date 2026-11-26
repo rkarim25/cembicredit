@@ -16,12 +16,36 @@
     "model_file": "Vakifbank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6815aba39e1d30b4b8c8a",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Vakifbank_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "model_type": "bank",
-    "provenance": "financials rebuilt 25-Nov-26 from Vak\u0131fBank 9M 2026 BRSA Financial Statements (KAP / IR, Nov-26)",
+    "provenance": "financials rebuilt 26-Nov-26 from Vak\u0131fBank FY24/FY25 Audited & 9M 2026 BRSA Statements",
     "financials_currency": "TRY"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Vak\u0131fBank FY2024 Audited BRSA Financial Statements, read 26-Nov-26",
+      "assets": 4000000.0,
+      "net_profit": 40380.0,
+      "car_pct": 16.11,
+      "cet1_pct": 12.17,
+      "observations": {
+        "notes": "FY24 BRSA NPAT TRY 40.38bn, assets >TRY 4.0tn, CAR 16.11% (14.22% ex-forbearance)."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Vak\u0131fBank FY2025 Audited BRSA Financial Statements, read 26-Nov-26",
+      "assets": 5490000.0,
+      "net_profit": 70000.0,
+      "observations": {
+        "notes": "FY25 BRSA assets ~TRY 5.49tn (+34% YoY), NPAT >TRY 70bn (~$1.77bn)."
+      }
+    },
     {
       "period": "9M26",
       "is_audited": false,
@@ -304,7 +328,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
-    "days_to_earnings": 79
+    "days_to_earnings": 75
   },
   "management_questions": [
     {
@@ -956,6 +980,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB- / B1",
+      "price": 99.2,
+      "ytm": 6.95,
+      "spread_bp": 235,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "BB- / B1",
       "price": 99.2,
       "ytm": 6.95,

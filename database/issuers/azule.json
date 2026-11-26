@@ -295,7 +295,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 London",
     "ir_webcast_url": "https://www.azule-energy.com/",
-    "days_to_earnings": 116
+    "days_to_earnings": 112
   },
   "management_questions": [
     {
@@ -947,6 +947,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "B+ / Ba3",
+      "price": 98.5,
+      "ytm": 8.45,
+      "spread_bp": 410,
+      "net_leverage": null,
+      "ebitda": 4099.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "B+ / Ba3",
       "price": 98.5,
       "ytm": 8.45,

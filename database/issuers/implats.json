@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "id": "implats",
+    "name": "Impala Platinum Holdings (Implats)",
+    "ticker": "IMP",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BB / Ba2 (Implied, Net Cash)",
+    "tier": "BB",
+    "benchmark_bond": "IMP Bank / Convertible Facilities (JSE: IMP / ZAE000083648)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Implats_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Implats_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "corp",
+    "financials_currency": "ZAR",
+    "provenance": "financials built 26-Nov-26 from Impala Platinum FY2025 & FY2026 (ended 30-Jun-26) Audited JSE Statements; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Impala Platinum FY2025 Audited JSE Annual Report, read 26-Nov-26",
+      "revenue": 85500.0,
+      "observations": {
+        "notes": "FY25 (ended Jun-25) revenue ZAR 85.5bn."
+      }
+    },
+    {
+      "period": "2026A",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Impala Platinum FY2026 Audited JSE Annual Report (ended 30-Jun-26), read 26-Nov-26",
+      "revenue": 135100.0,
+      "ebitda": 43600.0,
+      "reported_ebitda": 43600.0,
+      "ebitda_margin_pct": 32.3,
+      "capex": 7200.0,
+      "net_debt": -22000.0,
+      "net_leverage": -0.5,
+      "net_profit": 22900.0,
+      "observations": {
+        "notes": "FY26 rev surged 58% YoY to ZAR 135.1bn, EBITDA >4x to ZAR 43.6bn (32.3% margin), headline earnings ZAR 22.9bn, capex ZAR 7.2bn, closing adjusted net cash ZAR 22.0bn."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Implats Revolving Credit & Working Capital Facilities",
+      "tranche_name": "Implats Revolving Credit & Working Capital Facilities",
+      "instrument_type": "Senior Unsecured RCF",
+      "currency": "ZAR",
+      "amount_issued_usd_m": 300.0,
+      "outstanding_usd_m": 300.0,
+      "amount_outstanding_usd_m": 300.0,
+      "amount_usd_m": 300.0,
+      "coupon": "JIBAR+Margin",
+      "maturity": "2028-06-30",
+      "maturity_date": "2028-06-30",
+      "seniority": "Senior Unsecured",
+      "governing_law": "South African Law",
+      "isin": "ZAE000083648",
+      "observation": "Substantial undrawn RCF headroom; group closed FY26 with ZAR 22.0bn net cash."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 300.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 300.0,
+    "source": "Implats FY26 Annual Report (ZAR 22.0bn net cash)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / Fortress Net-Cash South African PGM Major",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Implats staged a massive FY26 (Jun-26) rebound as PGM basket recovery and Royal Bafokeng integration lifted revenue 58% to ZAR 135.1bn and quadrupled EBITDA to ZAR 43.6bn, building ZAR 22.0bn in adjusted net cash against restrained ZAR 7.2bn capex."
+    },
+    "positives": [
+      "ZAR 22.0bn adjusted net cash buffer at FY26-end with disciplined ZAR 7.2bn capex.",
+      "Tier-1 Rustenburg, Zimplats, Marula, and Impala Canada/Bafokeng asset portfolio."
+    ],
+    "negatives": [
+      "High sensitivity to PGM basket prices (platinum, palladium, rhodium) and ZAR FX.",
+      "South African deep-level mining inflation, Eskom power tariff, and Zimbabwe royalty/FX risks."
+    ],
+    "background": {
+      "business_overview": "Major South African/Zimbabwean PGM miner & refiner.",
+      "asset_perimeter": "Impala Rustenburg, Bafokeng, Zimplats, Marula, Two Rivers, Lac des Iles.",
+      "ownership_governance": "JSE listed (IMP)."
+    },
+    "recent_drivers": [
+      "FY26 (Jun-26): Rev ZAR 135.1bn (+58%), EBITDA ZAR 43.6bn (>4x), net cash ZAR 22.0bn."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-26",
+        "event": "H1 FY2027 Interim Results",
+        "impact": "Tracks PGM basket margin sustainability and capital returns."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Capital Discipline & Net Cash",
+      "management_target": "Maintain net cash & disciplined capex (ZAR 7.2bn FY26)",
+      "current_runrate": "ZAR 22.0bn net cash, EBITDA ZAR 43.6bn",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "PGM basket rebound + Bafokeng scale drove 4x EBITDA jump.",
+      "last_guided_source": "Implats FY26 Results",
+      "last_verified_period": "FY26"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Outline capital allocation split between special dividends/buybacks vs Zimplats/Two Rivers growth capex.",
+      "focus_area": "Capital Allocation",
+      "relevance": "Preserves net-cash cushion through PGM cycles."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "implats",
+      "sector": "Materials",
+      "topic": "FY26 Surge (EBITDA ZAR 43.6bn, Net Cash ZAR 22.0bn)",
+      "source": "Implats FY26 Report (2026)",
+      "note": "FY26 rev ZAR 135.1bn (+58%), EBITDA ZAR 43.6bn, HEPS ZAR 22.9bn, adjusted net cash ZAR 22.0bn."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-26",
+    "period_reporting": "H1 FY2027 Interim",
+    "confirmation_status": "Estimated",
+    "call_time": "11:00 SAST",
+    "ir_webcast_url": "https://www.implats.co.za/investors.php",
+    "days_to_earnings": 92
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB / Ba2 (Implied, Net Cash)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Impala Platinum Holdings (Implats)",
+      "source": "financials built 26-Nov-26 from Impala Platinum FY2025 & FY2026 (ended 30-Jun-26) Audited JSE Statements; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "Implats staged a massive FY26 (Jun-26) rebound as PGM basket recovery and Royal Bafokeng integration lifted revenue 58% to ZAR 135.1bn and quadrupled EBITDA to ZAR 43.6bn, building ZAR 22.0bn in adjusted net cash against restrained ZAR 7.2bn capex."
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 90.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 90.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.5,
+    "restructuring_framework": "South African Companies Act",
+    "thesis": "ZAR 22bn net cash + Tier-1 PGM reserves provide near-full debt coverage."
+  }
+}

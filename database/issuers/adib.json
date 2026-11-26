@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "id": "adib",
+    "name": "Abu Dhabi Islamic Bank (ADIB)",
+    "ticker": "ADIBUH",
+    "country": "UAE",
+    "region": "GCC",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A+ Stable (Fitch) / A2 Stable (Moody's)",
+    "tier": "IG",
+    "benchmark_bond": "ADIBUH 7.25% Perp AT1 Sukuk ($750m, XS2642454271)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "ADIB_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADIB_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "bank",
+    "financials_currency": "AED",
+    "provenance": "financials built 26-Nov-26 from ADIB FY24/FY25 Audited & 9M 2026 ADX Financial Statements; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "ADIB FY2024 Audited ADX Financial Statements, read 26-Nov-26",
+      "assets": 226000.0,
+      "net_profit": 5250.0,
+      "observations": {
+        "notes": "FY24 assets ~AED 226bn, net profit AED 5.25bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "ADIB FY2025 Audited ADX Financial Statements, read 26-Nov-26",
+      "assets": 281000.0,
+      "net_profit": 7100.0,
+      "npl_pct": 2.8,
+      "observations": {
+        "notes": "FY25 assets AED 281bn, NPAT AED 7.1bn (+16% YoY; PBT AED 8.1bn), NPA ratio 2.8%."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "AED",
+      "source": "ADIB 9M 2026 Unaudited ADX Financial Statements (Nov-26), read 26-Nov-26",
+      "assets": 317640.0,
+      "net_profit": 5610.0,
+      "cet1_pct": 12.4,
+      "npl_pct": 2.0,
+      "observations": {
+        "notes": "9M26 NPAT AED 5.61bn (+5.5% YoY; PBT AED 6.43bn +6.3%), assets AED 317.64bn (+17.8% YoY), CET1 12.4%, NPA ratio improved sharply to 2.0% (vs 3.3% 9M25)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "ADIB 7.250% Perpetual AT1 Sukuk",
+      "tranche_name": "ADIB 7.250% Perpetual AT1 Sukuk",
+      "instrument_type": "Additional Tier 1 Sukuk",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "7.250%",
+      "maturity": "2099-12-31",
+      "maturity_date": "2099-12-31",
+      "seniority": "Additional Tier 1",
+      "governing_law": "English",
+      "isin": "XS2642454271",
+      "observation": "Perpetual callable AT1 Sukuk; issuer rated A+ Fitch / A2 Moody's."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 750.0,
+    "total_outstanding_usd_m": 750.0,
+    "source": "ADIB $750m AT1 Perpetual Sukuk (XS2642454271)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / High-Growth Abu Dhabi Islamic Franchise (A+ / A2)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "ADIB expanded total assets 17.8% YoY to AED 317.6bn in 9M26 while cutting its NPA ratio to 2.0% (from 3.3%) and posting AED 5.61bn net profit (+5.5% YoY). Solid 12.4% CET1 and strong Abu Dhabi retail/sovereign deposit base underpin A+/A2 ratings."
+    },
+    "positives": [
+      "NPA ratio compressed 130bps YoY to 2.0% in 9M26 alongside 17.8% asset growth.",
+      "Strong Abu Dhabi retail/government Islamic franchise with 12.4% CET1."
+    ],
+    "negatives": [
+      "Rapid 17.8% YoY balance sheet growth requires continued capital retention.",
+      "UAE corporate tax + Pillar Two drag on net margins."
+    ],
+    "background": {
+      "business_overview": "Leading Abu Dhabi-headquartered Sharia-compliant universal bank.",
+      "asset_perimeter": "UAE retail, wholesale, private banking, and Egypt (ADIB Egypt).",
+      "ownership_governance": "Emirates International Investment Co. / Abu Dhabi sovereign-linked; ADX listed."
+    },
+    "recent_drivers": [
+      "9M26: Assets AED 317.64bn (+17.8%), NPAT AED 5.61bn (+5.5%), CET1 12.4%, NPA 2.0%."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-10",
+        "event": "FY2026 Audited ADX Results",
+        "impact": "Confirms full-year CET1 accretion and 2027 dividend/AT1 call plans."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Asset Quality & Capital",
+      "management_target": "CET1 >12% & NPA <2.5%",
+      "current_runrate": "CET1 12.4%, NPA 2.0% in 9M26",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "Strong recoveries & UAE growth compressed NPA 130bps.",
+      "last_guided_source": "ADIB 9M26 Release",
+      "last_verified_period": "9M 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Confirm call intentions on XS2642454271 AT1 Sukuk at first call date and RWA density outlook.",
+      "focus_area": "Capital & AT1",
+      "relevance": "Key driver of AT1 sukuk YTC."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "adib",
+      "sector": "Banks",
+      "topic": "9M26 ADX Results (Assets AED 317.6bn, NPA 2.0%, CET1 12.4%)",
+      "source": "ADIB ADX Filing (Nov-26)",
+      "note": "9M26 NPAT AED 5.61bn, assets AED 317.64bn (+17.8%), CET1 12.4%, NPA 2.0%."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-10",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 UAE",
+    "ir_webcast_url": "https://www.adib.ae/en/pages/investor-relations.aspx",
+    "days_to_earnings": 76
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A+ Stable (Fitch) / A2 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Abu Dhabi Islamic Bank (ADIB)",
+      "source": "financials built 26-Nov-26 from ADIB FY24/FY25 Audited & 9M 2026 ADX Financial Statements; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "ADIB expanded total assets 17.8% YoY to AED 317.6bn in 9M26 while cutting its NPA ratio to 2.0% (from 3.3%) and posting AED 5.61bn net profit (+5.5% YoY). Solid 12.4% CET1 and strong Abu Dhabi retail/sovereign deposit base underpin A+/A2 ratings."
+    }
+  ]
+}

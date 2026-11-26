@@ -7,316 +7,57 @@
     "region": "GCC",
     "sector": "Technology",
     "type": "corp",
-    "rating": "A2 / A-",
+    "rating": "A2 Stable (Moody's) / A Stable (S&P / Fitch)",
     "tier": "Tier-1",
-    "benchmark_bond": "ORDS 4.50% 2031",
+    "benchmark_bond": "ORDS 2.625% Apr 2031 ($1bn, XS2311299957)",
     "price": 97.8,
     "ytm": 5,
     "spread_bp": 95,
     "model_file": "Ooredoo_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8104-b0c2-d4771573cd0a",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ooredoo_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "cognitive_credit_id": "ooredoo",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/ooredoo/description",
     "model_type": "corp",
-    "fcf_2024a": 547.3,
-    "net_leverage_2024a": 1.1
+    "fcf_2024a": null,
+    "net_leverage_2024a": null,
+    "financials_currency": "QAR",
+    "provenance": "financials rebuilt 26-Nov-26 from Ooredoo QPSC FY2025 Audited & 9M 2026 QSE Financial Statements"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
+      "period": "2025A",
       "is_audited": true,
-      "revenue": 4420,
-      "ebitda": 1820,
-      "ebitda_margin_pct": 41.2,
-      "cfo": 1475.6,
-      "capex": 726.2,
-      "fcf": 516.1,
-      "cash": 1155,
-      "gross_debt": 4403,
-      "net_debt": 3248,
-      "net_leverage": 1.78,
-      "interest_coverage": 9.97,
+      "currency": "QAR",
+      "source": "Ooredoo QPSC FY2025 Audited Financial Statements (QSE), read 26-Nov-26",
+      "revenue": 24604.0,
+      "ebitda": 10489.0,
+      "reported_ebitda": 10489.0,
+      "ebitda_margin_pct": 42.6,
+      "capex": 4564.0,
+      "fcf": 5925.0,
+      "net_debt": 4108.0,
+      "net_leverage": 0.4,
+      "net_profit": 3865.0,
       "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 1847.3,
-      "calculated_ebitda": 1820,
-      "ebitda_reconciliation_variance_usd_m": 27.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 182.5,
-      "change_in_working_capital": 231.5,
-      "tax_expense": 163.7,
-      "fcf_conversion_pct": 28.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 1820.0,
-        "capex": 726.2,
-        "cash_interest": 182.5,
-        "change_in_working_capital": 231.5,
-        "tax": 163.7,
-        "fcf": 516.1,
-        "formula_check": "1820.0 - 726.2 - 182.5 - (231.5) - 163.7 = 516.1"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 5330,
-      "ebitda": 2240,
-      "ebitda_margin_pct": 42,
-      "cfo": 1856.4,
-      "capex": 1270.1,
-      "fcf": 73.0,
-      "cash": 1470,
-      "gross_debt": 4765.6,
-      "net_debt": 3295.6,
-      "net_leverage": 1.47,
-      "interest_coverage": 9.81,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 2273.6,
-      "calculated_ebitda": 2240,
-      "ebitda_reconciliation_variance_usd_m": 33.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 228.3,
-      "change_in_working_capital": 467.6,
-      "tax_expense": 201.0,
-      "fcf_conversion_pct": 3.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 2240.0,
-        "capex": 1270.1,
-        "cash_interest": 228.3,
-        "change_in_working_capital": 467.6,
-        "tax": 201.0,
-        "fcf": 73.0,
-        "formula_check": "2240.0 - 1270.1 - 228.3 - (467.6) - 201.0 = 73.0"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 5980,
-      "ebitda": 2520,
-      "ebitda_margin_pct": 42.1,
-      "cfo": 2094.4,
-      "capex": 1428.8,
-      "fcf": 66.4,
-      "cash": 1785,
-      "gross_debt": 5076.4,
-      "net_debt": 3291.4,
-      "net_leverage": 1.31,
-      "interest_coverage": 9.2,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 2557.8,
-      "calculated_ebitda": 2520,
-      "ebitda_reconciliation_variance_usd_m": 37.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 273.9,
-      "change_in_working_capital": 527.4,
-      "tax_expense": 223.5,
-      "fcf_conversion_pct": 2.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 2520.0,
-        "capex": 1428.8,
-        "cash_interest": 273.9,
-        "change_in_working_capital": 527.4,
-        "tax": 223.5,
-        "fcf": 66.4,
-        "formula_check": "2520.0 - 1428.8 - 273.9 - (527.4) - 223.5 = 66.4"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 6500,
-      "ebitda": 2800,
-      "ebitda_margin_pct": 43.1,
-      "cfo": 2380,
-      "capex": 1352.4,
-      "fcf": 547.3,
-      "cash": 2100,
-      "gross_debt": 5180,
-      "net_debt": 3080,
-      "net_leverage": 1.1,
-      "interest_coverage": 9.2,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 2842,
-      "calculated_ebitda": 2800,
-      "ebitda_reconciliation_variance_usd_m": 42,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$42.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 304.3,
-      "change_in_working_capital": 347.6,
-      "tax_expense": 248.4,
-      "fcf_conversion_pct": 19.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 2800.0,
-        "capex": 1352.4,
-        "cash_interest": 304.3,
-        "change_in_working_capital": 347.6,
-        "tax": 248.4,
-        "fcf": 547.3,
-        "formula_check": "2800.0 - 1352.4 - 304.3 - (347.6) - 248.4 = 547.3"
-      }
-    },
-    {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 7020,
-      "ebitda": 3080,
-      "ebitda_margin_pct": 43.9,
-      "cfo": 2618,
-      "capex": 1228.9,
-      "fcf": 908.5,
-      "cash": 2478,
-      "gross_debt": 5076.4,
-      "net_debt": 2598.4,
-      "net_leverage": 0.84,
-      "interest_coverage": 10.54,
-      "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 3126.2,
-      "calculated_ebitda": 3080,
-      "ebitda_reconciliation_variance_usd_m": 46.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 292.2,
-      "change_in_working_capital": 370.8,
-      "tax_expense": 279.6,
-      "fcf_conversion_pct": 29.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 3080.0,
-        "capex": 1228.9,
-        "cash_interest": 292.2,
-        "change_in_working_capital": 370.8,
-        "tax": 279.6,
-        "fcf": 908.5,
-        "formula_check": "3080.0 - 1228.9 - 292.2 - (370.8) - 279.6 = 908.5"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 7475,
-      "ebitda": 3304,
-      "ebitda_margin_pct": 44.2,
-      "cfo": 2808.4,
-      "capex": 1318.3,
-      "fcf": 1010.2,
-      "cash": 2835,
-      "gross_debt": 4921,
-      "net_debt": 2086,
-      "net_leverage": 0.63,
-      "interest_coverage": 11.8,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 3353.6,
-      "calculated_ebitda": 3304,
-      "ebitda_reconciliation_variance_usd_m": 49.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$49.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 280.0,
-      "change_in_working_capital": 390.6,
-      "tax_expense": 304.9,
-      "fcf_conversion_pct": 30.6,
-      "fcf_bridge": {
-        "calculated_ebitda": 3304.0,
-        "capex": 1318.3,
-        "cash_interest": 280.0,
-        "change_in_working_capital": 390.6,
-        "tax": 304.9,
-        "fcf": 1010.2,
-        "formula_check": "3304.0 - 1318.3 - 280.0 - (390.6) - 304.9 = 1010.2"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 7800,
-      "ebitda": 3472,
-      "ebitda_margin_pct": 44.5,
-      "cfo": 2975,
-      "capex": 1385.3,
-      "fcf": 1090.2,
-      "cash": 3150,
-      "gross_debt": 4662,
-      "net_debt": 1512,
-      "net_leverage": 0.44,
-      "interest_coverage": 12.96,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 3524.1,
-      "calculated_ebitda": 3472,
-      "ebitda_reconciliation_variance_usd_m": 52.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$52.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 267.9,
-      "change_in_working_capital": 404.2,
-      "tax_expense": 324.4,
-      "fcf_conversion_pct": 31.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 3472.0,
-        "capex": 1385.3,
-        "cash_interest": 267.9,
-        "change_in_working_capital": 404.2,
-        "tax": 324.4,
-        "fcf": 1090.2,
-        "formula_check": "3472.0 - 1385.3 - 267.9 - (404.2) - 324.4 = 1090.2"
+        "notes": "FY25 rev QAR 24.604bn (+4% YoY), EBITDA QAR 10.489bn (42.6% margin), capex QAR 4.564bn, FCF QAR 5.925bn, net debt QAR 4.108bn (0.4x net leverage), NPAT QAR 3.865bn."
       }
     },
     {
       "period": "9M26",
       "is_audited": false,
       "currency": "QAR",
-      "source": "Ooredoo Q.P.S.C. Q3/9M 2026 Earnings Release (28-Oct-26), read 23-Nov-26",
-      "revenue": 19000.0,
-      "ebitda": 8500.0,
-      "reported_ebitda": 8500.0,
+      "source": "Ooredoo QPSC 9M 2026 Financial Statements (QSE, Nov-26), read 26-Nov-26",
+      "revenue": 18960.0,
+      "ebitda": 8476.0,
+      "reported_ebitda": 8476.0,
       "ebitda_margin_pct": 44.7,
-      "fcf": 5700.0,
-      "net_profit": 2900.0,
+      "capex": 2770.0,
+      "fcf": 5706.0,
+      "net_profit": 2935.0,
       "observations": {
-        "notes": "9M26 rev QAR 19.0bn (+4.3% YoY; Q3 QAR 6.5bn +3.8% YoY), EBITDA QAR 8.5bn (+6.3% YoY, 44.7% margin +90bp), FCF QAR 5.7bn (+11.2% YoY), Net Profit QAR 2.9bn (-5.0% YoY; normalized QAR 3.0bn). Closed first phase of Zain tower JV."
+        "notes": "9M26 rev QAR 18.960bn (+4.3% YoY), EBITDA QAR 8.476bn (+6.3% YoY, 44.7% margin), capex QAR 2.770bn, FCF QAR 5.706bn (+11.2% YoY), NPAT QAR 2.935bn."
       }
     }
   ],
@@ -346,6 +87,13 @@
     "thesis": "State-backed telecom operator across Qatar, Kuwait, Iraq, and Algeria; robust EBITDA margin and cash flow."
   },
   "annotations": [
+    {
+      "issuer_id": "ooredoo",
+      "sector": "Technology",
+      "topic": "FY25 Audited & 9M26 QSE Results (0.4x Net Lev, QAR 5.7bn FCF)",
+      "source": "Ooredoo IR (Nov-26)",
+      "note": "FY25 rev QAR 24.60bn, EBITDA QAR 10.49bn, net debt QAR 4.11bn (0.4x); 9M26 EBITDA QAR 8.48bn (44.7%), FCF QAR 5.71bn."
+    },
     {
       "issuer_id": "ooredoo",
       "sector": "Technology",
@@ -582,7 +330,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1246,6 +994,19 @@
       "ebitda": 2800,
       "fcf": 547.3,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A2 Stable (Moody's) / A Stable (S&P / Fitch)",
+      "price": 97.8,
+      "ytm": 5,
+      "spread_bp": 95,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1335,12 +1096,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Overweight / High-FCF Qatar Sovereign-Anchored Telecom (A2/A-)",
+      "stance": "Overweight / Fortress 0.4x Net Leverage Qatari Telecom (A2 / A)",
       "target_price": null,
       "current_price": 97.8,
       "ytm": 5.0,
       "spread_bp": 95,
-      "summary": "9M 2026 delivered broad operational momentum: revenue +4.3% YoY to QAR 19.0bn, EBITDA +6.3% to QAR 8.5bn (44.7% margin), and FCF +11.2% to QAR 5.7bn, plus first closing of the landmark Zain regional tower JV. Low ~1.1x leverage and Qatari state ownership anchor A2/A- ratings."
+      "summary": "Ooredoo generated QAR 5.71bn FCF (+11.2% YoY) in 9M26 on QAR 18.96bn revenue (+4.3% YoY) and 44.7% EBITDA margin (QAR 8.48bn), building on FY25's 0.4x net leverage (QAR 4.11bn net debt). Sovereign linkage and disciplined capex underpin A2/A/A ratings."
     },
     "positives": [
       "Strong 9M 2026 FCF inflection (+11.2% YoY to QAR 5.7bn) and EBITDA margin expansion (+90bp to 44.7%).",
@@ -1368,9 +1129,16 @@
         "impact": "Tests data-center capex pacing vs shareholder distributions."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 Ooredoo QPSC",
+      "source": "financials rebuilt 26-Nov-26 from Ooredoo QPSC FY2025 Audited & 9M 2026 QSE Financial Statements",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from Ooredoo QPSC FY2025 Audited & 9M 2026 QSE Financial Statements"
+    },
     {
       "date": "2026-11-23",
       "title": "9M 2026 Results (+11.2% FCF) & Zain Tower Closing",

@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/hidro.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- HIDRO 5.25% 2029: price 99.0, YTM 5.5%, spread 145bp (as of 2026-11-23).
-- Rating as recorded: BBB-.
+- HIDRO 5.25% 2029: price 99.0, YTM 5.5%, spread 145bp (as of 2026-11-26).
+- Rating as recorded: BBB- (Fitch / Sovereign Floor).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 1968.0 | 1240.0 | -448.2 | 826.1 | 0.67 | 16.0 |
-| 2023A | 2208.0 | 1395.0 | -509.8 | 758.7 | 0.54 | 15.0 |
-| 2024A | 2400.0 | 1550.0 | -250.0 | 620.0 | 0.4 | 15.0 |
+| 2024A | 9123.0 | 5503.0 |  | -4677.0 | -0.85 |  |
+| 2025A | 9619.0 | 4646.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=hidro) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/hidro.json)

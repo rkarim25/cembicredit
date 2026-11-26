@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/kosmos.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- KOS 10.45% 2027: price 89.5, YTM 10.45%, spread 610bp (as of 2026-11-24).
+- KOS 10.45% 2027: price 89.5, YTM 10.45%, spread 610bp (as of 2026-11-26).
 - Rating as recorded: B- / B3.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

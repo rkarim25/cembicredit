@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/golar.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- GLNG 7.50% Dec 2031 ($500m) / 7.50% 2030 ($500m): price 99.5, YTM 7.85%, spread 420bp (as of 2026-11-23).
-- Rating as recorded: B2 / B.
+- GLNG 7.50% Oct 2030 ($500m, USG4023LAD31) / Dec 2031 ($500m, USG4023LAE14): price 99.5, YTM 7.85%, spread 420bp (as of 2026-11-26).
+- Rating as recorded: B+ (S&P).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 268.0 | 363.0 | 20.0 | 445.0 | 1.3 | 5.8 |
-| 2023A | 298.0 | 356.0 | -158.0 | 999.0 | 4.2 | 4.6 |
-| 2024A | 260.0 | 241.0 | -80.0 | 1334.0 | 6.4 | 3.4 |
+| 2024A | 260.4 | 240.5 |  |  |  |  |
+| 2025A | 393.5 | 264.6 |  | 1530.0 | 5.78 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=golar) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/golar.json)

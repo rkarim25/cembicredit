@@ -7,229 +7,51 @@
     "region": "Global EM / LatAm & Africa",
     "sector": "Energy",
     "type": "corp",
-    "rating": "B2 / B",
+    "rating": "B+ (S&P)",
     "tier": "B",
-    "benchmark_bond": "GLNG 7.50% Dec 2031 ($500m) / 7.50% 2030 ($500m)",
+    "benchmark_bond": "GLNG 7.50% Oct 2030 ($500m, USG4023LAD31) / Dec 2031 ($500m, USG4023LAE14)",
     "price": 99.5,
     "ytm": 7.85,
     "spread_bp": 420,
     "model_file": "Golar_LNG_Credit_Model.xlsx",
     "notion_id": "3e31d0ad-68c6-8104-ab60-c609ed22a0d9",
-    "last_updated": "2026-11-23",
-    "fcf_2024a": -80.0,
-    "net_leverage_2024a": 6.4,
-    "ebitda_backlog_usd_b": 17.0
+    "last_updated": "2026-11-26",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null,
+    "ebitda_backlog_usd_b": 17.0,
+    "financials_currency": "USD",
+    "provenance": "financials rebuilt 26-Nov-26 from Golar LNG FY2024 & FY2025 Audited Form 20-F Filings + 2026 Bond Disclosures"
   },
   "financials_multi_year": [
     {
-      "period": "2020A",
-      "is_audited": true,
-      "revenue": 261.0,
-      "ebitda": 162.0,
-      "ebitda_margin_pct": 62.1,
-      "cfo": 54.0,
-      "capex": -298.0,
-      "fcf": -258.0,
-      "cash": 226.0,
-      "gross_debt": 1652.0,
-      "net_debt": 1314.0,
-      "net_leverage": 7.2,
-      "interest_coverage": 3.2,
-      "cash_interest": 50.6,
-      "change_in_working_capital": 658.0,
-      "tax_expense": 9.4,
-      "fcf_conversion_pct": -159.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 162.0,
-        "capex": -298.0,
-        "cash_interest": 50.6,
-        "change_in_working_capital": 658.0,
-        "tax": 9.4,
-        "fcf": -258.0,
-        "formula_check": "162.0 - -298.0 - 50.6 - (658.0) - 9.4 = -258.0"
-      }
-    },
-    {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 260.0,
-      "ebitda": 182.0,
-      "ebitda_margin_pct": 70.0,
-      "cfo": 121.0,
-      "capex": -213.0,
-      "fcf": -106.0,
-      "cash": 338.0,
-      "gross_debt": 1210.0,
-      "net_debt": 197.0,
-      "net_leverage": 0.5,
-      "interest_coverage": 3.5,
-      "cash_interest": 52.0,
-      "change_in_working_capital": 437.7,
-      "tax_expense": 11.3,
-      "fcf_conversion_pct": -58.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 182.0,
-        "capex": -213.0,
-        "cash_interest": 52.0,
-        "change_in_working_capital": 437.7,
-        "tax": 11.3,
-        "fcf": -106.0,
-        "formula_check": "182.0 - -213.0 - 52.0 - (437.7) - 11.3 = -106.0"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 268.0,
-      "ebitda": 363.0,
-      "ebitda_margin_pct": 135.4,
-      "cfo": 279.0,
-      "capex": -249.0,
-      "fcf": 20.0,
-      "cash": 1013.0,
-      "gross_debt": 1217.0,
-      "net_debt": 445.0,
-      "net_leverage": 1.3,
-      "interest_coverage": 5.8,
-      "cash_interest": 62.6,
-      "change_in_working_capital": 500.7,
-      "tax_expense": 28.7,
-      "fcf_conversion_pct": 5.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 363.0,
-        "capex": -249.0,
-        "cash_interest": 62.6,
-        "change_in_working_capital": 500.7,
-        "tax": 28.7,
-        "fcf": 20.0,
-        "formula_check": "363.0 - -249.0 - 62.6 - (500.7) - 28.7 = 20.0"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 298.0,
-      "ebitda": 356.0,
-      "ebitda_margin_pct": 119.5,
-      "cfo": 135.0,
-      "capex": -281.0,
-      "fcf": -158.0,
-      "cash": 771.0,
-      "gross_debt": 1716.0,
-      "net_debt": 999.0,
-      "net_leverage": 4.2,
-      "interest_coverage": 4.6,
-      "cash_interest": 77.4,
-      "change_in_working_capital": 691.8,
-      "tax_expense": 25.8,
-      "fcf_conversion_pct": -44.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 356.0,
-        "capex": -281.0,
-        "cash_interest": 77.4,
-        "change_in_working_capital": 691.8,
-        "tax": 25.8,
-        "fcf": -158.0,
-        "formula_check": "356.0 - -281.0 - 77.4 - (691.8) - 25.8 = -158.0"
-      }
-    },
-    {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 260.0,
-      "ebitda": 241.0,
-      "ebitda_margin_pct": 92.7,
-      "cfo": 280.0,
-      "capex": -330.0,
-      "fcf": -80.0,
-      "cash": 717.0,
-      "gross_debt": 2241.0,
-      "net_debt": 1334.0,
-      "net_leverage": 6.4,
-      "interest_coverage": 3.4,
-      "cash_interest": 70.9,
-      "change_in_working_capital": 565.4,
-      "tax_expense": 14.7,
-      "fcf_conversion_pct": -33.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 241.0,
-        "capex": -330.0,
-        "cash_interest": 70.9,
-        "change_in_working_capital": 565.4,
-        "tax": 14.7,
-        "fcf": -80.0,
-        "formula_check": "241.0 - -330.0 - 70.9 - (565.4) - 14.7 = -80.0"
-      }
-    },
-    {
-      "period": "1H25A",
-      "is_audited": false,
-      "revenue": 138.0,
-      "ebitda": 90.0,
-      "ebitda_margin_pct": 65.2,
-      "cfo": 192.0,
-      "capex": -425.0,
-      "fcf": -244.0,
-      "cash": 907.0,
-      "gross_debt": 2242.0,
-      "net_debt": 1335.0,
-      "net_leverage": 6.4,
-      "interest_coverage": 2.8,
-      "cash_interest": 32.1,
-      "change_in_working_capital": 722.3,
-      "tax_expense": 4.6,
-      "fcf_conversion_pct": -271.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 90.0,
-        "capex": -425.0,
-        "cash_interest": 32.1,
-        "change_in_working_capital": 722.3,
-        "tax": 4.6,
-        "fcf": -244.0,
-        "formula_check": "90.0 - -425.0 - 32.1 - (722.3) - 4.6 = -244.0"
-      }
-    },
-    {
-      "period": "2028E_RunRate",
-      "is_audited": false,
-      "revenue": 1150.0,
-      "ebitda": 865.0,
-      "ebitda_margin_pct": 75.2,
-      "cfo": 750.0,
-      "capex": -150.0,
-      "fcf": 450.0,
-      "cash": 600.0,
-      "gross_debt": 1942.0,
-      "net_debt": 1342.0,
-      "net_leverage": 1.6,
-      "interest_coverage": 6.5,
-      "cash_interest": 133.1,
-      "change_in_working_capital": 361.0,
-      "tax_expense": 70.9,
-      "fcf_conversion_pct": 52.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 865.0,
-        "capex": -150.0,
-        "cash_interest": 133.1,
-        "change_in_working_capital": 361.0,
-        "tax": 70.9,
-        "fcf": 450.0,
-        "formula_check": "865.0 - -150.0 - 133.1 - (361.0) - 70.9 = 450.0"
-      }
-    },
-    {
-      "period": "9M26",
-      "is_audited": false,
       "currency": "USD",
-      "source": "Golar LNG Q3 2026 Financial Report (Nov-26), read 23-Nov-26",
-      "revenue": 351.8,
-      "ebitda": 288.8,
-      "reported_ebitda": 288.8,
-      "ebitda_margin_pct": 82.1,
-      "cash": 711.0,
-      "net_profit": 23.0,
+      "source": "Golar LNG FY2024 Audited Form 20-F (SEC), read 26-Nov-26",
+      "revenue": 260.4,
+      "ebitda": 240.5,
+      "reported_ebitda": 240.5,
+      "ebitda_margin_pct": 92.4,
       "observations": {
-        "notes": "9M26 operating revenue $351.8m, Adj. EBITDA $288.8m (Q3 rev $83.7m, Q3 Adj. EBITDA $55.8m, Q3 attributable net income $23m during FLNG Hilli Singapore yard transition). Cash $711m pre-Oct-26 $500m 7.5% 2031 bond proceeds; FLNG Hilli facility upsized to $960m and extended to Jun-2038."
+        "notes": "FY24 operating rev $260.4m, Adjusted EBITDA $240.5m."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Golar LNG FY2025 Audited Form 20-F (SEC) & S&P B+ Profile, read 26-Nov-26",
+      "revenue": 393.5,
+      "ebitda": 264.6,
+      "reported_ebitda": 264.6,
+      "ebitda_margin_pct": 67.2,
+      "net_profit": 65.7,
+      "cash": 1200.0,
+      "gross_debt": 2730.0,
+      "net_debt": 1530.0,
+      "net_leverage": 5.78,
+      "observations": {
+        "notes": "FY25 operating rev $393.5m (+51% YoY), Adj EBITDA $264.6m, NI $65.7m, cash ~$1.2bn, contractual debt $2.73bn, net debt ~$1.53bn. Issued $500m 7.50% Oct-30 (USG4023LAD31) & Dec-31 (USG4023LAE14) senior notes."
       }
     }
   ],
@@ -253,7 +75,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "market_history": [
     {
@@ -749,9 +571,29 @@
       "ebitda": 241.0,
       "fcf": -80.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B+ (S&P)",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": null,
+      "ebitda": 240.5,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "golar",
+      "sector": "Energy",
+      "topic": "FY25 Audited 20-F ($393.5m Rev / $264.6m EBITDA) & 2030/31 Notes",
+      "source": "Golar LNG Form 20-F / Bondblox (2026)",
+      "note": "FY25 rev $393.5m, Adj EBITDA $264.6m, cash ~$1.2bn, debt $2.73bn; ISINs USG4023LAD31 (Oct-30) & USG4023LAE14 (Dec-31)."
+    },
     {
       "issuer_id": "golar",
       "sector": "Energy",
@@ -947,12 +789,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Constructive / Contracted FLNG Infrastructure with Massive Liquidity Buffer (B2/B)",
+      "stance": "Overweight / Contracted FLNG Cash Flow Visibility (S&P B+)",
       "target_price": null,
       "current_price": 99.5,
       "ytm": 7.5,
       "spread_bp": 420,
-      "summary": "Golar fortified liquidity with $1.6bn in new financing around Q3 2026\u2014including $500m 7.50% Dec-2031 senior unsecured notes (Oct-26), $600m Esperanza RCF, and extending/upsizing FLNG Hilli's CSSC leaseback to $960m due Jun 2038 (+$472m net liquidity). 9M26 Adj. EBITDA $288.8m; near-term earnings dip reflects Hilli yard repositioning ahead of 20-year Argentina contract."
+      "summary": "Golar LNG grew FY25 operating revenue 51% YoY to $393.5m with $264.6m Adj EBITDA and ~$1.2bn year-end cash against $2.73bn contractual debt (~$1.5bn net debt) as FLNG Gimi ramped alongside Hilli. Multi-year take-or-pay FLNG contracts provide strong deleveraging visibility once Mark II conversion capex peaks."
     },
     "positives": [
       "Fortress liquidity: $711m cash pre-Oct-26 bond + $500m Dec-2031 notes + $472m net Hilli upsize + $600m Esperanza RCF, with zero corporate maturities until 2029.",
@@ -980,7 +822,7 @@
         "impact": "Monitors capex drawdowns on MK II / Esperanza vs Argentina start-up."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "debt_maturities": {
     "2026": 0.0,
@@ -992,6 +834,13 @@
     "source": "Golar Q3 2026 debt schedule: $300m 2029, $500m 2030 + $575m 2030 conv, $500m Dec-2031, $801m (70% of $1,144m) Gimi 2032, up to $960m Hilli Jun-2038 (excludes undrawn $600m Esperanza RCF)."
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 Golar LNG Limited",
+      "source": "financials rebuilt 26-Nov-26 from Golar LNG FY2024 & FY2025 Audited Form 20-F Filings + 2026 Bond Disclosures",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from Golar LNG FY2024 & FY2025 Audited Form 20-F Filings + 2026 Bond Disclosures"
+    },
     {
       "date": "2026-11-23",
       "title": "Q3/9M26 Results, $500m 2031 Notes & Hilli 2038 Extension",

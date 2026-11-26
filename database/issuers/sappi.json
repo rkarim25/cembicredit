@@ -215,7 +215,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Johannesburg",
     "ir_webcast_url": "https://www.sappi.com/investors",
-    "days_to_earnings": 76
+    "days_to_earnings": 71
   },
   "market_history": [
     {
@@ -274,6 +274,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BB Neg (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.08,
+      "ebitda": 684.0,
+      "fcf": null,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "BB Neg (Fitch)",
       "price": null,
       "ytm": null,

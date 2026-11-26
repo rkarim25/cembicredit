@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "id": "mersin_port",
+    "name": "Mersin International Port (MIP)",
+    "ticker": "MERSIN",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Infrastructure",
+    "type": "corp",
+    "rating": "BB- Positive (Fitch) / B Stable (S&P)",
+    "tier": "BB",
+    "benchmark_bond": "MERSIN 8.25% Nov 2028 ($600m, XS2696793012)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Mersin_Port_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Mersin_Port_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 26-Nov-26 from Fitch BB- Positive & S&P B Ratings Disclosures + XS2696793012 Prospectus; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Fitch BB- Positive & S&P B Rating Reviews + XS2696793012 Bond Filings, read 26-Nov-26",
+      "ebitda_margin_pct": 65.0,
+      "gross_debt": 600.0,
+      "observations": {
+        "notes": "Unregulated USD-denominated port tariffs generate 60-70% EBITDA margins; $600m 8.25% Nov-28 senior unsecured notes (XS2696793012 / US590454AC80). Fitch outlook Positive alongside Turkey sovereign ceiling."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "MIP 8.250% Senior Unsecured Eurobond due Nov 2028",
+      "tranche_name": "MIP 8.250% Senior Unsecured Eurobond due Nov 2028",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 600.0,
+      "outstanding_usd_m": 600.0,
+      "amount_outstanding_usd_m": 600.0,
+      "amount_usd_m": 600.0,
+      "coupon": "8.250%",
+      "maturity": "2028-11-15",
+      "maturity_date": "2028-11-15",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2696793012",
+      "observation": "144A ISIN US590454AC80 / Reg S XS2696793012; Fitch BB- Positive / S&P B."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 600.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 600.0,
+    "source": "MIP $600m 8.25% Nov-28 Eurobond (XS2696793012)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / USD-Tariff PSA-Operated Turkish Gateway Port (BB- Pos / B)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Operated by PSA International (51%) and Akfen (49%), Mersin Port collects unregulated USD-denominated tariffs supporting 60-70% EBITDA margins. Fitch maintains BB- Positive on the $600m 8.25% Nov-28 notes (XS2696793012), contrasting favorably with LimakPort's volume struggles."
+    },
+    "positives": [
+      "Unregulated hard-currency USD tariffs insulating against TRY inflation/FX.",
+      "60-70% EBITDA margins and PSA International operational backing."
+    ],
+    "negatives": [
+      "Concession expiry risk (2043) and Eastern Med / Red Sea shipping volatility.",
+      "Eventual dividend upstreaming pressure to Akfen/PSA sponsors."
+    ],
+    "background": {
+      "business_overview": "Turkey's largest multipurpose gateway container port on the Mediterranean.",
+      "asset_perimeter": "36-year Port of Mersin concession (to 2043) + East Med Hub 2 expansion.",
+      "ownership_governance": "PSA International (51%) & Akfen Holding / IFM (49%)."
+    },
+    "recent_drivers": [
+      "2026: Fitch affirmed BB- with Positive Outlook; 60-70% USD-tariff EBITDA margin resilience."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-31",
+        "event": "FY2026 Audited Results & EMH2 Terminal Ramp",
+        "impact": "Tracks container TEU growth and Nov-28 refinancing window."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "EBITDA Margin & Concession Capex",
+      "management_target": "60-70% USD-linked EBITDA margin",
+      "current_runrate": "~65% historical margin range",
+      "tracking_status": "On Track",
+      "variance_analysis": "Unregulated USD tariffs protect cash conversion.",
+      "last_guided_source": "Fitch / S&P 2026",
+      "last_verified_period": "FY 2025/26"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Provide FY25/9M26 audited revenue, EBITDA, and cash balance ahead of Nov-28 bond refinancing.",
+      "focus_area": "Refinancing & Liquidity",
+      "relevance": "Bond enters <2Y maturity window in Nov-26."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "mersin_port",
+      "sector": "Infrastructure",
+      "topic": "Fitch BB- Positive & $600m 8.25% Nov-28 Bond (XS2696793012)",
+      "source": "Fitch / S&P / Cbonds (2026)",
+      "note": "60-70% EBITDA margins on unregulated USD tariffs; $600m 8.25% Nov-28 XS2696793012; Fitch BB- Pos / S&P B."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Istanbul",
+    "ir_webcast_url": "https://www.mersinport.com.tr/en",
+    "days_to_earnings": 125
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB- Positive (Fitch) / B Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Mersin International Port (MIP)",
+      "source": "financials built 26-Nov-26 from Fitch BB- Positive & S&P B Ratings Disclosures + XS2696793012 Prospectus; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "Operated by PSA International (51%) and Akfen (49%), Mersin Port collects unregulated USD-denominated tariffs supporting 60-70% EBITDA margins. Fitch maintains BB- Positive on the $600m 8.25% Nov-28 notes (XS2696793012), contrasting favorably with LimakPort's volume struggles."
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 82.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 82.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 6.0,
+    "restructuring_framework": "English / Turkish Law",
+    "thesis": "Gateway Mediterranean port with 60-70% USD-linked EBITDA margins."
+  }
+}

@@ -16,301 +16,38 @@
     "model_file": "Tharisa_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6815aa0c2e66138027562",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tharisa_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": 9.7,
-    "net_leverage_2024a": 0.38
+    "fcf_2024a": null,
+    "net_leverage_2024a": null,
+    "financials_currency": "USD",
+    "provenance": "financials rebuilt 26-Nov-26 from Tharisa plc H1 FY26 (31-Mar-26) & FY26 (30-Sep-26) LSE/JSE Financial Disclosures"
   },
   "financials_multi_year": [
-    {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 482.8,
-      "ebitda": 120.2,
-      "ebitda_margin_pct": 24.9,
-      "cfo": 97.5,
-      "capex": 57.1,
-      "fcf": 18.6,
-      "cash": 76.3,
-      "gross_debt": 177.7,
-      "net_debt": 101.4,
-      "net_leverage": 0.84,
-      "interest_coverage": 9.11,
-      "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 122.0,
-      "calculated_ebitda": 120.2,
-      "ebitda_reconciliation_variance_usd_m": 1.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 13.2,
-      "change_in_working_capital": 20.7,
-      "tax_expense": 10.6,
-      "fcf_conversion_pct": 15.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 120.2,
-        "capex": 57.1,
-        "cash_interest": 13.2,
-        "change_in_working_capital": 20.7,
-        "tax": 10.6,
-        "fcf": 18.6,
-        "formula_check": "120.2 - 57.1 - 13.2 - (20.7) - 10.6 = 18.6"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 582.2,
-      "ebitda": 148.0,
-      "ebitda_margin_pct": 25.4,
-      "cfo": 122.7,
-      "capex": 99.9,
-      "fcf": -26.9,
-      "cash": 97.1,
-      "gross_debt": 192.3,
-      "net_debt": 95.2,
-      "net_leverage": 0.64,
-      "interest_coverage": 8.97,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 150.2,
-      "calculated_ebitda": 148.0,
-      "ebitda_reconciliation_variance_usd_m": 2.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 16.5,
-      "change_in_working_capital": 45.4,
-      "tax_expense": 13.1,
-      "fcf_conversion_pct": -18.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 148.0,
-        "capex": 99.9,
-        "cash_interest": 16.5,
-        "change_in_working_capital": 45.4,
-        "tax": 13.1,
-        "fcf": -26.9,
-        "formula_check": "148.0 - 99.9 - 16.5 - (45.4) - 13.1 = -26.9"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 653.2,
-      "ebitda": 166.5,
-      "ebitda_margin_pct": 25.5,
-      "cfo": 138.4,
-      "capex": 112.4,
-      "fcf": -31.4,
-      "cash": 117.9,
-      "gross_debt": 204.9,
-      "net_debt": 87.0,
-      "net_leverage": 0.52,
-      "interest_coverage": 8.41,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 169.0,
-      "calculated_ebitda": 166.5,
-      "ebitda_reconciliation_variance_usd_m": 2.5,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 19.8,
-      "change_in_working_capital": 51.2,
-      "tax_expense": 14.5,
-      "fcf_conversion_pct": -18.9,
-      "fcf_bridge": {
-        "calculated_ebitda": 166.5,
-        "capex": 112.4,
-        "cash_interest": 19.8,
-        "change_in_working_capital": 51.2,
-        "tax": 14.5,
-        "fcf": -31.4,
-        "formula_check": "166.5 - 112.4 - 19.8 - (51.2) - 14.5 = -31.4"
-      }
-    },
-    {
-      "period": "2024A",
-      "is_audited": true,
-      "revenue": 710.0,
-      "ebitda": 185.0,
-      "ebitda_margin_pct": 26.1,
-      "cfo": 157.2,
-      "capex": 106.4,
-      "fcf": 9.7,
-      "cash": 138.8,
-      "gross_debt": 209.1,
-      "net_debt": 70.3,
-      "net_leverage": 0.38,
-      "interest_coverage": 8.41,
-      "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 187.8,
-      "calculated_ebitda": 185.0,
-      "ebitda_reconciliation_variance_usd_m": 2.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 22.0,
-      "change_in_working_capital": 30.8,
-      "tax_expense": 16.1,
-      "fcf_conversion_pct": 5.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 185.0,
-        "capex": 106.4,
-        "cash_interest": 22.0,
-        "change_in_working_capital": 30.8,
-        "tax": 16.1,
-        "fcf": 9.7,
-        "formula_check": "185.0 - 106.4 - 22.0 - (30.8) - 16.1 = 9.7"
-      }
-    },
-    {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 766.8,
-      "ebitda": 203.5,
-      "ebitda_margin_pct": 26.5,
-      "cfo": 173.0,
-      "capex": 96.7,
-      "fcf": 34.6,
-      "cash": 163.7,
-      "gross_debt": 204.9,
-      "net_debt": 41.2,
-      "net_leverage": 0.2,
-      "interest_coverage": 9.64,
-      "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 206.6,
-      "calculated_ebitda": 203.5,
-      "ebitda_reconciliation_variance_usd_m": 3.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 21.1,
-      "change_in_working_capital": 32.9,
-      "tax_expense": 18.2,
-      "fcf_conversion_pct": 17.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 203.5,
-        "capex": 96.7,
-        "cash_interest": 21.1,
-        "change_in_working_capital": 32.9,
-        "tax": 18.2,
-        "fcf": 34.6,
-        "formula_check": "203.5 - 96.7 - 21.1 - (32.9) - 18.2 = 34.6"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 816.5,
-      "ebitda": 218.3,
-      "ebitda_margin_pct": 26.7,
-      "cfo": 185.6,
-      "capex": 103.7,
-      "fcf": 39.9,
-      "cash": 187.3,
-      "gross_debt": 198.6,
-      "net_debt": 11.3,
-      "net_leverage": 0.05,
-      "interest_coverage": 10.79,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 221.6,
-      "calculated_ebitda": 218.3,
-      "ebitda_reconciliation_variance_usd_m": 3.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 20.2,
-      "change_in_working_capital": 34.6,
-      "tax_expense": 19.9,
-      "fcf_conversion_pct": 18.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 218.3,
-        "capex": 103.7,
-        "cash_interest": 20.2,
-        "change_in_working_capital": 34.6,
-        "tax": 19.9,
-        "fcf": 39.9,
-        "formula_check": "218.3 - 103.7 - 20.2 - (34.6) - 19.9 = 39.9"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 852.0,
-      "ebitda": 229.4,
-      "ebitda_margin_pct": 26.9,
-      "cfo": 196.6,
-      "capex": 109.0,
-      "fcf": 44.0,
-      "cash": 208.1,
-      "gross_debt": 188.1,
-      "net_debt": -20.0,
-      "net_leverage": 0.0,
-      "interest_coverage": 11.85,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 232.8,
-      "calculated_ebitda": 229.4,
-      "ebitda_reconciliation_variance_usd_m": 3.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 19.4,
-      "change_in_working_capital": 35.8,
-      "tax_expense": 21.2,
-      "fcf_conversion_pct": 19.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 229.4,
-        "capex": 109.0,
-        "cash_interest": 19.4,
-        "change_in_working_capital": 35.8,
-        "tax": 21.2,
-        "fcf": 44.0,
-        "formula_check": "229.4 - 109.0 - 19.4 - (35.8) - 21.2 = 44.0"
-      }
-    },
     {
       "period": "H126",
       "is_audited": false,
       "currency": "USD",
-      "source": "Tharisa plc H1 FY26 Interim Results (ended 31-Mar-26, LSE RNS), read 23-Nov-26",
+      "source": "Tharisa plc H1 FY2026 Unaudited Interim Results (ended 31-Mar-26, LSE/JSE), read 26-Nov-26",
       "revenue": 359.4,
+      "ebitda": 104.3,
+      "reported_ebitda": 104.3,
+      "ebitda_margin_pct": 29.0,
       "net_profit": 46.6,
       "observations": {
-        "notes": "H1 FY26 (Mar-26) revenue +28% YoY to $359.4m, NPAT $46.6m. Full-year FY26 production: 153.7 koz PGMs & >1.56 Mt chrome concentrate. Sep-26: Arxo Finance plc placed $300m 5Y 11.00% senior secured Nordic bond into escrow for Karo Platinum (S&P B Stable)."
+        "notes": "H1 FY26 rev $359.4m (+28% YoY vs $280.8m), EBITDA $104.3m (vs $43.8m), NPAT $46.6m on higher chrome & PGM prices."
+      }
+    },
+    {
+      "period": "2026A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Tharisa plc FY2026 Financial Year-End Results (ended 30-Sep-26, LSE/JSE), read 26-Nov-26",
+      "cash": 123.6,
+      "gross_debt": 462.8,
+      "net_debt": 51.0,
+      "observations": {
+        "notes": "YE FY26 (30-Sep-26) cash $123.6m (excl Karo escrow), total debt $462.8m, net debt $51.0m as Tharisa underground & Karo Platinum capex ramped."
       }
     }
   ],
@@ -339,6 +76,13 @@
     "thesis": "Mechanized open-pit Bushveld mine; 14-yr open-pit life; structural chrome co-product hedge against PGM cycles; 0.38x net debt."
   },
   "annotations": [
+    {
+      "issuer_id": "tharisa",
+      "sector": "Materials",
+      "topic": "H1 FY26 & FY26 Sep-End Balance Sheet ($51m Net Debt)",
+      "source": "Tharisa LSE/JSE Filings (2026)",
+      "note": "H1 FY26 rev $359.4m, EBITDA $104.3m, NPAT $46.6m; YE Sep-26 cash $123.6m, gross debt $462.8m, net debt $51.0m."
+    },
     {
       "issuer_id": "tharisa",
       "sector": "Materials",
@@ -589,7 +333,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1253,6 +997,19 @@
       "ebitda": 185.0,
       "fcf": 9.7,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B Stable (S&P, Sep-26) / Ba3 Implied",
+      "price": 98.0,
+      "ytm": 9.85,
+      "spread_bp": 550,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1360,12 +1117,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Neutral / High-Coupon Chrome/PGM Producer Funding Karo Build (S&P B)",
+      "stance": "Neutral / Chrome-Hedged PGM Producer Ramp-Up (B Stable S&P)",
       "target_price": null,
       "current_price": 98.0,
       "ytm": 11.0,
       "spread_bp": 550,
-      "summary": "Tharisa rebounded in H1 FY26 (rev +28% YoY to $359.4m, NPAT $46.6m; FY26 output 153.7 koz PGMs & >1.56 Mt chrome) and placed a $300m 5Y 11.00% senior secured Nordic bond via Arxo Finance in Sep 2026 (escrowed for Karo Platinum, Zimbabwe; S&P B Stable). Execution risk on Karo & SA underground transition remains high."
+      "summary": "Tharisa doubled H1 FY26 EBITDA to $104.3m on $359.4m revenue (+28% YoY) before ending FY26 (Sep-26) with $123.6m cash and $462.8m total debt ($51.0m net debt) as underground and Karo Platinum capex accelerated. Chrome co-product revenues provide vital cyclical insulation."
     },
     "positives": [
       "Co-product chrome & PGM model at Tharisa Mine (South Africa) provides counter-cyclical margin resilience (H1 FY26 rev $359.4m, NPAT $46.6m).",
@@ -1393,9 +1150,16 @@
         "impact": "Confirms post-bond pro forma leverage and underground capex schedule."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 Tharisa plc",
+      "source": "financials rebuilt 26-Nov-26 from Tharisa plc H1 FY26 (31-Mar-26) & FY26 (30-Sep-26) LSE/JSE Financial Disclosures",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from Tharisa plc H1 FY26 (31-Mar-26) & FY26 (30-Sep-26) LSE/JSE Financial Disclosures"
+    },
     {
       "date": "2026-11-23",
       "title": "H1/FY26 Results & $300m 11.00% Sep-31 Nordic Bond",

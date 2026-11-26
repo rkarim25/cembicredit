@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "id": "cbq",
+    "name": "Commercial Bank of Qatar (CBQ)",
+    "ticker": "CBQK",
+    "country": "Qatar",
+    "region": "GCC",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A Stable (Fitch) / A2 Stable (Moody's) / A- Stable (S&P)",
+    "tier": "IG",
+    "benchmark_bond": "CBQK Senior EMTN Programme (LSE Listed)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "CBQ_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CBQ_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "bank",
+    "financials_currency": "QAR",
+    "provenance": "financials built 26-Nov-26 from Commercial Bank of Qatar FY24/FY25 Audited & 9M 2026 QSE Statements; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "QAR",
+      "source": "CBQ FY2024 Audited QSE Financial Statements, read 26-Nov-26",
+      "assets": 165700.0,
+      "net_profit": 3032.1,
+      "observations": {
+        "notes": "FY24 assets QAR 165.7bn, PBT QAR 3,032.1m."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "QAR",
+      "source": "CBQ FY2025 Audited QSE Financial Statements, read 26-Nov-26",
+      "assets": 192900.0,
+      "net_profit": 2204.9,
+      "cet1_pct": 12.3,
+      "car_pct": 17.6,
+      "npl_pct": 5.7,
+      "observations": {
+        "notes": "FY25 assets QAR 192.9bn (+16.4% YoY), NPAT QAR 2,204.9m (after Pillar Two tax & Alternatif Bank IAS 29), CET1 12.3%, CAR 17.6%."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "QAR",
+      "source": "CBQ 9M 2026 Unaudited QSE Financial Statements (Nov-26), read 26-Nov-26",
+      "assets": 183600.0,
+      "net_profit": 1530.0,
+      "cet1_pct": 12.8,
+      "car_pct": 18.9,
+      "npl_pct": 5.8,
+      "observations": {
+        "notes": "9M26 NPAT QAR 1.53bn (QAR 1.644bn pre-Pillar Two tax), assets QAR 183.6bn (-4.4% YoY), CET1 rose to 12.8%, CAR strengthened to 18.9% (vs 17.9%), NPL 5.8% (56.9% Stage 3 coverage)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "CBQ Global Senior Unsecured EMTN Notes",
+      "tranche_name": "CBQ Global Senior Unsecured EMTN Notes",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_issued_usd_m": 1500.0,
+      "outstanding_usd_m": 1500.0,
+      "amount_outstanding_usd_m": 1500.0,
+      "amount_usd_m": 1500.0,
+      "coupon": "EMTN Curve",
+      "maturity": "2029-06-30",
+      "maturity_date": "2029-06-30",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "observation": "Regular LSE-listed USD/CHF/JPY EMTN issuer rated A / A2 / A-."
+    }
+  ],
+  "debt_maturities": {
+    "2026": 250.0,
+    "2027": 400.0,
+    "2028": 400.0,
+    "2029": 450.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 1500.0,
+    "source": "CBQ QSE 9M26 EMTN funding profile."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Neutral / High 18.9% CAR vs 5.8% NPL & Turkey Alternatif Bank Drag (A / A2 / A-)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "CBQ lifted CET1 to 12.8% and Total CAR to 18.9% in 9M26 despite Pillar Two taxes and Alternatif Bank (Turkey) IAS 29 drag pulling net profit to QAR 1.53bn. Elevated 5.8% NPLs (56.9% coverage) trail QNB, though Qatari sovereign support preserves A/A2/A- ratings."
+    },
+    "positives": [
+      "Total CAR strengthened 100bps YoY to 18.9% (CET1 12.8%) in 9M26.",
+      "High systemic importance in Qatar with strong sovereign support expectations (A / A2 / A-)."
+    ],
+    "negatives": [
+      "Elevated 5.8% NPL ratio with modest 56.9% Stage 3 coverage.",
+      "Turkish subsidiary (Alternatif Bank) hyperinflation losses and BEPS Pillar Two tax burden."
+    ],
+    "background": {
+      "business_overview": "Qatar's third-largest commercial bank.",
+      "asset_perimeter": "Qatar corporate/retail banking + Alternatif Bank (Turkey) + UAB/NBO associates.",
+      "ownership_governance": "QIA-linked domestic shareholders; QSE listed."
+    },
+    "recent_drivers": [
+      "9M26: CAR 18.9% (+100bps), CET1 12.8%, NPAT QAR 1.53bn, NPL 5.8%."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-01-28",
+        "event": "FY2026 Audited QSE Results",
+        "impact": "Monitors NPL resolution and Alternatif Bank IAS 29 drag."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Capital & Asset Quality",
+      "management_target": "Maintain CAR >17% & reduce NPLs",
+      "current_runrate": "CAR 18.9%, CET1 12.8%, NPL 5.8% in 9M26",
+      "tracking_status": "Mixed / Capital Strong",
+      "variance_analysis": "Capital beat targets; NPLs remain sticky at 5.8%.",
+      "last_guided_source": "CBQ 9M26 Release",
+      "last_verified_period": "9M 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Clarify path to lift Stage 3 coverage above 70% and Alternatif Bank strategic options.",
+      "focus_area": "Asset Quality & Turkey",
+      "relevance": "Key driver of spread relative to QNB/Doha peers."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "cbq",
+      "sector": "Banks",
+      "topic": "9M26 Results (CAR 18.9%, CET1 12.8%, NPL 5.8%)",
+      "source": "CBQ QSE Filing (Nov-26)",
+      "note": "9M26 NPAT QAR 1.53bn, assets QAR 183.6bn, CET1 12.8%, CAR 18.9%, NPL 5.8%."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-01-28",
+    "period_reporting": "FY 2026 Audited",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Doha",
+    "ir_webcast_url": "https://www.cbq.qa/EN/AboutUs/InvestorRelations/Pages/default.aspx",
+    "days_to_earnings": 63
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A Stable (Fitch) / A2 Stable (Moody's) / A- Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Commercial Bank of Qatar (CBQ)",
+      "source": "financials built 26-Nov-26 from Commercial Bank of Qatar FY24/FY25 Audited & 9M 2026 QSE Statements; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "CBQ lifted CET1 to 12.8% and Total CAR to 18.9% in 9M26 despite Pillar Two taxes and Alternatif Bank (Turkey) IAS 29 drag pulling net profit to QAR 1.53bn. Elevated 5.8% NPLs (56.9% coverage) trail QNB, though Qatari sovereign support preserves A/A2/A- ratings."
+    }
+  ]
+}

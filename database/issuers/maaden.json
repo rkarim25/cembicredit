@@ -199,7 +199,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Riyadh",
     "ir_webcast_url": "https://www.maaden.com.sa/en/investor-relations",
-    "days_to_earnings": 96
+    "days_to_earnings": 91
   },
   "market_history": [
     {
@@ -258,6 +258,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Baa1 / BBB+",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 1.8,
+      "ebitda": 2477.3,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "Baa1 / BBB+",
       "price": null,
       "ytm": null,

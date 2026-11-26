@@ -16,301 +16,56 @@
     "model_file": "Romgaz_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-81a2-b091-d537c2acc0a5",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Romgaz_Credit_Model.xlsx",
-    "last_updated": "2026-11-23",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
-    "fcf_2024a": 206.4,
-    "net_leverage_2024a": 0.65
+    "fcf_2024a": null,
+    "net_leverage_2024a": null,
+    "financials_currency": "RON",
+    "provenance": "financials rebuilt 26-Nov-26 from S.N.G.N. Romgaz FY24/FY25 Audited & 9M 2026 BVB Financial Statements"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 1428.0,
-      "ebitda": 637.0,
-      "ebitda_margin_pct": 44.6,
-      "cfo": 516.5,
-      "capex": 272.3,
-      "fcf": 193.6,
-      "cash": 404.3,
-      "gross_debt": 1166.2,
-      "net_debt": 761.9,
-      "net_leverage": 1.2,
-      "interest_coverage": 13.0,
-      "observations": {
-        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
-        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
-        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
-        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
-        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
-      },
-      "reported_ebitda": 646.6,
-      "calculated_ebitda": 637.0,
-      "ebitda_reconciliation_variance_usd_m": 9.6,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 49.0,
-      "change_in_working_capital": 62.6,
-      "tax_expense": 59.5,
-      "fcf_conversion_pct": 30.4,
-      "fcf_bridge": {
-        "calculated_ebitda": 637.0,
-        "capex": 272.3,
-        "cash_interest": 49.0,
-        "change_in_working_capital": 62.6,
-        "tax": 59.5,
-        "fcf": 193.6,
-        "formula_check": "637.0 - 272.3 - 49.0 - (62.6) - 59.5 = 193.6"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 1722.0,
-      "ebitda": 784.0,
-      "ebitda_margin_pct": 45.5,
-      "cfo": 649.7,
-      "capex": 476.3,
-      "fcf": 49.1,
-      "cash": 514.5,
-      "gross_debt": 1262.2,
-      "net_debt": 747.7,
-      "net_leverage": 0.95,
-      "interest_coverage": 12.8,
-      "observations": {
-        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
-        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
-        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
-        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
-        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
-      },
-      "reported_ebitda": 795.8,
-      "calculated_ebitda": 784.0,
-      "ebitda_reconciliation_variance_usd_m": 11.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 61.2,
-      "change_in_working_capital": 124.3,
-      "tax_expense": 73.1,
-      "fcf_conversion_pct": 6.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 784.0,
-        "capex": 476.3,
-        "cash_interest": 61.2,
-        "change_in_working_capital": 124.3,
-        "tax": 73.1,
-        "fcf": 49.1,
-        "formula_check": "784.0 - 476.3 - 61.2 - (124.3) - 73.1 = 49.1"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 1932.0,
-      "ebitda": 882.0,
-      "ebitda_margin_pct": 45.7,
-      "cfo": 733.0,
-      "capex": 535.8,
-      "fcf": 51.0,
-      "cash": 624.8,
-      "gross_debt": 1344.6,
-      "net_debt": 719.8,
-      "net_leverage": 0.82,
-      "interest_coverage": 12.0,
-      "observations": {
-        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
-        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
-        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
-        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
-        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
-      },
-      "reported_ebitda": 895.2,
-      "calculated_ebitda": 882.0,
-      "ebitda_reconciliation_variance_usd_m": 13.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 73.5,
-      "change_in_working_capital": 140.1,
-      "tax_expense": 81.6,
-      "fcf_conversion_pct": 5.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 882.0,
-        "capex": 535.8,
-        "cash_interest": 73.5,
-        "change_in_working_capital": 140.1,
-        "tax": 81.6,
-        "fcf": 51.0,
-        "formula_check": "882.0 - 535.8 - 73.5 - (140.1) - 81.6 = 51.0"
-      }
-    },
-    {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 2100.0,
-      "ebitda": 980.0,
-      "ebitda_margin_pct": 46.7,
-      "cfo": 833.0,
-      "capex": 507.1,
-      "fcf": 206.4,
-      "cash": 735.0,
-      "gross_debt": 1372.0,
-      "net_debt": 637.0,
-      "net_leverage": 0.65,
-      "interest_coverage": 12.0,
+      "currency": "RON",
+      "source": "Romgaz FY2024 Audited BVB Annual Report, read 26-Nov-26",
+      "revenue": 7929.4,
+      "ebitda": 4243.0,
+      "reported_ebitda": 4243.0,
+      "ebitda_margin_pct": 53.5,
+      "net_profit": 3206.0,
       "observations": {
-        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
-        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
-        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
-        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
-        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
-      },
-      "reported_ebitda": 994.7,
-      "calculated_ebitda": 980.0,
-      "ebitda_reconciliation_variance_usd_m": 14.7,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 81.7,
-      "change_in_working_capital": 94.2,
-      "tax_expense": 90.6,
-      "fcf_conversion_pct": 21.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 980.0,
-        "capex": 507.1,
-        "cash_interest": 81.7,
-        "change_in_working_capital": 94.2,
-        "tax": 90.6,
-        "fcf": 206.4,
-        "formula_check": "980.0 - 507.1 - 81.7 - (94.2) - 90.6 = 206.4"
+        "notes": "FY24 rev RON 7,929.4m, EBITDA RON 4,243m, NPAT RON 3,206m; net cash."
       }
     },
     {
-      "period": "2025E",
-      "is_audited": false,
-      "revenue": 2268.0,
-      "ebitda": 1078.0,
-      "ebitda_margin_pct": 47.5,
-      "cfo": 916.3,
-      "capex": 460.8,
-      "fcf": 336.8,
-      "cash": 867.3,
-      "gross_debt": 1344.6,
-      "net_debt": 477.3,
-      "net_leverage": 0.44,
-      "interest_coverage": 13.75,
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "RON",
+      "source": "Romgaz FY2025 Audited BVB Annual Report, read 26-Nov-26",
+      "revenue": 8025.6,
+      "ebitda": 4401.0,
+      "reported_ebitda": 4401.0,
+      "ebitda_margin_pct": 54.8,
+      "cash": 6253.0,
+      "net_profit": 3333.1,
       "observations": {
-        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
-        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
-        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
-        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
-        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
-      },
-      "reported_ebitda": 1094.2,
-      "calculated_ebitda": 1078.0,
-      "ebitda_reconciliation_variance_usd_m": 16.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 78.4,
-      "change_in_working_capital": 100.6,
-      "tax_expense": 101.4,
-      "fcf_conversion_pct": 31.2,
-      "fcf_bridge": {
-        "calculated_ebitda": 1078.0,
-        "capex": 460.8,
-        "cash_interest": 78.4,
-        "change_in_working_capital": 100.6,
-        "tax": 101.4,
-        "fcf": 336.8,
-        "formula_check": "1078.0 - 460.8 - 78.4 - (100.6) - 101.4 = 336.8"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 2415.0,
-      "ebitda": 1156.4,
-      "ebitda_margin_pct": 47.9,
-      "cfo": 982.9,
-      "capex": 494.4,
-      "fcf": 370.8,
-      "cash": 992.3,
-      "gross_debt": 1303.4,
-      "net_debt": 311.1,
-      "net_leverage": 0.27,
-      "interest_coverage": 15.39,
-      "observations": {
-        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
-        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
-        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
-        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
-        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
-      },
-      "reported_ebitda": 1173.7,
-      "calculated_ebitda": 1156.4,
-      "ebitda_reconciliation_variance_usd_m": 17.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 75.1,
-      "change_in_working_capital": 105.9,
-      "tax_expense": 110.2,
-      "fcf_conversion_pct": 32.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 1156.4,
-        "capex": 494.4,
-        "cash_interest": 75.1,
-        "change_in_working_capital": 105.9,
-        "tax": 110.2,
-        "fcf": 370.8,
-        "formula_check": "1156.4 - 494.4 - 75.1 - (105.9) - 110.2 = 370.8"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 2520.0,
-      "ebitda": 1215.2,
-      "ebitda_margin_pct": 48.2,
-      "cfo": 1041.2,
-      "capex": 519.5,
-      "fcf": 397.4,
-      "cash": 1102.5,
-      "gross_debt": 1234.8,
-      "net_debt": 132.3,
-      "net_leverage": 0.11,
-      "interest_coverage": 16.91,
-      "observations": {
-        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
-        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
-        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
-        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
-        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
-      },
-      "reported_ebitda": 1233.4,
-      "calculated_ebitda": 1215.2,
-      "ebitda_reconciliation_variance_usd_m": 18.2,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 71.9,
-      "change_in_working_capital": 109.6,
-      "tax_expense": 116.8,
-      "fcf_conversion_pct": 32.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 1215.2,
-        "capex": 519.5,
-        "cash_interest": 71.9,
-        "change_in_working_capital": 109.6,
-        "tax": 116.8,
-        "fcf": 397.4,
-        "formula_check": "1215.2 - 519.5 - 71.9 - (109.6) - 116.8 = 397.4"
+        "notes": "FY25 rev RON 8,025.6m, EBITDA RON 4,401m (54.8%), NPAT RON 3,333.1m, cash & equivalents RON 6,253m (net cash)."
       }
     },
     {
       "period": "9M26",
       "is_audited": false,
       "currency": "RON",
-      "source": "S.N.G.N. Romgaz S.A. 9M 2026 Consolidated Results (BVB), read 23-Nov-26",
-      "revenue": 5700.6,
-      "net_profit": 2217.7,
+      "source": "Romgaz 9M 2026 Unaudited BVB Financial Results (Nov-26), read 26-Nov-26",
+      "revenue": 6360.0,
+      "ebitda": 2850.0,
+      "reported_ebitda": 2850.0,
+      "ebitda_margin_pct": 44.8,
+      "net_profit": 2218.0,
+      "assets": 27275.0,
       "observations": {
-        "notes": "9M26 consolidated revenue RON 5,700.6m (-5.7% YoY), Net Profit RON 2,217.68m (-8.9% YoY). Q326 rev RON 1,817.6m (+1% YoY). Inaugural \u20ac500m 4.75% Oct-2029 Eurobond (XS2914558593) under \u20ac1.5bn EMTN funds Neptun Deep offshore gas."
+        "notes": "9M26 total income RON 6.36bn (-2.3% YoY), EBITDA RON 2.85bn (-14.1% YoY on lower regulated gas prices), NPAT RON 2.218bn (-8.9% YoY), assets RON 27.28bn, liabilities RON 8.75bn amid Neptun Deep capex."
       }
     }
   ],
@@ -341,6 +96,13 @@
     "thesis": "Romania's largest natural gas producer; partner in Black Sea Neptun Deep offshore development."
   },
   "annotations": [
+    {
+      "issuer_id": "romgaz",
+      "sector": "Energy",
+      "topic": "FY24/FY25 Audited & 9M26 BVB Results (EBITDA RON 2.85bn)",
+      "source": "Romgaz BVB Filings (Nov-26)",
+      "note": "FY25 rev RON 8.03bn, EBITDA RON 4.40bn, cash RON 6.25bn; 9M26 income RON 6.36bn, EBITDA RON 2.85bn (-14.1%)."
+    },
     {
       "issuer_id": "romgaz",
       "sector": "Energy",
@@ -592,7 +354,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1256,6 +1018,19 @@
       "ebitda": 980.0,
       "fcf": 206.4,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB- Stable (Fitch)",
+      "price": 98.5,
+      "ytm": 5.75,
+      "spread_bp": 170,
+      "net_leverage": null,
+      "ebitda": 4243.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1363,12 +1138,12 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Constructive / Low-Leverage State Gas Producer Funding Neptun Deep (BBB-)",
+      "stance": "Neutral / Sovereign-Capped Romanian Gas Producer Funding Neptun Deep (BBB-)",
       "target_price": null,
       "current_price": 98.5,
       "ytm": 5.75,
       "spread_bp": 170,
-      "summary": "9M 2026 revenue of RON 5,700.6m (-5.7% YoY) and net profit of RON 2,217.68m (-8.9% YoY) reflect high ~39% net margins and conservative leverage (~0.65x). \u20ac1.5bn EMTN (\u20ac500m 4.75% Oct-2029 Eurobond, XS2914558593) cleanly pre-funds 50% share of Black Sea Neptun Deep offshore gas."
+      "summary": "Romgaz reported 9M26 total income of RON 6.36bn (-2.3% YoY), EBITDA of RON 2.85bn (-14.1%), and net profit of RON 2.22bn as regulated gas prices softened while Neptun Deep capex ramped (liabilities rose to RON 8.75bn vs RON 6.25bn YE25 cash). Credit remains capped by Romania's BBB- sovereign rating."
     },
     "positives": [
       "Very conservative starting leverage (~0.65x) and high ~39% net margin (9M26 NPAT RON 2,217.7m on RON 5,700.6m revenue).",
@@ -1396,9 +1171,16 @@
         "impact": "Tracks capex peak and 2027 first-gas timeline."
       }
     ],
-    "last_updated": "2026-11-23"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 S.N.G.N. Romgaz",
+      "source": "financials rebuilt 26-Nov-26 from S.N.G.N. Romgaz FY24/FY25 Audited & 9M 2026 BVB Financial Statements",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from S.N.G.N. Romgaz FY24/FY25 Audited & 9M 2026 BVB Financial Statements"
+    },
     {
       "date": "2026-11-23",
       "title": "9M26 Results & \u20ac500m 4.75% Oct-29 Eurobond",

@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/limak_cem.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- LIMAKC 8.25% 2028: price 98.8, YTM 8.25%, spread 385bp (as of 2026-11-23).
-- Rating as recorded: B+ Stable (Fitch, 2026) / B.
+- LIMAKC 9.75% Jul 2029 ($690m, XS2862382541): price 98.8, YTM 8.25%, spread 385bp (as of 2026-11-26).
+- Rating as recorded: B+ Stable (Fitch, 2026).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 541.2 | 148.0 | -36.2 | 416.9 | 2.82 | 5.12 |
-| 2023A | 607.2 | 166.5 | -42.8 | 429.6 | 2.58 | 4.8 |
-| 2024A | 660.0 | 185.0 | -4.8 | 419.9 | 2.27 | 4.8 |
+| 2024A | 8131.8 | 3176.5 |  |  | 2.2 |  |
+| 2025A | 8726.2 | 3084.3 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=limak_cem) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/limak_cem.json)

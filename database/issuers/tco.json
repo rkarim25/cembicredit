@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "id": "tco",
+    "name": "Tengizchevroil (TCO)",
+    "ticker": "TENGIZ",
+    "country": "Kazakhstan",
+    "region": "Central Asia",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BBB- / Baa2 (Implied Sovereign-Linked)",
+    "tier": "IG",
+    "benchmark_bond": "TENGIZ 3.25% Aug 2030 ($750m, XS2010030083)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Tengizchevroil_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tengizchevroil_Credit_Model.xlsx",
+    "last_updated": "2026-11-26",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 26-Nov-26 from Tengizchevroil 2025/9M26 Operational & Fiscal Disclosures + XS2010030083 Filings; quotes await [BBG]",
+    "fcf_2024a": null,
+    "net_leverage_2024a": null
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Tengizchevroil 2025 Business Results Filing & XS2010030083 Bond Filings, read 26-Nov-26",
+      "gross_debt": 750.0,
+      "observations": {
+        "notes": "FY25 crude oil production reached 39.0m metric tonnes (~311.3m bbls) with 3GP (FGP-WPMP) safely ramped; direct fiscal payments to Kazakhstan hit $10.6bn in FY25 and $10.2bn in 9M26."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "Tengizchevroil Finance Co. 3.250% Senior Secured due Aug 2030",
+      "tranche_name": "Tengizchevroil Finance Co. 3.250% Senior Secured due Aug 2030",
+      "instrument_type": "Senior Secured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "outstanding_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "amount_usd_m": 750.0,
+      "coupon": "3.250%",
+      "maturity": "2030-08-15",
+      "maturity_date": "2030-08-15",
+      "seniority": "Senior Secured",
+      "governing_law": "English",
+      "isin": "XS2010030083"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 750.0,
+    "total_outstanding_usd_m": 750.0,
+    "source": "XS2010030083 $750m 3.25% Aug-30 Senior Secured Notes."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-26",
+    "verdict": {
+      "stance": "Overweight / Tier-1 Chevron-Operated Supergiant Oil Field (XS2010030083)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "TCO ramped its $48bn+ FGP-WPMP Third-Generation Plant (3GP) in 2025, delivering 39.0m tonnes of crude and $10.6bn in fiscal payments to Kazakhstan ($10.2bn in 9M26). Low lifting costs and Chevron/ExxonMobil/KMG sponsorship provide deep credit protection on the $750m 3.25% Aug-30 senior secured notes (XS2010030083), offset by CPC pipeline concentration."
+    },
+    "positives": [
+      "World-class Tengiz supergiant field with FGP-WPMP 3GP capacity online (39m tonnes in 2025).",
+      "Strong sponsors (Chevron 50%, ExxonMobil 25%, KMG 20%, Lukoil 5%) and senior secured structure."
+    ],
+    "negatives": [
+      "Single-export corridor concentration via Caspian Pipeline Consortium (CPC) through Russia.",
+      "Private JV financial statements limit granular quarterly EBITDA/FCF disclosure."
+    ],
+    "background": {
+      "business_overview": "Flagship Kazakhstan crude/gas JV operating Tengiz & Korolev fields.",
+      "asset_perimeter": "Tengiz & Korolev concessions plus 3GP FGP-WPMP plant.",
+      "ownership_governance": "Chevron 50%, ExxonMobil 25%, KazMunayGas 20%, Lukoil 5%."
+    },
+    "recent_drivers": [
+      "9M26: Direct fiscal payments to Kazakhstan reached $10.2bn following $10.6bn in FY25 with 3GP online."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-28",
+        "event": "FY2026 Production & Kazakhstan Fiscal Payment Update",
+        "impact": "Confirms steady-state post-FGP plateau output."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Post-FGP Production & Payments",
+      "management_target": "Full 3GP plateau utilization",
+      "current_runrate": "39m tonnes FY25; $10.2bn 9M26 fiscal payments",
+      "tracking_status": "On Track",
+      "variance_analysis": "3GP ramp completed.",
+      "last_guided_source": "TCO 9M26 Release",
+      "last_verified_period": "9M / FY 2026"
+    }
+  ],
+  "management_questions": [
+    {
+      "question": "Confirm 2026-2027 free cash flow distribution policy vs project debt amortization post-FGP.",
+      "focus_area": "Capital Allocation",
+      "relevance": "Determines debt paydown pace."
+    },
+    {
+      "question": "Detail CPC export contingency routing capacity in case of Black Sea disruption.",
+      "focus_area": "Export Logistics",
+      "relevance": "Key sovereign/operational tail risk."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "tco",
+      "sector": "Energy",
+      "topic": "FGP-WPMP Ramp ($10.2bn 9M26 State Payments) & XS2010030083",
+      "source": "TCO / Cbonds (2026)",
+      "note": "FY25 output 39m tonnes; $10.6bn FY25 & $10.2bn 9M26 Kazakhstan payments; $750m 3.25% Aug-30 (XS2010030083)."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-28",
+    "period_reporting": "FY 2026 Operational Update",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Astana",
+    "ir_webcast_url": "https://www.tengizchevroil.com/en",
+    "days_to_earnings": 94
+  },
+  "market_history": [
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB- / Baa2 (Implied Sovereign-Linked)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Initial Filings Dossier \u2014 Tengizchevroil (TCO)",
+      "source": "financials built 26-Nov-26 from Tengizchevroil 2025/9M26 Operational & Fiscal Disclosures + XS2010030083 Filings; quotes await [BBG]",
+      "status": "Archived / Previous Note Run",
+      "summary": "TCO ramped its $48bn+ FGP-WPMP Third-Generation Plant (3GP) in 2025, delivering 39.0m tonnes of crude and $10.6bn in fiscal payments to Kazakhstan ($10.2bn in 9M26). Low lifting costs and Chevron/ExxonMobil/KMG sponsorship provide deep credit protection on the $750m 3.25% Aug-30 senior secured notes (XS2010030083), offset by CPC pipeline concentration."
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 85.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 85.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.0,
+    "restructuring_framework": "English Law",
+    "thesis": "First-quartile lifting cost supergiant oil asset with senior secured bond ring-fence."
+  }
+}

@@ -16,7 +16,7 @@
     "model_file": "Naftogaz_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Naftogaz_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
     "financials_currency": "UAH",
     "provenance": "financials built 25-Nov-26 from Naftogaz FY2025 Audited Financials & Jul-26 Eurobond Restructuring Notice; quotes await [BBG]",
@@ -150,6 +150,13 @@
     {
       "issuer_id": "naftogaz",
       "sector": "Energy",
+      "topic": "Nov-26 Fitch CC Affirmation Post-\u20ac1.2bn Restructuring",
+      "source": "Fitch / Interfax (Nov-26)",
+      "note": "Fitch maintains CC IDR reflecting infrastructure attack risks and gas import funding needs despite \u20ac1.2bn 2032/33 Eurobond restructuring."
+    },
+    {
+      "issuer_id": "naftogaz",
+      "sector": "Energy",
       "topic": "Jul-26 \u20ac1.2bn Eurobond Restructuring Closed",
       "source": "Naftogaz / FinPoint (Jul-26)",
       "note": "Extended \u20ac695m to Jan-32 and $584m to Jan-33 at 8.95% coupon; FY25 rev UAH 270.91bn, NI UAH 5.83bn."
@@ -161,13 +168,26 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Kyiv",
     "ir_webcast_url": "https://www.naftogaz.com/en/investors",
-    "days_to_earnings": 156
+    "days_to_earnings": 155
   },
   "market_history": [
     {
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Restructured (Jul-26) / CCC",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "Restructured (Jul-26) / CCC",
       "price": null,
       "ytm": null,

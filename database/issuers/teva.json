@@ -219,7 +219,7 @@
     "confirmation_status": "Estimated",
     "call_time": "13:00 UK / 08:00 EST",
     "ir_webcast_url": "https://ir.tevapharm.com/",
-    "days_to_earnings": 76
+    "days_to_earnings": 71
   },
   "market_history": [
     {
@@ -278,6 +278,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Baa3 / BBB- / BBB-",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 3.11,
+      "ebitda": 4600.0,
+      "fcf": 2068.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "Baa3 / BBB- / BBB-",
       "price": null,
       "ytm": null,

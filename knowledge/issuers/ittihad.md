@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/ittihad.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ITTIHAD 9.10% 2028: price 98.5, YTM 9.1%, spread 505bp (as of 2026-11-23).
+- ITTIHAD 7.375% Nov 2030 Sukuk ($550m): price 98.5, YTM 9.1%, spread 505bp (as of 2026-11-26).
 - Rating as recorded: BB- Stable (Fitch & S&P, 2026).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 861.0 | 156.0 | -54.8 | 464.5 | 2.98 | 4.0 |
-| 2023A | 966.0 | 175.5 | -64.4 | 479.6 | 2.73 | 3.75 |
-| 2024A | 1050.0 | 195.0 | -16.6 | 470.0 | 2.41 | 3.75 |
+| 2025A | 3500.0 | 179.0 |  |  | 3.1 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=ittihad) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/ittihad.json)

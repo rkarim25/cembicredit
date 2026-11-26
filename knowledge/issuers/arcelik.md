@@ -4,9 +4,9 @@ _Page created 25-Nov-26 from `database/issuers/arcelik.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- Rating as recorded: B (S&P, late-26) / B+ (Fitch).
+- Rating as recorded: B Negative (S&P, Nov-26) / B+ (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

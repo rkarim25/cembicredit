@@ -16,7 +16,7 @@
     "model_file": "Zorlu_Enerji_Model.xlsx",
     "notion_id": "3df1d0ad68c6814f921ef33f2b2f199b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Zorlu_Enerji_Model.xlsx",
-    "last_updated": "2026-11-21",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
     "fcf_2024a": -4991.7,
     "net_leverage_2024a": 3.62,
@@ -631,6 +631,13 @@
   "annotations": [
     {
       "issuer_id": "zorlu",
+      "sector": "Utilities",
+      "topic": "Nov-26 Eurobond Coupon Deferral Consent & Q3 Loss",
+      "source": "KAP / JCR Eurasia (Nov-26)",
+      "note": "Q3 2026 net loss ~TRY 1.7bn; consent solicitation launched on $1.1bn Eurobond to defer coupon to Apr-27."
+    },
+    {
+      "issuer_id": "zorlu",
       "issuer_name": "Zorlu Enerji",
       "sector": "Utilities",
       "topic": "Regulated Asset Base & Off-take PPA",
@@ -972,7 +979,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local",
     "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-    "days_to_earnings": 105
+    "days_to_earnings": 104
   },
   "management_questions": [
     {
@@ -1647,6 +1654,19 @@
       "ebitda": 15958.0,
       "fcf": -4991.7,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "Caa1 Neg (Moody's) / B- RWN (Fitch)",
+      "price": 63.5,
+      "ytm": 27.2,
+      "spread_bp": 2250,
+      "net_leverage": 3.62,
+      "ebitda": 15958.0,
+      "fcf": -4991.7,
+      "guidance_status": "Under Watch"
     }
   ],
   "broker_snapshots": [
@@ -1816,13 +1836,13 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Refinancing Watch (Downgraded Sep-26)",
+      "stance": "Distressed / Nov-26 $1.1bn Eurobond Coupon Deferral Consent & Q3 Loss",
       "price": "63.50",
       "target_price": "75.00",
       "ytm": "27.2%",
       "spread_bp": 2350,
       "thesis_summary": "Near-term liquidity through the first amortisation (Oct 2027) is materially de-risked by the impending closing of the $95M ADB concessional facility (6y maturity, 2y grace period, pari passu, no guarantors) and ~$29M escrow cash release. However, capital structure remains inverted: quarterly interest (~$64M) exceeds quarterly cash EBITDA (~$56M in 2Q26), and distribution EBITDA is penalized by ~$20M/yr capex underinvestment clawbacks through 2030. Deleveraging beyond 2027 hinges on 375MW wind/storage portfolio monetisation, Pakistan disposal, and related-party loan recovery from Zorlu Holding.",
-      "summary": "Stance shifted from Tactical Overweight to Refinancing Watch after Moody's cut CFR to Caa1 Negative (24-Sep-26) and Fitch cut to B- RWN (29-Sep-26), alongside Houlihan Lokey / Servo Capital advisory mandate and Zorlu Holding FYY restructuring. Quarterly interest (~$64m) exceeds 2Q26 cash EBITDA (~$56m); Nov-26 KAP filings reflect board transition and Eurobond consent solicitation updates."
+      "summary": "Zorlu Enerji reported a ~TRY 1.7bn Q3 2026 net loss in Nov-26, warned cash inflows would not cover obligations through early 2027, and launched a consent solicitation on its $1.1bn 11.00% 2030 Eurobond to defer coupon payment to April 2027. JCR Eurasia revised national rating to BB(tr) Negative."
     },
     "positives": [
       "Impending $95M ADB Facility Closing: Concessional multilateral financing for OEDA\u015e distribution capex (6-year tenor, 2-year grace period, ranking pari passu with Eurobonds with no guarantors) provides decisive runway through Oct 2027.",
@@ -1844,6 +1864,7 @@
       "ownership_governance": "Controlled by Korteks Mensucat / Zorlu Holding. Financial advisors retained for capital structure and debt advisory."
     },
     "recent_drivers": [
+      "Nov-26: Q3 2026 net loss ~TRY 1.7bn; launched consent solicitation on $1.1bn Eurobond to defer coupon to Apr-27; JCR BB(tr) Neg.",
       "Nov 2026 KAP Disclosures: Board leadership transition (Selen Zorlu Melik named Chairperson) alongside ongoing Eurobond consent solicitation updates.",
       "JPMorgan Rating Upgrade to Overweight (Aug 2026): JPM upgraded ZOREN 30s to OW (73.25 px / 23.3% YTW), citing high confidence that the $95M ADB loan secures cash flow through Oct 2027.",
       "2Q26 Results Performance: Cash EBITDA of $56M ($24M generation, $32M distribution), FCF burn of ~$15M, and cash balance of ~$51M (supported by $29M escrow release).",
@@ -1889,7 +1910,7 @@
       "What is the binding repayment agreement for Zorlu Holding's related-party receivables to upstream cash to HoldCo?",
       "Can management mitigate the $20M annual regulatory capex penalty through accelerated grid investments under the ADB facility?"
     ],
-    "last_updated": "2026-11-21"
+    "last_updated": "2026-11-26"
   },
   "aljomaih_stake_sale_analysis": {
     "target_company": "Zorlu Yenilenebilir Enerji A.\u015e.",
@@ -1983,6 +2004,13 @@
     ]
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Nov-26 Eurobond Coupon Deferral Consent & Q3 Loss",
+      "source": "KAP / JCR Eurasia (Nov-26)",
+      "status": "Archived / Previous Note Run",
+      "summary": "Q3 loss TRY 1.7bn; consent solicitation to defer $1.1bn Eurobond coupon to Apr-27."
+    },
     {
       "date": "2026-11-21",
       "title": "Nov 2026 KAP Board & Eurobond Consent Updates + Sep-26 Rating Actions Sync",

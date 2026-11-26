@@ -338,7 +338,7 @@
     "confirmation_status": "Estimated",
     "call_time": "16:00 Astana",
     "ir_webcast_url": "https://www.kmg.kz/en/investors/",
-    "days_to_earnings": 115
+    "days_to_earnings": 114
   },
   "management_questions": [
     {
@@ -996,6 +996,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
+      "price": 88.5,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "net_leverage": 0.58,
+      "ebitda": 2001000.0,
+      "fcf": 1199000.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
       "price": 88.5,
       "ytm": 6.75,

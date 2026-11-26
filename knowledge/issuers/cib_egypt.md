@@ -4,7 +4,7 @@ _Page created 23-Nov-26 from `database/issuers/cib_egypt.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: B Stable (Fitch).
 

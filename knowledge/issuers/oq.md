@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/oq.json`. Dated, sourced facts on
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - OQSAOC 5.125% May 2028 ($750m, XS2248458395): price 99.5, YTM 5.9%, spread 185bp (as of 2026-11-25).
 - Rating as recorded: BBB- Stable (S&P / Fitch).

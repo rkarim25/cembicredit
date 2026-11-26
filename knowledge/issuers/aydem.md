@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/aydem.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- AYDEM 8.95% 2027: price 96.5, YTM 8.95%, spread 455bp (as of 2026-11-23).
-- Rating as recorded: B Stable (Fitch, 2026) / B3.
+- AYDEM $550m Green Bond due 2030 (Refinanced late-25): price 96.5, YTM 8.95%, spread 455bp (as of 2026-11-26).
+- Rating as recorded: B Stable (Fitch, 2026).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 213.2 | 152.0 | -93.4 | 749.7 | 4.93 | 3.09 |
-| 2023A | 239.2 | 171.0 | -108.7 | 783.8 | 4.58 | 2.9 |
-| 2024A | 260.0 | 190.0 | -82.6 | 780.9 | 4.11 | 2.9 |
+| 2024A | 6580.0 | 4940.0 |  |  | 4.2 |  |
+| 2025A | 12920.0 | 4990.0 |  |  | 4.4 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=aydem) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/aydem.json)

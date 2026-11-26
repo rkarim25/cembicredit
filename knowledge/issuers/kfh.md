@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/kfh.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - KFH 4.563% Jan 2031 Sukuk (XS3261852134): price 99.2, YTM 5.2%, spread 115bp (as of 2026-11-25).
 - Rating as recorded: A2 / A.

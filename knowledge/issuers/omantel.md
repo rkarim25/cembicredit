@@ -4,7 +4,7 @@ _Page created 25-Nov-26 from `database/issuers/omantel.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: Ba1 (Moody's) / BB+ (Fitch).
 

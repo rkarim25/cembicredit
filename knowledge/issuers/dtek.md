@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/dtek.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- DTEK 18.50% 2027: price 68.5, YTM 18.5%, spread 1410bp (as of 2026-11-25).
-- Rating as recorded: CCC / Caa3.
+- DTEK 18.50% 2027: price 68.5, YTM 18.5%, spread 1410bp (as of 2026-11-26).
+- Rating as recorded: CCC- (Fitch, late-25) / Caa3 (Moody's) | Renewables CC.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 1650.0 | 310.0 | -235.0 | 1236.2 | 3.99 | 3.45 |
-| 2023A | 1580.0 | 340.0 | -165.0 | 1283.9 | 3.78 | 3.23 |
-| 2024A | 1720.0 | 420.0 | -100.0 | 1268.4 | 3.02 | 3.23 |
+| 2024A | 1440.0 | 520.0 |  |  |  |  |
+| 2025A |  | 660.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=dtek) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/dtek.json)

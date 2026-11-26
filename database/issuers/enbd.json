@@ -293,7 +293,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Dubai",
     "ir_webcast_url": "https://www.emiratesnbd.com/en/investor-relations",
-    "days_to_earnings": 67
+    "days_to_earnings": 63
   },
   "management_questions": [
     {
@@ -945,6 +945,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "A2 / A+",
+      "price": 100.25,
+      "ytm": 4.9,
+      "spread_bp": 70,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "A2 / A+",
       "price": 100.25,
       "ytm": 4.9,

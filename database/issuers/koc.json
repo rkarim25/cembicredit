@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "koc",
-    "name": "Koç Holding",
+    "name": "Ko\u00e7 Holding",
     "ticker": "KCHOL",
     "country": "Turkey",
     "region": "Turkey",
@@ -16,22 +16,45 @@
     "model_file": "Koc_Holding_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8174-b709-ea630f75c350",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Koc_Holding_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "model_type": "corp",
     "fcf_2024a": -512.9,
     "net_leverage_2024a": 1.25,
-    "provenance": "financials rebuilt 25-Nov-26 from Koç Holding Q3/9M 2026 KAP Statements & S&P Rating Assessments (Nov-26)",
+    "provenance": "financials rebuilt 26-Nov-26 from Ko\u00e7 Holding FY24/FY25 Audited & 9M 2026 KAP Statements",
     "financials_currency": "USD"
   },
   "financials_multi_year": [
     {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Ko\u00e7 Holding FY2024 Audited KAP Financial Statements, read 26-Nov-26",
+      "revenue": 2317900.0,
+      "assets": 3908200.0,
+      "net_profit": 22000.0,
+      "observations": {
+        "notes": "FY24 IAS 29 consolidated rev TRY 2,317.9bn, assets TRY 3,908.2bn, NPAT ~TRY 22.0bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Ko\u00e7 Holding FY2025 Audited KAP Financial Statements, read 26-Nov-26",
+      "revenue": 2757300.0,
+      "assets": 5317600.0,
+      "observations": {
+        "notes": "FY25 consolidated rev TRY 2,757.3bn, assets TRY 5,317.6bn."
+      }
+    },
+    {
       "period": "9M26",
       "is_audited": false,
       "currency": "USD",
-      "source": "Koç Holding Q3 & 9M 2026 Combined & Consolidated KAP Filings (Nov-26), read 25-Nov-26",
+      "source": "Ko\u00e7 Holding Q3 & 9M 2026 Combined & Consolidated KAP Filings (Nov-26), read 25-Nov-26",
       "revenue": 57600.0,
       "observations": {
-        "notes": "Trailing combined group revenue ~$57.6bn (>TRY 3tn annualized); Q326 consolidated net income jumped to TRY 34.9bn led by Tüpraş energy surge. Standalone HoldCo maintains resilient net cash buffer."
+        "notes": "Trailing combined group revenue ~$57.6bn (>TRY 3tn annualized); Q326 consolidated net income jumped to TRY 34.9bn led by T\u00fcpra\u015f energy surge. Standalone HoldCo maintains resilient net cash buffer."
       }
     }
   ],
@@ -57,27 +80,27 @@
     "recovery_base_pct": 101.5,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Turkey's premier industrial conglomerate (Tüpraş, Ford Otosan, Arçelik, Yapı Kredi); net cash at holdco."
+    "thesis": "Turkey's premier industrial conglomerate (T\u00fcpra\u015f, Ford Otosan, Ar\u00e7elik, Yap\u0131 Kredi); net cash at holdco."
   },
   "annotations": [
     {
       "issuer_id": "koc",
       "sector": "Industrials",
       "topic": "Q326 Results: TRY 34.9bn Net Income & HoldCo Net Cash",
-      "source": "Koç Holding KAP / IR (Nov-26)",
-      "note": "Q326 consolidated NI surged to TRY 34.9bn on Tüpraş energy beat; trailing combined rev ~$57.6bn; HoldCo net cash intact."
+      "source": "Ko\u00e7 Holding KAP / IR (Nov-26)",
+      "note": "Q326 consolidated NI surged to TRY 34.9bn on T\u00fcpra\u015f energy beat; trailing combined rev ~$57.6bn; HoldCo net cash intact."
     },
     {
       "issuer_id": "koc",
-      "issuer_name": "Koç Holding",
+      "issuer_name": "Ko\u00e7 Holding",
       "sector": "Industrials",
       "topic": "Conglomerate Cash Cushion",
-      "source": "Cognitive Credit / Koç / Ittihad",
+      "source": "Cognitive Credit / Ko\u00e7 / Ittihad",
       "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
     },
     {
       "issuer_id": "koc",
-      "issuer_name": "Koç Holding",
+      "issuer_name": "Ko\u00e7 Holding",
       "sector": "Industrials",
       "topic": "Export Orientation & Competitive Edge",
       "source": "Trade Ministry Data",
@@ -85,7 +108,7 @@
     },
     {
       "issuer_id": "koc",
-      "issuer_name": "Koç Holding",
+      "issuer_name": "Ko\u00e7 Holding",
       "sector": "Industrials",
       "topic": "Prudent Capital Allocation",
       "source": "Management Guidance",
@@ -95,12 +118,12 @@
       "issuer_id": "koc",
       "sector": "Industrials",
       "topic": "Standalone Net Cash $963m",
-      "source": "Koç Holding 9M 2026 Report",
+      "source": "Ko\u00e7 Holding 9M 2026 Report",
       "note": "HoldCo standalone net cash stood at $963m as of 30-Sep-26 while 9M attributable net profit rose 203% YoY to TRY 56.37bn."
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+    "source_deck": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
@@ -243,7 +266,7 @@
       "current_runrate": "$44730.0M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $45360.0M (+8.0% YoY growth). With current run-rate at $44730.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -254,7 +277,7 @@
       "current_runrate": "$5184.0M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $5280.0M (11.6% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -265,7 +288,7 @@
       "current_runrate": "1.25x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 2.50x buffer below covenant limit.",
-      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.25x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -276,7 +299,7 @@
       "current_runrate": "$1622.9M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $1764.0M (Maximum growth and sustaining envelope). Current commitments stand at $1622.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -287,7 +310,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -299,7 +322,7 @@
     "confirmation_status": "Estimated",
     "call_time": "17:00 Istanbul",
     "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
-    "days_to_earnings": 102
+    "days_to_earnings": 98
   },
   "management_questions": [
     {
@@ -959,6 +982,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB / BB+",
+      "price": 98.5,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -966,7 +1002,7 @@
       "broker": "Consensus Sell-Side",
       "analyst": "Composite EM Credit Desk",
       "report_date": "2024-12-01",
-      "report_title": "Koç Holding: Forward Earnings & Refinancing Profile",
+      "report_title": "Ko\u00e7 Holding: Forward Earnings & Refinancing Profile",
       "recommendation": "Neutral",
       "target_spread_bps": 450,
       "raw_model": {
@@ -1049,7 +1085,7 @@
   "credit_view": {
     "verdict": {
       "stance": "Overweight / Premier Turkish HoldCo with $963m Standalone Net Cash",
-      "summary": "Turkey's premier industrial holding company posted TRY 34.9bn Q326 consolidated net income propelled by Tüpraş's blockbuster refining margins ($36.3/bbl Q3 NRM). Standalone HoldCo net cash position and S&P rating uplift above sovereign ceiling anchor tight HoldCo spreads.",
+      "summary": "Turkey's premier industrial holding company posted TRY 34.9bn Q326 consolidated net income propelled by T\u00fcpra\u015f's blockbuster refining margins ($36.3/bbl Q3 NRM). Standalone HoldCo net cash position and S&P rating uplift above sovereign ceiling anchor tight HoldCo spreads.",
       "target_price": null,
       "current_price": 98.5,
       "ytm": 6.85,
@@ -1057,28 +1093,28 @@
     },
     "positives": [
       "Fortress HoldCo balance sheet: $963m standalone net cash at end-Sep 2026 gives unmatched liquidity cushion.",
-      "Diversified blue-chip portfolio (Tüpraş, Ford Otosan, Tofaş, Arçelik, Yapı Kredi) with 9M26 NI +203% YoY to TRY 56.37bn.",
+      "Diversified blue-chip portfolio (T\u00fcpra\u015f, Ford Otosan, Tofa\u015f, Ar\u00e7elik, Yap\u0131 Kredi) with 9M26 NI +203% YoY to TRY 56.37bn.",
       "Strong governance and consistent investment-grade standalone credit discipline despite BB/BB+ sovereign cap."
     ],
     "negatives": [
       "Structural HoldCo subordination to operating subsidiary debt (though offset by $963m net cash).",
-      "Cyclical exposure to European auto/appliance demand (Ford Otosan/Arçelik) and Turkish macro.",
+      "Cyclical exposure to European auto/appliance demand (Ford Otosan/Ar\u00e7elik) and Turkish macro.",
       "Large combined group capex ($2.7bn in 9M26) across subsidiaries."
     ],
     "background": {
-      "business_overview": "Türkiye's largest industrial & financial conglomerate (~7-8% of Turkish GDP) across energy, automotive, consumer durables, and finance.",
-      "asset_perimeter": "Stakes in Tüpraş, Ford Otosan, Tofaş, Arçelik, Otokoç, Yapı Kredi, Entek.",
-      "ownership_governance": "Controlled by Koç family; BIST-listed (KCHOL) with institutional governance."
+      "business_overview": "T\u00fcrkiye's largest industrial & financial conglomerate (~7-8% of Turkish GDP) across energy, automotive, consumer durables, and finance.",
+      "asset_perimeter": "Stakes in T\u00fcpra\u015f, Ford Otosan, Tofa\u015f, Ar\u00e7elik, Otoko\u00e7, Yap\u0131 Kredi, Entek.",
+      "ownership_governance": "Controlled by Ko\u00e7 family; BIST-listed (KCHOL) with institutional governance."
     },
     "recent_drivers": [
-      "Q326 (Nov-26): Consolidated NI jumped to TRY 34.9bn led by Tüpraş energy; standalone HoldCo net cash preserved.",
+      "Q326 (Nov-26): Consolidated NI jumped to TRY 34.9bn led by T\u00fcpra\u015f energy; standalone HoldCo net cash preserved.",
       "Nov-26 (9M 2026): Consolidated rev TL 2.82tn (~$57.6bn), op profit TL 199.2bn (+89.4% YoY), attributable NI TL 56.37bn (+203% YoY), standalone net cash $963m."
     ],
     "catalysts": [
       {
         "date": "Mar 2027",
         "event": "FY2026 Results & Upstream Dividend Flow",
-        "impact": "Confirms Tüpraş/OpCo dividend cash inflow into HoldCo standalone cash."
+        "impact": "Confirms T\u00fcpra\u015f/OpCo dividend cash inflow into HoldCo standalone cash."
       }
     ],
     "last_updated": "2026-11-25"
@@ -1087,7 +1123,7 @@
     {
       "date": "2026-11-22",
       "title": "9M 2026 Results: Net Profit +203% YoY to TL 56.4bn & $963m Standalone Net Cash",
-      "source": "Koç Holding 9M 2026 Filing",
+      "source": "Ko\u00e7 Holding 9M 2026 Filing",
       "status": "Q3/9M 2026 Credit Update",
       "summary": "9M26 rev TL 2.82tn ($57.6bn), op profit TL 199.2bn (+89.4% YoY), attributable NI TL 56.37bn (+203% YoY), standalone net cash $963m."
     }

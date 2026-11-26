@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/sonangol.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- SONANG 9.15% 2028: price 97.2, YTM 9.15%, spread 475bp (as of 2026-11-22).
-- Rating as recorded: B- / B3.
+- SONANG 9.15% 2028: price 97.2, YTM 9.15%, spread 475bp (as of 2026-11-26).
+- Rating as recorded: B- / B3 (Angola Sovereign Cap).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 10332.0 | 3840.0 | -135.7 | 6488.6 | 1.69 | 6.83 |
-| 2023A | 11592.0 | 4320.0 | -193.3 | 6536.2 | 1.51 | 6.4 |
-| 2024A | 12600.0 | 4800.0 | 586.8 | 6192.0 | 1.29 | 6.4 |
+| 2025A | 9150.0 | 2625.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=sonangol) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/sonangol.json)

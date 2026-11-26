@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/limak_port.json`. Dated, sourced 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- LIMPRT 9.50% Jul 2036 ($370m): price 98.5, YTM 7.85%, spread 345bp (as of 2026-11-23).
-- Rating as recorded: B- Negative (Fitch, Sep-26) / B3.
+- LIMPRT 9.50% Jul 2036 ($370m, XS2339789732): price 98.5, YTM 7.85%, spread 345bp (as of 2026-11-26).
+- Rating as recorded: B- Negative (Fitch, Sep-26) / B3 Negative (Moody's, late-26).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 98.4 | 62.4 | -1.8 | 233.9 | 3.75 | 4.48 |
-| 2023A | 110.4 | 70.2 | -3.0 | 243.1 | 3.46 | 4.2 |
-| 2024A | 120.0 | 78.0 | 7.5 | 240.2 | 3.08 | 4.2 |
+| 2024A | 96.6 |  |  |  |  |  |
+| 2025A |  |  |  | 251.0 |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=limak_port) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/limak_port.json)

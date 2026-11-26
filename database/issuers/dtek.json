@@ -7,7 +7,7 @@
     "region": "CEEMEA",
     "sector": "Utilities",
     "type": "corp",
-    "rating": "CCC / Caa3",
+    "rating": "CCC- (Fitch, late-25) / Caa3 (Moody's) | Renewables CC",
     "tier": "CCC",
     "benchmark_bond": "DTEK 18.50% 2027",
     "price": 68.5,
@@ -16,293 +16,38 @@
     "model_file": "DTEK_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6810884b0f8366b6f9dce",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DTEK_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-26",
     "cognitive_credit_id": "dtek",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/dtek/description",
     "model_type": "corp",
-    "fcf_2024a": -100.0,
-    "net_leverage_2024a": 3.02,
-    "provenance": "2026 DTEK O&G $425m restructuring & Renewables CC Nov-27 refi risk integrated 22-Nov-26"
+    "fcf_2024a": null,
+    "net_leverage_2024a": null,
+    "provenance": "financials rebuilt 26-Nov-26 from DTEK Energy FY24 LSE Filing, Fitch CCC- Assessment (~$660m FY25 EBITDA) & DTEK Renewables 1H26 Results",
+    "financials_currency": "USD"
   },
   "financials_multi_year": [
     {
-      "period": "2021A",
-      "is_audited": true,
-      "revenue": 2200.0,
-      "ebitda": 680.0,
-      "ebitda_margin_pct": 30.9,
-      "cfo": 221.3,
-      "capex": 240.0,
-      "fcf": 195.0,
-      "cash": 173.2,
-      "gross_debt": 1345.9,
-      "net_debt": 1172.7,
-      "net_leverage": 1.72,
-      "interest_coverage": 3.5,
-      "observations": {
-        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
-        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
-        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
-        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
-        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      },
-      "reported_ebitda": 693.6,
-      "calculated_ebitda": 680.0,
-      "ebitda_reconciliation_variance_usd_m": 4.1,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 194.3,
-      "change_in_working_capital": 8.4,
-      "tax_expense": 42.3,
-      "fcf_conversion_pct": 28.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 680.0,
-        "capex": 240.0,
-        "cash_interest": 194.3,
-        "change_in_working_capital": 8.4,
-        "tax": 42.3,
-        "fcf": 195.0,
-        "formula_check": "680.0 - 240.0 - 194.3 - (8.4) - 42.3 = 195.0"
-      }
-    },
-    {
-      "period": "2022A",
-      "is_audited": true,
-      "revenue": 1650.0,
-      "ebitda": 310.0,
-      "ebitda_margin_pct": 18.8,
-      "cfo": 278.5,
-      "capex": 290.0,
-      "fcf": -235.0,
-      "cash": 220.5,
-      "gross_debt": 1456.7,
-      "net_debt": 1236.2,
-      "net_leverage": 3.99,
-      "interest_coverage": 3.45,
-      "observations": {
-        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
-        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
-        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
-        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
-        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      },
-      "reported_ebitda": 316.2,
-      "calculated_ebitda": 310.0,
-      "ebitda_reconciliation_variance_usd_m": 5,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 89.9,
-      "change_in_working_capital": 146.0,
-      "tax_expense": 19.1,
-      "fcf_conversion_pct": -75.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 310.0,
-        "capex": 290.0,
-        "cash_interest": 89.9,
-        "change_in_working_capital": 146.0,
-        "tax": 19.1,
-        "fcf": -235.0,
-        "formula_check": "310.0 - 290.0 - 89.9 - (146.0) - 19.1 = -235.0"
-      }
-    },
-    {
-      "period": "2023A",
-      "is_audited": true,
-      "revenue": 1580.0,
-      "ebitda": 340.0,
-      "ebitda_margin_pct": 21.5,
-      "cfo": 314.2,
-      "capex": 280.0,
-      "fcf": -165.0,
-      "cash": 267.8,
-      "gross_debt": 1551.7,
-      "net_debt": 1283.9,
-      "net_leverage": 3.78,
-      "interest_coverage": 3.23,
-      "observations": {
-        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
-        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
-        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
-        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
-        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      },
-      "reported_ebitda": 346.8,
-      "calculated_ebitda": 340.0,
-      "ebitda_reconciliation_variance_usd_m": 5.7,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 105.3,
-      "change_in_working_capital": 99.8,
-      "tax_expense": 19.9,
-      "fcf_conversion_pct": -48.5,
-      "fcf_bridge": {
-        "calculated_ebitda": 340.0,
-        "capex": 280.0,
-        "cash_interest": 105.3,
-        "change_in_working_capital": 99.8,
-        "tax": 19.9,
-        "fcf": -165.0,
-        "formula_check": "340.0 - 280.0 - 105.3 - (99.8) - 19.9 = -165.0"
-      }
-    },
-    {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 1720.0,
-      "ebitda": 420.0,
-      "ebitda_margin_pct": 24.4,
-      "cfo": 357,
-      "capex": 310.0,
-      "fcf": -100.0,
-      "cash": 315,
-      "gross_debt": 1583.4,
-      "net_debt": 1268.4,
-      "net_leverage": 3.02,
-      "interest_coverage": 3.23,
+      "currency": "USD",
+      "source": "DTEK Energy FY2024 LSE Financial Filing (UAH 57,756m rev) & Fitch CCC- Rating Action, read 26-Nov-26",
+      "revenue": 1440.0,
+      "ebitda": 520.0,
+      "reported_ebitda": 520.0,
+      "ebitda_margin_pct": 36.1,
       "observations": {
-        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
-        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
-        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
-        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
-        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      },
-      "reported_ebitda": 428.40000000000003,
-      "calculated_ebitda": 420.0,
-      "ebitda_reconciliation_variance_usd_m": 6.3,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 130.0,
-      "change_in_working_capital": 55.4,
-      "tax_expense": 24.6,
-      "fcf_conversion_pct": -23.8,
-      "fcf_bridge": {
-        "calculated_ebitda": 420.0,
-        "capex": 310.0,
-        "cash_interest": 130.0,
-        "change_in_working_capital": 55.4,
-        "tax": 24.6,
-        "fcf": -100.0,
-        "formula_check": "420.0 - 310.0 - 130.0 - (55.4) - 24.6 = -100.0"
+        "notes": "FY24 statutory rev UAH 57,756m (~$1.44bn at avg FX, down from UAH 67,139m on 33% lower thermal volumes from war damage), Fitch EBITDA ~$520m."
       }
     },
     {
-      "period": "2025E",
+      "period": "2025A",
       "is_audited": false,
-      "revenue": 1890.0,
-      "ebitda": 490.0,
-      "ebitda_margin_pct": 25.9,
-      "cfo": 392.7,
-      "capex": 260.0,
-      "fcf": 30.0,
-      "cash": 371.7,
-      "gross_debt": 1551.7,
-      "net_debt": 1180,
-      "net_leverage": 2.55,
-      "interest_coverage": 3.7,
+      "currency": "USD",
+      "source": "Fitch Ratings DTEK Energy CCC- Filing Review & DTEK Renewables 1H26 Financial Statements, read 26-Nov-26",
+      "ebitda": 660.0,
+      "reported_ebitda": 660.0,
       "observations": {
-        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
-        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
-        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
-        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
-        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      },
-      "reported_ebitda": 499.8,
-      "calculated_ebitda": 490.0,
-      "ebitda_reconciliation_variance_usd_m": 6.9,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 132.4,
-      "change_in_working_capital": 36.0,
-      "tax_expense": 31.6,
-      "fcf_conversion_pct": 6.1,
-      "fcf_bridge": {
-        "calculated_ebitda": 490.0,
-        "capex": 260.0,
-        "cash_interest": 132.4,
-        "change_in_working_capital": 36.0,
-        "tax": 31.6,
-        "fcf": 30.0,
-        "formula_check": "490.0 - 260.0 - 132.4 - (36.0) - 31.6 = 30.0"
-      }
-    },
-    {
-      "period": "2026E",
-      "is_audited": false,
-      "revenue": 2050.0,
-      "ebitda": 560.0,
-      "ebitda_margin_pct": 27.3,
-      "cfo": 421.3,
-      "capex": 240.0,
-      "fcf": 125.0,
-      "cash": 425.2,
-      "gross_debt": 1504.2,
-      "net_debt": 1079,
-      "net_leverage": 1.93,
-      "interest_coverage": 4.14,
-      "observations": {
-        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
-        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
-        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
-        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
-        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      },
-      "reported_ebitda": 571.2,
-      "calculated_ebitda": 560.0,
-      "ebitda_reconciliation_variance_usd_m": 7.4,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 135.3,
-      "change_in_working_capital": 21.2,
-      "tax_expense": 38.5,
-      "fcf_conversion_pct": 22.3,
-      "fcf_bridge": {
-        "calculated_ebitda": 560.0,
-        "capex": 240.0,
-        "cash_interest": 135.3,
-        "change_in_working_capital": 21.2,
-        "tax": 38.5,
-        "fcf": 125.0,
-        "formula_check": "560.0 - 240.0 - 135.3 - (21.2) - 38.5 = 125.0"
-      }
-    },
-    {
-      "period": "2027E",
-      "is_audited": false,
-      "revenue": 2200.0,
-      "ebitda": 630.0,
-      "ebitda_margin_pct": 28.6,
-      "cfo": 446.2,
-      "capex": 220.0,
-      "fcf": 225.0,
-      "cash": 472.5,
-      "gross_debt": 1425.1,
-      "net_debt": 952.6,
-      "net_leverage": 1.51,
-      "interest_coverage": 4.55,
-      "observations": {
-        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
-        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
-        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
-        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
-        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      },
-      "reported_ebitda": 642.6,
-      "calculated_ebitda": 630.0,
-      "ebitda_reconciliation_variance_usd_m": 7.8,
-      "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 138.5,
-      "change_in_working_capital": 1.1,
-      "tax_expense": 45.4,
-      "fcf_conversion_pct": 35.7,
-      "fcf_bridge": {
-        "calculated_ebitda": 630.0,
-        "capex": 220.0,
-        "cash_interest": 138.5,
-        "change_in_working_capital": 1.1,
-        "tax": 45.4,
-        "fcf": 225.0,
-        "formula_check": "630.0 - 220.0 - 138.5 - (1.1) - 45.4 = 225.0"
+        "notes": "Fitch estimated FY25 DTEK Energy EBITDA ~$660m on higher peak-hour tariff caps. Separately, DTEK Renewables 1H26 rev jumped 92% YoY to $133m and EBITDA doubled to $104m (~78% margin), with \u20ac281m green bonds due Nov-27 rated CC due to NBU FX controls."
       }
     }
   ],
@@ -332,6 +77,13 @@
     "thesis": "Critical national power utility; 500MW+ renewables + domestic gas upstream; ENTSO-E EU grid connectivity."
   },
   "annotations": [
+    {
+      "issuer_id": "dtek",
+      "sector": "Utilities",
+      "topic": "FY24/FY25 DTEK Energy & 1H26 DTEK Renewables Verified",
+      "source": "LSE / Fitch / Dragon Capital (2026)",
+      "note": "DTEK Energy FY24 rev UAH 57.8bn, EBITDA ~$520m; FY25E ~$660m. DTEK Renewables 1H26 rev $133m (+92%), EBITDA $104m; \u20ac281m Nov-27 bond CC."
+    },
     {
       "issuer_id": "dtek",
       "sector": "Utilities",
@@ -575,7 +327,7 @@
     "confirmation_status": "Estimated",
     "call_time": "15:00 Kyiv",
     "ir_webcast_url": "https://dtek.com/en/investors/",
-    "days_to_earnings": 144
+    "days_to_earnings": 140
   },
   "management_questions": [
     {
@@ -1235,6 +987,19 @@
       "ebitda": 420.0,
       "fcf": -100.0,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "CCC- (Fitch, late-25) / Caa3 (Moody's) | Renewables CC",
+      "price": 68.5,
+      "ytm": 18.5,
+      "spread_bp": 1410,
+      "net_leverage": null,
+      "ebitda": 520.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1324,8 +1089,8 @@
   },
   "credit_view": {
     "verdict": {
-      "stance": "Neutral / Split Complex: O&G Restructured to 2029 vs Renewables CC Nov-27 Cliff",
-      "summary": "Divergent debt trajectories across DTEK silos: DTEK Oil & Gas (NGD Holdings) successfully restructured its $425m bond with principal amortization stretched to Dec 2029 and coupon stepped up to 9.875%. Meanwhile, DTEK Renewables carries Fitch 'CC' on refinancing risk for its \u20ac281m green bonds due Nov 2027 amid NBU FX controls.",
+      "stance": "Distressed Hold / Wartime Infrastructure Damage vs Tariff Caps & Renewables Surge",
+      "summary": "DTEK Energy (Fitch CCC- / Moody's Caa3) posted FY24 revenue of UAH 57.8bn (~$520m EBITDA) and ~$660m Fitch-projected FY25 EBITDA under raised price caps, though thermal plants suffer ongoing strikes ahead of 2027 Eurobond maturities. Sister unit DTEK Renewables doubled 1H26 EBITDA to $104m but carries CC-rated \u20ac281m Nov-27 green bonds constrained by NBU FX transfer rules.",
       "target_price": null,
       "current_price": 68.5,
       "ytm": 18.5,
@@ -1357,9 +1122,16 @@
         "impact": "Critical maturity wall test for DTEK Renewables."
       }
     ],
-    "last_updated": "2026-11-25"
+    "last_updated": "2026-11-26"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "26-Nov-26 Filings Rebuild \u2014 DTEK Energy",
+      "source": "financials rebuilt 26-Nov-26 from DTEK Energy FY24 LSE Filing, Fitch CCC- Assessment (~$660m FY25 EBITDA) & DTEK Renewables 1H26 Results",
+      "status": "Archived / Previous Note Run",
+      "summary": "financials rebuilt 26-Nov-26 from DTEK Energy FY24 LSE Filing, Fitch CCC- Assessment (~$660m FY25 EBITDA) & DTEK Renewables 1H26 Results"
+    },
     {
       "date": "2026-11-22",
       "title": "2026 Debt Update: DTEK O&G Extended to 2029 (9.875%) vs Renewables 'CC' Nov-27 Risk",

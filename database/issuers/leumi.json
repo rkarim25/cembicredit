@@ -222,7 +222,7 @@
     "confirmation_status": "Estimated",
     "call_time": "15:00 Tel Aviv / 13:00 UK",
     "ir_webcast_url": "https://english.leumi.co.il/home/ir",
-    "days_to_earnings": 102
+    "days_to_earnings": 98
   },
   "market_history": [
     {
@@ -268,6 +268,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
       "price": null,
       "ytm": null,

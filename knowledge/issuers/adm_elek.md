@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/adm_elek.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ADMTR 9.50% Feb 2031 ($500m, XS3260262988): price 98.0, YTM 9.25%, spread 485bp (as of 2026-11-23).
-- Rating as recorded: BB- Stable (Fitch) / B2 exp (Moody's).
+- ADMTR 9.50% Feb 2031 ($500m, XS3260262988): price 98.0, YTM 9.25%, spread 485bp (as of 2026-11-26).
+- Rating as recorded: BB- Stable (Fitch, early-26) / B2 exp (Moody's).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 344.4 | 116.0 | -70.5 | 373.5 | 3.22 | 4.05 |
-| 2023A | 386.4 | 130.5 | -81.3 | 386.5 | 2.96 | 3.8 |
-| 2024A | 420.0 | 145.0 | -56.6 | 379.9 | 2.62 | 3.8 |
+| 2025A |  | 180.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=adm_elek) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/adm_elek.json)

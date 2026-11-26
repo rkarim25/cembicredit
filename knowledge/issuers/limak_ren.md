@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/limak_ren.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- LIMAK 8.75% 2028: price 98.2, YTM 8.75%, spread 435bp (as of 2026-11-23).
-- Rating as recorded: B+ Stable (Fitch, late-2026) / B2.
+- LIMAKR 9.625% Aug 2030 Green ($525m, Feb-25): price 98.2, YTM 8.75%, spread 435bp (as of 2026-11-26).
+- Rating as recorded: B+ Stable (Fitch downgrade from BB-, Sep-26).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 311.6 | 220.0 | -128.6 | 1057.4 | 4.81 | 3.41 |
-| 2023A | 349.6 | 247.5 | -149.3 | 1104.8 | 4.46 | 3.2 |
-| 2024A | 380.0 | 275.0 | -110.8 | 1100.0 | 4.0 | 3.2 |
+| 2025A | 240.0 |  |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=limak_ren) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/limak_ren.json)

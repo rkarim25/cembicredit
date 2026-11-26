@@ -169,7 +169,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Astana",
     "ir_webcast_url": "https://www.kdb.kz/en/investors/",
-    "days_to_earnings": 157
+    "days_to_earnings": 155
   },
   "market_history": [
     {
@@ -189,6 +189,19 @@
       "date": "2026-11-25",
       "period_name": "2026-11-25",
       "timestamp": "2026-11-25T05:12:57.305744",
+      "rating": "Baa1 Stable (Moody's) / BBB Stable (Fitch) / BBB (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
       "rating": "Baa1 Stable (Moody's) / BBB Stable (Fitch) / BBB (S&P)",
       "price": null,
       "ytm": null,

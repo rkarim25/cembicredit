@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/ooredoo.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ORDS 4.50% 2031: price 97.8, YTM 5%, spread 95bp (as of 2026-11-23).
-- Rating as recorded: A2 / A-.
+- ORDS 2.625% Apr 2031 ($1bn, XS2311299957): price 97.8, YTM 5%, spread 95bp (as of 2026-11-26).
+- Rating as recorded: A2 Stable (Moody's) / A Stable (S&P / Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 5330 | 2240 | 73.0 | 3295.6 | 1.47 | 9.81 |
-| 2023A | 5980 | 2520 | 66.4 | 3291.4 | 1.31 | 9.2 |
-| 2024A | 6500 | 2800 | 547.3 | 3080 | 1.1 | 9.2 |
+| 2025A | 24604.0 | 10489.0 | 5925.0 | 4108.0 | 0.4 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=ooredoo) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/ooredoo.json)

@@ -4,16 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/tharisa.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ARXOFN 11.00% Sep 2031 ($300m) / THARISA 2027: price 98.0, YTM 9.85%, spread 550bp (as of 2026-11-23).
+- ARXOFN 11.00% Sep 2031 ($300m) / THARISA 2027: price 98.0, YTM 9.85%, spread 550bp (as of 2026-11-26).
 - Rating as recorded: B Stable (S&P, Sep-26) / Ba3 Implied.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 582.2 | 148.0 | -26.9 | 95.2 | 0.64 | 8.97 |
-| 2023A | 653.2 | 166.5 | -31.4 | 87.0 | 0.52 | 8.41 |
-| 2024A | 710.0 | 185.0 | 9.7 | 70.3 | 0.38 | 8.41 |
+| 2026A |  |  |  | 51.0 |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=tharisa) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/tharisa.json)

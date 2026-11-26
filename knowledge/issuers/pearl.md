@@ -4,16 +4,13 @@ _Page created 08-Oct-26 from `database/issuers/pearl.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- PEARL 13.00% 2028 (NO0013387860): price 103.5, YTM 11.45%, spread 625bp (as of 2026-11-22).
 - Rating as recorded: B- (Implied) / CCC+ (Geopolitical Floor).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2023A | 480.0 | 390.0 | 45.0 | 440.0 | 1.13 | 7.8 |
-| 2024A | 510.0 | 415.0 | 165.0 | 475.0 | 1.14 | 6.8 |
-| 2025A | 570.0 | 470.0 | 215.0 | 503.0 | 1.07 | 7.0 |
+| 2024A | 642.0 | 521.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=pearl) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/pearl.json)

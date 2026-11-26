@@ -345,7 +345,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Kyiv / 12:00 UK",
     "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
-    "days_to_earnings": 159
+    "days_to_earnings": 155
   },
   "management_questions": [
     {
@@ -1005,6 +1005,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-26",
+      "period_name": "2026-11-26",
+      "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "RD / D (Selective Default, 2026)",
+      "price": 64.0,
+      "ytm": 19.25,
+      "spread_bp": 1485,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1103,7 +1116,7 @@
     },
     "positives": [
       "30% freight tariff hike effective Aug 1, 2026 meaningfully improves operating cash flow baseline.",
-      "Essential wartime sovereign logistics backbone backed by €130m EBRD emergency liquidity reallocation.",
+      "Essential wartime sovereign logistics backbone backed by \u20ac130m EBRD emergency liquidity reallocation.",
       "Bondholder ad-hoc committee pushback forced tariff reform rather than purely punitive haircuts."
     ],
     "negatives": [
@@ -1119,7 +1132,7 @@
     "recent_drivers": [
       "2026 Restructuring: Halted Jan-26 debt service on $1.05bn LPNs; Q126 net loss $178m (UAH 7.9bn) amid >540 attacks.",
       "Jan/Jul 2026 Default: Suspended coupons (Jan-26) and missed >$703m July-26 bullet (~$1.1bn debt in restructuring); downgraded to RD/D.",
-      "Aug 2026 Tariff & Plan: Initial 20% haircut/2033 plan rejected by bondholders; government approved +30% freight tariff hike (eff. Aug 1, 2026); €130m EBRD loan reallocated to liquidity; revised plan being drafted."
+      "Aug 2026 Tariff & Plan: Initial 20% haircut/2033 plan rejected by bondholders; government approved +30% freight tariff hike (eff. Aug 1, 2026); \u20ac130m EBRD loan reallocated to liquidity; revised plan being drafted."
     ],
     "catalysts": [
       {
@@ -1136,7 +1149,7 @@
       "title": "2026 Restructuring Update: RD/D Selective Default, Jul-26 $703m Miss & Aug-26 +30% Tariff Hike",
       "source": "Fitch / S&P / Interfax / RailwayPro (2026)",
       "status": "Q3/9M 2026 Credit Update",
-      "summary": "Suspended Jan-26 coupons & missed $703m Jul-26 bullet (~$1.1bn in restructuring, RD/D). Initial 20% haircut rejected; +30% freight tariff hike eff. Aug 1, 2026 + €130m EBRD liquidity."
+      "summary": "Suspended Jan-26 coupons & missed $703m Jul-26 bullet (~$1.1bn in restructuring, RD/D). Initial 20% haircut rejected; +30% freight tariff hike eff. Aug 1, 2026 + \u20ac130m EBRD liquidity."
     }
   ]
 }

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/kmg.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - KZOK 5.375% 2030: price 88.5, YTM 6.75%, spread 270bp (as of 2026-11-24).
 - Rating as recorded: BBB (S&P) / Baa1 (Moody's) / BBB (Fitch).

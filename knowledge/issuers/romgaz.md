@@ -4,16 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/romgaz.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 25-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ROMGAZ 4.75% Oct 2029 (€500m, XS2914558593): price 98.5, YTM 5.75%, spread 170bp (as of 2026-11-23).
+- ROMGAZ 4.75% Oct 2029 (€500m, XS2914558593): price 98.5, YTM 5.75%, spread 170bp (as of 2026-11-26).
 - Rating as recorded: BBB- Stable (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 1722.0 | 784.0 | 49.1 | 747.7 | 0.95 | 12.8 |
-| 2023A | 1932.0 | 882.0 | 51.0 | 719.8 | 0.82 | 12.0 |
-| 2024A | 2100.0 | 980.0 | 206.4 | 637.0 | 0.65 | 12.0 |
+| 2024A | 7929.4 | 4243.0 |  |  |  |  |
+| 2025A | 8025.6 | 4401.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=romgaz) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/romgaz.json)
