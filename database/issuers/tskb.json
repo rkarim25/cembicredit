@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "id": "tskb",
+    "name": "TSKB (Türkiye Sınai Kalkınma Bankası)",
+    "ticker": "TSKB",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB- (Fitch) / B1 (Moody's)",
+    "tier": "BB",
+    "benchmark_bond": "TSKBTI 9.375% 2028 Senior (XS2678232781) & 9.75% AT1 (XS2778918834)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "TSKB_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c6812685cddab9a1c63093",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/TSKB_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "bank",
+    "financials_currency": "TRY",
+    "provenance": "financials built 27-Nov-26 from TSKB FY25 BRSA Statements & H126/9M26 IR Disclosures; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "TSKB FY24 Audited BRSA Statements, read 27-Nov-26",
+      "nii": 16480.0,
+      "car_pct": 22.0,
+      "observations": {
+        "notes": "FY24 operating revenue/NII TRY 16.48bn; CAR >22%."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "TSKB FY25 Audited BRSA Statements & Annual Report, read 27-Nov-26",
+      "nii": 18410.0,
+      "loans": 235900.0,
+      "net_profit": 11320.0,
+      "car_pct": 22.0,
+      "observations": {
+        "notes": "FY25 revenue TRY 18.41bn (+11.7% YoY), net profit TRY 11.32bn, loan book TRY 235.9bn (>92% SDG-linked), $1.8bn new DFI/Eurobond/syndicated funding secured."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "TRY",
+      "source": "TSKB H126 / 9M26 BRSA IR Presentation, read 27-Nov-26",
+      "assets": 379200.0,
+      "loans": 275600.0,
+      "net_profit": 5913.0,
+      "nim_pct": 4.3,
+      "car_pct": 19.0,
+      "observations": {
+        "notes": "H126 assets TRY 379.2bn, cash loans TRY 275.6bn, net profit TRY 5,913m, swap-adjusted NIM ~4.3%, Tier-1 ~18.3%, CAR ~18.5%-19.4%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "TSKB 9.375% Senior Unsecured Eurobond due 2028",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 300.0,
+      "coupon": "9.375%",
+      "maturity": "2028-10-19",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2678232781"
+    },
+    {
+      "tranche_name": "TSKB 9.750% Perpetual AT1 Fix-to-Float (First Call Mar 2029)",
+      "instrument_type": "AT1 Perpetual Subordinated",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 300.0,
+      "coupon": "9.750%",
+      "maturity": "2099-12-31",
+      "seniority": "Junior Subordinated (AT1)",
+      "governing_law": "English",
+      "isin": "XS2778918834"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 400.0,
+    "2028": 700.0,
+    "2029": 400.0,
+    "2030_plus": 300.0,
+    "total_outstanding_usd_m": 1800.0,
+    "source": "TSKB 2028 senior (XS2678232781), Perp AT1 (XS2778918834), and $1.8bn DFI/syndicated funding base."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Overweight / Defensive DFI-Funded Turkish Development Bank",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "TSKB is Turkey's premier private-sector development bank (51.4% İşbank), funded primarily by long-term sovereign-guaranteed multilateral DFI lines (World Bank, EIB, KfW, AIIB) rather than hot retail deposits. H126 assets reached TRY 379.2bn with 18.3% Tier-1 and ~19% CAR."
+    },
+    "positives": [
+      "Long-dated multilateral DFI funding (>65% of liabilities) shields against Turkish deposit beta wars.",
+      "Exceptional capitalization: ~18.3% Tier-1 and 18.5%-19.4% CAR in H126.",
+      ">92% SDG-linked corporate/renewable project loan book backed by parent İşbank (51.4%) & Vakıfbank."
+    ],
+    "negatives": [
+      "Wholesale-funded development bank model lacks zero-cost TRY demand deposit float.",
+      "FX-denominated corporate project loan book exposes asset quality to sharp TRY depreciation.",
+      "Turkish sovereign credit ceiling constrains standalone rating upside."
+    ],
+    "background": {
+      "business_overview": "Turkey's first privately owned development and investment bank focusing on green/sustainable capex lending.",
+      "asset_perimeter": "TRY 275.6bn cash loan book (H126) across renewables, energy efficiency, and export industrials.",
+      "ownership_governance": "İşbank Group (~51.4%), Vakıfbank (~8.4%), free float (~40%)."
+    },
+    "recent_drivers": [
+      "H126: Assets TRY 379.2bn, cash loans TRY 275.6bn, net profit TRY 5.91bn, swap-adj NIM ~4.3%, CAR ~19%.",
+      "FY25: Secured record $1.8bn in new DFI, syndicated, and Eurobond funding."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-05",
+        "event": "FY2026 Audited BRSA Financial Results",
+        "impact": "Confirms full-year ROE, NPL coverage, and DFI pipeline."
+      },
+      {
+        "date": "2027-04-15",
+        "event": "Annual DFI & Syndicated Loan Rollover",
+        "impact": "Validates continued multilateral appetite."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Swap-Adj NIM & Capital",
+      "management_target": "NIM ~4.0%-4.5%; CAR >18%",
+      "current_runrate": "NIM 4.3%; CAR 18.5%-19.4% (H126)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Long-dated DFI liabilities protect spreads.",
+      "last_guided_source": "TSKB H126 IR",
+      "last_verified_period": "H126"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-05",
+    "period_reporting": "FY 2026 BRSA Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.tskb.com.tr/en/investor-relations",
+    "days_to_earnings": 70
+  },
+  "management_questions": [
+    {
+      "question": "Update Stage 2 loan migration in renewable/energy project finance exposures under current TCMB rates.",
+      "focus_area": "Asset Quality",
+      "relevance": "Tests credit cost resilience."
+    },
+    {
+      "question": "Confirm 2027 DFI disbursement pipeline and senior vs AT1 call economics ahead of Mar-29 reset.",
+      "focus_area": "Capital & Funding",
+      "relevance": "Drives XS2778918834 convexity."
+    },
+    {
+      "question": "Quantify BRSA forbearance impact on reported ~19% CAR vs unadjusted CET1.",
+      "focus_area": "Capital Buffer",
+      "relevance": "Standard Turkish bank transparency check."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "tskb",
+      "sector": "Banks",
+      "topic": "H126 Results & 9.75% AT1 / 9.375% Senior Curve",
+      "source": "TSKB BRSA (2026)",
+      "note": "H126 assets TRY 379.2bn, loans TRY 275.6bn, net profit TRY 5.91bn, NIM 4.3%, CAR ~19%; XS2678232781 & XS2778918834."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — DFI-Funded Turkish Development Bank",
+      "source": "TSKB FY24-H126 BRSA Filings",
+      "summary": "Added TSKB: H126 assets TRY 379.2bn, CAR ~19%, NIM 4.3%, 2028 senior (XS2678232781) & Perp AT1 (XS2778918834)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- (Fitch) / B1 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "supplementary_data": {
+    "dfi_funding_share": ">65% long-term multilateral DFI",
+    "sdg_loan_share_pct": 92.0,
+    "tier1_pct": 18.3
+  }
+}

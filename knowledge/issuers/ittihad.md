@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/ittihad.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ITTIHAD 7.375% Nov 2030 Sukuk ($550m): price 98.5, YTM 9.1%, spread 505bp (as of 2026-11-26).
 - Rating as recorded: BB- Stable (Fitch & S&P, 2026).

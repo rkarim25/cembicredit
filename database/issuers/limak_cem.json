@@ -289,6 +289,11 @@
       "question": "Provide details on 2026-2027 decarbonization capex and SLB KPI step-up triggers.",
       "focus_area": "Capex & ESG",
       "relevance": "Coupon step-up and FCF sensitivity."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -954,6 +959,19 @@
       "ebitda": 3176.5,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ Stable (Fitch, 2026)",
+      "price": 98.8,
+      "ytm": 8.25,
+      "spread_bp": 385,
+      "net_leverage": 2.2,
+      "ebitda": 3176.5,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1074,6 +1092,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Consolidated TFRS Results & Export Volume Update",
         "impact": "Tracks domestic vs export margin mix."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Limak Cement."
       }
     ],
     "last_updated": "2026-11-26"

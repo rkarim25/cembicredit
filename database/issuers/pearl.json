@@ -195,6 +195,11 @@
       "focus_area": "Covenants",
       "relevance": "Protects bondholders from dividend leakage during outages.",
       "conviction_trigger": "Zero covenant breach and active RP lock-up protection."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "credit_view": {
@@ -620,6 +625,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B- (Implied) / CCC+ (Geopolitical Floor)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 521.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "B- (Implied) / CCC+ (Geopolitical Floor)",
       "price": null,
       "ytm": null,

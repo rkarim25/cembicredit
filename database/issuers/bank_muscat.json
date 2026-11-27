@@ -98,11 +98,13 @@
     },
     "positives": [
       "Dominant Omani systemic franchise (~19.66% CAR) aligned with Oman's IG sovereign upgrade.",
-      "9M26 net profit +9.2% YoY with impairments down 25% YoY."
+      "9M26 net profit +9.2% YoY with impairments down 25% YoY.",
+      "Established Oman banking franchise with systemic liquidity access and regulatory oversight."
     ],
     "negatives": [
       "Hydrocarbon sensitivity of Oman sovereign and corporate borrowers.",
-      "Tight IG spread compression post-Oman rising-star upgrades."
+      "Tight IG spread compression post-Oman rising-star upgrades.",
+      "Direct linkage to Oman sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Oman's largest financial institution (~35%+ market share).",
@@ -117,6 +119,11 @@
         "date": "2027-01-25",
         "event": "FY2026 Audited MSX Results",
         "impact": "Confirms FY26 ROE, NPL ratio, and CET1/CAR build."
+      },
+      {
+        "date": "2027-01-25",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Bank Muscat S.A.O.G.."
       }
     ]
   },
@@ -136,6 +143,16 @@
       "question": "Provide exact 9M26 CET1 and Stage 3 NPL ratios.",
       "focus_area": "Capital & Asset Quality",
       "relevance": "Completes prudential benchmarking vs GCC IG peers."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -160,6 +177,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB- Stable (S&P / Fitch) / Baa3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "BBB- Stable (S&P / Fitch) / Baa3 (Moody's)",
       "price": null,
       "ytm": null,

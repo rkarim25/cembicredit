@@ -16,7 +16,7 @@
     "model_file": "OQ_SAOC_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-810f-bf67-c7d031a7ae6b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OQ_SAOC_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "fcf_2024a": -149.6,
     "net_leverage_2024a": 1.8,
@@ -24,6 +24,18 @@
     "provenance": "financials rebuilt 25-Nov-26 from OQ S.A.O.C. FY2025 Audited Financial Results & S&P/Fitch BBB- Affirmations"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "OMR",
+      "source": "OQ SAOC FY24 Audited Consolidated Financial Statements, read 27-Nov-26",
+      "revenue": 15780.0,
+      "ebitda": 1100.0,
+      "calculated_ebitda": 1100.0,
+      "observations": {
+        "notes": "FY24 revenue ~OMR 15.78bn (~$40.2bn), EBITDA ~OMR 1.10bn ($2,846m); continued aggressive deleveraging."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -34,8 +46,10 @@
       "reported_ebitda": 1348.0,
       "assets": 13000.0,
       "observations": {
-        "notes": "FY25 revenue $41.5bn (~OMR 16.0bn), EBITDA jumped ~23% YoY to OMR 1,348m (~$3.5bn), total assets ~OMR 13bn; rated BBB- Stable by S&P and Fitch."
-      }
+        "notes": "FY25 revenue $41.5bn (~OMR 16.0bn), EBITDA jumped ~23% YoY to OMR 1,348m (~$3.5bn), total assets ~OMR 13bn; rated BBB- Stable by S&P and Fitch. FY25 gross debt reduced to OMR 2.4bn-2.7bn (~$6.2bn-$7.0bn) via scheduled amortizations."
+      },
+      "calculated_ebitda": 1348.0,
+      "gross_debt": 2550.0
     }
   ],
   "supplementary_data": {
@@ -335,6 +349,11 @@
       "question": "Provide latest parent/consolidated net leverage vs the 2.0x-2.5x financial policy ceiling.",
       "focus_area": "Leverage",
       "relevance": "Anchors standalone credit profile beneath BBB- sovereign uplift."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1000,6 +1019,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- Stable (S&P / Fitch)",
+      "price": 99.5,
+      "ytm": 5.9,
+      "spread_bp": 185,
+      "net_leverage": null,
+      "ebitda": 1100.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1139,6 +1171,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Consolidated Audited Results & May-2028 Bond Refinancing Window",
         "impact": "Confirms Duqm JV self-sufficiency and OIA dividend policy."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for OQ SAOC."
       }
     ],
     "last_updated": "2026-11-25"

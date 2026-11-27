@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/adcb.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ADCBUH 5.50% Jan 2029 (XS2677030194): price 99.8, YTM 5.05%, spread 85bp (as of 2026-11-25).
 - Rating as recorded: A1 / A.

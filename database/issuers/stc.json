@@ -336,6 +336,16 @@
       "focus_area": "M&A & Leverage",
       "relevance": "M&A + SAR 8.2bn 9M dividends drive external funding needs.",
       "conviction_trigger": "Net leverage <1.2x."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -1001,6 +1011,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A1 / A+",
+      "price": 97.5,
+      "ytm": 4.85,
+      "spread_bp": 80,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1121,6 +1144,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Audited Results & Tawal / International M&A Capex Update",
         "impact": "Confirms post-dividend net leverage remains <1.0x."
+      },
+      {
+        "date": "2027-02-22",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Saudi Telecom Company (STC)."
       }
     ],
     "last_updated": "2026-11-24"

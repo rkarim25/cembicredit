@@ -146,6 +146,11 @@
         "date": "Jun 2027",
         "event": "FY2026 Audited IFRS Statements & S&P Rating Review",
         "impact": "Potential S&P upgrade toward IG/BB+ if Azerbaijan sovereign positive outlook converts."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for SOCAR (State Oil Company of Azerbaijan)."
       }
     ]
   },
@@ -159,6 +164,11 @@
       "question": "Confirm 2027 dividend/tax transfer expectations to SOFAZ/state budget vs organic deleveraging.",
       "focus_area": "State Linkages",
       "relevance": "Determines FCF retention."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -217,6 +227,19 @@
       "ebitda": 8700.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Baa3 Stable (Moody's) / BBB- Stable (Fitch, SCP bb) / BB Positive (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 8700.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -247,5 +270,56 @@
       "last_guided_source": "SOCAR FY2025 Audited IFRS Financial Statements (EY, unmodified opinion), read 24-Nov-26",
       "last_verified_period": "2025A"
     }
-  ]
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-24",
+      "title": "SOCAR (State Oil Company of Azerbaijan) \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 24-Nov-26 from SOCAR FY2024 & FY2025 EY-audited IFRS financial statements; quotes await [BBG] capture",
+      "summary": "FY25 rev AZN 86.3bn, EBITDA AZN 10.9bn (+26% YoY), cash AZN 8.72bn (+AZN 6.26bn deposits) vs debt AZN 15.10bn. Moody's Baa3 / Fitch BBB- (SCP bb) / S&P BB Pos."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "0.59x",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "SOCAR (State Oil Company of Azerbaijan) Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
+  }
 }

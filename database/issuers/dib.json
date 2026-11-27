@@ -334,6 +334,16 @@
       "focus_area": "Asset Quality",
       "relevance": "Historically lagged UAE Tier-1 peers.",
       "conviction_trigger": "NPL <3.5%."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
+    },
+    {
+      "question": "Quantify NIM sensitivity to central bank policy rate cuts and local-currency deposit beta.",
+      "focus_area": "Profitability",
+      "relevance": "Drives internal capital generation."
     }
   ],
   "market_history": [
@@ -999,6 +1009,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A3 / A",
+      "price": 99.7,
+      "ytm": 5.1,
+      "spread_bp": 90,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1102,7 +1125,8 @@
     ],
     "negatives": [
       "Q3 net profit dipped -4% YoY (AED 1.87bn) on corporate tax and margin normalization.",
-      "Historically higher NPL ratio than Abu Dhabi peers (~4% band), requiring continued clean-up."
+      "Historically higher NPL ratio than Abu Dhabi peers (~4% band), requiring continued clean-up.",
+      "Direct linkage to UAE sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "UAE's largest Islamic bank providing Sharia-compliant corporate, retail, and treasury banking.",
@@ -1118,6 +1142,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Audited Results & NPL Ratio Update",
         "impact": "Confirms further NPL reduction below 4%."
+      },
+      {
+        "date": "2027-02-04",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Dubai Islamic Bank."
       }
     ],
     "last_updated": "2026-11-25"

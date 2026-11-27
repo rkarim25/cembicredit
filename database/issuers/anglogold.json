@@ -141,7 +141,8 @@
     ],
     "negatives": [
       "Gold price cyclicality and elevated royalty/tax regimes in West Africa and Tanzania.",
-      "Weather/operational interruptions in Q326 production volumes."
+      "Weather/operational interruptions in Q326 production volumes.",
+      "Exposure to South Africa macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Global gold mining company (founded in South Africa; primary listing NYSE, corporate domicile UK).",
@@ -156,6 +157,11 @@
         "date": "2027-02-20",
         "event": "FY2026 Audited Form 20-F & S&P/Fitch Rising-Star Review",
         "impact": "Net cash scale makes upgrade from BB+ to BBB- likely at S&P/Fitch."
+      },
+      {
+        "date": "2027-02-20",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for AngloGold Ashanti."
       }
     ]
   },
@@ -180,6 +186,11 @@
       "question": "Update Ghana/Tanzania fiscal stability and cash repatriation status.",
       "focus_area": "Jurisdiction Risk",
       "relevance": "African cash trapping check."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -225,6 +236,19 @@
       "ebitda": 2747.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Baa3 (Moody's) / BB+ (S&P/Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.21,
+      "ebitda": 2747.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -235,5 +259,56 @@
     "implied_stress_ev_multiple": 4.5,
     "restructuring_framework": "UK / NY Law SEC Notes",
     "thesis": "Net cash balance sheet and $6.3bn EBITDA cover $1.7bn bond stack >3.5x."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-25",
+      "title": "AngloGold Ashanti \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from AngloGold Ashanti FY24/FY25 SEC 20-F & Q3 2026 Financial Results (Nov-26); quotes await [BBG]",
+      "summary": "Q326 NI $787m at $4,239/oz gold; FY25 rev $9.89bn, adj EBITDA $6.29bn, net cash $879m (-0.14x)."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "-0.14x",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "AngloGold Ashanti Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

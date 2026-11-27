@@ -4,7 +4,7 @@ _Page created 24-Nov-26 from `database/issuers/uzbekneftegaz.json`. Dated, sourc
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB Positive (Fitch, Nov-26, SCP b+) / BB- Stable (S&P).
 

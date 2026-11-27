@@ -16,7 +16,7 @@
     "model_file": "Limak_Renewable_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68159bc09d6b94337462d",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Renewable_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "fcf_2024a": null,
     "net_leverage_2024a": null,
@@ -25,6 +25,22 @@
   },
   "financials_multi_year": [
     {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Limak Renewable Energy FY24 Consolidated IFRS Statements, read 27-Nov-26",
+      "revenue": 228.0,
+      "ebitda": 149.0,
+      "calculated_ebitda": 149.0,
+      "cash": 253.0,
+      "gross_debt": 570.0,
+      "net_debt": 317.0,
+      "net_leverage": 2.13,
+      "observations": {
+        "notes": "FY24 consolidated revenue $228m ($272m stake-adj), EBITDA $149m ($184m combined, ~68-69% margin), gross debt $570m, cash $253m, net debt $317m."
+      }
+    },
+    {
       "period": "2025A",
       "is_audited": true,
       "currency": "USD",
@@ -32,8 +48,13 @@
       "revenue": 240.0,
       "gross_debt": 525.0,
       "observations": {
-        "notes": "Annual revenue range ~$220-260m (~90% EBITDA from \u00c7etin & Alkumru HPPs with USD-linked YEKDEM tariffs). Issued $450m + $75m tap = $525m 9.625% Aug-30 Green Bond in Feb-25. Fitch downgraded to B+ Stable in Sep-26 as weak hydrology + front-loaded capex pushed FFO net leverage >5x."
-      }
+        "notes": "Annual revenue range ~$220-260m (~90% EBITDA from \u00c7etin & Alkumru HPPs with USD-linked YEKDEM tariffs). Issued $450m + $75m tap = $525m 9.625% Aug-30 Green Bond in Feb-25. Fitch downgraded to B+ Stable in Sep-26 as weak hydrology + front-loaded capex pushed FFO net leverage >5x. FY25 consolidated revenue $230m ($272m combined), EBITDA $153m ($181m combined), gross debt $580m, cash $269m, net debt $311m (~2.0x net leverage)."
+      },
+      "ebitda": 153.0,
+      "calculated_ebitda": 153.0,
+      "cash": 269.0,
+      "net_debt": 311.0,
+      "net_leverage": 2.03
     }
   ],
   "supplementary_data": {
@@ -276,6 +297,16 @@
       "focus_area": "Projects & DSCR",
       "relevance": "Key deleveraging driver.",
       "conviction_trigger": "On-budget COD & DSCR >1.4x."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -941,6 +972,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ Stable (Fitch downgrade from BB-, Sep-26)",
+      "price": 98.2,
+      "ytm": 8.75,
+      "spread_bp": 435,
+      "net_leverage": 2.13,
+      "ebitda": 149.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1093,6 +1137,11 @@
         "date": "2027",
         "event": "\u0130ncir & Pervari Hydro Commissioning Milestones",
         "impact": "Drives step-down in net leverage from ~4.0x toward 3.0x."
+      },
+      {
+        "date": "2027-03-15",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Limak Renewable."
       }
     ],
     "last_updated": "2026-11-26"

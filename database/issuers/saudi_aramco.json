@@ -16,7 +16,7 @@
     "model_file": "Saudi_Aramco_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Saudi_Aramco_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "financials_currency": "USD",
     "provenance": "financials built 25-Nov-26 from Saudi Aramco FY24/FY25 Annual Reports & Q3/9M 2026 IFRS Results (Tadawul / IR, Nov-26); quotes await [BBG]",
@@ -35,8 +35,10 @@
       "fcf": 85300.0,
       "net_profit": 106200.0,
       "observations": {
-        "notes": "FY24 sales SAR 1,637.3bn (~$436.6bn), NI $106.2bn, CFO $135.7bn, capex $53.3bn ($50.4bn organic), FCF $85.3bn, gearing 4.5%."
-      }
+        "notes": "FY24 sales SAR 1,637.3bn (~$436.6bn), NI $106.2bn, CFO $135.7bn, capex $53.3bn ($50.4bn organic), FCF $85.3bn, gearing 4.5%. FY24 EBITDA ~SAR 872.4bn (~$232.6bn), CFO $136bn."
+      },
+      "ebitda": 232600.0,
+      "net_leverage": 0.2
     },
     {
       "period": "2025A",
@@ -49,8 +51,10 @@
       "fcf": 85400.0,
       "net_profit": 93400.0,
       "observations": {
-        "notes": "FY25 sales SAR 1,559.34bn (~$415.8bn), reported NI $93.4bn (adj NI $104.7bn), CFO $136.2bn, capex $52.2bn, FCF $85.4bn, gearing 3.8%."
-      }
+        "notes": "FY25 sales SAR 1,559.34bn (~$415.8bn), reported NI $93.4bn (adj NI $104.7bn), CFO $136.2bn, capex $52.2bn, FCF $85.4bn, gearing 3.8%. FY25 EBITDA ~SAR 825.1bn (~$220.0bn), FCF ~$85.4bn, Fitch net leverage 0.1x-0.4x."
+      },
+      "ebitda": 220000.0,
+      "net_leverage": 0.25
     },
     {
       "period": "9M26",
@@ -196,6 +200,11 @@
       "question": "Outline 2027 capital expenditure and non-core AI/mineral JV funding budgets.",
       "focus_area": "Capital Allocation",
       "relevance": "Determines whether FCF covers base dividends without incremental debt."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -241,6 +250,19 @@
       "ebitda": null,
       "fcf": 85300.0,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Aa3 (Moody's) / A+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.2,
+      "ebitda": 232600.0,
+      "fcf": 85300.0,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -251,5 +273,56 @@
     "implied_stress_ev_multiple": 4.5,
     "restructuring_framework": "Saudi Commercial Law / Sovereign Quasi-Sovereign",
     "thesis": "Ultra-low lifting cost and single-digit gearing provide near-sovereign asset coverage."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Saudi Aramco \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Saudi Aramco FY24/FY25 Annual Reports & Q3/9M 2026 IFRS Results (Tadawul / IR, Nov-26); quotes await [BBG]",
+      "summary": "9M26 rev $404.23bn (+20.8%), NI $101.07bn (+36%), Q3 FCF $28.2bn, gearing improved to 5.5% from 6.2% in Q2."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "0.25x",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Saudi Aramco Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

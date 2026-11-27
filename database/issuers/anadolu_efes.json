@@ -118,6 +118,11 @@
         "date": "2027-03-05",
         "event": "FY2026 Audited Results & 2028 Bond Refinancing Plan",
         "impact": "Tests Beer Group standalone FCF and Fitch Negative outlook."
+      },
+      {
+        "date": "2027-03-05",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Anadolu Efes."
       }
     ]
   },
@@ -141,6 +146,11 @@
     {
       "question": "Detail 2027 capex cuts and working capital plans to reverse negative FCF ahead of Jun-28 bond maturity.",
       "focus_area": "Refinancing",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
       "relevance": "Tests deleveraging capacity."
     }
   ],
@@ -187,6 +197,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Lagging"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB Negative (Fitch, Nov-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Lagging"
     }
   ],
   "recovery_analysis": {
@@ -197,5 +220,56 @@
     "implied_stress_ev_multiple": 5.5,
     "restructuring_framework": "Turkey Commercial Law",
     "thesis": "50.3% equity stake in CCI underpins enterprise value above Beer Group debt."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-25",
+      "title": "Anadolu Efes \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Anadolu Efes FY2025 Audited IAS 29 Filings & Fitch Nov-26 Rating Action; quotes await [BBG]",
+      "summary": "Fitch affirmed BB / Negative Outlook in Nov-26 on 9M26 -15% Turkish beer volumes and ~4.7x projected YE26 gross leverage."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard HY Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Anadolu Efes Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

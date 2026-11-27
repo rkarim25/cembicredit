@@ -293,6 +293,16 @@
       "focus_area": "Refinancing",
       "relevance": "Eliminates residual 2027 maturity overhang.",
       "conviction_trigger": "Remaining 2027 stub <1.0x unrestricted cash."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -958,6 +968,19 @@
       "ebitda": 584.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ / B1",
+      "price": 99.66,
+      "ytm": 8.13,
+      "spread_bp": 329,
+      "net_leverage": 5.3,
+      "ebitda": 584.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1103,6 +1126,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited Results & Post-Tender 2027 Residual Stub Update",
         "impact": "Confirms residual 2027 sukuk balance and cash collections."
+      },
+      {
+        "date": "2027-03-15",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Arada Developments."
       }
     ],
     "last_updated": "2026-11-25"

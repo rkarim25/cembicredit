@@ -198,6 +198,11 @@
       "focus_area": "FCF & Deleveraging",
       "relevance": "Turning FCF positive is mandatory to stabilize BB rating.",
       "conviction_trigger": "FY27 FCF >$150m and net debt <$1.9bn."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "historical_notes": [
@@ -295,6 +300,19 @@
       "ebitda": 684.0,
       "fcf": null,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB Neg (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.08,
+      "ebitda": 684.0,
+      "fcf": null,
+      "guidance_status": "Under Watch"
     }
   ],
   "annotations": [
@@ -341,5 +359,48 @@
       "last_guided_source": "Sappi FY2026 Full-Year Results (ended Sep-26, released 06-Nov-26), read 21-Nov-26 (Audited Financial Statements)",
       "last_verified_period": "2026A"
     }
-  ]
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "6.97x",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard BB Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Sappi Limited Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
+  }
 }

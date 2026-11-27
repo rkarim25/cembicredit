@@ -356,6 +356,11 @@
       "focus_area": "Operations & Debt",
       "relevance": "Quantifies FY27 EBITDA and true adjusted leverage.",
       "conviction_trigger": "Normalizing Natref runs without further impairment."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1013,6 +1018,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB+ Neg (S&P) / Ba1 Neg (Moody's)",
+      "price": 98.4,
+      "ytm": 7.85,
+      "spread_bp": 365,
+      "net_leverage": 1.23,
+      "ebitda": 60012.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "BB+ Neg (S&P) / Ba1 Neg (Moody's)",
       "price": 98.4,
       "ytm": 7.85,

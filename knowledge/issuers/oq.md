@@ -4,13 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/oq.json`. Dated, sourced facts on
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- OQSAOC 5.125% May 2028 ($750m, XS2248458395): price 99.5, YTM 5.9%, spread 185bp (as of 2026-11-25).
+- OQSAOC 5.125% May 2028 ($750m, XS2248458395): price 99.5, YTM 5.9%, spread 185bp (as of 2026-11-27).
 - Rating as recorded: BBB- Stable (S&P / Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A | 15780.0 | 1100.0 |  |  |  |  |
 | 2025A | 16000.0 | 1348.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 

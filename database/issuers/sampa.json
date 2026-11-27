@@ -282,6 +282,11 @@
       "question": "Provide exact coupon and security/guarantor package on the EUR 300m Jun 2031 senior secured notes.",
       "focus_area": "Documentation",
       "relevance": "Confirms collateral coverage vs local Turkish bank debt."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -947,6 +952,19 @@
       "ebitda": 1010.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B / B2 Implied (Unrated Publicly)",
+      "price": 97.5,
+      "ytm": 10.4,
+      "spread_bp": 600,
+      "net_leverage": null,
+      "ebitda": 1010.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1066,6 +1084,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Audited Results & New Plant Commissioning Update",
         "impact": "Verifies post-refinancing net leverage (~1.5x-2.0x) and capex ramp."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Sampa Otomotiv."
       }
     ],
     "last_updated": "2026-11-26"

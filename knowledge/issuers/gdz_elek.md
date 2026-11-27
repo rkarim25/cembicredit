@@ -4,13 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/gdz_elek.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- GDZTR 9.00% Oct 2029 ($519m): price 98.2, YTM 9.1%, spread 470bp (as of 2026-11-26).
+- GDZTR 9.00% Oct 2029 ($519m): price 98.2, YTM 9.1%, spread 470bp (as of 2026-11-27).
 - Rating as recorded: BB- Stable (Fitch, Nov-26) / B2 (Moody's).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A |  |  |  |  | 3.1 |  |
 | 2025A |  |  | -80.0 |  | 3.0 | 3.1 |
 _USD m unless the record says otherwise; audited years only._
 

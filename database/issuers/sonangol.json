@@ -16,7 +16,7 @@
     "model_file": "Sonangol_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6812aa10ee048b87d945b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sonangol_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "fcf_2024a": null,
     "net_leverage_2024a": null,
@@ -24,6 +24,19 @@
     "financials_currency": "USD"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Sonangol EP FY24 Audited Financial Statements, read 27-Nov-26",
+      "revenue": 10500.0,
+      "ebitda": 3400.0,
+      "calculated_ebitda": 3400.0,
+      "gross_debt": 4500.0,
+      "observations": {
+        "notes": "FY24 turnover $10.5bn (-8.6% on ~$80/bbl Brent), EBITDA $3.4bn, total debt $4.5bn (+15.4%), output ~201 kboepd."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -35,7 +48,7 @@
       "ebitda_margin_pct": 28.7,
       "net_profit": 850.0,
       "observations": {
-        "notes": "FY25 consolidated turnover ~$9.15bn (Kz 8.35tn), EBITDA ~$2.625bn, net profit $750m-$946m depending on upstream/fuel-subsidy adjustments; net debt/EBITDA remained <2.5x covenant threshold, though 2026 external facilities (e.g. Afreximbank) expanded to fund fuel imports."
+        "notes": "FY25 consolidated turnover ~$9.15bn (Kz 8.35tn), EBITDA ~$2.625bn, net profit $750m-$946m depending on upstream/fuel-subsidy adjustments; net debt/EBITDA remained <2.5x covenant threshold, though 2026 external facilities (e.g. Afreximbank) expanded to fund fuel imports. FY25 output rose to ~217 kboepd; secured $2.65bn international syndicated facility for operations/refineries ahead of IPO prep."
       }
     }
   ],
@@ -317,6 +330,16 @@
       "focus_area": "Debt & Quasi-Fiscal",
       "relevance": "9M26 Angolan budget reports flagged rising external debt.",
       "conviction_trigger": "Net leverage <1.8x."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -982,6 +1005,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B- / B3 (Angola Sovereign Cap)",
+      "price": 97.2,
+      "ytm": 9.15,
+      "spread_bp": 475,
+      "net_leverage": null,
+      "ebitda": 3400.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1119,6 +1155,11 @@
         "date": "2027",
         "event": "Targeted Partial IPO & Fuel-Subsidy Arrears Settlement",
         "impact": "Key catalyst for transparency and debt trajectory."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Sonangol EP."
       }
     ],
     "last_updated": "2026-11-26"

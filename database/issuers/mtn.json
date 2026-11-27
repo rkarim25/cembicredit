@@ -351,6 +351,11 @@
       "focus_area": "Funding & FX",
       "relevance": "Tests HoldCo hard-currency debt service capacity.",
       "conviction_trigger": "Sustained Nigeria USD repatriation."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1008,6 +1013,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "Ba2 (Moody's) / BB- Pos (S&P)",
+      "price": 99.4,
+      "ytm": 6.9,
+      "spread_bp": 285,
+      "net_leverage": 0.7,
+      "ebitda": 60095.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "Ba2 (Moody's) / BB- Pos (S&P)",
       "price": 99.4,
       "ytm": 6.9,

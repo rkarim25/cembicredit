@@ -293,6 +293,16 @@
       "focus_area": "Revenue Stability",
       "relevance": "YEKDEM roll-off creates TRY/spot exposure.",
       "conviction_trigger": "YEKDEM + bilateral PPA >60% of EBITDA."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -958,6 +968,19 @@
       "ebitda": 4940.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B Stable (Fitch, 2026)",
+      "price": 96.5,
+      "ytm": 8.95,
+      "spread_bp": 455,
+      "net_leverage": 4.2,
+      "ebitda": 4940.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1079,6 +1102,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited Results & 2027 Hydrology / YEKDEM Mix",
         "impact": "Clarifies merchant power exposure vs USD-linked YEKDEM share."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Aydem Renewable."
       }
     ],
     "last_updated": "2026-11-26"

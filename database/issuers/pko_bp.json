@@ -92,7 +92,8 @@
     ],
     "negatives": [
       "Polish bank windfall/CIT tax rates and sensitivity to NBP rate cuts.",
-      "Ongoing MREL debt issuance supply in EUR."
+      "Ongoing MREL debt issuance supply in EUR.",
+      "Direct linkage to Poland sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Poland's largest commercial bank by assets, deposits, and retail/corporate franchise.",
@@ -107,6 +108,11 @@
         "date": "2027-03-04",
         "event": "FY2026 Audited Results & Dividend / MREL Issuance Plan",
         "impact": "Confirms full-year ROE and 2027 MREL/T2 supply."
+      },
+      {
+        "date": "2027-03-04",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for PKO Bank Polski."
       }
     ]
   },
@@ -131,6 +137,11 @@
       "question": "Detail 2027 EUR MREL senior non-preferred and Tier 2 issuance guidance.",
       "focus_area": "MREL Supply",
       "relevance": "Technical spread driver."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "annotations": [
@@ -176,6 +187,27 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A2 (Moody's) / A- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-25",
+      "title": "PKO Bank Polski \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from PKO BP FY2025 Audited & 9M 2026 WSE Financial Statements (Nov-26); quotes await [BBG]",
+      "summary": "9M26 NI PLN 8.22bn, ROE 19.0%, C/I 31.0%, CoR 27-30bps, Tier 1 15.28%; CHF provisions down to PLN 1.1bn."
     }
   ]
 }

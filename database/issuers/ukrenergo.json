@@ -16,7 +16,7 @@
     "model_file": "Ukrenergo_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ukrenergo_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "financials_currency": "UAH",
     "provenance": "financials built 25-Nov-26 from Ukrenergo Fitch Oct-26 Post-Restructuring Review & Mavka Finance Exchange Docs; quotes await [BBG]",
@@ -24,6 +24,16 @@
     "net_leverage_2024a": null
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "UAH",
+      "source": "NPC Ukrenergo FY24 Audited Statements & Fitch Report, read 27-Nov-26",
+      "ebitda": -500.0,
+      "observations": {
+        "notes": "FY24 EBITDA -UAH 0.5bn on wartime grid damage and balancing market receivables; suspended coupons on $825m state-guaranteed Eurobond."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -98,7 +108,8 @@
     ],
     "negatives": [
       "Continuous Russian strikes on high-voltage substations compressing FY26 EBITDA (~UAH 4bn Fitch est vs UAH 8.4bn FY25).",
-      "Balancing market payment deficits from state distribution/PSO counterparties."
+      "Balancing market payment deficits from state distribution/PSO counterparties.",
+      "Exposure to Ukraine macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Ukraine's state-owned high-voltage electricity transmission system operator (TSO).",
@@ -113,6 +124,11 @@
         "date": "2027-04-13",
         "event": "First Semi-Annual Mavka Finance Coupon & Grid Repair Verification",
         "impact": "Tests DFC-backed debt-service mechanics and transmission tariff collections."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for NPC Ukrenergo."
       }
     ]
   },
@@ -132,6 +148,16 @@
       "question": "Confirm ENTSO-E import/export capacity revenues and 2027 NEURC transmission tariff sufficiency post-restructuring.",
       "focus_area": "Tariffs & Repairs",
       "relevance": "Drives post-2026 EBITDA recovery from UAH 4bn trough."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "annotations": [
@@ -184,6 +210,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "CCC (Fitch upgrade from RD, Nov-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": -500.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -194,5 +233,56 @@
     "implied_stress_ev_multiple": 4.0,
     "restructuring_framework": "English Law / DFC PRI Structure",
     "thesis": "DFC political risk insurance on Mavka 2041 tranche creates structural floor vs unsecured 2031s."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "NPC Ukrenergo \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Ukrenergo Fitch Oct-26 Post-Restructuring Review & Mavka Finance Exchange Docs; quotes await [BBG]",
+      "summary": "Fitch upgraded Ukrenergo to CCC from RD following completion of $825m guaranteed Eurobond debt-for-energy swap and DFC-backed notes."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard Distressed Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "NPC Ukrenergo Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

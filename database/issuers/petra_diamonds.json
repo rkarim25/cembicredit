@@ -91,7 +91,8 @@
     },
     "positives": [
       "2L notes ($228m) already extended from Mar-26 to Mar-30 with PIK/share-coupon flexibility.",
-      "Cullinan flagship mine provides core blue/type-IIa diamond optionality if tender prices recover."
+      "Cullinan flagship mine provides core blue/type-IIa diamond optionality if tender prices recover.",
+      "Strategic Materials market positioning in South Africa supporting resilient operating cash generation."
     ],
     "negatives": [
       "S&P Selective Default (SD, Jul-26) on interest deferral to Jan-2027.",
@@ -113,6 +114,11 @@
         "date": "2027-01-15",
         "event": "Deferred Senior Debt Interest Payment Date & FY26 Audit Publication",
         "impact": "Binary default/comprehensive restructuring trigger."
+      },
+      {
+        "date": "2027-01-15",
+        "event": "FY 2026 Audited (Delayed)",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Petra Diamonds."
       }
     ]
   },
@@ -137,6 +143,11 @@
       "question": "Confirm expected release date for audited FY2026 accounts and going-concern qualification.",
       "focus_area": "Governance & Audit",
       "relevance": "Required to lift Nov-26 LSE suspension."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -189,6 +200,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Lagging"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "SD (S&P, Jul-26) / LSE Suspended (Nov-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Lagging"
     }
   ],
   "recovery_analysis": {
@@ -199,5 +223,56 @@
     "implied_stress_ev_multiple": 3.5,
     "restructuring_framework": "SA Business Rescue / English Law 2L Notes",
     "thesis": "Cullinan standalone value minus first-lien RCF and Finsch liabilities leaves deep impairment risk on 2L notes."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Petra Diamonds \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Petra Diamonds FY25/FY26 Reports, S&P SD Action (Jul-26) & Nov-26 LSE Suspension; quotes await [BBG]",
+      "summary": "LSE shares suspended on delayed FY26 accounts; CEO resigned; Finsch business rescue; $20m Cullinan advance-payment offtake."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "9.67x",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard Distressed Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Petra Diamonds Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

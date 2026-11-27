@@ -152,6 +152,11 @@
       "focus_area": "Liquidity",
       "relevance": "High dollarization is a structural sovereign risk in Georgia/Armenia.",
       "conviction_trigger": "FX LCR >120%."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "historical_notes": [
@@ -241,6 +246,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB / Ba2",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "BB / Ba2",
       "price": null,
       "ytm": null,

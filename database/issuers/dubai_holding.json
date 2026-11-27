@@ -16,7 +16,7 @@
     "model_file": "Dubai_Holding_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dubai_Holding_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "financials_currency": "AED",
     "provenance": "financials built 25-Nov-26 from Dubai Holding Impact Report & DFM subsidiary disclosures (2025/2026); quotes await [BBG]",
@@ -24,6 +24,15 @@
     "net_leverage_2024a": null
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "Dubai Holding & Dubai Residential REIT FY24 Filings, read 27-Nov-26",
+      "observations": {
+        "notes": "Group contributed ~13.5% to Dubai nominal GDP; Dubai Residential REIT maintained ~3% Net LTV and ~74%-75% EBITDA margin."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -79,7 +88,8 @@
     ],
     "negatives": [
       "Consolidated group-level revenue, EBITDA, and total debt figures are private.",
-      "Exposure to cyclical Dubai real estate and luxury tourism demand."
+      "Exposure to cyclical Dubai real estate and luxury tourism demand.",
+      "Exposure to UAE macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Strategic investment holding company owned by the Government of Dubai.",
@@ -94,6 +104,11 @@
         "date": "2027-03-31",
         "event": "FY2026 Subsidiary Filings (TECOM / Dubai Residential REIT) & Annual Review",
         "impact": "Visibility on leasing occupancy, rental growth, and GRE leverage."
+      },
+      {
+        "date": "2027-03-31",
+        "event": "FY 2026 Annual Review",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Dubai Holding."
       }
     ]
   },
@@ -118,6 +133,11 @@
       "question": "Outline upcoming 2027-2028 USD/AED bond or Sukuk refinancing plans.",
       "focus_area": "Funding & Liquidity",
       "relevance": "Tracks primary market supply."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -163,6 +183,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Government of Dubai GRE (Unrated / Subsidiary Rated)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -173,5 +206,56 @@
     "implied_stress_ev_multiple": 8.0,
     "restructuring_framework": "Dubai Decree / UAE Law",
     "thesis": "Prime Dubai landbank and recurring business-park assets backed by Government of Dubai."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Dubai Holding \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Dubai Holding Impact Report & DFM subsidiary disclosures (2025/2026); quotes await [BBG]",
+      "summary": "Manages >AED 500bn ($136bn) across 10 sectors (13.5% of Dubai GDP); core leasing REITs/TECOM running ~75% EBITDA margins."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Dubai Holding Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

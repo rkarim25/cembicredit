@@ -132,6 +132,11 @@
         "date": "23 Feb 2027",
         "event": "Maturity of $500m 4.50% Senior Unsecured EMTN (XS1567906059)",
         "impact": "Primary near-term HoldCo liquidity test (cash vs KWD/USD bond refi)."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Kuwait Projects Company (Holding) K.S.C.P. (KIPCO)."
       }
     ]
   },
@@ -145,6 +150,11 @@
       "question": "Detail HoldCo cash dividend upstreamed YTD 2026 vs annual HoldCo cash interest + opex burn.",
       "focus_area": "HoldCo Cash Coverage",
       "relevance": "Tests structural interest coverage."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -208,6 +218,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- Stable (Fitch) / BB+ Positive (CI)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -246,5 +269,56 @@
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
     "days_to_earnings": 104
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-24",
+      "title": "Kuwait Projects Company (Holding) K.S.C.P. (KIPCO) \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 23-Nov-26 from KIPCO 9M 2026 financial filings (Nov-26); quotes await [BBG] capture",
+      "summary": "9M26 rev $3.83bn (+2.2% YoY); repaid $354m Oct-2026 bond from internal cash; next maturity $500m 4.50% 23-Feb-2027 (XS1567906059). Fitch BB- Stable / CI BB+ Positive."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard BB Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Kuwait Projects Company (Holding) K.S.C.P. (KIPCO) Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

@@ -343,6 +343,16 @@
       "focus_area": "Capex",
       "relevance": "Capex cycle determines bond supply.",
       "conviction_trigger": "Net leverage <0.8x."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -1008,6 +1018,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB+ / A3",
+      "price": 98.8,
+      "ytm": 5.05,
+      "spread_bp": 100,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1129,7 +1152,8 @@
     ],
     "negatives": [
       "Massive multi-year energy-transition capex program (offshore wind, SMRs, petrochemicals).",
-      "Refining margin & European gas price normalization risk in 2027."
+      "Refining margin & European gas price normalization risk in 2027.",
+      "Exposure to Poland macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Central Europe's largest multi-utility energy group across refining, petrochemicals, natural gas, retail, and power.",
@@ -1145,6 +1169,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Results & 2027 Capex / Green Bond Issuance Plan",
         "impact": "Tests pace of cash deployment vs net cash status."
+      },
+      {
+        "date": "2027-02-25",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for PKN Orlen."
       }
     ],
     "last_updated": "2026-11-25"

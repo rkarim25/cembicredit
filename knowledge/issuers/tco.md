@@ -4,12 +4,13 @@ _Page created 26-Nov-26 from `database/issuers/tco.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BBB- / Baa2 (Implied Sovereign-Linked).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A |  |  |  |  |  |  |
 | 2025A |  |  |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 

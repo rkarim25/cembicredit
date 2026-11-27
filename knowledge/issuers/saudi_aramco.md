@@ -4,14 +4,14 @@ _Page created 25-Nov-26 from `database/issuers/saudi_aramco.json`. Dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: Aa3 (Moody's) / A+ (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2024A | 436600.0 |  | 85300.0 |  |  |  |
-| 2025A | 415800.0 |  | 85400.0 |  |  |  |
+| 2024A | 436600.0 | 232600.0 | 85300.0 |  | 0.2 |  |
+| 2025A | 415800.0 | 220000.0 | 85400.0 |  | 0.25 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=saudi_aramco) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/saudi_aramco.json)

@@ -344,6 +344,11 @@
       "question": "Indicate appetite for USD Tier 2 / senior EMTN issuance under the updated $4bn programme.",
       "focus_area": "Debt Supply",
       "relevance": "Direct driver of secondary curve technicals."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "market_history": [
@@ -1009,6 +1014,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB Stable (Fitch) / Ba2 Pos (Moody's)",
+      "price": 98.0,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1129,6 +1147,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited Results & Moody's Upgrade Review",
         "impact": "Potential upgrade trigger aligned with South Africa sovereign rating path."
+      },
+      {
+        "date": "2027-02-20",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Standard Bank Group."
       }
     ],
     "last_updated": "2026-11-26"

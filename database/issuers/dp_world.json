@@ -334,12 +334,12 @@
     }
   ],
   "next_earnings_release": {
-    "scheduled_date": "2026-11-26",
-    "period_reporting": "9M 2026 Container Throughput & Interim",
+    "scheduled_date": "2027-03-18",
+    "period_reporting": "FY 2026 Full-Year Results",
     "confirmation_status": "Estimated",
     "call_time": "14:00 Dubai / 10:00 UK",
     "ir_webcast_url": "https://www.dpworld.com/investors",
-    "days_to_earnings": 0
+    "days_to_earnings": 111
   },
   "management_questions": [
     {
@@ -353,6 +353,11 @@
       "focus_area": "Liquidity & Debt",
       "relevance": "Ensures no hidden off-balance-sheet working capital debt.",
       "conviction_trigger": "Full RCF availability and transparent SCF disclosure."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1010,6 +1015,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB+ (Fitch) / Baa2 (Moody's)",
+      "price": 98,
+      "ytm": 5.35,
+      "spread_bp": 120,
+      "net_leverage": 4.1,
+      "ebitda": 5450.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "BBB+ (Fitch) / Baa2 (Moody's)",
       "price": 98,
       "ytm": 5.35,

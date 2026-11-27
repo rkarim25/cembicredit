@@ -102,11 +102,13 @@
     },
     "positives": [
       "~60% owned by National Bank of Kuwait (NBK) + Kuwait sovereign support (A / A2).",
-      "Exceptionally clean ~0.9% NPL ratio and steady 5-9% asset/profit growth."
+      "Exceptionally clean ~0.9% NPL ratio and steady 5-9% asset/profit growth.",
+      "Established Kuwait banking franchise with systemic liquidity access and regulatory oversight."
     ],
     "negatives": [
       "Kuwait real estate concentration and domestic Pillar Two tax drag.",
-      "Upcoming 2027 senior sukuk maturity (XS2441071680) likely brings refinancing supply."
+      "Upcoming 2027 senior sukuk maturity (XS2441071680) likely brings refinancing supply.",
+      "Direct linkage to Kuwait sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Kuwait's second-largest Islamic bank (NBK subsidiary).",
@@ -121,6 +123,11 @@
         "date": "2027-01-31",
         "event": "FY2026 Audited Results & 2027 Sukuk Refinancing Window",
         "impact": "Tracks new USD sukuk supply ahead of Mar-27 maturity."
+      },
+      {
+        "date": "2027-01-31",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Boubyan Bank K.S.C.P.."
       }
     ]
   },
@@ -140,6 +147,16 @@
       "question": "Confirm timing and structure for refinancing Mar-27 senior sukuk XS2441071680.",
       "focus_area": "Wholesale Funding",
       "relevance": "Near-term GCC primary supply."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -164,6 +181,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A Stable (Fitch) / A2 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "A Stable (Fitch) / A2 (Moody's)",
       "price": null,
       "ytm": null,

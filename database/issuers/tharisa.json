@@ -345,6 +345,11 @@
       "question": "Provide multi-year capex profile for the Tharisa South Africa underground transition.",
       "focus_area": "Capex & FCF",
       "relevance": "Tests standalone FCF coverage of 11% coupon."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1010,6 +1015,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B Stable (S&P, Sep-26) / Ba3 Implied",
+      "price": 98.0,
+      "ytm": 9.85,
+      "spread_bp": 550,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1148,6 +1166,11 @@
         "date": "Dec 2026",
         "event": "FY2026 Audited Full-Year Results & Karo Escrow Release Milestones",
         "impact": "Confirms post-bond pro forma leverage and underground capex schedule."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Tharisa plc."
       }
     ],
     "last_updated": "2026-11-26"

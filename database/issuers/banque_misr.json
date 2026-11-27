@@ -121,6 +121,11 @@
         "date": "H1 2027",
         "event": "CBE Rate Cut Cycle & Moody's Egypt Sovereign Review",
         "impact": "Potential B2 trajectory if Egypt FX reserves and IMF programme stay on track."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Banque Misr."
       }
     ]
   },
@@ -134,6 +139,11 @@
       "question": "Confirm active USD Eurobond/syndicated maturities across 2027-2028.",
       "focus_area": "FC Liquidity",
       "relevance": "Tracks external FX debt rollovers."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "annotations": [
@@ -192,6 +202,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B3 Positive (Moody's, Oct-26) / B Stable (Fitch, VR b) / B Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "management_guidance_tracker": [
@@ -212,6 +235,14 @@
       "variance_analysis": "Egypt's #2 state-owned bank (~20% sector assets, EGP 4.21tn) was upgraded by Moody's to B3 Positive in Oct-26 alongside the Egyptian sovereign. FY25 net profit climbed 24% to EGP 100.9bn (H126 EGP 57.47bn), lifting CET1 ",
       "last_guided_source": "Banque Misr H1 2026 Standalone Earnings Release, read 24-Nov-26",
       "last_verified_period": "H126"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-24",
+      "title": "Banque Misr \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 24-Nov-26 from Banque Misr FY2024/FY2025 General Assembly audited statements (Oct-26) & H1 2026 disclosures; quotes await [BBG] capture",
+      "summary": "FY25 assets EGP 4.21tn, deposits EGP 2.94tn, NPAT EGP 100.9bn (+24%), CET1 10.7%, FC LCR ~260%; H126 NPAT EGP 57.47bn. Moody's upgraded to B3 Positive (Oct-26)."
     }
   ]
 }

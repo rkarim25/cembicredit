@@ -1629,6 +1629,19 @@
       "ebitda": 5759.0,
       "fcf": -2330.0,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "D (S&P) / RD (Fitch) / Ca (Moody's)",
+      "price": 51.8,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "net_leverage": 10.2,
+      "ebitda": 5759.0,
+      "fcf": -2330.0,
+      "guidance_status": "Under Watch"
     }
   ],
   "credit_view": {
@@ -1722,5 +1735,16 @@
       "status": "Distressed Alert",
       "summary": "Creditors formally rejected Braskem's $10.9B restructuring plan on 16-Nov-26 ahead of the late-Nov deadline. Q3 recurring EBITDA fell 63% QoQ to $382M ($206M net loss, auditor going-concern warning). Ratings: S&P D, Fitch RD, Moody's Ca Neg; 2028-2033 notes ~50-53c."
     }
-  ]
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "Braskem S.A. Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
+  }
 }

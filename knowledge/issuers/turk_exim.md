@@ -4,14 +4,15 @@ _Page created 08-Oct-26 from `database/issuers/turk_exim.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- EXCRTU 6.125% 2029 / 6.75% 2029: price 99.8, YTM 6.75%, spread 215bp (as of 2026-11-26).
+- EXCRTU 6.125% 2029 / 6.75% 2029: price 99.8, YTM 6.75%, spread 215bp (as of 2026-11-27).
 - Rating as recorded: BB- Stable (Fitch, 2026) / B1.
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
-| 2025A |  |  |  |  |  |
+| 2024A |  |  |  |  | 0.2 |
+| 2025A |  |  |  |  | 0.2 |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=turk_exim) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/turk_exim.json)
 <!-- auto-data-end -->

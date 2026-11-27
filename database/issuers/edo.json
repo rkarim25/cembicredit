@@ -1,0 +1,259 @@
+{
+  "metadata": {
+    "id": "edo",
+    "name": "Energy Development Oman (EDO)",
+    "ticker": "EDO",
+    "country": "Oman",
+    "region": "GCC",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BBB- (S&P) / BBB+ (Fitch)",
+    "tier": "BBB",
+    "benchmark_bond": "EDOSUK 5.662% Jul 2031 (XS2852997993)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Energy_Development_Oman_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c681c9a16befe772ff1d64",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Energy_Development_Oman_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 27-Nov-26 from EDO FY24/FY25 Financial Statements & Sukuk Prospectuses; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "EDO FY24 Audited Financials & S&P/Fitch Reports, read 27-Nov-26",
+      "revenue": 16070.0,
+      "ebitda": 8500.0,
+      "net_profit": 712.0,
+      "net_debt": 8100.0,
+      "net_leverage": 0.95,
+      "observations": {
+        "notes": "FY24 revenue $16.07bn, S&P-adj EBITDA ~$8.5bn, net profit $712m, net debt ~$8.1bn (<1.0x leverage)."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "EDO FY25 Financial Results & S&P Equity Conversion Note, read 27-Nov-26",
+      "revenue": 14770.0,
+      "ebitda": 8300.0,
+      "net_profit": 523.0,
+      "net_leverage": 0.8,
+      "observations": {
+        "notes": "FY25 revenue $14.77bn, EBIT $3.72bn (after $5.2bn royalties & $4.12bn DD&A), net profit $523m. Total equity rose to $11.63bn after $3.31bn shareholder loan converted to equity; leverage <1.0x."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "EDO Sukuk Ltd 5.662% Trust Certificates due Jul 2031",
+      "instrument_type": "Senior Unsecured Sukuk",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 750.0,
+      "coupon": "5.662%",
+      "maturity": "2031-07-03",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2852997993"
+    },
+    {
+      "tranche_name": "EDO Sukuk Ltd 5.875% Trust Certificates due Sep 2033",
+      "instrument_type": "Senior Unsecured Sukuk",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 1000.0,
+      "coupon": "5.875%",
+      "maturity": "2033-09-21",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2689095086"
+    },
+    {
+      "tranche_name": "EDO Sukuk Ltd 5.140% Trust Certificates due Jan 2036",
+      "instrument_type": "Senior Unsecured Sukuk",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 750.0,
+      "coupon": "5.140%",
+      "maturity": "2036-01-22",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3037926865"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 2500.0,
+    "total_outstanding_usd_m": 2500.0,
+    "source": "EDO Sukuk Ltd USD trust certificate curve (XS2852997993, XS2689095086, XS3037926865) + Block 6 bank facilities."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Overweight / Oman National Block 6 Oil & Gas Anchor (<1x Leverage)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "EDO holds Oman's 60% stake in Block 6 (PDO oil & gas) generating $14.77bn FY25 revenue and ~$8.3bn S&P-adjusted EBITDA. The 2025 conversion of $3.31bn shareholder loans into equity lifted equity to $11.63bn and kept leverage below 1.0x, offering spread pickup over Oman sovereign."
+    },
+    "positives": [
+      "Low-cost Block 6 hydrocarbon concession representing >60% of Oman's crude/gas output with >15-year reserve life.",
+      "Deleveraged structure (<1.0x net leverage) strengthened by $3.31bn shareholder loan-to-equity conversion in 2025.",
+      "100% Government of Oman ownership with direct fiscal linkage (BBB- S&P / BBB+ Fitch)."
+    ],
+    "negatives": [
+      "High royalty/tax take ($5.2bn royalties in FY25) compresses bottom-line net margin ($523m FY25 net profit).",
+      "Sustained Brent below $65/bbl pressures FFO after sovereign distributions and Block 6 sustaining capex.",
+      "Single-country concession concentration in Oman."
+    ],
+    "background": {
+      "business_overview": "Oman's state-owned energy vehicle holding 60% of Block 6 oil & 100% of Block 6 gas.",
+      "asset_perimeter": "Petroleum Development Oman (PDO) Block 6 oil, condensate, and non-associated gas concessions.",
+      "ownership_governance": "100% owned by the Government of the Sultanate of Oman."
+    },
+    "recent_drivers": [
+      "FY25: Revenue $14.77bn, EBIT $3.72bn, equity up to $11.63bn post-$3.31bn shareholder loan equity conversion.",
+      "Jan-26: Priced 5.14% Sukuk due Jan-2036 (XS3037926865) extending debt maturity curve."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-31",
+        "event": "FY2026 Audited Financial Statements",
+        "impact": "Tracks Block 6 production, oil realization, and net debt trajectory."
+      },
+      {
+        "date": "2027-05-15",
+        "event": "S&P / Fitch Oman Sovereign & EDO Review",
+        "impact": "Monitors rising-star rating parity."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Equity Cushion",
+      "management_target": "Maintain <1.5x Net Debt/EBITDA",
+      "current_runrate": "<1.0x Net Leverage; $11.63bn equity (FY25)",
+      "tracking_status": "Ahead",
+      "variance_analysis": "Shareholder loan conversion eliminated $3.31bn intercompany debt.",
+      "last_guided_source": "EDO FY25 / S&P",
+      "last_verified_period": "FY25"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Annual Report",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.edo.om/",
+    "days_to_earnings": 124
+  },
+  "management_questions": [
+    {
+      "question": "Detail 2026-2027 Block 6 capex guidance and dividend distribution formula to Ministry of Finance.",
+      "focus_area": "Cash Sweep & Capex",
+      "relevance": "Governs post-royalty FCF retention."
+    },
+    {
+      "question": "Confirm maturity schedule of remaining commercial bank term facilities alongside sukuk tranches.",
+      "focus_area": "Debt Stack",
+      "relevance": "Maps pre-2031 amortizations."
+    },
+    {
+      "question": "Assess gas price reset terms for Block 6 domestic supply contracts.",
+      "focus_area": "Gas Realizations",
+      "relevance": "Provides non-oil cash floor."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "edo",
+      "sector": "Energy",
+      "topic": "FY25 Financials & $3.31bn Equity Conversion",
+      "source": "EDO / S&P / Fitch (2026)",
+      "note": "FY25 revenue $14.77bn, equity $11.63bn post-$3.31bn shareholder loan conversion, <1x leverage; Jan-36 sukuk XS3037926865."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — Oman Block 6 Anchor & Sukuk Curve",
+      "source": "EDO FY24-FY25 Statements",
+      "summary": "Added EDO (BBB-/BBB+) with FY24-FY25 financials, $3.31bn shareholder loan conversion, and 2031/2033/2036 sukuk ISINs."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- (S&P) / BBB+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.95,
+      "ebitda": 8500.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "Oman Insolvency & Restructuring Framework",
+    "thesis": "EDO holds Oman's 60% stake in Block 6 (PDO oil & gas) generating $14.77bn FY25 revenue and ~$8.3bn S&P-adjusted EBITDA. The 2025 conversion of $3.31bn shareholder loans into equity lifted equity to $11.63bn and kept leverage below 1.0x, offering spread pickup over Oman sovereign."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "<1.0x (FY25)",
+      "headroom": "Standard GRE sukuk negative pledge and Block 6 cash-flow waterfall.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "High",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Sovereign Change of Control Put if Oman government ownership falls below 50%."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Energy Development Oman Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Backstopped by sovereign Block 6 cash generation and committed bank facilities."
+  }
+}

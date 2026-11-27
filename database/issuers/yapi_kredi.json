@@ -331,6 +331,16 @@
       "focus_area": "Capital & CoR",
       "relevance": "Lowest headline CAR among Tier-1 Turkish private banks.",
       "conviction_trigger": "Consol CAR >15.0% without regulatory forbearance."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "market_history": [
@@ -996,6 +1006,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- / B1",
+      "price": 99.4,
+      "ytm": 6.75,
+      "spread_bp": 215,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1116,6 +1139,11 @@
         "date": "Feb 2027",
         "event": "FY2026 BRSA Results & Capital / Tier 2 Supply Update",
         "impact": "Tests whether capital buffers rebuild above 15% CAR."
+      },
+      {
+        "date": "2027-02-02",
+        "event": "FY 2026 BRSA",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Yap\u0131 ve Kredi Bankas\u0131."
       }
     ],
     "last_updated": "2026-11-24"

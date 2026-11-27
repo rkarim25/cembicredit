@@ -300,6 +300,16 @@
       "focus_area": "NIM",
       "relevance": "Rate cuts pressure asset yields.",
       "conviction_trigger": "ROTE >15%."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "market_history": [
@@ -965,6 +975,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Aa3 / AA-",
+      "price": 100.5,
+      "ytm": 4.85,
+      "spread_bp": 65,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1068,7 +1091,8 @@
     ],
     "negatives": [
       "Ultra-tight IG spreads leave limited alpha vs Abu Dhabi sovereign.",
-      "NIM compression risk as Fed/CBUAE policy rates ease."
+      "NIM compression risk as Fed/CBUAE policy rates ease.",
+      "Direct linkage to UAE sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "UAE's largest bank by assets (AED 1.47tn), formed by NBAD-FGB merger.",
@@ -1084,6 +1108,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Audited Results & 2027 NIM/Loan Growth Guidance",
         "impact": "Confirms CET1 >13.5% post dividend."
+      },
+      {
+        "date": "2027-01-29",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for First Abu Dhabi Bank."
       }
     ],
     "last_updated": "2026-11-25"

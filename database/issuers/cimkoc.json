@@ -16,7 +16,7 @@
     "model_file": "Cimko_Cimento_Credit_Model.xlsx",
     "notion_id": "3e21d0ad-68c6-81c3-9b09-cd72a8ecc96e",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Cimko_Cimento_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "fcf_2024a": null,
     "net_leverage_2024a": 2.7,
@@ -24,6 +24,18 @@
     "provenance": "financials rebuilt 26-Nov-26 from \u00c7imko \u00c7imento Investor Disclosures & Fitch B+ Stable Affirmation (May-26)"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "\u00c7imko \u00c7imento FY24 IAS 29 Real-Terms Financial Disclosures, read 27-Nov-26",
+      "revenue": 759.0,
+      "ebitda": 212.0,
+      "calculated_ebitda": 212.0,
+      "observations": {
+        "notes": "FY24 revenue ~$759m (IAS 29 real terms), EBITDA $212m (28% margin)."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -36,8 +48,9 @@
       "gross_debt": 400.0,
       "net_leverage": 2.5,
       "observations": {
-        "notes": "LTM revenue ~$712m, EBITDA ~$150-180m (Fitch forecasts margin strengthening toward ~29% and gross leverage trending <2.5x from ~2.7x). Issued $300m 10.75% May-30 Eurobond (XS3045389700) in May-25 anchored by IFC/EBRD."
-      }
+        "notes": "LTM revenue ~$712m, EBITDA ~$150-180m (Fitch forecasts margin strengthening toward ~29% and gross leverage trending <2.5x from ~2.7x). Issued $300m 10.75% May-30 Eurobond (XS3045389700) in May-25 anchored by IFC/EBRD. FY25 EBITDA expanded to $227m (32% margin) on input hedging and captive aggregate/port logistics."
+      },
+      "calculated_ebitda": 227.0
     }
   ],
   "supplementary_data": {
@@ -208,6 +221,11 @@
       "question": "Detail dividend/intercompany upstream policy to Sanko Holding.",
       "focus_area": "Governance",
       "relevance": "Cash leakage vs deleveraging."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -717,6 +735,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ Stable (Fitch, May-26)",
+      "price": 105.0,
+      "ytm": 8.6,
+      "spread_bp": 391,
+      "net_leverage": null,
+      "ebitda": 212.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "commodity_drivers": {
@@ -828,6 +859,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Audited Financial Statements",
         "impact": "Assesses volume normalization and FCF post-reconstruction peak."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for \u00c7imko \u00c7imento."
       }
     ],
     "last_updated": "2026-11-26"

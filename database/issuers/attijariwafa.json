@@ -16,7 +16,7 @@
     "model_file": "Attijariwafa_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Attijariwafa_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "bank",
     "financials_currency": "MAD",
     "provenance": "financials built 26-Nov-26 from Attijariwafa Bank FY2024 Audited CSE Statements & S&P BB+ Upgrade; quotes await [BBG]",
@@ -37,6 +37,20 @@
       "roe_pct": 22.5,
       "observations": {
         "notes": "FY24 assets MAD 726.5bn (~$72.6bn), Net Banking Income MAD 34.5bn (+15.2%), Gross Operating Income MAD 22.0bn (+24.2%, CIR 36.1%), consolidated NPAT MAD 11.7bn (Group Share MAD 9.5bn +26.6%), RoaTE 22.5%."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "MAD",
+      "source": "Attijariwafa Bank FY25 Audited Consolidated Results (Casablanca / AMMC), read 27-Nov-26",
+      "assets": 795500.0,
+      "nii": 34900.0,
+      "net_profit": 12400.0,
+      "equity": 80500.0,
+      "car_pct": 13.13,
+      "observations": {
+        "notes": "FY25 assets MAD 795.5bn (+9.5% YoY), NBI MAD 34.9bn, total net income MAD 12.4bn (group share MAD 10.6bn, +16.2%), equity MAD 80.5bn (+11%), Tier 1 11.9%, Solvency/CAR 13.13% (13.73% H125), Cost of Risk 0.78%."
       }
     }
   ],
@@ -79,11 +93,13 @@
     },
     "positives": [
       "36.1% cost-to-income ratio and 22.5% RoaTE on MAD 726.5bn asset base.",
-      "S&P upgraded to BB+ Stable; dominant Moroccan + Francophone West Africa franchise."
+      "S&P upgraded to BB+ Stable; dominant Moroccan + Francophone West Africa franchise.",
+      "Established Morocco banking franchise with systemic liquidity access and regulatory oversight."
     ],
     "negatives": [
       "Sub-Saharan / UEMOA sovereign and FX exposures across regional subsidiaries.",
-      "Limited USD Eurobond float; primary market exposure via local/syndicated debt."
+      "Limited USD Eurobond float; primary market exposure via local/syndicated debt.",
+      "Direct linkage to Morocco sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Morocco's #1 universal bank with pan-African UEMOA/CEMAC footprint.",
@@ -98,6 +114,11 @@
         "date": "2027-03-10",
         "event": "FY2026 Audited CSE Results",
         "impact": "Updates post-2025 CET1, NPLs, and Morocco 2030 infrastructure lending."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Attijariwafa Bank S.A.."
       }
     ]
   },
@@ -117,6 +138,16 @@
       "question": "Publish FY25/9M26 consolidated CET1, NPL ratio, and any plans for a debut USD Eurobond.",
       "focus_area": "Capital & DCM",
       "relevance": "Monitors potential new Moroccan bank CEMBI supply."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -141,6 +172,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB+ Stable (S&P / Moody's / Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "BB+ Stable (S&P / Moody's / Fitch)",
       "price": null,
       "ytm": null,

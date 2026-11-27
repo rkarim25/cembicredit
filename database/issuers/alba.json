@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "id": "alba",
+    "name": "Aluminium Bahrain (Alba)",
+    "ticker": "ALBH",
+    "country": "Bahrain",
+    "region": "GCC",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "B+ / BB- (Bahrain Sovereign-Linked)",
+    "tier": "B",
+    "benchmark_bond": "ALBH $1.25bn ESG Syndicated Loan & Bahrain Industrial Champion",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Aluminium_Bahrain_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c681afbac5df83e4de2a3d",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aluminium_Bahrain_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 27-Nov-26 from Alba FY24/FY25 Annual Reports & 9M26 Bahrain Bourse Release; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Alba FY24 Audited Statements (Bahrain Bourse / LSE), read 27-Nov-26",
+      "revenue": 4360.0,
+      "net_profit": 490.8,
+      "net_leverage": 1.17,
+      "observations": {
+        "notes": "FY24 revenue ~$4.36bn (BHD 1.64bn), net profit $490.8m (BHD 184.5m), net debt/EBITDA 1.17x."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Alba FY25 Audited Statements (Bahrain Bourse / LSE), read 27-Nov-26",
+      "revenue": 4560.0,
+      "net_profit": 581.6,
+      "net_leverage": 0.52,
+      "observations": {
+        "notes": "FY25 revenue ~$4.56bn (BHD 1.72bn), net profit $581.6m (BHD 218.7m, +18.5% YoY), net debt/EBITDA halved to 0.52x via strong FCF and e-Al Hassalah savings."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Alba 9M26 Interim Financial Results (Nov-26), read 27-Nov-26",
+      "net_profit": 422.0,
+      "assets": 7660.0,
+      "observations": {
+        "notes": "9M26 net profit surged 44.3% YoY to $422m (BHD 158.7m) despite regional supply chain disruptions and temporary potline curtailments; total assets BHD 2.88bn ($7.66bn)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Line 6 Refinancing $1.25bn ESG-Linked Syndicated Facility",
+      "instrument_type": "Senior Unsecured Syndicated Loan",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 1250.0,
+      "coupon": "SOFR + ESG margin",
+      "maturity": "2029-12-31",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English / Bahrain"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 250.0,
+    "2028": 250.0,
+    "2029": 750.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 1250.0,
+    "source": "Alba $1.25bn ESG-linked syndicated facility (net leverage 0.52x FY25)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / Low-Cost First-Quartile Smelter (0.52x Net Leverage)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Alba is the world's largest ex-China single-site aluminium smelter (Line 6, >1.6mtpa) with 9M26 net profit up 44.3% YoY to $422m and net leverage down to 0.52x at FY25. Controlled by Mumtalakat (69.4%) and SABIC (20.6%), credit watch centers on regional energy/alumina logistics and potential Line 7 capex."
+    },
+    "positives": [
+      "First-quartile global cost curve smelter supported by captive gas-fired power and e-Al Hassalah efficiency program.",
+      "Deleveraged to 0.52x Net Debt/EBITDA at FY25 with 9M26 net profit up 44.3% YoY to $422m.",
+      "Strong sovereign & industrial sponsorship (Bahrain Mumtalakat 69.38%, SABIC 20.62%)."
+    ],
+    "negatives": [
+      "Bahrain sovereign ceiling linkage (B+ / B2) and domestic natural gas tariff escalation risk.",
+      "9M26 operational note highlighted regional supply chain disruptions and temporary reduction line curtailments.",
+      "Potential multi-billion Line 7 expansion capex could re-lever balance sheet if approved without equity/partnering."
+    ],
+    "background": {
+      "business_overview": "World's largest single-site aluminium smelter outside China, located in Bahrain.",
+      "asset_perimeter": "Potlines 1-6 (>1.62m mtpa capacity), captive Power Stations 1-5, calciner & marine terminal.",
+      "ownership_governance": "Mumtalakat (69.38%), SABIC Industrial Investments (20.62%), public (10%)."
+    },
+    "recent_drivers": [
+      "9M26: Net profit $422m (+44.3% YoY) despite temporary potline curtailment & regional logistics friction; assets $7.66bn.",
+      "FY25: Net leverage halved from 1.17x to 0.52x on $581.6m net profit."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-18",
+        "event": "FY2026 Full-Year Results & Potline Status Update",
+        "impact": "Clarifies normalization of potline operations and alumina cost pass-through."
+      },
+      {
+        "date": "2027-05-15",
+        "event": "Line 7 / Replacement Smelter Feasibility FID Decision",
+        "impact": "Determines medium-term capex and potential Eurobond/sukuk debut."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Deleveraging & Cost Savings",
+      "management_target": "Sustained <1.0x leverage & e-Al Hassalah savings",
+      "current_runrate": "0.52x Net Leverage (FY25); $422m 9M26 net profit",
+      "tracking_status": "Ahead",
+      "variance_analysis": "Strong LME aluminium + premiums drove rapid debt paydown.",
+      "last_guided_source": "Alba 9M26 Release",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-18",
+    "period_reporting": "FY 2026 Audited Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.albasmelter.com/investors",
+    "days_to_earnings": 83
+  },
+  "management_questions": [
+    {
+      "question": "Quantify volume and cost impact of the 2026 temporary reduction line curtailments and restoration timeline.",
+      "focus_area": "Operations",
+      "relevance": "9M26 release flagged temporary curtailments."
+    },
+    {
+      "question": "Confirm Line 7 FID capital budget, financing mix (ECA vs DCM sukuk), and leverage ceiling.",
+      "focus_area": "Capex Cycle",
+      "relevance": "Primary re-leveraging risk."
+    },
+    {
+      "question": "Detail Bahrain domestic gas price step-ups and alumina hedging coverage for 2027.",
+      "focus_area": "Margin Stability",
+      "relevance": "Protects EBITDA floor."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "alba",
+      "sector": "Materials",
+      "topic": "9M26 Net Profit +44.3% YoY & 0.52x Deleveraging",
+      "source": "Alba BHB/LSE (Nov-26)",
+      "note": "9M26 net profit $422m (+44.3% YoY), assets $7.66bn; FY25 revenue $4.56bn, net leverage 0.52x."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — 9M26 Profit Surge & 0.52x Leverage",
+      "source": "Alba FY24-9M26 Filings",
+      "summary": "Initiated Alba: FY25 revenue $4.56bn, net profit $581.6m, net leverage 0.52x; 9M26 net profit $422m (+44.3% YoY)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ / BB- (Bahrain Sovereign-Linked)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 1.17,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "Bahrain Insolvency & Restructuring Framework",
+    "thesis": "Alba is the world's largest ex-China single-site aluminium smelter (Line 6, >1.6mtpa) with 9M26 net profit up 44.3% YoY to $422m and net leverage down to 0.52x at FY25. Controlled by Mumtalakat (69.4%) and SABIC (20.6%), credit watch centers on regional energy/alumina logistics and potential Line 7 capex."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "0.52x (FY25)",
+      "headroom": "$1.25bn ESG-linked facility leverage & interest cover covenants comfortably met.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "High",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Syndicated loan CoC linked to Bahrain government (Mumtalakat) majority control."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Aluminium Bahrain (Alba) Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by $1.25bn ESG-linked syndicated facility and local working capital lines."
+  }
+}

@@ -303,6 +303,16 @@
       "focus_area": "Leverage & Dividends",
       "relevance": "BP/Eni JVs often upstream excess FCF.",
       "conviction_trigger": "Net leverage <1.7x at $70/bbl Brent."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -968,6 +978,19 @@
       "ebitda": 4099.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ / Ba3",
+      "price": 98.5,
+      "ytm": 8.45,
+      "spread_bp": 410,
+      "net_leverage": null,
+      "ebitda": 4099.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1107,6 +1130,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited Results & Namibia / NGC Gas Production Update",
         "impact": "Confirms net leverage <1.5x and capex step-down."
+      },
+      {
+        "date": "2027-03-18",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Azule Energy."
       }
     ],
     "last_updated": "2026-11-25"

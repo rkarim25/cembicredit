@@ -352,6 +352,16 @@
       "focus_area": "Deleveraging",
       "relevance": "2027 bond refi overhang vs $500m+ YTD debt reduction.",
       "conviction_trigger": "Net debt <$2.2bn by H127."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -1017,6 +1027,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B- / B3",
+      "price": 89.5,
+      "ytm": 10.45,
+      "spread_bp": 610,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1155,6 +1178,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Results & <$2.4bn Net Debt Verification / 2027 Capex",
         "impact": "Confirms sustained FCF sweep toward 2027/2028 senior note paydowns."
+      },
+      {
+        "date": "2027-02-23",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Kosmos Energy."
       }
     ],
     "last_updated": "2026-11-24"

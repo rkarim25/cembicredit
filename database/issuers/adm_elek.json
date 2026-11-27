@@ -16,7 +16,7 @@
     "model_file": "ADM_Elektrik_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6814cb3a1fc47071d72c5",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADM_Elektrik_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "fcf_2024a": null,
     "net_leverage_2024a": null,
@@ -24,6 +24,15 @@
     "provenance": "financials rebuilt 26-Nov-26 from Fitch BB- rating assessment & ADM Elektrik 2026-2030 EMRA 5th Regulatory Period disclosures"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "ADM Elektrik / Fitch Turkish Electricity Distribution Review, read 27-Nov-26",
+      "observations": {
+        "notes": "FY24 EMRA regulated distribution tariff base with inflation indexation; Moody's A1 Advanced ESG score; peer-comparable to GDZ Elektrik (BB- Fitch Stable)."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -994,6 +1003,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BB- Stable (Fitch, early-26) / B2 exp (Moody's)",
+      "price": 98.0,
+      "ytm": 9.25,
+      "spread_bp": 485,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "BB- Stable (Fitch, early-26) / B2 exp (Moody's)",
       "price": 98.0,
       "ytm": 9.25,

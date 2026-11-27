@@ -87,1113 +87,1239 @@
     "section": "issuers",
     "title": "ACWA Power (ACWA)",
     "path": "knowledge/issuers/acwa.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "acwa"
   },
   {
     "section": "issuers",
     "title": "AD Ports Group (ADPORTS)",
     "path": "knowledge/issuers/ad_ports.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ad_ports"
   },
   {
     "section": "issuers",
     "title": "ADM Elektrik (ADMELE)",
     "path": "knowledge/issuers/adm_elek.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "adm_elek"
+  },
+  {
+    "section": "issuers",
+    "title": "ADNOC Distribution (ADNOCDIST)",
+    "path": "knowledge/issuers/adnoc_dist.md",
+    "updated": "27-Nov-26",
+    "slug": "adnoc_dist"
   },
   {
     "section": "issuers",
     "title": "ADNOC Gas plc (ADNOCGAS)",
     "path": "knowledge/issuers/adnoc_gas.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "adnoc_gas"
   },
   {
     "section": "issuers",
     "title": "ADNOC Murban (ADNOCM)",
     "path": "knowledge/issuers/adnoc_murban.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "adnoc_murban"
   },
   {
     "section": "issuers",
     "title": "Absa Group Limited (ABG)",
     "path": "knowledge/issuers/absa.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "absa"
   },
   {
     "section": "issuers",
     "title": "Abu Dhabi Commercial Bank (ADCBUH)",
     "path": "knowledge/issuers/adcb.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "adcb"
   },
   {
     "section": "issuers",
     "title": "Abu Dhabi Islamic Bank (ADIB) (ADIBUH)",
     "path": "knowledge/issuers/adib.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "adib"
   },
   {
     "section": "issuers",
     "title": "Abu Dhabi National Energy (TAQA) (TAQA)",
     "path": "knowledge/issuers/taqa.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "taqa"
   },
   {
     "section": "issuers",
     "title": "Access Holdings Plc (Access Bank) (ACCESS)",
     "path": "knowledge/issuers/access.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "access"
   },
   {
     "section": "issuers",
     "title": "Afreximbank (AFREXIM)",
     "path": "knowledge/issuers/afreximbank.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "afreximbank"
+  },
+  {
+    "section": "issuers",
+    "title": "Africa Finance Corporation (AFC) (AFC)",
+    "path": "knowledge/issuers/afc.md",
+    "updated": "27-Nov-26",
+    "slug": "afc"
   },
   {
     "section": "issuers",
     "title": "Africell (AFRCEL)",
     "path": "knowledge/issuers/africell.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "africell"
   },
   {
     "section": "issuers",
     "title": "Air Global (Advanced Inhalation Rituals) (AIRGLO)",
     "path": "knowledge/issuers/air_global.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "air_global"
   },
   {
     "section": "issuers",
     "title": "Akbank TAS (AKBNK)",
     "path": "knowledge/issuers/akbank.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "akbank"
   },
   {
     "section": "issuers",
     "title": "Al Rajhi Bank (RJHI)",
     "path": "knowledge/issuers/rajhi.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "rajhi"
   },
   {
     "section": "issuers",
     "title": "Aldar Properties (ALDAR)",
     "path": "knowledge/issuers/aldar.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "aldar"
+  },
+  {
+    "section": "issuers",
+    "title": "Alinma Bank (ALINMA)",
+    "path": "knowledge/issuers/alinma.md",
+    "updated": "27-Nov-26",
+    "slug": "alinma"
+  },
+  {
+    "section": "issuers",
+    "title": "Aluminium Bahrain (Alba) (ALBH)",
+    "path": "knowledge/issuers/alba.md",
+    "updated": "27-Nov-26",
+    "slug": "alba"
   },
   {
     "section": "issuers",
     "title": "Anadolu Efes (AEFES)",
     "path": "knowledge/issuers/anadolu_efes.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "anadolu_efes"
   },
   {
     "section": "issuers",
     "title": "AngloGold Ashanti (AU)",
     "path": "knowledge/issuers/anglogold.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "anglogold"
   },
   {
     "section": "issuers",
     "title": "Arada Developments (ARADA)",
     "path": "knowledge/issuers/arada.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "arada"
   },
   {
     "section": "issuers",
     "title": "Aragvi / Trans-Oil (ARAGVI)",
     "path": "knowledge/issuers/aragvi.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "aragvi"
   },
   {
     "section": "issuers",
     "title": "Ar\u00e7elik (Beko) (ARCLK)",
     "path": "knowledge/issuers/arcelik.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "arcelik"
   },
   {
     "section": "issuers",
     "title": "Attijariwafa Bank S.A. (ATW)",
     "path": "knowledge/issuers/attijariwafa.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "attijariwafa"
   },
   {
     "section": "issuers",
     "title": "Avia Solutions Group (ASG Finance) (AVIASG)",
     "path": "knowledge/issuers/asg.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "asg"
   },
   {
     "section": "issuers",
     "title": "Aydem Renewable (AYDEM)",
     "path": "knowledge/issuers/aydem.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "aydem"
   },
   {
     "section": "issuers",
     "title": "Azule Energy (AZULE)",
     "path": "knowledge/issuers/azule.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "azule"
   },
   {
     "section": "issuers",
     "title": "Bank Hapoalim B.M. (POALIM)",
     "path": "knowledge/issuers/hapoalim.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "hapoalim"
   },
   {
     "section": "issuers",
     "title": "Bank Leumi Le-Israel B.M. (LUMISP)",
     "path": "knowledge/issuers/leumi.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "leumi"
   },
   {
     "section": "issuers",
     "title": "Bank Muscat S.A.O.G. (BKMB)",
     "path": "knowledge/issuers/bank_muscat.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "bank_muscat"
   },
   {
     "section": "issuers",
     "title": "Bank Pekao S.A. (PEOPOL)",
     "path": "knowledge/issuers/pekao.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "pekao"
   },
   {
     "section": "issuers",
     "title": "Banque Misr (BMISR)",
     "path": "knowledge/issuers/banque_misr.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "banque_misr"
+  },
+  {
+    "section": "issuers",
+    "title": "Banque Saudi Fransi (BSF) (BSFR)",
+    "path": "knowledge/issuers/bsf.md",
+    "updated": "27-Nov-26",
+    "slug": "bsf"
   },
   {
     "section": "issuers",
     "title": "Bapco Energies (nogaholding) (BAPCO)",
     "path": "knowledge/issuers/bapco.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "bapco"
   },
   {
     "section": "issuers",
     "title": "Binghatti Holding (BINGHA)",
     "path": "knowledge/issuers/binghatti.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "binghatti"
   },
   {
     "section": "issuers",
     "title": "Boubyan Bank K.S.C.P. (BOUBYN)",
     "path": "knowledge/issuers/boubyan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "boubyan"
   },
   {
     "section": "issuers",
     "title": "Braskem S.A. (BRASKM)",
     "path": "knowledge/issuers/braskem.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "braskem"
   },
   {
     "section": "issuers",
     "title": "Burgan Bank K.P.S.C. (BURGAN)",
     "path": "knowledge/issuers/burgan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "burgan"
   },
   {
     "section": "issuers",
     "title": "Coca-Cola \u0130\u00e7ecek (CCI) (CCOLA)",
     "path": "knowledge/issuers/cci.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "cci"
   },
   {
     "section": "issuers",
     "title": "Commercial Bank of Qatar (CBQ) (CBQK)",
     "path": "knowledge/issuers/cbq.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "cbq"
   },
   {
     "section": "issuers",
     "title": "Commercial International Bank (Egypt) S.A.E. (COMI)",
     "path": "knowledge/issuers/cib_egypt.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "cib_egypt"
   },
   {
     "section": "issuers",
     "title": "DP World (DPW)",
     "path": "knowledge/issuers/dp_world.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "dp_world"
   },
   {
     "section": "issuers",
     "title": "DTEK Energy (DTEKUA)",
     "path": "knowledge/issuers/dtek.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "dtek"
   },
   {
     "section": "issuers",
     "title": "Damac Properties (DAMAC)",
     "path": "knowledge/issuers/damac.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "damac"
   },
   {
     "section": "issuers",
     "title": "Dangote Fertiliser (DANFER)",
     "path": "knowledge/issuers/dangote_fert.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "dangote_fert"
   },
   {
     "section": "issuers",
     "title": "Dangote Refinery (DANREF)",
     "path": "knowledge/issuers/dangote_ref.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "dangote_ref"
   },
   {
     "section": "issuers",
     "title": "Dar Al Arkan (DARARK)",
     "path": "knowledge/issuers/dar_arkan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "dar_arkan"
   },
   {
     "section": "issuers",
     "title": "Development Bank of Kazakhstan (DBK) (DBKZ)",
     "path": "knowledge/issuers/dbk.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "dbk"
+  },
+  {
+    "section": "issuers",
+    "title": "Dubai Aerospace Enterprise (DAE) (DAE)",
+    "path": "knowledge/issuers/dae.md",
+    "updated": "27-Nov-26",
+    "slug": "dae"
   },
   {
     "section": "issuers",
     "title": "Dubai Electricity & Water Authority (DEWA) (DEWA)",
     "path": "knowledge/issuers/dewa.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "dewa"
   },
   {
     "section": "issuers",
     "title": "Dubai Holding (DUBAIH)",
     "path": "knowledge/issuers/dubai_holding.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "dubai_holding"
   },
   {
     "section": "issuers",
     "title": "Dubai Islamic Bank (DIBUH)",
     "path": "knowledge/issuers/dib.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "dib"
+  },
+  {
+    "section": "issuers",
+    "title": "EP Infrastructure, a.s. (EPIF) (EPINF)",
+    "path": "knowledge/issuers/epif.md",
+    "updated": "27-Nov-26",
+    "slug": "epif"
   },
   {
     "section": "issuers",
     "title": "EQUATE Petrochemical (EQUATE)",
     "path": "knowledge/issuers/equate.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "equate"
   },
   {
     "section": "issuers",
     "title": "Ecobank Transnational Inc. (ETI) (ETIBNK)",
     "path": "knowledge/issuers/ecobank.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ecobank"
   },
   {
     "section": "issuers",
     "title": "Emaar Properties (EMAAR)",
     "path": "knowledge/issuers/emaar.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "emaar"
   },
   {
     "section": "issuers",
     "title": "Emirates NBD (EMIRAT)",
     "path": "knowledge/issuers/enbd.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "enbd"
   },
   {
     "section": "issuers",
     "title": "Emlak Konut (EKGYO)",
     "path": "knowledge/issuers/emlak.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "emlak"
+  },
+  {
+    "section": "issuers",
+    "title": "Endeavour Mining plc (EDV)",
+    "path": "knowledge/issuers/endeavour_mining.md",
+    "updated": "27-Nov-26",
+    "slug": "endeavour_mining"
+  },
+  {
+    "section": "issuers",
+    "title": "Energean Israel Finance (ENOG)",
+    "path": "knowledge/issuers/energean_israel.md",
+    "updated": "27-Nov-26",
+    "slug": "energean_israel"
+  },
+  {
+    "section": "issuers",
+    "title": "Energy Development Oman (EDO) (EDO)",
+    "path": "knowledge/issuers/edo.md",
+    "updated": "27-Nov-26",
+    "slug": "edo"
   },
   {
     "section": "issuers",
     "title": "Erdemir (EREGL)",
     "path": "knowledge/issuers/erdemir.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "erdemir"
   },
   {
     "section": "issuers",
     "title": "Eskom Holdings (ESKOM)",
     "path": "knowledge/issuers/eskom.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "eskom"
   },
   {
     "section": "issuers",
     "title": "First Abu Dhabi Bank (FABUH)",
     "path": "knowledge/issuers/fab.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "fab"
   },
   {
     "section": "issuers",
     "title": "First HoldCo Plc (FirstBank) (FBNH)",
     "path": "knowledge/issuers/first_holdco.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "first_holdco"
   },
   {
     "section": "issuers",
     "title": "FirstRand Bank (FIRSTR)",
     "path": "knowledge/issuers/firstrand.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "firstrand"
   },
   {
     "section": "issuers",
     "title": "Ford Otomotiv Sanayi (Ford Otosan) (FROTO)",
     "path": "knowledge/issuers/ford_otosan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ford_otosan"
   },
   {
     "section": "issuers",
     "title": "GDZ Elektrik (GDZELE)",
     "path": "knowledge/issuers/gdz_elek.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "gdz_elek"
   },
   {
     "section": "issuers",
     "title": "Garanti BBVA (GARAN)",
     "path": "knowledge/issuers/garanti.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "garanti"
   },
   {
     "section": "issuers",
     "title": "Georgia Capital PLC (CGEO)",
     "path": "knowledge/issuers/georgia_capital.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "georgia_capital"
+  },
+  {
+    "section": "issuers",
+    "title": "Georgian Railway JSC (GRAIL)",
+    "path": "knowledge/issuers/georgian_rail.md",
+    "updated": "27-Nov-26",
+    "slug": "georgian_rail"
   },
   {
     "section": "issuers",
     "title": "Golar LNG Limited (GLNG)",
     "path": "knowledge/issuers/golar.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "golar"
   },
   {
     "section": "issuers",
     "title": "Gold Fields Ltd (GFI)",
     "path": "knowledge/issuers/goldfields.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "goldfields"
   },
   {
     "section": "issuers",
     "title": "Halkbank (HALKB)",
     "path": "knowledge/issuers/halkbank.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "halkbank"
   },
   {
     "section": "issuers",
     "title": "Halyk Bank (HSBKK)",
     "path": "knowledge/issuers/halyk.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "halyk"
   },
   {
     "section": "issuers",
     "title": "Helios Towers (HT)",
     "path": "knowledge/issuers/helios.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "helios"
   },
   {
     "section": "issuers",
     "title": "Hidroelectrica (HIDRO)",
     "path": "knowledge/issuers/hidro.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "hidro"
+  },
+  {
+    "section": "issuers",
+    "title": "ICL Group Ltd. (ICL)",
+    "path": "knowledge/issuers/icl.md",
+    "updated": "27-Nov-26",
+    "slug": "icl"
   },
   {
     "section": "issuers",
     "title": "IHS Towers (IHS)",
     "path": "knowledge/issuers/ihs.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ihs"
   },
   {
     "section": "issuers",
     "title": "Impala Platinum Holdings (Implats) (IMP)",
     "path": "knowledge/issuers/implats.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "implats"
   },
   {
     "section": "issuers",
     "title": "International Bank of Azerbaijan (ABB) (ABB)",
     "path": "knowledge/issuers/abb_az.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "abb_az"
   },
   {
     "section": "issuers",
     "title": "Israel Discount Bank Ltd. (DSCT)",
     "path": "knowledge/issuers/discount_bank.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "discount_bank"
   },
   {
     "section": "issuers",
     "title": "Ittihad Investment (ITTIHAD)",
     "path": "knowledge/issuers/ittihad.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ittihad"
   },
   {
     "section": "issuers",
     "title": "JSC Uzbekneftegaz (UNG) (UNGUZ)",
     "path": "knowledge/issuers/uzbekneftegaz.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "uzbekneftegaz"
   },
   {
     "section": "issuers",
     "title": "Joint Stock Company Kaspi.kz (KSPI)",
     "path": "knowledge/issuers/kaspi.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "kaspi"
   },
   {
     "section": "issuers",
     "title": "KazMunayGas (KMG) (KZOK)",
     "path": "knowledge/issuers/kmg.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "kmg"
   },
   {
     "section": "issuers",
     "title": "Kosmos Energy (KOS)",
     "path": "knowledge/issuers/kosmos.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "kosmos"
   },
   {
     "section": "issuers",
     "title": "Ko\u00e7 Holding (KCHOL)",
     "path": "knowledge/issuers/koc.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "koc"
   },
   {
     "section": "issuers",
     "title": "Kuwait Finance House (KFH) (KFH)",
     "path": "knowledge/issuers/kfh.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "kfh"
   },
   {
     "section": "issuers",
     "title": "Kuwait Projects Company (Holding) K.S.C.P. (KIPCO) (KIPCO)",
     "path": "knowledge/issuers/kipco.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "kipco"
+  },
+  {
+    "section": "issuers",
+    "title": "Leviathan Bond Ltd (NewMed Energy) (LVBOND)",
+    "path": "knowledge/issuers/leviathan.md",
+    "updated": "27-Nov-26",
+    "slug": "leviathan"
   },
   {
     "section": "issuers",
     "title": "Limak Cement (LMKCEM)",
     "path": "knowledge/issuers/limak_cem.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "limak_cem"
   },
   {
     "section": "issuers",
     "title": "Limak Renewable (LMKREN)",
     "path": "knowledge/issuers/limak_ren.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "limak_ren"
   },
   {
     "section": "issuers",
     "title": "LimakPort \u0130skenderun (LMKPRT)",
     "path": "knowledge/issuers/limak_port.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "limak_port"
   },
   {
     "section": "issuers",
     "title": "Lion Finance Group (Bank of Georgia) (BGEO)",
     "path": "knowledge/issuers/bgeo.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "bgeo"
   },
   {
     "section": "issuers",
     "title": "Liquid Telecom (LIQTEL)",
     "path": "knowledge/issuers/liqtel.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "liqtel"
   },
   {
     "section": "issuers",
     "title": "MHP SE (MHPSA)",
     "path": "knowledge/issuers/mhp.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mhp"
   },
   {
     "section": "issuers",
     "title": "MOL Group (MOL)",
     "path": "knowledge/issuers/mol.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mol"
   },
   {
     "section": "issuers",
     "title": "MTN Group (MTNSJ)",
     "path": "knowledge/issuers/mtn.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mtn"
   },
   {
     "section": "issuers",
     "title": "MVM Group (MVM Energetika Zrt.) (MVMHUN)",
     "path": "knowledge/issuers/mvm.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mvm"
   },
   {
     "section": "issuers",
     "title": "Majid Al Futtaim (MAF) (MAF)",
     "path": "knowledge/issuers/maf.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "maf"
+  },
+  {
+    "section": "issuers",
+    "title": "Masdar (Abu Dhabi Future Energy Co.) (MASDAR)",
+    "path": "knowledge/issuers/masdar.md",
+    "updated": "27-Nov-26",
+    "slug": "masdar"
   },
   {
     "section": "issuers",
     "title": "Mashreqbank PSC (MASQ)",
     "path": "knowledge/issuers/mashreq.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mashreq"
   },
   {
     "section": "issuers",
     "title": "Mersin International Port (MIP) (MERSIN)",
     "path": "knowledge/issuers/mersin_port.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mersin_port"
   },
   {
     "section": "issuers",
     "title": "Metinvest (METINV)",
     "path": "knowledge/issuers/metinvest.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "metinvest"
   },
   {
     "section": "issuers",
     "title": "Mizrahi Tefahot Bank Ltd. (MZTF)",
     "path": "knowledge/issuers/mizrahi.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mizrahi"
   },
   {
     "section": "issuers",
     "title": "Mubadala (Mamoura Diversified Global Holding) (MDGH)",
     "path": "knowledge/issuers/mubadala.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mubadala"
   },
   {
     "section": "issuers",
     "title": "NPC Ukrenergo (UKRENE)",
     "path": "knowledge/issuers/ukrenergo.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ukrenergo"
   },
   {
     "section": "issuers",
     "title": "Naftogaz of Ukraine (NAFTO)",
     "path": "knowledge/issuers/naftogaz.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "naftogaz"
   },
   {
     "section": "issuers",
     "title": "National Bank of Kuwait (NBK) (NBK)",
     "path": "knowledge/issuers/nbk.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "nbk"
   },
   {
     "section": "issuers",
     "title": "National Bank of Uzbekistan (NBU) (NBUUZB)",
     "path": "knowledge/issuers/nbu_uzb.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "nbu_uzb"
   },
   {
     "section": "issuers",
     "title": "Navoi Mining & Metallurgical Company (NMMC) (NMMC)",
     "path": "knowledge/issuers/navoi_mining.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "navoi_mining"
   },
   {
     "section": "issuers",
     "title": "Nedbank Group Limited (NED)",
     "path": "knowledge/issuers/nedbank.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "nedbank"
   },
   {
     "section": "issuers",
     "title": "OCP Group (OCP)",
     "path": "knowledge/issuers/ocp.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ocp"
   },
   {
     "section": "issuers",
     "title": "OQ SAOC (OQ)",
     "path": "knowledge/issuers/oq.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "oq"
   },
   {
     "section": "issuers",
     "title": "OTP Bank Nyrt. (OTPHB)",
     "path": "knowledge/issuers/otp.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "otp"
   },
   {
     "section": "issuers",
     "title": "Omantel (Oman Telecommunications) (OMANTEL)",
     "path": "knowledge/issuers/omantel.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "omantel"
   },
   {
     "section": "issuers",
     "title": "Ooredoo QPSC (ORDS)",
     "path": "knowledge/issuers/ooredoo.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ooredoo"
   },
   {
     "section": "issuers",
     "title": "PGE Polska Grupa Energetyczna (PGE)",
     "path": "knowledge/issuers/pge.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "pge"
   },
   {
     "section": "issuers",
     "title": "PKN Orlen (PKN)",
     "path": "knowledge/issuers/orlen.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "orlen"
   },
   {
     "section": "issuers",
     "title": "PKO Bank Polski (PKOBP)",
     "path": "knowledge/issuers/pko_bp.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "pko_bp"
   },
   {
     "section": "issuers",
     "title": "Pearl Petroleum (PEARL)",
     "path": "knowledge/issuers/pearl.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "pearl"
   },
   {
     "section": "issuers",
     "title": "Pegasus Airlines (PGSUS)",
     "path": "knowledge/issuers/pegasus.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "pegasus"
   },
   {
     "section": "issuers",
     "title": "Petra Diamonds (PDL)",
     "path": "knowledge/issuers/petra_diamonds.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "petra_diamonds"
   },
   {
     "section": "issuers",
     "title": "Prosus N.V. (Naspers Group) (PRX)",
     "path": "knowledge/issuers/prosus.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "prosus"
   },
   {
     "section": "issuers",
     "title": "Public Investment Fund (PIF) (PIF)",
     "path": "knowledge/issuers/pif.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "pif"
+  },
+  {
+    "section": "issuers",
+    "title": "Qatar Islamic Bank (QIB) (QIBK)",
+    "path": "knowledge/issuers/qib.md",
+    "updated": "27-Nov-26",
+    "slug": "qib"
   },
   {
     "section": "issuers",
     "title": "Qatar National Bank (QNB) (QNBK)",
     "path": "knowledge/issuers/qnb.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "qnb"
   },
   {
     "section": "issuers",
     "title": "QatarEnergy (QATARE)",
     "path": "knowledge/issuers/qatarenergy.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "qatarenergy"
   },
   {
     "section": "issuers",
     "title": "QazaqGaz (KazTransGas) (QAZGAS)",
     "path": "knowledge/issuers/qazaqgaz.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "qazaqgaz"
   },
   {
     "section": "issuers",
     "title": "Riyad Bank (RIBL)",
     "path": "knowledge/issuers/riyad.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "riyad"
   },
   {
     "section": "issuers",
     "title": "S.N.G.N. Romgaz (ROMGAZ)",
     "path": "knowledge/issuers/romgaz.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "romgaz"
   },
   {
     "section": "issuers",
     "title": "SABIC (SABIC)",
     "path": "knowledge/issuers/sabic.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sabic"
   },
   {
     "section": "issuers",
     "title": "SOCAR (State Oil Company of Azerbaijan) (SOCAR)",
     "path": "knowledge/issuers/socar.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "socar"
   },
   {
     "section": "issuers",
     "title": "SQB (Uzpromstroybank) (SQBUZB)",
     "path": "knowledge/issuers/sqb_uzb.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sqb_uzb"
   },
   {
     "section": "issuers",
     "title": "Sampa Otomotiv (SAMPA)",
     "path": "knowledge/issuers/sampa.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sampa"
   },
   {
     "section": "issuers",
     "title": "Sappi Limited (SAPPI)",
     "path": "knowledge/issuers/sappi.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sappi"
   },
   {
     "section": "issuers",
     "title": "Sasol Ltd (SOLSJ)",
     "path": "knowledge/issuers/sasol.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sasol"
   },
   {
     "section": "issuers",
     "title": "Saudi Arabian Mining Co. (Ma'aden) (MAADEN)",
     "path": "knowledge/issuers/maaden.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "maaden"
   },
   {
     "section": "issuers",
     "title": "Saudi Aramco (ARAMCO)",
     "path": "knowledge/issuers/saudi_aramco.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "saudi_aramco"
   },
   {
     "section": "issuers",
     "title": "Saudi Electricity Company (SEC) (SECO)",
     "path": "knowledge/issuers/sec.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sec"
   },
   {
     "section": "issuers",
     "title": "Saudi National Bank (SNB)",
     "path": "knowledge/issuers/snb.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "snb"
   },
   {
     "section": "issuers",
     "title": "Saudi Telecom Company (STC) (STC)",
     "path": "knowledge/issuers/stc.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "stc"
   },
   {
     "section": "issuers",
     "title": "Seplat Energy Plc (SEPLAT)",
     "path": "knowledge/issuers/seplat.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "seplat"
   },
   {
     "section": "issuers",
     "title": "Sibanye-Stillwater (SSW)",
     "path": "knowledge/issuers/sibanye.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sibanye"
   },
   {
     "section": "issuers",
     "title": "Sobha Realty (SOBHA)",
     "path": "knowledge/issuers/sobha.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sobha"
   },
   {
     "section": "issuers",
     "title": "Sonangol EP (SONANG)",
     "path": "knowledge/issuers/sonangol.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sonangol"
   },
   {
     "section": "issuers",
     "title": "Standard Bank Group (STANBI)",
     "path": "knowledge/issuers/standard_bank.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "standard_bank"
   },
   {
     "section": "issuers",
     "title": "TBC Bank Group Plc (TBCG)",
     "path": "knowledge/issuers/tbc.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "tbc"
+  },
+  {
+    "section": "issuers",
+    "title": "TSKB (T\u00fcrkiye S\u0131nai Kalk\u0131nma Bankas\u0131) (TSKB)",
+    "path": "knowledge/issuers/tskb.md",
+    "updated": "27-Nov-26",
+    "slug": "tskb"
   },
   {
     "section": "issuers",
     "title": "Tengizchevroil (TCO) (TENGIZ)",
     "path": "knowledge/issuers/tco.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "tco"
   },
   {
     "section": "issuers",
     "title": "Teva Pharmaceutical Industries (TEVA)",
     "path": "knowledge/issuers/teva.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "teva"
   },
   {
     "section": "issuers",
     "title": "Tharisa plc (THARISA)",
     "path": "knowledge/issuers/tharisa.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "tharisa"
   },
   {
     "section": "issuers",
     "title": "Transnet SOC Ltd (TRANSN)",
     "path": "knowledge/issuers/transnet.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "transnet"
   },
   {
     "section": "issuers",
     "title": "Tullow Oil (TLW)",
     "path": "knowledge/issuers/tullow.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "tullow"
   },
   {
     "section": "issuers",
     "title": "Turkcell \u0130leti\u015fim (TCELL)",
     "path": "knowledge/issuers/turkcell.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "turkcell"
   },
   {
     "section": "issuers",
     "title": "Turkish Airlines (THY) (THYAO)",
     "path": "knowledge/issuers/thy.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "thy"
   },
   {
     "section": "issuers",
     "title": "T\u00fcpra\u015f (Turkish Petroleum) (TUPRAS)",
     "path": "knowledge/issuers/tupras.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "tupras"
   },
   {
     "section": "issuers",
     "title": "T\u00fcrk Eximbank (EXCRTU)",
     "path": "knowledge/issuers/turk_exim.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "turk_exim"
   },
   {
     "section": "issuers",
     "title": "T\u00fcrk Telekom (TTKOM)",
     "path": "knowledge/issuers/ttkom.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ttkom"
   },
   {
     "section": "issuers",
     "title": "T\u00fcrkiye \u0130\u015f Bankas\u0131 (ISCTR)",
     "path": "knowledge/issuers/isbank.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "isbank"
   },
   {
     "section": "issuers",
     "title": "Ukraine Rail (Ukrzaliznytsia) (RAILUA)",
     "path": "knowledge/issuers/ukr_rail.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ukr_rail"
   },
   {
     "section": "issuers",
     "title": "United Bank for Africa Plc (UBA)",
     "path": "knowledge/issuers/uba.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "uba"
   },
   {
     "section": "issuers",
     "title": "Vak\u0131fBank (VAKBN)",
     "path": "knowledge/issuers/vakifbank.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "vakifbank"
+  },
+  {
+    "section": "issuers",
+    "title": "Vodafone Ukraine (PrJSC VF Ukraine) (VFUKRA)",
+    "path": "knowledge/issuers/vodafone_ukraine.md",
+    "updated": "27-Nov-26",
+    "slug": "vodafone_ukraine"
+  },
+  {
+    "section": "issuers",
+    "title": "WE Soda Investments Holding plc (WESODA)",
+    "path": "knowledge/issuers/wesoda.md",
+    "updated": "27-Nov-26",
+    "slug": "wesoda"
   },
   {
     "section": "issuers",
     "title": "Yap\u0131 ve Kredi Bankas\u0131 (YKBNK)",
     "path": "knowledge/issuers/yapi_kredi.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "yapi_kredi"
   },
   {
     "section": "issuers",
     "title": "Zenith Bank Plc (ZENITH)",
     "path": "knowledge/issuers/zenith.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "zenith"
   },
   {
     "section": "issuers",
     "title": "Ziraat Bank (T.C. Ziraat Bankas\u0131) (ZIRAAT)",
     "path": "knowledge/issuers/ziraat.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ziraat"
   },
   {
     "section": "issuers",
     "title": "Zorlu Enerji (ZOREN)",
     "path": "knowledge/issuers/zorlu.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "zorlu"
   },
   {
     "section": "issuers",
     "title": "e& (Emirates Telecommunications Group) (ETISAL)",
     "path": "knowledge/issuers/etisalat.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "etisalat"
   },
   {
     "section": "issuers",
     "title": "\u00c7imko \u00c7imento (CIMKOC)",
     "path": "knowledge/issuers/cimkoc.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "cimkoc"
   },
   {
     "section": "issuers",
     "title": "\u00dclker Bisk\u00fcvi Sanayi A.\u015e. (ULKER)",
     "path": "knowledge/issuers/ulker.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ulker"
   },
   {
     "section": "issuers",
     "title": "\u010cEZ Group (CEZ)",
     "path": "knowledge/issuers/cez.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "cez"
   },
   {
     "section": "issuers",
     "title": "\u015ei\u015fecam (SISE)",
     "path": "knowledge/issuers/sisecam.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "sisecam"
   },
   {
@@ -1207,84 +1333,84 @@
     "section": "sovereigns",
     "title": "Albania sovereign",
     "path": "knowledge/sovereigns/albania.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "albania"
   },
   {
     "section": "sovereigns",
     "title": "Angola sovereign",
     "path": "knowledge/sovereigns/angola.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "angola"
   },
   {
     "section": "sovereigns",
     "title": "Armenia sovereign",
     "path": "knowledge/sovereigns/armenia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "armenia"
   },
   {
     "section": "sovereigns",
     "title": "Azerbaijan sovereign",
     "path": "knowledge/sovereigns/azerbaijan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "azerbaijan"
   },
   {
     "section": "sovereigns",
     "title": "Bahrain sovereign",
     "path": "knowledge/sovereigns/bahrain.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "bahrain"
   },
   {
     "section": "sovereigns",
     "title": "Benin sovereign",
     "path": "knowledge/sovereigns/benin.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "benin"
   },
   {
     "section": "sovereigns",
     "title": "Brazil sovereign",
     "path": "knowledge/sovereigns/brazil.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "brazil"
   },
   {
     "section": "sovereigns",
     "title": "Cameroon sovereign",
     "path": "knowledge/sovereigns/cameroon.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "cameroon"
   },
   {
     "section": "sovereigns",
     "title": "Chile sovereign",
     "path": "knowledge/sovereigns/chile.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "chile"
   },
   {
     "section": "sovereigns",
     "title": "Colombia sovereign",
     "path": "knowledge/sovereigns/colombia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "colombia"
   },
   {
     "section": "sovereigns",
     "title": "Cote d'Ivoire sovereign",
     "path": "knowledge/sovereigns/cote-d-ivoire.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "cote-d-ivoire"
   },
   {
     "section": "sovereigns",
     "title": "Czech Republic sovereign",
     "path": "knowledge/sovereigns/czech-republic.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "czech-republic"
   },
   {
@@ -1298,35 +1424,35 @@
     "section": "sovereigns",
     "title": "Egypt sovereign",
     "path": "knowledge/sovereigns/egypt.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "egypt"
   },
   {
     "section": "sovereigns",
     "title": "Ethiopia sovereign",
     "path": "knowledge/sovereigns/ethiopia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ethiopia"
   },
   {
     "section": "sovereigns",
     "title": "Gabon sovereign",
     "path": "knowledge/sovereigns/gabon.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "gabon"
   },
   {
     "section": "sovereigns",
     "title": "Georgia sovereign",
     "path": "knowledge/sovereigns/georgia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "georgia"
   },
   {
     "section": "sovereigns",
     "title": "Ghana sovereign",
     "path": "knowledge/sovereigns/ghana.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ghana"
   },
   {
@@ -1347,245 +1473,245 @@
     "section": "sovereigns",
     "title": "Hungary sovereign",
     "path": "knowledge/sovereigns/hungary.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "hungary"
   },
   {
     "section": "sovereigns",
     "title": "India sovereign",
     "path": "knowledge/sovereigns/india.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "india"
   },
   {
     "section": "sovereigns",
     "title": "Indonesia sovereign",
     "path": "knowledge/sovereigns/indonesia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "indonesia"
   },
   {
     "section": "sovereigns",
     "title": "Iraq sovereign",
     "path": "knowledge/sovereigns/iraq.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "iraq"
   },
   {
     "section": "sovereigns",
     "title": "Israel sovereign",
     "path": "knowledge/sovereigns/israel.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "israel"
   },
   {
     "section": "sovereigns",
     "title": "Jordan sovereign",
     "path": "knowledge/sovereigns/jordan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "jordan"
   },
   {
     "section": "sovereigns",
     "title": "Kazakhstan sovereign",
     "path": "knowledge/sovereigns/kazakhstan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "kazakhstan"
   },
   {
     "section": "sovereigns",
     "title": "Kenya sovereign",
     "path": "knowledge/sovereigns/kenya.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "kenya"
   },
   {
     "section": "sovereigns",
     "title": "Kuwait sovereign",
     "path": "knowledge/sovereigns/kuwait.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "kuwait"
   },
   {
     "section": "sovereigns",
     "title": "Lebanon sovereign",
     "path": "knowledge/sovereigns/lebanon.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "lebanon"
   },
   {
     "section": "sovereigns",
     "title": "Malaysia sovereign",
     "path": "knowledge/sovereigns/malaysia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "malaysia"
   },
   {
     "section": "sovereigns",
     "title": "Mexico sovereign",
     "path": "knowledge/sovereigns/mexico.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mexico"
   },
   {
     "section": "sovereigns",
     "title": "Montenegro sovereign",
     "path": "knowledge/sovereigns/montenegro.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "montenegro"
   },
   {
     "section": "sovereigns",
     "title": "Morocco sovereign",
     "path": "knowledge/sovereigns/morocco.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "morocco"
   },
   {
     "section": "sovereigns",
     "title": "Mozambique sovereign",
     "path": "knowledge/sovereigns/mozambique.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "mozambique"
   },
   {
     "section": "sovereigns",
     "title": "Namibia sovereign",
     "path": "knowledge/sovereigns/namibia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "namibia"
   },
   {
     "section": "sovereigns",
     "title": "Nigeria sovereign",
     "path": "knowledge/sovereigns/nigeria.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "nigeria"
   },
   {
     "section": "sovereigns",
     "title": "North Macedonia sovereign",
     "path": "knowledge/sovereigns/north-macedonia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "north-macedonia"
   },
   {
     "section": "sovereigns",
     "title": "Oman sovereign",
     "path": "knowledge/sovereigns/oman.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "oman"
   },
   {
     "section": "sovereigns",
     "title": "Pakistan sovereign",
     "path": "knowledge/sovereigns/pakistan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "pakistan"
   },
   {
     "section": "sovereigns",
     "title": "Peru sovereign",
     "path": "knowledge/sovereigns/peru.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "peru"
   },
   {
     "section": "sovereigns",
     "title": "Philippines sovereign",
     "path": "knowledge/sovereigns/philippines.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "philippines"
   },
   {
     "section": "sovereigns",
     "title": "Poland sovereign",
     "path": "knowledge/sovereigns/poland.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "poland"
   },
   {
     "section": "sovereigns",
     "title": "Qatar sovereign",
     "path": "knowledge/sovereigns/qatar.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "qatar"
   },
   {
     "section": "sovereigns",
     "title": "Romania sovereign",
     "path": "knowledge/sovereigns/romania.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "romania"
   },
   {
     "section": "sovereigns",
     "title": "Rwanda sovereign",
     "path": "knowledge/sovereigns/rwanda.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "rwanda"
   },
   {
     "section": "sovereigns",
     "title": "Saudi Arabia sovereign",
     "path": "knowledge/sovereigns/saudi-arabia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "saudi-arabia"
   },
   {
     "section": "sovereigns",
     "title": "Senegal sovereign",
     "path": "knowledge/sovereigns/senegal.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "senegal"
   },
   {
     "section": "sovereigns",
     "title": "Serbia sovereign",
     "path": "knowledge/sovereigns/serbia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "serbia"
   },
   {
     "section": "sovereigns",
     "title": "South Africa sovereign",
     "path": "knowledge/sovereigns/south-africa.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "south-africa"
   },
   {
     "section": "sovereigns",
     "title": "Tajikistan sovereign",
     "path": "knowledge/sovereigns/tajikistan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "tajikistan"
   },
   {
     "section": "sovereigns",
     "title": "Thailand sovereign",
     "path": "knowledge/sovereigns/thailand.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "thailand"
   },
   {
     "section": "sovereigns",
     "title": "Tunisia sovereign",
     "path": "knowledge/sovereigns/tunisia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "tunisia"
   },
   {
     "section": "sovereigns",
     "title": "Turkey sovereign",
     "path": "knowledge/sovereigns/turkey.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "turkey"
   },
   {
     "section": "sovereigns",
     "title": "UAE sovereign",
     "path": "knowledge/sovereigns/uae.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "uae"
   },
   {
@@ -1599,42 +1725,42 @@
     "section": "sovereigns",
     "title": "Ukraine sovereign",
     "path": "knowledge/sovereigns/ukraine.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "ukraine"
   },
   {
     "section": "sovereigns",
     "title": "Uzbekistan sovereign",
     "path": "knowledge/sovereigns/uzbekistan.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "uzbekistan"
   },
   {
     "section": "sovereigns",
     "title": "Zambia sovereign",
     "path": "knowledge/sovereigns/zambia.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "zambia"
   },
   {
     "section": "themes",
     "title": "Benchmark universe: EMBI and CEMBI, CEEMEA first",
     "path": "knowledge/themes/benchmark-universe.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "benchmark-universe"
   },
   {
     "section": "themes",
     "title": "CEMBI corporate monitor",
     "path": "knowledge/themes/corporate-monitor.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "corporate-monitor"
   },
   {
     "section": "themes",
     "title": "Catalyst calendar (rolling)",
     "path": "knowledge/themes/calendar.md",
-    "updated": "26-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "calendar"
   },
   {
@@ -1662,7 +1788,7 @@
     "section": "themes",
     "title": "EM macro monitor",
     "path": "knowledge/themes/macro-monitor.md",
-    "updated": "16-Nov-26",
+    "updated": "27-Nov-26",
     "slug": "macro-monitor"
   },
   {

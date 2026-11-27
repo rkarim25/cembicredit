@@ -4,13 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/sonangol.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- SONANG 9.15% 2028: price 97.2, YTM 9.15%, spread 475bp (as of 2026-11-26).
+- SONANG 9.15% 2028: price 97.2, YTM 9.15%, spread 475bp (as of 2026-11-27).
 - Rating as recorded: B- / B3 (Angola Sovereign Cap).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A | 10500.0 | 3400.0 |  |  |  |  |
 | 2025A | 9150.0 | 2625.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 

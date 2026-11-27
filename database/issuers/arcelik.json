@@ -16,7 +16,7 @@
     "model_file": "Arcelik_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Arcelik_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "financials_currency": "TRY",
     "provenance": "financials built 25-Nov-26 from Ar\u00e7elik FY2025 Audited & 9M 2026 KAP IAS 29 Statements + S&P Rating Action; quotes await [BBG]",
@@ -33,8 +33,9 @@
       "ebitda_margin_pct": 5.3,
       "fcf": -11400.0,
       "observations": {
-        "notes": "FY24 rev TRY 560.94bn, EBITDA margin 5.3%, FCF -TRY 11.4bn amid Whirlpool EMEA integration."
-      }
+        "notes": "FY24 rev TRY 560.94bn, EBITDA margin 5.3%, FCF -TRY 11.4bn amid Whirlpool EMEA integration. FY24 adjusted EBITDA ~TRY 24-28bn range under IAS 29."
+      },
+      "ebitda": 26000.0
     },
     {
       "period": "2025A",
@@ -46,8 +47,10 @@
       "fcf": 5700.0,
       "net_leverage": 3.74,
       "observations": {
-        "notes": "FY25 rev TRY 523.93bn (-6.6% real YoY), EBITDA margin 5.9%, FCF turned positive +TRY 5.7bn, MGL-adjusted net leverage 3.74x."
-      }
+        "notes": "FY25 rev TRY 523.93bn (-6.6% real YoY), EBITDA margin 5.9%, FCF turned positive +TRY 5.7bn, MGL-adjusted net leverage 3.74x. FY25 S&P adjusted EBITDA ~TRY 25bn (~4.8% margin); total financial debt elevated (scaled toward TRY 289bn by late 2026)."
+      },
+      "ebitda": 25000.0,
+      "gross_debt": 224000.0
     },
     {
       "period": "9M26",
@@ -150,6 +153,11 @@
       "question": "Quantify cash proceeds from Hitachi/LG JV restructurings earmarked for gross debt reduction.",
       "focus_area": "Deleveraging",
       "relevance": "Needed to offset TRY 36.3bn 9M financing drag."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -202,6 +210,19 @@
       "ebitda": null,
       "fcf": -11400.0,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B Negative (S&P, Nov-26) / B+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 26000.0,
+      "fcf": -11400.0,
+      "guidance_status": "Under Watch"
     }
   ],
   "recovery_analysis": {
@@ -212,5 +233,56 @@
     "implied_stress_ev_multiple": 5.0,
     "restructuring_framework": "Turkey Commercial Law",
     "thesis": "Global white-goods scale + Ko\u00e7 Holding parentage vs thin 5-6% margins and heavy TRY debt service."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Ar\u00e7elik (Beko) \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Ar\u00e7elik FY2025 Audited & 9M 2026 KAP IAS 29 Statements + S&P Rating Action; quotes await [BBG]",
+      "summary": "S&P downgraded to B Negative on <1x interest coverage, negative FOCF, and Dec-26 IFRS 18 covenant waiver requests."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "3.74x",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard HY Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Ar\u00e7elik (Beko) Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "id": "georgian_rail",
+    "name": "Georgian Railway JSC",
+    "ticker": "GRAIL",
+    "country": "Georgia",
+    "region": "CEE",
+    "sector": "Industrials",
+    "type": "corp",
+    "rating": "BB- (S&P/Fitch)",
+    "tier": "BB",
+    "benchmark_bond": "GRAIL 4.00% Jun 2028 ($500m Green, XS2340149439)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Georgian_Railway_JSC_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c68192b03bf60ea0040542",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Georgian_Railway_JSC_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "GEL",
+    "provenance": "financials built 27-Nov-26 from Georgian Railway 9M25/FY25/H126 Disclosures & S&P/Fitch Reports; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Georgian Railway FY25 / Galt & Taggart & S&P Reports, read 27-Nov-26",
+      "revenue": 222.8,
+      "ebitda": 67.0,
+      "net_leverage": 4.9,
+      "observations": {
+        "notes": "FY25 revenue ~$222.8m (-6.5% YoY on softer transit cargo), ~30% EBITDA margin ahead of mainline modernization completion; net leverage ~4.6x-5.2x."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "GEL",
+      "source": "Georgian Railway H126 Consolidated Filings (Sep-26 cash), read 27-Nov-26",
+      "revenue": 306.8,
+      "ebitda": 150.0,
+      "cash": 405.0,
+      "gross_debt": 1350.0,
+      "observations": {
+        "notes": "H126 revenue GEL 306.8m (+3.8% YoY); 5M26 Adj EBITDA surged +91% YoY to GEL 122.9m (>40%-50% margin) post-late-2025 mainline modernization completion; cash ~$150m (~GEL 405m) as of Sep-26 against $500m Jun-28 Eurobond."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Georgian Railway 4.000% Green Eurobond due Jun 2028",
+      "instrument_type": "Senior Unsecured Green Eurobond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "4.000%",
+      "maturity": "2028-06-17",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2340149439"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 500.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "Georgian Railway $500m 4.00% Jun-28 Green Eurobond (XS2340149439); cash ~$150m Sep-26."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / Strategic Middle-Corridor Rail Monopoly Rebounding Post-Modernization",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "100% state-owned Georgian Railway is a strategic South Caucasus Middle Corridor freight monopoly with $150m cash (Sep-26) against its sole $500m 4.00% Jun-28 green Eurobond. Completion of the mainline modernization in late 2025 drove a +91% surge in 5M26 Adjusted EBITDA (GEL 122.9m) and drops capex needs going forward."
+    },
+    "positives": [
+      "100% Government of Georgia ownership (sovereign-linked BB-) and strategic Middle Corridor transit monopoly.",
+      "Mainline modernization completed late 2025, lifting 5M26 Adj EBITDA +91% YoY to GEL 122.9m and reducing future capex.",
+      "Healthy $150m cash buffer (Sep-26) providing ~30% cash coverage of the $500m Jun-28 Eurobond."
+    ],
+    "negatives": [
+      "Elevated net leverage (~4.6x-5.2x) and 100% USD Eurobond debt against partial GEL/USD revenue mix.",
+      "Freight volume volatility tied to regional transit competition and Black Sea port congestion.",
+      "EU-Georgia political friction adds sovereign spread volatility ahead of 2027-2028 refinancing window."
+    ],
+    "background": {
+      "business_overview": "Sole railway infrastructure and freight/passenger operator in Georgia.",
+      "asset_perimeter": "1,440+ km Middle Corridor rail network connecting Azerbaijan/Caspian to Batumi/Poti Black Sea ports.",
+      "ownership_governance": "100% owned by Government of Georgia (Ministry of Economy / Partnership Fund)."
+    },
+    "recent_drivers": [
+      "H126: Revenue GEL 306.8m (+3.8% YoY); 5M26 Adj EBITDA +91% YoY to GEL 122.9m; Sep-26 cash ~$150m."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-04-15",
+        "event": "FY2026 Audited IFRS Results",
+        "impact": "Confirms full-year post-modernization EBITDA step-up and leverage compression below 4.5x."
+      },
+      {
+        "date": "2027-06-17",
+        "event": "1-Year Window to Jun-2028 $500m Eurobond",
+        "impact": "Triggers refinancing preparation."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "EBITDA & Capex Step-Down",
+      "management_target": "Post-modernization margin expansion (>40% EBITDA)",
+      "current_runrate": "5M26 Adj EBITDA GEL 122.9m (+91% YoY); $150m cash (Sep-26)",
+      "tracking_status": "Ahead",
+      "variance_analysis": "Completed mainline bottleneck doubled capacity and cut opex.",
+      "last_guided_source": "Georgian Railway H126",
+      "last_verified_period": "H126"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-04-15",
+    "period_reporting": "FY 2026 Audited Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.railway.ge/en/investors/",
+    "days_to_earnings": 139
+  },
+  "management_questions": [
+    {
+      "question": "Confirm 2026-2027 maintenance capex floor now that the mainline modernization project is complete.",
+      "focus_area": "FCF Inflection",
+      "relevance": "Drives deleveraging before Jun-28 maturity."
+    },
+    {
+      "question": "Detail Middle Corridor container & oil transit volume split and tariff indexation in USD vs GEL.",
+      "focus_area": "FX & Volumes",
+      "relevance": "Matches $500m USD debt service."
+    },
+    {
+      "question": "Outline Jun-2028 $500m Eurobond refinancing plan (green tap vs DFI/IFI loans).",
+      "focus_area": "Refinancing",
+      "relevance": "Jun-28 bullet approaches mid-2027."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "georgian_rail",
+      "sector": "Industrials",
+      "topic": "H126 EBITDA +91% Surge & $150m Cash Ahead of Jun-28 Bond",
+      "source": "Georgian Railway / S&P (2026)",
+      "note": "H126 rev GEL 306.8m, 5M26 Adj EBITDA GEL 122.9m (+91% YoY), cash $150m Sep-26; XS2340149439 $500m Jun-28."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — Middle Corridor Modernization Payoff",
+      "source": "Georgian Railway FY25-H126",
+      "summary": "Initiated Georgian Railway (BB-): 5M26 EBITDA +91% YoY, $150m cash Sep-26, $500m Jun-28 green Eurobond (XS2340149439)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- (S&P/Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "Georgia Insolvency & Restructuring Framework",
+    "thesis": "100% state-owned Georgian Railway is a strategic South Caucasus Middle Corridor freight monopoly with $150m cash (Sep-26) against its sole $500m 4.00% Jun-28 green Eurobond. Completion of the mainline modernization in late 2025 drove a +91% surge in 5M26 Adjusted EBITDA (GEL 122.9m) and drops capex needs going forward."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "4.6x-5.2x (FY25)",
+      "headroom": "Standard Eurobond negative pledge and Net Debt/EBITDA incurrence limit.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "100% state ownership maintenance / CoC Put at 101% under XS2340149439."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Georgian Railway Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity anchored by ~$150m balance sheet cash as of Sep-26."
+  }
+}

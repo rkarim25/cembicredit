@@ -327,6 +327,16 @@
       "focus_area": "Feedstock & Tax",
       "relevance": "EU/Ukraine transit policy risk.",
       "conviction_trigger": "Full non-Russian optionality & leverage <0.8x."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -992,6 +1002,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB-",
+      "price": 98.0,
+      "ytm": 5.5,
+      "spread_bp": 145,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1113,7 +1136,8 @@
     ],
     "negatives": [
       "Russian Druzhba crude supply dependency & Hungary/EU windfall energy taxes.",
-      "Cyclical refining margin normalization into 2027 and $233m Q3 one-offs."
+      "Cyclical refining margin normalization into 2027 and $233m Q3 one-offs.",
+      "Exposure to Hungary macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Hungary-headquartered integrated CEE oil, gas, petrochemicals, and retail group.",
@@ -1129,6 +1153,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Results & Crude Diversification / Windfall Tax Update",
         "impact": "Clarifies Druzhba pipeline transition capex."
+      },
+      {
+        "date": "2027-02-19",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for MOL Group."
       }
     ],
     "last_updated": "2026-11-25"

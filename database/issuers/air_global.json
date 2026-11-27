@@ -90,6 +90,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- Stable (S&P, Oct-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
@@ -196,6 +209,11 @@
       "question": "Confirm net cash proceeds retained post-SPAC closing vs transaction expenses and OOKA investment ramp.",
       "focus_area": "Capital Allocation",
       "relevance": "Monitors sponsor/equity payout discipline."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "supplementary_data": {
@@ -237,6 +255,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Form 20-F / Annual Results",
         "impact": "Confirms normalization of Hormuz-related working capital and deleveraging back toward <2.2x."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for AIR Global PLC (Al Fakher / Advanced Inhalation Rituals)."
       }
     ],
     "last_updated": "2026-11-26"

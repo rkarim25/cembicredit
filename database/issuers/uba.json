@@ -113,6 +113,11 @@
         "date": "H1 2027",
         "event": "FY2026 Audited Results & Potential New GMTN Eurobond Issuance",
         "impact": "Assesses post-forbearance NPL peak and whether UBA taps $1.5bn GMTN."
+      },
+      {
+        "date": "2027-02-20",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for United Bank for Africa Plc."
       }
     ]
   },
@@ -126,6 +131,11 @@
       "question": "Indicate plans for a new USD Eurobond under the $1.5bn GMTN after redeeming the $300m Nov-26 bond.",
       "focus_area": "DCM Supply",
       "relevance": "Key CEMBI Nigeria bank issuance watch."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -189,6 +199,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B Stable (Fitch) / B3 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Under Watch"
     }
   ],
   "management_guidance_tracker": [
@@ -218,5 +241,13 @@
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
     "days_to_earnings": 86
-  }
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "United Bank for Africa Plc \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 23-Nov-26 from UBA FY2025 & 9M 2026 NGX financial filings (Nov-26); quotes await [BBG] capture",
+      "summary": "Redeemed $300m 6.75% Eurobond on 19-Nov-26 (XS2409171225). 9M26 assets NGN 34.96tn, deposits NGN 28.87tn, loans NGN 7.44tn, PAT NGN 401.6bn (-25.3% YoY on NGN 272.12bn provisions), T1 17.2%, Stage 3 ~8.1%."
+    }
+  ]
 }

@@ -333,6 +333,11 @@
       "question": "What MEG/PE spread assumptions are required to return Net Debt/EBITDA inside Moody's Baa2 tolerance?",
       "focus_area": "Leverage & Ratings",
       "relevance": "Nov-26 Negative Outlook creates fallen-angel/downgrade watch."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -998,6 +1003,19 @@
       "ebitda": 1270.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Baa2 Negative (Moody's, Nov-26) / BBB (Fitch)",
+      "price": 98.2,
+      "ytm": 5.55,
+      "spread_bp": 150,
+      "net_leverage": null,
+      "ebitda": 1270.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1136,6 +1154,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Audited Results & Post-Nov-26 Maturity Liquidity Update",
         "impact": "Key check on Moody's Baa2 Negative downgrade triggers (Net Debt/EBITDA threshold)."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for EQUATE Petrochemical."
       }
     ],
     "last_updated": "2026-11-26"

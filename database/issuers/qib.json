@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "id": "qib",
+    "name": "Qatar Islamic Bank (QIB)",
+    "ticker": "QIBK",
+    "country": "Qatar",
+    "region": "GCC",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A1 (Moody's) / A (Fitch)",
+    "tier": "A",
+    "benchmark_bond": "QIBK 5.581% Nov 2028 Sukuk (XS2723536970)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Qatar_Islamic_Bank_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c6813b8617e1f23d8515db",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Qatar_Islamic_Bank_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "bank",
+    "financials_currency": "QAR",
+    "provenance": "financials built 27-Nov-26 from QIB FY24/FY25 Annual Reports & 9M26 QSE Financial Statements; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "QAR",
+      "source": "QIB FY24 Audited Financial Statements (QSE), read 27-Nov-26",
+      "assets": 200800.0,
+      "loans": 125400.0,
+      "deposits": 125000.0,
+      "net_profit": 4605.0,
+      "npl_pct": 1.5,
+      "observations": {
+        "notes": "FY24 assets QAR 200.8bn, net profit QAR 4,605m, NPL ~1.5%."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "QAR",
+      "source": "QIB FY25 Audited Financial Statements (QSE), read 27-Nov-26",
+      "assets": 221100.0,
+      "loans": 138500.0,
+      "deposits": 142700.0,
+      "net_profit": 4835.0,
+      "npl_pct": 1.5,
+      "observations": {
+        "notes": "FY25 assets QAR 221.1bn (+10.1% YoY), financing assets QAR 138.5bn, deposits QAR 142.7bn, net profit QAR 4,835m (+5.0%)."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "QAR",
+      "source": "QIB 9M26 Condensed Interim Statements (QSE), read 27-Nov-26",
+      "assets": 235500.0,
+      "loans": 160700.0,
+      "deposits": 145000.0,
+      "nii": 7659.2,
+      "net_profit": 3525.2,
+      "npl_pct": 1.51,
+      "car_pct": 23.6,
+      "observations": {
+        "notes": "9M26 assets QAR 235.5bn (+6.5% YTD), financing QAR 160.7bn (+16.1% YTD), deposits QAR 145.0bn, net financing income QAR 7.66bn, net profit QAR 3,525.2m (+2.0% YoY), CAR 23.6%, NPL 1.51% (95.1% coverage)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "QIB Sukuk Ltd 5.581% Senior Unsecured Sukuk due Nov 2028",
+      "instrument_type": "Senior Unsecured Sukuk",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "5.581%",
+      "maturity": "2028-11-22",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2723536970"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 500.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "QIB $500m 5.581% Nov-28 Sukuk (XS2723536970); 2025 maturities (XS2109794417, XS2248012382) repaid."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / Qatar's Largest Islamic Bank (23.6% CAR, 1.51% NPL)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "QIB is Qatar's largest Islamic bank (QAR 235.5bn assets in 9M26) with exceptional capitalization (23.6% CAR under new QCB rules) and pristine asset quality (1.51% NPL, 95.1% coverage). Strong sovereign backing (QIA ~17%) anchors tight spreads."
+    },
+    "positives": [
+      "Sector-leading 23.6% Total CAR under updated Qatar Central Bank standards.",
+      "Resilient asset quality: 1.51% NPF ratio with 95.1% provisioning coverage in 9M26.",
+      "Strong Qatar sovereign systemic support (D-SIB status; QIA ~17% stake) and North Field macro tailwind."
+    ],
+    "negatives": [
+      "9M26 financing growth (+16.1% YTD to QAR 160.7bn) outpaced deposit growth (+1.6%), tightening LDR.",
+      "High Qatari real estate and government/GRE sector concentration.",
+      "Tight IG senior sukuk spreads limit excess return vs BBB/BB CEEMEA."
+    ],
+    "background": {
+      "business_overview": "Qatar's premier Sharia-compliant commercial and retail bank.",
+      "asset_perimeter": "QAR 160.7bn financing book across Qatar sovereign/GRE, real estate, and retail.",
+      "ownership_governance": "Qatar Investment Authority (~17%), Qatari institutions & public (QSE: QIBK)."
+    },
+    "recent_drivers": [
+      "9M26: Assets QAR 235.5bn, financing +16.1% YTD to QAR 160.7bn, net profit QAR 3.53bn (+2% YoY), CAR 23.6%, NPL 1.51%."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-01-20",
+        "event": "FY2026 Audited Financial Results",
+        "impact": "Confirms full-year LDR funding mix and cost of risk."
+      },
+      {
+        "date": "2027-04-20",
+        "event": "Q1 2027 Results & Wholesale Sukuk Pipeline",
+        "impact": "Monitors potential USD sukuk issuance to fund 16% loan growth."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Capital & Asset Quality",
+      "management_target": "CAR >18%; NPL <2.0%",
+      "current_runrate": "CAR 23.6%; NPL 1.51% (9M26)",
+      "tracking_status": "Ahead",
+      "variance_analysis": "Strong internal capital retention keeps CAR well above QCB minimum.",
+      "last_guided_source": "QIB 9M26 QSE Release",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-01-20",
+    "period_reporting": "FY 2026 Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.qib.com.qa/en/investor-relations/",
+    "days_to_earnings": 54
+  },
+  "management_questions": [
+    {
+      "question": "Explain the 9M26 gap between +16.1% financing growth and +1.6% deposit growth and wholesale sukuk plans for 2027.",
+      "focus_area": "Funding & LDR",
+      "relevance": "Financing-to-deposit ratio moved >110%."
+    },
+    {
+      "question": "Detail Stage 2 real estate contracting exposures and ECL coverage trends.",
+      "focus_area": "Asset Quality",
+      "relevance": "Key Qatar domestic risk."
+    },
+    {
+      "question": "Confirm dividend payout ratio vs organic capital buffer post-QCB rule changes.",
+      "focus_area": "Capital",
+      "relevance": "Sustains 23.6% CAR."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "qib",
+      "sector": "Banks",
+      "topic": "9M26 Results (CAR 23.6%, Financing +16.1% YTD)",
+      "source": "QIB QSE (2026)",
+      "note": "9M26 assets QAR 235.5bn, financing QAR 160.7bn, deposits QAR 145.0bn, net profit QAR 3,525m, CAR 23.6%, NPL 1.51%."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Qatar Islamic Bank (QIB) — Verified Filings & Credit Profile",
+      "source": "financials built 27-Nov-26 from QIB FY24/FY25 Annual Reports & 9M26 QSE Financial Statements; quotes await [BBG]",
+      "summary": "9M26 assets QAR 235.5bn, financing QAR 160.7bn, deposits QAR 145.0bn, net profit QAR 3,525m, CAR 23.6%, NPL 1.51%."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A1 (Moody's) / A (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "supplementary_data": {
+    "npl_coverage_pct": 95.1,
+    "total_income_9m26_qar_m": 8519.7
+  }
+}

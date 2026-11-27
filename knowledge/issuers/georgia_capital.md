@@ -4,7 +4,7 @@ _Page created 24-Nov-26 from `database/issuers/georgia_capital.json`. Dated, sou
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB Stable (S&P, Jun-26).
 

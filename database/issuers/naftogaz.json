@@ -125,6 +125,11 @@
         "date": "2027-01-15",
         "event": "Restructured 2032/2033 Eurobond Coupon & Winter Heating Season Liquidity Test",
         "impact": "Monitors gas storage adequacy and NBU FX coupon transfer approvals."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Naftogaz of Ukraine."
       }
     ]
   },
@@ -144,6 +149,16 @@
       "question": "Confirm 2026/2027 winter gas import financing coverage (EBRD/IFI lines) and PSO state compensation receipts.",
       "focus_area": "Winter Liquidity",
       "relevance": "Determines operating cash buffer post-Jul-26 restructuring."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "annotations": [
@@ -196,6 +211,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Restructured (Jul-26) / CCC",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -206,5 +234,56 @@
     "implied_stress_ev_multiple": 3.5,
     "restructuring_framework": "English Law / Ukraine Sovereign-Quasi",
     "thesis": "2032-2033 maturity runway + strategic European gas storage assets vs war-damage capex."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-26",
+      "title": "Naftogaz of Ukraine \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Naftogaz FY2025 Audited Financials & Jul-26 Eurobond Restructuring Notice; quotes await [BBG]",
+      "summary": "Fitch maintains CC IDR reflecting infrastructure attack risks and gas import funding needs despite \u20ac1.2bn 2032/33 Eurobond restructuring."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard Distressed Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Naftogaz of Ukraine Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

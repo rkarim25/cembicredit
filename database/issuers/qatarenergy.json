@@ -162,6 +162,11 @@
         "date": "H1 2027",
         "event": "Ras Laffan Restoration Progress & FY2026 Audited Results",
         "impact": "Tests LNG export throughput recovery and Fitch Negative outlook resolution."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for QatarEnergy."
       }
     ]
   },
@@ -175,6 +180,11 @@
       "question": "Update North Field East/South/West capex phasing and any contingency liquidity draws.",
       "focus_area": "Capex & Liquidity",
       "relevance": "Tests internal cash funding capacity."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -233,6 +243,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "AA Negative (Fitch, SCP aa+) / Aa2 (Moody's eq) / AA (S&P eq)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -263,5 +286,56 @@
       "last_guided_source": "QatarEnergy H1 2026 Unaudited Consolidated Financial Statements (Oct-26), read 24-Nov-26",
       "last_verified_period": "H126"
     }
-  ]
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-24",
+      "title": "QatarEnergy \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 24-Nov-26 from QatarEnergy FY2024/FY2025 LSE filings & H1 2026 interim financial statements (Oct-26); quotes await [BBG] capture",
+      "summary": "H126 rev QAR 87bn (-35% YoY), NPAT QAR 15bn (-69%) post-Mar-26 Ras Laffan strike; assets QAR 704bn vs liabilities QAR 184bn. Fitch AA Negative (SCP aa+). $11bn 2031/41/51 bonds."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "QatarEnergy Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
+  }
 }

@@ -16,7 +16,7 @@
     "model_file": "Bapco_Energies_Credit_Model.xlsx",
     "notion_id": "3e01d0ad-68c6-8138-bce5-cc98fa4260f4",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bapco_Energies_Credit_Model.xlsx",
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "fcf_2024a": -222.1,
     "net_leverage_2024a": 3.4,
@@ -31,8 +31,10 @@
       "source": "Bapco Energies FY2025 Audited Statements (2024 comparative) & Fitch Ratings, read 25-Nov-26",
       "net_profit": 111.0,
       "observations": {
-        "notes": "FY24 net profit BHD 111m."
-      }
+        "notes": "FY24 net profit BHD 111m. FY24 revenue BHD 3.6bn (~$9.5bn), EBITDA margin ~10.7% (~BHD 385m), consolidated debt ~23% of Bahrain GDP."
+      },
+      "revenue": 3600.0,
+      "ebitda": 385.0
     },
     {
       "period": "2025A",
@@ -369,6 +371,11 @@
       "question": "Outline pre-funding plan for the October 2027 7.50% senior notes.",
       "focus_area": "Refinancing",
       "relevance": "Approaching 12-month window in Oct-26."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1034,6 +1041,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B Stable (Fitch, 2026) / B+",
+      "price": 101.8,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": null,
+      "ebitda": 385.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "commodity_drivers": {
@@ -1173,6 +1193,11 @@
         "date": "H1 2027",
         "event": "Refinancing Execution for Oct-2027 7.50% Maturity & FY26 Results",
         "impact": "Key test of BMP cash flow ramp and sovereign spread linkage."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Bapco Energies (nogaholding)."
       }
     ],
     "last_updated": "2026-11-25"

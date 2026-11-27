@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "id": "vodafone_ukraine",
+    "name": "Vodafone Ukraine (PrJSC VF Ukraine)",
+    "ticker": "VFUKRA",
+    "country": "Ukraine",
+    "region": "CEE",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "CCC / CCC+ (S&P / Fitch)",
+    "tier": "CCC",
+    "benchmark_bond": "VFUKRA 9.625% Feb 2027 Restructured Notes ($300m, XS2114201622)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Vodafone_Ukraine_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c681d88145cf1973929efb",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Vodafone_Ukraine_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "UAH",
+    "provenance": "financials built 27-Nov-26 from VF Ukraine FY24/FY25 Annual Reports & H126 Results; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "UAH",
+      "source": "VF Ukraine FY24 Audited IFRS Results, read 27-Nov-26",
+      "revenue": 24440.0,
+      "ebitda": 12220.0,
+      "calculated_ebitda": 12220.0,
+      "observations": {
+        "notes": "FY24 revenue UAH 24.44bn (+13.1% YoY), OIBDA UAH 12.22bn (50.0% margin)."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "UAH",
+      "source": "VF Ukraine FY25 Audited IFRS Results & Feb-25 Restructuring Disclosures, read 27-Nov-26",
+      "revenue": 27800.0,
+      "ebitda": 14000.0,
+      "calculated_ebitda": 14000.0,
+      "net_leverage": 1.55,
+      "observations": {
+        "notes": "FY25 revenue UAH 27.8bn (~$639m, +14% YoY), OIBDA UAH 14.0bn (+15% YoY, 50.4% margin); repaid $99.9m of $400m Eurobond in Feb-25 and extended ~$300m at 9.625% to Feb-27 (adj leverage ~1.5x-1.6x)."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "VF Ukraine Q2/H126 Financial Update (Dragon Capital / IR), read 27-Nov-26",
+      "revenue": 340.0,
+      "ebitda": 172.0,
+      "cash": 262.0,
+      "gross_debt": 556.0,
+      "net_debt": 294.0,
+      "net_leverage": 0.9,
+      "observations": {
+        "notes": "Q226 revenue $173m / EBITDA $87m (~50% margin); mid-2026 cash & ST investments hit decade-high $262m (~28% in FX) vs $294m net debt (0.9x LTM EBITDA); ~$280m-$300m Eurobond due Feb-27 faces NBU FX control watch."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "VFU Funding 9.625% Senior Unsecured Notes due Feb 2027",
+      "instrument_type": "Senior Unsecured Eurobond (Restructured)",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 280.0,
+      "coupon": "9.625%",
+      "maturity": "2027-02-11",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2114201622"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 280.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 280.0,
+    "source": "VF Ukraine ~$280m-$300m remaining principal on Feb-27 notes (XS2114201622) after Feb-25 $99.9m partial paydown + subsequent amortization."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / Low-Leverage Ukrainian Telco (0.9x) vs Feb-27 NBU FX Transfer Watch",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Vodafone Ukraine generates resilient ~50% OIBDA margins (UAH 14.0bn FY25) and holds a decade-high $262m cash against $294m net debt (0.9x LTM EBITDA). Credit focus centers entirely on the approaching February 11, 2027 ~$280m Eurobond maturity and NBU wartime cross-border FX transfer restrictions (preceded by the Feb-25 2-year extension)."
+    },
+    "positives": [
+      "Low net leverage (0.9x LTM EBITDA at mid-2026) and decade-high $262m cash buffer (~28% hard currency).",
+      "Resilient ~50.4% OIBDA margin despite power backup capex and wartime disruptions.",
+      "Demonstrated willingness & ability to pay down $99.9m principal in Feb-25."
+    ],
+    "negatives": [
+      "Feb 11, 2027 ~$280m Eurobond maturity is under 3 months away; NBU FX restrictions constrain cross-border principal outflows.",
+      "Wartime grid instability requires ongoing battery/generator capex and opex.",
+      "100% UAH revenue base exposed to hryvnia depreciation against USD bond service."
+    ],
+    "background": {
+      "business_overview": "Ukraine's #2 mobile telecom operator (~15m+ subscribers), owned by NEQSOL Holding.",
+      "asset_perimeter": "4G/LTE nationwide network, Vega fixed broadband, backup energy infrastructure.",
+      "ownership_governance": "100% owned by NEQSOL Holding (Azerbaijan)."
+    },
+    "recent_drivers": [
+      "H126: Cash hit $262m (~28% FX), net debt $294m (0.9x LTM EBITDA); Q226 EBITDA $87m.",
+      "Nov-26: Feb 11, 2027 ~$280m bond maturity window imminent; bondholder consent/NBU exemption watched closely."
+    ],
+    "catalysts": [
+      {
+        "date": "2026-12-15",
+        "event": "Feb-2027 Eurobond Liability Management / Consent Launch",
+        "impact": "Determines cash paydown % vs further maturity extension under NBU rules."
+      },
+      {
+        "date": "2027-02-11",
+        "event": "Eurobond Final Maturity Date ($280m, XS2114201622)",
+        "impact": "Binary repayment vs consent execution event."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Liquidity & Maturity Management",
+      "management_target": "Preserve 50% OIBDA margin & manage Feb-27 maturity",
+      "current_runrate": "0.9x Net Leverage; $262m cash (H126)",
+      "tracking_status": "Watch",
+      "variance_analysis": "Operational solvency strong; NBU FX transfer permissions are the sole bottleneck.",
+      "last_guided_source": "VF Ukraine H126 / Fitch",
+      "last_verified_period": "H126"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-12-15",
+    "period_reporting": "Feb-2027 Maturity / LME Update",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.vodafone.ua/en/about/investors",
+    "days_to_earnings": 18
+  },
+  "management_questions": [
+    {
+      "question": "Confirm NBU FX permission status for offshore principal payment vs launching a second consent solicitation ahead of Feb 11, 2027.",
+      "focus_area": "Feb-27 Maturity",
+      "relevance": "Maturity is <75 days away."
+    },
+    {
+      "question": "Break down the exact USD/EUR offshore cash held outside Ukraine within the $262m total cash balance.",
+      "focus_area": "Offshore Liquidity",
+      "relevance": "Determines non-NBU-gated debt service capacity."
+    },
+    {
+      "question": "Quantify 2026-2027 battery/generator energy-resilience capex requirements.",
+      "focus_area": "Capex",
+      "relevance": "Protects network uptime."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "vodafone_ukraine",
+      "sector": "Technology",
+      "topic": "H126 $262m Cash (0.9x Leverage) Ahead of Feb-27 Maturity",
+      "source": "VF Ukraine / Fitch (2026)",
+      "note": "FY25 rev UAH 27.8bn, OIBDA UAH 14.0bn; H126 cash $262m, net debt $294m (0.9x); ~$280m Feb-27 maturity (XS2114201622)."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — Imminent Feb-27 Maturity Watch",
+      "source": "VF Ukraine FY25 / H126",
+      "summary": "Added Vodafone Ukraine (CCC/CCC+): 0.9x net leverage, $262m cash, critical Feb 11, 2027 ~$280m maturity (XS2114201622)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "CCC / CCC+ (S&P / Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 12220.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "Ukraine Insolvency & Restructuring Framework",
+    "thesis": "Vodafone Ukraine generates resilient ~50% OIBDA margins (UAH 14.0bn FY25) and holds a decade-high $262m cash against $294m net debt (0.9x LTM EBITDA). Credit focus centers entirely on the approaching February 11, 2027 ~$280m Eurobond maturity and NBU wartime cross-border FX transfer restrictions (preceded by the Feb-25 2-year extension)."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "0.9x (H126)",
+      "headroom": "Strict dividend/leakage restrictions and hard-currency liquidity sweeps under Feb-25 restructured bond terms.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "Strong",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "NEQSOL ownership CoC Put; restructured 2025 consent terms include mandatory amortization & dividend locks."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Vodafone Ukraine Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "$262m cash & short-term investments at mid-2026 (~28% in FX) serves as primary liquidity buffer."
+  }
+}

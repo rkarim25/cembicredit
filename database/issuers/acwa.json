@@ -330,6 +330,16 @@
       "focus_area": "HoldCo Subordination",
       "relevance": "Key Moody's/S&P metric for HoldCo bondholders.",
       "conviction_trigger": "Parent FFO/Recourse Debt >25%."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -995,6 +1005,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Baa2 / BBB",
+      "price": 96.5,
+      "ytm": 6.45,
+      "spread_bp": 235,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1115,6 +1138,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Audited Results & Parent-Level Cash Flow / Dividend Update",
         "impact": "Clarifies HoldCo recourse leverage vs SPV distributions."
+      },
+      {
+        "date": "2027-02-25",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for ACWA Power."
       }
     ],
     "last_updated": "2026-11-25"

@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "id": "leviathan",
+    "name": "Leviathan Bond Ltd (NewMed Energy)",
+    "ticker": "LVBOND",
+    "country": "Israel",
+    "region": "Middle East",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BB (Fitch) / Ba3 (Moody's)",
+    "tier": "BB",
+    "benchmark_bond": "LVBOND 6.50% Jun 2027 ($600m, IL0011677825) & 6.75% Jun 2030 ($550m, IL0011677908)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Leviathan_Bond_Ltd_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c681c9a528c38d3a93254c",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Leviathan_Bond_Ltd_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 27-Nov-26 from NewMed Energy FY25/Q326 Filings & Fitch Leviathan Bond Reports; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Leviathan Project (100%) FY25 Disclosures / NewMed Energy, read 27-Nov-26",
+      "revenue": 1090.0,
+      "ebitda": 1013.0,
+      "calculated_ebitda": 1013.0,
+      "net_profit": 343.0,
+      "gross_debt": 1150.0,
+      "observations": {
+        "notes": "100% Leviathan field FY25 revenue ~$1.09bn, EBITDA $1,013m, net profit $343m; NewMed SPV bond principal $1.15bn."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "NewMed Energy Q1/Q3 2026 Leviathan Project Filings, read 27-Nov-26",
+      "ebitda": 260.6,
+      "gross_debt": 1150.0,
+      "observations": {
+        "notes": "Q126 revenue $164m impacted by 33-day security shutdown (Operation Roaring Lion); Q326 rebounded to record volumes with 100% project EBITDA $260.6m and avg realized price >$6.39/MMbtu post-3rd Gathering Line & Ashdod-Ashkelon looping."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Leviathan Bond Ltd 6.500% Senior Secured due Jun 2027",
+      "instrument_type": "Senior Secured Project Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 600.0,
+      "coupon": "6.500%",
+      "maturity": "2027-06-30",
+      "seniority": "Senior Secured",
+      "governing_law": "New York / Israel",
+      "isin": "IL0011677825"
+    },
+    {
+      "tranche_name": "Leviathan Bond Ltd 6.750% Senior Secured due Jun 2030",
+      "instrument_type": "Senior Secured Project Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 550.0,
+      "coupon": "6.750%",
+      "maturity": "2030-06-30",
+      "seniority": "Senior Secured",
+      "governing_law": "New York / Israel",
+      "isin": "IL0011677908"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 600.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 550.0,
+    "total_outstanding_usd_m": 1150.0,
+    "source": "Leviathan Bond Ltd $1.15bn outstanding ($600m Jun-27 IL0011677825, $550m Jun-30 IL0011677908) after prior repayments."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Overweight / Tier-1 Eastern Med Gas Project Bonds (Jun-27 Refi Catalyst)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Leviathan Bond Ltd ($1.15bn secured on NewMed's 45.34% working interest in Chevron-operated Leviathan) delivered $1.013bn 100%-field FY25 EBITDA and rebounded to record Q326 volumes ($260.6m Q3 EBITDA) after early-2026 security shutdowns. With $600m due Jun-27, project DSCR and pipeline debottlenecking underpin refinancing visibility."
+    },
+    "positives": [
+      "World-class Chevron-operated Eastern Med gas giant (>22 TCF) with take-or-pay export contracts to Egypt & Jordan.",
+      "Strong Q326 volume rebound ($260.6m 100% field EBITDA) post-3rd Gathering Line & Ashdod-Ashkelon pipeline completion.",
+      "Already retired prior 2023/2025 tranches, leaving $1.15bn total bond debt against >$450m/yr NewMed share EBITDA."
+    ],
+    "negatives": [
+      "$600m bullet maturity due June 30, 2027 (7 months away) requires timely project refinancing or cash buildup.",
+      "Exposed to geopolitical escalation risk (33-day Q126 security shutdown under Operation Roaring Lion).",
+      "Phase 1B expansion capex requires disciplined project cash retention."
+    ],
+    "background": {
+      "business_overview": "Project-finance SPV of NewMed Energy holding 45.34% of the Leviathan offshore gas field.",
+      "asset_perimeter": "Leviathan offshore platform, subsea gathering lines, domestic Israel + Egypt/Jordan export GSAs.",
+      "ownership_governance": "SPV wholly owned by NewMed Energy (Delek Group); field operated by Chevron (39.66%), Ratio (15%)."
+    },
+    "recent_drivers": [
+      "Q326: Record gas output with 100% project EBITDA $260.6m at >$6.39/MMbtu after Q126 33-day shutdown.",
+      "Jun-27 $600m bullet approaching within 7 months; Fitch 'BB' affirms DSCR resilience."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-15",
+        "event": "FY2026 NewMed / Leviathan Annual Results & Jun-27 Refi Plan",
+        "impact": "Details cash reserve vs new bond/bank takeout for Jun-27 $600m."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "Jun-2027 $600m Senior Secured Bullet Maturity",
+        "impact": "Key project-finance redemption milestone."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Production & Debt Service",
+      "management_target": "Step-up export capacity post-3rd Gathering Line",
+      "current_runrate": "Q326 record sales ($260.6m field EBITDA); $1.15bn SPV debt",
+      "tracking_status": "On Track",
+      "variance_analysis": "Q326 rebound offset Q126 33-day shutdown.",
+      "last_guided_source": "NewMed Q326 / Fitch",
+      "last_verified_period": "Q326"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-15",
+    "period_reporting": "FY 2026 Annual Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.newmedenergy.com/investors/",
+    "days_to_earnings": 108
+  },
+  "management_questions": [
+    {
+      "question": "Detail exact cash balance inside the Leviathan Bond Principal Reserve Fund ahead of the $600m Jun-27 maturity.",
+      "focus_area": "Maturity Wall",
+      "relevance": "Jun-27 is 7 months away."
+    },
+    {
+      "question": "Confirm timing and funding split for Leviathan Phase 1B expansion capex.",
+      "focus_area": "Capex",
+      "relevance": "Affects post-2027 FCF sweep."
+    },
+    {
+      "question": "Assess Egyptian export receivables collection performance in 2026.",
+      "focus_area": "Counterparty Risk",
+      "relevance": "Egypt is a core export buyer."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "leviathan",
+      "sector": "Energy",
+      "topic": "Q326 Rebound ($260.6m Field EBITDA) & Jun-27 $600m Refi",
+      "source": "NewMed / Fitch (2026)",
+      "note": "Q326 field EBITDA $260.6m post-Q126 33-day shutdown; $600m Jun-27 (IL0011677825) & $550m Jun-30 (IL0011677908)."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — Q326 Record Output & Jun-27 Maturity",
+      "source": "NewMed Energy / Fitch",
+      "summary": "Added Leviathan Bond Ltd (BB): $1.15bn secured curve (Jun-27 & Jun-30), FY25 $1.013bn field EBITDA, Q326 $260.6m rebound."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB (Fitch) / Ba3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "Israel Insolvency & Restructuring Framework",
+    "thesis": "Leviathan Bond Ltd ($1.15bn secured on NewMed's 45.34% working interest in Chevron-operated Leviathan) delivered $1.013bn 100%-field FY25 EBITDA and rebounded to record Q326 volumes ($260.6m Q3 EBITDA) after early-2026 security shutdowns. With $600m due Jun-27, project DSCR and pipeline debottlenecking underpin refinancing visibility."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "~2.5x SPV",
+      "headroom": "Strict DSCR lock-up (typically 1.2x-1.3x), Principal Reserve Fund, and DSRA mechanics.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "Strong DSCR",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Project-finance waterfall; Change of Control & operator termination triggers."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Leviathan Bond Ltd Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Project-finance DSRA and Principal Reserve Fund cash accounts replace traditional corporate RCF."
+  }
+}

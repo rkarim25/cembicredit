@@ -130,6 +130,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Audited Results & CET1 / Dividend Declaration",
         "impact": "Checks whether 33% asset growth moderates and confirms capital buffers."
+      },
+      {
+        "date": "2027-02-02",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Mashreqbank PSC."
       }
     ]
   },
@@ -145,6 +150,11 @@
       "focus_area": "Capital",
       "relevance": "Buffer above CBUAE DSIB/min requirements for AT1 coupon safety.",
       "conviction_trigger": "CET1 >13.0%."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "historical_notes": [
@@ -237,6 +247,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A (Fitch) / A3 (Moody's) / A (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "A (Fitch) / A3 (Moody's) / A (S&P)",
       "price": null,
       "ytm": null,

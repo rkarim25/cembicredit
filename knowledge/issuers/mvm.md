@@ -4,13 +4,14 @@ _Page created 26-Nov-26 from `database/issuers/mvm.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BBB (Fitch) / Baa2 Stable (Moody's, Nov-26) / BBB- (S&P).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2024A |  |  |  |  |  |  |
+| 2024A | 4534000.0 | 825000.0 |  |  |  |  |
+| 2025A |  |  |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=mvm) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/mvm.json)

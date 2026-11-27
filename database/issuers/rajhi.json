@@ -297,6 +297,16 @@
       "focus_area": "NIM & Rates",
       "relevance": "Fixed-rate retail book benefits from falling rates.",
       "conviction_trigger": "ROE sustained >22%."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "market_history": [
@@ -962,6 +972,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A1 / A-",
+      "price": 100.8,
+      "ytm": 4.75,
+      "spread_bp": 55,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1065,7 +1088,8 @@
     ],
     "negatives": [
       "Rapid corporate financing expansion requires monitoring vs historical retail focus.",
-      "Tightest spreads among Saudi banks limit bond capital appreciation."
+      "Tightest spreads among Saudi banks limit bond capital appreciation.",
+      "Direct linkage to Saudi Arabia sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "World's largest Islamic bank by market cap and Saudi Arabia's premier retail banking franchise.",
@@ -1081,6 +1105,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Audited Results & Retail Mortgage / Rate Cut Outlook",
         "impact": "Confirms NIM expansion as SAIBOR eases on fixed-rate mortgage book."
+      },
+      {
+        "date": "2027-01-28",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Al Rajhi Bank."
       }
     ],
     "last_updated": "2026-11-25"

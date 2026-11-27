@@ -4,12 +4,13 @@ _Page created 26-Nov-26 from `database/issuers/ford_otosan.json`. Dated, sourced
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB+ Stable (Fitch, 2026).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A | 778800.0 |  |  | 97800.0 | 2.5 |  |
 | 2025A | 19400.0 |  |  |  | 3.0 |  |
 _USD m unless the record says otherwise; audited years only._
 

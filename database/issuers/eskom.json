@@ -341,6 +341,11 @@
       "focus_area": "Working Capital",
       "relevance": "Arrears directly erode operating cash flow despite tariff hikes.",
       "conviction_trigger": "Stabilizing or declining municipal receivable balance."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -998,6 +1003,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B+ (Fitch) / B2 (Moody's) / B (S&P)",
+      "price": 99.0,
+      "ytm": 8.5,
+      "spread_bp": 445,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "B+ (Fitch) / B2 (Moody's) / B (S&P)",
       "price": 99.0,
       "ytm": 8.5,

@@ -326,6 +326,16 @@
       "focus_area": "Margins & Capex",
       "relevance": "Peer Ma'aden saw -24% Q3 EBITDA on sulfur costs.",
       "conviction_trigger": "Net leverage <2.5x."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -991,6 +1001,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- / Baa3",
+      "price": 99.5,
+      "ytm": 6.45,
+      "spread_bp": 155,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1112,7 +1135,8 @@
     ],
     "negatives": [
       "Multi-year green capex program (~$13bn) elevates external Eurobond/loan needs.",
-      "Global DAP/MAP fertilizer & sulfur/ammonia input cost volatility (flagged by peer Ma'aden in Q326)."
+      "Global DAP/MAP fertilizer & sulfur/ammonia input cost volatility (flagged by peer Ma'aden in Q326).",
+      "Exposure to Morocco macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Morocco's state-owned global phosphate rock, phosphoric acid, and fertilizer leader.",
@@ -1128,6 +1152,11 @@
         "date": "2026-11-30",
         "event": "Q3 & 9M 2026 Financial Results Release & Call",
         "impact": "Tests margin resilience vs elevated sulfur input costs (flagged by Ma'aden) and tracks net leverage."
+      },
+      {
+        "date": "2026-11-30",
+        "event": "Q3 & 9M 2026 Financial Results",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for OCP Group."
       }
     ],
     "last_updated": "2026-11-25"

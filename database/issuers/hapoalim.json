@@ -137,6 +137,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited Results & 2027 Credit Growth Guidance",
         "impact": "Shows NIM resilience under BoI rate path and CET1 retention."
+      },
+      {
+        "date": "2027-03-05",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Bank Hapoalim B.M.."
       }
     ]
   },
@@ -152,6 +157,11 @@
       "focus_area": "Capital & Supply",
       "relevance": "Supply overhang on POALIM USD curve.",
       "conviction_trigger": "Clear guidance on MREL/Tier 2 issuance."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "historical_notes": [
@@ -244,6 +254,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
       "price": null,
       "ytm": null,

@@ -121,6 +121,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited TASE Results & Jan-2028 $800m Refinancing Window",
         "impact": "Tests CET1 build above 10.5% and Mercantile synergy capture."
+      },
+      {
+        "date": "2027-02-20",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Israel Discount Bank Ltd.."
       }
     ]
   },
@@ -134,6 +139,11 @@
       "question": "Outline refinancing plan for the $800m 5.375% Jan 2028 senior notes (IL0011920878) across USD vs EUR/covered formats.",
       "focus_area": "Funding",
       "relevance": "Approaching 14 months to maturity."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "annotations": [
@@ -197,6 +207,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "management_guidance_tracker": [
@@ -226,5 +249,13 @@
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
     "days_to_earnings": 86
-  }
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-24",
+      "title": "Israel Discount Bank Ltd. \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 23-Nov-26 from Israel Discount Bank Q3/9M 2026 financial filings (mid-Nov-26); quotes await [BBG] capture",
+      "summary": "9M26 NPAT NIS 3.04bn (13.4% adj ROE), assets ~NIS 483.5bn, NPL 0.64% (189% cov), CET1 10.32%, CAR 13.12%, LCR 121.6%. $800m 5.375% Jan 2028 senior notes (IL0011920878)."
+    }
+  ]
 }

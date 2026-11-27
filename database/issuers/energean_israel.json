@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "id": "energean_israel",
+    "name": "Energean Israel Finance",
+    "ticker": "ENOG",
+    "country": "Israel",
+    "region": "Middle East",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "B+ / BB- (S&P / Fitch Project-Secured)",
+    "tier": "B",
+    "benchmark_bond": "ENOGIS 5.375% Mar 2028 (IL0011736738) / 5.875% Mar 2031 (IL0011736811)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Energean_Israel_Finance_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c68169a7b5d2ca7ebff89f",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Energean_Israel_Finance_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 27-Nov-26 from Energean plc FY25 Annual Report & Energean Israel Senior Secured Filings; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Energean plc FY24 Audited Statements (LSE), read 27-Nov-26",
+      "revenue": 1770.0,
+      "ebitda": 1160.0,
+      "net_debt": 2950.0,
+      "observations": {
+        "notes": "Group FY24 revenue ~$1.77bn, net debt $2.95bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Energean plc FY25 Audited Annual Report (LSE RNS), read 27-Nov-26",
+      "revenue": 1770.0,
+      "ebitda": 1117.0,
+      "calculated_ebitda": 1117.0,
+      "net_profit": -258.0,
+      "net_debt": 3260.0,
+      "net_leverage": 2.9,
+      "observations": {
+        "notes": "FY25 group revenue $1.77bn (sales $1.72bn), Adjusted EBITDAX $1,117m, net loss -$258m (Cassiopea impairment), net debt $3.26bn (2.9x EBITDAX); weighted avg maturity 6 yrs."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Energean Israel Finance 5.375% Senior Secured due Mar 2028",
+      "instrument_type": "Senior Secured Project Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 625.0,
+      "coupon": "5.375%",
+      "maturity": "2028-03-30",
+      "seniority": "Senior Secured",
+      "governing_law": "New York / Israel",
+      "isin": "IL0011736738"
+    },
+    {
+      "tranche_name": "Energean Israel Finance 5.875% Senior Secured due Mar 2031",
+      "instrument_type": "Senior Secured Project Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 625.0,
+      "coupon": "5.875%",
+      "maturity": "2031-03-30",
+      "seniority": "Senior Secured",
+      "governing_law": "New York / Israel",
+      "isin": "IL0011736811"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 625.0,
+    "2029": 0.0,
+    "2030_plus": 625.0,
+    "total_outstanding_usd_m": 1250.0,
+    "source": "Energean Israel Finance Senior Secured Notes curve (IL0011736738 Mar-28, IL0011736811 Mar-31; additional 2033 tranche sits in project perimeter)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / High-Margin Ring-Fenced Israeli Gas Notes vs Geopolitical Risk",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Energean Israel Finance notes are senior secured by the Karish/Tanin offshore gas FPSO delivering long-term domestic Israeli GSAs (~$1.12bn group FY25 EBITDAX, 2.9x net leverage). Near-term spreads reflect temporary 2026 security-mandated Israeli production suspensions and upcoming Mar-28 bullet refinancing."
+    },
+    "positives": [
+      "Senior secured ring-fenced pledge over Karish/Tanin offshore reserves, FPSO, and domestic GSAs.",
+      "High-margin gas sales (~63% group EBITDAX margin) with long-term CPI/electricity-linked floor contracts.",
+      "6-year weighted average group debt maturity profile with minimal near-term amortization."
+    ],
+    "negatives": [
+      "Temporary government-mandated operational suspensions in Israel in early 2026 amid regional security escalations.",
+      "Single-FPSO offshore operational concentration (Energean Power FPSO).",
+      "FY25 net loss of $258m from non-cash Cassiopea impairment and elevated group net debt ($3.26bn)."
+    ],
+    "background": {
+      "business_overview": "Project-finance SPV holding offshore Israel Karish & Tanin gas fields for LSE-listed Energean plc.",
+      "asset_perimeter": "Karish, Karish North, Tanin gas/liquids leases and Energean Power FPSO.",
+      "ownership_governance": "100% subsidiary of Energean plc (LSE: ENOG)."
+    },
+    "recent_drivers": [
+      "2026: Experienced temporary Israeli Ministry-directed production suspension during early-2026 hostilities before resuming.",
+      "FY25: Group revenue $1.77bn, Adj EBITDAX $1.12bn, net debt $3.26bn (2.9x)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-01-25",
+        "event": "FY2026 Trading Statement & Production Guidance",
+        "impact": "Quantifies 2026 Israeli downtime impact and 2027 FPSO capacity."
+      },
+      {
+        "date": "2027-03-30",
+        "event": "1-Year Window to Mar-2028 $625m Bullet Maturity",
+        "impact": "Triggers refinancing / liability management timing."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Group Leverage & Liquidity",
+      "management_target": "Manageable <3.0x Net Debt/EBITDAX",
+      "current_runrate": "2.9x Group Net Leverage ($3.26bn net debt, FY25)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Strong Karish gas cash flow offsets non-Israeli capex.",
+      "last_guided_source": "Energean FY25 Report",
+      "last_verified_period": "FY25"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-01-25",
+    "period_reporting": "FY 2026 Trading Statement",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.energean.com/investors/",
+    "days_to_earnings": 59
+  },
+  "management_questions": [
+    {
+      "question": "Detail Mar-2028 $625m senior secured note refinancing plan and DSRA cash balance.",
+      "focus_area": "Refinancing Wall",
+      "relevance": "16 months to Mar-28 maturity."
+    },
+    {
+      "question": "Quantify revenue loss and business-interruption insurance recovery from early-2026 Israeli suspensions.",
+      "focus_area": "Geopolitical / Ops",
+      "relevance": "Tests 2026 DSCR cushion."
+    },
+    {
+      "question": "Confirm Katlan development capex budget and cash sweep restrictions out of the Israel ring-fence.",
+      "focus_area": "Ring-Fence Mechanics",
+      "relevance": "Protects bondholder collateral."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "energean_israel",
+      "sector": "Energy",
+      "topic": "FY25 EBITDAX $1.12bn & 2026 Israel Operational Interruptions",
+      "source": "Energean LSE / Filings (2026)",
+      "note": "FY25 group revenue $1.77bn, EBITDAX $1.12bn, net debt $3.26bn (2.9x); IL0011736738 & IL0011736811 senior secured notes."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — Karish Senior Secured Notes & FY25 Results",
+      "source": "Energean FY25 Annual Report",
+      "summary": "Added Energean Israel Finance: FY25 group EBITDAX $1.12bn, net debt $3.26bn, Mar-28/Mar-31 senior secured ISINs."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ / BB- (S&P / Fitch Project-Secured)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 1160.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "Israel Insolvency & Restructuring Framework",
+    "thesis": "Energean Israel Finance notes are senior secured by the Karish/Tanin offshore gas FPSO delivering long-term domestic Israeli GSAs (~$1.12bn group FY25 EBITDAX, 2.9x net leverage). Near-term spreads reflect temporary 2026 security-mandated Israeli production suspensions and upcoming Mar-28 bullet refinancing."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "2.9x Group (FY25)",
+      "headroom": "Ring-fenced project-finance waterfall with Debt Service Reserve Account (DSRA) & distribution lock-up tests.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Change of Control & Event of Default per project-finance Senior Secured Indenture."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Energean Israel Finance Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Project-level DSRA and group RCF liquidity support Karish cash flows."
+  }
+}

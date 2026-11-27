@@ -16,7 +16,7 @@
     "model_file": "MVM_Group_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MVM_Group_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "financials_currency": "HUF",
     "provenance": "financials built 26-Nov-26 from MVM Group FY2024 Audited Annual Report, Moody's Nov-26 Baa2 Stable Action & Eurobond Filings; quotes await [BBG]",
@@ -31,7 +31,19 @@
       "source": "MVM Energetika FY2024 Audited IFRS Annual Report & Moody's Nov-26 Review, read 26-Nov-26",
       "net_profit": 323900.0,
       "observations": {
-        "notes": "FY24 profit after tax attributable to owners HUF 323.9bn (~\u20ac825m). In Nov-26 Moody's revised Outlook on Baa2 rating to Stable alongside BBB Fitch / BBB- S&P."
+        "notes": "FY24 profit after tax attributable to owners HUF 323.9bn (~\u20ac825m). In Nov-26 Moody's revised Outlook on Baa2 rating to Stable alongside BBB Fitch / BBB- S&P. FY24 consolidated revenue HUF 4,534bn (-10.7% YoY), EBITDA HUF 825bn (2nd highest in history), total liabilities fell to HUF 3,806bn (from HUF 5,088bn)."
+      },
+      "revenue": 4534000.0,
+      "ebitda": 825000.0,
+      "calculated_ebitda": 825000.0
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "HUF",
+      "source": "MVM Group 2025-2026 Strategic & S&P Rating Disclosures, read 27-Nov-26",
+      "observations": {
+        "notes": "Expanded international gas/power portfolio (Shah Deniz stake, Romania acquisitions) targeting >25% ex-Hungary EBITDA while maintaining IG metrics."
       }
     }
   ],
@@ -106,11 +118,13 @@
     },
     "positives": [
       "100% Hungarian state-owned integrated utility (Paks nuclear, grids, Shah Deniz stake).",
-      "Moody's revised outlook to Stable (Baa2) in Nov-26; covenant leverage well contained."
+      "Moody's revised outlook to Stable (Baa2) in Nov-26; covenant leverage well contained.",
+      "Strategic Utilities market positioning in Hungary supporting resilient operating cash generation."
     ],
     "negatives": [
       "Large infrastructure/renewables capex and Hungarian regulatory tariff/windfall tax exposure.",
-      "Russian gas diversification transition costs."
+      "Russian gas diversification transition costs.",
+      "Exposure to Hungary macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Hungary's state-owned integrated electricity and gas utility.",
@@ -125,6 +139,11 @@
         "date": "2027-04-30",
         "event": "FY2026 Audited Annual Report & Nov-27 \u20ac500m Refi Prep",
         "impact": "Quantifies 2026 EBITDA/net debt and 2027 Eurobond refinancing."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for MVM Group (MVM Energetika Zrt.)."
       }
     ]
   },
@@ -144,6 +163,16 @@
       "question": "Provide FY25/H126 consolidated EBITDA and net debt figures plus Nov-27 \u20ac500m refinancing plan.",
       "focus_area": "Financials & Refinancing",
       "relevance": "Next benchmark maturity is Nov-27."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "annotations": [
@@ -176,6 +205,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB (Fitch) / Baa2 Stable (Moody's, Nov-26) / BBB- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 825000.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "historical_notes": [
@@ -195,5 +237,48 @@
     "implied_stress_ev_multiple": 6.0,
     "restructuring_framework": "Hungarian / English Law",
     "thesis": "100% state-owned Hungarian nuclear/grid champion with Baa2/BBB rating."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "MVM Group (MVM Energetika Zrt.) Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

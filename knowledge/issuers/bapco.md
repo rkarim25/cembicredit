@@ -4,14 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/bapco.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- BAPCO 7.50% 2027: price 101.8, YTM 6.85%, spread 280bp (as of 2026-11-25).
+- BAPCO 7.50% 2027: price 101.8, YTM 6.85%, spread 280bp (as of 2026-11-27).
 - Rating as recorded: B Stable (Fitch, 2026) / B+.
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2024A |  |  |  |  |  |  |
+| 2024A | 3600.0 | 385.0 |  |  |  |  |
 | 2025A |  |  |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 

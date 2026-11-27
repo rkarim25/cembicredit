@@ -4,13 +4,14 @@ _Page created 08-Oct-26 from `database/issuers/cimkoc.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- CIMKOC 10.75% May 2030 ($300m, XS3045389700): price 105.0, YTM 8.6%, spread 391bp (as of 2026-11-26).
+- CIMKOC 10.75% May 2030 ($300m, XS3045389700): price 105.0, YTM 8.6%, spread 391bp (as of 2026-11-27).
 - Rating as recorded: B+ Stable (Fitch, May-26).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A | 759.0 | 212.0 |  |  |  |  |
 | 2025A | 712.0 | 180.0 |  |  | 2.5 |  |
 _USD m unless the record says otherwise; audited years only._
 

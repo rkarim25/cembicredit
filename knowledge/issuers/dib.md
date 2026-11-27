@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/dib.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - DIBUH 4.572% Nov 2030 Sukuk (XS3002400540): price 99.7, YTM 5.1%, spread 90bp (as of 2026-11-25).
 - Rating as recorded: A3 / A.

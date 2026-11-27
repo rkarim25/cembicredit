@@ -335,6 +335,16 @@
       "focus_area": "Maturity Wall",
       "relevance": "Fitch 'CC' flags imminent 2027 refi risk.",
       "conviction_trigger": "Consensual extension or offshore reserve funding."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -1000,6 +1010,19 @@
       "ebitda": 520.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "CCC- (Fitch, late-25) / Caa3 (Moody's) | Renewables CC",
+      "price": 68.5,
+      "ytm": 18.5,
+      "spread_bp": 1410,
+      "net_leverage": null,
+      "ebitda": 520.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1120,6 +1143,11 @@
         "date": "H1 2027",
         "event": "DTEK Renewables \u20ac281m Nov-2027 Green Bond Refinancing / Extension Launch",
         "impact": "Critical maturity wall test for DTEK Renewables."
+      },
+      {
+        "date": "2027-04-15",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for DTEK Energy."
       }
     ],
     "last_updated": "2026-11-26"

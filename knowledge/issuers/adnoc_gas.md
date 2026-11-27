@@ -4,9 +4,15 @@ _Page created 26-Nov-26 from `database/issuers/adnoc_gas.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: AA- / Aa2 (Implied Abu Dhabi GRE).
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2024A | 24430.0 | 8650.0 |  |  |  |  |
+| 2025A |  |  |  | -1160.0 | -0.21 |  |
+_USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=adnoc_gas) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/adnoc_gas.json)
 <!-- auto-data-end -->

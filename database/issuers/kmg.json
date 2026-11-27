@@ -352,6 +352,11 @@
       "focus_area": "Cash Flow & Volumes",
       "relevance": "Tests FCF resilience at $70-75 Brent.",
       "conviction_trigger": "Full recovery to >=96mt and higher TCO distributions."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1009,6 +1014,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
+      "price": 88.5,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "net_leverage": 0.58,
+      "ebitda": 2001000.0,
+      "fcf": 1199000.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
       "price": 88.5,
       "ytm": 6.75,

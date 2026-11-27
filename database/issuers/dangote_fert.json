@@ -16,7 +16,7 @@
     "model_file": "Dangote_Fertiliser_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681dcba20e1bd4b761c01",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dangote_Fertiliser_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "fcf_2024a": null,
     "net_leverage_2024a": null,
@@ -24,6 +24,15 @@
     "provenance": "financials rebuilt 26-Nov-26 from AFC $600m Facility Disclosure (Mid-26) & Dangote Group Filings; issuer-level standalone audited P&L private"
   },
   "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Dangote Fertiliser / AFC Expansion & Capacity Disclosures, read 27-Nov-26",
+      "observations": {
+        "notes": "Operates 3.0 MMTPA granulated urea complex in Lekki, Lagos; expanding to 9.0 MMTPA Nigeria + 3.0 MMTPA Ethiopia ($7bn expansion backed by $600m AFC facility approved mid-2026)."
+      }
+    },
     {
       "period": "2026E",
       "is_audited": false,
@@ -329,6 +338,11 @@
       "question": "Confirm committed EPC schedule and debt-to-equity funding split for the Ethiopia plant.",
       "focus_area": "Capex",
       "relevance": "Quantifies incremental leverage from $600m AFC + expansion."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -994,6 +1008,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Unrated / Sovereign-Capped (Nigeria B / B3 / B)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1133,6 +1160,11 @@
         "date": "H1 2027",
         "event": "FY2026 Audited Financials & Ethiopia Plant EPC Milestone",
         "impact": "Monitors capex drawdowns vs urea price realization."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Dangote Fertiliser."
       }
     ],
     "last_updated": "2026-11-26"

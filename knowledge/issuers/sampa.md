@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/sampa.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - SAMPA 9.50% Jul 2031 (€300m Senior Secured, NO0013757195): price 97.5, YTM 10.4%, spread 600bp (as of 2026-11-26).
 - Rating as recorded: B / B2 Implied (Unrated Publicly).

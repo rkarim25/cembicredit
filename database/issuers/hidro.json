@@ -352,6 +352,11 @@
       "question": "Confirm 2027 capex and any external debt plans for solar/storage M&A.",
       "focus_area": "Capex & Debt",
       "relevance": "Currently largely self-funded."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1017,6 +1022,19 @@
       "ebitda": 5503.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- (Fitch / Sovereign Floor)",
+      "price": 99.0,
+      "ytm": 5.5,
+      "spread_bp": 145,
+      "net_leverage": -0.85,
+      "ebitda": 5503.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1136,6 +1154,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Preliminary Results & Winter Hydrology Update",
         "impact": "Monitors Q4 Danube reservoir recovery and 2027 dividend payout."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Hidroelectrica."
       }
     ],
     "last_updated": "2026-11-26"

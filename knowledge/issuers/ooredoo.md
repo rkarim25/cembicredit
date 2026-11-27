@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/ooredoo.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ORDS 2.625% Apr 2031 ($1bn, XS2311299957): price 97.8, YTM 5%, spread 95bp (as of 2026-11-26).
 - Rating as recorded: A2 Stable (Moody's) / A Stable (S&P / Fitch).

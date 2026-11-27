@@ -101,11 +101,13 @@
     },
     "positives": [
       "NPA ratio compressed 130bps YoY to 2.0% in 9M26 alongside 17.8% asset growth.",
-      "Strong Abu Dhabi retail/government Islamic franchise with 12.4% CET1."
+      "Strong Abu Dhabi retail/government Islamic franchise with 12.4% CET1.",
+      "Established UAE banking franchise with systemic liquidity access and regulatory oversight."
     ],
     "negatives": [
       "Rapid 17.8% YoY balance sheet growth requires continued capital retention.",
-      "UAE corporate tax + Pillar Two drag on net margins."
+      "UAE corporate tax + Pillar Two drag on net margins.",
+      "Direct linkage to UAE sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Leading Abu Dhabi-headquartered Sharia-compliant universal bank.",
@@ -120,6 +122,11 @@
         "date": "2027-02-10",
         "event": "FY2026 Audited ADX Results",
         "impact": "Confirms full-year CET1 accretion and 2027 dividend/AT1 call plans."
+      },
+      {
+        "date": "2027-02-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Abu Dhabi Islamic Bank (ADIB)."
       }
     ]
   },
@@ -139,6 +146,16 @@
       "question": "Confirm call intentions on XS2642454271 AT1 Sukuk at first call date and RWA density outlook.",
       "focus_area": "Capital & AT1",
       "relevance": "Key driver of AT1 sukuk YTC."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -163,6 +180,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A+ Stable (Fitch) / A2 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "A+ Stable (Fitch) / A2 Stable (Moody's)",
       "price": null,
       "ytm": null,

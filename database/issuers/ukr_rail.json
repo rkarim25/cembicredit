@@ -353,6 +353,16 @@
       "focus_area": "Restructuring Terms",
       "relevance": "Direct recovery determinant for bondholders.",
       "conviction_trigger": "Par/low-haircut extension with cash step-up coupon >=6%."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -1018,6 +1028,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "RD / D (Selective Default, 2026)",
+      "price": 64.0,
+      "ytm": 19.25,
+      "spread_bp": 1485,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [
@@ -1139,6 +1162,11 @@
         "date": "Q4 2026 / Q1 2027",
         "event": "Revised Eurobond Restructuring Proposal Post-30% Tariff Hike",
         "impact": "Determines final recovery package (haircut/coupon/maturity) for 2026/2028 LPNs."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "FY 2026 Audited & Restructuring Update",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Ukraine Rail (Ukrzaliznytsia)."
       }
     ],
     "last_updated": "2026-11-25"

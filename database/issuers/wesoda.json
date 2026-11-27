@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "id": "wesoda",
+    "name": "WE Soda Investments Holding plc",
+    "ticker": "WESODA",
+    "country": "United Kingdom",
+    "region": "Turkey",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BB- / B+ (Fitch / S&P)",
+    "tier": "BB",
+    "benchmark_bond": "WESODA 9.50% Oct 2028 (US92107P7722) & 9.375% 2031",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "WE_Soda_Investments_Holding_plc_Credit_Model.xlsx",
+    "notion_id": "3e81d0ad-68c6-8124-b897-e7f40fe2a2fd",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/WE_Soda_Investments_Holding_plc_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 27-Nov-26 from WE Soda FY24/FY25 Investor Disclosures, Genesis Alkali Proforma & 2026 Guidance; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "WE Soda FY24 Restricted Group Preliminary/Audited Filings, read 27-Nov-26",
+      "ebitda": 500.0,
+      "observations": {
+        "notes": "FY24 Restricted Group sales volume ~5.1m mt, Adjusted EBITDA ~$495-$505m."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "WE Soda FY25 Proforma & Restricted Group Results, read 27-Nov-26",
+      "ebitda": 710.0,
+      "net_debt": 2250.0,
+      "net_leverage": 3.3,
+      "observations": {
+        "notes": "FY25 Restricted Group Adj EBITDA ~$505-$515m; Proforma Consolidated (incl. Genesis Alkali US acquisition) ~$705-$715m, Consolidated Net Debt ~$2.2-$2.3bn, Net Leverage ~3.3x."
+      }
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "WE Soda FY26 Management Guidance Release, read 27-Nov-26",
+      "ebitda": 540.0,
+      "net_debt": 2250.0,
+      "net_leverage": 4.4,
+      "observations": {
+        "notes": "FY26 guidance: Consolidated Adj EBITDA ~$540m (Restricted Group ~$410m) on cyclical soda ash trough pricing; projected YE26 Net Leverage ~4.4x Consolidated (~4.2x Restricted Group); liquidity $400m-$700m+ with EBRD & bridge facilities."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "WE Soda 9.500% Senior Secured Notes due Oct 2028",
+      "instrument_type": "Senior Secured Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 800.0,
+      "coupon": "9.500%",
+      "maturity": "2028-10-06",
+      "seniority": "Senior Secured",
+      "governing_law": "New York",
+      "isin": "US92107P7722"
+    },
+    {
+      "tranche_name": "WE Soda 9.375% Senior Secured Notes due 2031",
+      "instrument_type": "Senior Secured Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "9.375%",
+      "maturity": "2031-02-15",
+      "seniority": "Senior Secured",
+      "governing_law": "New York"
+    },
+    {
+      "tranche_name": "US Genesis Alkali / EBRD & Term Loan Facilities",
+      "instrument_type": "Secured Term / Bridge Facilities",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 1350.0,
+      "coupon": "SOFR + margin",
+      "maturity": "2029-12-31",
+      "seniority": "Senior Secured",
+      "governing_law": "NY / English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 300.0,
+    "2028": 800.0,
+    "2029": 1050.0,
+    "2030_plus": 500.0,
+    "total_outstanding_usd_m": 2650.0,
+    "source": "WE Soda Consolidated debt (~$2.25bn net debt) across 2028/2031 senior notes, Genesis Alkali US debt, and EBRD/bridge lines."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / Global Lowest-Cost Natural Soda Ash Leader Navigating 2026 Trough",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "WE Soda (Ciner Group, UK-incorporated) is the world's largest natural soda ash producer with first-quartile solution-mining assets in Turkey (Eti Soda, Kazan) and the US (Genesis Alkali, acquired 2025). Global soda ash oversupply cut 2026E consolidated EBITDA guidance to ~$540m (lifting leverage from 3.3x to ~4.4x), keeping focus on liquidity ($400m-$700m+) and Restricted Group cash sweeps."
+    },
+    "positives": [
+      "Lowest-cost global natural soda ash production (Turkey solution mining + US Green River trona) vs synthetic Solvay peers.",
+      "Geographic diversification into US via 2025 Genesis Alkali acquisition.",
+      "Substantial liquidity ($400m-$700m+) bolstered by EBRD and syndicated facilities."
+    ],
+    "negatives": [
+      "Global soda ash price trough compresses FY26E consolidated EBITDA to ~$540m (vs ~$710m FY25 proforma).",
+      "Consolidated net leverage projected to rise from 3.3x (FY25) to ~4.4x (FY26E).",
+      "High 9.375%-9.50% coupon burden and Restricted vs Unrestricted US perimeter complexity."
+    ],
+    "background": {
+      "business_overview": "World's largest producer of natural soda ash and sodium bicarbonate, owned by Turkey's Ciner Group.",
+      "asset_perimeter": "Eti Soda & Kazan Soda (Ankara, Turkey) in Restricted Group + Genesis Alkali (Wyoming, US) in Consolidated Group.",
+      "ownership_governance": "UK-headquartered holding owned by Ciner Group."
+    },
+    "recent_drivers": [
+      "2026G: Management guided FY26 Adj EBITDA ~$540m consolidated (~$410m Restricted), YE26 leverage ~4.4x consolidated (~4.2x Restricted)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-20",
+        "event": "FY2026 Audited Results & 2027 Soda Ash Contract Pricing",
+        "impact": "Tests whether global soda ash prices stabilize above 2026 trough."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "Genesis Alkali Bridge Takeout & EBRD Drawdown",
+        "impact": "Monitors Restricted vs Consolidated debt integration."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "FY2026 Adjusted EBITDA & Leverage",
+      "management_target": "$540m Consolidated / $410m Restricted; ~4.2x-4.4x YE26",
+      "current_runrate": "$710m FY25 Proforma (3.3x) -> $540m FY26G (4.4x)",
+      "tracking_status": "Watch",
+      "variance_analysis": "Cyclical soda ash export price weakness offsets volume scale.",
+      "last_guided_source": "WE Soda FY26 Guidance",
+      "last_verified_period": "2026E"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-20",
+    "period_reporting": "FY 2026 Full-Year Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.wesoda.com/investors/",
+    "days_to_earnings": 113
+  },
+  "management_questions": [
+    {
+      "question": "Detail 2027 contracted soda ash pricing in Europe/LatAm and Chinese synthetic capacity rationalization.",
+      "focus_area": "Pricing Cycle",
+      "relevance": "Drives deleveraging back below 3.5x."
+    },
+    {
+      "question": "Confirm Restricted Group cash leakage / dividend baskets vs US Genesis Alkali bridge refinancing.",
+      "focus_area": "Perimeter & Leakage",
+      "relevance": "Protects 2028/2031 noteholders."
+    },
+    {
+      "question": "Provide exact maintenance capex and cash interest bill for FY26E FCF breakeven.",
+      "focus_area": "FCF Coverage",
+      "relevance": "Tests cash burn at $540m EBITDA."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "wesoda",
+      "sector": "Materials",
+      "topic": "FY26 Guidance ($540m Consolidated EBITDA, ~4.4x Leverage)",
+      "source": "WE Soda IR / Fitch (2026)",
+      "note": "FY25 proforma EBITDA ~$710m (3.3x), FY26G ~$540m (~4.4x); US92107P7722 9.50% Oct-28 & 9.375% 2031."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation \u2014 Notion Parity & FY26 Trough Guidance",
+      "source": "WE Soda IR / Notion",
+      "summary": "Synced existing Notion dossier (3e81d0ad-68c6-8124-b897-e7f40fe2a2fd) to website: FY25 proforma EBITDA $710m, FY26G $540m (~4.4x)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- / B+ (Fitch / S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 500.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "United Kingdom Insolvency & Restructuring Framework",
+    "thesis": "WE Soda (Ciner Group, UK-incorporated) is the world's largest natural soda ash producer with first-quartile solution-mining assets in Turkey (Eti Soda, Kazan) and the US (Genesis Alkali, acquired 2025). Global soda ash oversupply cut 2026E consolidated EBITDA guidance to ~$540m (lifting leverage from 3.3x to ~4.4x), keeping focus on liquidity ($400m-$700m+) and Restricted Group cash sweeps."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "3.3x FY25 / 4.4x FY26G",
+      "headroom": "HY incurrence covenants (FCCR & Consolidated Net Leverage) plus Restricted vs Unrestricted subsidiary ring-fence.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Change of Control Put at 101% under HY Senior Secured Indenture."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "WE Soda Liquidity Facilities & EBRD Line",
+    "total_committed_capacity_usd_m": 400.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 400.0,
+    "drawn_margin": "Per EBRD & RCF docs",
+    "undrawn_commitment_fee": "Standard HY fee",
+    "maturity": "2028-2029",
+    "syndicate_banks": "EBRD & International Bank Syndicate",
+    "rcf_financial_covenants": "Liquidity maintained >$400m-$700m across facilities and cash."
+  }
+}

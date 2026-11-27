@@ -139,6 +139,11 @@
         "date": "2027",
         "event": "Privatization Milestone & $179m Jul-2027 Sustainability Bond Maturity",
         "impact": "Tests asset cleanup trajectory and strategic investor entry."
+      },
+      {
+        "date": "2027-03-31",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for SQB (Uzpromstroybank)."
       }
     ]
   },
@@ -152,6 +157,11 @@
       "question": "Update privatization timeline and impact on sovereign support assumptions beyond 2027.",
       "focus_area": "Ownership & Support",
       "relevance": "Determines Fitch/S&P rating uplift."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -217,6 +227,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB Stable (Fitch, Mar-26, VR b) / BB- Negative (S&P, Jul-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Under Watch"
     }
   ],
   "management_guidance_tracker": [
@@ -237,6 +260,14 @@
       "variance_analysis": "Uzbekistan's #2/#3 corporate bank (>UZS 102tn assets, FY25 NPAT UZS 1.88tn) carries strong 19% Total CAR post-Oct-25 $300m AT1 issuance, but faces elevated 9.1% Stage 3/OREO ratios (potentially rising toward 12% during p",
       "last_guided_source": "SQB FY2025 Financial Statements / S&P Jul-26 & Fitch Mar-26 Reviews, read 24-Nov-26",
       "last_verified_period": "2025A"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-25",
+      "title": "SQB (Uzpromstroybank) \u2014 Verified Filings & Credit Profile",
+      "source": "financials rebuilt 25-Nov-26 from SQB FY2024/FY2025 Audited Reports & 2026 S&P/Fitch Reviews",
+      "summary": "Assets grew from UZS 84.8tn (YE24) to UZS 102tn (YE25), NI UZS 1.9tn; S&P BB- Neg mid-26 on 9-12% Stage 3 cleanup."
     }
   ]
 }

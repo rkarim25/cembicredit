@@ -16,12 +16,24 @@
     "model_file": "Turk_Eximbank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6815aba39e1d30b4b8c8a",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turk_Eximbank_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "bank",
     "financials_currency": "TRY",
     "provenance": "financials rebuilt 26-Nov-26 from T\u00fcrk Eximbank FY2025 Audited BRSA Statements & 2026 Funding Disclosures"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "T\u00fcrk Eximbank FY24 Audited BRSA Statements / AIIB Report, read 27-Nov-26",
+      "assets": 870000.0,
+      "net_profit": 35000.0,
+      "npl_pct": 0.2,
+      "observations": {
+        "notes": "FY24 assets ~TRY 870bn (~$23bn), net profit ~TRY 35bn (~$1.0bn), NPL <0.2%."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -30,8 +42,9 @@
       "assets": 1291490.0,
       "net_profit": 54600.0,
       "observations": {
-        "notes": "FY25 assets TRY 1,291.49bn (+48.35% YoY; ~87% short-term export loans), net income TRY 54.6bn (~$1.4-1.5bn); raised >$5.1bn international funding in 2026 incl $830m ESG syndication; Fitch BB- Stable."
-      }
+        "notes": "FY25 assets TRY 1,291.49bn (+48.35% YoY; ~87% short-term export loans), net income TRY 54.6bn (~$1.4-1.5bn); raised >$5.1bn international funding in 2026 incl $830m ESG syndication; Fitch BB- Stable. FY25 assets TRY 1,291.49bn (+48.4%), net profit TRY 54.60bn (+56.7%), loans ~87% of assets; 2026 secured $830m ESG syndicated loan (129% rollover)."
+      },
+      "npl_pct": 0.2
     }
   ],
   "supplementary_data": {
@@ -315,6 +328,11 @@
       "question": "Update NPL trend across SME export portfolios under tight domestic lira/FX credit conditions.",
       "focus_area": "Asset Quality",
       "relevance": "Monitor migration beyond 0.4% historical NPL."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "market_history": [
@@ -980,6 +998,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- Stable (Fitch, 2026) / B1",
+      "price": 99.8,
+      "ytm": 6.75,
+      "spread_bp": 215,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1101,6 +1132,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Audited BRSA Financials & 2027 Eurobond Issuance Plan",
         "impact": "Confirms roll-over of 2027 Eurobond maturities."
+      },
+      {
+        "date": "2027-02-20",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for T\u00fcrk Eximbank."
       }
     ],
     "last_updated": "2026-11-25"

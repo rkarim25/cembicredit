@@ -4,12 +4,13 @@ _Page created 25-Nov-26 from `database/issuers/ukrenergo.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: CCC (Fitch upgrade from RD, Nov-26).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A |  | -500.0 |  |  |  |  |
 | 2025A |  | 8400.0 |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 

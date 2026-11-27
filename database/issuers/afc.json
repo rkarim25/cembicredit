@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "id": "afc",
+    "name": "Africa Finance Corporation (AFC)",
+    "ticker": "AFC",
+    "country": "Pan-Africa",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A3 (Moody's) / AAA (China Chengxin)",
+    "tier": "A",
+    "benchmark_bond": "AFCLN 5.375% Jul 2031 ($500m) & 7.50% Perp Hybrid (XS2933422888)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Africa_Finance_Corporation_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c681af98b6d7a02932053a",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Africa_Finance_Corporation_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "bank",
+    "financials_currency": "USD",
+    "provenance": "financials built 27-Nov-26 from AFC FY24/FY25 Annual Reports & 2026 DCM Announcements; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "AFC FY24 Audited Financial Statements, read 27-Nov-26",
+      "assets": 14400.0,
+      "nii": 613.6,
+      "revenue": 1100.0,
+      "ppop": 709.7,
+      "net_profit": 400.0,
+      "observations": {
+        "notes": "FY24 revenue >$1.1bn (+22.8% YoY; NII $613.6m, fees $109m), operating income $709.7m, total comprehensive income $400m, assets $14.4bn, LCR 194% (>34 months liquidity)."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "AFC 2025-2026 Press Releases & DCM Disclosures, read 27-Nov-26",
+      "observations": {
+        "notes": "2025-H126 closed $1.5bn syndicated loan, inaugural $500m perpetual hybrid bond (XS2933422888), and $700m ARISE IIP partial monetization; Jul-26 issued $500m 5.375% Jul-31 Eurobond."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "AFC 2.875% Senior Unsecured Notes due Apr 2028",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 750.0,
+      "coupon": "2.875%",
+      "maturity": "2028-04-28",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English"
+    },
+    {
+      "tranche_name": "AFC 5.375% Senior Unsecured Notes due Jul 2031",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "5.375%",
+      "maturity": "2031-07-15",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English"
+    },
+    {
+      "tranche_name": "AFC 7.500% Perpetual Subordinated Hybrid Notes",
+      "instrument_type": "Perpetual Hybrid Capital",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "7.500%",
+      "maturity": "2099-12-31",
+      "seniority": "Subordinated Hybrid",
+      "governing_law": "English",
+      "isin": "XS2933422888"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 750.0,
+    "2029": 0.0,
+    "2030_plus": 1000.0,
+    "total_outstanding_usd_m": 1750.0,
+    "source": "AFC $5bn GMTN curve (Apr-28 $750m, Jul-31 $500m, Perp Hybrid $500m XS2933422888); Apr-26 $650m matured."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Overweight / A3 Pan-African Multilateral DFI (194% LCR)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "AFC is a treaty-backed pan-African infrastructure DFI rated A3 (Moody's) with $14.4bn assets, 194% LCR (>34 months liquidity), and Preferred Creditor Status across 40+ African member states. Active 2025-2026 capital optimization ($500m hybrid, $700m ARISE IIP monetization, $500m Jul-31 bond) supports spread pickup over A-rated peers."
+    },
+    "positives": [
+      "Preferred Creditor Status across 44 African member states and A3 Moody's rating.",
+      "Robust liquidity (194% LCR, >34 months coverage) and consistent net profit (~$400m FY24).",
+      "Diversified funding across $5bn GMTN, $1.5bn syndicated loan, and $500m hybrid equity-credit buffer."
+    ],
+    "negatives": [
+      "Concentrated sovereign/infrastructure exposure to Nigeria (~25%+) and Sub-Saharan project credits (e.g., $600m Dangote Fertiliser facility).",
+      "High single-borrower concentration relative to multilateral peers like Afreximbank.",
+      "African sovereign debt restructuring precedents test Preferred Creditor Status boundaries."
+    ],
+    "background": {
+      "business_overview": "Treaty-established multilateral finance institution funding African infrastructure, energy, and heavy industry.",
+      "asset_perimeter": "$14.4bn balance sheet spanning power, transport, heavy industry, and natural resources across Africa.",
+      "ownership_governance": "44 African member states & institutions (Central Bank of Nigeria ~42%, African banks/DFIs)."
+    },
+    "recent_drivers": [
+      "Jul-26: Issued $500m 5.375% 5-year Eurobond due Jul-2031; Apr-26 $650m notes matured & paid.",
+      "2025-26: Closed $500m perp hybrid (XS2933422888), $1.5bn syndicated loan, and $700m ARISE IIP stake monetization."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-31",
+        "event": "FY2026 Audited Financial Statements",
+        "impact": "Confirms FY25-FY26 asset scale, NPLs, and Basel/prudential capital ratios."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "Moody's Annual Multilateral DFI Review",
+        "impact": "Evaluates A3 rating headroom post-Dangote/Angola deployments."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Liquidity & Capital",
+      "management_target": "LCR >120%; Maintain A3 rating",
+      "current_runrate": "LCR 194% (>34 months cover); $14.4bn assets (FY24)",
+      "tracking_status": "Ahead",
+      "variance_analysis": "Hybrid bond + ARISE IIP exit strengthened equity buffer.",
+      "last_guided_source": "AFC FY24 / 2026 Releases",
+      "last_verified_period": "Jul-26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited Report",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.africafc.org/",
+    "days_to_earnings": 124
+  },
+  "management_questions": [
+    {
+      "question": "Provide FY25/H126 exact NPL ratio, Stage 2 exposures, and sovereign exposure breakdown (Nigeria, Ghana, Zambia).",
+      "focus_area": "Asset Quality",
+      "relevance": "Tests PCS resilience."
+    },
+    {
+      "question": "Detail single-obligor exposure limits following the $600m Dangote Fertiliser facility commitment.",
+      "focus_area": "Concentration",
+      "relevance": "Large ticket project underwriting."
+    },
+    {
+      "question": "Confirm 2027 Eurobond issuance budget ahead of Apr-2028 $750m maturity.",
+      "focus_area": "Refinancing",
+      "relevance": "Sets supply expectations."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "afc",
+      "sector": "Banks",
+      "topic": "Jul-26 $500m 5.375% Jul-31 Bond & Hybrid Buffer",
+      "source": "AFC Annual Report / Press (2026)",
+      "note": "FY24 rev >$1.1bn, assets $14.4bn, LCR 194%; Jul-26 $500m 5.375% Jul-31 & $500m Perp Hybrid (XS2933422888)."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Africa Finance Corporation (AFC) — Verified Filings & Credit Profile",
+      "source": "financials built 27-Nov-26 from AFC FY24/FY25 Annual Reports & 2026 DCM Announcements; quotes await [BBG]",
+      "summary": "FY24 rev >$1.1bn, assets $14.4bn, LCR 194%; Jul-26 $500m 5.375% Jul-31 & $500m Perp Hybrid (XS2933422888)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A3 (Moody's) / AAA (China Chengxin)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "supplementary_data": {
+    "lcr_pct": 194.0,
+    "liquidity_horizon_months": 34
+  }
+}

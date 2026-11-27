@@ -126,6 +126,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited Full-Year Results",
         "impact": "Confirms full-year credit loss ratio inside target and ARO FX drag."
+      },
+      {
+        "date": "2027-03-09",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Absa Group Limited."
       }
     ]
   },
@@ -141,6 +146,11 @@
       "focus_area": "Supply & Capital",
       "relevance": "Guides secondary spread performance on 2036 Tier 2.",
       "conviction_trigger": "Limited net USD supply."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "historical_notes": [
@@ -233,6 +243,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "Ba2 / BB- / AAA(zaf)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "Ba2 / BB- / AAA(zaf)",
       "price": null,
       "ytm": null,

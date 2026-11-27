@@ -300,6 +300,11 @@
       "question": "Detail utilization of the upsized $540m RCF and RMI working-capital facilities.",
       "focus_area": "Liquidity",
       "relevance": "Tracks gross vs net leverage divergence (4.3x vs 2.96x)."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -965,6 +970,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- Stable (Fitch & S&P, 2026)",
+      "price": 98.5,
+      "ytm": 9.1,
+      "spread_bp": 505,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1117,6 +1135,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Audited Financial Results",
         "impact": "Verifies full-year EBITDA >$220m and sustained sub-3.0x net leverage."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Ittihad Investment."
       }
     ],
     "last_updated": "2026-11-26"

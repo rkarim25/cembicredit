@@ -104,7 +104,8 @@
     ],
     "negatives": [
       "Consolidated exposure to Zain Group emerging markets (including IAS 29 hyperinflation in Sudan and Iraq FX).",
-      "Parent dividend leakage vs holding-company debt service at Oztel level."
+      "Parent dividend leakage vs holding-company debt service at Oztel level.",
+      "Exposure to Oman macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Oman's incumbent integrated telecommunications operator with controlling 21.9% (consolidated) stake in Zain Group.",
@@ -119,6 +120,11 @@
         "date": "2027-02-15",
         "event": "FY2026 Preliminary & Audited Results",
         "impact": "Tracks Zain dividend upstreaming and domestic capex/deleveraging."
+      },
+      {
+        "date": "2027-02-15",
+        "event": "FY 2026 Preliminary",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Omantel (Oman Telecommunications)."
       }
     ]
   },
@@ -143,6 +149,11 @@
       "question": "Quantify Sudan IAS 29 and FX headwinds embedded in 2026 consolidated net profit.",
       "focus_area": "Earnings Quality",
       "relevance": "Clarifies recurring cash vs non-cash hyperinflation noise."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -188,6 +199,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Ba1 (Moody's) / BB+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -198,5 +222,56 @@
     "implied_stress_ev_multiple": 5.5,
     "restructuring_framework": "Oman Commercial Law",
     "thesis": "51% OIA-owned domestic monopoly + Zain equity stake backing $500m 2031 Sukuk."
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-25",
+      "title": "Omantel (Oman Telecommunications) \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Omantel FY2025 Audited & H1 2026 MSX Interim Results; quotes await [BBG]",
+      "summary": "FY25 rev OMR 3,413.1m, EBITDA OMR 1,155.4m, NPAT OMR 371m; H126 NPAT OMR 292.8m (+73.5%)."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard HY Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Omantel (Oman Telecommunications) Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

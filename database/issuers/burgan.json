@@ -140,6 +140,11 @@
       "question": "Quantify Turkey IAS 29 net monetary loss in 9M26 vs core Kuwait operating profit.",
       "focus_area": "Earnings Quality",
       "relevance": "Explains 9M26 PAT drop from KWD 32m to 22m."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "annotations": [
@@ -203,6 +208,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A+ (Fitch) / BBB+ (CI)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "management_guidance_tracker": [
@@ -232,5 +250,13 @@
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
     "days_to_earnings": 86
-  }
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Burgan Bank K.P.S.C. \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 23-Nov-26 from Burgan Bank FY2025 & 9M 2026 Boursa Kuwait filings (Nov-26); quotes await [BBG] capture",
+      "summary": "9M26 assets KWD 9.4bn, deposits KWD 5.5bn (+6%), loans KWD 5.1bn (+8%), NPAT KWD 22m (Turkey IAS 29 drag), CoR 50bp. $500m 2.75% T2 Dec-31 (XS2265369491) & $500m 5.7492% Perp AT1 (XS2019231823)."
+    }
+  ]
 }

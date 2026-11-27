@@ -4,7 +4,7 @@ _Page created 23-Nov-26 from `database/issuers/nedbank.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB Stable (Fitch, Oct-26) / Ba2 Stable (Moody's, Baa3 Pos opco dep).
 

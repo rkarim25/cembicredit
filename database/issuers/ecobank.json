@@ -92,11 +92,13 @@
     },
     "positives": [
       "S&P revised Outlook to Stable (Nov-26) following Ecobank Nigeria $300m Eurobond repayment.",
-      "35-country diversification with 53% CIR and 9M26 PBT up 12% to $736.9m."
+      "35-country diversification with 53% CIR and 9M26 PBT up 12% to $736.9m.",
+      "Established Pan-Africa (Togo) banking franchise with systemic liquidity access and regulatory oversight."
     ],
     "negatives": [
       "Nigeria/Ghana sovereign & FX volatility (6.7% FY24 NPLs).",
-      "HoldCo structural subordination to operating bank subsidiaries."
+      "HoldCo structural subordination to operating bank subsidiaries.",
+      "Direct linkage to Pan-Africa (Togo) sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Pan-African banking group operating across 35 countries from Lom\u00e9, Togo.",
@@ -111,6 +113,11 @@
         "date": "2027-03-01",
         "event": "FY2026 Audited Full-Year Results",
         "impact": "Confirms Nigeria NPL clean-up and HoldCo cash upstreaming."
+      },
+      {
+        "date": "2027-03-01",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Ecobank Transnational Inc. (ETI)."
       }
     ]
   },
@@ -130,6 +137,16 @@
       "question": "Report 9M26 consolidated CAR, HoldCo double leverage, and Nigeria Stage 3 NPL ratio.",
       "focus_area": "HoldCo & Nigeria",
       "relevance": "Assesses Tier 2 cushion vs Nigerian recovery."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -154,6 +171,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "B- Stable (S&P, Nov-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "B- Stable (S&P, Nov-26)",
       "price": null,
       "ytm": null,

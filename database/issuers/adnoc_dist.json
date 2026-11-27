@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "id": "adnoc_dist",
+    "name": "ADNOC Distribution",
+    "ticker": "ADNOCDIST",
+    "country": "UAE",
+    "region": "GCC",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "AA- (Implied ADNOC Group)",
+    "tier": "AA",
+    "benchmark_bond": "ADNOCDIST Syndicated Bank Facilities & UAE Fuel Retail Anchor",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "ADNOC_Distribution_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c6813586cfcd10e0c8a6f4",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADNOC_Distribution_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "AED",
+    "provenance": "financials built 27-Nov-26 from ADNOC Distribution FY24/FY25 Annual Reports & 9M26 ADX Earnings Release; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "ADNOC Distribution FY24 Audited Statements (ADX), read 27-Nov-26",
+      "revenue": 35460.0,
+      "ebitda": 3860.0,
+      "calculated_ebitda": 3860.0,
+      "net_leverage": 0.7,
+      "observations": {
+        "notes": "FY24 revenue ~AED 35.46bn ($9.66bn), EBITDA ~AED 3.86bn ($1.05bn), net debt/EBITDA 0.70x."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "ADNOC Distribution FY25 Audited Statements (ADX), read 27-Nov-26",
+      "revenue": 35890.0,
+      "ebitda": 4280.0,
+      "calculated_ebitda": 4280.0,
+      "net_leverage": 0.7,
+      "observations": {
+        "notes": "FY25 revenue AED 35.89bn ($9.77bn), EBITDA AED 4.28bn ($1.17bn, +11% YoY), net debt/EBITDA 0.70x."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "AED",
+      "source": "ADNOC Distribution 9M26 ADX Earnings Release, read 27-Nov-26",
+      "revenue": 35010.0,
+      "ebitda": 4100.0,
+      "calculated_ebitda": 4100.0,
+      "net_profit": 2900.0,
+      "cash": 5400.0,
+      "net_leverage": 0.59,
+      "observations": {
+        "notes": "9M26 revenue AED 35.01bn (+32.4% YoY), EBITDA AED 4.10bn ($1.12bn, +26.2% YoY), net profit AED 2.90bn ($791m), cash/liquidity >AED 5.4bn, net debt/EBITDA improved to 0.59x."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Syndicated Term Loan & Working Capital Facilities",
+      "instrument_type": "Senior Unsecured Bank Debt",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 1500.0,
+      "coupon": "Floating",
+      "maturity": "2028-12-31",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English / UAE"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 1500.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 1500.0,
+    "source": "ADNOC redeemed $1.199bn ADNOCDIST exchangeable bonds in Jun-24; remaining debt comprises bank facilities (net leverage 0.59x 9M26)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / High-Quality GCC Downstream Cash Generator (0.59x Net Leverage)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "ADNOC Distribution is the UAE's dominant fuel retail and convenience operator with 9M26 EBITDA up 26.2% YoY to AED 4.10bn ($1.12bn) and net leverage compressing to 0.59x. Parent ADNOC redeemed the $1.199bn exchangeable bond in Jun-24, leaving a clean, cash-generative balance sheet with >AED 5.4bn liquidity."
+    },
+    "positives": [
+      "Dominant UAE fuel retail market share with regulated retail margin stability and non-fuel convenience growth.",
+      "Deleveraged balance sheet: 0.59x Net Debt/EBITDA as of Sep-26 with >AED 5.4bn liquidity.",
+      "Strong strategic alignment with parent ADNOC (77% majority owner) and GCC/Egypt expansion (TotalEnergies Egypt JV)."
+    ],
+    "negatives": [
+      "High dividend payout policy limits permanent cash retention despite strong FCF generation.",
+      "No standalone public USD Eurobond curve following Jun-24 redemption of ADNOC's $1.199bn exchangeable bond.",
+      "Long-term EV transition risk in urban UAE mobility partially mitigated by E2GO charging rollout."
+    ],
+    "background": {
+      "business_overview": "Largest fuel and convenience retailer in the UAE with operations in Saudi Arabia and Egypt.",
+      "asset_perimeter": "540+ UAE/KSA service stations, 240+ Egypt stations, aviation & commercial fuel.",
+      "ownership_governance": "77% owned by ADNOC Group (Abu Dhabi GRE), ADX-listed."
+    },
+    "recent_drivers": [
+      "9M26: Revenue AED 35.01bn (+32.4% YoY), EBITDA AED 4.10bn (+26.2% YoY), net profit AED 2.90bn (+36.6% YoY), net leverage 0.59x."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-15",
+        "event": "FY2026 Full-Year Results & Dividend Declaration",
+        "impact": "Confirms FY26 EBITDA >$1.45bn run-rate and any potential DCM debut."
+      },
+      {
+        "date": "2027-05-10",
+        "event": "Q1 2027 Operational & Egypt Integration Update",
+        "impact": "Tracks non-fuel retail margin expansion."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage & Liquidity",
+      "management_target": "Conservative <1.0x Net Debt/EBITDA",
+      "current_runrate": "0.59x Net Leverage (9M26); >AED 5.4bn liquidity",
+      "tracking_status": "Ahead",
+      "variance_analysis": "Strong EBITDA growth compressed leverage from 0.70x FY25 to 0.59x.",
+      "last_guided_source": "ADNOC Dist 9M26 Release",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-15",
+    "period_reporting": "FY 2026 Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.adnocdistribution.ae/en/investor-relations",
+    "days_to_earnings": 80
+  },
+  "management_questions": [
+    {
+      "question": "Assess appetite for debut standalone USD sukuk/Eurobond issuance vs bank term loans given 0.59x leverage.",
+      "focus_area": "Funding Strategy",
+      "relevance": "Determines CEMBI BD index entry."
+    },
+    {
+      "question": "Quantify Egypt JV (TotalEnergies Marketing Egypt) EBITDA contribution and FX repatriation mechanics.",
+      "focus_area": "International Expansion",
+      "relevance": "Tests EGP exposure."
+    },
+    {
+      "question": "Outline 2027-2028 dividend policy vs growth capex for Saudi and EV charging rollouts.",
+      "focus_area": "Capital Allocation",
+      "relevance": "Governs net debt floor."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "adnoc_dist",
+      "sector": "Energy",
+      "topic": "9M26 Earnings Surge & 0.59x Deleveraging",
+      "source": "ADNOC Distribution ADX (Nov-26)",
+      "note": "9M26 revenue AED 35.01bn, EBITDA AED 4.10bn (+26.2% YoY), net profit AED 2.90bn, net leverage 0.59x."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — 9M26 Results & 0.59x Leverage",
+      "source": "ADNOC Distribution ADX Filings",
+      "summary": "Added ADNOC Distribution from benchmark-universe gap list: 9M26 EBITDA AED 4.10bn (+26% YoY), net leverage 0.59x."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "AA- (Implied ADNOC Group)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.7,
+      "ebitda": 3860.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "UAE Insolvency & Restructuring Framework",
+    "thesis": "ADNOC Distribution is the UAE's dominant fuel retail and convenience operator with 9M26 EBITDA up 26.2% YoY to AED 4.10bn ($1.12bn) and net leverage compressing to 0.59x. Parent ADNOC redeemed the $1.199bn exchangeable bond in Jun-24, leaving a clean, cash-generative balance sheet with >AED 5.4bn liquidity."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "0.59x (9M26)",
+      "headroom": "Bank facility leverage covenants well below trigger thresholds.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "High (>15x)",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Parent ADNOC owns 77%; standard bank facility CoC clauses."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "ADNOC Distribution Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity exceeds AED 5.4bn across cash and bank facilities as of 30-Sep-26."
+  }
+}

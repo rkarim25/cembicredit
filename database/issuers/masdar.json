@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "id": "masdar",
+    "name": "Masdar (Abu Dhabi Future Energy Co.)",
+    "ticker": "MASDAR",
+    "country": "UAE",
+    "region": "GCC",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "AA- (S&P) / AA- (Fitch) / A2 (Moody's)",
+    "tier": "AA",
+    "benchmark_bond": "MASDAR 4.875% May 2030 ($500m Green, XS3074432959)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Masdar_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c681abbf11d6d8606acc77",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Masdar_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "AED",
+    "provenance": "financials built 27-Nov-26 from Masdar FY24/FY25 Audited Financial Statements & GMTN Green/Blue Bond Filings; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "Masdar FY24 Consolidated Financial Statements, read 27-Nov-26",
+      "revenue": 3391.0,
+      "cash": 6730.0,
+      "gross_debt": 20810.0,
+      "net_debt": 14080.0,
+      "observations": {
+        "notes": "FY24 revenue ~AED 3.39bn, non-current borrowings AED 20.81bn, cash AED 6.73bn, total liabilities AED 31.08bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "Masdar FY25 Consolidated Financial Statements & S&P/Fitch Reports, read 27-Nov-26",
+      "revenue": 3700.0,
+      "net_profit": 355.9,
+      "cash": 6540.0,
+      "gross_debt": 26110.0,
+      "net_debt": 19570.0,
+      "net_leverage": 5.5,
+      "observations": {
+        "notes": "FY25 revenue AED 3.70bn (+9.1% YoY), net income AED 355.9m (total comprehensive income AED 2.3bn), finance costs rose to AED 1.4bn; S&P cites 5.0x-6.0x deconsolidated debt/EBITDA peak during Terra-Gen & GEK TERNA M&A."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Masdar 4.875% Green Notes due May 2030",
+      "instrument_type": "Senior Unsecured Green Bond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "4.875%",
+      "maturity": "2030-05-21",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3074432959"
+    },
+    {
+      "tranche_name": "Masdar 5.875% Blue/Green Notes due Oct 2031",
+      "instrument_type": "Senior Unsecured Blue/Green Bond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 600.0,
+      "coupon": "5.875%",
+      "maturity": "2031-10-29",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3538133664"
+    },
+    {
+      "tranche_name": "Masdar 4.875% Green Notes due Jul 2033",
+      "instrument_type": "Senior Unsecured Green Bond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 750.0,
+      "coupon": "4.875%",
+      "maturity": "2033-07-25",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2651619285"
+    },
+    {
+      "tranche_name": "Masdar 5.375% Green Notes due May 2035",
+      "instrument_type": "Senior Unsecured Green Bond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "5.375%",
+      "maturity": "2035-05-21",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3074435978"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 2350.0,
+    "total_outstanding_usd_m": 2350.0,
+    "source": "Masdar $6bn GMTN Programme public green/blue bond tranches (XS3074432959, XS3538133664, XS2651619285, XS3074435978) + syndicated RCF."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / AA- Sovereign-Backed Abu Dhabi Renewables Flagship",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Masdar (43% TAQA, 33% Mubadala, 24% ADNOC) is Abu Dhabi's AA- rated global renewables champion targeting 100GW by 2030. Heavy M&A (Terra-Gen, GEK TERNA, Saeta) pushed FY25 borrowings to AED 26.1bn and deconsolidated leverage to 5.0x-6.0x, making spreads tight vs TAQA/Mubadala sovereign curves."
+    },
+    "positives": [
+      "Tri-sovereign Abu Dhabi ownership (TAQA 43%, Mubadala 33%, ADNOC 24%) underpinning AA- S&P/Fitch ratings.",
+      "Long-term contracted PPA renewable portfolio across UAE, US, Europe, and Central Asia.",
+      "Deep ESG capital market access ($6bn GMTN, 25-bank RCF syndicate, inaugural $600m Blue Bond in Oct-26)."
+    ],
+    "negatives": [
+      "Elevated expansion leverage (5.0x-6.0x deconsolidated Debt/EBITDA per S&P) from Terra-Gen/GEK TERNA/Saeta acquisitions.",
+      "Finance costs more than doubled in FY25 to AED 1.4bn, compressing consolidated net income to AED 355.9m.",
+      "Tight sovereign-linked spreads leave limited cushion for rising global clean-energy capex inflation."
+    ],
+    "background": {
+      "business_overview": "Abu Dhabi flagship clean energy developer and IPP targeting 100GW capacity by 2030.",
+      "asset_perimeter": "Solar, wind, and green hydrogen projects across 40+ countries including Terra-Gen (US), Terna Energy (Greece), Saeta (Iberia).",
+      "ownership_governance": "TAQA (43%), Mubadala (33%), ADNOC (24%)."
+    },
+    "recent_drivers": [
+      "Oct-26: Issued $600m inaugural 5-year Blue Bond (5.875% Oct-31, XS3538133664) under $6bn GMTN.",
+      "FY25: Revenue AED 3.7bn (+9.1% YoY); total comprehensive income AED 2.3bn on FX gains."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-31",
+        "event": "FY2026 Consolidated IFRS Statements",
+        "impact": "Tracks full-year EBITDA contribution from Terna Energy & Saeta consolidations."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "S&P / Fitch Annual GRE Review",
+        "impact": "Monitors deconsolidated leverage trajectory back below 5.0x."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Renewable Capacity & Rating",
+      "management_target": "100GW capacity by 2030; maintain AA- rating",
+      "current_runrate": "5.0x-6.0x peak deconsolidated Debt/EBITDA (S&P)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Active GMTN & equity support offsets M&A debt spike.",
+      "last_guided_source": "Masdar FY25 / S&P",
+      "last_verified_period": "FY25 / Oct-26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited Statements",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://masdar.ae/en/investor-relations",
+    "days_to_earnings": 124
+  },
+  "management_questions": [
+    {
+      "question": "Provide pro-forma consolidated EBITDA including full-year Terra-Gen, Terna Energy, and Saeta contributions.",
+      "focus_area": "M&A Integration",
+      "relevance": "Deconsolidated leverage sits near 5.0x-6.0x."
+    },
+    {
+      "question": "Detail parent shareholder equity injection commitments for the 100GW 2030 capex plan.",
+      "focus_area": "Sponsor Support",
+      "relevance": "Critical to hold AA- standalone credit profile."
+    },
+    {
+      "question": "Break down HoldCo senior GMTN debt vs project-level non-recourse debt.",
+      "focus_area": "Structural Subordination",
+      "relevance": "Quantifies HoldCo cash coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "masdar",
+      "sector": "Utilities",
+      "topic": "$600m Blue Bond (Oct-26) & FY25 Results",
+      "source": "Masdar GMTN / S&P (2026)",
+      "note": "Issued $600m 5.875% Oct-31 Blue Bond (XS3538133664); FY25 revenue AED 3.7bn, borrowings AED 26.1bn, AA- S&P/Fitch."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — AA- GMTN Curve & Oct-26 Blue Bond",
+      "source": "Masdar FY25 Statements / GMTN",
+      "summary": "Initiated Masdar with 4 green/blue USD benchmark tranches ($2.35bn public curve), FY24-FY25 financials, and S&P 5-6x leverage context."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "AA- (S&P) / AA- (Fitch) / A2 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "UAE Insolvency & Restructuring Framework",
+    "thesis": "Masdar (43% TAQA, 33% Mubadala, 24% ADNOC) is Abu Dhabi's AA- rated global renewables champion targeting 100GW by 2030. Heavy M&A (Terra-Gen, GEK TERNA, Saeta) pushed FY25 borrowings to AED 26.1bn and deconsolidated leverage to 5.0x-6.0x, making spreads tight vs TAQA/Mubadala sovereign curves."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "5.0x-6.0x (S&P Deconsolidated)",
+      "headroom": "GMTN negative pledge with project finance carve-outs.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Change of Control Put at 101% if Abu Dhabi ownership falls below 50% + rating downgrade."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Masdar 25-Bank Syndicated Revolving Credit Facility",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Undisclosed SOFR margin",
+    "undrawn_commitment_fee": "Undisclosed",
+    "maturity": "Multi-year syndicated RCF",
+    "syndicate_banks": "25 International & GCC Banks",
+    "rcf_financial_covenants": "Expanded RCF syndicate supports AED 6.54bn balance sheet cash."
+  }
+}

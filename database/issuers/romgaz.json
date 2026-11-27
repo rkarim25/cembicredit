@@ -366,6 +366,11 @@
       "question": "Assess impact of Romanian gas market deregulation vs royalty/windfall tax extensions on 2027 EBITDA.",
       "focus_area": "Regulation",
       "relevance": "Key driver of internal FCF funding share."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1031,6 +1036,19 @@
       "ebitda": 4243.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- Stable (Fitch)",
+      "price": 98.5,
+      "ytm": 5.75,
+      "spread_bp": 170,
+      "net_leverage": null,
+      "ebitda": 4243.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1169,6 +1187,11 @@
         "date": "H1 2027",
         "event": "Neptun Deep Drilling Progress & Potential \u20ac500m Follow-On EMTN Tranche",
         "impact": "Tracks capex peak and 2027 first-gas timeline."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for S.N.G.N. Romgaz."
       }
     ],
     "last_updated": "2026-11-26"

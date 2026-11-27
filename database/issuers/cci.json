@@ -323,6 +323,16 @@
       "focus_area": "Margins",
       "relevance": "Q3 EBITDA fell 17.1% YoY despite +8.3% volume growth.",
       "conviction_trigger": "EBITDA margin stabilization >18%."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -988,6 +998,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- / BBB",
+      "price": 97.2,
+      "ytm": 5.35,
+      "spread_bp": 130,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1108,6 +1131,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited Results & 2027 T\u00fcrkiye Pricing Outlook",
         "impact": "Tests margin stabilization in T\u00fcrkiye."
+      },
+      {
+        "date": "2027-03-03",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Coca-Cola \u0130\u00e7ecek (CCI)."
       }
     ],
     "last_updated": "2026-11-25"

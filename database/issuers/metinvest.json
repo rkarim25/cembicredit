@@ -355,6 +355,11 @@
       "focus_area": "Operations",
       "relevance": "Restoring steel output is key to rebuilding H1-27 EBITDA.",
       "conviction_trigger": "Confirmed restart timeline and modest repair capex."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1012,6 +1017,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "CCC+ (S&P) / Caa3 (Moody's) / CCC- (Fitch)",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.32,
+      "ebitda": 1009.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "CCC+ (S&P) / Caa3 (Moody's) / CCC- (Fitch)",
       "price": 93.27,
       "ytm": 14.98,

@@ -1,0 +1,259 @@
+{
+  "metadata": {
+    "id": "dae",
+    "name": "Dubai Aerospace Enterprise (DAE)",
+    "ticker": "DAE",
+    "country": "UAE",
+    "region": "GCC",
+    "sector": "Industrials",
+    "type": "corp",
+    "rating": "Baa2 (Moody's) / BBB (Fitch) / BBB- (S&P)",
+    "tier": "BBB",
+    "benchmark_bond": "DAE 3.375% Mar 2028 (XS2286303495)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Dubai_Aerospace_Enterprise_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c68101a72dc70c15c306d4",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dubai_Aerospace_Enterprise_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 27-Nov-26 from DAE FY24/FY25 Annual Reports & 9M26 Results (post-Macquarie AirFinance acquisition); quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "DAE FY24 Audited Annual Report, read 27-Nov-26",
+      "revenue": 1429.6,
+      "ebitda": 1272.7,
+      "calculated_ebitda": 1272.7,
+      "gross_debt": 10400.0,
+      "cash": 3800.0,
+      "observations": {
+        "notes": "FY24 revenue $1,429.6m, Adjusted EBITDA $1,272.7m, net debt/equity 2.42x, total available liquidity $3.8bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "DAE FY25 Audited Annual Report, read 27-Nov-26",
+      "revenue": 1725.2,
+      "net_profit": 702.2,
+      "net_debt": 10227.6,
+      "assets": 16547.7,
+      "observations": {
+        "notes": "FY25 revenue $1,725.2m (incl. NAC acquisition), net profit $702.2m, net loans & borrowings $10,227.6m, net debt/equity 2.58x, available liquidity $3.40bn."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "DAE 9M26 Interim Financial Results, read 27-Nov-26",
+      "revenue": 1446.9,
+      "ebitda": 794.8,
+      "net_debt": 16750.0,
+      "observations": {
+        "notes": "9M26 revenue $1,446.9m (+13.2% YoY), operating profit before exceptionals $794.8m, pre-tax profit $370.7m. Net debt rose to $16.75bn following $9.0bn Macquarie AirFinance acquisition (Jul-26, fleet ~1,000 aircraft); net debt/equity 2.60x, liquidity $5.6bn, 88.3% unsecured debt."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "DAE Funding LLC 3.375% Senior Unsecured due Mar 2028",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 1000.0,
+      "coupon": "3.375%",
+      "maturity": "2028-03-20",
+      "seniority": "Senior Unsecured",
+      "governing_law": "New York / English",
+      "isin": "XS2286303495"
+    },
+    {
+      "tranche_name": "Unsecured & Secured Aircraft Leasing Debt / MAF Facilities",
+      "instrument_type": "Unsecured Notes & Term Facilities",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 15750.0,
+      "coupon": "Mixed",
+      "maturity": "2031-12-31",
+      "seniority": "Senior Unsecured",
+      "governing_law": "NY / English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 1500.0,
+    "2028": 2500.0,
+    "2029": 2500.0,
+    "2030_plus": 10250.0,
+    "total_outstanding_usd_m": 16750.0,
+    "source": "DAE 9M26 net loans & borrowings $16.75bn (88.3% unsecured); Feb-26 3.75% notes (XS2262220143) matured & repaid."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / Top-5 Global Aircraft Lessor Scaling Post-$9bn MAF Deal",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Dubai sovereign-owned (ICD) DAE doubled its fleet to ~1,000 aircraft via the $9.0bn acquisition of Macquarie AirFinance in July 2026. Net loans rose to $16.75bn, but net debt/equity remained disciplined at 2.60x with $5.6bn available liquidity and 88.3% unsecured funding."
+    },
+    "positives": [
+      "100% Investment Corporation of Dubai (ICD) ownership and Baa2/BBB/BBB- investment-grade ratings.",
+      "88.3% unsecured debt share preserves unencumbered aircraft pool (~$5.6bn liquidity as of Sep-26).",
+      "Fleet scale doubled to ~1,000 aircraft post-$9bn MAF deal in tight global narrowbody supply cycle."
+    ],
+    "negatives": [
+      "Net debt jumped from $10.2bn (FY25) to $16.75bn (9M26) following consecutive NAC and MAF M&A.",
+      "Higher interest rate environment weighs on lease-rate factor vs funding-cost spreads on refinancing.",
+      "Cyclical airline lessee credit risk and OEM delivery delays."
+    ],
+    "background": {
+      "business_overview": "Global aviation services & aircraft leasing platform owned by Investment Corporation of Dubai.",
+      "asset_perimeter": "~1,000 owned, managed, and committed aircraft post-Macquarie AirFinance integration.",
+      "ownership_governance": "100% owned by Investment Corporation of Dubai (ICD)."
+    },
+    "recent_drivers": [
+      "Jul-26: Completed $9.0bn acquisition of Macquarie AirFinance Limited.",
+      "9M26: Revenue $1,446.9m (+13.2% YoY), pre-tax profit $370.7m, liquidity $5.6bn, net debt/equity 2.60x."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-20",
+        "event": "FY2026 Full-Year Results & Post-MAF Pro-Forma Leverage",
+        "impact": "Confirms full-year EBITDA run-rate and post-merger deleveraging."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "Unsecured Bond Refinancing Window for MAF Bridge/Debt",
+        "impact": "Potential USD benchmark EMTN issuance."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Capital Adequacy & Unsecured Share",
+      "management_target": "Net Debt/Equity 2.0x-2.75x; Unsecured >80%",
+      "current_runrate": "2.60x Net Debt/Equity; 88.3% unsecured; $5.6bn liquidity (9M26)",
+      "tracking_status": "On Track",
+      "variance_analysis": "MAF acquisition absorbed within ICD/rating leverage tolerance.",
+      "last_guided_source": "DAE 9M26 Release",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Full-Year Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.dubaiaerospace.com/investors/",
+    "days_to_earnings": 85
+  },
+  "management_questions": [
+    {
+      "question": "Break down MAF acquisition debt structure (bridge vs permanent unsecured term debt) and 2027-2028 maturity wall.",
+      "focus_area": "Refinancing",
+      "relevance": "Net debt rose +$6.5bn in 9M26."
+    },
+    {
+      "question": "Confirm ICD equity injection or dividend suspension policy to keep Net Debt/Equity below 2.75x.",
+      "focus_area": "Leverage Discipline",
+      "relevance": "Key for Baa2/BBB rating stability."
+    },
+    {
+      "question": "Update lessee concentration and Russian/sanctioned fleet insurance recovery status.",
+      "focus_area": "Asset Quality",
+      "relevance": "Drives exceptional items."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "dae",
+      "sector": "Industrials",
+      "topic": "9M26 Results & $9bn Macquarie AirFinance Integration",
+      "source": "DAE 9M26 Release (Nov-26)",
+      "note": "9M26 rev $1,446.9m, net debt $16.75bn (2.60x D/E), liquidity $5.6bn, 88.3% unsecured."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation — 9M26 Results & $9bn MAF Acquisition",
+      "source": "DAE FY24-FY25 / 9M26 Reports",
+      "summary": "Added DAE (Baa2/BBB): 9M26 revenue $1.45bn, net debt $16.75bn (2.60x D/E), $5.6bn liquidity post-MAF."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Baa2 (Moody's) / BBB (Fitch) / BBB- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 1272.7,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "UAE Insolvency & Restructuring Framework",
+    "thesis": "Dubai sovereign-owned (ICD) DAE doubled its fleet to ~1,000 aircraft via the $9.0bn acquisition of Macquarie AirFinance in July 2026. Net loans rose to $16.75bn, but net debt/equity remained disciplined at 2.60x with $5.6bn available liquidity and 88.3% unsecured funding."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "2.60x Net Debt/Equity (9M26)",
+      "headroom": "Unsecured aircraft lessor covenants: unencumbered asset coverage & max secured debt basket.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "CoC Put if Dubai government/ICD ownership drops below 50% + downgrade."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "DAE Committed Unsecured RCFs & Available Liquidity",
+    "total_committed_capacity_usd_m": 5600.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 5600.0,
+    "drawn_margin": "Per unsecured bank facilities",
+    "undrawn_commitment_fee": "Standard IG commitment fee",
+    "maturity": "Multi-year committed RCF pool",
+    "syndicate_banks": "Global & GCC Aviation Banking Syndicate",
+    "rcf_financial_covenants": "Reported total available liquidity $5.6bn as of 30-Sep-26."
+  }
+}

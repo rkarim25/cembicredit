@@ -16,7 +16,7 @@
     "model_file": "GDZ_Elektrik_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681f5b7e6ec2e994a620f",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/GDZ_Elektrik_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "fcf_2024a": null,
     "net_leverage_2024a": 3.0,
@@ -24,6 +24,16 @@
     "provenance": "financials rebuilt 26-Nov-26 from GDZ Elektrik Investor Disclosures & Fitch BB- Stable Assessment (Nov-26)"
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "GDZ Elektrik FY24 / Fitch Ratings 'BB-' Stable Review, read 27-Nov-26",
+      "net_leverage": 3.1,
+      "observations": {
+        "notes": "4th largest Turkish electricity distributor (Izmir/Manisa, ~6m population); Fitch FFO net leverage 3.0x-3.2x, loss-theft ~5.2%, annual capex ~$250m reimbursed under EMRA RAB."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -320,6 +330,11 @@
       "question": "Confirm 2026-2030 capex run-rate vs EMRA reimbursement schedule.",
       "focus_area": "Capex & FCF",
       "relevance": "Fitch flags constrained FCF from heavy grid spend."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -985,6 +1000,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- Stable (Fitch, Nov-26) / B2 (Moody's)",
+      "price": 98.2,
+      "ytm": 9.1,
+      "spread_bp": 470,
+      "net_leverage": 3.1,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1105,6 +1133,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Audited Financials & Regulatory RAB Reconciliation",
         "impact": "Verifies FCF deficit sizing and FX hedge mark-to-market."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for GDZ Elektrik."
       }
     ],
     "last_updated": "2026-11-26"

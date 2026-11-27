@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/dangote_ref.json`. Dated, sourced
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: Unrated Notes / Nigeria Sovereign Ceiling B / B3 / B (Fitch withdrew DIL B+(nga)).
 

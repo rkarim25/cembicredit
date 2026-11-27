@@ -281,6 +281,16 @@
       "focus_area": "Liquidity & Funding",
       "relevance": "Saudi sector liquidity tightness drives USD sukuk supply.",
       "conviction_trigger": "SAMA regulatory LDR <90%."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "market_history": [
@@ -946,6 +956,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A1 / A-",
+      "price": 100.1,
+      "ytm": 4.95,
+      "spread_bp": 75,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1049,7 +1072,8 @@
     ],
     "negatives": [
       "System-wide Saudi deposit competition keeping LDR tight (~113% financing/deposits) and pressuring Q3 margin growth.",
-      "Vision 2030 giga-project corporate lending concentration."
+      "Vision 2030 giga-project corporate lending concentration.",
+      "Direct linkage to Saudi Arabia sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Saudi Arabia's #1 bank by assets (formed by NCB-Samba merger).",
@@ -1065,6 +1089,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Audited Results & Wholesale Funding / AT1 Plan",
         "impact": "Clarifies LDR management and 2027 USD sukuk/AT1 supply."
+      },
+      {
+        "date": "2027-02-01",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Saudi National Bank."
       }
     ],
     "last_updated": "2026-11-25"

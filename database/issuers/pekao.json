@@ -119,11 +119,13 @@
     },
     "positives": [
       "~20.2% Q3 2026 Total Capital Ratio and PLN 7.0bn+ earnings power.",
-      "Low legacy CHF mortgage exposure vs Polish peers; PZU/PFR state anchor."
+      "Low legacy CHF mortgage exposure vs Polish peers; PZU/PFR state anchor.",
+      "Established Poland banking franchise with systemic liquidity access and regulatory oversight."
     ],
     "negatives": [
       "NBP rate-cut cycle normalizing net interest margins from 2025 peaks.",
-      "Potential PZU/Pekao group corporate restructuring headlines."
+      "Potential PZU/Pekao group corporate restructuring headlines.",
+      "Direct linkage to Poland sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Poland's second-largest universal bank.",
@@ -138,6 +140,11 @@
         "date": "2027-02-25",
         "event": "FY2026 Audited WSE Results",
         "impact": "Confirms NIM compression pace and dividend payout."
+      },
+      {
+        "date": "2027-02-25",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Bank Pekao S.A.."
       }
     ]
   },
@@ -157,6 +164,16 @@
       "question": "Detail exact 9M26 net profit, CET1 ratio, and NBP rate-cut sensitivity on 2027 NIM.",
       "focus_area": "NIM & Capital",
       "relevance": "Determines Tier 2 spread compression vs PKO BP."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -181,6 +198,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A- (S&P) / BBB+ Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "A- (S&P) / BBB+ Stable (Fitch)",
       "price": null,
       "ytm": null,

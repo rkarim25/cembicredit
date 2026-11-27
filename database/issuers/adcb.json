@@ -332,6 +332,16 @@
       "focus_area": "Capital & Funding",
       "relevance": "Fast asset growth consumes CET1.",
       "conviction_trigger": "CET1 >12.5%."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "market_history": [
@@ -997,6 +1007,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A1 / A",
+      "price": 99.8,
+      "ytm": 5.05,
+      "spread_bp": 85,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1100,7 +1123,8 @@
     ],
     "negatives": [
       "Fast +20% YoY asset growth (AED 890bn) increases reliance on wholesale/time deposits.",
-      "Rate-cut sensitivity on corporate floating-rate loan yields in 2027."
+      "Rate-cut sensitivity on corporate floating-rate loan yields in 2027.",
+      "Direct linkage to UAE sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Abu Dhabi's second-largest bank (AED 890bn assets) across corporate, consumer, and treasury banking.",
@@ -1116,6 +1140,11 @@
         "date": "Jan 2027",
         "event": "FY2026 Audited Results & CET1 Update",
         "impact": "Confirms CET1 retention after +15% YTD asset growth."
+      },
+      {
+        "date": "2027-01-29",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Abu Dhabi Commercial Bank."
       }
     ],
     "last_updated": "2026-11-25"

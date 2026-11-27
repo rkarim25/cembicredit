@@ -4,14 +4,14 @@ _Page created 25-Nov-26 from `database/issuers/arcelik.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: B Negative (S&P, Nov-26) / B+ (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2024A | 560937.0 |  | -11400.0 |  |  |  |
-| 2025A | 523933.0 |  | 5700.0 |  | 3.74 |  |
+| 2024A | 560937.0 | 26000.0 | -11400.0 |  |  |  |
+| 2025A | 523933.0 | 25000.0 | 5700.0 |  | 3.74 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=arcelik) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/arcelik.json)

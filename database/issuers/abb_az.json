@@ -120,7 +120,8 @@
     ],
     "negatives": [
       "Rapid loan expansion and cross-border execution risk in Uzbekistan (ABB Davr Bank).",
-      "Hydrocarbon-driven Azerbaijani macro sensitivity and potential USD Eurobond supply."
+      "Hydrocarbon-driven Azerbaijani macro sensitivity and potential USD Eurobond supply.",
+      "Direct linkage to Azerbaijan sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Largest state-owned universal commercial bank in Azerbaijan.",
@@ -135,6 +136,11 @@
         "date": "2027-03-31",
         "event": "FY2026 Audited IFRS Results & Potential Debut USD Eurobond",
         "impact": "Establishes CEMBI USD curve if $300-500m debut prints."
+      },
+      {
+        "date": "2027-03-31",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for International Bank of Azerbaijan (ABB)."
       }
     ]
   },
@@ -159,6 +165,11 @@
       "question": "Report exact H126 CET1, CAR, and Stage 3 NPL ratio under IFRS 9.",
       "focus_area": "Capital & Asset Quality",
       "relevance": "Confirms buffer post-14.3% loan growth."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "annotations": [
@@ -204,6 +215,27 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-25",
+      "title": "International Bank of Azerbaijan (ABB) \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from ABB FY2025 Audited & H1 2026 Financial Statements (abb-bank.az); quotes await [BBG]",
+      "summary": "Assets AZN 15.30bn, net loans AZN 6.96bn, deposits AZN 9.26bn, NI AZN 250.6m (+61.2% YoY); Fitch BB affirmed."
     }
   ]
 }

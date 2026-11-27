@@ -110,7 +110,8 @@
     ],
     "negatives": [
       "Sovereign borrower concentration and preferred-creditor-status (PCS) disputes in African restructurings.",
-      "High exposure to Nigerian/Ghanaian/Egyptian sovereign & energy trade flows."
+      "High exposure to Nigerian/Ghanaian/Egyptian sovereign & energy trade flows.",
+      "Direct linkage to Pan-Africa sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Pan-African multilateral trade-finance institution established by African states and central banks.",
@@ -126,6 +127,11 @@
         "date": "2027-03-31",
         "event": "FY2026 Audited IFRS Results & Sovereign Restructuring Exposure Update",
         "impact": "Monitors NPL/Stage 3 evolution on sovereign borrowers and GCI II capital inflows."
+      },
+      {
+        "date": "2027-03-31",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Afreximbank."
       }
     ]
   },
@@ -150,6 +156,11 @@
       "question": "Report 9M26 CET1/Basel CAR and liquid treasury asset buffer post-Jul-26 $1.5bn bond.",
       "focus_area": "Capital & Liquidity",
       "relevance": "Tests funding headroom for 2027 loan growth."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "annotations": [
@@ -195,6 +206,27 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Baa2 (Moody's) / BBB (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-25",
+      "title": "Afreximbank \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Afreximbank FY2025 Audited & 9M 2026 IFRS Financial Statements; quotes await [BBG]",
+      "summary": "9M26 NI $813.5m (+24%), assets & contingencies $54.1bn, equity $9.0bn; priced $1.5bn dual-tranche Eurobond Jul-26."
     }
   ]
 }

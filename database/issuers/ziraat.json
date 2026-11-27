@@ -125,7 +125,8 @@
     ],
     "negatives": [
       "Policy-mandated agricultural/SME lending caps NIM upside relative to private Turkish peers.",
-      "Direct sovereign rating linkage and FX deposit dollarization sensitivity."
+      "Direct sovereign rating linkage and FX deposit dollarization sensitivity.",
+      "Direct linkage to Turkey sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Largest state-owned commercial and agricultural bank in T\u00fcrkiye.",
@@ -140,6 +141,11 @@
         "date": "2027-02-25",
         "event": "FY2026 Audited BRSA Results & Capital Ratios",
         "impact": "Confirms YE26 CAR/CET1 post-TRY 10tn expansion and NIM trajectory."
+      },
+      {
+        "date": "2027-02-25",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Ziraat Bank (T.C. Ziraat Bankas\u0131)."
       }
     ]
   },
@@ -164,6 +170,11 @@
       "question": "Detail senior Eurobond refinancing plans following Aug-26 maturity.",
       "focus_area": "FX Liquidity",
       "relevance": "Tests wholesale market access."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "annotations": [
@@ -209,6 +220,27 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- (Fitch) / Ba3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-25",
+      "title": "Ziraat Bank (T.C. Ziraat Bankas\u0131) \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 25-Nov-26 from Ziraat Bank FY2025 Audited & 9M 2026 BRSA/KAP Results (Nov-26); quotes await [BBG]",
+      "summary": "First Turkish bank >TRY 10.1tn assets; 9M26 NI TRY 124.5bn, cash loans TRY 5.5tn, NPL 2.0%."
     }
   ]
 }

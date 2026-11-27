@@ -624,6 +624,11 @@
       "question": "Outline USD EMTN vs domestic ZAR Tier 2 issuance plans for FY27.",
       "focus_area": "Funding",
       "relevance": "Guides secondary USD curve supply."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "market_history": [
@@ -1289,6 +1294,19 @@
       "ebitda": null,
       "fcf": 87.5,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Ba2 / BB-",
+      "price": 98.8,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1409,6 +1427,11 @@
         "date": "Mar 2027",
         "event": "H1 FY27 Interim Results (Dec-26 period)",
         "impact": "Confirms post-redress UK capital trajectory and South African credit loss moderation."
+      },
+      {
+        "date": "2027-02-20",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for FirstRand Bank."
       }
     ],
     "last_updated": "2026-11-23"

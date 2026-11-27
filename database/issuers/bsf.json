@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "id": "bsf",
+    "name": "Banque Saudi Fransi (BSF)",
+    "ticker": "BSFR",
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A- (S&P/Fitch) / A1 (Moody's)",
+    "tier": "A",
+    "benchmark_bond": "BSFR 5.761% Sep 2035 Sub (XS3169052183) & 6.375% AT1 (XS3058649784)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Banque_Saudi_Fransi_Credit_Model.xlsx",
+    "notion_id": "4251d0ad68c6810db83fcb3605d5ba36",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Banque_Saudi_Fransi_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "bank",
+    "financials_currency": "SAR",
+    "provenance": "financials built 27-Nov-26 from BSF FY24/FY25 Annual Reports & 9M26 Tadawul Statements; quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "SAR",
+      "source": "BSF FY24 Audited Statements (Tadawul), read 27-Nov-26",
+      "assets": 292780.0,
+      "loans": 204170.0,
+      "deposits": 185120.0,
+      "net_profit": 4544.0,
+      "observations": {
+        "notes": "FY24 assets SAR 292.78bn, net loans SAR 204.17bn, deposits SAR 185.12bn, net profit SAR 4,544m."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "SAR",
+      "source": "BSF FY25 Audited Statements (Tadawul), read 27-Nov-26",
+      "assets": 309010.0,
+      "loans": 214890.0,
+      "deposits": 195220.0,
+      "net_profit": 5353.0,
+      "observations": {
+        "notes": "FY25 assets SAR 309.01bn (+5.5%), net loans SAR 214.89bn, deposits SAR 195.22bn (+5.5%), net profit SAR 5,353m (+17.8%), impairments -16% YoY."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "SAR",
+      "source": "BSF 9M26 Earnings Release (Tadawul / IR), read 27-Nov-26",
+      "assets": 338600.0,
+      "loans": 230400.0,
+      "deposits": 203200.0,
+      "nii": 6863.1,
+      "net_profit": 4376.6,
+      "cet1_pct": 15.3,
+      "car_pct": 20.2,
+      "npl_pct": 0.95,
+      "observations": {
+        "notes": "9M26 assets SAR 338.6bn (+10% YTD), loans SAR 230.4bn (+7% YTD), deposits SAR 203.2bn, NSCI SAR 6,863.1m (+6.0% YoY), net profit SAR 4,376.6m (+6.9% YoY), CET1 15.3%, Tier-1 18.1%, CAR 20.2%, NPL 0.95% (165.3% coverage)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Banque Saudi Fransi 6.375% Perpetual AT1 Capital Notes",
+      "instrument_type": "AT1 Perpetual Subordinated Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 650.0,
+      "coupon": "6.375%",
+      "maturity": "2099-12-31",
+      "seniority": "Junior Subordinated (AT1)",
+      "governing_law": "English",
+      "isin": "XS3058649784"
+    },
+    {
+      "tranche_name": "Banque Saudi Fransi 5.761% Subordinated Tier 2 due Sep 2035",
+      "instrument_type": "Tier 2 Subordinated Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 750.0,
+      "coupon": "5.761%",
+      "maturity": "2035-09-15",
+      "seniority": "Subordinated Tier 2",
+      "governing_law": "English",
+      "isin": "XS3169052183"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 1400.0,
+    "total_outstanding_usd_m": 1400.0,
+    "source": "BSF USD AT1 (XS3058649784) & Sep-35 Tier 2 (XS3169052183) capital instruments."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Neutral / Well-Capitalized Saudi Corporate Bank (15.3% CET1, 0.95% NPL)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "BSF is a core Kingdom corporate bank (SAR 338.6bn assets in 9M26) anchored by Kingdom Holding (~16.2%) and strong internal capital (15.3% CET1, 20.2% CAR). Asset quality tightened further to 0.95% NPL with 165.3% coverage while 9M26 net profit rose 6.9% YoY."
+    },
+    "positives": [
+      "Strong capital stack: 15.3% CET1, 18.1% Tier-1, 20.2% Total CAR in 9M26.",
+      "Pristine asset quality: 0.95% NPL ratio with 165.3% provisioning coverage.",
+      "Solid 9M26 earnings trajectory (+6.9% YoY net profit to SAR 4.38bn; +6.0% NII)."
+    ],
+    "negatives": [
+      "Elevated loan-to-deposit ratio (~113% in 9M26: loans SAR 230.4bn vs deposits SAR 203.2bn) requires ongoing wholesale/DCM funding.",
+      "High single-name Saudi corporate concentration.",
+      "Rate-cut sensitivity on floating-rate corporate loan yields."
+    ],
+    "background": {
+      "business_overview": "Leading Saudi corporate, treasury, and retail bank (formerly Credit Agricole affiliate).",
+      "asset_perimeter": "SAR 230.4bn net loans & advances (9M26) heavily weighted to prime Saudi corporates.",
+      "ownership_governance": "Kingdom Holding (~16.2%), GOSI, Tadawul-listed (1050.SR)."
+    },
+    "recent_drivers": [
+      "9M26: Assets SAR 338.6bn (+10% YTD), net profit SAR 4,376.6m (+6.9% YoY), CET1 15.3%, CAR 20.2%, NPL 0.95% (165.3% coverage)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-01-29",
+        "event": "FY2026 Audited Financial Results",
+        "impact": "Confirms full-year ROE, LDR normalization, and 2027 NIM guidance."
+      },
+      {
+        "date": "2027-04-28",
+        "event": "Q1 2027 Senior EMTN / Capital Issuance Window",
+        "impact": "Monitors wholesale funding diversification."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Capital & Asset Quality",
+      "management_target": "CET1 >14%; NPL <1.1%",
+      "current_runrate": "CET1 15.3%; CAR 20.2%; NPL 0.95% (9M26)",
+      "tracking_status": "Ahead",
+      "variance_analysis": "Tier 2 & AT1 issues plus earnings boosted CAR >20%.",
+      "last_guided_source": "BSF 9M26 IR",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-01-29",
+    "period_reporting": "FY 2026 Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.bsf.sa/english/about-us/investor-relations",
+    "days_to_earnings": 63
+  },
+  "management_questions": [
+    {
+      "question": "Outline funding roadmap to bring LDR down from ~113% without compressing NIM.",
+      "focus_area": "Liquidity & Funding",
+      "relevance": "Loans outpaced deposits in 9M26."
+    },
+    {
+      "question": "Assess corporate credit demand across Vision 2030 contractors vs non-oil private sector.",
+      "focus_area": "Loan Book Quality",
+      "relevance": "Core corporate bank exposure."
+    },
+    {
+      "question": "Confirm call economics on 6.375% AT1 and appetite for senior sukuk/EMTN supply in 2027.",
+      "focus_area": "DCM Supply",
+      "relevance": "Sets curve technicals."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "bsf",
+      "sector": "Banks",
+      "topic": "9M26 Results (CET1 15.3%, NPL 0.95%) & AT1/T2 Curve",
+      "source": "BSF Tadawul / Cbonds (2026)",
+      "note": "9M26 assets SAR 338.6bn, net profit SAR 4,376.6m, CET1 15.3%, CAR 20.2%, NPL 0.95% (165.3% cov)."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Banque Saudi Fransi (BSF) — Verified Filings & Credit Profile",
+      "source": "financials built 27-Nov-26 from BSF FY24/FY25 Annual Reports & 9M26 Tadawul Statements; quotes await [BBG]",
+      "summary": "9M26 assets SAR 338.6bn, net profit SAR 4,376.6m, CET1 15.3%, CAR 20.2%, NPL 0.95% (165.3% cov)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A- (S&P/Fitch) / A1 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "supplementary_data": {
+    "tier1_pct": 18.1,
+    "npl_coverage_pct": 165.3
+  }
+}

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/arada.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ARADA 8.875% Oct 2031 Sukuk ($400M): price 99.66, YTM 8.13%, spread 329bp (as of 2026-11-26).
 - Rating as recorded: B+ / B1.

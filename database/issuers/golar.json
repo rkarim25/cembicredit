@@ -584,6 +584,19 @@
       "ebitda": 240.5,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ (S&P)",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": null,
+      "ebitda": 240.5,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
@@ -780,6 +793,11 @@
       "question": "Provide updated timeline & remaining yard capex for Hilli Argentina modification and MK II conversion.",
       "focus_area": "Capex",
       "relevance": "Defines trough EBITDA and peak net leverage."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "supplementary_data": {
@@ -820,6 +838,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Results & Hilli Argentina Redeployment Schedule",
         "impact": "Monitors capex drawdowns on MK II / Esperanza vs Argentina start-up."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Golar LNG Limited."
       }
     ],
     "last_updated": "2026-11-26"

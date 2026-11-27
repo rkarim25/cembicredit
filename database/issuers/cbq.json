@@ -103,11 +103,13 @@
     },
     "positives": [
       "Total CAR strengthened 100bps YoY to 18.9% (CET1 12.8%) in 9M26.",
-      "High systemic importance in Qatar with strong sovereign support expectations (A / A2 / A-)."
+      "High systemic importance in Qatar with strong sovereign support expectations (A / A2 / A-).",
+      "Established Qatar banking franchise with systemic liquidity access and regulatory oversight."
     ],
     "negatives": [
       "Elevated 5.8% NPL ratio with modest 56.9% Stage 3 coverage.",
-      "Turkish subsidiary (Alternatif Bank) hyperinflation losses and BEPS Pillar Two tax burden."
+      "Turkish subsidiary (Alternatif Bank) hyperinflation losses and BEPS Pillar Two tax burden.",
+      "Direct linkage to Qatar sovereign credit ceiling, local policy rate cycles, and FX volatility."
     ],
     "background": {
       "business_overview": "Qatar's third-largest commercial bank.",
@@ -122,6 +124,11 @@
         "date": "2027-01-28",
         "event": "FY2026 Audited QSE Results",
         "impact": "Monitors NPL resolution and Alternatif Bank IAS 29 drag."
+      },
+      {
+        "date": "2027-01-28",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Commercial Bank of Qatar (CBQ)."
       }
     ]
   },
@@ -141,6 +148,16 @@
       "question": "Clarify path to lift Stage 3 coverage above 70% and Alternatif Bank strategic options.",
       "focus_area": "Asset Quality & Turkey",
       "relevance": "Key driver of spread relative to QNB/Doha peers."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -165,6 +182,19 @@
       "date": "2026-11-26",
       "period_name": "2026-11-26",
       "timestamp": "2026-11-26T05:13:05.384925",
+      "rating": "A Stable (Fitch) / A2 Stable (Moody's) / A- Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
       "rating": "A Stable (Fitch) / A2 Stable (Moody's) / A- Stable (S&P)",
       "price": null,
       "ytm": null,

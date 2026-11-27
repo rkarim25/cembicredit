@@ -16,7 +16,7 @@
     "model_file": "Ford_Otosan_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ford_Otosan_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "financials_currency": "USD",
     "provenance": "financials built 26-Nov-26 from Ford Otosan FY2025 Audited KAP/Investor Results, Fitch BB+ Review & XS2782775345; quotes await [BBG]",
@@ -25,6 +25,18 @@
   },
   "financials_multi_year": [
     {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "TRY",
+      "source": "Ford Otosan FY24 Audited KAP Statements (BIST: FROTO), read 27-Nov-26",
+      "revenue": 778800.0,
+      "net_debt": 97800.0,
+      "net_leverage": 2.5,
+      "observations": {
+        "notes": "FY24 revenue TRY 778.8bn (TRY terms), net debt TRY 97.8bn, net debt/EBITDA ~2.5x."
+      }
+    },
+    {
       "period": "2025A",
       "is_audited": true,
       "currency": "USD",
@@ -32,7 +44,7 @@
       "revenue": 19400.0,
       "net_leverage": 3.0,
       "observations": {
-        "notes": "FY25 consolidated revenue $19.4bn ($11.5bn exports across 400k+ units; 4Q25 EBITDA TRY 13.77bn). H126 faced Turkish inflation/FX margin squeeze + $137m Ko\u00e7 Finans acquisition; Fitch estimates 2026 gross leverage ~3.0x (BB+ Stable)."
+        "notes": "FY25 consolidated revenue $19.4bn ($11.5bn exports across 400k+ units; 4Q25 EBITDA TRY 13.77bn). H126 faced Turkish inflation/FX margin squeeze + $137m Ko\u00e7 Finans acquisition; Fitch estimates 2026 gross leverage ~3.0x (BB+ Stable). FY25 revenue TRY 830.8bn ($19.4bn), net debt TRY 99.0bn, FCF ~TRY 80bn; net debt/EBITDA improved to 1.9x."
       }
     }
   ],
@@ -76,11 +88,13 @@
     },
     "positives": [
       "$11.5bn+ EUR/USD export revenue base + Craiova Romania EV/commercial vehicle hub.",
-      "41%/41% Ford Motor & Ko\u00e7 Holding JV governance; rated BB+ Stable (above Turkish sovereign)."
+      "41%/41% Ford Motor & Ko\u00e7 Holding JV governance; rated BB+ Stable (above Turkish sovereign).",
+      "Strategic Industrials market positioning in Turkey supporting resilient operating cash generation."
     ],
     "negatives": [
       "Turkish real TRY appreciation compressing domestic/export conversion margins in 2026.",
-      "Heavy EV transition capex and $137m Ko\u00e7 Finans acquisition funding."
+      "Heavy EV transition capex and $137m Ko\u00e7 Finans acquisition funding.",
+      "Exposure to Turkey macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Turkey's largest automotive exporter & Ford's European LCV hub.",
@@ -95,6 +109,11 @@
         "date": "2027-02-18",
         "event": "FY2026 Audited KAP Results",
         "impact": "Tests European EV ramp and real-FX margin recovery."
+      },
+      {
+        "date": "2027-02-18",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Ford Otomotiv Sanayi (Ford Otosan)."
       }
     ]
   },
@@ -114,6 +133,16 @@
       "question": "Detail 9M26 EUR/TRY margin impact and peak net leverage trajectory into 2027.",
       "focus_area": "FX & Capex",
       "relevance": "Monitors BB+ rating headroom."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "annotations": [
@@ -146,6 +175,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB+ Stable (Fitch, 2026)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.5,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "historical_notes": [
@@ -165,5 +207,48 @@
     "implied_stress_ev_multiple": 5.0,
     "restructuring_framework": "Turkey Commercial Law",
     "thesis": "Hard-currency Ford/Ko\u00e7 export franchise with multi-plant European asset base."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "3.0x",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard BB Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Ford Otomotiv Sanayi (Ford Otosan) Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

@@ -16,7 +16,7 @@
     "model_file": "Mersin_Port_Credit_Model.xlsx",
     "notion_id": "",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Mersin_Port_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-27",
     "model_type": "corp",
     "financials_currency": "USD",
     "provenance": "financials built 26-Nov-26 from Fitch BB- Positive & S&P B Ratings Disclosures + XS2696793012 Prospectus; quotes await [BBG]",
@@ -24,6 +24,17 @@
     "net_leverage_2024a": null
   },
   "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Mersin International Port (MIP) FY24 Fitch/S&P Credit Review, read 27-Nov-26",
+      "gross_debt": 600.0,
+      "net_leverage": 2.0,
+      "observations": {
+        "notes": "FY24 revenue +7.7% YoY, EBITDA margin 62.1% (vs 66% prior), ~$600m Nov-28 Eurobond, net leverage ~2.0x."
+      }
+    },
     {
       "period": "2025A",
       "is_audited": true,
@@ -76,11 +87,13 @@
     },
     "positives": [
       "Unregulated hard-currency USD tariffs insulating against TRY inflation/FX.",
-      "60-70% EBITDA margins and PSA International operational backing."
+      "60-70% EBITDA margins and PSA International operational backing.",
+      "Strategic Infrastructure market positioning in Turkey supporting resilient operating cash generation."
     ],
     "negatives": [
       "Concession expiry risk (2043) and Eastern Med / Red Sea shipping volatility.",
-      "Eventual dividend upstreaming pressure to Akfen/PSA sponsors."
+      "Eventual dividend upstreaming pressure to Akfen/PSA sponsors.",
+      "Exposure to Turkey macro/FX volatility and sovereign spread widening cycles."
     ],
     "background": {
       "business_overview": "Turkey's largest multipurpose gateway container port on the Mediterranean.",
@@ -95,6 +108,11 @@
         "date": "2027-03-31",
         "event": "FY2026 Audited Results & EMH2 Terminal Ramp",
         "impact": "Tracks container TEU growth and Nov-28 refinancing window."
+      },
+      {
+        "date": "2027-03-31",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Mersin International Port (MIP)."
       }
     ]
   },
@@ -114,6 +132,16 @@
       "question": "Provide FY25/9M26 audited revenue, EBITDA, and cash balance ahead of Nov-28 bond refinancing.",
       "focus_area": "Refinancing & Liquidity",
       "relevance": "Bond enters <2Y maturity window in Nov-26."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "annotations": [
@@ -146,6 +174,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- Positive (Fitch) / B Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.0,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "historical_notes": [
@@ -165,5 +206,48 @@
     "implied_stress_ev_multiple": 6.0,
     "restructuring_framework": "English / Turkish Law",
     "thesis": "Gateway Mediterranean port with 60-70% USD-linked EBITDA margins."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "2.0x",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard BB Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Mersin International Port (MIP) Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
   }
 }

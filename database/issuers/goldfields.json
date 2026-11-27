@@ -329,6 +329,16 @@
       "focus_area": "Capital Allocation",
       "relevance": "0.13x leverage often precedes M&A.",
       "conviction_trigger": "Net leverage <0.75x."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -994,6 +1004,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- / Baa3",
+      "price": 100.2,
+      "ytm": 6.05,
+      "spread_bp": 200,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1132,6 +1155,11 @@
         "date": "Feb 2027",
         "event": "FY2026 Audited Results & 2027 Production/Capex Guidance",
         "impact": "Confirms Salares Norte steady-state run rate and M&A discipline."
+      },
+      {
+        "date": "2027-02-18",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Gold Fields Ltd."
       }
     ],
     "last_updated": "2026-11-25"

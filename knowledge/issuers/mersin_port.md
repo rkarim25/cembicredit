@@ -4,12 +4,13 @@ _Page created 26-Nov-26 from `database/issuers/mersin_port.json`. Dated, sourced
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB- Positive (Fitch) / B Stable (S&P).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
+| 2024A |  |  |  |  | 2.0 |  |
 | 2025A |  |  |  |  |  |  |
 _USD m unless the record says otherwise; audited years only._
 

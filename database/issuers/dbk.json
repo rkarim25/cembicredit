@@ -139,6 +139,11 @@
         "date": "Apr 2027",
         "event": "KZT 100bn 13% Apr-2027 Eurobond Maturity & FY26 Audited IFRS",
         "impact": "Routine refi test and Stage 2 migration check."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Development Bank of Kazakhstan (DBK)."
       }
     ]
   },
@@ -152,6 +157,11 @@
       "question": "Confirm planned USD vs KZT/Dim Sum Eurobond issuance mix for 2027.",
       "focus_area": "Funding",
       "relevance": "Monitors FX asset-liability matching."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -210,6 +220,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Baa1 Stable (Moody's) / BBB Stable (Fitch) / BBB (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Under Watch"
     }
   ],
   "management_guidance_tracker": [
@@ -230,6 +253,14 @@
       "variance_analysis": "Flagship Kazakh development bank (owned via Baiterek Holding) equalized with Kazakhstan's IG sovereign (Moody's Baa1 / Fitch BBB / S&P BBB). FY25 assets surged 36% to KZT 7.67tn with KZT 1.13tn equity and KZT 111.4bn pro",
       "last_guided_source": "DBK FY2025 Audited Consolidated IFRS Statements (KASE, Apr-26) & Fitch 1Q26 Review, read 24-Nov-26",
       "last_verified_period": "2025A"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-24",
+      "title": "Development Bank of Kazakhstan (DBK) \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 24-Nov-26 from DBK FY2024/FY2025 KASE audited IFRS statements & 1Q26 Fitch review; quotes await [BBG] capture",
+      "summary": "FY25 assets KZT 7.67tn (+36%), equity KZT 1.13tn, NPAT KZT 111.4bn, 1Q26 impaired loans 6% (Stage 2 18%). Moody's Baa1 / Fitch BBB / S&P BBB."
     }
   ]
 }

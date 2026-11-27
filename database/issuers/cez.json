@@ -333,6 +333,16 @@
       "focus_area": "Nuclear Capex & Leverage",
       "relevance": "Capex pushed leverage from 1.5x to 2.0x.",
       "conviction_trigger": "Net leverage <=2.5x."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
+    },
+    {
+      "question": "Detail refinancing roadmap and liquidity coverage for upcoming 2027-2028 debt maturities.",
+      "focus_area": "Liquidity Runway",
+      "relevance": "Prevents rollover stress."
     }
   ],
   "market_history": [
@@ -998,6 +1008,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A- / A3",
+      "price": 99.8,
+      "ytm": 4.95,
+      "spread_bp": 90,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1118,6 +1141,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Results & Dukovany Nuclear Financing Structure",
         "impact": "Clarifies off-balance-sheet vs on-balance-sheet nuclear debt burden."
+      },
+      {
+        "date": "2027-03-11",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for \u010cEZ Group."
       }
     ],
     "last_updated": "2026-11-25"

@@ -106,6 +106,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited JSE Results & CLR Moderation Check",
         "impact": "Confirms whether CLR drops back toward ~80bp and tracks Moody's Baa3 Positive trigger."
+      },
+      {
+        "date": "2027-02-20",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Nedbank Group Limited."
       }
     ]
   },
@@ -119,6 +124,11 @@
       "question": "Confirm plans for public USD Tier 2 or senior issuance under the $2bn EMTN vs domestic ZAR Tier 2.",
       "focus_area": "DCM Funding",
       "relevance": "Currently largely ZAR-funded."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
     }
   ],
   "annotations": [
@@ -182,6 +192,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB Stable (Fitch, Oct-26) / Ba2 Stable (Moody's, Baa3 Pos opco dep)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "management_guidance_tracker": [
@@ -211,5 +234,13 @@
     "call_time": "14:00 Local",
     "ir_webcast_url": "",
     "days_to_earnings": 86
-  }
+  },
+  "historical_notes": [
+    {
+      "date": "2026-11-23",
+      "title": "Nedbank Group Limited \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 23-Nov-26 from Nedbank FY2025 & H1 2026 financial filings (2026); quotes await [BBG] capture",
+      "summary": "H126 assets ~R1.56tn, loans R1,010bn (+7%), deposits R1,250bn (+7%), CET1 12.6%, Stage 3 1.49% (vs 1.81%), CLR 95bp. Fitch affirmed BB Stable (Oct-26); Moody's Ba2 Stable / opco Baa3 Pos."
+    }
+  ]
 }

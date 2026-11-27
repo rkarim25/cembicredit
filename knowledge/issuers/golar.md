@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/golar.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - GLNG 7.50% Oct 2030 ($500m, USG4023LAD31) / Dec 2031 ($500m, USG4023LAE14): price 99.5, YTM 7.85%, spread 420bp (as of 2026-11-26).
 - Rating as recorded: B+ (S&P).

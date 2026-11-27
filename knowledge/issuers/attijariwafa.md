@@ -4,13 +4,14 @@ _Page created 26-Nov-26 from `database/issuers/attijariwafa.json`. Dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB+ Stable (S&P / Moody's / Fitch).
 
 | Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
 |---|---:|---:|---:|---:|---:|
 | 2024A |  | 34500.0 |  |  |  |
+| 2025A |  |  |  | 13.13 |  |
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=attijariwafa) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/attijariwafa.json)
 <!-- auto-data-end -->

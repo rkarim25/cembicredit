@@ -165,6 +165,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited IFRS Results & Sovereign Rating Review",
         "impact": "Fitch Positive outlook on Uzbekistan could lift sovereign cap to BB+."
+      },
+      {
+        "date": "2027-03-31",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Navoi Mining & Metallurgical Company (NMMC)."
       }
     ]
   },
@@ -178,6 +183,11 @@
       "question": "Detail Muruntau Phase 5 expansion capex schedule and target AISC ex-price-linked royalties.",
       "focus_area": "Cost & Capex",
       "relevance": "H126 AISC rose to $1,647/oz."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "annotations": [
@@ -236,6 +246,19 @@
       "ebitda": 4561.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB Positive (Fitch, SCP bb+) / BB Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.55,
+      "ebitda": 4561.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -266,5 +289,56 @@
       "last_guided_source": "NMMC H1 2026 Consolidated Financial Results (ngmk.uz), read 24-Nov-26",
       "last_verified_period": "H126"
     }
-  ]
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-24",
+      "title": "Navoi Mining & Metallurgical Company (NMMC) \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 24-Nov-26 from NMMC FY2024/FY2025 audited IFRS & H1 2026 filings; quotes await [BBG] capture",
+      "summary": "H126 rev $7.07bn (+50% YoY), Adj EBITDA $4.89bn (69.2% margin), net debt/EBITDA 0.3x. $1.5bn Eurobonds (2028/2030/2031); Fitch BB Positive (SCP bb+)."
+    }
+  ],
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "0.3x",
+      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "n/a",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Standard BB Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Navoi Mining & Metallurgical Company (NMMC) Credit Facilities (RCF Undisclosed)",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Liquidity tracked via balance sheet cash & short-term deposits; committed RCF details not granularly broken out in summary filings."
+  }
 }

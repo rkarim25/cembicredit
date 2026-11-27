@@ -128,6 +128,11 @@
         "date": "Mar 2027",
         "event": "FY2026 Audited Results & CBN Recapitalisation Compliance",
         "impact": "Verifies sustained CAR >16% and post-forbearance NPL normalization."
+      },
+      {
+        "date": "2027-03-31",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for First HoldCo Plc (FirstBank)."
       }
     ]
   },
@@ -141,6 +146,11 @@
       "question": "Outline any plans to return to USD Eurobond markets in 2027 following the Oct-25 $350m redemption.",
       "focus_area": "External Funding",
       "relevance": "Assesses FX liquidity and CEMBI index re-entry."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "annotations": [
@@ -199,6 +209,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B Stable (Fitch) / B (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "management_guidance_tracker": [
@@ -219,6 +242,14 @@
       "variance_analysis": "First HoldCo staged a decisive 2026 capital and earnings recovery: 9M26 PAT surged to NGN 744.45bn (vs NGN 139.5bn FY25) while flagship FirstBank restored CAR to 16.7% (~170bp above the 15% CBN floor) after dipping to 10",
       "last_guided_source": "First HoldCo Plc 9M 2026 Financial Statements (NGX), read 24-Nov-26",
       "last_verified_period": "9M26"
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-24",
+      "title": "First HoldCo Plc (FirstBank) \u2014 Verified Filings & Credit Profile",
+      "source": "financials built 24-Nov-26 from First HoldCo FY2025 & 9M 2026 NGX financial filings; quotes await [BBG] capture",
+      "summary": "9M26 PAT NGN 744.45bn, assets NGN 32.20tn, deposits NGN 22.91tn; CAR restored to 16.7% by mid-26 (vs 10.95% YE25). $350m Oct-25 Eurobond (XS2243733685) redeemed."
     }
   ]
 }

@@ -348,6 +348,11 @@
       "question": "Detail capital commitments to non-core ventures (e.g. EDGNEX data centers) outside the restricted sukuk group.",
       "focus_area": "Ring-Fencing",
       "relevance": "Key IG upgrade gating factor for Moody's/S&P."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1013,6 +1018,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB+ (S&P upgraded) / Ba2 (Moody's)",
+      "price": 101.0,
+      "ytm": 7.25,
+      "spread_bp": 320,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1134,6 +1152,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Audited Financial Results & IG Upgrade Review",
         "impact": "Potential rising-star trigger if Dubai cash conversion sustains low leverage."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Damac Properties."
       }
     ],
     "last_updated": "2026-11-25"

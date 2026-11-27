@@ -347,6 +347,11 @@
       "question": "Any update on Polish State coal-asset carve-out or capacity market extensions beyond 2028?",
       "focus_area": "Regulation",
       "relevance": "Determines long-term coal liability overhang."
+    },
+    {
+      "question": "Confirm 2027 maintenance vs growth capex flexibility and free cash flow breakeven assumptions.",
+      "focus_area": "FCF Waterfall",
+      "relevance": "Tests deleveraging capacity."
     }
   ],
   "market_history": [
@@ -1012,6 +1017,19 @@
       "ebitda": 10878.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26)",
+      "price": 99.2,
+      "ytm": 5.3,
+      "spread_bp": 125,
+      "net_leverage": 0.34,
+      "ebitda": 10878.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1132,6 +1150,11 @@
         "date": "Q1 2027",
         "event": "FY2026 Audited Results & Offshore Wind Capex Funding Plan",
         "impact": "Tracks leverage trajectory under Fitch BBB Stable tolerances."
+      },
+      {
+        "date": "2027-03-10",
+        "event": "FY 2026 Audited",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for PGE Polska Grupa Energetyczna."
       }
     ],
     "last_updated": "2026-11-26"

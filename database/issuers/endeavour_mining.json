@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "id": "endeavour_mining",
+    "name": "Endeavour Mining plc",
+    "ticker": "EDV",
+    "country": "C\u00f4te d'Ivoire",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BB- / Ba3 (S&P / Moody's)",
+    "tier": "BB",
+    "benchmark_bond": "EDV 7.00% May 2030 ($500m, USG3R41AAB20 / US29261HAB15)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Endeavour_Mining_plc_Credit_Model.xlsx",
+    "notion_id": "3e81d0ad-68c6-8143-9022-fa4c5d31497a",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Endeavour_Mining_plc_Credit_Model.xlsx",
+    "last_updated": "2026-11-27",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "financials built 27-Nov-26 from Endeavour Mining FY24/FY25 Annual Reports & Q326 Results (LSE/TSX); quotes await [BBG]"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Endeavour Mining FY24 Audited Results (LSE), read 27-Nov-26",
+      "ebitda": 1330.0,
+      "net_debt": 732.0,
+      "net_leverage": 0.55,
+      "observations": {
+        "notes": "FY24 Adjusted EBITDA ~$1.33bn, net debt ~$732m, net debt/Adj EBITDA 0.55x."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Endeavour Mining FY25 Audited Results (LSE/TSX), read 27-Nov-26",
+      "ebitda": 2316.0,
+      "calculated_ebitda": 2316.0,
+      "fcf": 1156.0,
+      "net_debt": 158.0,
+      "net_leverage": 0.07,
+      "observations": {
+        "notes": "FY25 production 1,209 koz at $1,433/oz AISC; Adj EBITDA $2,316m (+75% YoY), record FCF $1,156m, net debt slashed to $158m (0.07x leverage)."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Endeavour Mining Q3/9M26 Financial Results (LSE), read 27-Nov-26",
+      "ebitda": 2250.0,
+      "cash": 849.0,
+      "gross_debt": 586.0,
+      "net_debt": -263.0,
+      "net_leverage": -0.1,
+      "observations": {
+        "notes": "9M26 YTD Adj EBITDA $2.25bn (+38% YoY); gross debt cut to $586m vs cash $849m -> moved to $263m NET CASH at Q326."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Endeavour Mining 7.000% Senior Notes due May 2030",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "7.000%",
+      "maturity": "2030-05-28",
+      "seniority": "Senior Unsecured",
+      "governing_law": "New York",
+      "isin": "USG3R41AAB20"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 500.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "Endeavour Mining $500m 7.00% May-30 Senior Notes (USG3R41AAB20 / US29261HAB15) + $700m undrawn/minimal RCF."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-27",
+    "verdict": {
+      "stance": "Overweight / Net-Cash West African Tier-1 Gold Producer (9M26 EBITDA $2.25bn)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Endeavour Mining swung into a $263m net cash position by Q326 ($849m cash vs $586m gross debt) after generating $1.16bn FY25 FCF and $2.25bn 9M26 YTD Adjusted EBITDA (+38% YoY). First-quartile gold mines in C\u00f4te d'Ivoire, Senegal, and Burkina Faso deliver massive coupon coverage on the $500m 7.00% May-30 notes."
+    },
+    "positives": [
+      "Balance sheet flipped to $263m NET CASH by Q326 ($849m cash vs $586m gross debt).",
+      "9M26 YTD Adjusted EBITDA $2.25bn (+38% YoY) following $1,156m record FY25 FCF.",
+      "Long-life, low-cost asset base (Ity, Hound\u00e9, Sabodala-Massawa, Lafigu\u00e9) with $700m RCF liquidity."
+    ],
+    "negatives": [
+      "West African sovereign & fiscal royalty risk (Burkina Faso mining code / Mali exit / C\u00f4te d'Ivoire royalty changes).",
+      "Gold price cyclicality vs AISC inflation ($1,433/oz in FY25).",
+      "Single-bond $500m May-30 maturity concentration."
+    ],
+    "background": {
+      "business_overview": "Largest pure-play West African gold producer listed on LSE & TSX.",
+      "asset_perimeter": "Ity & Lafigu\u00e9 (C\u00f4te d'Ivoire), Sabodala-Massawa (Senegal), Hound\u00e9 & Mana (Burkina Faso).",
+      "ownership_governance": "LSE/TSX listed (EDV); La Mancha ~19% anchor shareholder."
+    },
+    "recent_drivers": [
+      "Q3/9M26: YTD Adj EBITDA $2.25bn (+38% YoY); gross debt cut to $586m, cash $849m ($263m net cash)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-05",
+        "event": "FY2026 Full-Year Results & Shareholder Return Update",
+        "impact": "Confirms full-year FCF, dividend/buyback allocation, and net cash buffer."
+      },
+      {
+        "date": "2027-05-28",
+        "event": "2030 Notes Call Schedule Window",
+        "impact": "Monitors potential early call / liability management given net cash."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Deleveraging & Output",
+      "management_target": "Net Cash / <0.5x Net Leverage; >1.1Moz production",
+      "current_runrate": "$263m Net Cash (Q326); $2.25bn 9M26 EBITDA",
+      "tracking_status": "Ahead",
+      "variance_analysis": "High gold prices accelerated RCF paydown to net cash.",
+      "last_guided_source": "Endeavour Q326 Release",
+      "last_verified_period": "Q326"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-05",
+    "period_reporting": "FY 2026 Audited Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.endeavourmining.com/investors",
+    "days_to_earnings": 98
+  },
+  "management_questions": [
+    {
+      "question": "Confirm 2027 dividend & share buyback ceiling vs Assafou greenfield project capex.",
+      "focus_area": "Capital Allocation",
+      "relevance": "Tests durability of net cash position."
+    },
+    {
+      "question": "Detail Burkina Faso VAT receivable collections and fiscal/royalty regime changes.",
+      "focus_area": "Jurisdiction Risk",
+      "relevance": "Primary West Africa credit risk."
+    },
+    {
+      "question": "Assess likelihood of calling or tendering the $500m 7.00% May-30 notes given $849m cash.",
+      "focus_area": "Bond Convexity",
+      "relevance": "Governs yield-to-call."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "endeavour_mining",
+      "sector": "Materials",
+      "topic": "Q326 Swing to $263m Net Cash ($2.25bn YTD EBITDA)",
+      "source": "Endeavour Mining LSE (Nov-26)",
+      "note": "9M26 YTD Adj EBITDA $2.25bn (+38% YoY), cash $849m vs gross debt $586m ($263m net cash); USG3R41AAB20."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-27",
+      "title": "Initiation \u2014 Q326 Net Cash & Notion Parity",
+      "source": "Endeavour Mining LSE / Notion",
+      "summary": "Synced existing Notion dossier (3e81d0ad-68c6-8143-9022-fa4c5d31497a) to website: Q326 net cash $263m, 9M26 EBITDA $2.25bn."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- / Ba3 (S&P / Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.55,
+      "ebitda": 1330.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "C\u00f4te d'Ivoire Insolvency & Restructuring Framework",
+    "thesis": "Endeavour Mining swung into a $263m net cash position by Q326 ($849m cash vs $586m gross debt) after generating $1.16bn FY25 FCF and $2.25bn 9M26 YTD Adjusted EBITDA (+38% YoY). First-quartile gold mines in C\u00f4te d'Ivoire, Senegal, and Burkina Faso deliver massive coupon coverage on the $500m 7.00% May-30 notes."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence / Financial Covenant Profile",
+      "covenant_threshold": "Per Bond / Facility Docs",
+      "actual_current": "Net Cash -$263m (Q326)",
+      "headroom": "RCF & 2030 notes maintenance/incurrence covenants comfortably satisfied with net cash.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage / Debt Service",
+      "covenant_threshold": "Per Facility Docs",
+      "actual_current": "High (>30x)",
+      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Assets",
+      "headroom": "Pari passu ranking with senior unsecured debt",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Change of Control Put at 101% under 2030 Senior Notes indenture."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+    },
+    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Endeavour Mining $700m Revolving Credit Facility (due 2028)",
+    "total_committed_capacity_usd_m": 700.0,
+    "drawn_amount_usd_m": 86.0,
+    "undrawn_available_usd_m": 614.0,
+    "drawn_margin": "SOFR + 240-340 bps (leverage grid)",
+    "undrawn_commitment_fee": "Standard grid fee",
+    "maturity": "2028",
+    "syndicate_banks": "International Mining Syndicate",
+    "rcf_financial_covenants": "Largely repaid with $849m cash on hand at Q326."
+  }
+}

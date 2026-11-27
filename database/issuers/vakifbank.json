@@ -336,6 +336,16 @@
       "focus_area": "Capital & Asset Quality",
       "relevance": "Fast +34% annualized loan growth.",
       "conviction_trigger": "Unadjusted Tier-1 >11.5%."
+    },
+    {
+      "question": "Detail Stage 2 loan migration, restructuring trends, and specific NPL coverage outlook into 2027.",
+      "focus_area": "Asset Quality",
+      "relevance": "Core predictor of credit costs."
+    },
+    {
+      "question": "Confirm 2027 senior vs subordinated (Tier 2 / AT1) wholesale issuance pipeline and call economics.",
+      "focus_area": "Capital & Supply",
+      "relevance": "Governs spread curve technicals."
     }
   ],
   "market_history": [
@@ -1001,6 +1011,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-27",
+      "period_name": "2026-11-27",
+      "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- / B1",
+      "price": 99.2,
+      "ytm": 6.95,
+      "spread_bp": 235,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1121,6 +1144,11 @@
         "date": "Feb 2027",
         "event": "FY2026 BRSA Results & Unadjusted CAR Disclosure",
         "impact": "Confirms capital generation vs rapid asset growth."
+      },
+      {
+        "date": "2027-02-09",
+        "event": "FY 2026 BRSA",
+        "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Vak\u0131fBank."
       }
     ],
     "last_updated": "2026-11-25"
