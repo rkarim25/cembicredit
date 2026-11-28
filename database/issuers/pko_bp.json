@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "PKO_BP_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-81f6-aefa-eb4d59f82ef9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PKO_BP_Credit_Model.xlsx",
     "last_updated": "2026-11-25",
     "model_type": "bank",
@@ -101,7 +101,8 @@
       "ownership_governance": "29.4% State Treasury of Poland; WSE listed (PKO)."
     },
     "recent_drivers": [
-      "Nov-26 (9M26): NI PLN 8.22bn, ROE 19.0%, C/I 31.0%, Tier 1 15.28%, CoR 27-30bps, CHF provisions down to PLN 1.1bn."
+      "Nov-26 (9M26): NI PLN 8.22bn, ROE 19.0%, C/I 31.0%, Tier 1 15.28%, CoR 27-30bps, CHF provisions down to PLN 1.1bn.",
+      "2025A: FY25 net profit PLN 10.7bn after absorbing PLN 4.4bn CHF mortgage legal risk provisions; total assets ~$162.3bn."
     ],
     "catalysts": [
       {
@@ -192,6 +193,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A2 (Moody's) / A- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A2 (Moody's) / A- (S&P)",
       "price": null,
       "ytm": null,

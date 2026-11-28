@@ -71,9 +71,9 @@
     "base_case_px": 100.5,
     "recovery_floor_pct": 82.0,
     "recovery_base_pct": 100.5,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Investment-grade FMCG champion; diversified bottling concessions across Turkey, Pakistan, and Central Asia."
+    "thesis": "CCI deleveraged all the way down to 0.3x net debt/EBITDA at 9M26 (from 0.8x YE25 and 1.0x YE24) as 9M EBIT jumped 14.3% YoY to TRY 31.0bn (+121bps margin to 15.6%) and net profit rose 23.1%, driven by Pakistan/Uzbekistan volume growth offsetting soft Turkish demand. Structural recovery anchored by Turkey consumer asset perimeter and CCOLA 4.50% 2029 seniority."
   },
   "annotations": [
     {
@@ -1003,6 +1003,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- / BBB",
+      "price": 97.2,
+      "ytm": 5.35,
+      "spread_bp": 130,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB- / BBB",
       "price": 97.2,
       "ytm": 5.35,

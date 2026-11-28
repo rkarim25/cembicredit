@@ -82,9 +82,9 @@
     "base_case_px": 100.5,
     "recovery_floor_pct": 84,
     "recovery_base_pct": 100.5,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
-    "thesis": "State-backed telecom operator across Qatar, Kuwait, Iraq, and Algeria; robust EBITDA margin and cash flow."
+    "thesis": "Ooredoo generated QAR 5.71bn FCF (+11.2% YoY) in 9M26 on QAR 18.96bn revenue (+4.3% YoY) and 44.7% EBITDA margin (QAR 8.48bn), building on FY25's 0.4x net leverage (QAR 4.11bn net debt). Sovereign linkage and disciplined capex underpin A2/A/A ratings. Structural recovery anchored by Qatar technology asset perimeter and ORDS 2.625% Apr 2031 ($1bn, XS2311299957) seniority."
   },
   "annotations": [
     {
@@ -1017,6 +1017,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A2 Stable (Moody's) / A Stable (S&P / Fitch)",
+      "price": 97.8,
+      "ytm": 5,
+      "spread_bp": 95,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A2 Stable (Moody's) / A Stable (S&P / Fitch)",
       "price": 97.8,
       "ytm": 5,

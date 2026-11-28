@@ -1,0 +1,250 @@
+{
+  "metadata": {
+    "id": "ipoteka",
+    "name": "Ipoteka Bank (OTP Group)",
+    "ticker": "IPOTEKA",
+    "country": "Uzbekistan",
+    "region": "Central Asia",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB Positive (Fitch, Sep-26) / BB- Positive (S&P)",
+    "tier": "BB",
+    "benchmark_bond": "Ipoteka Bank 6.45% Oct 2030 ($300m, XS3200121716)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Ipoteka_Bank_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-81c6-bfba-ef819b4835ea",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ipoteka_Bank_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "bank",
+    "financials_currency": "UZS",
+    "provenance": "Ipoteka Bank FY25 Audited Statements & 9M26 OTP/IR Filing + Sep-26 Fitch Release, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "UZS",
+      "source": "Ipoteka Bank FY25 Audited Financial Statements (Filing), read 28-Nov-26",
+      "assets": 49900000.0,
+      "roe_pct": 21.6,
+      "cet1_pct": 17.6,
+      "car_pct": 21.1,
+      "npl_pct": 3.8,
+      "observations": {
+        "notes": "FY25 ROE 21.6%, Total CAR 21.1%, Tier 1/CET1 17.6%; matured $300m Nov-25 Eurobond (XS2260457754) replaced by Oct-30 $300m 6.45% notes."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "UZS",
+      "source": "Ipoteka Bank 9M26 Financial Release & Fitch Sep-26 Review, read 28-Nov-26",
+      "assets": 57900000.0,
+      "net_profit": 1930000.0,
+      "cet1_pct": 17.6,
+      "car_pct": 21.1,
+      "npl_pct": 3.2,
+      "observations": {
+        "notes": "9M26 net profit UZS 1.8trn-2.07trn (~$151m+, +56% YoY), total assets UZS 57.9trn (+16% YoY), Stage 3 NPL improved toward 3.2%; Fitch/S&P Positive outlooks."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Ipoteka Bank 6.45% Senior Unsecured Eurobond due Oct 2030",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 300.0,
+      "coupon": "6.450%",
+      "maturity": "2030-10-31",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3200121716"
+    },
+    {
+      "tranche_name": "Ipoteka Bank 17.50% UZS Eurobond due Oct 2028",
+      "instrument_type": "LCY Eurobond (Vienna MTF)",
+      "currency": "UZS",
+      "amount_outstanding_usd_m": 95.0,
+      "coupon": "17.500%",
+      "maturity": "2028-10-31",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3200122102"
+    },
+    {
+      "tranche_name": "Ipoteka Bank 20.50% UZS Notes due Apr 2027",
+      "instrument_type": "LCY Eurobond (Vienna MTF)",
+      "currency": "UZS",
+      "amount_outstanding_usd_m": 108.0,
+      "coupon": "20.500%",
+      "maturity": "2027-04-30",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2808393370"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 108.0,
+    "2028": 95.0,
+    "2029": 0.0,
+    "2030_plus": 300.0,
+    "total_outstanding_usd_m": 503.0,
+    "source": "Ipoteka Bank Vienna MTF Eurobonds: $300m Oct-30 (XS3200121716), UZS 1.2trn Oct-28 (XS3200122102), UZS 1.37trn Apr-27 (XS2808393370)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Overweight / OTP-Owned Uzbek Transformation & Rising Star Outlook (BB Pos / BB- Pos)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Ipoteka Bank (controlled by Hungary's OTP Group) has completed post-privatization restructuring, delivering 9M26 net profit of ~UZS 1.93trn (+56% YoY), assets of UZS 57.9trn (+16% YoY), Total CAR of 21.1%, and Stage 3 NPLs falling to 3.2%. Both Fitch (Sep-26, BB Positive) and S&P (BB- Positive) revised outlooks to Positive."
+    },
+    "positives": [
+      "OTP Group strategic control, risk management overhaul, and capital support underpin Fitch/S&P Positive outlooks.",
+      "Strong capitalization (CAR 21.1%, Tier 1 17.6%) and 9M26 earnings surge (+56% YoY to ~$151m+).",
+      "Clean refinancing of Nov-25 Eurobond into $300m 6.45% Oct-30 notes (XS3200121716) eliminates near-term USD wall."
+    ],
+    "negatives": [
+      "Legacy state-directed corporate portfolio cleanup still progressing despite NPL drop to 3.2%.",
+      "Uzbekistan banking sector high dollarization and UZS depreciation exposure.",
+      "Apr-27 UZS 1.37trn (~$108m) local-currency Eurobond maturity requires domestic/Vienna rollover."
+    ],
+    "background": {
+      "business_overview": "5th-largest Uzbek commercial bank and leading mortgage/retail & SME franchise.",
+      "asset_perimeter": "UZS 57.9trn assets across retail mortgages, SME, and corporate banking.",
+      "ownership_governance": "Majority owned by OTP Bank Nyrt. (Hungary) with IFC minority participation."
+    },
+    "recent_drivers": [
+      "Sep-26: Fitch affirmed Ipoteka Bank at BB and revised outlook to Positive (matching S&P BB- Positive).",
+      "9M26: Net profit ~UZS 1.93trn (+56% YoY), assets UZS 57.9trn (+16% YoY), Stage 3 NPL 3.2%."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-05",
+        "event": "FY2026 Audited Results (OTP Group Consolidation)",
+        "impact": "Confirms full-year ROE >20% and legacy NPL resolution."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "UZS 1.37trn 20.5% Bond Maturity (XS2808393370)",
+        "impact": "Tests local-currency Vienna MTF rollover demand."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Post-Integration Profitability & Asset Quality",
+      "management_target": "ROE >20%; Stage 3 NPL <3.5%",
+      "current_runrate": "9M26 profit +56% YoY; NPL 3.2%; CAR 21.1%",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Strong OTP turnaround earned Positive outlooks at Fitch & S&P.",
+      "last_guided_source": "Fitch Sep-26 / 9M26",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-05",
+    "period_reporting": "FY 2026 Audited Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.ipotekabank.uz/en/investors/",
+    "days_to_earnings": 97
+  },
+  "management_questions": [
+    {
+      "question": "Update Stage 3 NPL coverage and remaining legacy state-directed corporate workouts.",
+      "focus_area": "Asset Quality",
+      "relevance": "Key trigger for Fitch BB+ upgrade."
+    },
+    {
+      "question": "Detail refinancing plan for Apr-27 UZS 1.37trn (XS2808393370) notes.",
+      "focus_area": "LCY Refinancing",
+      "relevance": "Near-term liquidity milestone."
+    },
+    {
+      "question": "Confirm OTP Group parent support mechanics vs sovereign rating ceiling.",
+      "focus_area": "Ratings",
+      "relevance": "Determines Positive outlook conversion."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ipoteka",
+      "sector": "Banks",
+      "topic": "Sep-26 Fitch BB Positive & 9M26 Profit +56% YoY",
+      "source": "Ipoteka Bank FY25 Audited Statements & 9M26 OTP/IR Filing + Sep-26 Fitch Release, read 28-Nov-26",
+      "note": "9M26 profit ~UZS 1.93trn (+56%), assets UZS 57.9trn, CAR 21.1%, NPL 3.2%; Fitch BB Positive (Sep-26), XS3200121716 $300m 6.45% Oct-30."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 Sep-26 Fitch Positive Outlook & 9M26 OTP Results",
+      "source": "Ipoteka Bank FY25 Audited Statements & 9M26 OTP/IR Filing + Sep-26 Fitch Release, read 28-Nov-26",
+      "summary": "Added Ipoteka Bank (BB Pos/BB- Pos): 9M26 profit +56%, CAR 21.1%, $300m Oct-30 Eurobond."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB Positive (Fitch, Sep-26) / BB- Positive (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "covenant_analysis": {
+    "capital_adequacy_covenant": {
+      "covenant_type": "Total Capital Adequacy Ratio (CAR)",
+      "covenant_threshold": "Central Bank Regulatory Minimum (Basel III)",
+      "actual_current": "21.1%",
+      "headroom": "Maintains solid buffer above domestic supervisory minimums",
+      "status": "Compliant (Filings)"
+    },
+    "cet1_ratio_covenant": {
+      "covenant_type": "Common Equity Tier 1 (CET1) Ratio",
+      "covenant_threshold": "Basel III Minimum + Conservation/D-SIB Buffer",
+      "actual_current": "17.6% (Tier 1)",
+      "headroom": "Adequate loss-absorbing CET1 buffer above AT1/T2 triggers",
+      "status": "Compliant (Filings)"
+    },
+    "liquidity_coverage_covenant": {
+      "covenant_type": "Liquidity Coverage Ratio (LCR)",
+      "covenant_threshold": "min 100.0%",
+      "actual_current": ">130% (Compliant)",
+      "headroom": "Strong HQLA and deposit funding liquidity cushion",
+      "status": "Compliant"
+    },
+    "large_exposure_limit": {
+      "covenant_type": "Single Obligor / Large Exposure Limit",
+      "covenant_threshold": "max 25.0% Tier 1",
+      "actual_current": "Compliant",
+      "headroom": "Regulated under central bank prudential limits",
+      "status": "Compliant"
+    },
+    "cross_default_threshold": "Standard EMTN / AT1 / Tier 2 regulatory non-viability & resolution terms."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Ipoteka Bank (OTP Group) Wholesale Repo & Syndicated Funding Facilities",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Per EMTN / Syndicated Term Facility Docs",
+    "undrawn_commitment_fee": "N/A (Bank Funding)",
+    "maturity": "Revolving / Multi-year",
+    "syndicate_banks": "International & Regional Interbank Lenders",
+    "rcf_financial_covenants": "CAR, CET1, LCR and Central Bank prudential liquidity compliance."
+  }
+}

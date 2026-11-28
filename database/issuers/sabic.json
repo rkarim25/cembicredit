@@ -75,9 +75,9 @@
     "base_case_px": 101.0,
     "recovery_floor_pct": 84.0,
     "recovery_base_pct": 101.0,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
-    "thesis": "Global top-tier petrochemical leader; 70% owned by Aramco with advantaged feedstock pricing agreements."
+    "thesis": "A1/A+ IG rating is firmly anchored by 70% Saudi Aramco ownership and Saudi sovereign linkage, alongside ultra-low reported net debt (SAR 3.03bn / $0.81bn at 30-Sep-26). Q3 2026 Adj EBITDA rebounded 40% QoQ to SAR 4.75bn ($1.27bn; 9M26 ~SAR 12.4bn), though petrochemical oversupply, regional conflict supply disruptions, and $880m 1H26 dividends exceeding earnings weigh on standalone credit. Structural recovery anchored by Saudi Arabia materials asset perimeter and SABIC 4.50% 2028 seniority."
   },
   "annotations": [
     {
@@ -1005,6 +1005,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A1 / A+",
+      "price": 98.8,
+      "ytm": 5.05,
+      "spread_bp": 100,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A1 / A+",
       "price": 98.8,
       "ytm": 5.05,

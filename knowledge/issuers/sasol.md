@@ -4,10 +4,10 @@ _Page created 08-Oct-26 from `database/issuers/sasol.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- SOLSJ 7.85% 2029: price 98.4, YTM 7.85%, spread 365bp (as of 2026-11-24).
-- Rating as recorded: BB+ Neg (S&P) / Ba1 Neg (Moody's).
+- SOLSJ 7.85% 2029: price 98.4, YTM 7.85%, spread 365bp (as of 2026-11-28).
+- Rating as recorded: BB+ Stable (S&P, Nov-26) / Ba1 Neg (Moody's).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|

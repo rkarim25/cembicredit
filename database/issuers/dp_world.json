@@ -100,7 +100,7 @@
     "recovery_base_pct": 102.5,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "UAE Commercial & Bankruptcy Code",
-    "thesis": "Global port monopoly across 73 countries; 85M+ TEU volume; Dubai Inc. crown jewel; hybrids yield 6.85%."
+    "thesis": "Resilient global ports & logistics platform (77% non-UAE footprint): 1H26 revenue rose 13.1% to $12.7bn and Adj EBITDA dipped only 5.6% to $2.86bn (+9.7% ex-Jebel Ali) despite Jebel Ali throughput falling 59.5% (Q2 -90.1%) from regional conflict. Pre-IFRS 16 leverage ticked up to 3.7x (vs 4.0x policy cap). Priced EUR 750m 6Y green + USD 750m 10Y notes in Sep-26 25bp inside IPT. Structural recovery anchored by UAE infrastructure asset perimeter and DPW 6.25% 2036 ($750m) seniority."
   },
   "annotations": [
     {
@@ -1028,6 +1028,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB+ (Fitch) / Baa2 (Moody's)",
+      "price": 98,
+      "ytm": 5.35,
+      "spread_bp": 120,
+      "net_leverage": 4.1,
+      "ebitda": 5450.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB+ (Fitch) / Baa2 (Moody's)",
       "price": 98,
       "ytm": 5.35,

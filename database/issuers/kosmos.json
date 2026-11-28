@@ -16,7 +16,7 @@
     "model_file": "Kosmos_Energy_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6819e9cbaff7593216ed5",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Kosmos_Energy_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-28",
     "cognitive_credit_id": "kosmos",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/kosmos/description",
     "model_type": "corp",
@@ -91,9 +91,16 @@
     "recovery_base_pct": 98,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Ghana Commercial & Bankruptcy Code",
-    "thesis": "Jubilee (<$12/boe lifting cost) & TEN fields + GTA FLNG Phase 1 startup (2.5 mtpa); multi-year FCF inflection."
+    "thesis": "Sharp credit turnaround in 2026: 9M26 EBITDAX nearly doubled YoY to ~$800m on rising production and lower opex, enabling Kosmos to slash net debt by >$500m YTD to $2.47bn (from $2.98bn at start of 2026), with management targeting <$2.4bn by YE26. Structural recovery anchored by Ghana energy asset perimeter and KOS 10.45% 2027 seniority."
   },
   "annotations": [
+    {
+      "issuer_id": "kosmos",
+      "sector": "Energy",
+      "topic": "Q326 Production 69.2 kboepd & $570m Liquidity",
+      "source": "Kosmos Energy Q326 10-Q & Release",
+      "note": "Q326 rev $410m, net prod 69.2 kboepd, ~$570m liquidity, net debt $2.47bn; $1.2bn RBL extended to Apr-33."
+    },
     {
       "issuer_id": "kosmos",
       "sector": "Energy",
@@ -1040,6 +1047,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "B- / B3",
+      "price": 89.5,
+      "ytm": 10.45,
+      "spread_bp": 610,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1170,6 +1190,7 @@
       "ownership_governance": "NYSE & LSE listed (KOS)."
     },
     "recent_drivers": [
+      "Q3/9M26: Q3 production averaged 69.2 kboepd (+6% YoY, +17% ex-EG) on $410m Q3 revenue; liquidity ~$570m and net debt cut >$500m YTD to $2.47bn alongside $1.2bn RBL extension to Apr-33.",
       "Nov-26: Amended & extended $1.2bn RBL facility from Dec-2029 to April 2033; 9M26 EBITDAX ~$800m, net debt cut >$500m YTD to $2.47bn.",
       "Q3/9M 2026 Results: 9M EBITDAX ~$800m (nearly 2x YoY), net debt cut >$500m YTD to $2.47bn (vs $2.98bn start of year), targeting <$2.4bn by YE26."
     ],
@@ -1185,9 +1206,15 @@
         "impact": "Provides audited FY26 figures, updated leverage/capital print, and 2027 guidance for Kosmos Energy."
       }
     ],
-    "last_updated": "2026-11-24"
+    "last_updated": "2026-11-28"
   },
   "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Q326 Liquidity (~$570m) & Production (69.2 kboepd) Reconciliation",
+      "source": "Kosmos Energy Q326 10-Q & Release",
+      "summary": "Confirmed Q326 revenue $410m, production 69.2 kboepd, ~$570m total liquidity, and $2.47bn net debt alongside Apr-33 $1.2bn RBL extension."
+    },
     {
       "id": "kosmos-filings-20261124",
       "date": "2026-11-24",

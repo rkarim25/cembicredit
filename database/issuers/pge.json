@@ -87,9 +87,9 @@
     "base_case_px": 100.8,
     "recovery_floor_pct": 82.0,
     "recovery_base_pct": 100.8,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Poland Commercial & Bankruptcy Code",
-    "thesis": "Poland's primary electricity generator and grid operator; accelerating offshore Baltic wind transition."
+    "thesis": "PGE posted 9M26 revenue of PLN 48.57bn and swung to a PLN 7.04bn net profit following FY25's record PLN 12.9bn recurring EBITDA and 1.23x leverage. Fitch (BBB Stable) and Moody's (Baa1 Stable) balance strong grid/heat cash flows against multi-billion PLN offshore wind capex. Structural recovery anchored by Poland utilities asset perimeter and PGE 5.125% 2029 seniority."
   },
   "annotations": [
     {
@@ -1022,6 +1022,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26)",
+      "price": 99.2,
+      "ytm": 5.3,
+      "spread_bp": 125,
+      "net_leverage": 0.34,
+      "ebitda": 10878.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB Stable (Fitch, Sep-26) / Baa1 Stable (Moody's, Jul-26)",
       "price": 99.2,
       "ytm": 5.3,

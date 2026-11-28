@@ -178,7 +178,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Africa Finance Corporation (AFC) — Verified Filings & Credit Profile",
+      "title": "Africa Finance Corporation (AFC) \u2014 Verified Filings & Credit Profile",
       "source": "financials built 27-Nov-26 from AFC FY24/FY25 Annual Reports & 2026 DCM Announcements; quotes await [BBG]",
       "summary": "FY24 rev >$1.1bn, assets $14.4bn, LCR 194%; Jul-26 $500m 5.375% Jul-31 & $500m Perp Hybrid (XS2933422888)."
     }
@@ -188,6 +188,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A3 (Moody's) / AAA (China Chengxin)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A3 (Moody's) / AAA (China Chengxin)",
       "price": null,
       "ytm": null,

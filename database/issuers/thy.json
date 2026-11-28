@@ -75,9 +75,9 @@
     "base_case_px": 101.0,
     "recovery_floor_pct": 70.0,
     "recovery_base_pct": 101.0,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Global hub carrier with Istanbul Airport cost advantage; >85% hard currency revenue, excellent cargo yield."
+    "thesis": "9M26 revenue climbed +20.2% YoY to $21.42bn (Q3 $8.30bn, +19.3% YoY), but 9M EBITDAR margin compressed 6.2pp YoY to 17.6% ($3.78bn; Q3 $2.104bn at 25.4%) on higher jet fuel and opex inflation. Net debt rose to ~$9.7bn (LTM net leverage 2.2x vs 1.6x YE25) on $4.6bn 9M fleet investments. Structural recovery anchored by Turkey aviation asset perimeter and THYAO 7.25% 2029 seniority."
   },
   "annotations": [
     {
@@ -1008,6 +1008,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- / BB-",
+      "price": 99.2,
+      "ytm": 7.45,
+      "spread_bp": 340,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB- / BB-",
       "price": 99.2,
       "ytm": 7.45,

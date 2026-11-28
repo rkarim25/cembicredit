@@ -1041,6 +1041,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "RD / D (Selective Default, 2026)",
+      "price": 64.0,
+      "ytm": 19.25,
+      "spread_bp": 1485,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "broker_snapshots": [

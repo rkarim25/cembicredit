@@ -73,9 +73,9 @@
     "base_case_px": 101.0,
     "recovery_floor_pct": 78.0,
     "recovery_base_pct": 101.0,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
-    "thesis": "Joint venture between Petrochemical Industries Company (Kuwait) and Dow Chemical; Q1 global cost curve."
+    "thesis": "EQUATE's FY25 EBITDA fell 23.3% YoY to $974m ($368m NI on $3.80bn rev) under global ethylene glycol/polyethylene trough spreads, prompting Moody's in Nov-26 to affirm Baa2 with a Negative outlook. Advantaged KPC ethane feedstock and full plant utilization anchor IG status, but leverage headroom has narrowed. Structural recovery anchored by Kuwait materials asset perimeter and EQUATE 5.00% 2030 seniority."
   },
   "annotations": [
     {
@@ -1008,6 +1008,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Baa2 Negative (Moody's, Nov-26) / BBB (Fitch)",
+      "price": 98.2,
+      "ytm": 5.55,
+      "spread_bp": 150,
+      "net_leverage": null,
+      "ebitda": 1270.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "Baa2 Negative (Moody's, Nov-26) / BBB (Fitch)",
       "price": 98.2,
       "ytm": 5.55,

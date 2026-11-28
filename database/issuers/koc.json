@@ -78,9 +78,9 @@
     "base_case_px": 101.5,
     "recovery_floor_pct": 78.0,
     "recovery_base_pct": 101.5,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Turkey's premier industrial conglomerate (T\u00fcpra\u015f, Ford Otosan, Ar\u00e7elik, Yap\u0131 Kredi); net cash at holdco."
+    "thesis": "Turkey's premier industrial holding company posted TRY 34.9bn Q326 consolidated net income propelled by T\u00fcpra\u015f's blockbuster refining margins ($36.3/bbl Q3 NRM). Standalone HoldCo net cash position and S&P rating uplift above sovereign ceiling anchor tight HoldCo spreads. Structural recovery anchored by Turkey industrials asset perimeter and KCHOL 6.50% 2030 seniority."
   },
   "annotations": [
     {
@@ -1010,6 +1010,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB / BB+",
+      "price": 98.5,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB / BB+",
       "price": 98.5,
       "ytm": 6.85,

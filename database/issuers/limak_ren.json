@@ -80,7 +80,7 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "1,060 MW hydro & solar portfolio; 72% EBITDA margin; YEKDEM 7.3c/kWh dollar floor guarantee."
+    "thesis": "Fitch downgraded Limak Renewable to B+ Stable (from BB-) in Sep-26 after weak hydrology depressed EBITDA alongside front-loaded expansion capex, keeping FFO net leverage >5x until expected deleveraging around 2029. The $525m 9.625% Aug-30 Green Bond retains natural USD cash flow protection from \u00c7etin/Alkumru YEKDEM tariffs. Structural recovery anchored by Turkey utilities asset perimeter and LIMAKR 9.625% Aug 2030 Green ($525m, Feb-25) seniority."
   },
   "annotations": [
     {
@@ -977,6 +977,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ Stable (Fitch downgrade from BB-, Sep-26)",
+      "price": 98.2,
+      "ytm": 8.75,
+      "spread_bp": 435,
+      "net_leverage": 2.13,
+      "ebitda": 149.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B+ Stable (Fitch downgrade from BB-, Sep-26)",
       "price": 98.2,
       "ytm": 8.75,

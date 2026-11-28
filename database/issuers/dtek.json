@@ -74,7 +74,7 @@
     "recovery_base_pct": 80,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
-    "thesis": "Critical national power utility; 500MW+ renewables + domestic gas upstream; ENTSO-E EU grid connectivity."
+    "thesis": "DTEK Energy (Fitch CCC- / Moody's Caa3) posted FY24 revenue of UAH 57.8bn (~$520m EBITDA) and ~$660m Fitch-projected FY25 EBITDA under raised price caps, though thermal plants suffer ongoing strikes ahead of 2027 Eurobond maturities. Sister unit DTEK Renewables doubled 1H26 EBITDA to $104m but carries CC-rated \u20ac281m Nov-27 green bonds constrained by NBU FX transfer rules. Structural recovery anchored by Ukraine utilities asset perimeter and DTEK 18.50% 2027 seniority."
   },
   "annotations": [
     {
@@ -1015,6 +1015,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "CCC- (Fitch, late-25) / Caa3 (Moody's) | Renewables CC",
+      "price": 68.5,
+      "ytm": 18.5,
+      "spread_bp": 1410,
+      "net_leverage": null,
+      "ebitda": 520.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "CCC- (Fitch, late-25) / Caa3 (Moody's) | Renewables CC",
       "price": 68.5,
       "ytm": 18.5,

@@ -96,7 +96,8 @@
       "ownership_governance": "100% owned by Government of Georgia (Ministry of Economy / Partnership Fund)."
     },
     "recent_drivers": [
-      "H126: Revenue GEL 306.8m (+3.8% YoY); 5M26 Adj EBITDA +91% YoY to GEL 122.9m; Sep-26 cash ~$150m."
+      "H126: Revenue GEL 306.8m (+3.8% YoY); 5M26 Adj EBITDA +91% YoY to GEL 122.9m; Sep-26 cash ~$150m.",
+      "2025A: FY25 revenue ~$222.8m (-6.5% YoY on softer transit cargo), ~30% EBITDA margin ahead of mainline modernization completion; net leverage ~4.6x-5.2x."
     ],
     "catalysts": [
       {
@@ -159,7 +160,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Initiation — Middle Corridor Modernization Payoff",
+      "title": "Initiation \u2014 Middle Corridor Modernization Payoff",
       "source": "Georgian Railway FY25-H126",
       "summary": "Initiated Georgian Railway (BB-): 5M26 EBITDA +91% YoY, $150m cash Sep-26, $500m Jun-28 green Eurobond (XS2340149439)."
     }
@@ -169,6 +170,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- (S&P/Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB- (S&P/Fitch)",
       "price": null,
       "ytm": null,
@@ -190,35 +204,35 @@
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "4.6x-5.2x (FY25)",
-      "headroom": "Standard Eurobond negative pledge and Net Debt/EBITDA incurrence limit.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with BB- (S&P/Fitch)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "100% state ownership maintenance / CoC Put at 101% under XS2340149439."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Georgian Railway Credit Facilities (RCF Undisclosed)",

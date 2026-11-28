@@ -16,7 +16,7 @@
     "model_file": "Braskem_Credit_Model.xlsx",
     "notion_id": "3e31d0ad68c6819baaa2de6d03346ec9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Braskem_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-28",
     "cognitive_credit_id": "braskem",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/braskem/description",
     "model_type": "corp",
@@ -774,6 +774,13 @@
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "braskem",
+      "sector": "Materials",
+      "topic": "24-Nov-26 Restructuring Details ($1.3bn Backstop / PIK Toggle)",
+      "source": "Braskem Material Fact / PRNewswire (24-Nov-26)",
+      "note": "Agreement in principle ($10.9bn+ claims): $2.25bn rights ($1.3bn backstop), up to $3.6bn D2E, >=2031 10.5% takeback debt w/ PIK toggle thru Dec-28."
+    },
     {
       "issuer_id": "braskem",
       "sector": "Materials",
@@ -1642,10 +1649,23 @@
       "ebitda": 5759.0,
       "fcf": -2330.0,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "D (S&P) / RD (Fitch) / Ca (Moody's)",
+      "price": 51.8,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "net_leverage": 10.2,
+      "ebitda": 5759.0,
+      "fcf": -2330.0,
+      "guidance_status": "Under Watch"
     }
   ],
   "credit_view": {
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-28",
     "verdict": {
       "stance": "Distressed Restructuring / Late-Nov-26 Agreement in Principle (> $10.9bn Claims)",
       "target_price": null,
@@ -1671,6 +1691,7 @@
       "ownership_governance": "Novonor (controlling voting shareholder, bank-pledged shares) and Petrobras (co-controlling / major shareholder) locked in protracted governance and equity-injection negotiations."
     },
     "recent_drivers": [
+      "24-Nov-26: Formalized agreement in principle ($10.9bn+ claims, $4.9bn recap: $2.25bn rights issue with $1.3bn anchor backstop, up to $3.6bn D2E, >=2031 secured takeback debt at 10.5% weighted avg with PIK toggle through Dec-28); court extension sought.",
       "Late-Nov 2026: Non-binding out-of-court agreement in principle ($10.9bn+ claims; $2.25bn rights issue, $3.6bn D2E, 2031 takeback debt at 10.5%).",
       "Late-Nov 2026: Agreed $4.9bn out-of-court rescue deal ($1.3bn Petrobras/IG4 equity injection + $3.6bn creditor D/E swap), averting RJ bankruptcy ahead of deadline.",
       "16-Nov-26: Earlier creditor rejection triggered RD/D/Ca ratings before revised terms cleared.",
@@ -1712,6 +1733,12 @@
     }
   ],
   "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "24-Nov-26 Agreement in Principle Terms ($1.3bn Equity Backstop & Dec-28 PIK Toggle)",
+      "source": "Braskem Material Fact / PRNewswire (24-Nov-26)",
+      "summary": "24-Nov-26 out-of-court agreement in principle details: $2.25bn rights issue ($1.3bn Petrobras/IG4/third-party backstop), up to $3.6bn D2E, >=2031 10.5% secured takeback debt with PIK toggle through Dec-28."
+    },
     {
       "date": "2026-11-26",
       "title": "Late-Nov 2026 Out-of-Court Restructuring Agreement in Principle",

@@ -115,7 +115,8 @@
       "ownership_governance": "Qatar Investment Authority (~17%), Qatari institutions & public (QSE: QIBK)."
     },
     "recent_drivers": [
-      "9M26: Assets QAR 235.5bn, financing +16.1% YTD to QAR 160.7bn, net profit QAR 3.53bn (+2% YoY), CAR 23.6%, NPL 1.51%."
+      "9M26: Assets QAR 235.5bn, financing +16.1% YTD to QAR 160.7bn, net profit QAR 3.53bn (+2% YoY), CAR 23.6%, NPL 1.51%.",
+      "2025A: FY25 assets QAR 221.1bn (+10.1% YoY), financing assets QAR 138.5bn, deposits QAR 142.7bn, net profit QAR 4,835m (+5.0%)."
     ],
     "catalysts": [
       {
@@ -178,7 +179,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Qatar Islamic Bank (QIB) — Verified Filings & Credit Profile",
+      "title": "Qatar Islamic Bank (QIB) \u2014 Verified Filings & Credit Profile",
       "source": "financials built 27-Nov-26 from QIB FY24/FY25 Annual Reports & 9M26 QSE Financial Statements; quotes await [BBG]",
       "summary": "9M26 assets QAR 235.5bn, financing QAR 160.7bn, deposits QAR 145.0bn, net profit QAR 3,525m, CAR 23.6%, NPL 1.51%."
     }
@@ -188,6 +189,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A1 (Moody's) / A (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A1 (Moody's) / A (Fitch)",
       "price": null,
       "ytm": null,

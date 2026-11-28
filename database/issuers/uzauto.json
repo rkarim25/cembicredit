@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "id": "uzauto",
+    "name": "UzAuto Motors JSC",
+    "ticker": "UZAUTO",
+    "country": "Uzbekistan",
+    "region": "Central Asia",
+    "sector": "Consumer",
+    "type": "corp",
+    "rating": "BB Stable (Fitch) / Ba3 Stable (Moody's)",
+    "tier": "BB",
+    "benchmark_bond": "UzAuto Motors $350m 7.375% Nov 2030 (XS3187746097)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "UzAuto_Motors_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-814c-88de-cce636a8d6db",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/UzAuto_Motors_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "UzAuto Motors FY25 Financial Statements & Fitch 'BB' Upgrade Filing, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "UzAuto Motors FY24 Audited Financial Statements (Filing), read 28-Nov-26",
+      "cash": 42.8,
+      "observations": {
+        "notes": "FY24 unrestricted cash $42.8m ahead of 2025 operational expansion."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "UzAuto Motors FY25 Audited Financial Statements & Fitch Rating Filing, read 28-Nov-26",
+      "revenue": 4100.0,
+      "ebitda": 355.0,
+      "calculated_ebitda": 355.0,
+      "ebitda_margin_pct": 8.7,
+      "cash": 89.5,
+      "gross_debt": 500.0,
+      "net_debt": 410.5,
+      "net_leverage": 1.16,
+      "observations": {
+        "notes": "FY25 sales ~400k vehicles, revenue $4.1bn, Fitch-defined EBITDA $355m, cash doubled to $89.5m; issued $350m 7.375% Nov-30 Eurobond (XS3187746097) to retire $300m May-26 notes."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "UzAuto Motors 7.375% Senior Unsecured Eurobond due Nov 2030",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 350.0,
+      "coupon": "7.375%",
+      "maturity": "2030-11-19",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS3187746097"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 50.0,
+    "2028": 50.0,
+    "2029": 50.0,
+    "2030_plus": 350.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "UzAuto Motors $350m 7.375% Nov-30 Eurobond (XS3187746097) + local bank lines after May-26 $300m bond redemption."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Constructive / Upgraded to BB by Fitch Post-2030 Eurobond Refinancing",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "UzAuto Motors is Uzbekistan's dominant automotive manufacturer (~400k vehicles sold in FY25; $4.1bn revenue, $355m Fitch EBITDA). Fitch upgraded UzAuto to 'BB' Stable (from BB-) after it placed $350m 7.375% Nov-2030 Eurobonds (XS3187746097) to retire its $300m May-2026 maturity and local bank debt, leaving low ~1.2x net leverage."
+    },
+    "positives": [
+      "Eliminated 2026 refinancing wall via $350m 7.375% Nov-2030 Eurobond (XS3187746097), earning Fitch upgrade to BB.",
+      "Dominant domestic market position in Uzbekistan with ~400k unit scale ($4.1bn revenue) and ~1.2x net leverage.",
+      "Cash doubled to $89.5m at YE25 alongside strong state-owned strategic parentage."
+    ],
+    "negatives": [
+      "Reliance on General Motors CKD kit licensing and tariff protection, which faces gradual WTO/EV competition.",
+      "Thin ~8.7% EBITDA margin vulnerable to UZS FX depreciation and imported component costs.",
+      "Working capital and supplier-payable swings around model transitions."
+    ],
+    "background": {
+      "business_overview": "Leading Central Asian automotive OEM assembling Chevrolet-branded passenger vehicles in Asaka and Pitnak.",
+      "asset_perimeter": "Asaka assembly plant, Khorezm (Pitnak) plant, and Uzbekistan distribution network.",
+      "ownership_governance": "State-owned via JSC Uzavtosanoat (Republic of Uzbekistan)."
+    },
+    "recent_drivers": [
+      "FY25: Sold ~400k vehicles, revenue $4.1bn, Fitch EBITDA $355m, cash $89.5m (vs $42.8m YE24).",
+      "Refinancing & Upgrade: Placed $350m 7.375% Nov-30 Eurobond (XS3187746097) to retire May-26 $300m notes; Fitch upgraded to BB Stable."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-04-30",
+        "event": "FY2026 Audited IFRS Results",
+        "impact": "Tests margin resilience amid EV imports (BYD competition)."
+      },
+      {
+        "date": "2027-05-19",
+        "event": "XS3187746097 Semi-Annual 7.375% Coupon",
+        "impact": "Routine coupon servicing."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Refinancing & Margin Stability",
+      "management_target": "Maintain >$350m EBITDA & <1.5x Net Leverage",
+      "current_runrate": "FY25 EBITDA $355m, Net Lev ~1.16x; 2026 wall cleared",
+      "tracking_status": "On Track",
+      "variance_analysis": "Nov-30 Eurobond eliminated near-term maturity wall.",
+      "last_guided_source": "Fitch BB Upgrade / FY25",
+      "last_verified_period": "2025A"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-04-30",
+    "period_reporting": "FY 2026 Audited IFRS Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://uzautomotors.com/",
+    "days_to_earnings": 153
+  },
+  "management_questions": [
+    {
+      "question": "Assess market share and margin impact from Chinese EV imports and Uzbekistan WTO accession talks.",
+      "focus_area": "Competitive Moat",
+      "relevance": "Tests durability of 8.7% EBITDA margin."
+    },
+    {
+      "question": "Confirm GM licensing renewal terms and local content localization capex.",
+      "focus_area": "Licensing & Capex",
+      "relevance": "Key strategic dependency."
+    },
+    {
+      "question": "Detail unrestricted cash and dividend payout policy to Uzavtosanoat.",
+      "focus_area": "Cash Leakage",
+      "relevance": "Tracks liquidity buffer."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "uzauto",
+      "sector": "Consumer",
+      "topic": "Fitch BB Upgrade & $350m 7.375% Nov-30 Eurobond",
+      "source": "UzAuto Motors FY25 Financial Statements & Fitch 'BB' Upgrade Filing, read 28-Nov-26",
+      "note": "FY25 rev $4.1bn, EBITDA $355m, cash $89.5m; $350m 7.375% Nov-30 Eurobond (XS3187746097) retired May-26 notes; Fitch upgraded to BB."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 Fitch BB Upgrade & Nov-30 Eurobond Refinancing",
+      "source": "UzAuto Motors FY25 Financial Statements & Fitch 'BB' Upgrade Filing, read 28-Nov-26",
+      "summary": "Added UzAuto Motors (BB/Ba3): FY25 rev $4.1bn, EBITDA $355m, XS3187746097 $350m Nov-30."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB Stable (Fitch) / Ba3 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "Uzbekistan Corporate Insolvency & Creditor Framework",
+    "thesis": "Uzbek state-backed auto OEM (BB/Ba3) with ~1.2x net leverage; $350m Nov-30 senior unsecured Eurobond cleared the 2026 maturity wall."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "EMTN / 144A Indenture & Bank Facility Covenants",
+      "covenant_threshold": "Negative Pledge & Cross-Default / Financial Covenants per Facility Docs",
+      "actual_current": "Consistent with BB Stable (Fitch) / Ba3 Stable (Moody's)",
+      "headroom": "No covenant breach disclosed in latest audited/interim financial statements.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Debt Service & Interest Coverage",
+      "covenant_threshold": "Per Syndicated / Bond Documentation",
+      "actual_current": "Compliant",
+      "headroom": "Covered by operating cash flow and liquidity buffers.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Operating Assets",
+      "headroom": "Senior unsecured pari passu ranking",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control / Sovereign Support Clause",
+      "covenant_terms": "Standard Change of Control put or state-ownership maintenance covenant per prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and financial policy targets."
+    },
+    "cross_default_threshold": "Standard EMTN / 144A cross-default & cross-acceleration threshold."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "UzAuto Motors JSC Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

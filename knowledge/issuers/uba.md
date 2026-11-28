@@ -4,7 +4,7 @@ _Page created 23-Nov-26 from `database/issuers/uba.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: B Stable (Fitch) / B3 Stable (Moody's).
 

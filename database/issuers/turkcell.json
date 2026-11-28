@@ -84,9 +84,9 @@
     "base_case_px": 101,
     "recovery_floor_pct": 74,
     "recovery_base_pct": 101,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Turkey's leading telecom operator; TVF controlled, high ARPU growth and strong hard currency cash buffer."
+    "thesis": "Turkcell posted 6.2% real Q326 revenue growth (TRY 82.0bn) and 44.2% EBITDA margin (TRY 36.24bn), keeping net leverage ultra-low at 0.31x (TRY 40.7bn net debt) even after absorbing major 5G spectrum/license outlays. Structural recovery anchored by Turkey technology asset perimeter and TCELL 5.75% 2028 seniority."
   },
   "annotations": [
     {
@@ -1021,6 +1021,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB / BB-",
+      "price": 96.8,
+      "ytm": 6.95,
+      "spread_bp": 290,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB / BB-",
       "price": 96.8,
       "ytm": 6.95,

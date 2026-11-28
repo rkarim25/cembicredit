@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/mhp.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - MHP 13.10% 2026: price 82.5, YTM 13.1%, spread 875bp (as of 2026-11-25).
 - Rating as recorded: CCC (Fitch, 2026) / Caa2.

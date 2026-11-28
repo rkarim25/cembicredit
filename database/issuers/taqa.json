@@ -77,9 +77,9 @@
     "base_case_px": 100.8,
     "recovery_floor_pct": 86.0,
     "recovery_base_pct": 100.8,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
-    "thesis": "Monopoly water and power utility for Abu Dhabi; regulated asset base provides ultra-stable cash flow generation."
+    "thesis": "H126 revenue totaled AED 27.5bn with EBITDA up +7.7% YoY to AED 11.0bn and attributable net income of AED 4.1bn. Regulated Abu Dhabi transmission/distribution monopoly plus Masdar clean-energy stake anchor Aa3/AA- near-sovereign credit strength. Structural recovery anchored by UAE utilities asset perimeter and TAQA 4.375% 2029 seniority."
   },
   "annotations": [
     {
@@ -1013,6 +1013,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Aa3 / AA-",
+      "price": 98.5,
+      "ytm": 4.9,
+      "spread_bp": 85,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "Aa3 / AA-",
       "price": 98.5,
       "ytm": 4.9,

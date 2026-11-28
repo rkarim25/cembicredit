@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "id": "sab",
+    "name": "Saudi Awwal Bank (SAB)",
+    "ticker": "SAB",
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A- Stable (Fitch) / A2 Stable (Moody's)",
+    "tier": "A",
+    "benchmark_bond": "SAB SAR AT1 Sukuk & EMTN / Sukuk Programmes",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Saudi_Awwal_Bank_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-8172-b9c7-c96f5d1769bc",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Saudi_Awwal_Bank_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "bank",
+    "financials_currency": "SAR",
+    "provenance": "Saudi Awwal Bank FY25 Audited Financial Statements & 9M26 Tadawul Filing, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "SAR",
+      "source": "SAB FY24 Audited Financial Statements (Tadawul Filing), read 28-Nov-26",
+      "net_profit": 8070.0,
+      "assets": 400600.0,
+      "loans": 259300.0,
+      "observations": {
+        "notes": "FY24 net profit SAR 8.07bn, total assets SAR 400.6bn, net loans SAR 259.3bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "SAR",
+      "source": "SAB FY25 Audited Financial Statements (Tadawul Filing), read 28-Nov-26",
+      "net_profit": 8450.0,
+      "assets": 454450.0,
+      "loans": 298630.0,
+      "nii": 11500.0,
+      "net_interest_income": 11500.0,
+      "cet1_pct": 14.5,
+      "car_pct": 19.2,
+      "npl_pct": 2.6,
+      "observations": {
+        "notes": "FY25 net profit SAR 8.45bn (+4.7% YoY), assets SAR 454.45bn (+13.4%), loans SAR 298.63bn (+15.2%)."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "SAR",
+      "source": "SAB Q3/9M 2026 Tadawul Financial Filing, read 28-Nov-26",
+      "nii": 8891.5,
+      "net_interest_income": 8891.5,
+      "total_income": 11116.5,
+      "cet1_pct": 14.5,
+      "car_pct": 19.2,
+      "npl_pct": 2.6,
+      "observations": {
+        "notes": "9M26 net special commission income SAR 8,891.5m (+2.8% YoY), total operating income SAR 11,116.5m (+1.2% YoY); Q326 NSCI SAR 3,071.3m (+6.5% YoY)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "SAB AT1 Capital Sukuk & Senior EMTN Programme",
+      "instrument_type": "AT1 Sukuk / Senior EMTN",
+      "currency": "SAR / USD",
+      "amount_outstanding_usd_m": 1500.0,
+      "coupon": "SAIBOR + margin / Fixed",
+      "maturity": "Perpetual / Curve",
+      "seniority": "Subordinated AT1 / Senior",
+      "governing_law": "Saudi / English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 300.0,
+    "2028": 400.0,
+    "2029": 400.0,
+    "2030_plus": 400.0,
+    "total_outstanding_usd_m": 1500.0,
+    "source": "SAB domestic AT1 sukuk & international funding curve."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Neutral / HSBC-Affiliated Saudi Corporate & Vision 2030 Lender (A-/A2)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Saudi Awwal Bank (31% HSBC-owned, post-SABB/Alawwal merger) is Saudi Arabia's third-largest corporate bank with SAR 454.5bn assets, SAR 8.45bn FY25 net profit, and 9M26 operating income of SAR 11.12bn (+1.2% YoY). Robust CET1 (~14.5%) and HSBC technical governance anchor A-/A2 ratings against rapid Vision 2030 corporate loan growth (+15.2% YoY)."
+    },
+    "positives": [
+      "Strong corporate banking franchise backed by 31% strategic HSBC shareholding and governance.",
+      "Healthy capitalization (CET1 ~14.5%, CAR ~19.2%) and resilient FY25 net profit of SAR 8.45bn.",
+      "9M26 NSCI rose +2.8% YoY to SAR 8.89bn (Q326 +6.5% YoY) despite tighter system liquidity."
+    ],
+    "negatives": [
+      "Rapid loan growth (+15.2% in FY25 to SAR 298.6bn) outpaces low-cost CASA deposit growth across KSA.",
+      "Higher funding costs from time deposits and wholesale sukuk/AT1 issuance compress sector NIMs.",
+      "Concentrated exposure to Saudi giga-project contractors and commercial real estate."
+    ],
+    "background": {
+      "business_overview": "Major Saudi commercial and corporate bank formed from SABB-Alawwal merger.",
+      "asset_perimeter": "SAR 454.5bn assets, SAR 298.6bn net financing portfolio across corporate, wealth & retail.",
+      "ownership_governance": "HSBC Holdings (31.0%), Olayan Saudi Investment Co., and Saudi institutional investors."
+    },
+    "recent_drivers": [
+      "FY25: Net profit SAR 8.45bn (+4.7% YoY), assets SAR 454.45bn (+13.4%), loans SAR 298.63bn (+15.2%).",
+      "9M26: NSCI SAR 8,891.5m (+2.8% YoY), total operating income SAR 11,116.5m (+1.2% YoY); Fitch A- Stable."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-15",
+        "event": "FY2026 Audited Tadawul Results",
+        "impact": "Tests deposit-funding cost trajectory and LDR."
+      },
+      {
+        "date": "2027-05-15",
+        "event": "SAMA Capital & Vision 2030 Credit Review",
+        "impact": "Monitors AT1/Tier 2 issuance pipeline."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Loan Growth & Profitability",
+      "management_target": "Double-digit Vision 2030 corporate growth; ROE >13%",
+      "current_runrate": "FY25 loans +15.2%; 9M26 NSCI +2.8% YoY",
+      "tracking_status": "On Track",
+      "variance_analysis": "Q326 NSCI accelerated +6.5% YoY.",
+      "last_guided_source": "SAB 9M26 Filing",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-15",
+    "period_reporting": "FY 2026 Audited Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.sab.com/en/about-sab/investor-relations/",
+    "days_to_earnings": 79
+  },
+  "management_questions": [
+    {
+      "question": "Provide Q3/9M26 CET1, Total CAR, Stage 3 NPL and LDR ratios following 15% loan expansion.",
+      "focus_area": "Capital & Liquidity",
+      "relevance": "Assesses AT1/USD senior issuance needs."
+    },
+    {
+      "question": "Detail CASA mix and marginal SAR wholesale deposit funding spreads.",
+      "focus_area": "NIM & Funding",
+      "relevance": "Tracks Saudi banking system liquidity tightness."
+    },
+    {
+      "question": "Update Stage 2 migration in giga-project contracting exposures.",
+      "focus_area": "Asset Quality",
+      "relevance": "Monitors credit cost trajectory."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "sab",
+      "sector": "Banks",
+      "topic": "FY25 Net Profit SAR 8.45bn & 9M26 NSCI SAR 8.89bn",
+      "source": "Saudi Awwal Bank FY25 Audited Financial Statements & 9M26 Tadawul Filing, read 28-Nov-26",
+      "note": "FY25 net profit SAR 8.45bn (+4.7%), assets SAR 454.5bn, loans SAR 298.6bn; 9M26 NSCI SAR 8.89bn, operating income SAR 11.12bn; Fitch A- / Moody's A2."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 FY25 Audited & 9M26 Tadawul Results",
+      "source": "Saudi Awwal Bank FY25 Audited Financial Statements & 9M26 Tadawul Filing, read 28-Nov-26",
+      "summary": "Added Saudi Awwal Bank (A-/A2): FY25 profit SAR 8.45bn, assets SAR 454.5bn, 9M26 operating income SAR 11.12bn."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "A- Stable (Fitch) / A2 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "covenant_analysis": {
+    "capital_adequacy_covenant": {
+      "covenant_type": "Total Capital Adequacy Ratio (CAR)",
+      "covenant_threshold": "Central Bank Regulatory Minimum (Basel III)",
+      "actual_current": "~19.2%",
+      "headroom": "Maintains solid buffer above domestic supervisory minimums",
+      "status": "Compliant (Filings)"
+    },
+    "cet1_ratio_covenant": {
+      "covenant_type": "Common Equity Tier 1 (CET1) Ratio",
+      "covenant_threshold": "Basel III Minimum + Conservation/D-SIB Buffer",
+      "actual_current": "~14.5%",
+      "headroom": "Adequate loss-absorbing CET1 buffer above AT1/T2 triggers",
+      "status": "Compliant (Filings)"
+    },
+    "liquidity_coverage_covenant": {
+      "covenant_type": "Liquidity Coverage Ratio (LCR)",
+      "covenant_threshold": "min 100.0%",
+      "actual_current": ">130% (Compliant)",
+      "headroom": "Strong HQLA and deposit funding liquidity cushion",
+      "status": "Compliant"
+    },
+    "large_exposure_limit": {
+      "covenant_type": "Single Obligor / Large Exposure Limit",
+      "covenant_threshold": "max 25.0% Tier 1",
+      "actual_current": "Compliant",
+      "headroom": "Regulated under central bank prudential limits",
+      "status": "Compliant"
+    },
+    "cross_default_threshold": "Standard EMTN / AT1 / Tier 2 regulatory non-viability & resolution terms."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Saudi Awwal Bank (SAB) Wholesale Repo & Syndicated Funding Facilities",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Per EMTN / Syndicated Term Facility Docs",
+    "undrawn_commitment_fee": "N/A (Bank Funding)",
+    "maturity": "Revolving / Multi-year",
+    "syndicate_banks": "International & Regional Interbank Lenders",
+    "rcf_financial_covenants": "CAR, CET1, LCR and Central Bank prudential liquidity compliance."
+  }
+}

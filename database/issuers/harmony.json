@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "id": "harmony",
+    "name": "Harmony Gold Mining Company Ltd.",
+    "ticker": "HAR",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BB Stable (Fitch)",
+    "tier": "BB",
+    "benchmark_bond": "Harmony Gold $500m Guaranteed Sr Unsecured Convertible due 2031 (Sep-26)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Harmony_Gold_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-81cf-9ec1-d8db8f468cb3",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Harmony_Gold_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "ZAR",
+    "provenance": "Harmony Gold FY26 Audited Results (ended 30-Jun-26), Sep-26 $500m CB & Fitch Filing, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Harmony Gold FY25 Audited Annual Report (ended 30-Jun-25, Filing), read 28-Nov-26",
+      "revenue": 74000.0,
+      "fcf": 11100.0,
+      "observations": {
+        "notes": "FY25 revenue ~R74.0bn, adjusted FCF ~R11.1bn."
+      }
+    },
+    {
+      "period": "FY26",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Harmony Gold FY26 Audited Results (ended 30-Jun-26, JSE/SEC Filing), read 28-Nov-26",
+      "revenue": 99238.0,
+      "fcf": 17100.0,
+      "cash": 8800.0,
+      "net_debt": 852.0,
+      "net_leverage": 0.02,
+      "observations": {
+        "notes": "Record FY26 (ended Jun-26): Revenue R99.24bn ($5.88bn, +34% YoY), Adj FCF R17.1bn ($1.01bn, +54% YoY), cash $526.1m (~R8.8bn), total liquidity R17.1bn (~$1.04bn), net debt R852m ($52m), Net Debt/EBITDA 0.02x. Issued $500m 2031 convertible bond in Sep-26."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Harmony Gold Guaranteed Senior Unsecured Convertible Bonds due 2031",
+      "instrument_type": "Senior Unsecured Convertible",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "Convertible (Sep-26)",
+      "maturity": "2031-09-30",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 500.0,
+    "total_outstanding_usd_m": 500.0,
+    "source": "Zero long-term bank debt at 30-Jun-26; $500m 2031 convertible bond placed Sep-26 to fund Eva Copper & MAC/CSA integration."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Overweight / Near-Net-Cash Gold & Copper Producer (BB Stable)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Harmony Gold delivered record FY26 (ended Jun-26) revenue of R99.2bn ($5.88bn, +34% YoY), Adj FCF of R17.1bn ($1.01bn, +54% YoY), and near-zero 0.02x net leverage ($526.1m cash, $52m net debt). Its Sep-26 $500m 2031 convertible bond pre-funds Eva Copper and CSA copper diversification within Fitch's <1.0x net leverage guardrail."
+    },
+    "positives": [
+      "Exceptional FY26 cash generation ($1.01bn Adj FCF, +54% YoY) with 0.02x net leverage and $1.04bn liquidity.",
+      "Strategic copper diversification via CSA Mine integration and Eva Copper project reduces pure SA gold exposure.",
+      "Fitch 'BB' Stable rating anchored by strict <1.0x net debt/EBITDA financial policy."
+    ],
+    "negatives": [
+      "Aging, deep-level South African underground gold mines face structural wage, Eskom power, and AISC inflation.",
+      "Large multi-year Eva Copper (Australia) and Wafi-Golpu (PNG) project capex execution risk.",
+      "High sensitivity to spot gold and copper price pullbacks."
+    ],
+    "background": {
+      "business_overview": "South Africa's largest gold producer expanding into tier-1 copper (CSA Australia, Eva Copper, Wafi-Golpu PNG).",
+      "asset_perimeter": "SA underground & surface operations (Mponeng, Moab Khotsong, Tshepong), Hidden Valley (PNG), CSA Copper (Australia).",
+      "ownership_governance": "JSE/NYSE listed (HAR / HMY); African Rainbow Minerals strategic ~12% shareholder."
+    },
+    "recent_drivers": [
+      "FY26 (Jun-26): Revenue R99.24bn ($5.88bn, +34%), Adj FCF R17.1bn ($1.01bn, +54%), net debt $52m (0.02x).",
+      "Sep-26: Priced $500m guaranteed senior unsecured convertible bond due 2031; Fitch affirmed BB Stable."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-28",
+        "event": "H1 FY27 (Dec-26) Interim Results",
+        "impact": "Monitors CSA Copper contribution and Eva Copper FID capex."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "Fitch Annual SA Mining Review",
+        "impact": "Tests <1.0x net leverage adherence during copper capex."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Leverage Guardrail & Copper Transition",
+      "management_target": "Net Debt/EBITDA <1.0x; fund Eva Copper",
+      "current_runrate": "FY26 Net Lev 0.02x, Adj FCF $1.01bn, $500m 2031 CB raised",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Record gold prices supercharged FCF.",
+      "last_guided_source": "Harmony FY26 / Fitch",
+      "last_verified_period": "FY26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-28",
+    "period_reporting": "H1 FY27 Interim Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.harmony.co.za/investors/",
+    "days_to_earnings": 92
+  },
+  "management_questions": [
+    {
+      "question": "Detail 2027-2028 Eva Copper development capex schedule and Wafi-Golpu permitting timeline.",
+      "focus_area": "Copper Capex",
+      "relevance": "Main driver of FCF deployment."
+    },
+    {
+      "question": "Confirm post-Sep-26 CB proforma gross debt and undrawn RCF headroom.",
+      "focus_area": "Liquidity",
+      "relevance": "Tracks <1.0x leverage guardrail."
+    },
+    {
+      "question": "Provide FY27 AISC guidance and Eskom tariff inflation assumptions.",
+      "focus_area": "Unit Costs",
+      "relevance": "Tests margin resilience if gold softens."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "harmony",
+      "sector": "Materials",
+      "topic": "FY26 FCF $1.01bn (0.02x Lev) & $500m 2031 CB",
+      "source": "Harmony Gold FY26 Audited Results (ended 30-Jun-26), Sep-26 $500m CB & Fitch Filing, read 28-Nov-26",
+      "note": "FY26 rev R99.2bn ($5.88bn), Adj FCF R17.1bn ($1.01bn), net debt $52m (0.02x); $500m 2031 CB (Sep-26); Fitch BB Stable."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 FY26 Record Results & Sep-26 $500m Convertible Bond",
+      "source": "Harmony Gold FY26 Audited Results (ended 30-Jun-26), Sep-26 $500m CB & Fitch Filing, read 28-Nov-26",
+      "summary": "Added Harmony Gold (BB): FY26 FCF $1.01bn, 0.02x net leverage, Sep-26 $500m 2031 CB."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "South Africa Corporate Insolvency & Creditor Framework",
+    "thesis": "Near-net-cash SA/Australian gold-copper producer (0.02x net leverage, $1.01bn FY26 FCF) with $500m 2031 senior unsecured CB."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "EMTN / 144A Indenture & Bank Facility Covenants",
+      "covenant_threshold": "Negative Pledge & Cross-Default / Financial Covenants per Facility Docs",
+      "actual_current": "Consistent with BB Stable (Fitch)",
+      "headroom": "No covenant breach disclosed in latest audited/interim financial statements.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Debt Service & Interest Coverage",
+      "covenant_threshold": "Per Syndicated / Bond Documentation",
+      "actual_current": "Compliant",
+      "headroom": "Covered by operating cash flow and liquidity buffers.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Operating Assets",
+      "headroom": "Senior unsecured pari passu ranking",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control / Sovereign Support Clause",
+      "covenant_terms": "Standard Change of Control put or state-ownership maintenance covenant per prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and financial policy targets."
+    },
+    "cross_default_threshold": "Standard EMTN / 144A cross-default & cross-acceleration threshold."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Harmony Gold Mining Company Ltd. Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

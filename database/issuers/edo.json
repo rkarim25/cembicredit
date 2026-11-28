@@ -184,7 +184,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Initiation — Oman Block 6 Anchor & Sukuk Curve",
+      "title": "Initiation \u2014 Oman Block 6 Anchor & Sukuk Curve",
       "source": "EDO FY24-FY25 Statements",
       "summary": "Added EDO (BBB-/BBB+) with FY24-FY25 financials, $3.31bn shareholder loan conversion, and 2031/2033/2036 sukuk ISINs."
     }
@@ -202,6 +202,19 @@
       "ebitda": 8500.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB- (S&P) / BBB+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.95,
+      "ebitda": 8500.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -209,41 +222,41 @@
     "base_case_px": null,
     "recovery_floor_pct": null,
     "recovery_base_pct": null,
-    "implied_stress_ev_multiple": "n/a",
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Oman Insolvency & Restructuring Framework",
     "thesis": "EDO holds Oman's 60% stake in Block 6 (PDO oil & gas) generating $14.77bn FY25 revenue and ~$8.3bn S&P-adjusted EBITDA. The 2025 conversion of $3.31bn shareholder loans into equity lifted equity to $11.63bn and kept leverage below 1.0x, offering spread pickup over Oman sovereign."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "<1.0x (FY25)",
-      "headroom": "Standard GRE sukuk negative pledge and Block 6 cash-flow waterfall.",
+      "covenant_type": "Project Cash Waterfall & Distribution Lock-Up",
+      "covenant_threshold": "Crude Oil / Condensate Royalty & Block 6 Cost-Recovery Waterfall",
+      "actual_current": "1.1x-1.2x Net Debt/EBITDA",
+      "headroom": "Senior cash sweep & reserve account protections active",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "High",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Debt Service Coverage Ratio (DSCR)",
+      "covenant_threshold": "Crude Oil / Condensate Royalty & Block 6 Cost-Recovery Waterfall",
+      "actual_current": "1.1x-1.2x Net Debt/EBITDA",
+      "headroom": "Contracted revenue/offtake covers debt service",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Dedicated Asset Security & Negative Pledge",
+      "covenant_threshold": "Closed Ring-Fenced Collateral",
+      "actual_current": "First-Ranking Secured",
+      "headroom": "Concession-backed Oman Block 6 oil/condensate cash flow ring-fence.",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Sovereign Change of Control Put if Oman government ownership falls below 50%."
+      "covenant_type": "Change of Control / Concession Protection",
+      "covenant_terms": "CoC put at 101% or concession/sponsor maintenance covenant."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Cash Waterfall & Dividend Lock-Up",
+      "covenant_terms": "Distributions permitted strictly after DSRA funding and DSCR lock-up test."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Project indenture cross-default & event-of-default waterfall triggers."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Energy Development Oman Credit Facilities (RCF Undisclosed)",

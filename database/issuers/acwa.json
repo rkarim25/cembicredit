@@ -74,9 +74,9 @@
     "base_case_px": 101.5,
     "recovery_floor_pct": 75.0,
     "recovery_base_pct": 101.5,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
-    "thesis": "Global green hydrogen and desalinated water powerhouse backed by PIF; long-term off-take contracts."
+    "thesis": "ACWA Power grew H126 revenue 8.6% to SAR 4.03bn after cutting net debt/cash flow to 5.18x in FY25 (from 6.36x), though H126 operating income dipped to SAR 1.44bn on project timing and parent net debt sits at SAR 21.65bn. PIF ownership (44%) and 25-year sovereign-backed PPAs anchor long-dated bonds. Structural recovery anchored by Saudi Arabia utilities asset perimeter and ACWA 5.95% 2039 seniority."
   },
   "annotations": [
     {
@@ -1010,6 +1010,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Baa2 / BBB",
+      "price": 96.5,
+      "ytm": 6.45,
+      "spread_bp": 235,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "Baa2 / BBB",
       "price": 96.5,
       "ytm": 6.45,

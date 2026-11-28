@@ -97,9 +97,9 @@
     "base_case_px": 101.0,
     "recovery_floor_pct": 75.0,
     "recovery_base_pct": 101.0,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Kazakhstan Commercial & Bankruptcy Code",
-    "thesis": "Kazakhstan national oil champion; key stakes in mega-fields Tengiz, Kashagan, and Karachaganak."
+    "thesis": "S&P upgraded KMG to BBB Stable (SACP to bbb-) on 02-Sep-26 alongside Kazakhstan's sovereign upgrade. 1H26 revenue hit KZT 5,568bn with EBITDA KZT 1,655bn (+45% YoY) and FCF KZT 765bn, backed by Tengizchevroil JV dividends. Proactively tendered $500m of 2030 USD notes and priced CNY 3.5bn Dim Sum bonds at 2.3%-2.8% coupons. Key risks: CPC export disruptions and Samruk-Kazyna bond holdings. Structural recovery anchored by Kazakhstan energy asset perimeter and KZOK 5.375% 2030 seniority."
   },
   "annotations": [
     {
@@ -1027,6 +1027,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
+      "price": 88.5,
+      "ytm": 6.75,
+      "spread_bp": 270,
+      "net_leverage": 0.58,
+      "ebitda": 2001000.0,
+      "fcf": 1199000.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB (S&P) / Baa1 (Moody's) / BBB (Fitch)",
       "price": 88.5,
       "ytm": 6.75,

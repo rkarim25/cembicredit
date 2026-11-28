@@ -125,7 +125,8 @@
       "ownership_governance": "Kingdom Holding (~16.2%), GOSI, Tadawul-listed (1050.SR)."
     },
     "recent_drivers": [
-      "9M26: Assets SAR 338.6bn (+10% YTD), net profit SAR 4,376.6m (+6.9% YoY), CET1 15.3%, CAR 20.2%, NPL 0.95% (165.3% coverage)."
+      "9M26: Assets SAR 338.6bn (+10% YTD), net profit SAR 4,376.6m (+6.9% YoY), CET1 15.3%, CAR 20.2%, NPL 0.95% (165.3% coverage).",
+      "2025A: FY25 assets SAR 309.01bn (+5.5%), net loans SAR 214.89bn, deposits SAR 195.22bn (+5.5%), net profit SAR 5,353m (+17.8%), impairments -16% YoY."
     ],
     "catalysts": [
       {
@@ -188,7 +189,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Banque Saudi Fransi (BSF) — Verified Filings & Credit Profile",
+      "title": "Banque Saudi Fransi (BSF) \u2014 Verified Filings & Credit Profile",
       "source": "financials built 27-Nov-26 from BSF FY24/FY25 Annual Reports & 9M26 Tadawul Statements; quotes await [BBG]",
       "summary": "9M26 assets SAR 338.6bn, net profit SAR 4,376.6m, CET1 15.3%, CAR 20.2%, NPL 0.95% (165.3% cov)."
     }
@@ -198,6 +199,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A- (S&P/Fitch) / A1 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A- (S&P/Fitch) / A1 (Moody's)",
       "price": null,
       "ytm": null,

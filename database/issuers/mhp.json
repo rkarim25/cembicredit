@@ -77,7 +77,7 @@
     "recovery_base_pct": 90.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
-    "thesis": "Europe's lowest-cost poultry producer; 360k ha arable land; Perutnina Ptuj generating offshore EU cash flow."
+    "thesis": "MHP scaled H126 revenue 32% YoY to $2.16bn via UVESA Spain integration ($738m EU revenue) and kept pro forma net leverage at 2.8x (inside 3.0x Eurobond incurrence covenant) with $348m cash, though FX losses (-$85m) and war operating risks weigh ahead of maturity management. Structural recovery anchored by Ukraine consumer asset perimeter and MHP 13.10% 2026 seniority."
   },
   "annotations": [
     {
@@ -1007,6 +1007,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "CCC (Fitch, 2026) / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "CCC (Fitch, 2026) / Caa2",
       "price": 82.5,
       "ytm": 13.1,

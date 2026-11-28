@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "id": "kegoc",
+    "name": "KEGOC (Kazakhstan Electricity Grid Operating Co.)",
+    "ticker": "KEGOC",
+    "country": "Kazakhstan",
+    "region": "Central Asia",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "BBB- Stable (S&P) / Baa1 Stable (Moody's) / BBB Stable (Fitch)",
+    "tier": "BBB",
+    "benchmark_bond": "KEGOC KASE Bonds (KEGCb1-b4: KZ2C00003572 / 7797)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "KEGOC_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-81a9-8030-c485efb3307f",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/KEGOC_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "KZT",
+    "provenance": "KEGOC FY25 Audited Financial Statements & S&P Apr-26 Upgrade Filing, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "KZT",
+      "source": "KEGOC FY24 Audited IFRS Financial Statements (Filing), read 28-Nov-26",
+      "revenue": 318000.0,
+      "ebitda": 115000.0,
+      "observations": {
+        "notes": "FY24 revenue ~KZT 318bn prior to tariff uplift."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "KZT",
+      "source": "KEGOC FY25 Audited IFRS & S&P Apr-26 Upgrade Filing, read 28-Nov-26",
+      "revenue": 397000.0,
+      "ebitda": 152000.0,
+      "calculated_ebitda": 152000.0,
+      "ebitda_margin_pct": 38.3,
+      "net_leverage": 1.2,
+      "observations": {
+        "notes": "FY25 revenue KZT 397bn (~$736m), S&P-adjusted EBITDA KZT 152bn (38.3% margin), FFO/debt >45%; S&P upgraded to BBB- Stable (Apr-26), Moody's Baa1, Fitch BBB."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "KEGOC KASE Local Bonds (KEGCb1 / KEGCb2 / KEGCb3 / KEGCb4)",
+      "instrument_type": "Senior Unsecured Domestic Bonds",
+      "currency": "KZT",
+      "amount_outstanding_usd_m": 250.0,
+      "coupon": "TONIA+ / Fixed",
+      "maturity": "2027-2035",
+      "seniority": "Senior Unsecured",
+      "governing_law": "Kazakhstan",
+      "isin": "KZ2C00007797"
+    },
+    {
+      "tranche_name": "KEGOC IBRD / EBRD Multilateral Grid Facilities",
+      "instrument_type": "Senior Unsecured DFI Loans",
+      "currency": "USD / EUR / KZT",
+      "amount_outstanding_usd_m": 200.0,
+      "coupon": "SOFR+ / Euribor+",
+      "maturity": "2027-2034",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English / DFI"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 30.0,
+    "2027": 60.0,
+    "2028": 60.0,
+    "2029": 60.0,
+    "2030_plus": 240.0,
+    "total_outstanding_usd_m": 450.0,
+    "source": "KEGOC KASE domestic bond curve (KZ2C00003572/3978/6658/7797) and IBRD/EBRD grid loans."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Constructive / Full IG Natural Monopoly Transmission Grid (BBB-/Baa1/BBB)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "KEGOC is Kazakhstan's natural-monopoly high-voltage electricity transmission operator, generating KZT 397bn FY25 revenue and KZT 152bn S&P-adjusted EBITDA (38.3% margin) with FFO/debt >45%. S&P upgraded KEGOC to 'BBB-' Stable in Apr-26 (matching Fitch BBB and Moody's Baa1) on supportive tariff visibility ahead of Western/Southern grid capex."
+    },
+    "positives": [
+      "Natural monopoly national transmission grid with single-buyer / regulated tariff methodology.",
+      "Full triple investment-grade status (S&P BBB- / Fitch BBB / Moody's Baa1) with >45% FFO-to-debt.",
+      "Explicit loan/bond maintenance covenants capping Debt/EBITDA at 3.0x-3.8x."
+    ],
+    "negatives": [
+      "Peak multi-year capex cycle for Western and Southern Kazakhstan grid unification.",
+      "State-directed dividend payout expectations from Samruk-Kazyna.",
+      "Limited secondary USD Eurobond liquidity (predominantly KASE KZT bonds and DFI loans)."
+    ],
+    "background": {
+      "business_overview": "National System Operator of Kazakhstan's unified high-voltage electricity grid (>27,000 km lines).",
+      "asset_perimeter": "220-500-1150 kV transmission lines and 82 substations across Kazakhstan.",
+      "ownership_governance": "Samruk-Kazyna (~85%), minority public float listed on KASE/AIX."
+    },
+    "recent_drivers": [
+      "Apr-26: S&P upgraded KEGOC to BBB- Stable (SACP bb+) on >45% FFO/debt visibility.",
+      "FY25: Revenue KZT 397bn (~$736m), S&P Adj EBITDA KZT 152bn (38.3% margin)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-04-15",
+        "event": "FY2026 Audited IFRS Statements",
+        "impact": "Verifies grid capex execution and FFO/debt >45%."
+      },
+      {
+        "date": "2027-07-01",
+        "event": "Annual Regulated Transmission Tariff Reset",
+        "impact": "Underpins 2027-2028 EBITDA."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "FFO/Debt & Covenant Headroom",
+      "management_target": "FFO/Debt >45%; Debt/EBITDA <3.0x",
+      "current_runrate": "FY25 Adj EBITDA KZT 152bn; FFO/debt >45%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Apr-26 S&P upgrade reflects strong cash conversion.",
+      "last_guided_source": "S&P Apr-26 / FY25",
+      "last_verified_period": "2025A"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-04-15",
+    "period_reporting": "FY 2026 Audited Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.kegoc.kz/en/investors/",
+    "days_to_earnings": 138
+  },
+  "management_questions": [
+    {
+      "question": "Confirm 2027-2029 Western/Southern grid expansion capex and whether USD Eurobond funding is contemplated.",
+      "focus_area": "Capex & Funding",
+      "relevance": "Tests external market supply."
+    },
+    {
+      "question": "Detail covenant headroom under the 3.0x-3.8x Debt/EBITDA bank/bond limits at peak capex.",
+      "focus_area": "Covenants",
+      "relevance": "Monitors maintenance covenant cushion."
+    },
+    {
+      "question": "Clarify Samruk-Kazyna dividend payout policy during peak investment years.",
+      "focus_area": "Dividends",
+      "relevance": "Protects internal FCF."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "kegoc",
+      "sector": "Utilities",
+      "topic": "Apr-26 S&P BBB- Upgrade & FY25 EBITDA KZT 152bn",
+      "source": "KEGOC FY25 Audited Financial Statements & S&P Apr-26 Upgrade Filing, read 28-Nov-26",
+      "note": "FY25 rev KZT 397bn, S&P Adj EBITDA KZT 152bn (38.3% margin), FFO/debt >45%; S&P BBB- (Apr-26) / Moody's Baa1 / Fitch BBB."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 S&P BBB- Upgrade & FY25 Audited Results",
+      "source": "KEGOC FY25 Audited Financial Statements & S&P Apr-26 Upgrade Filing, read 28-Nov-26",
+      "summary": "Added KEGOC (BBB-/Baa1/BBB): FY25 EBITDA KZT 152bn, FFO/debt >45%, KASE bond curve."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB- Stable (S&P) / Baa1 Stable (Moody's) / BBB Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 115000.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
+    "restructuring_framework": "Kazakhstan Corporate Insolvency & Creditor Framework",
+    "thesis": "Kazakhstan's monopoly power grid operator (BBB-/Baa1/BBB) with >45% FFO/debt and strict 3.0x-3.8x debt/EBITDA maintenance covenants."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Loan & Bond Maintenance Leverage Cap",
+      "covenant_threshold": "Max Debt/EBITDA 3.0x-3.8x & Debt/Equity 0.6x-1.1x",
+      "actual_current": "~1.2x Net Debt/EBITDA (FY25)",
+      "headroom": "Substantial (>1.8x turns) headroom",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "FFO / Debt & Interest Coverage",
+      "covenant_threshold": "IG Thresholds (>45% FFO/Debt for BBB-)",
+      "actual_current": ">45% FFO/Debt",
+      "headroom": "Upgraded by S&P in Apr-26 on coverage strength",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge",
+      "covenant_threshold": "Standard DFI / KASE Negative Pledge",
+      "actual_current": "Unencumbered Grid",
+      "headroom": "Pari passu senior unsecured",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "State Ownership Covenant",
+      "covenant_terms": "Samruk-Kazyna majority ownership trigger in DFI/bond facilities."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Dividend Policy",
+      "covenant_terms": "Subject to regulatory capex & covenant compliance."
+    },
+    "cross_default_threshold": "Standard cross-default under IBRD/EBRD and KASE bond terms."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "KEGOC (Kazakhstan Electricity Grid Operating Co.) Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

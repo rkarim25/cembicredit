@@ -71,9 +71,9 @@
     "base_case_px": 100.8,
     "recovery_floor_pct": 80.0,
     "recovery_base_pct": 100.8,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Hungary Commercial & Bankruptcy Code",
-    "thesis": "Integrated oil and gas giant across Hungary, Slovakia, and Croatia; resilient downstream consumer margins."
+    "thesis": "MOL Group cut net debt to $1,367m and net leverage to 0.30x at Q326 (well inside its <1.0x ceiling) as surging refining margins and >95 mboepd production absorbed dividends and working capital builds. Structural recovery anchored by Hungary energy asset perimeter and MOL 4.875% 2028 seniority."
   },
   "annotations": [
     {
@@ -1007,6 +1007,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB-",
+      "price": 98.0,
+      "ytm": 5.5,
+      "spread_bp": 145,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB-",
       "price": 98.0,
       "ytm": 5.5,

@@ -73,9 +73,9 @@
     "base_case_px": 101.0,
     "recovery_floor_pct": 76.0,
     "recovery_base_pct": 101.0,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
-    "thesis": "Premier shopping mall developer (Mall of the Emirates) and Carrefour franchise operator across MENA."
+    "thesis": "MAF surpassed AED 5.1bn EBITDA in FY25 while slashing net debt 15% to AED 11.9bn (2.3x), and followed with record AED 2.5bn H126 EBITDA (+11% YoY). Trophy Dubai mall occupancy and low leverage anchor BBB/Baa2 IG stability. Structural recovery anchored by UAE consumer asset perimeter and MAF 5.00% 2029 seniority."
   },
   "annotations": [
     {
@@ -1005,6 +1005,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB / BBB",
+      "price": 98.0,
+      "ytm": 5.65,
+      "spread_bp": 160,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB / BBB",
       "price": 98.0,
       "ytm": 5.65,

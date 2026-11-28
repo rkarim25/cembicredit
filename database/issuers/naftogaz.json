@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Naftogaz_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-810f-bf5b-e2f2f02690ca",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Naftogaz_Credit_Model.xlsx",
     "last_updated": "2026-11-26",
     "model_type": "corp",
@@ -118,7 +118,8 @@
       "ownership_governance": "100% Cabinet of Ministers of Ukraine."
     },
     "recent_drivers": [
-      "Jul-26: Closed \u20ac1.2bn Kondor Finance Eurobond restructuring extending XS2027394233 to Jan-32 and XS2027393938 to Jan-33 at 8.95%."
+      "Jul-26: Closed \u20ac1.2bn Kondor Finance Eurobond restructuring extending XS2027394233 to Jan-32 and XS2027393938 to Jan-33 at 8.95%.",
+      "2024A: FY24 rev UAH 256.36bn, NI UAH 37.9bn."
     ],
     "catalysts": [
       {
@@ -224,6 +225,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "Restructured (Jul-26) / CCC",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -233,7 +247,7 @@
     "recovery_base_pct": 68.0,
     "implied_stress_ev_multiple": 3.5,
     "restructuring_framework": "English Law / Ukraine Sovereign-Quasi",
-    "thesis": "2032-2033 maturity runway + strategic European gas storage assets vs war-damage capex."
+    "thesis": "Naftogaz completed a landmark July 2026 restructuring of its \u20ac1.2bn Kondor Finance Eurobonds (>90% consent), pushing \u20ac695m to Jan-2032 and $584m to Jan-2033 at 8.95% coupons and eliminating near-term refinancing cliffs. War damage (229 strikes in 2025), winter gas import needs, and PSO receivables keep fundamental risk elevated. Structural recovery anchored by Ukraine energy asset perimeter and NAFTO 8.95% Jan 2033 ($584M, XS2027393938) seniority."
   },
   "historical_notes": [
     {
@@ -245,35 +259,35 @@
   ],
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
-      "status": "Compliant (Filings)"
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with Restructured (Jul-26) / CCC",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
+      "status": "Watch / Compliant"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard Distressed Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Naftogaz of Ukraine Credit Facilities (RCF Undisclosed)",

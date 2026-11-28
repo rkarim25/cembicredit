@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/dangote_fert.json`. Dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: Unrated / Sovereign-Capped (Nigeria B / B3 / B).
 

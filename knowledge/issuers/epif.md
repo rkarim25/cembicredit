@@ -4,13 +4,13 @@ _Page created 27-Nov-26 from `database/issuers/epif.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BBB (S&P) / BBB- (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2025A |  | 990.0 |  |  | 4.3 |  |
+| 2025A | 2857.0 | 990.0 |  | 2551.0 | 4.3 |  |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=epif) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/epif.json)

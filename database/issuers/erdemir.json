@@ -74,7 +74,7 @@
     "recovery_base_pct": 101.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Flat steel monopoly in Turkey; OYAK pension backing; $3.2B green DRI decarbonization transformation."
+    "thesis": "Erdemir expanded 9M26 EBITDA margin by 250bps YoY to 11.4% ($490m EBITDA on $4.3bn revenue, +12% YoY), deleveraging net debt/EBITDA down to 1.54x ($1,002m net debt) from 1.92x at YE25 despite Turkish flat-steel import competition. Structural recovery anchored by Turkey materials asset perimeter and EREGL 7.95% 2029 seniority."
   },
   "annotations": [
     {
@@ -1008,6 +1008,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- / B1",
+      "price": 98.5,
+      "ytm": 7.95,
+      "spread_bp": 355,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB- / B1",
       "price": 98.5,
       "ytm": 7.95,

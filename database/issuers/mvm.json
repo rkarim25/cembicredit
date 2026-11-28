@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "MVM_Group_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-81ee-ae0d-f06569090fdf",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MVM_Group_Credit_Model.xlsx",
     "last_updated": "2026-11-27",
     "model_type": "corp",
@@ -132,7 +132,8 @@
       "ownership_governance": "100% Hungarian State."
     },
     "recent_drivers": [
-      "Nov-26: Moody's affirmed Baa2 and revised Outlook to Stable; FY24 NPAT HUF 323.9bn."
+      "Nov-26: Moody's affirmed Baa2 and revised Outlook to Stable; FY24 NPAT HUF 323.9bn.",
+      "2024A: FY24 profit after tax attributable to owners HUF 323.9bn (~\u20ac825m). In Nov-26 Moody's revised Outlook on Baa2 rating to Stable alongside BBB Fitch / BBB- S&P. FY24 consolidated revenue HUF 4,534bn (-10.7% YoY), EBITDA HUF 825bn (2nd highest in history), total liabilities fell to HUF 3,806bn (from HUF 5,088bn)."
     ],
     "catalysts": [
       {
@@ -218,6 +219,19 @@
       "ebitda": 825000.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB (Fitch) / Baa2 Stable (Moody's, Nov-26) / BBB- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 825000.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "historical_notes": [
@@ -236,39 +250,39 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 6.0,
     "restructuring_framework": "Hungarian / English Law",
-    "thesis": "100% state-owned Hungarian nuclear/grid champion with Baa2/BBB rating."
+    "thesis": "Moody's revised MVM Group's Baa2 outlook to Stable in Nov-26 (joining Fitch BBB and S&P BBB-), recognizing solid cash generation (FY24 NPAT HUF 323.9bn) and sovereign strategic backing across Paks nuclear, grid, and gas supply. Watchpoint remains heavy decarbonization/LNG capex and Nov-27/Jun-28 refinancing. Structural recovery anchored by Hungary utilities asset perimeter and MVMHUN 7.50% Jun 2028 ($750m, XS2634075399) / 6.50% Mar 2031 seniority."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with BBB (Fitch) / Baa2 Stable (Moody's, Nov-26) / BBB- (S&P)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "MVM Group (MVM Energetika Zrt.) Credit Facilities (RCF Undisclosed)",

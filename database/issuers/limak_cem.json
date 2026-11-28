@@ -74,7 +74,7 @@
     "recovery_base_pct": 98.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Integrated Turkish plants + West Africa exports; major supplier for earthquake reconstruction."
+    "thesis": "Fitch affirmed Limak Cement and its $690m 9.75% Jul-29 Eurobond (XS2862382541) at B+ Stable (RR4), expecting gross leverage to remain <3.5x post-$115m tap despite ~78% USD-linked cost structure. Listed core subsidiary LMKDC generated TRY 8.73bn revenue and TRY 3.08bn EBITDA in FY25. Structural recovery anchored by Turkey materials asset perimeter and LIMAKC 9.75% Jul 2029 ($690m, XS2862382541) seniority."
   },
   "annotations": [
     {
@@ -964,6 +964,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ Stable (Fitch, 2026)",
+      "price": 98.8,
+      "ytm": 8.25,
+      "spread_bp": 385,
+      "net_leverage": 2.2,
+      "ebitda": 3176.5,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B+ Stable (Fitch, 2026)",
       "price": 98.8,
       "ytm": 8.25,

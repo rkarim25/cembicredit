@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Uzbekneftegaz_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-8160-9d03-cfd7e6efc054",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Uzbekneftegaz_Credit_Model.xlsx",
     "last_updated": "2026-11-25",
     "model_type": "corp",
@@ -233,6 +233,19 @@
       "ebitda": 16154000.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB Positive (Fitch, Nov-26, SCP b+) / BB- Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.57,
+      "ebitda": 16154000.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -242,7 +255,7 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": "4.5x EBITDA + State Support",
     "restructuring_framework": "Uzbekistan SOE / English Law",
-    "thesis": "2.2x net leverage with 67% tariff reform and strong sovereign backing (BB Positive Fitch)."
+    "thesis": "Fitch revised Uzbekneftegaz's outlook to Positive (Nov-2026) and upgraded its SCP to b+ (from b), reflecting cumulative 67% regulated gas tariff hikes in 2026, ~$1bn in state support, and 2025-26 dividend exemptions. LTM mid-2026 EBITDA reached ~$1.5bn with net leverage dropping from ~3.1x to 2.2x ahead of Nov-2028 ($700m) and May-2030 ($850m) maturities. Structural recovery anchored by Uzbekistan energy asset perimeter and UNGUZ 8.75% May 2030 ($850m, XS3063464070) seniority."
   },
   "management_guidance_tracker": [
     {
@@ -274,35 +287,35 @@
   ],
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "2.2x",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "2.20x (LTM26)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard BB Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "JSC Uzbekneftegaz (UNG) Credit Facilities (RCF Undisclosed)",

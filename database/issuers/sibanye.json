@@ -150,7 +150,8 @@
       "ownership_governance": "JSE & NYSE listed (SSW / SBSW)."
     },
     "recent_drivers": [
-      "Nov-26: Announced early redemption of $500m 4.25% 2028 CB (XS2725834043) by late Dec-26; Q326 adj EBITDA $662m (+9% YoY)."
+      "Nov-26: Announced early redemption of $500m 4.25% 2028 CB (XS2725834043) by late Dec-26; Q326 adj EBITDA $662m (+9% YoY).",
+      "2025A: FY25 rev ~$7.3bn (R129.7bn), adj EBITDA ~$2.1bn (R37.8bn, +189% YoY), reported net debt/adj EBITDA 0.59x, cash ~$1.0bn."
     ],
     "catalysts": [
       {
@@ -249,6 +250,19 @@
       "ebitda": 1950.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "Ba3 (Moody's) / BB- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 1950.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "recovery_analysis": {
@@ -258,7 +272,7 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 4.0,
     "restructuring_framework": "SA Companies Act / NY Law Notes",
-    "thesis": "$2.1bn+ adj EBITDA and $500m CB equitization leave 2029/2031 senior notes heavily covered."
+    "thesis": "Sibanye announced in Nov-26 the early redemption of its $500m 4.25% 2028 convertible bond to slash gross debt toward ~$1.1bn, backed by Q326 adj EBITDA rising 9% YoY to $662m (R10.8bn) and 0.59x YE25 net leverage. Eliminating the 2028 CB removes ~1/3 of gross debt and de-risks the 2029/2031 senior notes. Structural recovery anchored by South Africa materials asset perimeter and SSW 6.25% Senior Notes Nov 2031 (USG8118LAA64) seniority."
   },
   "historical_notes": [
     {
@@ -270,35 +284,35 @@
   ],
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "0.59x",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with Ba3 (Moody's) / BB- (S&P)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard HY Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Sibanye-Stillwater Credit Facilities (RCF Undisclosed)",

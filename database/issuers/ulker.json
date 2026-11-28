@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Ulker_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-8190-bac9-f15ec344e1de",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ulker_Credit_Model.xlsx",
     "last_updated": "2026-11-26",
     "model_type": "corp",
@@ -103,7 +103,8 @@
       "ownership_governance": "Controlled by Y\u0131ld\u0131z Holding (pladis); BIST listed (ULKER)."
     },
     "recent_drivers": [
-      "9M26: Ex-IAS 29 rev +19.4% YoY (TRY 95.7bn reported), covenant net leverage 1.45x."
+      "9M26: Ex-IAS 29 rev +19.4% YoY (TRY 95.7bn reported), covenant net leverage 1.45x.",
+      "2025A: FY25 rev TRY 112.0bn, EBITDA margin 16.5% (~TRY 18.48bn), covenant net debt/EBITDA 0.97x."
     ],
     "catalysts": [
       {
@@ -189,6 +190,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB Stable (Fitch) / BB Negative (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "historical_notes": [
@@ -207,39 +221,39 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 5.5,
     "restructuring_framework": "Turkey Commercial Law",
-    "thesis": "1.45x net leverage consumer defensive with offshore USD cash reserves."
+    "thesis": "\u00dclker posted 19.4% organic ex-IAS 29 sales growth in 9M26 (TRY 95.7bn reported) with conservative 1.45x covenant net leverage (up from 0.97x YE25 after dividends). Offshore hard-currency cash reserves and easing cocoa costs support BB Stable (Fitch) / BB Negative (S&P) on the $550m 7.875% Jul-31 bond (XS2855391533). Structural recovery anchored by Turkey consumer asset perimeter and ULKER 7.875% Jul 2031 ($550m, XS2855391533) seniority."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "1.45x",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "1.45x (9M26)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard BB Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "\u00dclker Bisk\u00fcvi Sanayi A.\u015e. Credit Facilities (RCF Undisclosed)",

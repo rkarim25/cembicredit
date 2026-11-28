@@ -81,7 +81,7 @@
     "recovery_base_pct": 97.5,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Pan-Africa Commercial & Bankruptcy Code",
-    "thesis": ">65% hard currency / pegged contracts; 14.2k towers with 2.1x tenancy; FCF inflection underway."
+    "thesis": "Helios Towers lifted FY26 adj EBITDA guidance to ~$535m after 9M26 revenue and adj EBITDA both rose 13% YoY ($718.8m / $392.2m) on record tenancy additions (35,379 tenancies), driving 10% recurring FCF growth ($133.7m) at steady 3.4x net leverage. Structural recovery anchored by Pan-Africa technology asset perimeter and HT 8.75% 2028 seniority."
   },
   "annotations": [
     {
@@ -1015,6 +1015,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B / B2",
+      "price": 94.25,
+      "ytm": 8.75,
+      "spread_bp": 440,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B / B2",
       "price": 94.25,
       "ytm": 8.75,

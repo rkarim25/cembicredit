@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "id": "eppf_telecom",
+    "name": "e& PPF Telecom Group B.V.",
+    "ticker": "EPPF",
+    "country": "Czech Republic",
+    "region": "CEE",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "BBB Stable (Fitch / S&P) / Baa2 (Moody's)",
+    "tier": "BBB",
+    "benchmark_bond": "e& PPF Telecom 3.25% Sep 2027 (\u20ac500m, XS2238777374)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "e_PPF_Telecom_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-81ba-84f1-d64600f35b5f",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/e_PPF_Telecom_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "EUR",
+    "provenance": "e& PPF Telecom FY25 Audited Annual Report & H126 Euronext Dublin Filings, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "EUR",
+      "source": "e& PPF Telecom Group FY25 Audited Financial Statements (Filing), read 28-Nov-26",
+      "revenue": 2410.0,
+      "ebitda": 1150.0,
+      "calculated_ebitda": 1150.0,
+      "ebitda_margin_pct": 47.7,
+      "capex": 702.0,
+      "observations": {
+        "notes": "FY25 revenue \u20ac2.41bn, EBITDA \u20ac1.15bn (~44%-48% margin), capex \u20ac702m."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "EUR",
+      "source": "e& PPF Telecom H126 Euronext Dublin Filing & Base Prospectus (Mar-26), read 28-Nov-26",
+      "observations": {
+        "notes": "H126 delivered double-digit YoY revenue & EBITDA growth following UPC Slovakia and Serbia Broadband (SBB) bolt-on acquisitions."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "e& PPF Telecom 3.250% Senior Unsecured Notes due Sep 2027",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "EUR",
+      "amount_outstanding_usd_m": 540.0,
+      "coupon": "3.250%",
+      "maturity": "2027-09-29",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2238777374"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 540.0,
+    "2028": 0.0,
+    "2029": 0.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 540.0,
+    "source": "XS2238777374 \u20ac500m 3.25% Sep-27 Eurobond (Mar-26 \u20ac550m XS1969645255 retired at maturity)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Constructive / e&-Backed CEE Telecom Leader Post-Carveout (BBB / Baa2)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "e& PPF Telecom Group (50%+1 share controlled by UAE's e&) operates Yettel/O2 mobile & CETIN telecom infrastructure across Bulgaria, Hungary, Serbia, and Slovakia, generating \u20ac2.41bn FY25 revenue and \u20ac1.15bn EBITDA. Double-digit H126 growth (boosted by UPC Slovakia & SBB), refreshed Mar-26 EMTN prospectus, and e& sponsorship underpin BBB/Baa2 IG ratings."
+    },
+    "positives": [
+      "High ~44%-48% EBITDA margin across #1/#2 CEE mobile & infrastructure (CETIN) positions.",
+      "Strong strategic sponsorship from UAE's e& (AA-rated parent) following 50%+1 controlling acquisition.",
+      "Clean maturity profile after repaying \u20ac550m Mar-26 notes; Sep-27 \u20ac500m XS2238777374 well covered."
+    ],
+    "negatives": [
+      "Elevated \u20ac702m FY25 capex (5G/fiber rollouts) and M&A integration (UPC Slovakia, SBB).",
+      "Structural carve-out complexity between e& PPF Telecom and standalone Czech PPF Telecom Holdings.",
+      "Regional CEE FX (HUF, RSD, BGN) and competitive pricing pressures."
+    ],
+    "background": {
+      "business_overview": "Multi-country CEE telecommunications and network infrastructure operator (Yettel, O2 Slovakia, CETIN).",
+      "asset_perimeter": "Operations in Hungary, Bulgaria, Serbia, and Slovakia (carved out from Czech O2/CETIN).",
+      "ownership_governance": "e& (50%+1 controlling stake) and PPF Group (49.9%)."
+    },
+    "recent_drivers": [
+      "FY25: Revenue \u20ac2.41bn, EBITDA \u20ac1.15bn, capex \u20ac702m; \u20ac550m Mar-26 notes (XS1969645255) matured and repaid.",
+      "H126: Double-digit YoY revenue/EBITDA growth from UPC Slovakia & SBB acquisitions; EMTN prospectus refreshed Mar-26."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-31",
+        "event": "FY2026 Audited Consolidated Results",
+        "impact": "Details full-year UPC Slovakia & SBB contribution and net leverage."
+      },
+      {
+        "date": "2027-09-29",
+        "event": "\u20ac500m 3.25% Eurobond Maturity (XS2238777374)",
+        "impact": "Refinancing via refreshed EMTN programme."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Post-M&A Integration & Leverage",
+      "management_target": "Maintain BBB/Baa2 IG financial policy",
+      "current_runrate": "FY25 EBITDA \u20ac1.15bn; H126 double-digit growth",
+      "tracking_status": "On Track",
+      "variance_analysis": "Acquisitions driving scale across CEE footprint.",
+      "last_guided_source": "e& PPF H126 Filing",
+      "last_verified_period": "H126"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-31",
+    "period_reporting": "FY 2026 Audited Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.eandppftelecom.eu/investors",
+    "days_to_earnings": 123
+  },
+  "management_questions": [
+    {
+      "question": "Provide exact consolidated net debt and net leverage at 30-Jun-26 post-SBB and UPC Slovakia closings.",
+      "focus_area": "Leverage",
+      "relevance": "Verifies BBB headroom."
+    },
+    {
+      "question": "Confirm 2027 refinancing plans for the \u20ac500m Sep-27 Eurobond (XS2238777374) under the Mar-26 EMTN prospectus.",
+      "focus_area": "Refinancing",
+      "relevance": "Near-term EUR/USD supply."
+    },
+    {
+      "question": "Detail CETIN infrastructure capex normalization post-5G rollout.",
+      "focus_area": "FCF",
+      "relevance": "Lifts FCF conversion."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "eppf_telecom",
+      "sector": "Technology",
+      "topic": "FY25 EBITDA \u20ac1.15bn & H126 UPC/SBB Growth",
+      "source": "e& PPF Telecom FY25 Audited Annual Report & H126 Euronext Dublin Filings, read 28-Nov-26",
+      "note": "FY25 rev \u20ac2.41bn, EBITDA \u20ac1.15bn, capex \u20ac702m; XS2238777374 \u20ac500m Sep-27; Fitch/S&P BBB, Moody's Baa2."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 FY25/H126 Euronext Filings & EMTN Curve",
+      "source": "e& PPF Telecom FY25 Audited Annual Report & H126 Euronext Dublin Filings, read 28-Nov-26",
+      "summary": "Added e& PPF Telecom (BBB/Baa2): FY25 EBITDA \u20ac1.15bn, H126 M&A growth, XS2238777374 Sep-27."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB Stable (Fitch / S&P) / Baa2 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
+    "restructuring_framework": "Czech Republic Corporate Insolvency & Creditor Framework",
+    "thesis": "e&-controlled CEE telecom & CETIN infrastructure group (\u20ac1.15bn EBITDA) rated BBB/Baa2 with refreshed EMTN programme ahead of Sep-27 \u20ac500m maturity."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "EMTN / 144A Indenture & Bank Facility Covenants",
+      "covenant_threshold": "Negative Pledge & Cross-Default / Financial Covenants per Facility Docs",
+      "actual_current": "Consistent with BBB Stable (Fitch / S&P) / Baa2 (Moody's)",
+      "headroom": "No covenant breach disclosed in latest audited/interim financial statements.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Debt Service & Interest Coverage",
+      "covenant_threshold": "Per Syndicated / Bond Documentation",
+      "actual_current": "Compliant",
+      "headroom": "Covered by operating cash flow and liquidity buffers.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Operating Assets",
+      "headroom": "Senior unsecured pari passu ranking",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control / Sovereign Support Clause",
+      "covenant_terms": "Standard Change of Control put or state-ownership maintenance covenant per prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and financial policy targets."
+    },
+    "cross_default_threshold": "Standard EMTN / 144A cross-default & cross-acceleration threshold."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "e& PPF Telecom Group B.V. Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

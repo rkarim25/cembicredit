@@ -77,7 +77,7 @@
     "recovery_base_pct": 102.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "UAE Commercial & Bankruptcy Code",
-    "thesis": "100% backward integrated self-construction model; zero contractor failure risk; prime MBR City land bank."
+    "thesis": "Sobha closed FY25 with record AED 30bn presales (+30% YoY) and a multi-billion backlog backing its $530m Jul-28 Sukuk, though rating agencies remain watchful of aggressive land-bank capex and shareholder dividend distributions amid regional macro sentiment. Structural recovery anchored by UAE real estate asset perimeter and SOBHA 8.75% Jul 2028 Sukuk seniority."
   },
   "annotations": [
     {
@@ -1033,6 +1033,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- / Ba2 Sukuk (Moody's, 2026) / BB Neg (S&P, 2026)",
+      "price": 102.0,
+      "ytm": 7.95,
+      "spread_bp": 390,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB- / Ba2 Sukuk (Moody's, 2026) / BB Neg (S&P, 2026)",
       "price": 102.0,
       "ytm": 7.95,

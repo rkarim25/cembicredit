@@ -74,9 +74,9 @@
     "base_case_px": 101.5,
     "recovery_floor_pct": 74.0,
     "recovery_base_pct": 101.5,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
-    "thesis": "Oman's national integrated energy group; downstream Duqm refinery commissioning bolsters cash generation."
+    "thesis": "Oman's state energy champion lifted FY25 EBITDA ~23% YoY to OMR 1.35bn (~$3.5bn) on $41.5bn revenue, securing dual BBB- Stable investment-grade ratings from S&P and Fitch post-balance-sheet optimization and subsidiary IPOs (OQGN/OQB). Structural recovery anchored by Oman energy asset perimeter and OQSAOC 5.125% May 2028 ($750m, XS2248458395) seniority."
   },
   "annotations": [
     {
@@ -1024,6 +1024,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- Stable (S&P / Fitch)",
+      "price": 99.5,
+      "ytm": 5.9,
+      "spread_bp": 185,
+      "net_leverage": null,
+      "ebitda": 1100.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB- Stable (S&P / Fitch)",
       "price": 99.5,
       "ytm": 5.9,

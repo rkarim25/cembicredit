@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "id": "borouge",
+    "name": "Borouge Group International AG",
+    "ticker": "BOROUGE",
+    "country": "UAE",
+    "region": "GCC",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "A- Stable (Fitch, Nov-26) / A (S&P) / Baa1 (Moody's)",
+    "tier": "A",
+    "benchmark_bond": "Borouge Group International GMTN Programme (A- / A)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Borouge_Group_International_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-81fc-bf3c-d55234c028a1",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Borouge_Group_International_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "USD",
+    "provenance": "Borouge Group International Q326 Filing & Fitch/S&P Nov-26 Rating Reports, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Borouge Group International 9M26 ADX Filing & Fitch Nov-26 Release, read 28-Nov-26",
+      "ebitda": 2700.0,
+      "reported_ebitda": 2700.0,
+      "ebitda_margin_pct": 26.0,
+      "fcf": 1200.0,
+      "gross_debt": 17200.0,
+      "observations": {
+        "notes": "Post-Borouge/Borealis/Nova Chemicals ($13.4bn) merger: 9M26 Adj EBITDA $2.7bn (26% margin), FCF $1.2bn, adjusted gross debt ~$16bn-$18.5bn (incl. $9.4bn Nova bridge)."
+      }
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Fitch Ratings Nov-26 Final 'A-' Assessment Filing, read 28-Nov-26",
+      "net_leverage": 3.9,
+      "observations": {
+        "notes": "Fitch forecasts YE26 proforma EBITDA net leverage ~3.9x prior to planned equity raise & GMTN bridge takeout."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Nova Chemicals Acquisition Senior Unsecured Bridge Facility",
+      "instrument_type": "Senior Unsecured Bridge Loan",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 9400.0,
+      "coupon": "SOFR + margin",
+      "maturity": "2028-03-31",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English"
+    },
+    {
+      "tranche_name": "Borouge / Borealis Existing Senior Debt & Planned GMTN Takeout",
+      "instrument_type": "Senior Unsecured EMTN/GMTN",
+      "currency": "USD / EUR",
+      "amount_outstanding_usd_m": 7800.0,
+      "coupon": "TBD / Curve",
+      "maturity": "2027-2034",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 500.0,
+    "2027": 1500.0,
+    "2028": 9400.0,
+    "2029": 2000.0,
+    "2030_plus": 3800.0,
+    "total_outstanding_usd_m": 17200.0,
+    "source": "Combined Borouge/Borealis/Nova Chemicals ~$17.2bn debt incl. $9.4bn 2-year Mar-28 acquisition bridge ahead of GMTN issuance."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Neutral / ADNOC-OMV Polyolefins Champion Scaling GMTN Takeout (A-/A/Baa1)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Formed in 2026 by combining ADNOC/OMV's Borouge, Borealis, and $13.4bn Nova Chemicals, Borouge Group International generated $2.7bn 9M26 Adj EBITDA (26% margin) and $1.2bn FCF. Fitch assigned a final A- Stable rating (S&P prelim A / Moody's Baa1) in Nov-26 for its GMTN programme to refinance the $9.4bn Nova acquisition bridge, though YE26 proforma leverage (~3.9x) requires disciplined equity/FCF deleveraging."
+    },
+    "positives": [
+      "Industry-leading 26% Adjusted EBITDA margin ($2.7bn in 9M26) and $1.2bn FCF backed by low-cost Abu Dhabi/North American ethane feedstock.",
+      "Strong strategic parentage from ADNOC (AA) and OMV, earning Fitch A- Stable / S&P A / Moody's Baa1.",
+      "Global scale across Middle East, Europe (Borealis), and North America (Nova Chemicals)."
+    ],
+    "negatives": [
+      "Heavy ~$9.4bn acquisition bridge facility (maturing up to Mar-28) drives ~$16bn-$18.5bn initial debt and ~3.9x YE26E leverage.",
+      "Execution risk on planned equity capital raise and benchmark GMTN bond supply overhang.",
+      "Global petrochemical overcapacity and European Borealis margin cyclicality."
+    ],
+    "background": {
+      "business_overview": "Global top-4 polyolefins producer combining Borouge, Borealis, and Nova Chemicals.",
+      "asset_perimeter": "Ruwais (UAE), European Borealis crackers/plants, and North American Nova Chemicals ethane assets.",
+      "ownership_governance": "Co-owned by ADNOC and OMV AG, headquartered in Austria/UAE (ADX-listed platform)."
+    },
+    "recent_drivers": [
+      "Nov-26: Fitch assigned final A- (Stable) rating and S&P prelim A to Borouge Group International's GMTN programme.",
+      "9M26: Combined Adj EBITDA $2.7bn (26% margin), FCF $1.2bn; YE26 proforma net leverage ~3.9x."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-01-31",
+        "event": "Inaugural Benchmark GMTN Issuance & Equity Raise",
+        "impact": "Refinances $9.4bn Nova bridge facility."
+      },
+      {
+        "date": "2027-03-15",
+        "event": "FY2026 Combined Audited Results",
+        "impact": "Tests synergy capture and post-merger net leverage."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Bridge Takeout & Deleveraging",
+      "management_target": "Refinance $9.4bn Nova bridge via GMTN + equity raise",
+      "current_runrate": "9M26 EBITDA $2.7bn, FCF $1.2bn, YE26E lev ~3.9x",
+      "tracking_status": "On Track",
+      "variance_analysis": "Fitch A- & S&P A ratings cleared Nov-26 for GMTN launch.",
+      "last_guided_source": "Fitch / S&P Nov-26",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-15",
+    "period_reporting": "FY 2026 Combined Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.borougeinternational.com/",
+    "days_to_earnings": 107
+  },
+  "management_questions": [
+    {
+      "question": "Detail size and timing of the planned equity raise alongside inaugural USD/EUR GMTN tranches.",
+      "focus_area": "Deleveraging",
+      "relevance": "Essential to reduce ~3.9x leverage toward A- target."
+    },
+    {
+      "question": "Provide standalone 2027 capex and synergy realization targets across Borouge, Borealis, and Nova.",
+      "focus_area": "FCF & Synergies",
+      "relevance": "Drives organic deleveraging."
+    },
+    {
+      "question": "Confirm dividend policy floor during bridge-takeout period.",
+      "focus_area": "Financial Policy",
+      "relevance": "Tests FCF retention for debt reduction."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "borouge",
+      "sector": "Materials",
+      "topic": "Nov-26 Fitch 'A-' Stable & $2.7bn 9M26 EBITDA",
+      "source": "Borouge Group International Q326 Filing & Fitch/S&P Nov-26 Rating Reports, read 28-Nov-26",
+      "note": "Fitch assigned final A- Stable (S&P A / Moody's Baa1) to Borouge Intl GMTN in Nov-26; 9M26 EBITDA $2.7bn (26%), FCF $1.2bn, $9.4bn Nova bridge."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 Nov-26 Fitch A- GMTN Rating & 9M26 Proforma Results",
+      "source": "Borouge Group International Q326 Filing & Fitch/S&P Nov-26 Rating Reports, read 28-Nov-26",
+      "summary": "Added Borouge Group International (A-/A/Baa1): 9M26 EBITDA $2.7bn, FCF $1.2bn, $9.4bn Nova bridge takeout."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "A- Stable (Fitch, Nov-26) / A (S&P) / Baa1 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
+    "restructuring_framework": "UAE Corporate Insolvency & Creditor Framework",
+    "thesis": "ADNOC/OMV co-owned global polyolefins major (A-/A/Baa1) with 26% EBITDA margins; GMTN proceeds refinance the $9.4bn Nova acquisition bridge."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "EMTN / 144A Indenture & Bank Facility Covenants",
+      "covenant_threshold": "Negative Pledge & Cross-Default / Financial Covenants per Facility Docs",
+      "actual_current": "Consistent with A- Stable (Fitch, Nov-26) / A (S&P) / Baa1 (Moody's)",
+      "headroom": "No covenant breach disclosed in latest audited/interim financial statements.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Debt Service & Interest Coverage",
+      "covenant_threshold": "Per Syndicated / Bond Documentation",
+      "actual_current": "Compliant",
+      "headroom": "Covered by operating cash flow and liquidity buffers.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Operating Assets",
+      "headroom": "Senior unsecured pari passu ranking",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control / Sovereign Support Clause",
+      "covenant_terms": "Standard Change of Control put or state-ownership maintenance covenant per prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and financial policy targets."
+    },
+    "cross_default_threshold": "Standard EMTN / 144A cross-default & cross-acceleration threshold."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Borouge Group International AG Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

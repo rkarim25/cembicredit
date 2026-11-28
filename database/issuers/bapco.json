@@ -71,7 +71,7 @@
     "recovery_base_pct": 101.8,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
-    "thesis": "Bahrain sovereign energy vehicle; BMP refinery modernization program near completion, sovereign support."
+    "thesis": "Bapco Energies' FY25 net profit dipped to BHD 96m (vs BHD 111m FY24) as Sitra refinery expansion debt climbed to ~23% of Bahrain GDP, keeping Fitch's rating anchored at 'B' alongside the Bahrain sovereign. Structural recovery anchored by Bahrain energy asset perimeter and BAPCO 7.50% 2027 seniority."
   },
   "annotations": [
     {
@@ -1046,6 +1046,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B Stable (Fitch, 2026) / B+",
+      "price": 101.8,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": null,
+      "ebitda": 385.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B Stable (Fitch, 2026) / B+",
       "price": 101.8,
       "ytm": 6.85,

@@ -14,9 +14,9 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "ADNOC_Murban_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-8181-8bde-f5325dea8a99",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADNOC_Murban_Credit_Model.xlsx",
-    "last_updated": "2026-11-27",
+    "last_updated": "2026-11-28",
     "model_type": "corp",
     "financials_currency": "USD",
     "provenance": "financials built 25-Nov-26 from ADNOC Murban LSE filings & Fitch AA affirmation (Aug-26); quotes await [BBG]",
@@ -104,7 +104,7 @@
     "source": "Listed benchmark USD tranches ($4.0bn shown; total debt raised ~$5.5bn per Fitch Aug-26)."
   },
   "credit_view": {
-    "last_updated": "2026-11-25",
+    "last_updated": "2026-11-28",
     "verdict": {
       "stance": "Neutral / Abu Dhabi Sovereign-Tied AA Upstream Proxy (Aa2 / AA / AA)",
       "target_price": null,
@@ -129,6 +129,7 @@
       "ownership_governance": "100% ADNOC / Emirate of Abu Dhabi; LSE NSM listed."
     },
     "recent_drivers": [
+      "Late-Nov 26: Fitch affirmed ADNOC Murban at AA Stable; sister JV Borouge Group International AG secured final A- (Stable) GMTN rating for $9.4bn Nova bridge takeout.",
       "Aug-26: Fitch affirmed AA Stable on ~$5.5bn outstanding debt backed by Murban crude allocations.",
       "2025: Issued $1.5bn 4.75% May-2035 debut Sukuk (XS3044357047 / US006921AA84)."
     ],
@@ -174,6 +175,13 @@
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "adnoc_murban",
+      "sector": "Energy",
+      "topic": "Late-Nov 26 ADNOC Group & Borouge Intl Rating Update",
+      "source": "Fitch Ratings (Late-Nov 26)",
+      "note": "ADNOC Murban affirmed AA Stable; Borouge Group International AG assigned final A- Stable for GMTN."
+    },
     {
       "issuer_id": "adnoc_murban",
       "sector": "Energy",
@@ -229,6 +237,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "Aa2 (Moody's) / AA (S&P) / AA (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -238,9 +259,15 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 4.5,
     "restructuring_framework": "ADGM / UAE Law",
-    "thesis": "Sovereign-grade AA/Aa2 Murban crude cash flow backing."
+    "thesis": "ADNOC Murban RSC Ltd serves as ADNOC Group's primary international debt funding vehicle backed by contractual cash flows from ultra-low-cost onshore Murban crude volumes, rated Aa2/AA/AA Stable (Fitch affirmed Aug-26). Tightly aligned to Abu Dhabi sovereign risk; main watchpoint is incremental multi-billion supply and Fujairah bypass resilience. Structural recovery anchored by UAE energy asset perimeter and ADNOCM 4.75% May 2035 Sukuk ($1.5B, XS3044357047) seniority."
   },
   "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Late-Nov 26 Group Ecosystem Update (AA Stable / Borouge Intl A-)",
+      "source": "Fitch Ratings (Late-Nov 26)",
+      "summary": "Fitch maintains ADNOC Murban at AA Stable while co-owned Borouge Group International AG achieved final A- Stable rating on its GMTN programme."
+    },
     {
       "date": "2026-11-27",
       "title": "ADNOC Murban \u2014 Verified Filings & Credit Profile",
@@ -250,35 +277,35 @@
   ],
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with Aa2 (Moody's) / AA (S&P) / AA (Fitch)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "ADNOC Murban Credit Facilities (RCF Undisclosed)",

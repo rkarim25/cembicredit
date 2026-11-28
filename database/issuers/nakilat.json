@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "id": "nakilat",
+    "name": "Nakilat (Qatar Gas Transport Company)",
+    "ticker": "QGTS",
+    "country": "Qatar",
+    "region": "GCC",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "AA- Sr Sec / A+ Sub (Fitch)",
+    "tier": "AA",
+    "benchmark_bond": "Nakilat Inc. 6.067% Sr Sec 2033 ($850m) & 6.267% Sub 2033 ($300m)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Nakilat_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-814e-9ba9-d790ec4c4a91",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Nakilat_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "QAR",
+    "provenance": "Nakilat FY25 Audited Financial Statements & Fitch Rating Report, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "QAR",
+      "source": "Nakilat FY24 Audited Financial Statements (QSE Filing), read 28-Nov-26",
+      "net_profit": 1640.0,
+      "observations": {
+        "notes": "FY24 net profit QAR 1.64bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "QAR",
+      "source": "Nakilat FY25 Audited Financial Statements & Fitch Report (Filing), read 28-Nov-26",
+      "revenue": 4780.0,
+      "ebitda": 3550.0,
+      "calculated_ebitda": 3550.0,
+      "ebitda_margin_pct": 74.3,
+      "net_profit": 1690.0,
+      "gross_debt": 21400.0,
+      "observations": {
+        "notes": "FY25 total income QAR 4.78bn ($1.31bn; operating rev ~QAR 3.4bn), EBITDA QAR 3.55bn, net profit QAR 1.69bn ($460m, +3.1% YoY), total debt ~QAR 20bn-22.8bn (133% net debt/adj equity) scaling for 112-vessel fleet."
+      }
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "currency": "QAR",
+      "source": "S&P / Nakilat 2026 Capex & Fleet Guidance, read 28-Nov-26",
+      "capex": 55.0,
+      "observations": {
+        "notes": "2026 maintenance capex light at $10m-$15m (~QAR 55m) post-2025 dry-docking peak; growth capex dedicated to North Field LNG carrier newbuilds."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Nakilat Inc. Senior Secured Bonds due 2033",
+      "instrument_type": "Senior Secured Project Bond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 850.0,
+      "coupon": "6.067%",
+      "maturity": "2033-12-31",
+      "seniority": "First-Priority Senior Secured",
+      "governing_law": "New York"
+    },
+    {
+      "tranche_name": "Nakilat Inc. Subordinated Second-Priority Secured Bonds due 2033",
+      "instrument_type": "Second-Priority Secured Bond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 300.0,
+      "coupon": "6.267%",
+      "maturity": "2033-12-31",
+      "seniority": "Second-Priority Secured",
+      "governing_law": "New York"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 150.0,
+    "2027": 250.0,
+    "2028": 250.0,
+    "2029": 250.0,
+    "2030_plus": 4980.0,
+    "total_outstanding_usd_m": 5880.0,
+    "source": "Nakilat Inc. $850m Sr Sec 2033 & $300m Sub Sec 2033 bonds + QAR ~21.4bn (~$5.88bn) LNG carrier project debt."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Constructive / QatarEnergy-Contracted LNG Shipping Monopoly (AA- / A+)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Nakilat is the world's largest LNG carrier owner, contracted under long-term ship-or-pay charters to QatarEnergy generating QAR 4.78bn FY25 total income and QAR 3.55bn EBITDA. Fitch's AA- (Senior Secured) and A+ (Subordinated) ratings incorporate a 2-notch sovereign/QatarEnergy uplift above standalone profiles ('a'/'a-') as the fleet expands toward 112 vessels for North Field."
+    },
+    "positives": [
+      "Long-term fixed-rate time charters with QatarEnergy (AA/Aa2) eliminate spot LNG freight volatility.",
+      "Fitch AA- / A+ ratings backed by two-notch Qatar state/QatarEnergy strategic support uplift.",
+      "Minimal 2026 maintenance capex ($10m-$15m) after 2025 dry-docking completion."
+    ],
+    "negatives": [
+      "Large multi-billion dollar newbuild capex for North Field LNG expansion lifts consolidated debt (~QAR 21.4bn).",
+      "Heavy single-offtaker concentration to QatarEnergy and Strait of Hormuz transit geopolitics.",
+      "Amortizing project bond and bank facility debt-service schedules require sustained charter uptime."
+    ],
+    "background": {
+      "business_overview": "Qatar's primary LNG marine transport champion operating wholly-owned and JV LNG/LPG vessels.",
+      "asset_perimeter": "Expanding LNG/LPG fleet scaling toward 112 vessels + Erhama Bin Jaber Al Jalahma Shipyard.",
+      "ownership_governance": "Listed on QSE; anchored by QatarEnergy and Qatari state-affiliated shareholders."
+    },
+    "recent_drivers": [
+      "FY25: Total income QAR 4.78bn ($1.31bn), EBITDA QAR 3.55bn, net profit QAR 1.69bn (+3.1% YoY).",
+      "Fitch affirmed Nakilat Inc. $850m Sr Sec 2033 at AA- and $300m Sub 2033 at A+ (Stable)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-10",
+        "event": "FY2026 Audited Results & Fleet Delivery Update",
+        "impact": "Tracks newbuild debt drawdowns vs charter cash flow."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "QatarEnergy North Field LNG Carrier Charter Milestones",
+        "impact": "Adds contracted EBITDA capacity."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Fleet Expansion & Maintenance Capex",
+      "management_target": "Scale to 112 vessels; 2026 maint. capex $10m-$15m",
+      "current_runrate": "FY25 EBITDA QAR 3.55bn; net profit +3.1% YoY",
+      "tracking_status": "On Track",
+      "variance_analysis": "Dry-docking cycle behind, keeping 2026 maint. capex low.",
+      "last_guided_source": "Nakilat FY25 / S&P",
+      "last_verified_period": "2025A"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-10",
+    "period_reporting": "FY 2026 Full-Year Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.nakilat.com/investor-relations/",
+    "days_to_earnings": 74
+  },
+  "management_questions": [
+    {
+      "question": "Confirm 2027-2029 newbuild vessel delivery capex schedule and committed ECA/bank funding.",
+      "focus_area": "Capex & Funding",
+      "relevance": "Gauges consolidated leverage peak."
+    },
+    {
+      "question": "Detail Nakilat Inc. ring-fenced DSCR headroom on the 2033 senior and subordinated bonds.",
+      "focus_area": "Covenants",
+      "relevance": "Protects bondholders."
+    },
+    {
+      "question": "Verify war-risk insurance pass-through provisions in QatarEnergy time charters.",
+      "focus_area": "Geopolitics",
+      "relevance": "Red Sea / Hormuz routing sensitivity."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "nakilat",
+      "sector": "Energy",
+      "topic": "FY25 Total Income QAR 4.78bn, EBITDA QAR 3.55bn & Fitch AA-/A+",
+      "source": "Nakilat FY25 Audited Financial Statements & Fitch Rating Report, read 28-Nov-26",
+      "note": "FY25 total income QAR 4.78bn, EBITDA QAR 3.55bn, net profit QAR 1.69bn; Fitch AA- ($850m Sr Sec 2033) & A+ ($300m Sub 2033)."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 FY25 QSE Results & Fitch AA-/A+ Secured Bond Curve",
+      "source": "Nakilat FY25 Audited Financial Statements & Fitch Rating Report, read 28-Nov-26",
+      "summary": "Added Nakilat (AA-/A+): FY25 EBITDA QAR 3.55bn, $1.15bn 2033 project bonds."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "AA- Sr Sec / A+ Sub (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
+    "restructuring_framework": "Qatar Corporate Insolvency & Creditor Framework",
+    "thesis": "First-priority ($850m) and second-priority ($300m) 2033 bonds are secured on long-term QatarEnergy-chartered LNG vessels with a 2-notch sovereign support uplift."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Project Bond DSCR & Distribution Lock-Up",
+      "covenant_threshold": "Min DSCR Lock-Up per Nakilat Inc. Common Terms",
+      "actual_current": "133% Net Debt/Equity (Group)",
+      "headroom": "Ample charter cash-flow coverage from QatarEnergy",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Debt Service Coverage Ratio (DSCR)",
+      "covenant_threshold": "Project Finance DSCR Lock-Up",
+      "actual_current": "Strong (Contracted)",
+      "headroom": "Ship-or-pay LNG charters cover senior & sub debt service",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "First- & Second-Priority Vessel Mortgages & Cash Waterfall",
+      "covenant_threshold": "Closed Vessel Fleet Security Package",
+      "actual_current": "$850m 1L / $300m 2L Secured",
+      "headroom": "Strict waterfall prioritization",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "QatarEnergy Charter / Ownership Covenant",
+      "covenant_terms": "Tied to QatarEnergy time-charter maintenance and state link."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Waterfall Distribution Test",
+      "covenant_terms": "Distributions permitted only post-DSRA funding and DSCR compliance."
+    },
+    "cross_default_threshold": "Standard project-finance cross-default under Nakilat Inc. Common Terms."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Nakilat (Qatar Gas Transport Company) Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

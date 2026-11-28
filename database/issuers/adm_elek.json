@@ -68,7 +68,7 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Aegean regulated electricity distribution grid; RAB indexed to inflation; guaranteed real WACC return."
+    "thesis": "ADM Elektrik operates a fully regulated RAB concession in southwest Turkey (~$180m EBITDA, 5.5-6.0% losses) under EMRA's 5th Regulatory Period (2026-2030, real WACC lifted to 13.49%, +40% real capex allowance). Early-26 $500m 9.50% Feb-31 bond (XS3260262988) cleared bank debt, though USD debt vs TRY cash flows remains a structural FX risk. Structural recovery anchored by Turkey utilities asset perimeter and ADMTR 9.50% Feb 2031 ($500m, XS3260262988) seniority."
   },
   "annotations": [
     {
@@ -1016,6 +1016,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- Stable (Fitch, early-26) / B2 exp (Moody's)",
+      "price": 98.0,
+      "ytm": 9.25,
+      "spread_bp": 485,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB- Stable (Fitch, early-26) / B2 exp (Moody's)",
       "price": 98.0,
       "ytm": 9.25,

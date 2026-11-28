@@ -79,7 +79,7 @@
     "recovery_base_pct": 102.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Nigeria Commercial & Bankruptcy Code",
-    "thesis": "650,000 bpd coastal mega-refinery; eliminates Nigerian fuel import dependency; target $3.5B run-rate EBITDA."
+    "thesis": "Dangote Refinery swung to $5.52bn EBITDA and $4.73bn net profit on $22.48bn revenue in 9M26, flipping from $1.73bn YE25 net debt to $650.8m net cash. However, 9M26 margins benefited from Middle East disruption, 30-40% of crude is imported, and $15-16bn Lamu/1.4mbpd capex plus $3.99bn DIL parent loans require covenant clarity. Structural recovery anchored by Nigeria energy asset perimeter and DAPERE 7.50% Jul 2031 ($750m 144A, issued Jul-26) seniority."
   },
   "annotations": [
     {
@@ -990,6 +990,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Unrated Notes / Nigeria Sovereign Ceiling B / B3 / B (Fitch withdrew DIL B+(nga))",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "Unrated Notes / Nigeria Sovereign Ceiling B / B3 / B (Fitch withdrew DIL B+(nga))",
       "price": null,
       "ytm": null,

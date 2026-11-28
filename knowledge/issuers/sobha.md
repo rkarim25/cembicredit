@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/sobha.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - SOBHA 8.75% Jul 2028 Sukuk: price 102.0, YTM 7.95%, spread 390bp (as of 2026-11-27).
 - Rating as recorded: BB- / Ba2 Sukuk (Moody's, 2026) / BB Neg (S&P, 2026).

@@ -92,9 +92,9 @@
     "base_case_px": 100.8,
     "recovery_floor_pct": 85.0,
     "recovery_base_pct": 100.8,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Romania Commercial & Bankruptcy Code",
-    "thesis": "Pure-play hydropower generator in Romania with exceptional 65% EBITDA margin and minimal debt."
+    "thesis": "Hidroelectrica delivered a strong 9M26 rebound with revenue up 28% YoY to RON 8.60bn, EBITDA of RON 4.15bn (48.2% margin), and net profit up 34% YoY to RON 3.11bn alongside RON 3.19bn operating cash flow. Fortress net-cash balance sheet leaves credit anchored solely to the Romania sovereign ceiling (BBB-). Structural recovery anchored by Romania utilities asset perimeter and HIDRO 5.25% 2029 seniority."
   },
   "annotations": [
     {
@@ -1035,6 +1035,19 @@
       "ebitda": 5503.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB- (Fitch / Sovereign Floor)",
+      "price": 99.0,
+      "ytm": 5.5,
+      "spread_bp": 145,
+      "net_leverage": -0.85,
+      "ebitda": 5503.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1147,7 +1160,8 @@
       "ownership_governance": "~80% owned by Romanian Ministry of Energy, ~20% free float on Bucharest Stock Exchange."
     },
     "recent_drivers": [
-      "9M26 (BVB): Revenue RON 8,601m (+28% YoY), Adj. EBITDA RON 4,132m (+27% YoY), Net Profit RON 3,108m (+34% YoY); Q3 NPAT RON 537m (-26% YoY on drought)."
+      "9M26 (BVB): Revenue RON 8,601m (+28% YoY), Adj. EBITDA RON 4,132m (+27% YoY), Net Profit RON 3,108m (+34% YoY); Q3 NPAT RON 537m (-26% YoY on drought).",
+      "2025A: FY25 rev RON 9,619m, EBITDA RON 4,646m (Adj RON 4,768m), NPAT RON 3,370m."
     ],
     "catalysts": [
       {

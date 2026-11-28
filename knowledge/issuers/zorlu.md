@@ -4,9 +4,9 @@ _Page created 08-Oct-26 from `database/issuers/zorlu.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
-- ZOREN 11.00% 2030: price 63.5, YTM 27.2%, spread 2250bp (as of 2026-11-26).
+- ZOREN 11.00% 2030: price 63.5, YTM 27.2%, spread 2250bp (as of 2026-11-28).
 - Rating as recorded: Caa1 Neg (Moody's) / B- RWN (Fitch).
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |

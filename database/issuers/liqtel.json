@@ -90,7 +90,7 @@
     "recovery_base_pct": 88,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
-    "thesis": "110k km terrestrial pan-African fiber grid; Africa Data Centres; high yield compensates for 2026 maturity wall."
+    "thesis": "Liquid Intelligent Technologies closed its $660m refinancing in Apr-26 ($300m Euronext Dublin Eurobond 2.5x oversubscribed + ZAR/USD loans + Cassava equity injection) after growing FY26 (ended Feb-26) revenue 12.7% to $781.9m and cutting net leverage to 2.64x ($781.1m net debt). Structural recovery anchored by South Africa technology asset perimeter and LIQTEL 10.750% 2031 ($300m) seniority."
   },
   "annotations": [
     {
@@ -1006,6 +1006,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B- Stable (Fitch, May-26) / Caa1",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B- Stable (Fitch, May-26) / Caa1",
       "price": null,
       "ytm": null,

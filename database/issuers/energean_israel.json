@@ -173,7 +173,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Initiation — Karish Senior Secured Notes & FY25 Results",
+      "title": "Initiation \u2014 Karish Senior Secured Notes & FY25 Results",
       "source": "Energean FY25 Annual Report",
       "summary": "Added Energean Israel Finance: FY25 group EBITDAX $1.12bn, net debt $3.26bn, Mar-28/Mar-31 senior secured ISINs."
     }
@@ -183,6 +183,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ / BB- (S&P / Fitch Project-Secured)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 1160.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B+ / BB- (S&P / Fitch Project-Secured)",
       "price": null,
       "ytm": null,
@@ -204,35 +217,35 @@
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "2.9x Group (FY25)",
-      "headroom": "Ring-fenced project-finance waterfall with Debt Service Reserve Account (DSRA) & distribution lock-up tests.",
+      "covenant_type": "Project Cash Waterfall & Distribution Lock-Up",
+      "covenant_threshold": "Min 1.50x Historical & Projected DSCR Distribution Lock-Up + 6m DSRA",
+      "actual_current": "1.50x+ DSCR Compliant",
+      "headroom": "Senior cash sweep & reserve account protections active",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Debt Service Coverage Ratio (DSCR)",
+      "covenant_threshold": "Min 1.50x Historical & Projected DSCR Distribution Lock-Up + 6m DSRA",
+      "actual_current": "1.50x+ DSCR Compliant",
+      "headroom": "Contracted revenue/offtake covers debt service",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Dedicated Asset Security & Negative Pledge",
+      "covenant_threshold": "Closed Ring-Fenced Collateral",
+      "actual_current": "First-Ranking Secured",
+      "headroom": "First-ranking pledge over Karish/Tanin FPSO, leases & export receivables; strict cash waterfall.",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Change of Control & Event of Default per project-finance Senior Secured Indenture."
+      "covenant_type": "Change of Control / Concession Protection",
+      "covenant_terms": "CoC put at 101% or concession/sponsor maintenance covenant."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Cash Waterfall & Dividend Lock-Up",
+      "covenant_terms": "Distributions permitted strictly after DSRA funding and DSCR lock-up test."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Project indenture cross-default & event-of-default waterfall triggers."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Energean Israel Finance Credit Facilities (RCF Undisclosed)",

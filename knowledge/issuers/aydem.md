@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/aydem.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - AYDEM $550m Green Bond due 2030 (Refinanced late-25): price 96.5, YTM 8.95%, spread 455bp (as of 2026-11-26).
 - Rating as recorded: B Stable (Fitch, 2026).

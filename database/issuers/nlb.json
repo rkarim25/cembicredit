@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "id": "nlb",
+    "name": "NLB Group (Nova Ljubljanska Banka d.d.)",
+    "ticker": "NLB",
+    "country": "Slovenia",
+    "region": "CEE",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "A2 Stable (Moody's) / BBB+ Positive (S&P)",
+    "tier": "A",
+    "benchmark_bond": "NLB \u20ac350m 7.40% AT1 (Nov-26, XS3565258764) & Sr Notes (XS2972971399)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "NLB_Group_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-81e1-8f9f-cb77b4166fb9",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/NLB_Group_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "bank",
+    "financials_currency": "EUR",
+    "provenance": "NLB Group FY25 Annual Report, H126 LSE Release & Nov-26 \u20ac350m AT1 Filing, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "EUR",
+      "source": "NLB Group FY25 Audited Annual Report (LJSE/LSE Filing), read 28-Nov-26",
+      "net_profit": 503.1,
+      "cet1_pct": 15.2,
+      "car_pct": 18.8,
+      "npl_pct": 2.1,
+      "observations": {
+        "notes": "FY25 PAT \u20ac503.1m (3rd consecutive >\u20ac500m year), low 29 bps CoR, \u20ac276.8m dividends (55% payout); \u20ac300m 6.50% AT1 (XS3227899989) issued Nov-25."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "EUR",
+      "source": "NLB Group Q2/H1 2026 Release & Nov-26 AT1 Filing, read 28-Nov-26",
+      "net_profit": 265.0,
+      "cet1_pct": 15.0,
+      "car_pct": 19.5,
+      "npl_pct": 2.1,
+      "observations": {
+        "notes": "Q226 net profit \u20ac133.1m with ~10%+ loan growth; S&P revised outlook to Positive (Jun-26, BBB+), Moody's upgraded to A2 (Mar-26); placed \u20ac350m 7.40% AT1 (XS3565258764) on 17-Nov-26."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "NLB \u20ac350m 7.40% Perpetual NC5 AT1 Notes (Nov-26)",
+      "instrument_type": "Additional Tier 1 Perpetual",
+      "currency": "EUR",
+      "amount_outstanding_usd_m": 378.0,
+      "coupon": "7.400%",
+      "maturity": "Perpetual",
+      "seniority": "Subordinated AT1",
+      "governing_law": "English / Slovenian",
+      "isin": "XS3565258764"
+    },
+    {
+      "tranche_name": "NLB \u20ac300m 6.50% Perpetual NC5 AT1 Notes (Nov-25)",
+      "instrument_type": "Additional Tier 1 Perpetual",
+      "currency": "EUR",
+      "amount_outstanding_usd_m": 324.0,
+      "coupon": "6.500%",
+      "maturity": "Perpetual",
+      "seniority": "Subordinated AT1",
+      "governing_law": "English / Slovenian",
+      "isin": "XS3227899989"
+    },
+    {
+      "tranche_name": "NLB Senior Preferred / SNP Benchmark Notes",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "EUR",
+      "amount_outstanding_usd_m": 1080.0,
+      "coupon": "Fixed",
+      "maturity": "2028-2031",
+      "seniority": "Senior Preferred / SNP",
+      "governing_law": "English",
+      "isin": "XS2972971399"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 540.0,
+    "2029": 540.0,
+    "2030_plus": 702.0,
+    "total_outstanding_usd_m": 1782.0,
+    "source": "NLB Nov-26 \u20ac350m 7.40% AT1 (XS3565258764), Nov-25 \u20ac300m 6.50% AT1 (XS3227899989), and EUR senior benchmark notes (XS2972971399)."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Overweight / Rising-Quality SEE Banking Champion Post-Nov-26 AT1 (A2 / BBB+ Pos)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "NLB Group (Slovenia & Western Balkans leader) achieved \u20ac503.1m FY25 PAT (29 bps CoR) and ~10%+ loan growth in 2026, prompting Moody's upgrade to A2 (Mar-26) and S&P Positive outlook on BBB+ (Jun-26). Its 17-Nov-26 \u20ac350m 7.40% AT1 issuance (XS3565258764) strengthens Total Capital & ALAC buffers for regional M&A and organic growth."
+    },
+    "positives": [
+      "Upgraded by Moody's to A2 (Mar-26) and placed on Positive outlook by S&P at BBB+ (Jun-26).",
+      "Consistent >\u20ac500m annual earnings power with low 29 bps FY25 cost of risk and ~2.1% NPLs.",
+      "Deep ALAC/MREL & AT1 buffers reinforced by \u20ac350m 7.40% AT1 (Nov-26) and \u20ac300m 6.50% AT1 (Nov-25)."
+    ],
+    "negatives": [
+      "55% dividend payout ratio (\u20ac276.8m) plus bolt-on M&A appetite across SEE consumes organic CET1.",
+      "ECB rate cuts pressure floating-rate NII margins across Slovenia and Croatia/Serbia.",
+      "Higher coupon cost (7.40% vs 6.50%) on Nov-26 AT1 tranche."
+    ],
+    "background": {
+      "business_overview": "Slovenia's largest banking group with leading market shares across Serbia, North Macedonia, Bosnia, Montenegro, and Kosovo.",
+      "asset_perimeter": "NLB d.d. (Slovenia), NLB Komercijalna banka (Serbia), NLB Banka Skopje/Sarajevo/Podgorica.",
+      "ownership_governance": "Republic of Slovenia (25%+1), free float listed on LJSE (NLBR) & LSE GDRs (NLB)."
+    },
+    "recent_drivers": [
+      "17-Nov-26: Issued \u20ac350m 7.40% Perpetual NC5 AT1 notes (XS3565258764).",
+      "2026 Upgrades: Moody's upgraded issuer rating to A2 (Mar-26); S&P revised BBB+ to Positive (Jun-26); Q226 PAT \u20ac133.1m."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-20",
+        "event": "FY2026 Full-Year Results & 2027 Guidance",
+        "impact": "Verifies >\u20ac500m PAT sustainability and ALAC ratios."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "S&P Potential Upgrade Review to A-",
+        "impact": "Tracks bail-inable buffer build post-AT1."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Loan Growth & Capital Buffers",
+      "management_target": "High single-digit/10% loan growth; 50%-60% payout",
+      "current_runrate": "FY25 PAT \u20ac503.1m; Nov-26 \u20ac350m AT1 placed",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Loan growth ~10%+ outperforming initial guidance.",
+      "last_guided_source": "NLB H126 / Nov-26 AT1",
+      "last_verified_period": "H126"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Full-Year Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.nlbgroup.com/int-en/investor-relations",
+    "days_to_earnings": 84
+  },
+  "management_questions": [
+    {
+      "question": "Confirm proforma Total CAR and CET1 post-17-Nov-26 \u20ac350m 7.40% AT1 issuance.",
+      "focus_area": "Capital Buffers",
+      "relevance": "Tests S&P ALAC upgrade threshold."
+    },
+    {
+      "question": "Detail NII sensitivity to ECB policy rate cuts across Slovenian vs Serbian books.",
+      "focus_area": "NIM",
+      "relevance": "Drives 2027 earnings."
+    },
+    {
+      "question": "Update M&A pipeline in Croatia / Western Balkans.",
+      "focus_area": "Capital Deployment",
+      "relevance": "Monitors CET1 buffer usage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "nlb",
+      "sector": "Banks",
+      "topic": "17-Nov-26 \u20ac350m 7.40% AT1 (XS3565258764) & Moody's A2",
+      "source": "NLB Group FY25 Annual Report, H126 LSE Release & Nov-26 \u20ac350m AT1 Filing, read 28-Nov-26",
+      "note": "Nov-26 \u20ac350m 7.40% AT1 (XS3565258764); Moody's A2 (Mar-26), S&P BBB+ Pos (Jun-26); FY25 PAT \u20ac503.1m."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 Nov-26 \u20ac350m AT1 Issuance & A2/BBB+ Pos Profile",
+      "source": "NLB Group FY25 Annual Report, H126 LSE Release & Nov-26 \u20ac350m AT1 Filing, read 28-Nov-26",
+      "summary": "Added NLB Group (A2/BBB+ Pos): FY25 PAT \u20ac503.1m, 17-Nov-26 \u20ac350m 7.40% AT1 (XS3565258764)."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "A2 Stable (Moody's) / BBB+ Positive (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "covenant_analysis": {
+    "capital_adequacy_covenant": {
+      "covenant_type": "Total Capital Adequacy Ratio (CAR)",
+      "covenant_threshold": "Central Bank Regulatory Minimum (Basel III)",
+      "actual_current": "~19.5% (Post-AT1)",
+      "headroom": "Maintains solid buffer above domestic supervisory minimums",
+      "status": "Compliant (Filings)"
+    },
+    "cet1_ratio_covenant": {
+      "covenant_type": "Common Equity Tier 1 (CET1) Ratio",
+      "covenant_threshold": "Basel III Minimum + Conservation/D-SIB Buffer",
+      "actual_current": "~15.0%",
+      "headroom": "Adequate loss-absorbing CET1 buffer above AT1/T2 triggers",
+      "status": "Compliant (Filings)"
+    },
+    "liquidity_coverage_covenant": {
+      "covenant_type": "Liquidity Coverage Ratio (LCR)",
+      "covenant_threshold": "min 100.0%",
+      "actual_current": ">130% (Compliant)",
+      "headroom": "Strong HQLA and deposit funding liquidity cushion",
+      "status": "Compliant"
+    },
+    "large_exposure_limit": {
+      "covenant_type": "Single Obligor / Large Exposure Limit",
+      "covenant_threshold": "max 25.0% Tier 1",
+      "actual_current": "Compliant",
+      "headroom": "Regulated under central bank prudential limits",
+      "status": "Compliant"
+    },
+    "cross_default_threshold": "Standard EMTN / AT1 / Tier 2 regulatory non-viability & resolution terms."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "NLB Group (Nova Ljubljanska Banka d.d.) Wholesale Repo & Syndicated Funding Facilities",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Per EMTN / Syndicated Term Facility Docs",
+    "undrawn_commitment_fee": "N/A (Bank Funding)",
+    "maturity": "Revolving / Multi-year",
+    "syndicate_banks": "International & Regional Interbank Lenders",
+    "rcf_financial_covenants": "CAR, CET1, LCR and Central Bank prudential liquidity compliance."
+  }
+}

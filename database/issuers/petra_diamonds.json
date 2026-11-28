@@ -14,9 +14,9 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Petra_Diamonds_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-818d-bf78-cb31d040e202",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Petra_Diamonds_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-28",
     "model_type": "corp",
     "financials_currency": "USD",
     "provenance": "financials built 25-Nov-26 from Petra Diamonds FY25/FY26 Reports, S&P SD Action (Jul-26) & Nov-26 LSE Suspension; quotes await [BBG]",
@@ -80,7 +80,7 @@
     "source": "$228m 2L notes extended to Mar-30 + ~$94m RCF/other debt implied by $322m consolidated net debt; senior interest deferred to Jan-27."
   },
   "credit_view": {
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-28",
     "verdict": {
       "stance": "Distressed / Nov-26 LSE Share Suspension, CEO Exit & $20m Offtake Lifeline",
       "target_price": null,
@@ -105,6 +105,7 @@
       "ownership_governance": "LSE listed (PDL, trading suspended Nov-26)."
     },
     "recent_drivers": [
+      "Nov-26: CEO Vivek Gadodia resigned to focus exclusively on the strategic review (including potential Cullinan mine sale) alongside $20m Cullinan advance-payment offtake, 12m lender extension, and LSE share suspension.",
       "Nov-26: LSE shares suspended on delayed FY26 accounts; CEO resigned; secured $20m Cullinan offtake & 12m senior extension.",
       "Nov-26: LSE trading suspended on delayed FY26 audit; Jun-26 net debt $322m; Finsch in business rescue.",
       "Jul-26: S&P downgraded to SD after deferring senior debt interest to Jan-2027."
@@ -151,6 +152,13 @@
     }
   ],
   "annotations": [
+    {
+      "issuer_id": "petra_diamonds",
+      "sector": "Materials",
+      "topic": "Nov-26 CEO Resignation & Cullinan Strategic Review",
+      "source": "Petra Diamonds LSE/RNS & Nov-26 Releases",
+      "note": "CEO Vivek Gadodia resigned to focus on Cullinan strategic review/sale; $20m offtake & 12m senior extension."
+    },
     {
       "issuer_id": "petra_diamonds",
       "sector": "Materials",
@@ -213,6 +221,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Lagging"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "SD (S&P, Jul-26) / LSE Suspended (Nov-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Lagging"
     }
   ],
   "recovery_analysis": {
@@ -222,9 +243,15 @@
     "recovery_base_pct": 48.0,
     "implied_stress_ev_multiple": 3.5,
     "restructuring_framework": "SA Business Rescue / English Law 2L Notes",
-    "thesis": "Cullinan standalone value minus first-lien RCF and Finsch liabilities leaves deep impairment risk on 2L notes."
+    "thesis": "In Nov-26 Petra Diamonds' LSE shares were suspended after delaying FY26 audited accounts and its CEO resigned amid Finsch business rescue proceedings. Liquidity was temporarily patched by a $20m Cullinan diamond advance-payment offtake and a 12-month senior lender extension ahead of the Jan-27 deferred interest deadline. Structural recovery anchored by South Africa materials asset perimeter and PDL 10.5%/11.5% 2L Notes Mar 2030 ($228M, XS2289895927) seniority."
   },
   "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Nov-26 Strategic Review Update (CEO Resignation & Cullinan Offtake)",
+      "source": "Petra Diamonds LSE/RNS & Nov-26 Releases",
+      "summary": "CEO Vivek Gadodia stepped down to lead strategic review / Cullinan asset sale options after securing $20m offtake advance and 12-month senior extension."
+    },
     {
       "date": "2026-11-26",
       "title": "Petra Diamonds \u2014 Verified Filings & Credit Profile",
@@ -234,35 +261,35 @@
   ],
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "9.67x",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
-      "status": "Compliant (Filings)"
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with SD (S&P, Jul-26) / LSE Suspended (Nov-26)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
+      "status": "Watch / Compliant"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard Distressed Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Petra Diamonds Credit Facilities (RCF Undisclosed)",

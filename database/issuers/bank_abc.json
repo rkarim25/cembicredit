@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "id": "bank_abc",
+    "name": "Bank ABC (Arab Banking Corporation)",
+    "ticker": "ABC",
+    "country": "Bahrain",
+    "region": "GCC",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BBB- Stable (S&P)",
+    "tier": "BBB",
+    "benchmark_bond": "Bank ABC $400m AT1 Perpetual & GMTN Senior Notes",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Bank_ABC_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-811c-95ef-e6e9197e42d9",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bank_ABC_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "bank",
+    "financials_currency": "USD",
+    "provenance": "Bank ABC FY25 Audited Financial Statements & Q3/9M 2026 Bahrain Bourse Filing, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "Bank ABC FY25 Audited Financial Statements (Bahrain Bourse Filing), read 28-Nov-26",
+      "cet1_pct": 13.7,
+      "car_pct": 16.0,
+      "npl_pct": 3.3,
+      "observations": {
+        "notes": "FY25 CET1 13.7%, Total CAR 16.0%, Stage 3 NPL ~3.3%."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "USD",
+      "source": "Bank ABC Q3/9M 2026 Financial Release (Bahrain Bourse Filing), read 28-Nov-26",
+      "total_income": 1030.0,
+      "net_profit": 204.0,
+      "assets": 48500.0,
+      "cet1_pct": 13.3,
+      "car_pct": 16.7,
+      "npl_pct": 3.3,
+      "observations": {
+        "notes": "9M26 net profit attributable $204m, total operating income >$1,030m, total assets ~$48.5bn; Q326 CET1 13.3%, Total CAR 16.7%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Bank ABC $400m Subordinated AT1 Perpetual Notes",
+      "instrument_type": "Additional Tier 1 Perpetual",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 400.0,
+      "coupon": "Perpetual Reset",
+      "maturity": "Perpetual",
+      "seniority": "Subordinated AT1",
+      "governing_law": "English"
+    },
+    {
+      "tranche_name": "Bank ABC Senior GMTN & Wholesale Facilities",
+      "instrument_type": "Senior Unsecured EMTN",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 1500.0,
+      "coupon": "Fixed / SOFR+",
+      "maturity": "2028-2030",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 400.0,
+    "2028": 500.0,
+    "2029": 400.0,
+    "2030_plus": 600.0,
+    "total_outstanding_usd_m": 1900.0,
+    "source": "Bank ABC $400m AT1 perpetual & senior wholesale EMTN funding profile."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Neutral / Pan-MENA Wholesale Bank Anchored by CBL & KIA Ownership (BBB-)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Bank ABC is Bahrain's flagship wholesale banking group ($48.5bn assets, >$1.03bn 9M26 operating income, $204m 9M26 net profit) backed by Central Bank of Libya (59.4%) and Kuwait Investment Authority (29.7%). Solid Q326 capitalization (CAR 16.7%, CET1 13.3%) balances sovereign-exposure volatility in Egypt, Brazil, and Jordan."
+    },
+    "positives": [
+      "Scale wholesale franchise ($48.5bn assets) with diversified MENA, Brazil (Banco ABC Brasil), and Europe revenue.",
+      "Capitalization strengthened to 16.7% Total CAR (13.3% CET1) at Q326 vs 16.0% at YE25.",
+      "S&P BBB- Stable rating underpinned by conservative ECL provisioning and KIA minority backing."
+    ],
+    "negatives": [
+      "Wholesale-funded liability structure with higher sensitivity to global USD funding spreads than retail peers.",
+      "Majority 59.4% ownership by Central Bank of Libya constrains rating uplift and governance optics.",
+      "Operating footprint includes EM markets with FX/inflation volatility (Egypt, Brazil, Tunisia)."
+    ],
+    "background": {
+      "business_overview": "MENA international wholesale, trade finance, treasury, and retail bank (ila Bank / Bank ABC Egypt).",
+      "asset_perimeter": "$48.5bn assets across Bahrain, UK, Brazil, Egypt, Jordan, Tunisia, Algeria.",
+      "ownership_governance": "Central Bank of Libya (59.4%), Kuwait Investment Authority (29.7%), public float."
+    },
+    "recent_drivers": [
+      "9M26: Net profit $204m, total operating income >$1.03bn, total assets ~$48.5bn.",
+      "Q326 Capital: Total CAR rose to 16.7% (from 16.0% YE25), CET1 13.3%; S&P BBB- Stable."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-20",
+        "event": "FY2026 Full-Year Results",
+        "impact": "Tests Banco ABC Brasil & Egypt earnings contribution."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "S&P Annual Bahrain Wholesale Bank Review",
+        "impact": "Monitors CAR >16% and Stage 3 NPLs."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Capital & Earnings Growth",
+      "management_target": "CAR >15.5%; Operating Income >$1.35bn",
+      "current_runrate": "Q326 CAR 16.7%; 9M26 income >$1.03bn",
+      "tracking_status": "On Track",
+      "variance_analysis": "Solid wholesale & Brazilian subsidiary contributions.",
+      "last_guided_source": "Bank ABC 9M26 Release",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-20",
+    "period_reporting": "FY 2026 Financial Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.bank-abc.com/en/about-us/investor-relations",
+    "days_to_earnings": 84
+  },
+  "management_questions": [
+    {
+      "question": "Confirm Banco ABC Brasil and Bank ABC Egypt dividend upstreaming capacity and FX translation impact.",
+      "focus_area": "Geographic Mix",
+      "relevance": "Key drivers of HoldCo cash."
+    },
+    {
+      "question": "Detail Stage 3 NPL breakdown and sovereign bond holdings in Egypt/Tunisia.",
+      "focus_area": "Asset Quality",
+      "relevance": "Tests ECL buffer adequacy."
+    },
+    {
+      "question": "Outline 2027 GMTN senior and AT1 call/refinancing plans.",
+      "focus_area": "Funding",
+      "relevance": "Drives spread supply."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "bank_abc",
+      "sector": "Banks",
+      "topic": "9M26 Profit $204m, Assets $48.5bn & CAR 16.7%",
+      "source": "Bank ABC FY25 Audited Financial Statements & Q3/9M 2026 Bahrain Bourse Filing, read 28-Nov-26",
+      "note": "9M26 profit $204m, operating income >$1.03bn, assets $48.5bn; Q326 CAR 16.7% (CET1 13.3%), NPL ~3.3%; S&P BBB- Stable."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 FY25/9M26 Bahrain Bourse Results & AT1 Curve",
+      "source": "Bank ABC FY25 Audited Financial Statements & Q3/9M 2026 Bahrain Bourse Filing, read 28-Nov-26",
+      "summary": "Added Bank ABC (BBB-): 9M26 net profit $204m, assets $48.5bn, CAR 16.7%, CET1 13.3%."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB- Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "covenant_analysis": {
+    "capital_adequacy_covenant": {
+      "covenant_type": "Total Capital Adequacy Ratio (CAR)",
+      "covenant_threshold": "Central Bank Regulatory Minimum (Basel III)",
+      "actual_current": "16.7% (Q326)",
+      "headroom": "Maintains solid buffer above domestic supervisory minimums",
+      "status": "Compliant (Filings)"
+    },
+    "cet1_ratio_covenant": {
+      "covenant_type": "Common Equity Tier 1 (CET1) Ratio",
+      "covenant_threshold": "Basel III Minimum + Conservation/D-SIB Buffer",
+      "actual_current": "13.3% (Q326)",
+      "headroom": "Adequate loss-absorbing CET1 buffer above AT1/T2 triggers",
+      "status": "Compliant (Filings)"
+    },
+    "liquidity_coverage_covenant": {
+      "covenant_type": "Liquidity Coverage Ratio (LCR)",
+      "covenant_threshold": "min 100.0%",
+      "actual_current": ">130% (Compliant)",
+      "headroom": "Strong HQLA and deposit funding liquidity cushion",
+      "status": "Compliant"
+    },
+    "large_exposure_limit": {
+      "covenant_type": "Single Obligor / Large Exposure Limit",
+      "covenant_threshold": "max 25.0% Tier 1",
+      "actual_current": "Compliant",
+      "headroom": "Regulated under central bank prudential limits",
+      "status": "Compliant"
+    },
+    "cross_default_threshold": "Standard EMTN / AT1 / Tier 2 regulatory non-viability & resolution terms."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Bank ABC (Arab Banking Corporation) Wholesale Repo & Syndicated Funding Facilities",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Per EMTN / Syndicated Term Facility Docs",
+    "undrawn_commitment_fee": "N/A (Bank Funding)",
+    "maturity": "Revolving / Multi-year",
+    "syndicate_banks": "International & Regional Interbank Lenders",
+    "rcf_financial_covenants": "CAR, CET1, LCR and Central Bank prudential liquidity compliance."
+  }
+}

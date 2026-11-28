@@ -72,7 +72,7 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "\u0130zmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
+    "thesis": "Fitch affirmed GDZ Elektrik and its $519m 9.00% Oct-29 notes at BB- Stable in Nov-26. Under EMRA's supportive 2026-2030 framework (13.49% real WACC), Fitch expects ~8% annual USD EBITDA growth and FFO net leverage <=3.0x with zero dividends through 2030, despite -$80m/yr FCF from $250m/yr grid capex. Structural recovery anchored by Turkey utilities asset perimeter and GDZTR 9.00% Oct 2029 ($519m) seniority."
   },
   "annotations": [
     {
@@ -1005,6 +1005,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- Stable (Fitch, Nov-26) / B2 (Moody's)",
+      "price": 98.2,
+      "ytm": 9.1,
+      "spread_bp": 470,
+      "net_leverage": 3.1,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB- Stable (Fitch, Nov-26) / B2 (Moody's)",
       "price": 98.2,
       "ytm": 9.1,

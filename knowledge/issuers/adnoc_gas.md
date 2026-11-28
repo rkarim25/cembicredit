@@ -4,7 +4,7 @@ _Page created 26-Nov-26 from `database/issuers/adnoc_gas.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: AA- / Aa2 (Implied Abu Dhabi GRE).
 

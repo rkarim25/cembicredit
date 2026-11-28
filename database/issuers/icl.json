@@ -16,30 +16,36 @@
     "model_file": "ICL_Group_Ltd_Credit_Model.xlsx",
     "notion_id": "4251d0ad68c681e7b3befd99a930df69",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ICL_Group_Ltd_Credit_Model.xlsx",
-    "last_updated": "2026-11-27",
+    "last_updated": "2026-11-28",
     "model_type": "corp",
     "financials_currency": "USD",
-    "provenance": "financials built 27-Nov-26 from ICL Group FY25 20-F & Q326 Earnings Release (SEC/NYSE); quotes await [BBG]"
+    "provenance": "financials built 28-Nov-26 from ICL Group FY25 Audited Form 20-F Filing & Q326 Earnings Release; quotes await [BBG]"
   },
   "financials_multi_year": [
     {
       "period": "2025A",
       "is_audited": true,
       "currency": "USD",
-      "source": "ICL Group FY25 Form 20-F (SEC), read 27-Nov-26",
+      "source": "ICL Group FY25 Audited Form 20-F (SEC Filing), read 28-Nov-26",
       "revenue": 7150.0,
       "ebitda": 1488.0,
       "calculated_ebitda": 1488.0,
       "gross_debt": 3300.0,
       "observations": {
-        "notes": "FY25 consolidated sales $7.15bn, Adjusted EBITDA $1,488m (20.8% margin), financial debt ~$3.3bn."
-      }
+        "notes": "FY25 sales $7.15bn, Adjusted EBITDA $1,488m (20.8% margin), CFO $1,056m, cash capex $764m, Adjusted FCF ~$700m, gross debt ~$3.3bn, net debt $2,488m (1.67x; $2,635m incl. securitization)."
+      },
+      "cfo": 1056.0,
+      "capex": 764.0,
+      "fcf": 700.0,
+      "net_debt": 2488.0,
+      "cash": 812.0,
+      "net_leverage": 1.67
     },
     {
       "period": "9M26",
       "is_audited": false,
       "currency": "USD",
-      "source": "ICL Group Q326 Earnings Release, read 27-Nov-26",
+      "source": "ICL Group Q326 Interim Financial Statements & Earnings Release (SEC Filing), read 28-Nov-26",
       "revenue": 1910.0,
       "ebitda": 402.0,
       "gross_debt": 3300.0,
@@ -82,7 +88,7 @@
     "source": "ICL Group ~$3.3bn total debt incl. $693.1m 2038s (IL0028103310), $800m 2036s (IL0012431792), and 2030 RCF."
   },
   "credit_view": {
-    "last_updated": "2026-11-27",
+    "last_updated": "2026-11-28",
     "verdict": {
       "stance": "Neutral / BBB-/Baa3 Dead Sea Potash & Specialty Chemicals Producer",
       "target_price": null,
@@ -107,7 +113,8 @@
       "ownership_governance": "Israel Corp (~43% shareholder), listed on NYSE/TASE (ICL)."
     },
     "recent_drivers": [
-      "Q326: Sales $1.91bn, Adjusted EBITDA $402m; FY26 full-year Adjusted EBITDA guidance reiterated at $1.4bn-$1.6bn."
+      "Q326: Sales $1.91bn, Adjusted EBITDA $402m; FY26 full-year Adjusted EBITDA guidance reiterated at $1.4bn-$1.6bn.",
+      "FY25 Audited 20-F: CFO $1,056m, cash capex $764m, Adj FCF ~$700m, net debt $2,488m; $497m/$1,550m RCF drawn."
     ],
     "catalysts": [
       {
@@ -162,6 +169,13 @@
     {
       "issuer_id": "icl",
       "sector": "Materials",
+      "topic": "FY25 FCF $700m, Net Debt $2,488m & $1.55bn RCF",
+      "source": "ICL Group FY25 Audited Form 20-F (SEC Filing)",
+      "note": "FY25 CFO $1,056m, capex $764m, Adj FCF $700m, net debt $2,488m; $1,550m RCF ($497m drawn) + $350m securitization."
+    },
+    {
+      "issuer_id": "icl",
+      "sector": "Materials",
       "topic": "Q326 Results ($402m EBITDA) & 2036/2038 Bond Curve",
       "source": "ICL Group SEC/NYSE (2026)",
       "note": "FY25 revenue $7.15bn, Adj EBITDA $1.49bn; Q326 $1.91bn / $402m; FY26 guidance $1.4bn-$1.6bn; IL0028103310 & IL0012431792."
@@ -169,8 +183,14 @@
   ],
   "historical_notes": [
     {
+      "date": "2026-11-28",
+      "title": "FY25 Form 20-F Cash Flow & $1.55bn RCF Enrichment",
+      "source": "ICL Group FY25 Audited Form 20-F (SEC Filing)",
+      "summary": "Added FY25 CFO $1,056m, capex $764m, Adj FCF $700m, net debt $2,488m, and $1,550m SL-RCF ($497m drawn); upgraded to Filings provenance."
+    },
+    {
       "date": "2026-11-27",
-      "title": "Initiation — FY25/Q326 Financials & 2036/2038 Notes",
+      "title": "Initiation \u2014 FY25/Q326 Financials & 2036/2038 Notes",
       "source": "ICL Group SEC 20-F / Q326",
       "summary": "Initiated ICL Group (BBB-/Baa3): FY25 Adj EBITDA $1.49bn, Q326 $402m, 2036 & 2038 senior note ISINs."
     }
@@ -188,6 +208,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB- (S&P) / Baa3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -195,22 +228,22 @@
     "base_case_px": null,
     "recovery_floor_pct": null,
     "recovery_base_pct": null,
-    "implied_stress_ev_multiple": "n/a",
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Israel Insolvency & Restructuring Framework",
     "thesis": "ICL Group is a global leader in bromine, potash, and specialty phosphates backed by the low-cost Dead Sea concession ($7.15bn FY25 sales, $1.49bn Adj EBITDA; FY26 guidance $1.4bn-$1.6bn). Leverage remains manageable (~2.0x gross), though Dead Sea concession renewal terms ahead of 2030 remain a key medium-term credit overhang."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
       "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "~2.2x Gross (FY25)",
+      "covenant_threshold": "RCF Maintenance Net Leverage <= 3.5x & Min Interest Cover",
+      "actual_current": "1.67x Net Debt/EBITDA (FY25)",
       "headroom": "Bank RCF maintenance net leverage and interest coverage covenants compliant.",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
       "covenant_type": "Interest Coverage / Debt Service",
       "covenant_threshold": "Per Facility Docs",
-      "actual_current": "Strong",
+      "actual_current": "Strong (~6x+)",
       "headroom": "No breach disclosed in latest audited/interim statements.",
       "status": "Compliant"
     },
@@ -232,14 +265,14 @@
     "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
   },
   "rcf_facility_liquidity": {
-    "facility_name": "ICL Sustainability-Linked Revolving Credit Facility (due 2030)",
-    "total_committed_capacity_usd_m": 0.0,
-    "drawn_amount_usd_m": 0.0,
-    "undrawn_available_usd_m": 0.0,
+    "facility_name": "ICL $1,550m Sustainability-Linked RCF (due 2030) + $350m Securitization",
+    "total_committed_capacity_usd_m": 1550.0,
+    "drawn_amount_usd_m": 497.0,
+    "undrawn_available_usd_m": 1053.0,
     "drawn_margin": "Sustainability-linked SOFR margin",
-    "undrawn_commitment_fee": "Standard IG fee",
+    "undrawn_commitment_fee": "Standard IG commitment fee",
     "maturity": "2030",
     "syndicate_banks": "Global Relationship Banks",
-    "rcf_financial_covenants": "Committed RCF expiring 2030 provides liquidity backstop."
+    "rcf_financial_covenants": "Net Leverage & Interest Coverage maintenance tests; $497m/$1,550m RCF drawn & $325m/$350m securitization utilized at YE25."
   }
 }

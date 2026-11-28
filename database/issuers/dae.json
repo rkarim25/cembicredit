@@ -184,7 +184,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Initiation — 9M26 Results & $9bn MAF Acquisition",
+      "title": "Initiation \u2014 9M26 Results & $9bn MAF Acquisition",
       "source": "DAE FY24-FY25 / 9M26 Reports",
       "summary": "Added DAE (Baa2/BBB): 9M26 revenue $1.45bn, net debt $16.75bn (2.60x D/E), $5.6bn liquidity post-MAF."
     }
@@ -202,6 +202,19 @@
       "ebitda": 1272.7,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "Baa2 (Moody's) / BBB (Fitch) / BBB- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 1272.7,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -209,41 +222,41 @@
     "base_case_px": null,
     "recovery_floor_pct": null,
     "recovery_base_pct": null,
-    "implied_stress_ev_multiple": "n/a",
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "UAE Insolvency & Restructuring Framework",
     "thesis": "Dubai sovereign-owned (ICD) DAE doubled its fleet to ~1,000 aircraft via the $9.0bn acquisition of Macquarie AirFinance in July 2026. Net loans rose to $16.75bn, but net debt/equity remained disciplined at 2.60x with $5.6bn available liquidity and 88.3% unsecured funding."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "2.60x Net Debt/Equity (9M26)",
-      "headroom": "Unsecured aircraft lessor covenants: unencumbered asset coverage & max secured debt basket.",
+      "covenant_type": "IG EMTN / 144A Indenture & Bank Financial Policy",
+      "covenant_threshold": "Negative Pledge + Cross-Default (IG BBB Financial Policy)",
+      "actual_current": "Consistent with Baa2 (Moody's) / BBB (Fitch) / BBB- (S&P)",
+      "headroom": "No maintenance breach; sovereign/parent support or IG balance sheet",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
       "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_threshold": "IG Bank Facility Maintenance (>3.0x-4.0x)",
+      "actual_current": "Strong IG Coverage",
+      "headroom": "Ample EBITDA & cash interest buffer",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
       "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "covenant_threshold": "EMTN / 144A Negative Pledge (Permitted Liens <=10%-15% NTA)",
       "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "headroom": "Pari passu senior unsecured ranking",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "CoC Put if Dubai government/ICD ownership drops below 50% + downgrade."
+      "covenant_type": "Change of Control / State Ownership Put",
+      "covenant_terms": "CoC Put at 100%-101% on rating downgrade or sovereign control fall-away where applicable."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Dividend Policy / Financial Guardrails",
+      "covenant_terms": "IG financial policy commitments govern shareholder distributions."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard EMTN / 144A cross-default ($50m-$100m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "DAE Committed Unsecured RCFs & Available Liquidity",

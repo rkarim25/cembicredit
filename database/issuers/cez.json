@@ -77,9 +77,9 @@
     "base_case_px": 100.5,
     "recovery_floor_pct": 88,
     "recovery_base_pct": 100.5,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Czech Republic Commercial & Bankruptcy Code",
-    "thesis": "Czech integrated utility powerhouse; Temel\u00edn and Dukovany nuclear generation guarantees low-cost baseload."
+    "thesis": "\u010cEZ 9M26 net income jumped 24% YoY to CZK 26.6bn on the expiry of the Czech windfall tax even as EBITDA eased 17% to CZK 86.1bn on lower power realizations; net debt rose 14% YTD to CZK 236bn (2.0x vs 1.5x prior year) on transition capex. Structural recovery anchored by Czech Republic utilities asset perimeter and CEZ 4.875% 2028 seniority."
   },
   "annotations": [
     {
@@ -1013,6 +1013,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A- / A3",
+      "price": 99.8,
+      "ytm": 4.95,
+      "spread_bp": 90,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A- / A3",
       "price": 99.8,
       "ytm": 4.95,

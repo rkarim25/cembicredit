@@ -71,7 +71,7 @@
     "recovery_base_pct": 98.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Commercial truck parts exporter; >85% EUR/USD revenue; 40-50% price advantage over European OEMs."
+    "thesis": "Sampa scaled ISO 500 revenue past TRY 11.5bn in FY25 (after TRY 7.6bn rev / TRY 1.01bn EBITDA in FY24) across 17 factories and issued \u20ac300m 9.50% Jul-31 senior secured Nordic notes (NO0013757195) in Jul-26. Export focus cushions TRY depreciation, though consolidated audited IFRS balance sheet transparency lags listed peers. Structural recovery anchored by Turkey consumer asset perimeter and SAMPA 9.50% Jul 2031 (\u20ac300m Senior Secured, NO0013757195) seniority."
   },
   "annotations": [
     {
@@ -965,6 +965,19 @@
       "ebitda": 1010.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "B / B2 Implied (Unrated Publicly)",
+      "price": 97.5,
+      "ytm": 10.4,
+      "spread_bp": 600,
+      "net_leverage": null,
+      "ebitda": 1010.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1077,7 +1090,8 @@
       "ownership_governance": "Privately owned Turkish industrial exporter; Eurobond issued via Sampa Finance and Investment B.V."
     },
     "recent_drivers": [
-      "Jun-26: Issued oversubscribed EUR 300m 5-year senior secured bond (maturing Jun 2031) for debt refinancing and new plant capex."
+      "Jun-26: Issued oversubscribed EUR 300m 5-year senior secured bond (maturing Jun 2031) for debt refinancing and new plant capex.",
+      "2024A: FY24 ISO 500 statutory net sales ~TRY 7.6bn, EBITDA ~TRY 1.01bn, net income ~TRY 809m."
     ],
     "catalysts": [
       {

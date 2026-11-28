@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "CIB_Egypt_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-812a-a337-dc708f28fc4f",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CIB_Egypt_Credit_Model.xlsx",
     "last_updated": "2026-11-23",
     "model_type": "bank",
@@ -104,7 +104,8 @@
       "ownership_governance": "Institutional free float + ADQ (~18.6% stake); best-in-class Egyptian corporate governance."
     },
     "recent_drivers": [
-      "9M26 (EGX): Revenue EGP 103bn (NII +19% YoY), NPAT EGP 63.1bn (+18% normalized YoY), NPL 1.47% (343% cov), CET1 25.3%, CAR 28.8%; lifted FY26 deposit growth guidance to ~30%."
+      "9M26 (EGX): Revenue EGP 103bn (NII +19% YoY), NPAT EGP 63.1bn (+18% normalized YoY), NPL 1.47% (343% cov), CET1 25.3%, CAR 28.8%; lifted FY26 deposit growth guidance to ~30%.",
+      "2025A: FY25 assets EGP 1.44tn (vs 1.21tn FY24), gross loans EGP 576bn (+44% YoY), deposits EGP 1.11tn (+14% YoY), revenue EGP 117bn (+19% YoY), NPAT EGP 82.25bn (+49% YoY), NPL 1.67% (358% coverage), Total CAR 27.3%."
     ],
     "catalysts": [
       {
@@ -202,6 +203,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B Stable (Fitch)",
       "price": null,
       "ytm": null,

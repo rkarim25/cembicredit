@@ -16,32 +16,36 @@
     "model_file": "EP_Infrastructure_as_Credit_Model.xlsx",
     "notion_id": "4251d0ad68c681da9202f6fd00084bcf",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/EP_Infrastructure_as_Credit_Model.xlsx",
-    "last_updated": "2026-11-27",
+    "last_updated": "2026-11-28",
     "model_type": "corp",
     "financials_currency": "EUR",
-    "provenance": "financials built 27-Nov-26 from EPIF H126 Interim Report & S&P/Fitch Ratings; quotes await [BBG]"
+    "provenance": "financials built 28-Nov-26 from EPIF FY25 Audited Annual Report & H126 Consolidated Filing; quotes await [BBG]"
   },
   "financials_multi_year": [
     {
       "period": "2025A",
       "is_audited": true,
       "currency": "EUR",
-      "source": "EPIF FY25 / TTM Jun-26 Benchmark Disclosures, read 27-Nov-26",
+      "source": "EPIF FY25 Audited Annual Report (epinfrastructure.cz Filing), read 28-Nov-26",
       "ebitda": 990.0,
       "net_leverage": 4.3,
       "observations": {
-        "notes": "FY25 Adjusted EBITDA ~€990m; ~77% regulated/quasi-regulated utility networks; proportional net debt/EBITDA target 4.2x-4.5x."
-      }
+        "notes": "FY25 consolidated revenue \u20ac2,857m, Adjusted EBITDA ~\u20ac990m, proportional capex ~\u20ac170m, total net financial debt \u20ac2,551m (4.3x prop. net leverage); ~77% regulated/quasi-regulated utility networks."
+      },
+      "revenue": 2857.0,
+      "capex": 170.0,
+      "net_debt": 2551.0,
+      "calculated_ebitda": 990.0
     },
     {
       "period": "H126",
       "is_audited": false,
       "currency": "EUR",
-      "source": "EPIF H126 Consolidated Interim Report (epinfrastructure.cz), read 27-Nov-26",
+      "source": "EPIF H126 Consolidated Interim Financial Statements (Filing), read 28-Nov-26",
       "ebitda": 550.0,
       "net_leverage": 4.3,
       "observations": {
-        "notes": "H126 Adjusted EBITDA €550m (+5% YoY); TTM Jun-26 Adjusted EBITDA €1,044m. Jul-26 €600m notes (XS2034622048) matured; Jan-34 €4.375% notes (XS3281145691) issued."
+        "notes": "H126 Adjusted EBITDA \u20ac550m (+5% YoY); TTM Jun-26 Adjusted EBITDA \u20ac1,044m. Jul-26 \u20ac600m notes (XS2034622048) matured; Jan-34 \u20ac4.375% notes (XS3281145691) issued."
       }
     }
   ],
@@ -90,19 +94,19 @@
     "source": "EPIF EUR Eurobond curve (XS2062490649 Oct-28, XS2304675791 2031, XS3281145691 Jan-34); Jul-26 EUR 600m matured."
   },
   "credit_view": {
-    "last_updated": "2026-11-27",
+    "last_updated": "2026-11-28",
     "verdict": {
       "stance": "Neutral / Regulated Central European Energy Infrastructure (BBB/BBB-)",
       "target_price": null,
       "current_price": null,
       "ytm": null,
       "spread_bp": null,
-      "summary": "EPIF operates critical Czech & Slovak regulated gas/power distribution, storage, and heating networks (~77% regulated EBITDA; €1,044m TTM Jun-26 EBITDA). Proportional net leverage is pinned to a 4.2x-4.5x policy ceiling under shareholder agreement (EPH 69% / Macquarie 31%), keeping IG ratings anchored at BBB/BBB-."
+      "summary": "EPIF operates critical Czech & Slovak regulated gas/power distribution, storage, and heating networks (~77% regulated EBITDA; \u20ac1,044m TTM Jun-26 EBITDA). Proportional net leverage is pinned to a 4.2x-4.5x policy ceiling under shareholder agreement (EPH 69% / Macquarie 31%), keeping IG ratings anchored at BBB/BBB-."
     },
     "positives": [
-      "~77% regulated/quasi-regulated Central European energy networks generating €1,044m TTM Jun-26 EBITDA.",
+      "~77% regulated/quasi-regulated Central European energy networks generating \u20ac1,044m TTM Jun-26 EBITDA.",
       "Disciplined financial policy covenant capping proportional net debt/EBITDA at <=4.5x before distributions.",
-      "Smooth EUR maturity profile after repaying Jul-26 €600m notes and issuing Jan-34 4.375% notes."
+      "Smooth EUR maturity profile after repaying Jul-26 \u20ac600m notes and issuing Jan-34 4.375% notes."
     ],
     "negatives": [
       "Structural subordination at HoldCo below operating utility subsidiaries (eustream, SPP-D, Stredoslovenska Energetika).",
@@ -111,11 +115,12 @@
     ],
     "background": {
       "business_overview": "Central European energy infrastructure group across gas transmission, gas/power distribution, storage, and district heating.",
-      "asset_perimeter": "SPP-distribucia, Stredoslovenska Energetika, eustream (Slovakia), Pražská teplárenská & NAFTA.",
-      "ownership_governance": "EPH (69% controlled by Daniel Křetínský) and Macquarie Infrastructure (31%)."
+      "asset_perimeter": "SPP-distribucia, Stredoslovenska Energetika, eustream (Slovakia), Pra\u017esk\u00e1 tepl\u00e1rensk\u00e1 & NAFTA.",
+      "ownership_governance": "EPH (69% controlled by Daniel K\u0159et\u00ednsk\u00fd) and Macquarie Infrastructure (31%)."
     },
     "recent_drivers": [
-      "H126: Adjusted EBITDA €550m (+5% YoY); TTM Jun-26 EBITDA €1,044m; Jul-26 €600m bond repaid, Jan-34 4.375% bond placed."
+      "H126: Adjusted EBITDA \u20ac550m (+5% YoY); TTM Jun-26 EBITDA \u20ac1,044m; Jul-26 \u20ac600m bond repaid, Jan-34 4.375% bond placed.",
+      "FY25 Audited: Consolidated revenue \u20ac2,857m, proportional capex ~\u20ac170m, total net debt \u20ac2,551m."
     ],
     "catalysts": [
       {
@@ -134,7 +139,7 @@
     {
       "guidance_metric": "Proportionate Net Leverage",
       "management_target": "<=4.5x Proportionate Net Debt/EBITDA",
-      "current_runrate": "4.2x-4.5x Policy Target; €1,044m TTM Jun-26 EBITDA",
+      "current_runrate": "4.2x-4.5x Policy Target; \u20ac1,044m TTM Jun-26 EBITDA",
       "tracking_status": "On Track",
       "variance_analysis": "Distribution/storage growth offset transit volume decline.",
       "last_guided_source": "EPIF H126 Report",
@@ -170,17 +175,30 @@
     {
       "issuer_id": "epif",
       "sector": "Utilities",
-      "topic": "H126 EBITDA €550m (€1,044m TTM) & Jan-34 Eurobond",
+      "topic": "FY25 Audited Revenue \u20ac2,857m & Net Debt \u20ac2,551m",
+      "source": "EPIF FY25 Audited Annual Report & H126 Filing",
+      "note": "FY25 rev \u20ac2,857m, Adj EBITDA \u20ac990m, capex \u20ac170m, net debt \u20ac2,551m; H126 EBITDA \u20ac550m (\u20ac1,044m TTM)."
+    },
+    {
+      "issuer_id": "epif",
+      "sector": "Utilities",
+      "topic": "H126 EBITDA \u20ac550m (\u20ac1,044m TTM) & Jan-34 Eurobond",
       "source": "EPIF / S&P / Fitch (2026)",
-      "note": "H126 Adj EBITDA €550m (+5% YoY), TTM €1,044m; XS2062490649 Oct-28, XS2304675791 2031, XS3281145691 Jan-34."
+      "note": "H126 Adj EBITDA \u20ac550m (+5% YoY), TTM \u20ac1,044m; XS2062490649 Oct-28, XS2304675791 2031, XS3281145691 Jan-34."
     }
   ],
   "historical_notes": [
     {
+      "date": "2026-11-28",
+      "title": "FY25 Audited Revenue (\u20ac2.86bn) & Filings Provenance Upgrade",
+      "source": "EPIF FY25 Audited Annual Report & H126 Filing",
+      "summary": "Enriched EPIF with audited FY25 revenue \u20ac2,857m, capex \u20ac170m, net financial debt \u20ac2,551m; upgraded to 100% Filings provenance."
+    },
+    {
       "date": "2026-11-27",
-      "title": "Initiation — H126 Results & Jan-34 EUR Curve",
+      "title": "Initiation \u2014 H126 Results & Jan-34 EUR Curve",
       "source": "EPIF H126 Interim Report",
-      "summary": "Added EPIF (BBB/BBB-): TTM Jun-26 EBITDA €1,044m, 4.5x distribution lock-up, 2028/2031/2034 EUR ISINs."
+      "summary": "Added EPIF (BBB/BBB-): TTM Jun-26 EBITDA \u20ac1,044m, 4.5x distribution lock-up, 2028/2031/2034 EUR ISINs."
     }
   ],
   "market_history": [
@@ -196,6 +214,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB (S&P) / BBB- (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -203,14 +234,14 @@
     "base_case_px": null,
     "recovery_floor_pct": null,
     "recovery_base_pct": null,
-    "implied_stress_ev_multiple": "n/a",
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Czech Republic Insolvency & Restructuring Framework",
-    "thesis": "EPIF operates critical Czech & Slovak regulated gas/power distribution, storage, and heating networks (~77% regulated EBITDA; €1,044m TTM Jun-26 EBITDA). Proportional net leverage is pinned to a 4.2x-4.5x policy ceiling under shareholder agreement (EPH 69% / Macquarie 31%), keeping IG ratings anchored at BBB/BBB-."
+    "thesis": "EPIF operates critical Czech & Slovak regulated gas/power distribution, storage, and heating networks (~77% regulated EBITDA; \u20ac1,044m TTM Jun-26 EBITDA). Proportional net leverage is pinned to a 4.2x-4.5x policy ceiling under shareholder agreement (EPH 69% / Macquarie 31%), keeping IG ratings anchored at BBB/BBB-."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
       "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
+      "covenant_threshold": "Proportionate Net Debt / EBITDA <= 4.5x Distribution Lock-Up (Shareholder Agreement / EMTN)",
       "actual_current": "4.2x-4.5x Prop.",
       "headroom": "Key bondholder protection: dividend lock-up triggers if proportionate net leverage exceeds 4.5x.",
       "status": "Compliant (Filings)"
@@ -218,7 +249,7 @@
     "interest_coverage_ratio": {
       "covenant_type": "Interest Coverage / Debt Service",
       "covenant_threshold": "Per Facility Docs",
-      "actual_current": "Strong",
+      "actual_current": "Strong IG Coverage",
       "headroom": "No breach disclosed in latest audited/interim statements.",
       "status": "Compliant"
     },

@@ -7,7 +7,7 @@
     "region": "Africa",
     "sector": "Energy",
     "type": "corp",
-    "rating": "BB+ Neg (S&P) / Ba1 Neg (Moody's)",
+    "rating": "BB+ Stable (S&P, Nov-26) / Ba1 Neg (Moody's)",
     "tier": "BB",
     "benchmark_bond": "SOLSJ 7.85% 2029",
     "price": 98.4,
@@ -16,7 +16,7 @@
     "model_file": "Sasol_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68168a6b6e3b7106bfdda",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sasol_Credit_Model.xlsx",
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-28",
     "cognitive_credit_id": "sasol",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/sasol/description",
     "model_type": "corp",
@@ -103,9 +103,16 @@
     "recovery_base_pct": 99,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
-    "thesis": "Secunda coal-to-liquids synthetic fuels monopoly; global specialty chemicals cash flow; crossover rating tier."
+    "thesis": "Sasol's FY26 (Jun-26) audited results showed strong deleveraging: revenue rose 9% to R272.1bn, Adj EBITDA jumped 17% to R60.7bn, capex fell 18% to R20.9bn, FCF reached R11.9bn, and net debt ex-leases declined 11% YoY to $3.3bn (~0.96x Adj EBITDA) backed by R43.3bn cash. Structural recovery anchored by South Africa energy asset perimeter and SOLSJ 7.85% 2029 seniority."
   },
   "annotations": [
+    {
+      "issuer_id": "sasol",
+      "sector": "Energy",
+      "topic": "S&P Outlook Revised to Stable (BB+)",
+      "source": "S&P Global Ratings (Nov-26)",
+      "note": "Nov-26: S&P revised Sasol outlook to Stable from Negative (BB+ affirmed) on FY26 deleveraging ($3.3bn net debt)."
+    },
     {
       "issuer_id": "sasol",
       "sector": "Energy",
@@ -1039,6 +1046,19 @@
       "ebitda": 60012.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB+ Stable (S&P, Nov-26) / Ba1 Neg (Moody's)",
+      "price": 98.4,
+      "ytm": 7.85,
+      "spread_bp": 365,
+      "net_leverage": 1.23,
+      "ebitda": 60012.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1145,9 +1165,9 @@
     "last_reconciled": "2026-09-20"
   },
   "credit_view": {
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-28",
     "verdict": {
-      "stance": "Constructive / Deleveraging South African Energy & Chemicals Producer (BB+ Neg / Ba1 Neg)",
+      "stance": "Constructive / S&P Outlook Revised to Stable (BB+ Stable / Ba1 Neg)",
       "target_price": null,
       "current_price": 98.4,
       "ytm": 7.85,
@@ -1170,6 +1190,7 @@
       "ownership_governance": "JSE & NYSE listed; South African sovereign ceiling linkage."
     },
     "recent_drivers": [
+      "Nov-26: S&P Global Ratings revised Sasol's outlook to Stable from Negative while affirming BB+, citing improved FCF generation and FY26 deleveraging ($3.3bn net debt ex-leases, 0.96x).",
       "FY26 (Jun-26 Audited): Turnover R272.1bn (+9%), Adj EBITDA R60.7bn (+17%), capex R20.9bn (-18%), FCF R11.9bn, net debt $3.3bn (-11%).",
       "FY2026 Results (Jun-26): Adj EBITDA R60,705m (+17% YoY), Net Debt ex-leases $3,259m (-11% YoY), Operating CF R56.7bn (+22%).",
       "Dividend Policy: Zero final dividend declared while net debt exceeds $3.0bn policy target.",
@@ -1189,6 +1210,12 @@
     ]
   },
   "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Nov-26 S&P Outlook Revision to Stable (Affirmed BB+)",
+      "source": "S&P Global Ratings (Nov-26)",
+      "summary": "S&P revised Sasol's outlook from Negative to Stable (affirming BB+) following FY26 net debt reduction to $3.3bn (0.96x) and R11.9bn FCF."
+    },
     {
       "id": "sasol-filings-20261124",
       "date": "2026-11-24",

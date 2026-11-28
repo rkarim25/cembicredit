@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Omantel_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-81ac-8720-c8b0fa72fcb0",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Omantel_Credit_Model.xlsx",
     "last_updated": "2026-11-25",
     "model_type": "corp",
@@ -113,7 +113,8 @@
       "ownership_governance": "51% Oman Investment Authority; MSX listed (OTEL)."
     },
     "recent_drivers": [
-      "H126: Group NPAT surged 73.5% YoY to OMR 292.8m after FY25 EBITDA reached OMR 1,155.4m (+10.6%)."
+      "H126: Group NPAT surged 73.5% YoY to OMR 292.8m after FY25 EBITDA reached OMR 1,155.4m (+10.6%).",
+      "2025A: FY25 group revenue OMR 3,413.1m (+11.4% YoY), EBITDA OMR 1,155.4m (+10.6% YoY), group NPAT OMR 371.0m (+87.7% YoY), parent NPAT OMR 88.4m (+63.1% YoY)."
     ],
     "catalysts": [
       {
@@ -212,6 +213,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "Ba1 (Moody's) / BB+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -221,7 +235,7 @@
     "recovery_base_pct": 98.0,
     "implied_stress_ev_multiple": 5.5,
     "restructuring_framework": "Oman Commercial Law",
-    "thesis": "51% OIA-owned domestic monopoly + Zain equity stake backing $500m 2031 Sukuk."
+    "thesis": "Group revenue grew 11.4% to OMR 3.41bn and EBITDA reached OMR 1.16bn in FY25, with H126 net profit surging 73.5% YoY to OMR 292.8m on Zain Group momentum and Omani domestic stability. Sovereign majority ownership (51% OIA) and Omani sovereign rising-star trajectory provide strong spread support. Structural recovery anchored by Oman technology asset perimeter and OTEL Sukuk 5.375% Jan 2031 ($500M, XS2695410832) seniority."
   },
   "historical_notes": [
     {
@@ -233,35 +247,35 @@
   ],
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with Ba1 (Moody's) / BB+ (Fitch)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard HY Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Omantel (Oman Telecommunications) Credit Facilities (RCF Undisclosed)",

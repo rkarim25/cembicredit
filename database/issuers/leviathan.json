@@ -171,7 +171,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Initiation — Q326 Record Output & Jun-27 Maturity",
+      "title": "Initiation \u2014 Q326 Record Output & Jun-27 Maturity",
       "source": "NewMed Energy / Fitch",
       "summary": "Added Leviathan Bond Ltd (BB): $1.15bn secured curve (Jun-27 & Jun-30), FY25 $1.013bn field EBITDA, Q326 $260.6m rebound."
     }
@@ -181,6 +181,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB (Fitch) / Ba3 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB (Fitch) / Ba3 (Moody's)",
       "price": null,
       "ytm": null,
@@ -202,35 +215,35 @@
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "~2.5x SPV",
-      "headroom": "Strict DSCR lock-up (typically 1.2x-1.3x), Principal Reserve Fund, and DSRA mechanics.",
+      "covenant_type": "Project Cash Waterfall & Distribution Lock-Up",
+      "covenant_threshold": "Min 1.50x DSCR Distribution Lock-Up + 6m DSRA & $100m Abandonment Reserve",
+      "actual_current": "~2.5x+ DSCR (Fitch/Moody's)",
+      "headroom": "Senior cash sweep & reserve account protections active",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "Strong DSCR",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Debt Service Coverage Ratio (DSCR)",
+      "covenant_threshold": "Min 1.50x DSCR Distribution Lock-Up + 6m DSRA & $100m Abandonment Reserve",
+      "actual_current": "~2.5x+ DSCR (Fitch/Moody's)",
+      "headroom": "Contracted revenue/offtake covers debt service",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Dedicated Asset Security & Negative Pledge",
+      "covenant_threshold": "Closed Ring-Fenced Collateral",
+      "actual_current": "First-Ranking Secured",
+      "headroom": "First-ranking security over 45.34% NewMed Leviathan offshore gas field & GSPA receivables.",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Project-finance waterfall; Change of Control & operator termination triggers."
+      "covenant_type": "Change of Control / Concession Protection",
+      "covenant_terms": "CoC put at 101% or concession/sponsor maintenance covenant."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Cash Waterfall & Dividend Lock-Up",
+      "covenant_terms": "Distributions permitted strictly after DSRA funding and DSCR lock-up test."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Project indenture cross-default & event-of-default waterfall triggers."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Leviathan Bond Ltd Credit Facilities (RCF Undisclosed)",

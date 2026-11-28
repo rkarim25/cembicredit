@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "tskb",
-    "name": "TSKB (Türkiye Sınai Kalkınma Bankası)",
+    "name": "TSKB (T\u00fcrkiye S\u0131nai Kalk\u0131nma Bankas\u0131)",
     "ticker": "TSKB",
     "country": "Turkey",
     "region": "Turkey",
@@ -102,12 +102,12 @@
       "current_price": null,
       "ytm": null,
       "spread_bp": null,
-      "summary": "TSKB is Turkey's premier private-sector development bank (51.4% İşbank), funded primarily by long-term sovereign-guaranteed multilateral DFI lines (World Bank, EIB, KfW, AIIB) rather than hot retail deposits. H126 assets reached TRY 379.2bn with 18.3% Tier-1 and ~19% CAR."
+      "summary": "TSKB is Turkey's premier private-sector development bank (51.4% \u0130\u015fbank), funded primarily by long-term sovereign-guaranteed multilateral DFI lines (World Bank, EIB, KfW, AIIB) rather than hot retail deposits. H126 assets reached TRY 379.2bn with 18.3% Tier-1 and ~19% CAR."
     },
     "positives": [
       "Long-dated multilateral DFI funding (>65% of liabilities) shields against Turkish deposit beta wars.",
       "Exceptional capitalization: ~18.3% Tier-1 and 18.5%-19.4% CAR in H126.",
-      ">92% SDG-linked corporate/renewable project loan book backed by parent İşbank (51.4%) & Vakıfbank."
+      ">92% SDG-linked corporate/renewable project loan book backed by parent \u0130\u015fbank (51.4%) & Vak\u0131fbank."
     ],
     "negatives": [
       "Wholesale-funded development bank model lacks zero-cost TRY demand deposit float.",
@@ -117,7 +117,7 @@
     "background": {
       "business_overview": "Turkey's first privately owned development and investment bank focusing on green/sustainable capex lending.",
       "asset_perimeter": "TRY 275.6bn cash loan book (H126) across renewables, energy efficiency, and export industrials.",
-      "ownership_governance": "İşbank Group (~51.4%), Vakıfbank (~8.4%), free float (~40%)."
+      "ownership_governance": "\u0130\u015fbank Group (~51.4%), Vak\u0131fbank (~8.4%), free float (~40%)."
     },
     "recent_drivers": [
       "H126: Assets TRY 379.2bn, cash loans TRY 275.6bn, net profit TRY 5.91bn, swap-adj NIM ~4.3%, CAR ~19%.",
@@ -184,7 +184,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Initiation — DFI-Funded Turkish Development Bank",
+      "title": "Initiation \u2014 DFI-Funded Turkish Development Bank",
       "source": "TSKB FY24-H126 BRSA Filings",
       "summary": "Added TSKB: H126 assets TRY 379.2bn, CAR ~19%, NIM 4.3%, 2028 senior (XS2678232781) & Perp AT1 (XS2778918834)."
     }
@@ -194,6 +194,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- (Fitch) / B1 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB- (Fitch) / B1 (Moody's)",
       "price": null,
       "ytm": null,

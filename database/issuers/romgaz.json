@@ -91,9 +91,9 @@
     "base_case_px": 101.0,
     "recovery_floor_pct": 82.0,
     "recovery_base_pct": 101.0,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Romania Commercial & Bankruptcy Code",
-    "thesis": "Romania's largest natural gas producer; partner in Black Sea Neptun Deep offshore development."
+    "thesis": "Romgaz reported 9M26 total income of RON 6.36bn (-2.3% YoY), EBITDA of RON 2.85bn (-14.1%), and net profit of RON 2.22bn as regulated gas prices softened while Neptun Deep capex ramped (liabilities rose to RON 8.75bn vs RON 6.25bn YE25 cash). Credit remains capped by Romania's BBB- sovereign rating. Structural recovery anchored by Romania energy asset perimeter and ROMGAZ 4.75% Oct 2029 (\u20ac500m, XS2914558593) seniority."
   },
   "annotations": [
     {
@@ -1041,6 +1041,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- Stable (Fitch)",
+      "price": 98.5,
+      "ytm": 5.75,
+      "spread_bp": 170,
+      "net_leverage": null,
+      "ebitda": 4243.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB- Stable (Fitch)",
       "price": 98.5,
       "ytm": 5.75,

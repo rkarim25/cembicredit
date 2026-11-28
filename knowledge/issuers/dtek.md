@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/dtek.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - DTEK 18.50% 2027: price 68.5, YTM 18.5%, spread 1410bp (as of 2026-11-26).
 - Rating as recorded: CCC- (Fitch, late-25) / Caa3 (Moody's) | Renewables CC.

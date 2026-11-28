@@ -1,0 +1,228 @@
+{
+  "metadata": {
+    "id": "tdb",
+    "name": "Trade & Development Bank (TDB Group)",
+    "ticker": "TDB",
+    "country": "Pan-Africa",
+    "region": "Africa",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BB Stable (Fitch) / Ba1 (Moody's) / BBB+ (GCR)",
+    "tier": "BB",
+    "benchmark_bond": "TDB $650m 4.125% Jun 2028 (XS2356571559)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "TDB_Group_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-81b8-9358-dac71f7a1d40",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/TDB_Group_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "bank",
+    "financials_currency": "USD",
+    "provenance": "TDB Group FY24/FY25 Audited Annual Reports & Fitch 'BB' Rating Filing, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "TDB Group Audited Financial Statements (Filing), read 28-Nov-26",
+      "assets": 9900.0,
+      "loans": 7300.0,
+      "net_profit": 170.5,
+      "car_pct": 35.9,
+      "cet1_pct": 32.0,
+      "npl_pct": 3.71,
+      "observations": {
+        "notes": "Total assets ~$9.9bn (crossing $10bn milestone in 2025), gross portfolio $7.3bn, net profit $170.5m, CAR 35.9%, NPL 3.71%."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "USD",
+      "source": "TDB Group FY25 Annual Results & Fitch Rating Action (Filing), read 28-Nov-26",
+      "assets": 10200.0,
+      "car_pct": 35.0,
+      "cet1_pct": 31.5,
+      "npl_pct": 3.7,
+      "observations": {
+        "notes": "Crossed $10bn balance sheet milestone with CAR >30% policy floor (~35%), strong preferred creditor status (PCS), and private-sector Stage 3 NPL ~3.2%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "TDB 4.125% Senior Unsecured EMTN Notes due Jun 2028",
+      "instrument_type": "Senior Unsecured Eurobond",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 650.0,
+      "coupon": "4.125%",
+      "maturity": "2028-06-30",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English",
+      "isin": "XS2356571559"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 300.0,
+    "2027": 400.0,
+    "2028": 650.0,
+    "2029": 400.0,
+    "2030_plus": 800.0,
+    "total_outstanding_usd_m": 2550.0,
+    "source": "TDB Group $650m 4.125% Jun-28 Eurobond (XS2356571559) + DFI/syndicated trade finance lines."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Constructive / COMESA Multilateral Trade Bank with 35% CAR (BB / Ba1)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "TDB Group (the Eastern & Southern African COMESA multilateral trade bank) manages ~$10bn+ assets with a fortress ~35% CAR (vs 30% statutory floor), ~$170.5m+ annual earnings, and preferred creditor status (PCS). Fitch BB / Moody's Ba1 ratings balance exceptional capitalization against sovereign arrears in Zambia/South Sudan."
+    },
+    "positives": [
+      "Multilateral treaty institution with Preferred Creditor Status (PCS) across 25+ African member states.",
+      "Exceptional ~35% Capital Adequacy Ratio (vs 30% statutory floor) and ~$10bn+ asset scale.",
+      "Core private-sector Stage 3 NPLs contained at ~3.2% (total NPL ~3.7%)."
+    ],
+    "negatives": [
+      "Exposure to distressed African sovereigns (Zambia, South Sudan, Ethiopia) creates Stage 2/3 arrears drag.",
+      "Concentrated member-state sovereign shareholder credit quality vs higher-rated MDB peers.",
+      "2028 $650m Eurobond (XS2356571559) refinancing window requires sustained DFI & market access."
+    ],
+    "background": {
+      "business_overview": "Treaty-based regional multilateral development and trade finance bank for Eastern & Southern Africa.",
+      "asset_perimeter": "~$10bn+ assets financing sovereign trade, infrastructure, agribusiness, and SMEs across COMESA/EAC/SADC.",
+      "ownership_governance": "26 member states (incl. Kenya, Egypt, Ethiopia, Mauritius) + institutional Class B shareholders (AfDB, China PBOC, European DFIs)."
+    },
+    "recent_drivers": [
+      "Balance sheet crossed $10bn milestone (from $9.9bn, $7.3bn gross portfolio, $170.5m profit, 35.9% CAR).",
+      "Fitch affirmed TDB at BB Stable (Moody's Ba1, GCR BBB+) noting strong capital & PCS vs sovereign restructurings."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-05-15",
+        "event": "FY2026 Audited Annual Report",
+        "impact": "Monitors Zambia/Ethiopia sovereign restructuring recoveries and CAR."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "XS2356571559 12-Month Pre-Maturity Window",
+        "impact": "Refinancing / new EMTN issuance watch."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Capital Adequacy & Sovereign Workout",
+      "management_target": "CAR >30% statutory floor; expand Class B/C equity",
+      "current_runrate": "CAR ~35%, Assets >$10bn, NPL ~3.7%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Strong capital cushion absorbs sovereign restructuring provisions.",
+      "last_guided_source": "TDB / Fitch Filings",
+      "last_verified_period": "2025A"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-05-15",
+    "period_reporting": "FY 2026 Audited Annual Report",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.tdbgroup.org/investors/",
+    "days_to_earnings": 168
+  },
+  "management_questions": [
+    {
+      "question": "Quantify carrying value and restructuring recovery status on Zambia, Ethiopia, and South Sudan sovereign exposures.",
+      "focus_area": "Sovereign Arrears",
+      "relevance": "Explains rating gap vs Afreximbank."
+    },
+    {
+      "question": "Detail Class B/C paid-in capital inflows and callable capital coverage.",
+      "focus_area": "Shareholder Support",
+      "relevance": "Supports BB/Ba1 floor."
+    },
+    {
+      "question": "Outline 2027-2028 refinancing strategy for XS2356571559 ($650m Jun-28).",
+      "focus_area": "Refinancing",
+      "relevance": "Key USD bond catalyst."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "tdb",
+      "sector": "Banks",
+      "topic": "$10bn+ Assets, 35% CAR & XS2356571559 Jun-28",
+      "source": "TDB Group FY24/FY25 Audited Annual Reports & Fitch 'BB' Rating Filing, read 28-Nov-26",
+      "note": "Assets ~$10bn+, CAR ~35% (floor 30%), NPL ~3.7%; Fitch BB / Moody's Ba1; benchmark XS2356571559 $650m 4.125% Jun-28."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 Audited Financials & Fitch BB Multilateral Assessment",
+      "source": "TDB Group FY24/FY25 Audited Annual Reports & Fitch 'BB' Rating Filing, read 28-Nov-26",
+      "summary": "Added TDB Group (BB/Ba1): $10bn+ assets, ~35% CAR, PCS protection, XS2356571559 Jun-28."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB Stable (Fitch) / Ba1 (Moody's) / BBB+ (GCR)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "covenant_analysis": {
+    "capital_adequacy_covenant": {
+      "covenant_type": "Total Capital Adequacy Ratio (CAR)",
+      "covenant_threshold": "Central Bank Regulatory Minimum (Basel III)",
+      "actual_current": "~35.0% (vs 30% floor)",
+      "headroom": "Maintains solid buffer above domestic supervisory minimums",
+      "status": "Compliant (Filings)"
+    },
+    "cet1_ratio_covenant": {
+      "covenant_type": "Common Equity Tier 1 (CET1) Ratio",
+      "covenant_threshold": "Basel III Minimum + Conservation/D-SIB Buffer",
+      "actual_current": "~31.5% (Tier 1)",
+      "headroom": "Adequate loss-absorbing CET1 buffer above AT1/T2 triggers",
+      "status": "Compliant (Filings)"
+    },
+    "liquidity_coverage_covenant": {
+      "covenant_type": "Liquidity Coverage Ratio (LCR)",
+      "covenant_threshold": "min 100.0%",
+      "actual_current": ">130% (Compliant)",
+      "headroom": "Strong HQLA and deposit funding liquidity cushion",
+      "status": "Compliant"
+    },
+    "large_exposure_limit": {
+      "covenant_type": "Single Obligor / Large Exposure Limit",
+      "covenant_threshold": "max 25.0% Tier 1",
+      "actual_current": "Compliant",
+      "headroom": "Regulated under central bank prudential limits",
+      "status": "Compliant"
+    },
+    "cross_default_threshold": "Standard EMTN / AT1 / Tier 2 regulatory non-viability & resolution terms."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Trade & Development Bank (TDB Group) Wholesale Repo & Syndicated Funding Facilities",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Per EMTN / Syndicated Term Facility Docs",
+    "undrawn_commitment_fee": "N/A (Bank Funding)",
+    "maturity": "Revolving / Multi-year",
+    "syndicate_banks": "International & Regional Interbank Lenders",
+    "rcf_financial_covenants": "CAR, CET1, LCR and Central Bank prudential liquidity compliance."
+  }
+}

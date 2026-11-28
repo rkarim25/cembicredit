@@ -75,9 +75,9 @@
     "base_case_px": 101.0,
     "recovery_floor_pct": 76.0,
     "recovery_base_pct": 101.0,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Ko\u00e7 Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
+    "thesis": "T\u00fcpra\u015f delivered blowout 9M26 results: revenue TRY 1,174.1bn, NPAT TRY 122.1bn, Q3 net refining margin $36.3/bbl (9M avg $23.0/bbl), and net cash ballooned to TRY 165.4bn (vs TRY 57.0bn YE25), leaving net leverage negative ahead of $532m YTD transition capex. Structural recovery anchored by Turkey energy asset perimeter and TUPRAS 6.95% 2027 seniority."
   },
   "annotations": [
     {
@@ -1012,6 +1012,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB / BB-",
+      "price": 99.5,
+      "ytm": 7.2,
+      "spread_bp": 315,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB / BB-",
       "price": 99.5,
       "ytm": 7.2,

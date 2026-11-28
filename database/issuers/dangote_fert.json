@@ -66,7 +66,7 @@
     "recovery_base_pct": 98.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Nigeria Commercial & Bankruptcy Code",
-    "thesis": "World's largest single-train urea complex (3.0 mtpa); Lekki Free Zone tax holiday; dollar exports to US and Brazil."
+    "thesis": "Greenview Fertiliser / Dangote Fertiliser secured a $600m AFC facility in mid-2026 to back a $7bn expansion targeting 9 Mtpa capacity and Ethiopia development. Hard-currency urea exports insulate against naira weakness, though standalone audited P&L and parent DIL intercompany terms remain private. Structural recovery anchored by Nigeria materials asset perimeter and DANFER 7.75% 2031 ($750m) / 11.50% 2028 seniority."
   },
   "annotations": [
     {
@@ -1013,6 +1013,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Unrated / Sovereign-Capped (Nigeria B / B3 / B)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "Unrated / Sovereign-Capped (Nigeria B / B3 / B)",
       "price": null,
       "ytm": null,

@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "id": "emirates",
+    "name": "The Emirates Group (Emirates Airlines)",
+    "ticker": "EMIRATES",
+    "country": "UAE",
+    "region": "GCC",
+    "sector": "Transportation",
+    "type": "corp",
+    "rating": "NR (Dubai State-Owned)",
+    "tier": "A",
+    "benchmark_bond": "Emirates Sukuk / Aircraft Lease & Aviation Debt",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Emirates_Group_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-817f-8add-dd7957cef1b3",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Emirates_Group_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "AED",
+    "provenance": "The Emirates Group FY2025-26 Annual Report (ended 31-Mar-26, Filing), read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "Emirates Group FY2024-25 Annual Report (ended 31-Mar-25, Filing), read 28-Nov-26",
+      "revenue": 145400.0,
+      "net_profit": 19100.0,
+      "observations": {
+        "notes": "FY24-25 revenue ~AED 145.4bn, PAT ~AED 19.1bn."
+      }
+    },
+    {
+      "period": "FY26",
+      "is_audited": true,
+      "currency": "AED",
+      "source": "Emirates Group FY2025-26 Annual Report (ended 31-Mar-26, Filing), read 28-Nov-26",
+      "revenue": 150500.0,
+      "ebitda": 41100.0,
+      "calculated_ebitda": 41100.0,
+      "ebitda_margin_pct": 27.3,
+      "cash": 59600.0,
+      "net_profit": 21000.0,
+      "observations": {
+        "notes": "Record FY25-26 (ended Mar-26): Revenue AED 150.5bn ($41.0bn, +3% YoY), EBITDA AED 41.1bn ($11.2bn), PBT AED 24.4bn ($6.6bn), PAT AED 21.0bn ($5.7bn), record cash AED 59.6bn ($16.2bn)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Emirates Aviation Lease & Sukuk / EETC Obligations",
+      "instrument_type": "Aircraft Financing & Unsecured",
+      "currency": "USD / AED",
+      "amount_outstanding_usd_m": 8000.0,
+      "coupon": "Fixed / SOFR+",
+      "maturity": "2027-2034",
+      "seniority": "Aircraft-Backed / Senior Unsecured",
+      "governing_law": "English / DIFC"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 800.0,
+    "2027": 1500.0,
+    "2028": 1500.0,
+    "2029": 1500.0,
+    "2030_plus": 2700.0,
+    "total_outstanding_usd_m": 8000.0,
+    "source": "Emirates Group aircraft lease/financing profile; $16.2bn cash exceeds corporate debt."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Overweight / Sovereign Flagship Aviation Cash Fortress ($16.2bn Cash)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "The Emirates Group (100% Investment Corporation of Dubai) delivered record FY25-26 revenue of AED 150.5bn ($41.0bn), EBITDA of AED 41.1bn ($11.2bn, 27.3% margin), and PAT of AED 21.0bn ($5.7bn). Record cash reserves of AED 59.6bn ($16.2bn) allow Emirates to self-fund widebody fleet deliveries while retiring legacy debt."
+    },
+    "positives": [
+      "Record AED 59.6bn ($16.2bn) cash pile provides fortress liquidity and net-cash balance sheet.",
+      "Industry-leading AED 41.1bn ($11.2bn) EBITDA and 27.3% EBITDA margin on global long-haul hub dominance.",
+      "100% owned by Investment Corporation of Dubai (ICD), core strategic asset for Dubai's economy."
+    ],
+    "negatives": [
+      "Unrated by S&P/Moody's/Fitch, limiting IG index inclusion for unrated tranches.",
+      "High sensitivity to jet fuel price spikes and Middle East airspace disruptions.",
+      "Massive multi-year Boeing 777X / Airbus A350 fleet capex and Dubai World Central (DWC) hub transition."
+    ],
+    "background": {
+      "business_overview": "World's largest international airline (Emirates) and global airport/ground-handling provider (dnata).",
+      "asset_perimeter": "Widebody fleet (A380, B777, A350), Emirates SkyCargo, dnata global ground/catering.",
+      "ownership_governance": "100% owned by Investment Corporation of Dubai (Government of Dubai)."
+    },
+    "recent_drivers": [
+      "FY25-26 (Mar-26): Record revenue AED 150.5bn ($41.0bn), EBITDA AED 41.1bn ($11.2bn), PAT AED 21.0bn ($5.7bn).",
+      "Cash balance surged to all-time high AED 59.6bn ($16.2bn), self-funding fleet capex."
+    ],
+    "catalysts": [
+      {
+        "date": "2026-12-15",
+        "event": "H1 FY26-27 (Sep-26) Half-Year Financial Results",
+        "impact": "Tracks winter peak load factors and fuel hedging."
+      },
+      {
+        "date": "2027-05-15",
+        "event": "FY2026-27 Annual Report",
+        "impact": "Updates cash pile, dividend to ICD, and Boeing/Airbus delivery capex."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Liquidity & Self-Funded Fleet Capex",
+      "management_target": "Self-fund aircraft deliveries from internal cash flow",
+      "current_runrate": "AED 59.6bn ($16.2bn) cash; AED 41.1bn FY26 EBITDA",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Record profitability keeps balance sheet net cash.",
+      "last_guided_source": "Emirates FY25-26 Annual Report",
+      "last_verified_period": "FY26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-05-15",
+    "period_reporting": "FY 2026-27 Full-Year Report",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.emirates.com/media-centre/",
+    "days_to_earnings": 168
+  },
+  "management_questions": [
+    {
+      "question": "Confirm total gross lease + financial debt at 31-Mar-26 and H1 FY27 dividend distributions to ICD.",
+      "focus_area": "Leverage & Dividends",
+      "relevance": "Quantifies net cash buffer."
+    },
+    {
+      "question": "Detail Boeing 777X delivery delays and 2027-2029 fleet capex commitments.",
+      "focus_area": "Capex",
+      "relevance": "Drives FCF trajectory."
+    },
+    {
+      "question": "Indicate any plans for benchmark USD Sukuk or EETC issuance ahead of DWC expansion.",
+      "focus_area": "Supply",
+      "relevance": "Assesses primary market supply."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "emirates",
+      "sector": "Transportation",
+      "topic": "Record FY25-26 EBITDA $11.2bn & Cash $16.2bn",
+      "source": "The Emirates Group FY2025-26 Annual Report (ended 31-Mar-26, Filing), read 28-Nov-26",
+      "note": "FY25-26 revenue AED 150.5bn ($41.0bn), EBITDA AED 41.1bn ($11.2bn), PAT AED 21.0bn ($5.7bn), cash AED 59.6bn ($16.2bn)."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 FY2025-26 Record Annual Report",
+      "source": "The Emirates Group FY2025-26 Annual Report (ended 31-Mar-26, Filing), read 28-Nov-26",
+      "summary": "Added The Emirates Group: FY25-26 EBITDA $11.2bn, PAT $5.7bn, record $16.2bn cash reserves."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "NR (Dubai State-Owned)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
+    "restructuring_framework": "UAE Corporate Insolvency & Creditor Framework",
+    "thesis": "Dubai sovereign-owned aviation leader with $16.2bn cash and $11.2bn annual EBITDA covering aircraft lease/debt obligations multiple times over."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "EMTN / 144A Indenture & Bank Facility Covenants",
+      "covenant_threshold": "Negative Pledge & Cross-Default / Financial Covenants per Facility Docs",
+      "actual_current": "Consistent with NR (Dubai State-Owned)",
+      "headroom": "No covenant breach disclosed in latest audited/interim financial statements.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Debt Service & Interest Coverage",
+      "covenant_threshold": "Per Syndicated / Bond Documentation",
+      "actual_current": "Compliant",
+      "headroom": "Covered by operating cash flow and liquidity buffers.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Operating Assets",
+      "headroom": "Senior unsecured pari passu ranking",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control / Sovereign Support Clause",
+      "covenant_terms": "Standard Change of Control put or state-ownership maintenance covenant per prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and financial policy targets."
+    },
+    "cross_default_threshold": "Standard EMTN / 144A cross-default & cross-acceleration threshold."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "The Emirates Group (Emirates Airlines) Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

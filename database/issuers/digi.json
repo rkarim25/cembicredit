@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "id": "digi",
+    "name": "Digi Communications N.V.",
+    "ticker": "DIGI",
+    "country": "Romania",
+    "region": "CEE",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "BB Stable (Fitch, Sr Sec BB+ / RR3)",
+    "tier": "BB",
+    "benchmark_bond": "Digi \u20ac600m 4.625% Sr Sec 2031 (XS3216614084)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Digi_Communications_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-8123-abce-d7fe6b23679d",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Digi_Communications_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "EUR",
+    "provenance": "Digi Communications FY25 Audited Report & Q3/9M 2026 Earnings Filing, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "EUR",
+      "source": "Digi Communications FY25 Audited Report & S&P/Fitch Filings, read 28-Nov-26",
+      "fcf": -337.0,
+      "net_leverage": 4.3,
+      "observations": {
+        "notes": "FY25 FOCF after leases -\u20ac337m on Spain/Portugal fiber rollout capex; Fitch EBITDA net leverage ~4.3x."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "EUR",
+      "source": "Digi Communications Q3/9M 2026 Results Filing, read 28-Nov-26",
+      "revenue": 1800.0,
+      "ebitda": 528.0,
+      "reported_ebitda": 528.0,
+      "ebitda_margin_pct": 29.3,
+      "capex": 207.0,
+      "net_debt": 1800.0,
+      "net_leverage": 2.7,
+      "observations": {
+        "notes": "9M26 revenue \u20ac1.8bn (+11% YoY; Q3 \u20ac633m-\u20ac640m), Adj EBITDA ex-leases \u20ac528m (+21% YoY; Q3 \u20ac197m), Q326 capex \u20ac207m, net debt ~\u20ac1.8bn (co. leverage 2.7x)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Digi Communications 4.625% Senior Secured Notes due 2031",
+      "instrument_type": "Senior Secured Eurobond",
+      "currency": "EUR",
+      "amount_outstanding_usd_m": 650.0,
+      "coupon": "4.625%",
+      "maturity": "2031-10-31",
+      "seniority": "Senior Secured",
+      "governing_law": "English",
+      "isin": "XS3216614084"
+    },
+    {
+      "tranche_name": "Digi Senior Secured Bank Facilities & Leases",
+      "instrument_type": "Senior Secured Term / RCF",
+      "currency": "EUR",
+      "amount_outstanding_usd_m": 1300.0,
+      "coupon": "Euribor + margin",
+      "maturity": "2027-2030",
+      "seniority": "Senior Secured",
+      "governing_law": "English / Romanian"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 250.0,
+    "2028": 400.0,
+    "2029": 400.0,
+    "2030_plus": 900.0,
+    "total_outstanding_usd_m": 1950.0,
+    "source": "Digi ~\u20ac1.8bn net debt incl. \u20ac600m 4.625% 2031 notes (XS3216614084) and senior secured bank debt."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Constructive / Rapidly Scaling Pan-European Fiber & Mobile Challenger (BB / BB+ Sr Sec)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Digi Communications delivered 9M26 revenue of \u20ac1.8bn (+11% YoY) and Adj EBITDA (ex-leases) of \u20ac528m (+21% YoY) on dominant Romanian fiber/mobile cash flows and rapid Spanish/Portuguese subscriber growth. Net debt stands at ~\u20ac1.8bn (company net leverage improved to 2.7x), while \u20ac600m 4.625% 2031 notes (BB+ / RR3) fund capex rollouts."
+    },
+    "positives": [
+      "Strong +21% YoY Adj EBITDA growth in 9M26 (\u20ac528m) driven by Romania market leadership and Spain scale-up.",
+      "Company-reported net leverage improved to 2.7x at 30-Sep-26 with \u20ac600m 2031 senior secured refinancing.",
+      "Senior secured notes rated BB+ / RR3 (one notch above Fitch BB IDR) on strong asset coverage."
+    ],
+    "negatives": [
+      "Elevated network rollout capex (Q326 alone \u20ac207m; FY25 FOCF -\u20ac337m) delays consolidated positive FCF.",
+      "Portuguese startup losses and competitive mobile pricing in Spain require ongoing capex.",
+      "Founder control (RCS Management) with multi-jurisdiction subsidiary structure."
+    ],
+    "background": {
+      "business_overview": "Leading Romanian telecom operator expanding aggressively in Spain, Portugal, and Belgium.",
+      "asset_perimeter": "FTTH fiber and 4G/5G mobile networks in Romania and Spain, greenfield networks in Portugal.",
+      "ownership_governance": "Controlled by Zoltan Teszari (RCS Management), listed on Bucharest Stock Exchange (DIGI)."
+    },
+    "recent_drivers": [
+      "9M26: Revenue \u20ac1.8bn (+11% YoY), Adj EBITDA ex-leases \u20ac528m (+21% YoY), net debt \u20ac1.8bn (2.7x co. leverage).",
+      "2031 Notes: Upsized \u20ac600m 4.625% Senior Secured Notes due 2031 (XS3216614084) rated BB+/RR3 by Fitch."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-28",
+        "event": "FY2026 Preliminary Results & 2027 Capex Guidance",
+        "impact": "Tests inflection toward positive consolidated FOCF."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "Spanish Fiber / Mobile Monetization Milestone",
+        "impact": "Evaluates Spain EBITDA scale vs Portugal burn."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "EBITDA Growth & Capex Moderation",
+      "management_target": "Sustain double-digit EBITDA growth while tapering peak Iberian capex",
+      "current_runrate": "9M26 EBITDA \u20ac528m (+21%); Q3 capex \u20ac207m; net lev 2.7x",
+      "tracking_status": "On Track",
+      "variance_analysis": "Spain momentum offsetting Portugal startup costs.",
+      "last_guided_source": "Digi 9M26 Release",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-28",
+    "period_reporting": "FY 2026 Preliminary Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.digi-communications.ro/en/investor-relations",
+    "days_to_earnings": 92
+  },
+  "management_questions": [
+    {
+      "question": "Provide 2027 consolidated capex guidance and timeline to positive consolidated FCF.",
+      "focus_area": "Capex Inflection",
+      "relevance": "Core trigger for BB+ upgrade."
+    },
+    {
+      "question": "Break down 9M26 EBITDA between Romania, Spain, and Portugal drag.",
+      "focus_area": "Segment Profitability",
+      "relevance": "Isolates core cash flow."
+    },
+    {
+      "question": "Update potential Spanish fiber/unit monetization options.",
+      "focus_area": "Deleveraging",
+      "relevance": "Upside catalyst for 2031 bonds."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "digi",
+      "sector": "Technology",
+      "topic": "9M26 EBITDA \u20ac528m (+21%) & \u20ac600m 2031 Notes",
+      "source": "Digi Communications FY25 Audited Report & Q3/9M 2026 Earnings Filing, read 28-Nov-26",
+      "note": "9M26 rev \u20ac1.8bn (+11%), Adj EBITDA \u20ac528m (+21%), net debt \u20ac1.8bn (2.7x); XS3216614084 \u20ac600m 4.625% 2031 (Fitch BB+ / RR3)."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 9M26 Earnings & \u20ac600m 2031 Senior Secured Notes",
+      "source": "Digi Communications FY25 Audited Report & Q3/9M 2026 Earnings Filing, read 28-Nov-26",
+      "summary": "Added Digi Communications (BB / BB+ Sr Sec): 9M26 EBITDA \u20ac528m (+21%), net debt \u20ac1.8bn, XS3216614084."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB Stable (Fitch, Sr Sec BB+ / RR3)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "Romania Corporate Insolvency & Creditor Framework",
+    "thesis": "Senior secured 2031 notes (BB+ / RR3) backed by dominant Romanian FTTH/mobile cash flows and scaling Spanish telecom assets."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "EMTN / 144A Indenture & Bank Facility Covenants",
+      "covenant_threshold": "Negative Pledge & Cross-Default / Financial Covenants per Facility Docs",
+      "actual_current": "Consistent with BB Stable (Fitch, Sr Sec BB+ / RR3)",
+      "headroom": "No covenant breach disclosed in latest audited/interim financial statements.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Debt Service & Interest Coverage",
+      "covenant_threshold": "Per Syndicated / Bond Documentation",
+      "actual_current": "Compliant",
+      "headroom": "Covered by operating cash flow and liquidity buffers.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Operating Assets",
+      "headroom": "Senior unsecured pari passu ranking",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control / Sovereign Support Clause",
+      "covenant_terms": "Standard Change of Control put or state-ownership maintenance covenant per prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and financial policy targets."
+    },
+    "cross_default_threshold": "Standard EMTN / 144A cross-default & cross-acceleration threshold."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Digi Communications N.V. Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

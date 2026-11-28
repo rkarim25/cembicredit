@@ -87,9 +87,9 @@
     "base_case_px": 101,
     "recovery_floor_pct": 85,
     "recovery_base_pct": 101,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "Poland Commercial & Bankruptcy Code",
-    "thesis": "Largest oil refiner and multi-energy utility in CEE; strategic Polish national champion with conservative leverage."
+    "thesis": "ORLEN generated PLN 42.8bn 9M26 LIFO EBITDA (PLN 36.4bn CFO) on PLN 232.4bn revenue, keeping net leverage negligible at 0.10x (after PLN 1.4bn net cash at YE25). Heavy energy-transition capex pipeline is comfortably funded internally. Structural recovery anchored by Poland energy asset perimeter and PKN 4.75% 2030 seniority."
   },
   "annotations": [
     {
@@ -1023,6 +1023,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB+ / A3",
+      "price": 98.8,
+      "ytm": 5.05,
+      "spread_bp": 100,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB+ / A3",
       "price": 98.8,
       "ytm": 5.05,

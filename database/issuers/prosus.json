@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Prosus_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-81f6-b3e1-c036f4190f90",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Prosus_Credit_Model.xlsx",
     "last_updated": "2026-11-26",
     "model_type": "corp",
@@ -153,7 +153,8 @@
       "ownership_governance": "Euronext Amsterdam listed (PRX); controlled by Naspers (South Africa)."
     },
     "recent_drivers": [
-      "Nov-26 H1 FY27: Ecosystem rev $5.7bn (+16% LFL), Adj EBITDA ~$496m; FY27 rev guided $12.0-12.3bn."
+      "Nov-26 H1 FY27: Ecosystem rev $5.7bn (+16% LFL), Adj EBITDA ~$496m; FY27 rev guided $12.0-12.3bn.",
+      "2026A: FY26 (ended Mar-26) ecosystem revenue >$7.3bn, ecosystem Adj EBITDA $1.1bn."
     ],
     "catalysts": [
       {
@@ -239,6 +240,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB (S&P) / Baa2 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "historical_notes": [
@@ -257,39 +271,39 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 8.0,
     "restructuring_framework": "Dutch / English Law",
-    "thesis": "Deep liquid equity NAV (Tencent + consolidated e-commerce) provides multi-turn HoldCo debt coverage."
+    "thesis": "Prosus grew H1 FY27 ecosystem revenue 16% LFL to $5.7bn (~$496m Adj EBITDA; FY27 revenue guided $12.0-12.3bn) after $7.3bn rev / $1.1bn EBITDA in FY26. Proactive $1.65bn 2033/2036 issuance pre-funded 2027 maturities, leaving vast Tencent/e-commerce NAV asset coverage above HoldCo debt. Structural recovery anchored by South Africa technology asset perimeter and PRX 4.193% Jan 2032 (USN7163RAX19) / 5.528% 2033 seniority."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with BBB (S&P) / Baa2 (Moody's)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Prosus N.V. (Naspers Group) Credit Facilities (RCF Undisclosed)",

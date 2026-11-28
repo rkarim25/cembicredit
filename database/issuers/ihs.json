@@ -79,7 +79,7 @@
     "recovery_base_pct": 96,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Nigeria Commercial & Bankruptcy Code",
-    "thesis": "Over 40,000 telecom towers across Africa and LatAm; renegotiated MTN contracts embed USD indexation."
+    "thesis": "IHS Towers slashed consolidated net leverage nearly in half to 1.8x at Q326 (from 3.3x a year earlier) using LatAm tower disposal proceeds while continuing-ops revenue surged 21.4% YoY to $490.5m ($282.7m adj EBITDA, 57.6% margin). Naira stability and MTN Nigeria renewal remain key positives. Structural recovery anchored by Nigeria technology asset perimeter and IHS 10.25% 2027 seniority."
   },
   "annotations": [
     {
@@ -1013,6 +1013,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ / B2",
+      "price": 91.5,
+      "ytm": 10.25,
+      "spread_bp": 590,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B+ / B2",
       "price": 91.5,
       "ytm": 10.25,

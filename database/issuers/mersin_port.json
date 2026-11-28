@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Mersin_Port_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-8137-a300-f5105d03c70b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Mersin_Port_Credit_Model.xlsx",
     "last_updated": "2026-11-27",
     "model_type": "corp",
@@ -101,7 +101,8 @@
       "ownership_governance": "PSA International (51%) & Akfen Holding / IFM (49%)."
     },
     "recent_drivers": [
-      "2026: Fitch affirmed BB- with Positive Outlook; 60-70% USD-tariff EBITDA margin resilience."
+      "2026: Fitch affirmed BB- with Positive Outlook; 60-70% USD-tariff EBITDA margin resilience.",
+      "2024A: FY24 revenue +7.7% YoY, EBITDA margin 62.1% (vs 66% prior), ~$600m Nov-28 Eurobond, net leverage ~2.0x."
     ],
     "catalysts": [
       {
@@ -187,6 +188,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB- Positive (Fitch) / B Stable (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.0,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "historical_notes": [
@@ -205,39 +219,39 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 6.0,
     "restructuring_framework": "English / Turkish Law",
-    "thesis": "Gateway Mediterranean port with 60-70% USD-linked EBITDA margins."
+    "thesis": "Operated by PSA International (51%) and Akfen (49%), Mersin Port collects unregulated USD-denominated tariffs supporting 60-70% EBITDA margins. Fitch maintains BB- Positive on the $600m 8.25% Nov-28 notes (XS2696793012), contrasting favorably with LimakPort's volume struggles. Structural recovery anchored by Turkey infrastructure asset perimeter and MERSIN 8.25% Nov 2028 ($600m, XS2696793012) seniority."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "2.0x",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "Project Cash Waterfall & Distribution Lock-Up",
+      "covenant_threshold": "Concession Maintenance, Net Leverage & DSCR Lock-Up Covenants",
+      "actual_current": "~1.4x Net Debt/EBITDA",
+      "headroom": "Senior cash sweep & reserve account protections active",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Debt Service Coverage Ratio (DSCR)",
+      "covenant_threshold": "Concession Maintenance, Net Leverage & DSCR Lock-Up Covenants",
+      "actual_current": "~1.4x Net Debt/EBITDA",
+      "headroom": "Contracted revenue/offtake covers debt service",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Dedicated Asset Security & Negative Pledge",
+      "covenant_threshold": "Closed Ring-Fenced Collateral",
+      "actual_current": "First-Ranking Secured",
+      "headroom": "2054 port concession asset protection (PSA 51% / Akfen 39% / IFM 10%).",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard BB Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control / Concession Protection",
+      "covenant_terms": "CoC put at 101% or concession/sponsor maintenance covenant."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Cash Waterfall & Dividend Lock-Up",
+      "covenant_terms": "Distributions permitted strictly after DSRA funding and DSCR lock-up test."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Project indenture cross-default & event-of-default waterfall triggers."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Mersin International Port (MIP) Credit Facilities (RCF Undisclosed)",

@@ -4,7 +4,7 @@ _Page created 24-Nov-26 from `database/issuers/navoi_mining.json`. Dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB Positive (Fitch, SCP bb+) / BB Stable (S&P).
 

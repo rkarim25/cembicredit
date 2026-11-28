@@ -4,7 +4,7 @@ _Page created 26-Nov-26 from `database/issuers/ecobank.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: B- Stable (S&P, Nov-26).
 

@@ -79,7 +79,7 @@
     "recovery_base_pct": 101.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "UAE Commercial & Bankruptcy Code",
-    "thesis": "Abu Dhabi sovereign master developer; recurring rental income covers interest by 4x; Alpha Dhabi backing."
+    "thesis": "Exceptional 9M26 momentum: revenue rose +11% YoY to AED 26.2bn (Q3 AED 9.35bn, +16.4%), Group EBITDA jumped +20% YoY to AED 9.4bn (Aldar Investment +21% to AED 2.8bn), and 9M NPAT climbed +19% to AED 7.1bn. Group liquidity stands at AED 38.2bn (AED 18.3bn cash + AED 19.9bn undrawn lines) with AED 71.6bn development backlog. Structural recovery anchored by UAE real estate asset perimeter and ALDAR 5.25% 2029 seniority."
   },
   "annotations": [
     {
@@ -1015,6 +1015,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BBB- / Baa2",
+      "price": 100.1,
+      "ytm": 5.25,
+      "spread_bp": 105,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BBB- / Baa2",
       "price": 100.1,
       "ytm": 5.25,

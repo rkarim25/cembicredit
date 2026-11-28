@@ -16,7 +16,7 @@
     "model_file": "Aragvi_Holding_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681089456caf1fef61b55",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aragvi_Holding_Credit_Model.xlsx",
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-28",
     "model_type": "corp",
     "fcf_2024a": -52.2,
     "net_leverage_2024a": 3.47,
@@ -596,6 +596,13 @@
     }
   },
   "annotations": [
+    {
+      "issuer_id": "aragvi",
+      "sector": "Consumer",
+      "topic": "Nov-26 Consent Mechanics (30-Nov Deadline, 0.75% Fee)",
+      "source": "Fitch (23-Nov-26) & S&P Global Ratings",
+      "note": "Missed 20-Nov \u20ac450m coupon (10d grace to 30-Nov) + 26-Nov $300m coupon; defer ~$44m to Mar-27 w/ 0.75% fee; Fitch C / S&P CCC-."
+    },
     {
       "issuer_id": "aragvi",
       "sector": "Consumer",
@@ -1526,6 +1533,19 @@
       "ebitda": 212.5,
       "fcf": -52.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "CCC- (S&P, Nov-26) / C (Fitch, Nov-26)",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 3.47,
+      "ebitda": 212.5,
+      "fcf": -52.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -1687,7 +1707,7 @@
     }
   },
   "credit_view": {
-    "last_updated": "2026-11-26",
+    "last_updated": "2026-11-28",
     "verdict": {
       "stance": "Distressed / Nov-26 Consent Solicitation & Downgrade to CCC-/C (Grace Period)",
       "target_price": null,
@@ -1712,6 +1732,7 @@
       "ownership_governance": "Privately held agribusiness group; elevated related-party/working-capital intensity requires close monitoring of inventory pledges."
     },
     "recent_drivers": [
+      "20-26 Nov 26: Missed 20-Nov coupon on \u20ac450m 11.125% Nov-29 notes (10-day grace expires 30-Nov) and sought deferral on 26-Nov coupon for $300m 12.75% May-31 notes (~$44m total) to Mar-27 with 0.75% consent fee; Fitch cut to C (warns RD), S&P CCC- (warns SD).",
       "Nov-26: Launched consent solicitation to defer ~$44m coupons to Mar-27 after missing payment; S&P cut to CCC-, Fitch to C.",
       "Nov 2026: S&P downgraded Aragvi to B- with Negative outlook citing weakened cash flow, ~$165M EBITDA vs ~$148M financing charges, and covenant waivers.",
       "PXF Extension: Seeking extension of $247M pre-export working capital facility toward Jun-27 while lining up a $400M RCF for 2027.",
@@ -1731,6 +1752,12 @@
     ]
   },
   "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "20-30 Nov 26 Grace Period & Consent Mechanics (0.75% Fee, \u20ac450m/29 & $300m/31)",
+      "source": "Fitch (23-Nov-26) & S&P Global Ratings",
+      "summary": "Missed 20-Nov-26 coupon on \u20ac450m 11.125% Nov-29s (grace expires 30-Nov) + 26-Nov coupon on $300m 12.75% May-31s; 0.75% fee to defer ~$44m to Mar-27; Fitch C (RD watch), S&P CCC- (SD watch)."
+    },
     {
       "date": "2026-11-26",
       "title": "Nov-26 Coupon Deferral Consent & Cut to CCC-/C",

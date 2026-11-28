@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "id": "ameriabank",
+    "name": "Ameriabank CJSC",
+    "ticker": "AMERIA",
+    "country": "Armenia",
+    "region": "CEE",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "Ba3 Stable (Moody's) / BB- (S&P)",
+    "tier": "BB",
+    "benchmark_bond": "Ameriabank $100m Perpetual AT1 & Senior Wholesale Debt",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Ameriabank_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-81bf-ba26-c5a9354dd290",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ameriabank_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "bank",
+    "financials_currency": "AMD",
+    "provenance": "Ameriabank FY25 Audited Financial Statements & Q1/Q2 2026 Disclosures, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "AMD",
+      "source": "Ameriabank FY24 Audited Financial Statements (Filing), read 28-Nov-26",
+      "net_profit": 60000.0,
+      "assets": 1883000.0,
+      "loans": 1374000.0,
+      "observations": {
+        "notes": "FY24 net profit ~AMD 60.0bn, assets ~AMD 1,883bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "AMD",
+      "source": "Ameriabank FY25 Audited Financial Statements (Filing), read 28-Nov-26",
+      "net_profit": 72600.0,
+      "assets": 2335000.0,
+      "loans": 1672000.0,
+      "roe_pct": 25.0,
+      "npl_pct": 2.1,
+      "cet1_pct": 14.6,
+      "car_pct": 16.6,
+      "observations": {
+        "notes": "FY25 net profit AMD 72.6bn (+21% YoY), assets AMD 2,335bn (+24%), loans AMD 1,672bn (+21.7%), ROE 25.0%, Stage 3 NPL 2.1%, Total CAR 16.6%."
+      }
+    },
+    {
+      "period": "H126",
+      "is_audited": false,
+      "currency": "AMD",
+      "source": "Ameriabank Q1/H1 2026 AT1 Capital & CBA Reporting Filing, read 28-Nov-26",
+      "cet1_pct": 14.8,
+      "car_pct": 17.9,
+      "npl_pct": 2.1,
+      "observations": {
+        "notes": "2026: Placed debut $100m perpetual AT1 notes, lifting Total CAR to 17.9% (vs 16.75% CBA regulatory min incl. buffers) and Tier 1 ~14.8%."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Ameriabank Debut Perpetual Additional Tier 1 (AT1) Notes",
+      "instrument_type": "Additional Tier 1 Perpetual",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 100.0,
+      "coupon": "Fixed AT1",
+      "maturity": "Perpetual",
+      "seniority": "Subordinated AT1",
+      "governing_law": "English / Armenian"
+    },
+    {
+      "tranche_name": "Ameriabank DFI & Domestic Bond Funding",
+      "instrument_type": "Senior / DFI Term Debt",
+      "currency": "USD / AMD",
+      "amount_outstanding_usd_m": 350.0,
+      "coupon": "SOFR+ / Fixed",
+      "maturity": "2027-2030",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English / Armenian"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 100.0,
+    "2028": 100.0,
+    "2029": 150.0,
+    "2030_plus": 100.0,
+    "total_outstanding_usd_m": 450.0,
+    "source": "Ameriabank $100m debut AT1 + DFI/wholesale funding lines."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Constructive / Lion Finance (BGEO)-Owned #1 Armenian Bank (Ba3 / BB-)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Ameriabank (acquired by Lion Finance Group / Bank of Georgia in 2024) is Armenia's largest commercial bank with AMD 2,335bn assets, AMD 72.6bn FY25 net profit (+21% YoY), 25.0% ROE, and low 2.1% Stage 3 NPLs. Debut $100m AT1 issuance in 2026 lifted Total CAR to 17.9% above CBA's 16.75% threshold."
+    },
+    "positives": [
+      "Market-leading #1 Armenian franchise delivering 25.0% ROE and +21% YoY FY25 profit growth (AMD 72.6bn).",
+      "Low 2.1% Stage 3 NPL ratio and strong risk governance under Lion Finance (BGEO) ownership.",
+      "$100m debut AT1 bolstered Total CAR to 17.9% in 2026 above 16.75% regulatory minimum."
+    ],
+    "negatives": [
+      "High ~22% loan growth creates seasoning risk as Armenia's post-2022 remittance/FX boom normalizes.",
+      "Sovereign rating ceiling (Armenia Ba3/BB-) and regional South Caucasus geopolitical risk.",
+      "Tight ~115 bps Total CAR headroom above CBA's 16.75% all-in buffer requirement."
+    ],
+    "background": {
+      "business_overview": "Armenia's #1 universal bank across corporate, SME, retail, and digital banking (MyAmeria).",
+      "asset_perimeter": "AMD 2,335bn assets, AMD 1,672bn loan book.",
+      "ownership_governance": "Majority-owned by Lion Finance Group PLC (LSE: BGEO) alongside EBRD minority."
+    },
+    "recent_drivers": [
+      "FY25: Net profit AMD 72.6bn (+21% YoY), assets AMD 2,335bn (+24%), loans AMD 1,672bn, ROE 25.0%, NPL 2.1%.",
+      "2026: Issued debut $100m perpetual AT1 capital notes, boosting Total CAR to 17.9%."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-25",
+        "event": "FY2026 Audited Results (via Lion Finance Group)",
+        "impact": "Tracks post-boom deposit stability and CAR >17.5%."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "Fitch/Moody's Armenia Sovereign & Bank Review",
+        "impact": "Fitch Armenia BB- Positive outlook supports upside."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Profitability & Capital Buffer",
+      "management_target": "ROE >20%; Total CAR >17.5% above CBA 16.75% min",
+      "current_runrate": "FY25 ROE 25.0%; 2026 CAR 17.9% post-AT1",
+      "tracking_status": "On Track",
+      "variance_analysis": "AT1 placement added ~130 bps buffer.",
+      "last_guided_source": "Ameriabank FY25/Q126",
+      "last_verified_period": "H126"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-25",
+    "period_reporting": "FY 2026 Full-Year Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://ameriabank.am/en/about-us/investors",
+    "days_to_earnings": 89
+  },
+  "management_questions": [
+    {
+      "question": "Quantify non-resident deposit share and sensitivity to Russian remittance flows.",
+      "focus_area": "Deposit Stability",
+      "relevance": "Tests post-boom funding durability."
+    },
+    {
+      "question": "Detail FX lending share and CBA reserve requirement impacts on NIM.",
+      "focus_area": "Dollarization & NIM",
+      "relevance": "Key driver of ROE sustainability."
+    },
+    {
+      "question": "Confirm 2027 upstream dividend capacity to Lion Finance Group vs CBA 16.75% CAR minimum.",
+      "focus_area": "Capital Headroom",
+      "relevance": "Determines AT1 coupon cushion."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ameriabank",
+      "sector": "Banks",
+      "topic": "FY25 Profit AMD 72.6bn (25% ROE) & $100m AT1",
+      "source": "Ameriabank FY25 Audited Financial Statements & Q1/Q2 2026 Disclosures, read 28-Nov-26",
+      "note": "FY25 net profit AMD 72.6bn (+21%), assets AMD 2,335bn, NPL 2.1%, ROE 25.0%; 2026 $100m AT1 lifted CAR to 17.9%."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 FY25 Audited Results & Debut $100m AT1",
+      "source": "Ameriabank FY25 Audited Financial Statements & Q1/Q2 2026 Disclosures, read 28-Nov-26",
+      "summary": "Added Ameriabank (Ba3/BB-): FY25 ROE 25.0%, NPL 2.1%, CAR 17.9% post-$100m AT1."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "Ba3 Stable (Moody's) / BB- (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "covenant_analysis": {
+    "capital_adequacy_covenant": {
+      "covenant_type": "Total Capital Adequacy Ratio (CAR)",
+      "covenant_threshold": "Central Bank Regulatory Minimum (Basel III)",
+      "actual_current": "17.9% (2026)",
+      "headroom": "Maintains solid buffer above domestic supervisory minimums",
+      "status": "Compliant (Filings)"
+    },
+    "cet1_ratio_covenant": {
+      "covenant_type": "Common Equity Tier 1 (CET1) Ratio",
+      "covenant_threshold": "Basel III Minimum + Conservation/D-SIB Buffer",
+      "actual_current": "~14.8% (Tier 1)",
+      "headroom": "Adequate loss-absorbing CET1 buffer above AT1/T2 triggers",
+      "status": "Compliant (Filings)"
+    },
+    "liquidity_coverage_covenant": {
+      "covenant_type": "Liquidity Coverage Ratio (LCR)",
+      "covenant_threshold": "min 100.0%",
+      "actual_current": ">130% (Compliant)",
+      "headroom": "Strong HQLA and deposit funding liquidity cushion",
+      "status": "Compliant"
+    },
+    "large_exposure_limit": {
+      "covenant_type": "Single Obligor / Large Exposure Limit",
+      "covenant_threshold": "max 25.0% Tier 1",
+      "actual_current": "Compliant",
+      "headroom": "Regulated under central bank prudential limits",
+      "status": "Compliant"
+    },
+    "cross_default_threshold": "Standard EMTN / AT1 / Tier 2 regulatory non-viability & resolution terms."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Ameriabank CJSC Wholesale Repo & Syndicated Funding Facilities",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Per EMTN / Syndicated Term Facility Docs",
+    "undrawn_commitment_fee": "N/A (Bank Funding)",
+    "maturity": "Revolving / Multi-year",
+    "syndicate_banks": "International & Regional Interbank Lenders",
+    "rcf_financial_covenants": "CAR, CET1, LCR and Central Bank prudential liquidity compliance."
+  }
+}

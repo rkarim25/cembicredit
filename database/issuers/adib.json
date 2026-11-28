@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "ADIB_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-819d-a6a8-eb4f613ec72c",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADIB_Credit_Model.xlsx",
     "last_updated": "2026-11-26",
     "model_type": "bank",
@@ -115,7 +115,8 @@
       "ownership_governance": "Emirates International Investment Co. / Abu Dhabi sovereign-linked; ADX listed."
     },
     "recent_drivers": [
-      "9M26: Assets AED 317.64bn (+17.8%), NPAT AED 5.61bn (+5.5%), CET1 12.4%, NPA 2.0%."
+      "9M26: Assets AED 317.64bn (+17.8%), NPAT AED 5.61bn (+5.5%), CET1 12.4%, NPA 2.0%.",
+      "2025A: FY25 assets AED 281bn, NPAT AED 7.1bn (+16% YoY; PBT AED 8.1bn), NPA ratio 2.8%."
     ],
     "catalysts": [
       {
@@ -193,6 +194,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A+ Stable (Fitch) / A2 Stable (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A+ Stable (Fitch) / A2 Stable (Moody's)",
       "price": null,
       "ytm": null,

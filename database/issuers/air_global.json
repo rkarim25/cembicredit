@@ -103,6 +103,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB- Stable (S&P, Oct-26)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "annotations": [
@@ -140,7 +153,7 @@
     "recovery_base_pct": 92.0,
     "implied_stress_ev_multiple": "4.5x - 5.5x Stress EV/EBITDA",
     "restructuring_framework": "UAE Insolvency Code & DIFC English Law Scheme",
-    "thesis": "Consumer brand equity, distribution contracts across GCC, and high margin cash flow provide strong downside protection."
+    "thesis": "AIR Global completed its Nasdaq SPAC merger ($1.75bn EV) and issued $425m 7.875% Oct-31 senior unsecured notes on 01-Oct-26 (S&P BB- Stable) to term out bank debt. 9M26 revenue rose 6.0% YoY to $306.7m and Adj EBITDA reached $102.7m, though NWC inventory build on Strait of Hormuz routing cut cash to $38.9m ahead of Q1-27 dividend/buyback launch. Structural recovery anchored by UAE consumer asset perimeter and AIRGLO 7.875% Oct 2031 ($425m, Oct-26) seniority."
   },
   "capital_structure_tranches": [
     {

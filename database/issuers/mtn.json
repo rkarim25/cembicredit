@@ -96,9 +96,9 @@
     "base_case_px": 101.2,
     "recovery_floor_pct": 75,
     "recovery_base_pct": 101.2,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
-    "thesis": "Africa's largest mobile telecommunications provider; mobile money (MoMo) fintech expansion bolsters cash flow."
+    "thesis": "Strong operational momentum in 9M 2026: constant-currency EBITDA rose 22.9% to R86.0bn (47.9% margin, +2.8pp) driven by Nigeria & Ghana recoveries, R21.4bn YTD HoldCo cash upstreaming, and 0.2x company-reported net leverage. Key overhang is funding & closing of the ~$6.2bn EV (~$2.2bn cash) IHS Towers acquisition alongside R6bn share buybacks. Structural recovery anchored by South Africa technology asset perimeter and MTNSJ Eurobond Curve seniority."
   },
   "annotations": [
     {
@@ -1026,6 +1026,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "Ba2 (Moody's) / BB- Pos (S&P)",
+      "price": 99.4,
+      "ytm": 6.9,
+      "spread_bp": 285,
+      "net_leverage": 0.7,
+      "ebitda": 60095.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "Ba2 (Moody's) / BB- Pos (S&P)",
       "price": 99.4,
       "ytm": 6.9,

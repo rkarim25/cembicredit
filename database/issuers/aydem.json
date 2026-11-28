@@ -76,7 +76,7 @@
     "recovery_base_pct": 98.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "1,180 MW pure-play renewable portfolio; U\u015fak hybrid solar expansion diversifying hydro risk."
+    "thesis": "Fitch affirmed Aydem Renewables at B (Outlook revised to Stable from Positive) after weak hydrology and softer spot prices pushed 2025 EBITDA to $114m and FFO net leverage to 5.1x. While late-2025 $550m green bond refinancing removed 2027 maturity risk, YEKDEM FiT share drops from 51% (2025) to 27% (2026) and 11% (2027-28). Structural recovery anchored by Turkey utilities asset perimeter and AYDEM $550m Green Bond due 2030 (Refinanced late-25) seniority."
   },
   "annotations": [
     {
@@ -973,6 +973,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B Stable (Fitch, 2026)",
+      "price": 96.5,
+      "ytm": 8.95,
+      "spread_bp": 455,
+      "net_leverage": 4.2,
+      "ebitda": 4940.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B Stable (Fitch, 2026)",
       "price": 96.5,
       "ytm": 8.95,

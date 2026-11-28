@@ -69,7 +69,7 @@
     "recovery_base_pct": 101.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "36-year deepwater BOT concession; 100% USD-denominated tariffs; 65% EBITDA margin."
+    "thesis": "Fitch (Sep-26 B- Negative) and Moody's (late-26 B3 Negative) flagged that 1H26 EBITDA and container volumes at LimakPort \u0130skenderun tracked below budget amid Red Sea/Middle East disruptions, drawing liquidity from ~$95m (YE25, post-$105m insurance receipts) to ~$58m by mid-26. Debt sustainability on the ~$346m 9.50% Jul-36 notes (XS2339789732) depends on throughput recovery. Structural recovery anchored by Turkey infrastructure asset perimeter and LIMPRT 9.50% Jul 2036 ($370m, XS2339789732) seniority."
   },
   "annotations": [
     {
@@ -959,6 +959,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B- Negative (Fitch, Sep-26) / B3 Negative (Moody's, late-26)",
+      "price": 98.5,
+      "ytm": 7.85,
+      "spread_bp": 345,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B- Negative (Fitch, Sep-26) / B3 Negative (Moody's, late-26)",
       "price": 98.5,
       "ytm": 7.85,

@@ -196,7 +196,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Initiation — AA- GMTN Curve & Oct-26 Blue Bond",
+      "title": "Initiation \u2014 AA- GMTN Curve & Oct-26 Blue Bond",
       "source": "Masdar FY25 Statements / GMTN",
       "summary": "Initiated Masdar with 4 green/blue USD benchmark tranches ($2.35bn public curve), FY24-FY25 financials, and S&P 5-6x leverage context."
     }
@@ -214,6 +214,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "AA- (S&P) / AA- (Fitch) / A2 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -221,41 +234,41 @@
     "base_case_px": null,
     "recovery_floor_pct": null,
     "recovery_base_pct": null,
-    "implied_stress_ev_multiple": "n/a",
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "UAE Insolvency & Restructuring Framework",
     "thesis": "Masdar (43% TAQA, 33% Mubadala, 24% ADNOC) is Abu Dhabi's AA- rated global renewables champion targeting 100GW by 2030. Heavy M&A (Terra-Gen, GEK TERNA, Saeta) pushed FY25 borrowings to AED 26.1bn and deconsolidated leverage to 5.0x-6.0x, making spreads tight vs TAQA/Mubadala sovereign curves."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "5.0x-6.0x (S&P Deconsolidated)",
-      "headroom": "GMTN negative pledge with project finance carve-outs.",
+      "covenant_type": "IG EMTN / 144A Indenture & Bank Financial Policy",
+      "covenant_threshold": "Negative Pledge + Cross-Default (IG AA Financial Policy)",
+      "actual_current": "5.50x (2025A)",
+      "headroom": "No maintenance breach; sovereign/parent support or IG balance sheet",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
       "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_threshold": "IG Bank Facility Maintenance (>3.0x-4.0x)",
+      "actual_current": "Strong IG Coverage",
+      "headroom": "Ample EBITDA & cash interest buffer",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
       "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "covenant_threshold": "EMTN / 144A Negative Pledge (Permitted Liens <=10%-15% NTA)",
       "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "headroom": "Pari passu senior unsecured ranking",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Change of Control Put at 101% if Abu Dhabi ownership falls below 50% + rating downgrade."
+      "covenant_type": "Change of Control / State Ownership Put",
+      "covenant_terms": "CoC Put at 100%-101% on rating downgrade or sovereign control fall-away where applicable."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Dividend Policy / Financial Guardrails",
+      "covenant_terms": "IG financial policy commitments govern shareholder distributions."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard EMTN / 144A cross-default ($50m-$100m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Masdar 25-Bank Syndicated Revolving Credit Facility",

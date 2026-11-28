@@ -102,7 +102,7 @@
     "recovery_base_pct": 86,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
-    "thesis": "High-grade Kryvyi Rih iron ore pellet exporter; Black Sea maritime shipping corridor reopened; 1.79x net leverage."
+    "thesis": "Resilient wartime payer that redeemed $428m April-26 notes in full from internal cash (>$1bn bonds settled since 2022 without restructuring), prompting S&P upgrade to CCC+. However, Aug-Sep 26 strikes idled the Zaporizhstal JV and triggered force majeure. End-June cash ($191m) sits below the $322-332m Oct-27 maturity; market prices 2027s (~87c) and 2029s (~77c) for a potential 2-3yr extension. Structural recovery anchored by Ukraine materials asset perimeter and METINV 7.65% 2027 ($322-332m) seniority."
   },
   "annotations": [
     {
@@ -1030,6 +1030,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "CCC+ (S&P) / Caa3 (Moody's) / CCC- (Fitch)",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.32,
+      "ebitda": 1009.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "CCC+ (S&P) / Caa3 (Moody's) / CCC- (Fitch)",
       "price": 93.27,
       "ytm": 14.98,

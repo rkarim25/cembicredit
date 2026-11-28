@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "id": "growthpoint",
+    "name": "Growthpoint Properties Ltd.",
+    "ticker": "GRT",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Real Estate",
+    "type": "corp",
+    "rating": "Ba2 Positive (Moody's) / Aaa(za)",
+    "tier": "BB",
+    "benchmark_bond": "Growthpoint DMTN Notes (GRT71 ZAG000225673 / GRT74 ZAG000230426)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Growthpoint_Properties_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-81f6-8d17-cc0850fb65f8",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Growthpoint_Properties_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "ZAR",
+    "provenance": "Growthpoint FY26 Audited Results (ended 30-Jun-26), Moody's Ba2 Pos & Nov-26 DMTN Filings, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Growthpoint Properties FY25 Audited Financial Statements (JSE Filing), read 28-Nov-26",
+      "observations": {
+        "notes": "FY25 group LTV 40.1%."
+      }
+    },
+    {
+      "period": "FY26",
+      "is_audited": true,
+      "currency": "ZAR",
+      "source": "Growthpoint Properties FY26 Audited Results (ended 30-Jun-26, JSE Filing), read 28-Nov-26",
+      "ebitda": 8750.0,
+      "calculated_ebitda": 8750.0,
+      "observations": {
+        "notes": "FY26 (ended Jun-26): Distributable income R5.2bn, annualized EBITDA ~R8.75bn (~71% margin), group LTV strengthened to 38.7% (from 40.1%); Moody's Ba2 Positive / Aaa(za)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Growthpoint DMTN Senior Unsecured Notes (GRT71 / GRT73 / GRT74 Nov-26)",
+      "instrument_type": "Senior Unsecured DMTN",
+      "currency": "ZAR",
+      "amount_outstanding_usd_m": 650.0,
+      "coupon": "JIBAR + margin / Fixed",
+      "maturity": "2027-2031",
+      "seniority": "Senior Unsecured",
+      "governing_law": "South Africa",
+      "isin": "ZAG000230426"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 150.0,
+    "2028": 150.0,
+    "2029": 150.0,
+    "2030_plus": 200.0,
+    "total_outstanding_usd_m": 650.0,
+    "source": "Growthpoint JSE DMTN curve (incl. GRT71 ZAG000225673, GRT73 ZAG000226952, GRT74 ZAG000230426 Nov-26) + bank/international lines."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Constructive / South Africa's #1 REIT Deleveraging to 38.7% LTV (Ba2 Pos)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Growthpoint is South Africa's largest listed REIT with R8.75bn annualized EBITDA, R5.2bn FY26 distributable income, and group LTV improved to 38.7% (down from 40.1%). Moody's Ba2 Positive rating (and Aaa(za) national scale upgrade) reflects V&A Waterfront strength, stabilizing SA office/retail fundamentals, and active DMTN market access (GRT74 listed Nov-26)."
+    },
+    "positives": [
+      "Flagship trophy assets including 50% stake in V&A Waterfront (Cape Town) and Growthpoint Australia (GOZ).",
+      "LTV steadily reduced to 38.7% in FY26 (from 40.1%) with deep domestic DMTN institutional demand.",
+      "Moody's Ba2 Positive outlook and Aaa(za) national-scale upgrade track SA sovereign improvement."
+    ],
+    "negatives": [
+      "South African office sector vacancy and reversionary rental pressures outside Cape Town.",
+      "Interest rate sensitivity across floating ZAR/AUD debt facilities.",
+      "Domestic ZAR issuance concentration limits hard-currency Eurobond liquidity."
+    ],
+    "background": {
+      "business_overview": "South Africa's largest REIT across SA logistics/retail/office, V&A Waterfront (50%), Australia (GOZ), and UK/CEE (Capital & Regional / GWI).",
+      "asset_perimeter": "Diversified R170bn+ property portfolio across SA, Australia, and Europe.",
+      "ownership_governance": "Widely held JSE Top-40 REIT (JSE: GRT)."
+    },
+    "recent_drivers": [
+      "FY26 (Jun-26): Distributable income R5.2bn, annualized EBITDA ~R8.75bn (~71% margin), LTV reduced to 38.7%.",
+      "Nov-26: Listed GRT74 senior unsecured DMTN notes (ZAG000230426); Moody's maintains Ba2 Positive / Aaa(za)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-03-10",
+        "event": "H1 FY27 (Dec-26) Interim Results",
+        "impact": "Tracks SA office occupancy and LTV <=38% progress."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "Moody's Ba1 Potential Upgrade Review",
+        "impact": "Contingent on SA sovereign trajectory and LTV <38%."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "LTV Reduction & Distributable Income",
+      "management_target": "Group LTV <39%; sustain dividend payout discipline",
+      "current_runrate": "FY26 LTV 38.7% (vs 40.1%), EBITDA R8.75bn",
+      "tracking_status": "On Track",
+      "variance_analysis": "Capital recycling and retained income lowering LTV.",
+      "last_guided_source": "Growthpoint FY26 / Moody's",
+      "last_verified_period": "FY26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-03-10",
+    "period_reporting": "H1 FY27 Interim Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://growthpoint.co.za/investor-relations/",
+    "days_to_earnings": 102
+  },
+  "management_questions": [
+    {
+      "question": "Confirm SA office vs logistics rental reversions and FY27 capital recycling disposal targets.",
+      "focus_area": "Asset Quality",
+      "relevance": "Tests SA portfolio stabilization."
+    },
+    {
+      "question": "Detail ZAR vs AUD/EUR unencumbered asset coverage and DMTN 2027 refinancing maturity wall.",
+      "focus_area": "Liquidity & Security",
+      "relevance": "Protects senior unsecured DMTN holders."
+    },
+    {
+      "question": "Indicate any plans to tap USD/EUR Eurobond markets vs domestic DMTN/bank funding.",
+      "focus_area": "Funding Mix",
+      "relevance": "Gauges CEMBI supply."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "growthpoint",
+      "sector": "Real Estate",
+      "topic": "FY26 LTV 38.7%, EBITDA R8.75bn & GRT74 (Nov-26)",
+      "source": "Growthpoint FY26 Audited Results (ended 30-Jun-26), Moody's Ba2 Pos & Nov-26 DMTN Filings, read 28-Nov-26",
+      "note": "FY26 distributable income R5.2bn, EBITDA R8.75bn, LTV 38.7%; Moody's Ba2 Positive / Aaa(za); GRT74 ZAG000230426 listed Nov-26."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 FY26 Audited Results & Nov-26 GRT74 DMTN",
+      "source": "Growthpoint FY26 Audited Results (ended 30-Jun-26), Moody's Ba2 Pos & Nov-26 DMTN Filings, read 28-Nov-26",
+      "summary": "Added Growthpoint Properties (Ba2 Pos): FY26 EBITDA R8.75bn, LTV 38.7%, GRT74 Nov-26."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "Ba2 Positive (Moody's) / Aaa(za)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "South Africa Corporate Insolvency & Creditor Framework",
+    "thesis": "Growthpoint is South Africa's largest listed REIT with R8.75bn annualized EBITDA, R5.2bn FY26 distributable income, and group LTV improved to 38.7% (down from 40.1%). Moody's Ba2 Positive rating (and Aaa(za) national scale upgrade) reflects V&A Waterfront strength, stabilizing SA office/retail fundamentals, and active DMTN market access (GRT74 listed Nov-26). Structural recovery anchored by South Africa real estate asset perimeter and Growthpoint DMTN Notes (GRT71 ZAG000225673 / GRT74 ZAG000230426) seniority."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "EMTN / 144A Indenture & Bank Facility Covenants",
+      "covenant_threshold": "Negative Pledge & Cross-Default / Financial Covenants per Facility Docs",
+      "actual_current": "Consistent with Ba2 Positive (Moody's) / Aaa(za)",
+      "headroom": "No covenant breach disclosed in latest audited/interim financial statements.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Debt Service & Interest Coverage",
+      "covenant_threshold": "Per Syndicated / Bond Documentation",
+      "actual_current": "Compliant",
+      "headroom": "Covered by operating cash flow and liquidity buffers.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Operating Assets",
+      "headroom": "Senior unsecured pari passu ranking",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control / Sovereign Support Clause",
+      "covenant_terms": "Standard Change of Control put or state-ownership maintenance covenant per prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and financial policy targets."
+    },
+    "cross_default_threshold": "Standard EMTN / 144A cross-default & cross-acceleration threshold."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Growthpoint Properties Ltd. Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

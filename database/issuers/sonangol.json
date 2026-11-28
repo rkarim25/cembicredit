@@ -76,7 +76,7 @@
     "recovery_base_pct": 101.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Angola Commercial & Bankruptcy Code",
-    "thesis": "Angola national oil concessionaire; offshore pre-salt blocks with Total & Chevron; dollar escrow debt service."
+    "thesis": "Sonangol generated ~$9.15bn revenue and ~$2.63bn EBITDA in FY25 (net leverage <2.5x), but 9M26 liquidity has tightened as domestic fuel import obligations and capital calls required new Afreximbank syndicated lines. Credit remains tightly tethered to Angola's sovereign balance sheet and oil realizations. Structural recovery anchored by Angola energy asset perimeter and SONANG 9.15% 2028 seniority."
   },
   "annotations": [
     {
@@ -1018,6 +1018,19 @@
       "ebitda": 3400.0,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "B- / B3 (Angola Sovereign Cap)",
+      "price": 97.2,
+      "ytm": 9.15,
+      "spread_bp": 475,
+      "net_leverage": null,
+      "ebitda": 3400.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "commodity_drivers": {
@@ -1148,7 +1161,8 @@
       "ownership_governance": "100% Republic of Angola (targeted partial IPO in 2027)."
     },
     "recent_drivers": [
-      "9M 2026 Debt Execution: Government budget reports note expanding Sonangol external debt stock; Jan-26 issued debut $750m 10% 2031 PP bond + $1.75bn Afreximbank facility."
+      "9M 2026 Debt Execution: Government budget reports note expanding Sonangol external debt stock; Jan-26 issued debut $750m 10% 2031 PP bond + $1.75bn Afreximbank facility.",
+      "2024A: FY24 turnover $10.5bn (-8.6% on ~$80/bbl Brent), EBITDA $3.4bn, total debt $4.5bn (+15.4%), output ~201 kboepd."
     ],
     "catalysts": [
       {

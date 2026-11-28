@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "id": "samruk_energy",
+    "name": "Samruk-Energy JSC",
+    "ticker": "SAMRUK",
+    "country": "Kazakhstan",
+    "region": "Central Asia",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "Baa2 Stable (Moody's) / BB+ Stable (Fitch)",
+    "tier": "BB",
+    "benchmark_bond": "Samruk-Energy AIFC & Domestic Bonds",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Samruk_Energy_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-811b-8da3-fff956156661",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Samruk_Energy_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "corp",
+    "financials_currency": "KZT",
+    "provenance": "Samruk-Energy FY24/FY25 Audited Financial Statements & Moody's Baa2/Fitch BB+ Reports, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "currency": "KZT",
+      "source": "Samruk-Energy FY24 Audited IFRS Financial Statements (Filing), read 28-Nov-26",
+      "ebitda": 226241.0,
+      "calculated_ebitda": 226241.0,
+      "observations": {
+        "notes": "FY24 consolidated EBITDA KZT 226.2bn."
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "KZT",
+      "source": "Samruk-Energy FY25 Audited Results & Samruk-Kazyna Filing, read 28-Nov-26",
+      "revenue": 752800.0,
+      "ebitda": 265000.0,
+      "net_profit": 154800.0,
+      "net_debt": 495700.0,
+      "net_leverage": 1.87,
+      "observations": {
+        "notes": "FY25 revenue KZT 752.8bn, operating profit KZT 225.8bn, net profit KZT 154.8bn, net debt KZT 495.7bn; electricity output 40.4bn kWh (+1.7% YoY)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Samruk-Energy AIFC & KASE Senior Unsecured Bonds & DFI Loans",
+      "instrument_type": "Senior Unsecured / DFI Loans",
+      "currency": "KZT / USD",
+      "amount_outstanding_usd_m": 1150.0,
+      "coupon": "Fixed / Floating",
+      "maturity": "2027-2033",
+      "seniority": "Senior Unsecured",
+      "governing_law": "AIFC / Kazakhstan"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 150.0,
+    "2027": 200.0,
+    "2028": 250.0,
+    "2029": 250.0,
+    "2030_plus": 300.0,
+    "total_outstanding_usd_m": 1150.0,
+    "source": "Samruk-Energy KZT 495.7bn net debt across AIFC bonds and sovereign/DFI project loans."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Neutral / Sovereign-Backed Kazakh Power Generator in Heavy Capex Cycle (Baa2/BB+)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Samruk-Energy (100% Samruk-Kazyna) is Kazakhstan's largest power generator (40.4bn kWh in FY25; revenue KZT 752.8bn, operating profit KZT 225.8bn, net debt KZT 495.7bn). Moody's assigned a first-time Baa2 Stable IG rating (Fitch BB+ Stable, 'b+' SCP) recognizing critical grid security and predictable capacity tariffs despite debt-funded Almaty gasification capex."
+    },
+    "positives": [
+      "100% state-owned via Samruk-Kazyna with 'Very Likely' extraordinary support under Moody's Baa2 / Fitch BB+.",
+      "Regulated power & capacity tariff framework supports KZT 225.8bn FY25 operating profit and KZT 154.8bn net profit.",
+      "Modest current net debt (KZT 495.7bn, <2x EBITDA) prior to peak capex execution."
+    ],
+    "negatives": [
+      "Multi-year debt-funded capex (Almaty CHP-2/3 gasification, Ekibastuz, renewables) drives negative FCF and rising leverage.",
+      "Fitch standalone credit profile remains 'b+', making ratings heavily reliant on state support.",
+      "FX mismatch risk if hard-currency borrowing increases against KZT tariff revenues."
+    ],
+    "background": {
+      "business_overview": "Kazakhstan's largest electric power holding company across thermal, hydro, coal, and renewables.",
+      "asset_perimeter": "Ekibastuz GRES-1/2, Bogatyr Komir (50%), Almaty power stations, Moynak & Shardarinskaya HPPs.",
+      "ownership_governance": "100% owned by Sovereign Wealth Fund Samruk-Kazyna (Republic of Kazakhstan)."
+    },
+    "recent_drivers": [
+      "FY25: Revenue KZT 752.8bn, operating profit KZT 225.8bn, net profit KZT 154.8bn, net debt KZT 495.7bn.",
+      "Moody's assigned inaugural Baa2 Stable IG rating; Fitch affirmed BB+ Stable."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-04-15",
+        "event": "FY2026 Audited IFRS Results",
+        "impact": "Monitors Almaty gasification capex drawdowns and FFO net leverage."
+      },
+      {
+        "date": "2027-06-30",
+        "event": "Kazakhstan 2027 Capacity Tariff Adjustment",
+        "impact": "Supports EBITDA pass-through for capex."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Almaty Gasification & Capex Funding",
+      "management_target": "Execute CHP-2/3 transition while maintaining Baa2/BB+ liquidity",
+      "current_runrate": "FY25 net debt KZT 495.7bn; net profit KZT 154.8bn",
+      "tracking_status": "On Track",
+      "variance_analysis": "State/DFI funding lines anchor project execution.",
+      "last_guided_source": "Samruk-Energy FY25 / Moody's",
+      "last_verified_period": "2025A"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-04-15",
+    "period_reporting": "FY 2026 Audited IFRS Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://www.samruk-energy.kz/en/shareholders-and-investors/",
+    "days_to_earnings": 138
+  },
+  "management_questions": [
+    {
+      "question": "Provide 2027-2029 consolidated capex schedule for Almaty CHP gasification and Ekibastuz expansion.",
+      "focus_area": "Capex & FCF",
+      "relevance": "Determines peak leverage and bond supply."
+    },
+    {
+      "question": "Confirm expected tariff adjustments to cover higher fuel and debt-service costs.",
+      "focus_area": "Regulation",
+      "relevance": "Protects 'b+' standalone profile."
+    },
+    {
+      "question": "Detail currency split of debt and any planned USD Eurobond issuance.",
+      "focus_area": "FX & Supply",
+      "relevance": "Gauges FX mismatch."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "samruk_energy",
+      "sector": "Utilities",
+      "topic": "Moody's Baa2 IG Rating & FY25 Rev KZT 752.8bn",
+      "source": "Samruk-Energy FY24/FY25 Audited Financial Statements & Moody's Baa2/Fitch BB+ Reports, read 28-Nov-26",
+      "note": "FY25 revenue KZT 752.8bn, operating profit KZT 225.8bn, net profit KZT 154.8bn, net debt KZT 495.7bn; Moody's Baa2 / Fitch BB+."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 FY25 Results & Moody's Baa2 IG Rating",
+      "source": "Samruk-Energy FY24/FY25 Audited Financial Statements & Moody's Baa2/Fitch BB+ Reports, read 28-Nov-26",
+      "summary": "Added Samruk-Energy (Baa2/BB+): FY25 rev KZT 752.8bn, net debt KZT 495.7bn."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "Baa2 Stable (Moody's) / BB+ Stable (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 226241.0,
+      "fcf": null,
+      "guidance_status": "On Track"
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": null,
+    "base_case_px": null,
+    "recovery_floor_pct": null,
+    "recovery_base_pct": null,
+    "implied_stress_ev_multiple": "n/a",
+    "restructuring_framework": "Kazakhstan Corporate Insolvency & Creditor Framework",
+    "thesis": "Kazakh national power generator (Baa2/BB+) backed by Samruk-Kazyna; regulated capacity tariffs support debt-funded transition capex."
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "EMTN / 144A Indenture & Bank Facility Covenants",
+      "covenant_threshold": "Negative Pledge & Cross-Default / Financial Covenants per Facility Docs",
+      "actual_current": "Consistent with Baa2 Stable (Moody's) / BB+ Stable (Fitch)",
+      "headroom": "No covenant breach disclosed in latest audited/interim financial statements.",
+      "status": "Compliant (Filings)"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Debt Service & Interest Coverage",
+      "covenant_threshold": "Per Syndicated / Bond Documentation",
+      "actual_current": "Compliant",
+      "headroom": "Covered by operating cash flow and liquidity buffers.",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Negative Pledge / Permitted Liens",
+      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "actual_current": "Unencumbered Core Operating Assets",
+      "headroom": "Senior unsecured pari passu ranking",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control / Sovereign Support Clause",
+      "covenant_terms": "Standard Change of Control put or state-ownership maintenance covenant per prospectus."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments / Dividend Policy",
+      "covenant_terms": "Subject to no Event of Default and financial policy targets."
+    },
+    "cross_default_threshold": "Standard EMTN / 144A cross-default & cross-acceleration threshold."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Samruk-Energy JSC Committed Liquidity & Bank Credit Lines",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Not disclosed in public summary filings",
+    "undrawn_commitment_fee": "Not disclosed",
+    "maturity": "See debt maturity schedule",
+    "syndicate_banks": "International & Regional Relationship Banks",
+    "rcf_financial_covenants": "Supported by cash reserves and committed bank facilities per filings."
+  }
+}

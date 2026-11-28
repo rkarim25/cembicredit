@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "id": "banca_transilvania",
+    "name": "Banca Transilvania S.A.",
+    "ticker": "TLV",
+    "country": "Romania",
+    "region": "CEE",
+    "sector": "Banks",
+    "type": "bank",
+    "rating": "BBB Neg (Fitch) / Baa2 (Moody's)",
+    "tier": "BBB",
+    "benchmark_bond": "Banca Transilvania \u20ac1bn Sr Pref 2032 & \u20ac500m Tier 2 (Sep-26)",
+    "price": null,
+    "ytm": null,
+    "spread_bp": null,
+    "model_file": "Banca_Transilvania_Credit_Model.xlsx",
+    "notion_id": "4261d0ad-68c6-8122-b0d3-e5ec6c64956f",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Banca_Transilvania_Credit_Model.xlsx",
+    "last_updated": "2026-11-28",
+    "model_type": "bank",
+    "financials_currency": "RON",
+    "provenance": "Banca Transilvania FY25 Audited Report & 9M26 BVB Filing, read 28-Nov-26"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "currency": "RON",
+      "source": "Banca Transilvania FY25 Audited Financial Statements (BVB Filing), read 28-Nov-26",
+      "cet1_pct": 17.3,
+      "car_pct": 21.2,
+      "npl_pct": 2.6,
+      "observations": {
+        "notes": "FY25 CET1 ~17.3%, Total CAR ~21.2%, NPL ~2.4%-2.8%; issued landmark \u20ac600m AT1 in Nov-25."
+      }
+    },
+    {
+      "period": "9M26",
+      "is_audited": false,
+      "currency": "RON",
+      "source": "Banca Transilvania 9M26 BVB Financial Release (Filing), read 28-Nov-26",
+      "net_profit": 3800.0,
+      "cet1_pct": 17.3,
+      "car_pct": 21.5,
+      "npl_pct": 2.8,
+      "observations": {
+        "notes": "9M26 group net profit RON 3.8bn (+18% YoY), operating income +17% YoY, LCR 238%; issued \u20ac1bn Sr Pref 2032 (Apr-26) & \u20ac500m Tier 2 (Sep-26)."
+      }
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "Banca Transilvania \u20ac1bn Senior Preferred Eurobond due 2032",
+      "instrument_type": "Senior Preferred Eurobond",
+      "currency": "EUR",
+      "amount_outstanding_usd_m": 1080.0,
+      "coupon": "Fixed (Apr-26)",
+      "maturity": "2032-04-30",
+      "seniority": "Senior Preferred",
+      "governing_law": "English"
+    },
+    {
+      "tranche_name": "Banca Transilvania \u20ac500m Tier 2 Subordinated Notes (Sep-26)",
+      "instrument_type": "Tier 2 Subordinated",
+      "currency": "EUR",
+      "amount_outstanding_usd_m": 540.0,
+      "coupon": "Fixed Reset",
+      "maturity": "2036-09-30",
+      "seniority": "Subordinated Tier 2",
+      "governing_law": "English"
+    },
+    {
+      "tranche_name": "Banca Transilvania \u20ac600m AT1 Perpetual Notes (Nov-25)",
+      "instrument_type": "Additional Tier 1 Perpetual",
+      "currency": "EUR",
+      "amount_outstanding_usd_m": 650.0,
+      "coupon": "Perpetual",
+      "maturity": "Perpetual",
+      "seniority": "Subordinated AT1",
+      "governing_law": "English"
+    }
+  ],
+  "debt_maturities": {
+    "2026": 0.0,
+    "2027": 0.0,
+    "2028": 300.0,
+    "2029": 400.0,
+    "2030_plus": 1570.0,
+    "total_outstanding_usd_m": 2270.0,
+    "source": "Banca Transilvania \u20ac1bn 2032 Sr Pref (Apr-26), \u20ac500m Tier 2 (Sep-26), \u20ac600m AT1 (Nov-25) & SNP curve."
+  },
+  "credit_view": {
+    "last_updated": "2026-11-28",
+    "verdict": {
+      "stance": "Constructive / Romania's #1 Bank Building Deep MREL Buffers (BBB Neg / Baa2)",
+      "target_price": null,
+      "current_price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "summary": "Romania's largest lender delivered 9M26 group net profit of RON 3.8bn (+18% YoY), +17% operating income growth, 238% LCR, ~21.5% CAR, and ~2.8% NPLs. BT raised \u20ac1bn Senior Preferred 2032s (Apr-26) and \u20ac500m Tier 2 (Sep-26), building robust MREL/subordination cushions ahead of sovereign fiscal noise (Fitch BBB Negative)."
+    },
+    "positives": [
+      "Undisputed #1 Romanian banking franchise (>20% market share) posting +18% YoY 9M26 net profit (RON 3.8bn).",
+      "Exceptional 238% LCR liquidity and ~21.5% CAR bolstered by \u20ac500m Tier 2 (Sep-26) and \u20ac600m AT1 (Nov-25).",
+      "Strong organic earnings generation absorbs OTP Romania integration."
+    ],
+    "negatives": [
+      "Fitch BBB Negative outlook reflects direct linkage to Romania's sovereign fiscal deficit trajectory.",
+      "Bank turnover tax in Romania compresses net margin efficiency.",
+      "Rising EUR wholesale MREL issuance increases foreign-currency interest expense."
+    ],
+    "background": {
+      "business_overview": "Romania's largest commercial bank serving retail, SME, corporate, and microbusiness segments.",
+      "asset_perimeter": "Banca Transilvania standalone + OTP Bank Romania integration + Victoriabank (Moldova).",
+      "ownership_governance": "Widely held on Bucharest Stock Exchange (TLV); EBRD strategic shareholder."
+    },
+    "recent_drivers": [
+      "9M26: Group net profit RON 3.8bn (+18% YoY), operating income +17% YoY, LCR 238%.",
+      "2026 Issuance: \u20ac1bn Senior Preferred 2032 (Apr-26, inaugural IG bond) and \u20ac500m Tier 2 (Sep-26)."
+    ],
+    "catalysts": [
+      {
+        "date": "2027-02-26",
+        "event": "FY2026 Audited BVB Results",
+        "impact": "Tests OTP Romania synergy capture and credit cost stability."
+      },
+      {
+        "date": "2027-04-30",
+        "event": "Fitch Romania Sovereign & Bank Review",
+        "impact": "Determines whether BBB Negative outlook stabilizes."
+      }
+    ]
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Profitability & MREL Compliance",
+      "management_target": "Sustain ROE >20%, LCR >200% & full MREL buffer",
+      "current_runrate": "9M26 profit RON 3.8bn (+18%); LCR 238%; CAR ~21.5%",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Apr/Sep-26 \u20ac1.5bn issuances fully covered MREL.",
+      "last_guided_source": "BT 9M26 Release",
+      "last_verified_period": "9M26"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2027-02-26",
+    "period_reporting": "FY 2026 Financial Results",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local",
+    "ir_webcast_url": "https://en.bancatransilvania.ro/investor-relations",
+    "days_to_earnings": 90
+  },
+  "management_questions": [
+    {
+      "question": "Update OTP Bank Romania integration synergies and 2027 cost-to-income guidance.",
+      "focus_area": "Integration",
+      "relevance": "Drives post-merger operating leverage."
+    },
+    {
+      "question": "Detail MREL surplus post-\u20ac1bn Sr Pref and \u20ac500m Tier 2 issuances and 2027 supply plans.",
+      "focus_area": "MREL Supply",
+      "relevance": "Gauges EUR bond issuance."
+    },
+    {
+      "question": "Quantify exposure to Romanian sovereign bonds vs CET1 capital.",
+      "focus_area": "Sovereign Nexus",
+      "relevance": "Explains Fitch Negative outlook."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "banca_transilvania",
+      "sector": "Banks",
+      "topic": "9M26 Profit RON 3.8bn (+18%) & \u20ac1.5bn 2026 Issuance",
+      "source": "Banca Transilvania FY25 Audited Report & 9M26 BVB Filing, read 28-Nov-26",
+      "note": "9M26 profit RON 3.8bn (+18%), LCR 238%, CAR ~21.5%, NPL ~2.8%; \u20ac1bn 2032 Sr Pref (Apr-26) + \u20ac500m Tier 2 (Sep-26)."
+    }
+  ],
+  "historical_notes": [
+    {
+      "date": "2026-11-28",
+      "title": "Initiation \u2014 9M26 BVB Results & 2026 EUR1.5bn Senior/T2 Issuance",
+      "source": "Banca Transilvania FY25 Audited Report & 9M26 BVB Filing, read 28-Nov-26",
+      "summary": "Added Banca Transilvania (BBB Neg/Baa2): 9M26 profit RON 3.8bn (+18%), \u20ac1bn 2032 Sr Pref + \u20ac500m T2."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BBB Neg (Fitch) / Baa2 (Moody's)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "covenant_analysis": {
+    "capital_adequacy_covenant": {
+      "covenant_type": "Total Capital Adequacy Ratio (CAR)",
+      "covenant_threshold": "Central Bank Regulatory Minimum (Basel III)",
+      "actual_current": "~21.5%",
+      "headroom": "Maintains solid buffer above domestic supervisory minimums",
+      "status": "Compliant (Filings)"
+    },
+    "cet1_ratio_covenant": {
+      "covenant_type": "Common Equity Tier 1 (CET1) Ratio",
+      "covenant_threshold": "Basel III Minimum + Conservation/D-SIB Buffer",
+      "actual_current": "~17.3%",
+      "headroom": "Adequate loss-absorbing CET1 buffer above AT1/T2 triggers",
+      "status": "Compliant (Filings)"
+    },
+    "liquidity_coverage_covenant": {
+      "covenant_type": "Liquidity Coverage Ratio (LCR)",
+      "covenant_threshold": "min 100.0%",
+      "actual_current": "238% (9M26)",
+      "headroom": "Strong HQLA and deposit funding liquidity cushion",
+      "status": "Compliant"
+    },
+    "large_exposure_limit": {
+      "covenant_type": "Single Obligor / Large Exposure Limit",
+      "covenant_threshold": "max 25.0% Tier 1",
+      "actual_current": "Compliant",
+      "headroom": "Regulated under central bank prudential limits",
+      "status": "Compliant"
+    },
+    "cross_default_threshold": "Standard EMTN / AT1 / Tier 2 regulatory non-viability & resolution terms."
+  },
+  "rcf_facility_liquidity": {
+    "facility_name": "Banca Transilvania S.A. Wholesale Repo & Syndicated Funding Facilities",
+    "total_committed_capacity_usd_m": 0.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 0.0,
+    "drawn_margin": "Per EMTN / Syndicated Term Facility Docs",
+    "undrawn_commitment_fee": "N/A (Bank Funding)",
+    "maturity": "Revolving / Multi-year",
+    "syndicate_banks": "International & Regional Interbank Lenders",
+    "rcf_financial_covenants": "CAR, CET1, LCR and Central Bank prudential liquidity compliance."
+  }
+}

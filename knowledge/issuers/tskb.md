@@ -4,7 +4,7 @@ _Page created 27-Nov-26 from `database/issuers/tskb.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - Rating as recorded: BB- (Fitch) / B1 (Moody's).
 

@@ -81,7 +81,7 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
-    "thesis": "South Africa's power utility; sovereign debt relief package transferred R254B of debt to national treasury."
+    "thesis": "Eskom delivered a second consecutive profitable year in FY26 (ended Mar-26): EBITDA jumped 10.9% to R108.6bn (30.6% margin), NPAT more than doubled to R30.3bn, and cash hit R124.9bn following R80bn Treasury debt relief (R38bn applied to Apr-26 ES26 maturity). Net leverage fell to 2.88x. Structural recovery anchored by South Africa utilities asset perimeter and ESKOM 6.35% 2028 seniority."
   },
   "annotations": [
     {
@@ -1016,6 +1016,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ (Fitch) / B2 (Moody's) / B (S&P)",
+      "price": 99.0,
+      "ytm": 8.5,
+      "spread_bp": 445,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B+ (Fitch) / B2 (Moody's) / B (S&P)",
       "price": 99.0,
       "ytm": 8.5,

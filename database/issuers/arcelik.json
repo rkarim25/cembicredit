@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Arcelik_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-81f3-80f8-f6591fa7be9e",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Arcelik_Credit_Model.xlsx",
     "last_updated": "2026-11-27",
     "model_type": "corp",
@@ -117,7 +117,8 @@
       "ownership_governance": "Ko\u00e7 Holding (~57% economic/voting control); Borsa Istanbul listed (ARCLK)."
     },
     "recent_drivers": [
-      "Late-26: S&P downgraded Ar\u00e7elik to B; pursuing Dec-26 covenant waivers after 9M26 net loss of TRY 5.77bn and TRY 36.3bn interest/fin costs."
+      "Late-26: S&P downgraded Ar\u00e7elik to B; pursuing Dec-26 covenant waivers after 9M26 net loss of TRY 5.77bn and TRY 36.3bn interest/fin costs.",
+      "2025A: FY25 rev TRY 523.93bn (-6.6% real YoY), EBITDA margin 5.9%, FCF turned positive +TRY 5.7bn, MGL-adjusted net leverage 3.74x. FY25 S&P adjusted EBITDA ~TRY 25bn (~4.8% margin); total financial debt elevated (scaled toward TRY 289bn by late 2026)."
     ],
     "catalysts": [
       {
@@ -223,6 +224,19 @@
       "ebitda": 26000.0,
       "fcf": -11400.0,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "B Negative (S&P, Nov-26) / B+ (Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 26000.0,
+      "fcf": -11400.0,
+      "guidance_status": "Under Watch"
     }
   ],
   "recovery_analysis": {
@@ -232,7 +246,7 @@
     "recovery_base_pct": 88.0,
     "implied_stress_ev_multiple": 5.0,
     "restructuring_framework": "Turkey Commercial Law",
-    "thesis": "Global white-goods scale + Ko\u00e7 Holding parentage vs thin 5-6% margins and heavy TRY debt service."
+    "thesis": "S&P downgraded Ar\u00e7elik to 'B' in late 2026 as 9M26 net losses hit TRY 5.77bn under TRY 36.3bn financial expenses and weak European appliance demand. Management is seeking Dec-2026 covenant waivers and executing JV rationalizations (Hitachi/LG) to protect liquidity; Ko\u00e7 Holding parentage remains key backstop. Structural recovery anchored by Turkey industrials asset perimeter and ARCLK 8.50% Sep 2028 ($400M, XS2695038401) seniority."
   },
   "historical_notes": [
     {
@@ -244,35 +258,35 @@
   ],
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "3.74x",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with B Negative (S&P, Nov-26) / B+ (Fitch)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard HY Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Ar\u00e7elik (Beko) Credit Facilities (RCF Undisclosed)",

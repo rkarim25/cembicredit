@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "ADNOC_Gas_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-81b4-8c79-d0905aa72950",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADNOC_Gas_Credit_Model.xlsx",
     "last_updated": "2026-11-27",
     "model_type": "corp",
@@ -117,7 +117,8 @@
       "ownership_governance": "Majority ADNOC owned; ADX listed (ADNOCGAS)."
     },
     "recent_drivers": [
-      "9M26: Rev $13.88bn, EBITDA $5.05bn (36.4%), NI $3.08bn, net cash ~$1.18bn."
+      "9M26: Rev $13.88bn, EBITDA $5.05bn (36.4%), NI $3.08bn, net cash ~$1.18bn.",
+      "2025A: 9M25 revenue ~$14.18bn (+10% domestic gas growth); FY25 ended in net cash ~$1.16bn (-0.21x net leverage)."
     ],
     "catalysts": [
       {
@@ -203,6 +204,19 @@
       "ebitda": 8650.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "AA- / Aa2 (Implied Abu Dhabi GRE)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": 8650.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "historical_notes": [
@@ -221,39 +235,39 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 6.0,
     "restructuring_framework": "UAE / ADGM Law",
-    "thesis": "Net-cash strategic Abu Dhabi infrastructure monopoly."
+    "thesis": "ADNOC Gas generated $5.05bn EBITDA (36.4% margin) and $3.08bn net profit on $13.88bn revenue in 9M26 while maintaining ~$1.18bn net cash. Long-term domestic gas supply contracts and ADNOC parentage anchor fortress credit quality. Structural recovery anchored by UAE energy asset perimeter and ADNOC Group / Abu Dhabi Gas Infrastructure (ADX: ADNOCGAS) seniority."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "-0.23x",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "-0.23x (9M26)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "ADNOC Gas plc Credit Facilities (RCF Undisclosed)",

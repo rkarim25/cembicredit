@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/mtn.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - MTNSJ Eurobond Curve: price 99.4, YTM 6.9%, spread 285bp (as of 2026-11-24).
 - Rating as recorded: Ba2 (Moody's) / BB- Pos (S&P).

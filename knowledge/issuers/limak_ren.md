@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/limak_ren.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Nov-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 28-Nov-26: from the issuer record; quotes are the last stored levels, not live._
 
 - LIMAKR 9.625% Aug 2030 Green ($525m, Feb-25): price 98.2, YTM 8.75%, spread 435bp (as of 2026-11-27).
 - Rating as recorded: B+ Stable (Fitch downgrade from BB-, Sep-26).

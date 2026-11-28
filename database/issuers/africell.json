@@ -210,7 +210,7 @@
     "recovery_base_pct": 95,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Angola Commercial & Bankruptcy Code",
-    "thesis": "6M+ subscribers captured in Angola post-2022 rollout; strategic US DFC $100M+ senior debt backing."
+    "thesis": "Fitch revised Africell's Outlook to Positive from Stable in Oct 2026 (affirming B-), forecasting leverage below 3.0x EBITDA and improving FCF as subscribers topped 16m across Angola, DRC, Sierra Leone, and The Gambia. Completed $60m tap of its 10.50% 2029 notes ($360m total). Structural recovery anchored by Angola technology asset perimeter and AFRCEL 10.500% 2029 ($360m incl. tap, XS2855412479) seniority."
   },
   "annotations": [
     {
@@ -1140,6 +1140,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B- Positive (Fitch, Oct-26) / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B- Positive (Fitch, Oct-26) / B3",
       "price": 103.24,
       "ytm": 9.26,

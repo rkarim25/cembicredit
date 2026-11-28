@@ -79,7 +79,7 @@
     "recovery_base_pct": 102.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Ultra-low-cost carrier based at Sabiha G\u00f6k\u00e7en; highest EBITDAR margin among European low-cost carriers."
+    "thesis": "Sound LCC franchise hit by 2026 Middle East airspace closures and an ~85% spike in jet fuel costs. Q3 2026 revenue rose 19% YoY to EUR 1,314M and Q3 EBITDA was EUR 404M (margin compressed 520bp YoY to 30.7%), leaving 9M26 EBITDA down 30% YoY at EUR 486M and a EUR 40M 9M net loss. Liquidity (EUR 1,134M cash at 30-Jun-26) and 2031 maturity runway protect near-term solvency. Structural recovery anchored by Turkey aviation asset perimeter and PGSUS 8.00% 2031 ($500m) seniority."
   },
   "annotations": [
     {
@@ -1003,6 +1003,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "BB- Neg (Fitch) / B+ Neg (S&P)",
+      "price": 103.5,
+      "ytm": 7.65,
+      "spread_bp": 360,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "BB- Neg (Fitch) / B+ Neg (S&P)",
       "price": 103.5,
       "ytm": 7.65,

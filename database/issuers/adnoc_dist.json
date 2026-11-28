@@ -111,7 +111,8 @@
       "ownership_governance": "77% owned by ADNOC Group (Abu Dhabi GRE), ADX-listed."
     },
     "recent_drivers": [
-      "9M26: Revenue AED 35.01bn (+32.4% YoY), EBITDA AED 4.10bn (+26.2% YoY), net profit AED 2.90bn (+36.6% YoY), net leverage 0.59x."
+      "9M26: Revenue AED 35.01bn (+32.4% YoY), EBITDA AED 4.10bn (+26.2% YoY), net profit AED 2.90bn (+36.6% YoY), net leverage 0.59x.",
+      "2025A: FY25 revenue AED 35.89bn ($9.77bn), EBITDA AED 4.28bn ($1.17bn, +11% YoY), net debt/EBITDA 0.70x."
     ],
     "catalysts": [
       {
@@ -174,7 +175,7 @@
   "historical_notes": [
     {
       "date": "2026-11-27",
-      "title": "Initiation — 9M26 Results & 0.59x Leverage",
+      "title": "Initiation \u2014 9M26 Results & 0.59x Leverage",
       "source": "ADNOC Distribution ADX Filings",
       "summary": "Added ADNOC Distribution from benchmark-universe gap list: 9M26 EBITDA AED 4.10bn (+26% YoY), net leverage 0.59x."
     }
@@ -192,6 +193,19 @@
       "ebitda": 3860.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "AA- (Implied ADNOC Group)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.7,
+      "ebitda": 3860.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -199,41 +213,41 @@
     "base_case_px": null,
     "recovery_floor_pct": null,
     "recovery_base_pct": null,
-    "implied_stress_ev_multiple": "n/a",
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "UAE Insolvency & Restructuring Framework",
     "thesis": "ADNOC Distribution is the UAE's dominant fuel retail and convenience operator with 9M26 EBITDA up 26.2% YoY to AED 4.10bn ($1.12bn) and net leverage compressing to 0.59x. Parent ADNOC redeemed the $1.199bn exchangeable bond in Jun-24, leaving a clean, cash-generative balance sheet with >AED 5.4bn liquidity."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
+      "covenant_type": "IG EMTN / 144A Indenture & Bank Financial Policy",
+      "covenant_threshold": "Negative Pledge + Cross-Default (IG AA Financial Policy)",
       "actual_current": "0.59x (9M26)",
-      "headroom": "Bank facility leverage covenants well below trigger thresholds.",
+      "headroom": "No maintenance breach; sovereign/parent support or IG balance sheet",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
       "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "High (>15x)",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_threshold": "IG Bank Facility Maintenance (>3.0x-4.0x)",
+      "actual_current": "Strong IG Coverage",
+      "headroom": "Ample EBITDA & cash interest buffer",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
       "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
+      "covenant_threshold": "EMTN / 144A Negative Pledge (Permitted Liens <=10%-15% NTA)",
       "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "headroom": "Pari passu senior unsecured ranking",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Parent ADNOC owns 77%; standard bank facility CoC clauses."
+      "covenant_type": "Change of Control / State Ownership Put",
+      "covenant_terms": "CoC Put at 100%-101% on rating downgrade or sovereign control fall-away where applicable."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Dividend Policy / Financial Guardrails",
+      "covenant_terms": "IG financial policy commitments govern shareholder distributions."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard EMTN / 144A cross-default ($50m-$100m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "ADNOC Distribution Credit Facilities (RCF Undisclosed)",

@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Mizrahi_Tefahot_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-8163-b6a0-cb27d1612bb2",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Mizrahi_Tefahot_Credit_Model.xlsx",
     "last_updated": "2026-11-24",
     "model_type": "bank",
@@ -120,7 +120,8 @@
       "ownership_governance": "Widely held on TASE (MZTF; Wertheim/Ofer anchor groups); BoI D-SIB."
     },
     "recent_drivers": [
-      "Nov-26 (Q3/9M26): 9M NPAT NIS 4.032bn (adj. NIS 4.6bn), Q3 NPAT NIS 1.366bn, 17.2% Q3 adj ROE, 35.3% CIR, loans NIS 436bn (+11.4% YoY), deposits NIS 468bn (+11.1% YoY), NPL 0.82%, CET1 10.10%."
+      "Nov-26 (Q3/9M26): 9M NPAT NIS 4.032bn (adj. NIS 4.6bn), Q3 NPAT NIS 1.366bn, 17.2% Q3 adj ROE, 35.3% CIR, loans NIS 436bn (+11.4% YoY), deposits NIS 468bn (+11.1% YoY), NPL 0.82%, CET1 10.10%.",
+      "2025A: FY25 net profit ILS 5.63bn (+3.2% YoY), ROE 17.0%, loans ILS 400.5bn (+11.9%), deposits ILS 448.4bn (+14.0%), equity ILS 34.8bn (+11.1%), leverage ratio 5.88%."
     ],
     "catalysts": [
       {
@@ -218,6 +219,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A- (Fitch) / Baa1 (Moody's dep) / BBB+ (S&P)",
       "price": null,
       "ytm": null,

@@ -79,7 +79,7 @@
     "recovery_base_pct": 101.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Angola Commercial & Bankruptcy Code",
-    "thesis": "BP-Eni 50/50 incorporated JV; 220k boe/d net; Block 15/06 Agogo field + New Gas Consortium feeding Angola LNG."
+    "thesis": "BP/Eni Angolan JV Azule Energy generated $3,443m FY25 EBITDA against $2,882m net debt (0.84x leverage, $595.6m cash), maintaining massive interest/debt coverage even as realized prices fell 15% YoY. Angolan sovereign/oil-price beta and JV dividend policy are key drivers. Structural recovery anchored by Angola energy asset perimeter and AZULE 8.45% 2030 seniority."
   },
   "annotations": [
     {
@@ -983,6 +983,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "B+ / Ba3",
+      "price": 98.5,
+      "ytm": 8.45,
+      "spread_bp": 410,
+      "net_leverage": null,
+      "ebitda": 4099.0,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "B+ / Ba3",
       "price": 98.5,
       "ytm": 8.45,

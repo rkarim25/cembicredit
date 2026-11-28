@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "Ford_Otosan_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-8152-85d1-cdd6634314af",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ford_Otosan_Credit_Model.xlsx",
     "last_updated": "2026-11-27",
     "model_type": "corp",
@@ -102,7 +102,8 @@
       "ownership_governance": "41% Ford Motor, 41% Ko\u00e7 Holding; BIST listed (FROTO)."
     },
     "recent_drivers": [
-      "2026: Fitch affirmed BB+ Stable, projecting ~3.0x gross debt/EBITDA post-$137m Ko\u00e7 Finans acquisition."
+      "2026: Fitch affirmed BB+ Stable, projecting ~3.0x gross debt/EBITDA post-$137m Ko\u00e7 Finans acquisition.",
+      "2024A: FY24 revenue TRY 778.8bn (TRY terms), net debt TRY 97.8bn, net debt/EBITDA ~2.5x."
     ],
     "catalysts": [
       {
@@ -188,6 +189,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "BB+ Stable (Fitch, 2026)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 2.5,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "historical_notes": [
@@ -206,39 +220,39 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 5.0,
     "restructuring_framework": "Turkey Commercial Law",
-    "thesis": "Hard-currency Ford/Ko\u00e7 export franchise with multi-plant European asset base."
+    "thesis": "Ford Otosan generated $19.4bn FY25 revenue ($11.5bn hard-currency exports) as Ford's primary European commercial vehicle hub (Turkey + Craiova Romania). While H126 Turkish inflation outpacing FX and the $137m Ko\u00e7 Finans buyout pushed 2026E gross leverage toward ~3.0x, dual Ko\u00e7/Ford parentage anchors BB+ Stable. Structural recovery anchored by Turkey industrials asset perimeter and FROTO 7.125% Apr 2029 ($500m, XS2782775345) seniority."
   },
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "3.0x",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "3.00x (2025A)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard BB Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "Ford Otomotiv Sanayi (Ford Otosan) Credit Facilities (RCF Undisclosed)",

@@ -14,7 +14,7 @@
     "ytm": null,
     "spread_bp": null,
     "model_file": "AngloGold_Ashanti_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "4261d0ad-68c6-816e-97c8-f51a85d14f86",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/AngloGold_Ashanti_Credit_Model.xlsx",
     "last_updated": "2026-11-25",
     "model_type": "corp",
@@ -150,7 +150,8 @@
       "ownership_governance": "NYSE listed (AU); widely held institutional equity."
     },
     "recent_drivers": [
-      "Nov-26 (Q326): NI $787m at $4,239/oz realized gold; net cash balance sheet preserved; FY26 guidance reaffirmed."
+      "Nov-26 (Q326): NI $787m at $4,239/oz realized gold; net cash balance sheet preserved; FY26 guidance reaffirmed.",
+      "2025A: FY25 product sales $9.89bn, record adj EBITDA $6.29bn (+129% YoY), shifted to $879m adjusted net cash (-0.14x net leverage)."
     ],
     "catalysts": [
       {
@@ -249,6 +250,19 @@
       "ebitda": 2747.0,
       "fcf": null,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
+      "rating": "Baa3 (Moody's) / BB+ (S&P/Fitch)",
+      "price": null,
+      "ytm": null,
+      "spread_bp": null,
+      "net_leverage": 0.21,
+      "ebitda": 2747.0,
+      "fcf": null,
+      "guidance_status": "On Track"
     }
   ],
   "recovery_analysis": {
@@ -258,7 +272,7 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 4.5,
     "restructuring_framework": "UK / NY Law SEC Notes",
-    "thesis": "Net cash balance sheet and $6.3bn EBITDA cover $1.7bn bond stack >3.5x."
+    "thesis": "Record gold prices ($4,239/oz realized in Q326) drove $787m Q3 net income after FY25 adj EBITDA hit $6.29bn (+129% YoY) and flipped the balance sheet to $879m net cash (-0.14x). Strong rising-star trajectory at S&P/Fitch (BB+ vs Moody's Baa3) with no bond maturities until Nov-2028. Structural recovery anchored by South Africa materials asset perimeter and AU 3.75% Oct 2030 (US03512TAE10) seniority."
   },
   "historical_notes": [
     {
@@ -270,35 +284,35 @@
   ],
   "covenant_analysis": {
     "debt_incurrence_net_leverage": {
-      "covenant_type": "Incurrence / Financial Covenant Profile",
-      "covenant_threshold": "Per Bond / Facility Docs",
-      "actual_current": "-0.14x",
-      "headroom": "Standard EMTN/144A negative pledge and cross-default provisions; exact baskets per offering circular.",
+      "covenant_type": "HY Incurrence & Bank Maintenance Covenants",
+      "covenant_threshold": "Incurrence Net Leverage / FCCR >= 2.0x + Bank Waiver/Tests",
+      "actual_current": "Consistent with Baa3 (Moody's) / BB+ (S&P/Fitch)",
+      "headroom": "Monitored closely against HY incurrence & local bank maintenance tests",
       "status": "Compliant (Filings)"
     },
     "interest_coverage_ratio": {
-      "covenant_type": "Interest Coverage / Debt Service",
-      "covenant_threshold": "Per Facility Docs",
-      "actual_current": "n/a",
-      "headroom": "No breach disclosed in latest audited/interim statements.",
+      "covenant_type": "Fixed Charge / Interest Coverage (FCCR)",
+      "covenant_threshold": "Min 2.0x FCCR Incurrence Basket",
+      "actual_current": "Tested on Incurrence",
+      "headroom": "Governs new debt incurrence & restricted payments capacity",
       "status": "Compliant"
     },
     "priority_secured_debt_basket": {
-      "covenant_type": "Negative Pledge / Permitted Liens",
-      "covenant_threshold": "Standard EMTN / 144A Negative Pledge",
-      "actual_current": "Unencumbered Core Assets",
-      "headroom": "Pari passu ranking with senior unsecured debt",
+      "covenant_type": "Limitation on Liens & Subsidiary Debt",
+      "covenant_threshold": "Capped Permitted Liens & Structural Subordination Guardrails",
+      "actual_current": "Indenture Regulated",
+      "headroom": "Limits priming secured debt above bondholders",
       "status": "Compliant"
     },
     "change_of_control_put": {
-      "covenant_type": "Change of Control Investor Protection",
-      "covenant_terms": "Standard IG Eurobond/Sukuk Change of Control put (101%) where applicable in prospectus."
+      "covenant_type": "Change of Control Put",
+      "covenant_terms": "101% Change of Control Put under NY/English HY Indenture."
     },
     "restricted_payments_basket": {
-      "covenant_type": "Restricted Payments / Dividend Policy",
-      "covenant_terms": "Subject to no Event of Default and corporate liquidity tests where applicable."
+      "covenant_type": "Restricted Payments Builder Basket",
+      "covenant_terms": "50% Consolidated Net Income builder basket gated by 2.0x FCCR & no EoD."
     },
-    "cross_default_threshold": "Standard cross-default / cross-acceleration per EMTN or 144A indenture."
+    "cross_default_threshold": "Standard HY cross-default / cross-acceleration ($25m-$50m threshold)."
   },
   "rcf_facility_liquidity": {
     "facility_name": "AngloGold Ashanti Credit Facilities (RCF Undisclosed)",

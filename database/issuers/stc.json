@@ -80,9 +80,9 @@
     "base_case_px": 100.5,
     "recovery_floor_pct": 85,
     "recovery_base_pct": 100.5,
-    "implied_stress_ev_multiple": 4.2,
+    "implied_stress_ev_multiple": "IG (N/A - Par Coverage)",
     "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
-    "thesis": "PIF sovereign telecom champion; rock-solid A+ balance sheet, negligible net debt, dominant Saudi market share."
+    "thesis": "9M26 revenue grew +3.7% YoY to SAR 60.10bn and operating profit rose +4.1% to SAR 11.28bn, though 9M net profit edged down to SAR 10.92bn (vs SAR 11.58bn 9M25) on higher net finance costs. Declared SAR 8.2bn 9M cash dividends while keeping ~0.65x ultra-conservative net leverage. Structural recovery anchored by Saudi Arabia technology asset perimeter and STC 3.922% 2029 seniority."
   },
   "annotations": [
     {
@@ -1016,6 +1016,19 @@
       "date": "2026-11-27",
       "period_name": "2026-11-27",
       "timestamp": "2026-11-27T05:11:49.745080",
+      "rating": "A1 / A+",
+      "price": 97.5,
+      "ytm": 4.85,
+      "spread_bp": 80,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": null,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-11-28",
+      "period_name": "2026-11-28",
+      "timestamp": "2026-11-28T05:13:19.476197",
       "rating": "A1 / A+",
       "price": 97.5,
       "ytm": 4.85,
